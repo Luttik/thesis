@@ -1,0 +1,112 @@
+---
+description: Ensure that all references in Markdown files are formatted in APA 7th edition style and include hyperlinks to their respective DOIs. This includes both in-text citations and reference lists.
+globs: '**/*.md'
+alwaysApply: true
+---
+
+# APA 7th Edition Reference Formatting
+
+## In-Text Citations
+
+### Basic Format
+- **Author-Date Format:** Use (Author, Year) for in-text citations
+- **Multiple Authors:** 
+  - 2 authors: (Smith & Jones, 2023)
+  - 3+ authors: (Smith et al., 2023)
+- **Direct Quotes:** Include page numbers (Smith, 2023, p. 15) or (Smith, 2023, pp. 15-16)
+- **No Author:** Use shortened title in quotes ("Article Title," 2023)
+
+### Examples
+```markdown
+According to recent research (Smith, 2023), AI adoption is increasing.
+Multiple studies have shown this trend (Johnson & Lee, 2022; Brown et al., 2023).
+As stated: "AI will transform business operations" (Davis, 2023, p. 42).
+```
+
+## Reference List Format
+
+### Journal Articles
+**Format:** Author, A. A. (Year). Title of article. *Title of Journal*, Volume(Issue), pages. [DOI URL]
+
+**Example:**
+```markdown
+Smith, J. A. (2023). Artificial intelligence in business transformation. *Journal of Business Technology*, 15(3), 45-67. https://doi.org/10.1234/jbt.2023.15.3.45
+```
+
+### Books
+**Format:** Author, A. A. (Year). *Title of book*. Publisher. [DOI URL if available]
+
+**Example:**
+```markdown
+Johnson, M. B. (2022). *Digital transformation strategies*. Academic Press. https://doi.org/10.1515/9781501519765
+```
+
+### Book Chapters
+**Format:** Author, A. A. (Year). Title of chapter. In B. B. Editor (Ed.), *Title of book* (pp. xx-xx). Publisher. [DOI URL]
+
+**Example:**
+```markdown
+Brown, L. C. (2023). AI implementation frameworks. In R. Davis (Ed.), *Modern business practices* (pp. 123-145). Business Publications. https://doi.org/10.1234/mbp.2023.ch7
+```
+
+### Conference Papers
+**Format:** Author, A. A. (Year). Title of paper. In *Proceedings of Conference Name* (pp. xx-xx). Publisher. [DOI URL]
+
+**Example:**
+```markdown
+Wilson, K. D. (2023). Machine learning in marketing. In *Proceedings of the International Conference on AI* (pp. 89-102). IEEE. https://doi.org/10.1109/icai.2023.456789
+```
+
+## DOI Requirements
+
+### DOI Format
+- **Always use full DOI URL:** https://doi.org/[DOI number]
+- **Never use:** doi: prefix or dx.doi.org format
+- **Make DOI clickable:** Ensure it's a proper hyperlink in markdown
+
+### DOI Examples
+```markdown
+✅ Correct: https://doi.org/10.1234/journal.2023.001
+❌ Incorrect: doi:10.1234/journal.2023.001
+❌ Incorrect: http://dx.doi.org/10.1234/journal.2023.001
+```
+
+## Markdown Formatting Rules
+
+### Text Formatting
+- **Journal titles:** Use *italics* with asterisks
+- **Book titles:** Use *italics* with asterisks
+- **Article titles:** Regular text (no quotes in reference list)
+- **Volume numbers:** Regular text
+- **Issue numbers:** In parentheses after volume
+
+### Special Cases
+- **No DOI available:** Use URL if available, otherwise omit
+- **Online-only sources:** Include retrieval date if content may change
+- **Multiple DOIs:** Use the most official/publisher DOI
+
+## Quality Checklist
+
+Before finalizing references, ensure:
+- [ ] All in-text citations have corresponding reference list entries
+- [ ] All reference list entries follow exact APA 7 format
+- [ ] All DOIs are properly formatted as clickable links
+- [ ] Author names are correctly formatted (Last, F. M.)
+- [ ] Journal titles are italicized
+- [ ] Publication years are accurate
+- [ ] Page numbers are included where applicable
+
+## Common Mistakes to Avoid
+
+1. **Mixing citation styles:** Don't mix APA with other formats
+2. **Incorrect DOI format:** Always use https://doi.org/ prefix
+3. **Missing italics:** Journal and book titles must be italicized
+4. **Inconsistent punctuation:** Follow APA punctuation exactly
+5. **Incomplete author names:** Use initials, not full first names
+6. **Wrong date format:** Use (Year) not [Year] or Year.
+
+## Additional Resources
+
+- [Official APA Style Guide](https://apastyle.apa.org/)
+- [APA DOI Guidelines](https://apastyle.apa.org/style-grammar-guidelines/references/dois-urls)
+- [Crossref DOI Lookup](https://search.crossref.org/)
