@@ -1,0 +1,26 @@
+# Word-specific Pandoc settings
+from: markdown
+to: docx
+
+# Input and output files
+metadata-files:
+  - metadata.yaml
+input-files:
+  - "0. abstract.md"
+  - "1. introduction.md"
+  - "2. Literature review.md"
+  - "3. Methodology.md"
+  - "4. Findings.md"
+  - "5. Discussion.md"
+  - "6. Conclusion.md"
+output-file: ../output/thesis.docx
+
+# Bibliography settings
+citeproc: true
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+
+# Table of Contents
+toc: true
+toc-depth: 3
+number-sections: true

@@ -1,0 +1,764 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Generative AI as a Disruptive Innovation:\nImplications for Marketing Strategic\nTransformations",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          58.575483870967744,
+          52.2412109375
+        ],
+        [
+          509.1561290322581,
+          52.2412109375
+        ],
+        [
+          509.1561290322581,
+          126.78851412944394
+        ],
+        [
+          58.575483870967744,
+          126.78851412944394
+        ]
+      ]
+    },
+    {
+      "title": "Emad Abou Elgheit",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          237.57421875,
+          153.91064453125
+        ],
+        [
+          329.67483870967743,
+          153.91064453125
+        ],
+        [
+          329.67483870967743,
+          164.35888671875
+        ],
+        [
+          237.57421875,
+          164.35888671875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          258.3193359375,
+          246.8249772105743
+        ],
+        [
+          306.3948387096774,
+          246.8249772105743
+        ],
+        [
+          306.3948387096774,
+          257.1875
+        ],
+        [
+          258.3193359375,
+          257.1875
+        ]
+      ]
+    },
+    {
+      "title": "Introduction",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          47.173828125,
+          51.03564453125
+        ],
+        [
+          123.50790405273438,
+          51.03564453125
+        ],
+        [
+          123.50790405273438,
+          64.71136474609375
+        ],
+        [
+          47.173828125,
+          64.71136474609375
+        ]
+      ]
+    },
+    {
+      "title": "Literature Review",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.9248046875,
+          426.36865234375
+        ],
+        [
+          409.0636291503906,
+          426.36865234375
+        ],
+        [
+          409.0636291503906,
+          440.26507568359375
+        ],
+        [
+          304.9248046875,
+          440.26507568359375
+        ]
+      ]
+    },
+    {
+      "title": "Current Generative AI Applications in Marketing",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          303.50390625,
+          628.90380859375
+        ],
+        [
+          542.4275512695312,
+          628.90380859375
+        ],
+        [
+          542.4275512695312,
+          640.2431182861328
+        ],
+        [
+          303.50390625,
+          640.2431182861328
+        ]
+      ]
+    },
+    {
+      "title": "The Theory of Disruptive Innovation and Firm Growth",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          46.037109375,
+          226.24462890625
+        ],
+        [
+          271.8503225806452,
+          226.24462890625
+        ],
+        [
+          271.8503225806452,
+          247.57520510483135
+        ],
+        [
+          46.037109375,
+          247.57520510483135
+        ]
+      ]
+    },
+    {
+      "title": "Changing Marketing Needs in the AI Era",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.208984375,
+          567.1722880583409
+        ],
+        [
+          501.6464516129032,
+          567.1722880583409
+        ],
+        [
+          501.6464516129032,
+          576.9252506836827
+        ],
+        [
+          305.208984375,
+          576.9252506836827
+        ]
+      ]
+    },
+    {
+      "title": "Capabilities and Skills Needed for Smaller \nMarketing Companies to Adopt New Technologies",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          35.806640625,
+          637.74462890625
+        ],
+        [
+          276.57073974609375,
+          637.74462890625
+        ],
+        [
+          276.57073974609375,
+          663.2748565673828
+        ],
+        [
+          35.806640625,
+          663.2748565673828
+        ]
+      ]
+    },
+    {
+      "title": "Methods",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          294.43768310546875,
+          442.44287109375
+        ],
+        [
+          345.5625,
+          442.44287109375
+        ],
+        [
+          345.5625,
+          456.7756042480469
+        ],
+        [
+          294.43768310546875,
+          456.7756042480469
+        ]
+      ]
+    },
+    {
+      "title": "Box 1. The List of Interview Questions",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          208.587890625,
+          54.65234375
+        ],
+        [
+          383.412109375,
+          54.65234375
+        ],
+        [
+          383.412109375,
+          67.39801025390625
+        ],
+        [
+          208.587890625,
+          67.39801025390625
+        ]
+      ]
+    },
+    {
+      "title": "Results",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          46.037109375,
+          529.24365234375
+        ],
+        [
+          89.61849975585938,
+          529.24365234375
+        ],
+        [
+          89.61849975585938,
+          542.6934204101562
+        ],
+        [
+          46.037109375,
+          542.6934204101562
+        ]
+      ]
+    },
+    {
+      "title": "Discussion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          36.0908203125,
+          384.57568359375
+        ],
+        [
+          99.72019958496094,
+          384.57568359375
+        ],
+        [
+          99.72019958496094,
+          398.3879089355469
+        ],
+        [
+          36.0908203125,
+          398.3879089355469
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          294.6943359375,
+          583.89599609375
+        ],
+        [
+          360.61468505859375,
+          583.89599609375
+        ],
+        [
+          360.61468505859375,
+          598.8917999267578
+        ],
+        [
+          294.6943359375,
+          598.8917999267578
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          35.5224609375,
+          59.07275390625
+        ],
+        [
+          94.9993896484375,
+          59.07275390625
+        ],
+        [
+          94.9993896484375,
+          72.60400390625
+        ],
+        [
+          35.5224609375,
+          72.60400390625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          51
+        ],
+        [
+          "Span",
+          18
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          201
+        ],
+        [
+          "Line",
+          111
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Footnote",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          59
+        ],
+        [
+          "TableCell",
+          36
+        ],
+        [
+          "Span",
+          11
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          125
+        ],
+        [
+          "Span",
+          49
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          193
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          184
+        ],
+        [
+          "Line",
+          86
+        ],
+        [
+          "ListItem",
+          12
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          211
+        ],
+        [
+          "Line",
+          116
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          210
+        ],
+        [
+          "Line",
+          120
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          137
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          22
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          56
+        ],
+        [
+          "Line",
+          20
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Elgeit - 2025 - Generative AI as a Disruptive Innovation"
+}

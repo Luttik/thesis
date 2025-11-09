@@ -1,0 +1,26 @@
+# Pandoc output directory
+output/
+
+# Temporary files
+temp-reference.md
+
+# LaTeX auxiliary files (if building locally)
+*.aux
+*.log
+*.out
+*.toc
+*.bbl
+*.blg
+*.bcf
+*.run.xml
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+
+# Local environment
+local.env
+
+# OS files
+.DS_Store
+Thumbs.db
+

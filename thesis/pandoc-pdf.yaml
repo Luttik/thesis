@@ -1,0 +1,42 @@
+# PDF-specific Pandoc settings
+from: markdown
+to: pdf
+
+# Input and output files
+metadata-files:
+  - metadata.yaml
+input-files:
+  - "0. abstract.md"
+  - "1. introduction.md"
+  - "2. Literature review.md"
+  - "3. Methodology.md"
+  - "4. Findings.md"
+  - "5. Discussion.md"
+  - "6. Conclusion.md"
+output-file: ../output/thesis.pdf
+
+# Bibliography settings
+citeproc: true
+bibliography: references.bib
+csl: https://raw.githubusercontent.com/citation-style-language/styles/master/apa.csl
+
+# PDF engine
+pdf-engine: xelatex
+
+# Document formatting
+variables:
+  documentclass: report
+  fontsize: 12pt
+  papersize: a4
+  geometry:
+    - margin=2.5cm
+  linestretch: 1.5
+  mainfont: Times New Roman
+  linkcolor: black
+  urlcolor: blue
+  citecolor: black
+
+# Table of Contents
+toc: true
+toc-depth: 3
+number-sections: true

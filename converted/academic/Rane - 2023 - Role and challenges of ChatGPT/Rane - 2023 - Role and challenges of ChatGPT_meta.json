@@ -1,0 +1,1095 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Cite as:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          26.7734375,
+          9.8671875
+        ],
+        [
+          71.20800018310547,
+          9.8671875
+        ],
+        [
+          71.20800018310547,
+          21.8787841796875
+        ],
+        [
+          26.7734375,
+          21.8787841796875
+        ]
+      ]
+    },
+    {
+      "title": "Role and challenges of ChatGPT and similar generative artificial intelligence in \nbusiness management",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          94.82499694824219,
+          73.761474609375
+        ],
+        [
+          503.75396728515625,
+          73.761474609375
+        ],
+        [
+          503.75396728515625,
+          101.57147216796875
+        ],
+        [
+          94.82499694824219,
+          101.57147216796875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract:",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          71.880859375,
+          168.80126953125
+        ],
+        [
+          115.09498596191406,
+          168.80126953125
+        ],
+        [
+          115.09498596191406,
+          178.80126953125
+        ],
+        [
+          71.880859375,
+          178.80126953125
+        ]
+      ]
+    },
+    {
+      "title": "Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          70.716796875,
+          455.9462890625
+        ],
+        [
+          126.51498413085938,
+          455.9462890625
+        ],
+        [
+          126.51498413085938,
+          467.45123291015625
+        ],
+        [
+          70.716796875,
+          467.45123291015625
+        ]
+      ]
+    },
+    {
+      "title": "Role of ChatGPT and similar Large Language models in Business Management",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.0078125,
+          221.80126953125
+        ],
+        [
+          411.304931640625,
+          221.80126953125
+        ],
+        [
+          411.304931640625,
+          231.80126953125
+        ],
+        [
+          71.0078125,
+          231.80126953125
+        ]
+      ]
+    },
+    {
+      "title": "Improving Customer Satisfaction",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          72.02499389648438,
+          409.8512268066406
+        ],
+        [
+          205.33499145507812,
+          409.8512268066406
+        ],
+        [
+          205.33499145507812,
+          419.8512268066406
+        ],
+        [
+          72.02499389648438,
+          419.8512268066406
+        ]
+      ]
+    },
+    {
+      "title": "Enhancing Customer Experience",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          70.716796875,
+          518.4384765625
+        ],
+        [
+          203.7949981689453,
+          518.4384765625
+        ],
+        [
+          203.7949981689453,
+          528.4812316894531
+        ],
+        [
+          70.716796875,
+          528.4812316894531
+        ]
+      ]
+    },
+    {
+      "title": "Improving Service Quality",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          72.02499389648438,
+          626.9012145996094
+        ],
+        [
+          179.39999389648438,
+          626.9012145996094
+        ],
+        [
+          179.39999389648438,
+          636.9012145996094
+        ],
+        [
+          72.02499389648438,
+          636.9012145996094
+        ]
+      ]
+    },
+    {
+      "title": "Strengthening Customer Relationships",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          71.0078125,
+          722.3312225341797
+        ],
+        [
+          226.43496704101562,
+          722.3312225341797
+        ],
+        [
+          226.43496704101562,
+          732.3312225341797
+        ],
+        [
+          71.0078125,
+          732.3312225341797
+        ]
+      ]
+    },
+    {
+      "title": "Fostering Customer Loyalty",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.58984375,
+          121.17120361328125
+        ],
+        [
+          184.75498962402344,
+          121.17120361328125
+        ],
+        [
+          184.75498962402344,
+          131.17120361328125
+        ],
+        [
+          71.58984375,
+          131.17120361328125
+        ]
+      ]
+    },
+    {
+      "title": "Enhancing Customer Engagement",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.58984375,
+          229.0009765625
+        ],
+        [
+          208.94921875,
+          229.0009765625
+        ],
+        [
+          208.94921875,
+          239.80126953125
+        ],
+        [
+          71.58984375,
+          239.80126953125
+        ]
+      ]
+    },
+    {
+      "title": "Automation of Customer Support:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          70.42578125,
+          351.6212463378906
+        ],
+        [
+          209.114990234375,
+          351.6212463378906
+        ],
+        [
+          209.114990234375,
+          361.6212463378906
+        ],
+        [
+          70.42578125,
+          361.6212463378906
+        ]
+      ]
+    },
+    {
+      "title": "Personalized Marketing:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.880859375,
+          459.2353515625
+        ],
+        [
+          169.94497680664062,
+          459.2353515625
+        ],
+        [
+          169.94497680664062,
+          470.251220703125
+        ],
+        [
+          71.880859375,
+          470.251220703125
+        ]
+      ]
+    },
+    {
+      "title": "Data Analysis and Business Intelligence:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          71.0078125,
+          554.6181640625
+        ],
+        [
+          235.77999877929688,
+          554.6181640625
+        ],
+        [
+          235.77999877929688,
+          565.6712341308594
+        ],
+        [
+          71.0078125,
+          565.6712341308594
+        ]
+      ]
+    },
+    {
+      "title": "Human Resources and Talent Management:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          72.02499389648438,
+          650.9012145996094
+        ],
+        [
+          247.42999267578125,
+          650.9012145996094
+        ],
+        [
+          247.42999267578125,
+          662.3349609375
+        ],
+        [
+          72.02499389648438,
+          662.3349609375
+        ]
+      ]
+    },
+    {
+      "title": "Knowledge Management and Collaboration:",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          72.02499389648438,
+          732.2275390625
+        ],
+        [
+          249.9449920654297,
+          732.2275390625
+        ],
+        [
+          249.9449920654297,
+          743.131217956543
+        ],
+        [
+          72.02499389648438,
+          743.131217956543
+        ]
+      ]
+    },
+    {
+      "title": "Challenges of ChatGPT and similar Large Language models in Business Management",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.0078125,
+          682.8916015625
+        ],
+        [
+          438.8515625,
+          682.8916015625
+        ],
+        [
+          438.8515625,
+          693.9012145996094
+        ],
+        [
+          71.0078125,
+          693.9012145996094
+        ]
+      ]
+    },
+    {
+      "title": "Limited Contextual Understanding:",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          71.58984375,
+          73.57122802734375
+        ],
+        [
+          214.15501403808594,
+          73.57122802734375
+        ],
+        [
+          214.15501403808594,
+          83.57122802734375
+        ],
+        [
+          71.58984375,
+          83.57122802734375
+        ]
+      ]
+    },
+    {
+      "title": "Adaptation to Cultural Differences:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.298828125,
+          107.981201171875
+        ],
+        [
+          214.0,
+          107.981201171875
+        ],
+        [
+          214.0,
+          117.981201171875
+        ],
+        [
+          71.298828125,
+          117.981201171875
+        ]
+      ]
+    },
+    {
+      "title": "Accountability and Responsibility:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.716796875,
+          163.2197265625
+        ],
+        [
+          211.33497619628906,
+          163.2197265625
+        ],
+        [
+          211.33497619628906,
+          173.80126953125
+        ],
+        [
+          70.716796875,
+          173.80126953125
+        ]
+      ]
+    },
+    {
+      "title": "Continuous Learning:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.298828125,
+          219.1337890625
+        ],
+        [
+          159.35498046875,
+          219.1337890625
+        ],
+        [
+          159.35498046875,
+          229.4012451171875
+        ],
+        [
+          71.298828125,
+          229.4012451171875
+        ]
+      ]
+    },
+    {
+      "title": "Regulatory Compliance:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.58984375,
+          275.03118896484375
+        ],
+        [
+          169.97500610351562,
+          275.03118896484375
+        ],
+        [
+          169.97500610351562,
+          285.03118896484375
+        ],
+        [
+          71.58984375,
+          285.03118896484375
+        ]
+      ]
+    },
+    {
+      "title": "Intellectual Property Protection:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.0078125,
+          330.82122802734375
+        ],
+        [
+          200.3149871826172,
+          330.82122802734375
+        ],
+        [
+          200.3149871826172,
+          340.82122802734375
+        ],
+        [
+          71.0078125,
+          340.82122802734375
+        ]
+      ]
+    },
+    {
+      "title": "Human-Machine Collaboration:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.0078125,
+          386.0537109375
+        ],
+        [
+          199.94998168945312,
+          386.0537109375
+        ],
+        [
+          199.94998168945312,
+          396.45123291015625
+        ],
+        [
+          71.0078125,
+          396.45123291015625
+        ]
+      ]
+    },
+    {
+      "title": "Transparent Decision-making:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.298828125,
+          442.0512390136719
+        ],
+        [
+          193.8300018310547,
+          442.0512390136719
+        ],
+        [
+          193.8300018310547,
+          452.0512390136719
+        ],
+        [
+          71.298828125,
+          452.0512390136719
+        ]
+      ]
+    },
+    {
+      "title": "Mental Model Alignment:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.0078125,
+          497.8712463378906
+        ],
+        [
+          176.95498657226562,
+          497.8712463378906
+        ],
+        [
+          176.95498657226562,
+          507.8712463378906
+        ],
+        [
+          71.0078125,
+          507.8712463378906
+        ]
+      ]
+    },
+    {
+      "title": "Conclusions:",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          70.716796875,
+          626.9775390625
+        ],
+        [
+          126.93499755859375,
+          626.9775390625
+        ],
+        [
+          126.93499755859375,
+          637.7012176513672
+        ],
+        [
+          70.716796875,
+          637.7012176513672
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.58984375,
+          507.68121337890625
+        ],
+        [
+          118.49498748779297,
+          507.68121337890625
+        ],
+        [
+          118.49498748779297,
+          517.6812133789062
+        ],
+        [
+          71.58984375,
+          517.6812133789062
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          129
+        ],
+        [
+          "Line",
+          50
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          71
+        ],
+        [
+          "Line",
+          26
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          46
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          93
+        ],
+        [
+          "Line",
+          44
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          374
+        ],
+        [
+          "TableCell",
+          224
+        ],
+        [
+          "Line",
+          162
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          526
+        ],
+        [
+          "TableCell",
+          306
+        ],
+        [
+          "Line",
+          230
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          469
+        ],
+        [
+          "TableCell",
+          282
+        ],
+        [
+          "Line",
+          207
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          79
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          22
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          83
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          9
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          116
+        ],
+        [
+          "Line",
+          48
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          35
+        ],
+        [
+          "Line",
+          17
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageFooter",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Rane - 2023 - Role and challenges of ChatGPT"
+}

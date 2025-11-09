@@ -1,0 +1,6 @@
+{
+  "TORCH_DEVICE": "cuda:0",
+  "INFERENCE_RAM": 8,
+  "VRAM_PER_TASK": 3.5,
+  "PARALLEL_FACTOR": 2
+}
