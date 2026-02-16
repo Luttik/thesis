@@ -15,6 +15,10 @@ input-files:
   - "6. Conclusion.md"
 output-file: ../output/thesis.pdf
 
+# Filters for diagram processing (temporarily disabled - see issue with pandoc-mermaid-filter)
+filters:
+  - pandoc-mermaid
+
 # Bibliography settings
 citeproc: true
 bibliography: references.bib
@@ -35,6 +39,7 @@ variables:
   linkcolor: black
   urlcolor: blue
   citecolor: black
+  indent: true
 
 # Table of Contents
 toc: true

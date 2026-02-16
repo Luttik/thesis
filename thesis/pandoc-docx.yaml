@@ -2,6 +2,9 @@
 from: markdown
 to: docx
 
+# Reference document for styles
+reference-doc: reference.docx
+
 # Input and output files
 metadata-files:
   - metadata.yaml
@@ -14,6 +17,10 @@ input-files:
   - "5. Discussion.md"
   - "6. Conclusion.md"
 output-file: ../output/thesis.docx
+
+# Filters for diagram processing (temporarily disabled - see issue with pandoc-mermaid-filter)
+filters:
+  - pandoc-mermaid
 
 # Bibliography settings
 citeproc: true

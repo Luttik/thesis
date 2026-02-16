@@ -14,6 +14,16 @@ This document explains how to use Pandoc to generate PDF and Word documents from
    - Windows: MiKTeX (https://miktex.org/) or TeX Live
    - The first PDF build may take longer as LaTeX downloads required packages
 
+3. **Node.js** (for Mermaid diagram processing)
+   - Download from: https://nodejs.org/
+   - Required for mermaid-filter
+   - Verify installation: `node --version`
+
+4. **Mermaid Filter** (for converting Mermaid diagrams to images)
+   - Install globally via npm: `npm install -g mermaid-filter`
+   - Also requires Puppeteer: `npm install -g @mermaid-js/mermaid-cli`
+   - Verify installation: `mermaid-filter --version`
+
 ### Optional
 
 - **Microsoft Word** (for customizing the reference.docx template)
@@ -63,36 +73,16 @@ create-reference-docx.ps1       # Helper script to create Word template
 
 Make sure both Pandoc and a LaTeX distribution are installed on your system.
 
-### 2. Create Reference Document Template
+### 1a. Mermaid Diagram Support (Currently Disabled)
 
-Run the helper script to create a basic Word template:
+**Note:** Mermaid diagram support is temporarily disabled due to compatibility issues between pandoc filters and recent versions of the mermaid-cli on Windows.
 
-```powershell
-.\create-reference-docx.ps1
-```
+Mermaid code blocks will render as code blocks in the output documents rather than as diagrams. This is being investigated and will be re-enabled once a compatible solution is found.
 
-This creates `thesis/reference.docx`. You can customize it in Word:
-
-1. Open `thesis/reference.docx` in Microsoft Word
-2. Modify the styles (Heading 1, Heading 2, Normal, etc.):
-   - Font: Times New Roman, 12pt
-   - Line spacing: 1.5
-   - Margins: 2.5cm
-3. Save and close
-
-The styles you set will be applied to all future Word outputs.
-
-### 3. Update Metadata
-
-Edit `thesis/metadata.yaml` to include your information:
-
-```yaml
----
-title: "Your Thesis Title"
-author: "Your Name"
-date: "November 2025"
----
-```
+If you need diagrams in your thesis, consider:
+- Creating diagrams using other tools and inserting them as images
+- Using online tools like [mermaid.live](https://mermaid.live/) to export diagrams as PNG/SVG
+- Waiting for a fix to the mermaid filter compatibility issue
 
 ## Building Your Thesis
 
@@ -135,6 +125,36 @@ The YAML files specify everything Pandoc needs:
 - Metadata file location
 - Bibliography and citation settings
 - Formatting options
+
+## Writing with Mermaid Diagrams
+
+Mermaid diagrams are automatically converted to images in your output documents. Simply use standard Mermaid code blocks:
+
+````markdown
+```mermaid
+graph LR
+    A[Start] --> B[Process]
+    B --> C[End]
+```
+````
+
+### Supported Diagram Types
+
+- **Flowcharts**: `graph LR`, `graph TD`, etc.
+- **Sequence Diagrams**: `sequenceDiagram`
+- **Class Diagrams**: `classDiagram`
+- **State Diagrams**: `stateDiagram`
+- **ER Diagrams**: `erDiagram`
+- **Gantt Charts**: `gantt`
+- **Pie Charts**: `pie`
+- And more! See https://mermaid.js.org/ for full documentation
+
+### Tips for Mermaid Diagrams
+
+- Keep diagrams simple and readable
+- Use meaningful labels
+- Test your diagrams at https://mermaid.live/ before adding to thesis
+- Large diagrams may take longer to render during build
 
 ## Writing with Citations
 
@@ -206,6 +226,11 @@ Use `@citationkey` in your markdown files to cite references from `references.bi
 - Install a LaTeX distribution (MiKTeX or TeX Live)
 - Ensure LaTeX is in your system PATH
 - Restart PowerShell after installation
+
+### Mermaid diagrams showing as code blocks
+- Mermaid filter support is currently disabled due to compatibility issues
+- Mermaid code blocks will render as code in the output documents
+- See "Mermaid Diagram Support" section above for alternatives
 
 ### Missing fonts in PDF
 - The PDF configuration uses Times New Roman (standard on Windows)

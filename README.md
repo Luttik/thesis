@@ -2,6 +2,28 @@
 
 This project is set up to help write my thesis.
 
+## Quick Start
+
+### Building Your Thesis
+
+To generate PDF and Word documents from your thesis:
+
+```powershell
+.\build-thesis.ps1
+```
+
+Output files will be in the `output/` directory.
+
+### First-Time Setup for Mermaid Diagrams
+
+If you haven't already, install Mermaid support (requires Node.js):
+
+```powershell
+npm install -g mermaid-filter @mermaid-js/mermaid-cli
+```
+
+For detailed setup instructions, see [thesis/PANDOC-README.md](thesis/PANDOC-README.md).
+
 ## Research Question
 
 > How do marketing managers create value with agenic AI
