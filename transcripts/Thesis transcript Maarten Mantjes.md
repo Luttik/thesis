@@ -29,17 +29,17 @@ Them: Super.
 Me: Dat schrijf ik sowieso even op. Maar Maar laat laten we hem lekker aftrappen. Ik ben in de eerste plaats even benieuwd naar  
 Them: Sí.  
 Me: jou en jouw rol binnen je organisatie. Zou je daar even iets over kunnen vertellen?  
-Them: Sí. Ja, dus ik ben één van de oprichters van Diony Comsand. En Diony Constant heeft zich bezig met innovatie Dat is natuurlijk vreselijk abstract bericht. Begrip. Maar we zijn die OniCommerce ooit begonnen met ik twee anderen, omdat we zagen dat met name in veel marketingtechnologie pitches daar hebben we de laatste jaren veel gewerkt. Dat mensen vreselijk verliefd werden op het idee van wat die technologie allemaal kon brengen en prachtige vergezichten en dat de realiteit veel meer barstreeg als dan had je voor weet ik wel als je een jaar verder had je de miljoen geeft dan was iedereen echt dezelfde te-doelen als je had afwerken en precies zelf  
+Them: Sí. Ja, dus ik ben één van de oprichters van The Only Consultant. En The Only Consultant heeft zich bezig met innovatie Dat is natuurlijk vreselijk abstract bericht. Begrip. Maar we zijn The Only Consultant ooit begonnen met ik twee anderen, omdat we zagen dat met name in veel marketingtechnologie pitches daar hebben we de laatste jaren veel gewerkt. Dat mensen vreselijk verliefd werden op het idee van wat die technologie allemaal kon brengen en prachtige vergezichten en dat de realiteit veel meer barstreeg als dan had je voor weet ik wel als je een jaar verder had je de miljoen geeft dan was iedereen echt dezelfde te-doelen als je had afwerken en precies zelf  
 Me: Mhmm.  
 Them: aan genereren alleen dan met een nieuw systeem. Daarmee werd pitchen en ideeën strategie eigenlijk idee en pitchen. Er werd eigenlijk een soort presales theater en dat dat dat dat vrienden heel erg dus toen kwamen wij getriet op het inzicht dat veranderen blijkbaar heel moeilijk is in een hele marketing context. Dus toen zijn wij die hele constant begonnen vanuit het inzicht dat je moet in ieder geval zorgen dat er beweging is. Binnen de tent ben ik, doe ik veel strategie  
 Me: Mhmm.  
-Them: en help ik helpen we bedrijven zoals Air Miles of we zijn nu over landbouw of of we doen een klus voor Ramstad. Na te denken hoe zorg je nou voor jullie die bij een zijstapje AI zorgt ervoor dat dingen veel makkelijker te maken zijn dan ze ooit waren. Dus je krijgt dingen veel makkelijker van een bouwpoint af. Als je dingen  
+Them: en help ik helpen we bedrijven zoals Air Miles of we zijn nu over landbouw of of we doen een klus voor Randstad. Na te denken hoe zorg je nou voor jullie die bij een zijstapje AI zorgt ervoor dat dingen veel makkelijker te maken zijn dan ze ooit waren. Dus je krijgt dingen veel makkelijker van een bouwpoint af. Als je dingen  
 Me: Mhmm.  
 Them: maken dan kun je beslissingsinformatie genereren. En dan kun je ook gaan veranderen. Nou, nu zitten we langzamerhand komen in de fase waarin kunt afvragen of de tussenstap van een concept nog wel zo nodig is. We namelijk heel makkelijk dingen kunnen maken, kunnen we heel makkelijk dingen in de echte omgeving testen en ook weggooien die werken. Dus dit gaat uiteindelijk zijn wij denk ik veel meer een organisatie transformatie bureau geworden dan wat anders.  
 Me: Mhmm.  
 Them: En dan met name heel erg in het marketing domein omdat we daar alle drie veel ervaringen hebben. Maar we zien heel veel heel veel teams en en daar ga ik een beetje vannaak op tak geven met dat, maar binnen heel veel marketing teams is heel duidelijk wat de is de output heel duidelijk gedefinieerd, maar de manier waarop tot output komt heel slecht gerefineerd. En dat zorgt ervoor dat bij veranderingen of bij gaan we lekker naar de toepassingen ook bij die stap dus heel ingewikkeld is, want over het algemeen heeft de markt die mensen geen idee hoe zij mensen tot de output komen. Dus hoe kun je in geval samen denken hoe iets automatiseert. Maar de strategisch dus lang verhaal kort. Ik heb daarnaast heb ik nog een  
 Me: Yeah.  
-Them: een volstrekt uit de hand gelopen hobby, een drank bedrijf. Dus ik maak gin en dat gin merk dat misbruik of verbruik zo je wilt ik eigenlijk als mijn marketing laboratorie Dus alles wat ik aan een klant niet kan verkopen dat kan ik dan voor stokers doen. Stokers met twee o's en dan kan ik vaak klanten laten zien kijk eens dus zo hadden wij bijvoorbeeld al ruim twee jaar geleden op basis van maakstoepassing al een social media afdeling flauwt. Dus dit is nu vreselijk kort. Dus kijk er kijk ernaar, maar neemt niet veel. Serieus, maar ik heb al drie, twee jaar lang een volstrekt autonome social media afdrekening bij een zeven agents met elkaar alles doen.  
+Them: een volstrekt uit de hand gelopen hobby, een drank bedrijf. Dus ik maak gin en dat gin merk dat misbruik of verbruik zo je wilt ik eigenlijk als mijn marketing laboratorie Dus alles wat ik aan een klant niet kan verkopen dat kan ik dan voor Stookers doen. Stookers met twee o's en dan kan ik vaak klanten laten zien kijk eens dus zo hadden wij bijvoorbeeld al ruim twee jaar geleden op basis van maakstoepassing al een social media afdeling flauwt. Dus dit is nu vreselijk kort. Dus kijk er kijk ernaar, maar neemt niet veel. Serieus, maar ik heb al drie, twee jaar lang een volstrekt autonome social media afdrekening bij een zeven agents met elkaar alles doen.  
 Me: Yep.  
 Them: En waar ik niet review en ik brief niet meer en en nooit tussen na nadat we het aangezet hebben we er nooit meer naar gekeken. Je hebt nooit meer aan getweaked moet zeggen. En dat zorgde ervoor dat het idee over wat kun je nou wel niet automatiseren anders is geworden want dat gaat namelijk van daar naar rol naar afdelingen en anders kijken wat werkt het niet werkt. Dus dus dat dat dat drankmerk we gebruiken we als als marketing en dat is heel leuk. Ze hebben ook een een smaak die door AI gemaakt is waarvan je gewoon op de markt is die is goedkoop Waar wat mij nogal deed beseffen dat ook productontwikkeling nogal  
 Me: Yeah.  
@@ -97,9 +97,9 @@ Them: Ja, in hoverre, hoverre competitor in hoverre
 Me: dat e-tech systeem of een  
 Them: wordt de voorbeelden die ik geef zijn worden die breder gedeeld?  
 Me: in de zin dat nou ja, het wordt hier gewoon een academisch speler van gegeven. Dus als je zegt van hé, het gaat hierover specifieke organisatie en specifieke mensen ja, dat laat ik eruit. Maar de use cases die worden beledig gedeeld.  
-Them: Oké, dus één van onze klant is landen al.  
+Them: Oké, dus één van onze klant is Landal.  
 Me: Ja,  
-Them: Landbouw is een fusieorganisatie die hebben dus landen Green Roompot en die hebben honderd veertig plus parken door heel Noord  
+Them: Landal is een fusieorganisatie die hebben dus Landal Green Roompot en die hebben honderd veertig plus parken door heel Noord  
 Me: Yep.  
 Them: Noordwest Europa. Dat merk moet een beetje een beetje opgepoetst worden. Mag allemaal wat wat wat mooier, nieuwe en moderner. De realiteit is dat ze van die honderd veertig parken hebben ze een miljoen foto's die eigenlijk allemaal niet meer bruikbaar zijn. Van verkeerd logo, land plastic tuinstoel  
 Me: Yep.  
@@ -111,7 +111,7 @@ Them: Het soort die krijgt daar wel hele interessante gesprekken over want
 Me: Mhmm.  
 Them: marketingbazen die zeggen dat fuck dat gaat me echt niet gebeuren want we namelijk heel veel klachten over dat die hotel die kamers allemaal niet netjes genoeg zijn. Maar de social media manager ja, maar dat is lekker leuk want iedereen weet wat daar is in dit lekkere weekendje weg.  
 Me: Yeah.  
-Them: Dus er zit dus maar dat soort toepassingen of we hebben voor Randstad hebben ze veel social voorbijl door u vergeten maar dat Ranstad heeft heel erg veel moeite om jongeren het aanzicht te binden. Want jongeren die weten wie een uitzendbureau is, die weten niet dat ze wat kunnen wat er van maken is. Nou, maar  
+Them: Dus er zit dus maar dat soort toepassingen of we hebben voor Randstad hebben ze veel social voorbijl door u vergeten maar dat Randstad heeft heel erg veel moeite om jongeren het aanzicht te binden. Want jongeren die weten wie een uitzendbureau is, die weten niet dat ze wat kunnen wat er van maken is. Nou, maar  
 Me: Mhmm.  
 Them: Dus we hebben daar volgens het geautomatiseerde varianten gemaakt  
 Me: Okay.  

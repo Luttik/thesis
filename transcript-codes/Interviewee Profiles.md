@@ -1,7 +1,7 @@
 # Interviewee Profiles
 
 **Last updated:** Feb 16, 2026  
-**Total interviews conducted:** 2
+**Total interviews conducted:** 3
 
 ---
 
@@ -104,25 +104,73 @@ To characterize each interviewee's personal relationship with AI, the following 
 
 ---
 
+## Interviewee 3: Maarten Mantjes
+
+### Personal
+
+| Attribute | Detail |
+|---|---|
+| **Name** | Maarten Mantjes |
+| **Role** | Co-founder / Strategist |
+| **Team size** | ~3 co-founders (The Only Consultant); works with client teams of varying sizes |
+| **Location** | Netherlands |
+| **Education** | Not specified in interview; extensive experience in marketing technology and strategy |
+| **Career background** | Marketing technology consulting (extensive) → Co-founded The Only Consultant (innovation & organizational transformation in marketing) → Also runs Stookers gin brand as personal marketing laboratory → Chair of DDMA Creative Commission |
+| **AI fluency** | **Pioneer** (Level 4) — Built a fully autonomous 7-agent social media system 2+ years ago; builds MVPs and tools via vibe-coding; created a synthetic research panel with fine-tuned models; built an AI-powered business operating system for his own company; deeply understands capabilities and process implications of AI |
+| **Primary AI tools** | Multi-agent frameworks (custom-built); Perplexity (early adopter, 2+ years); various generative AI tools for image/content generation; vibe-coding for tool development |
+| **Referral source** | Introduced via professional network (colleague Leo, Wellvance Group / Turconomy) |
+
+### Organization
+
+| Attribute | Detail |
+|---|---|
+| **Company** | The Only Consultant (primary); Stookers gin brand (marketing laboratory) |
+| **Headquarters** | Netherlands |
+| **Headcount** | ~3 (The Only Consultant); Stookers is a side venture |
+| **Industry** | Consultancy — innovation & organizational transformation, focused on marketing domain |
+| **Business model** | Advisory and implementation services for marketing organizations. Three-tier offering: (1) AI literacy/training, (2) process automation, (3) innovation (doing things that weren't possible before) |
+| **Clients mentioned** | Landal (vacation parks, 140+ parks across NW Europe), Randstad (recruitment), Puk (barista accessories, ~12 people), Air Miles |
+| **AI infrastructure** | Builds custom solutions; uses remote development support; no standardized internal AI platform — each project is bespoke |
+| **AI cost model** | Project-based; costs borne by client engagements |
+| **Regulatory context** | European context; observes regulation pendulum at clients (permissive → sudden ban) |
+| **Notable affiliations** | Chair, DDMA (Dutch Digital Marketing Association) Creative Commission |
+
+### Interview Metadata
+
+| Attribute | Detail |
+|---|---|
+| **Date** | Feb 16, 2026 |
+| **Duration** | ~60 minutes |
+| **Format** | Video call (in-office, at Q&A retail consultancy office) |
+| **Interview number** | 3 |
+| **Recording** | Yes (audio/video) |
+| **Interview language** | Dutch (with occasional English terms) |
+| **Notable context** | First non-US, non-large-enterprise interviewee. Consultant perspective provides cross-organizational view. Interview included an extended informal discussion after the formal portion where both interviewer and interviewee exchanged insights. Expressed interest in receiving the final thesis. |
+
+---
+
 ## Comparative Overview
 
-| Dimension | Berfun Goodwin | Jon Stephan |
-|---|---|---|
-| **Role orientation** | Strategic / managerial | Technical / hands-on builder |
-| **AI fluency** | Practitioner (Level 3) | Pioneer (Level 4) |
-| **Primary AI use** | Analytics, communication, personal productivity | Building agents, workflows, systems at scale |
-| **Background** | Marketing & analytics (MBA) | Science & bioinformatics (lab-to-marketing transition) |
-| **Perspective on AI** | Pragmatic — "it makes life easier" | Evangelical — "this changes everything" |
-| **Perspective on risk** | Organizational (approval processes, resistance, data limitations) | Technical + ecosystem (model deprecation, hallucination, search landscape shifts) |
-| **Same organization** | Yes (Merck KGaA) | Yes (Merck KGaA) |
-| **Relationship** | Berfun referred Jon for the study | Referred by Berfun |
+| Dimension | Berfun Goodwin | Jon Stephan | Maarten Mantjes |
+|---|---|---|---|
+| **Role orientation** | Strategic / managerial | Technical / hands-on builder | Consultant / entrepreneur |
+| **AI fluency** | Practitioner (Level 3) | Pioneer (Level 4) | Pioneer (Level 4) |
+| **Primary AI use** | Analytics, communication, personal productivity | Building agents, workflows, systems at scale | Building client solutions, autonomous systems, personal tools |
+| **Background** | Marketing & analytics (MBA) | Science & bioinformatics (lab-to-marketing transition) | Marketing technology consulting; entrepreneurship |
+| **Perspective on AI** | Pragmatic — "it makes life easier" | Evangelical — "this changes everything" | Strategic-critical — "not worried enough, not innovative enough" |
+| **Perspective on risk** | Organizational (approval processes, resistance, data limitations) | Technical + ecosystem (model deprecation, hallucination, search landscape shifts) | Market + systemic (commoditization, junior pipeline, race to mediocrity, agent sprawl) |
+| **Organization type** | Large enterprise (~63K employees) | Large enterprise (~63K employees) | Small consultancy (~3 people) + micro-brand |
+| **Geographic base** | United States (East Coast) | United States | Netherlands |
+| **Relationship to study** | First interviewee; referred Jon | Referred by Berfun; referred Skip Johnston | Referred via professional network (Leo / Wellvance Group) |
 
 ---
 
 ## Sampling Notes
 
-- Both interviewees are from the **same organization** (Merck KGaA / MilliporeSigma), which provides depth but limits breadth. Future interviews should prioritize **different organizations, industries, and company sizes** to test generalizability.
-- Both are **US-based** employees of a **German multinational**, giving a transatlantic perspective. Future interviews should include **European-based** practitioners for comparison.
-- The chain referral (Berfun → Jon) is consistent with the snowball sampling methodology described in the thesis. Jon has offered a further referral (Skip Johnston, B2B ecommerce), continuing the chain.
-- Both interviewees are from a **large enterprise** (~63K employees). Smaller organizations may face very different enablers and obstacles.
-- The AI fluency spread (Practitioner vs. Pioneer) within the same organization provides useful contrast. Future sampling should aim to include **Explorers** and **Observers** to capture the full adoption spectrum.
+- **Organizational diversity improving:** The first two interviewees are from the same large enterprise (Merck KGaA, ~63K employees). The third (Maarten) brings a small consultancy perspective, working across multiple client organizations. Future interviews should continue diversifying across organization sizes and types.
+- **Geographic diversity improving:** The first two interviewees are US-based (at a German multinational). Maarten is Netherlands-based. This begins to address the Europe vs. US comparison the interviewer is interested in. Future interviews should include more European practitioners.
+- **Role diversity is strong:** Three distinct perspectives are now represented — in-house strategic leader (Berfun), in-house AI specialist/builder (Jon), and external consultant/entrepreneur (Maarten). Future interviews should aim to include CMOs, agency-side practitioners, and marketing managers without AI specialization.
+- **AI fluency skews high:** Two of three interviewees are Pioneers (Level 4), and the third is a Practitioner (Level 3). Future sampling should explicitly target Explorers (Level 2) and Observers (Level 1) to capture the full adoption spectrum and understand barriers faced by less AI-fluent practitioners.
+- **Industry concentration:** Life sciences (Merck) and marketing consultancy (The Only Consultant) are represented. Future interviews should include consumer goods, retail, finance, B2C, and technology sectors.
+- **Snowball sampling is active:** Berfun → Jon → Skip Johnston (pending). Maarten was referred via a separate professional network chain. Both chains should continue to be pursued.
+- **Interview language note:** The third interview was conducted in Dutch with occasional English terms. This may affect transcript precision (automated transcription of Dutch) and should be noted when citing specific quotes.
