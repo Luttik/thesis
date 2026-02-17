@@ -1,7 +1,7 @@
 # Interviewee Profiles
 
-**Last updated:** Feb 16, 2026  
-**Total interviews conducted:** 3
+**Last updated:** Feb 17, 2026  
+**Total interviews conducted:** 4
 
 ---
 
@@ -149,28 +149,74 @@ To characterize each interviewee's personal relationship with AI, the following 
 
 ---
 
+## Interviewee 4: Georgio Mosis
+
+### Personal
+
+| Attribute | Detail |
+|---|---|
+| **Name** | Georgio Mosis |
+| **Role** | Associate Partner, consulting firm (digital transformation, AI, RPA) |
+| **Team size** | Leads a "young team" focused on next-level digital transformation |
+| **Location** | Netherlands |
+| **Education** | Clinical epidemiologist; medical informatician |
+| **Career background** | Principal scientist at Philips Healthcare (Boston, China) — healthcare AI, IoT, digital society → Consulting firm (pensions, asset management, digital transformation) → Academic: teaches at Nyenrode and University of Amsterdam → Pending patent on agents (with Wageningen University / GrowNext for controlled agriculture) |
+| **AI fluency** | **Pioneer** (Level 4) — Builds production agents; deep into Claude, OpenAI APIs; has a pending patent on agentic systems; teaches AI at two universities; in the AI field since 1997 (Deep Blue); builds multi-agent systems (PROBE market research, recruitment pipeline, voice agents) |
+| **Primary AI tools** | Anthropic Claude (primary), OpenAI; builds multi-agent networks; voice agent frameworks (text-to-speech/speech-to-text) |
+| **Referral source** | Introduced via Desiree (professional network, Nyenrode connection) |
+
+### Organization
+
+| Attribute | Detail |
+|---|---|
+| **Company** | Consulting firm (name not disclosed in transcript) |
+| **Headquarters** | Netherlands |
+| **Headcount** | Not specified; mid-sized consulting firm |
+| **Industry** | Consulting — pension funds, asset management, risk management, actuarial calculations, digital transformation |
+| **Business model** | Advisory services: helping organizations adopt AI realistically ("going from A to B"); includes RPA, agentic AI, and organizational transformation |
+| **Clients mentioned** | Recruitment firm (executive recruitment); pension funds; healthcare organizations (previous — Philips) |
+| **AI infrastructure** | Builds custom multi-agent solutions; uses cloud APIs; emphasizes ROI-justified tooling |
+| **AI cost model** | ROI-driven; every AI initiative must have a business case for the CFO. "AI is very expensive" |
+| **Regulatory context** | Healthcare (most regulated), finance (highly regulated); strong emphasis on security, privacy, fallback scenarios |
+| **Notable affiliations** | Wageningen University (GrowNext — controlled agriculture patent); Nyenrode (teaching); University of Amsterdam (teaching) |
+
+### Interview Metadata
+
+| Attribute | Detail |
+|---|---|
+| **Date** | Feb 17, 2026 |
+| **Duration** | ~45 minutes |
+| **Format** | Video call |
+| **Interview number** | 4 |
+| **Recording** | Yes (audio/video + phone backup) |
+| **Interview language** | English |
+| **Notable context** | Second Netherlands-based interviewee. Brings a unique regulated-industry lens (healthcare + finance). Offered to introduce people doing "AI for good" and additional interview candidates. Extended informal discussion about AI ethics, persuasive technology, and societal impact. Expressed strong interest in reading the final thesis. |
+
+---
+
 ## Comparative Overview
 
-| Dimension | Berfun Goodwin | Jon Stephan | Maarten Mantjes |
-|---|---|---|---|
-| **Role orientation** | Strategic / managerial | Technical / hands-on builder | Consultant / entrepreneur |
-| **AI fluency** | Practitioner (Level 3) | Pioneer (Level 4) | Pioneer (Level 4) |
-| **Primary AI use** | Analytics, communication, personal productivity | Building agents, workflows, systems at scale | Building client solutions, autonomous systems, personal tools |
-| **Background** | Marketing & analytics (MBA) | Science & bioinformatics (lab-to-marketing transition) | Marketing technology consulting; entrepreneurship |
-| **Perspective on AI** | Pragmatic — "it makes life easier" | Evangelical — "this changes everything" | Strategic-critical — "not worried enough, not innovative enough" |
-| **Perspective on risk** | Organizational (approval processes, resistance, data limitations) | Technical + ecosystem (model deprecation, hallucination, search landscape shifts) | Market + systemic (commoditization, junior pipeline, race to mediocrity, agent sprawl) |
-| **Organization type** | Large enterprise (~63K employees) | Large enterprise (~63K employees) | Small consultancy (~3 people) + micro-brand |
-| **Geographic base** | United States (East Coast) | United States | Netherlands |
-| **Relationship to study** | First interviewee; referred Jon | Referred by Berfun; referred Skip Johnston | Referred via professional network (Leo / Wellvance Group) |
+| Dimension | Berfun Goodwin | Jon Stephan | Maarten Mantjes | Georgio Mosis |
+|---|---|---|---|---|
+| **Role orientation** | Strategic / managerial | Technical / hands-on builder | Consultant / entrepreneur | Consultant / scientist |
+| **AI fluency** | Practitioner (Level 3) | Pioneer (Level 4) | Pioneer (Level 4) | Pioneer (Level 4) |
+| **Primary AI use** | Analytics, communication, personal productivity | Building agents, workflows, systems at scale | Building client solutions, autonomous systems, personal tools | Multi-agent systems, voice agents, ROI-justified AI transformation |
+| **Background** | Marketing & analytics (MBA) | Science & bioinformatics (lab-to-marketing) | Marketing technology consulting; entrepreneurship | Clinical epidemiology, medical informatics, Philips Healthcare |
+| **Perspective on AI** | Pragmatic — "it makes life easier" | Evangelical — "this changes everything" | Strategic-critical — "not worried enough, not innovative enough" | Rigorous — "every initiative needs ROI; don't do old things with new tools" |
+| **Perspective on risk** | Organizational (approval processes, resistance, data limitations) | Technical + ecosystem (model deprecation, hallucination, search landscape) | Market + systemic (commoditization, junior pipeline, race to mediocrity) | Operational + human (job displacement, skills deprivation, fallback scenarios, generational clash) |
+| **Organization type** | Large enterprise (~63K employees) | Large enterprise (~63K employees) | Small consultancy (~3 people) + micro-brand | Mid-size consulting firm |
+| **Geographic base** | United States (East Coast) | United States | Netherlands | Netherlands |
+| **Relationship to study** | First interviewee; referred Jon | Referred by Berfun; referred Skip Johnston | Referred via professional network (Leo / Wellvance Group) | Referred via Desiree (Nyenrode network) |
 
 ---
 
 ## Sampling Notes
 
-- **Organizational diversity improving:** The first two interviewees are from the same large enterprise (Merck KGaA, ~63K employees). The third (Maarten) brings a small consultancy perspective, working across multiple client organizations. Future interviews should continue diversifying across organization sizes and types.
-- **Geographic diversity improving:** The first two interviewees are US-based (at a German multinational). Maarten is Netherlands-based. This begins to address the Europe vs. US comparison the interviewer is interested in. Future interviews should include more European practitioners.
-- **Role diversity is strong:** Three distinct perspectives are now represented — in-house strategic leader (Berfun), in-house AI specialist/builder (Jon), and external consultant/entrepreneur (Maarten). Future interviews should aim to include CMOs, agency-side practitioners, and marketing managers without AI specialization.
-- **AI fluency skews high:** Two of three interviewees are Pioneers (Level 4), and the third is a Practitioner (Level 3). Future sampling should explicitly target Explorers (Level 2) and Observers (Level 1) to capture the full adoption spectrum and understand barriers faced by less AI-fluent practitioners.
-- **Industry concentration:** Life sciences (Merck) and marketing consultancy (The Only Consultant) are represented. Future interviews should include consumer goods, retail, finance, B2C, and technology sectors.
-- **Snowball sampling is active:** Berfun → Jon → Skip Johnston (pending). Maarten was referred via a separate professional network chain. Both chains should continue to be pursued.
-- **Interview language note:** The third interview was conducted in Dutch with occasional English terms. This may affect transcript precision (automated transcription of Dutch) and should be noted when citing specific quotes.
+- **Organizational diversity is good:** Four interviewees span a large enterprise (Merck, ~63K employees), a micro-consultancy (The Only Consultant, ~3 people), and a mid-size consulting firm (Georgio's firm). Future interviews should add mid-market companies (50-500 employees) and large non-enterprise organizations.
+- **Geographic diversity is balanced:** Two US-based (Berfun, Jon) and two Netherlands-based (Maarten, Georgio). Future interviews should include other European countries and potentially APAC to test cultural differences in AI adoption.
+- **Role diversity is strong:** Four distinct perspectives — in-house strategic leader (Berfun), in-house AI specialist/builder (Jon), marketing transformation consultant (Maarten), and digital transformation/AI consultant with academic background (Georgio). Future interviews should target CMOs, agency-side practitioners, and marketing managers without AI specialization.
+- **AI fluency still skews high:** Three of four interviewees are Pioneers (Level 4), and the fourth is a Practitioner (Level 3). Future sampling should explicitly target Explorers (Level 2) and Observers (Level 1) to understand barriers from the non-adopter perspective.
+- **Industry coverage expanding:** Life sciences (Merck), marketing consultancy (The Only Consultant), and pensions/finance/healthcare consulting (Georgio). The addition of Georgio's regulated-industry lens is valuable. Future interviews should include consumer goods, retail, B2C, and technology sectors.
+- **Consultant perspectives now dominate:** Two of four interviewees are consultants (Maarten, Georgio), providing cross-organizational pattern recognition. However, future interviews should prioritize in-house marketing practitioners to balance the sample.
+- **Snowball sampling continues:** Berfun → Jon → Skip Johnston (pending). Maarten referred via Wellvance Group chain. Georgio referred via Nyenrode/Desiree chain. Georgio offered additional referrals for "AI for good" contacts. Three active referral chains.
+- **Interview language:** Two interviews in English (Berfun/Jon with Georgio), one in Dutch (Maarten). Language mix has not created issues but should be noted when citing Dutch transcripts.
