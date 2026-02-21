@@ -1,7 +1,7 @@
 # Interviewee Profiles
 
-**Last updated:** Feb 17, 2026  
-**Total interviews conducted:** 4
+**Last updated:** Feb 20, 2026  
+**Total interviews conducted:** 6
 
 ---
 
@@ -194,29 +194,119 @@ To characterize each interviewee's personal relationship with AI, the following 
 
 ---
 
+## Interviewee 5: Rolf Mulder
+
+### Personal
+
+| Attribute | Detail |
+|---|---|
+| **Name** | Rolf Mulder |
+| **Role** | Co-founder (commercial, fundraising, strategy) |
+| **Team size** | 2 co-founders + contractors; very early-stage startup |
+| **Location** | Rotterdam, Netherlands |
+| **Education** | Marketing degree (graduated before the SaaS explosion); ~20 years marketing experience |
+| **Career background** | Traditional marketing → SaaS marketing at multiple companies → Co-founded Instant Crush (AI-powered marketing focus tool). Also works with investors and has consulting background. |
+| **AI fluency** | **Practitioner** (Level 3) — Uses AI daily as sparring partner and for analysis; builds prompts (3-4 pages long); understands AI capabilities and limitations well; does not build production agents/systems himself (co-founder handles technical side); has strong views on where AI adds and doesn't add value |
+| **Primary AI tools** | AI as sparring partner for thinking/drafting; competitive analysis at scale; internal product uses LLMs for advisory platform; Cursor for development (via co-founder) |
+| **Referral source** | Professional network (connected via Leo, colleague in Wellvance Group) |
+
+### Organization
+
+| Attribute | Detail |
+|---|---|
+| **Company** | Instant Crush |
+| **Headquarters** | Rotterdam, Netherlands |
+| **Headcount** | ~2 co-founders + contractors |
+| **Industry** | MarTech / SaaS startup — AI-powered marketing strategy and focus tool |
+| **Business model** | Subscription platform for mid-market companies. Translates data into insights, direction, and marketing roadmaps. Eventual vision includes a marketplace connecting companies with talent to execute on the insights. |
+| **Clients mentioned** | Mid-market entrepreneurs; references to SaaS companies, investors |
+| **AI infrastructure** | Custom prompt engineering (prompts 3-4 pages); LLM-based analysis and advisory; living web content experiments |
+| **AI cost model** | Startup — investing in AI as core product differentiator |
+| **Regulatory context** | Not a primary concern; more concerned with marketing science rigor than regulatory compliance |
+| **Notable affiliations** | Previously did a big pivot from fully automated content to AI-assisted strategy. Strong marketing science orientation (Binet & Field, Byron Sharp). Active in the DDMA ecosystem. |
+
+### Interview Metadata
+
+| Attribute | Detail |
+|---|---|
+| **Date** | Feb 19, 2026 |
+| **Duration** | ~45 minutes |
+| **Format** | Video call |
+| **Interview number** | 5 |
+| **Recording** | Yes (audio/video) |
+| **Interview language** | English (switched from Dutch at start) |
+| **Notable context** | First startup founder in the sample. Provides the strongest counter-narrative to the efficiency framing — argues marketing has an effectiveness problem, not an efficiency problem. Pivoted his company from fully automated content to AI-assisted strategy after finding quality insufficient for brand content. Offered to continue the conversation and explore potential collaboration. |
+
+---
+
+## Interviewee 6: Andreea Bulisache
+
+### Personal
+
+| Attribute | Detail |
+|---|---|
+| **Name** | Andreea Bulisache |
+| **Role** | Independent AI governance advisor to executive and non-executive boards |
+| **Team size** | Solo practitioner (independent advisory) |
+| **Location** | Europe (exact country not specified; references meeting in New York) |
+| **Education** | Not specified; ~20 years in technology spanning multiple sectors |
+| **Career background** | Telco → IT → Cybersecurity → Microsoft (acquisition & strategy team; early OpenAI conversations; AI ethics, skill, bias) → Independent AI governance advisory practice (~3 years) |
+| **AI fluency** | **Pioneer** (Level 4) — Deep technical understanding (can go "very very deep into technology"); early in OpenAI conversations at Microsoft; understands data, algorithms, reinforcement learning, compute architecture; works at the intersection of technology and governance; simplifies complex technology for board-level decision-makers |
+| **Primary AI tools** | Does not implement AI tools directly; advises on AI strategy, vendor selection, governance frameworks, and organizational readiness |
+| **Referral source** | Connected via Desiree / Georgio Mosis (Nyenrode network) |
+
+### Organization
+
+| Attribute | Detail |
+|---|---|
+| **Company** | Independent advisory practice (unnamed) |
+| **Headquarters** | Europe |
+| **Headcount** | 1 (solo practitioner); works with consulting firm partners for implementation |
+| **Industry** | AI governance advisory — works across industries with enterprise boards |
+| **Business model** | Advisory services to boards and executives: AI governance war rooms, scenario planning, vendor procurement criteria, compliance frameworks, organizational readiness assessment |
+| **Clients mentioned** | Enterprise boards (non-specific); references to private equity, VC, and large corporates |
+| **AI infrastructure** | N/A (advises on AI infrastructure, does not build it) |
+| **AI cost model** | Advisory fees; emphasizes that AI cost-benefit is not straightforward (sometimes humans are cheaper than AI at full cost) |
+| **Regulatory context** | EU AI Act, data sovereignty, geopolitical risk, energy costs, supply chain dependencies — her core domain |
+| **Notable affiliations** | Previously Microsoft (acquisition & strategy); chairman of foundation addressing intergenerational transfer of disadvantage (with Georgio Mosis) |
+
+### Interview Metadata
+
+| Attribute | Detail |
+|---|---|
+| **Date** | Feb 20, 2026 |
+| **Duration** | ~50 minutes |
+| **Format** | Video call (Zoom) |
+| **Interview number** | 6 |
+| **Recording** | Yes (audio/video) |
+| **Interview language** | English |
+| **Notable context** | First pure governance perspective — does not implement AI in marketing but advises on how organizations should approach AI adoption. Explicitly states limited marketing domain knowledge but provides strong cross-industry governance frameworks. Introduced the CARE model (Clarity → Awareness → Readiness → Execution) and the outcome-vs-output distinction. Offered LinkedIn network introductions and recommended following OpenAI/Anthropic academy use cases. |
+
+---
+
 ## Comparative Overview
 
-| Dimension | Berfun Goodwin | Jon Stephan | Maarten Mantjes | Georgio Mosis |
-|---|---|---|---|---|
-| **Role orientation** | Strategic / managerial | Technical / hands-on builder | Consultant / entrepreneur | Consultant / scientist |
-| **AI fluency** | Practitioner (Level 3) | Pioneer (Level 4) | Pioneer (Level 4) | Pioneer (Level 4) |
-| **Primary AI use** | Analytics, communication, personal productivity | Building agents, workflows, systems at scale | Building client solutions, autonomous systems, personal tools | Multi-agent systems, voice agents, ROI-justified AI transformation |
-| **Background** | Marketing & analytics (MBA) | Science & bioinformatics (lab-to-marketing) | Marketing technology consulting; entrepreneurship | Clinical epidemiology, medical informatics, Philips Healthcare |
-| **Perspective on AI** | Pragmatic — "it makes life easier" | Evangelical — "this changes everything" | Strategic-critical — "not worried enough, not innovative enough" | Rigorous — "every initiative needs ROI; don't do old things with new tools" |
-| **Perspective on risk** | Organizational (approval processes, resistance, data limitations) | Technical + ecosystem (model deprecation, hallucination, search landscape) | Market + systemic (commoditization, junior pipeline, race to mediocrity) | Operational + human (job displacement, skills deprivation, fallback scenarios, generational clash) |
-| **Organization type** | Large enterprise (~63K employees) | Large enterprise (~63K employees) | Small consultancy (~3 people) + micro-brand | Mid-size consulting firm |
-| **Geographic base** | United States (East Coast) | United States | Netherlands | Netherlands |
-| **Relationship to study** | First interviewee; referred Jon | Referred by Berfun; referred Skip Johnston | Referred via professional network (Leo / Wellvance Group) | Referred via Desiree (Nyenrode network) |
+| Dimension | Berfun Goodwin | Jon Stephan | Maarten Mantjes | Georgio Mosis | Rolf Mulder | Andreea Bulisache |
+|---|---|---|---|---|---|---|
+| **Role orientation** | Strategic / managerial | Technical / builder | Consultant / entrepreneur | Consultant / scientist | Startup founder | Board-level governance advisor |
+| **AI fluency** | Practitioner (3) | Pioneer (4) | Pioneer (4) | Pioneer (4) | Practitioner (3) | Pioneer (4) |
+| **Primary AI use** | Analytics, productivity | Agents, workflows, systems | Client solutions, autonomous systems | Multi-agent systems, voice agents | Advisory platform, sparring partner | Governance frameworks, scenario planning |
+| **Background** | Marketing & analytics | Science & bioinformatics | MarTech consulting | Epidemiology, medical informatics | Traditional marketing → SaaS → founder | Telco → IT → cybersecurity → Microsoft → governance |
+| **Perspective on AI** | Pragmatic | Evangelical | Strategic-critical | Rigorous / ROI-first | Effectiveness-focused | Governance-first — "outcome before output" |
+| **Perspective on risk** | Organizational | Technical / ecosystem | Market / systemic | Operational / human | Strategic / brand | Systemic / governance (over-deployment, vendor dependency, rush to execution) |
+| **Organization type** | Large enterprise (~63K) | Large enterprise (~63K) | Small consultancy (~3) | Mid-size consulting | Early-stage startup (~2) | Solo advisory practice |
+| **Geographic base** | United States | United States | Netherlands | Netherlands | Netherlands | Europe |
+| **Relationship** | First; referred Jon | Via Berfun | Via Leo / Wellvance | Via Desiree / Nyenrode | Via Leo / Wellvance | Via Desiree / Georgio |
 
 ---
 
 ## Sampling Notes
 
-- **Organizational diversity is good:** Four interviewees span a large enterprise (Merck, ~63K employees), a micro-consultancy (The Only Consultant, ~3 people), and a mid-size consulting firm (Georgio's firm). Future interviews should add mid-market companies (50-500 employees) and large non-enterprise organizations.
-- **Geographic diversity is balanced:** Two US-based (Berfun, Jon) and two Netherlands-based (Maarten, Georgio). Future interviews should include other European countries and potentially APAC to test cultural differences in AI adoption.
-- **Role diversity is strong:** Four distinct perspectives — in-house strategic leader (Berfun), in-house AI specialist/builder (Jon), marketing transformation consultant (Maarten), and digital transformation/AI consultant with academic background (Georgio). Future interviews should target CMOs, agency-side practitioners, and marketing managers without AI specialization.
-- **AI fluency still skews high:** Three of four interviewees are Pioneers (Level 4), and the fourth is a Practitioner (Level 3). Future sampling should explicitly target Explorers (Level 2) and Observers (Level 1) to understand barriers from the non-adopter perspective.
-- **Industry coverage expanding:** Life sciences (Merck), marketing consultancy (The Only Consultant), and pensions/finance/healthcare consulting (Georgio). The addition of Georgio's regulated-industry lens is valuable. Future interviews should include consumer goods, retail, B2C, and technology sectors.
-- **Consultant perspectives now dominate:** Two of four interviewees are consultants (Maarten, Georgio), providing cross-organizational pattern recognition. However, future interviews should prioritize in-house marketing practitioners to balance the sample.
-- **Snowball sampling continues:** Berfun → Jon → Skip Johnston (pending). Maarten referred via Wellvance Group chain. Georgio referred via Nyenrode/Desiree chain. Georgio offered additional referrals for "AI for good" contacts. Three active referral chains.
-- **Interview language:** Two interviews in English (Berfun/Jon with Georgio), one in Dutch (Maarten). Language mix has not created issues but should be noted when citing Dutch transcripts.
+- **Organizational diversity is excellent:** Six interviewees now span a large enterprise (Merck, ~63K), a micro-consultancy (~3), a mid-size consulting firm, an early-stage startup (~2), and a solo advisory practice. The solo governance advisor adds a unique structural perspective. Future interviews should add mid-market in-house companies (50-500 employees).
+- **Geographic diversity:** Two US-based (BG, JS) and four Europe-based (MM, GM, RM in Netherlands; AB elsewhere in Europe). Europe now over-represents. Future interviews should seek more US-based and international participants.
+- **Role diversity is the sample's greatest strength:** Six distinct perspectives — in-house strategic leader, in-house AI specialist, marketing transformation consultant, DT/AI consultant with academic background, startup founder/marketing strategist, and board-level AI governance advisor. Future interviews should target CMOs, agency-side practitioners, and in-house marketing managers without AI specialization.
+- **AI fluency:** Four Pioneers (Level 4: JS, MM, GM, AB) and two Practitioners (Level 3: BG, RM). Still no Explorers or Observers. This remains the most significant sampling gap.
+- **Industry coverage expanding:** Life sciences (Merck), marketing consultancy (The Only Consultant), pensions/finance/healthcare consulting (GM), MarTech SaaS (Instant Crush), cross-industry AI governance (AB). Future: consumer goods, retail, B2C, non-tech industries.
+- **External/advisory perspectives now dominate:** Four of six participants are consultants, advisors, or founders (MM, GM, RM, AB). Only two are in-house practitioners (BG, JS) — both from the same organization. Future interviews should strongly prioritize in-house marketing practitioners from different organizations.
+- **Snowball sampling active across three chains:** Berfun → Jon → Skip Johnston (pending). Maarten + Rolf via Wellvance Group / Leo. Georgio → Andreea via Nyenrode / Desiree. AB offered LinkedIn introductions.
+- **Interview language:** Four in English (BG, JS, GM, AB), one in Dutch (MM), one switched Dutch → English (RM).
