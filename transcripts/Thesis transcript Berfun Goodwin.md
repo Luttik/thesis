@@ -166,11 +166,7 @@ Me: I used to be a techie way back in the day when I started studying. I had my 
 
 Them: Yep.  
 
-Me: computers and stuff. Forget that. I loved it. So, I started doing that, and now I've been with a marketing agency for the last eight years as well. So this topic really is something that I love  
-
-Them: Yep.  
-
-Me: That I like to dive deep to into. And what I'm really studying here is also, like, the perceived experience of the marketing manager and just seeing how they are implementing agentic AI they are thinking about maybe implementing agentic AI towards the future. And what, like, benefits and drawbacks are and how they are thinking about the entire process.  
+Me: computers and stuff. Forget that. I loved it. So, I started doing that, and now I've been with a marketing agency for the last eight years as well. So this topic really is something that I love, that I like to dive deep to into. And what I'm really studying here is also, like, the perceived experience of the marketing manager and just seeing how they are implementing agentic AI they are thinking about maybe implementing agentic AI towards the future. And what, like, benefits and drawbacks are and how they are thinking about the entire process. 
 
 Them: Mhmm.  
 

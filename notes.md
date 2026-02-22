@@ -1,5 +1,9 @@
 # Notes
 
+# TODO
+
+Redact names and orgs.
+
 # Memo's
 
 ## Hard time classifying AI

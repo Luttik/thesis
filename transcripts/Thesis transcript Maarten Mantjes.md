@@ -12,317 +12,162 @@ Them: Hallo, goedemorgen.
 
 Me: Jij was er gewoon al. 
 
-Them: Ik was er gewoon al, geloof ik toch niet? Ben ergens om te zitten. Nee, is wel goed. 
+Them: Ik was er gewoon al, geloof ik toch niet? Ik ga even ergens om te zitten. Nee, is wel goed. 
 
-Me: Las ik hier later. Joe Joe Hey, leuk dat je je wel meedoen. 
+Me: Hey, leuk dat je je wel meedoen. 
 
-Them: Ja, bem nud. 
+Them: Ja, ben benieuwd waar je het over gaat hebben wat je ook ermee wilt. 
 
-Me: Ja, 
+Me: Nou ja ik kan hem heel even high-over aftrappen en dan zal jij daarna vooral aan het woord zijn. Ik ga even iets werkelijker want ik krijg weer een belletje. 
 
-Them: Waar je het over gaat hebben wat je ook ermee wilt. 
+Ik doe dus onderzoek ik werk bij Teconomie, ik ben via Techonomy ook een collega van Leo die me bij jou geïntroduceerd heeft. Want we zitten samen in de Rellevance Group. Eum, en naast dat ik bij tuurlijk bij Techonomy werk als CTO ben ik ook MBA aan het doen op Nijenrode en daar doe ik onderzoek naar de vraag "how can Agentic AI help marketing managers to create value?" 
 
-Me: nou ja ik kan hem heel even high-over aftrappen en dan zal jij daarna vooral aan het woord zijn. Ik ga even iets werkelijker want ik krijg weer een belletje. Ik doe dus onderzoek ik werk bij de economie ik ben via Turconomy ook een collega van Leo die me bij jou geïntroduceerd heeft van we zitten samen in de Wellvance Group. Eum, en naast dat ik bij tuurlijk onderwerp werk als CTO ben ik ook MBA aan het doen op Nijenrode en daar doe ik onderzoek naar de vraag how can Agentic AI help marketing managers to create value? En dat doe ik eigenlijk over drie assen Dus ik kijk naar marketingmanagers en hoe die AI gebruiken om dus waarde te creëren. Ik kijk naar mensen die binnen de marketingteams AI-projecten leiden en ik kijk naar die die groep adviseert om eigenlijk met die drie brillen te kijken van hoe zou wat kan marketing eigenlijk doen wat kunnen marketing teams doen om nog meer waarde te creëren binnen een team en waarde gaat dan over benefits, dat gaat over drawbacks, dat gaat eigenlijk over alles wat wat value in gaat en dat kan financieel zijn, maar ook juist niet financieel. Dus ik krijg dingen terug van hey, ik voel me in mijn kracht gezet als als ik AI gebruik. Zou ook bijvoorbeeld kunnen gaan over brand positioning of consumer value of van alles. Eum, en daar wil ik het ook vandaag met jou over hebben. Dus dit is echt onderdeel van van een stukje academisch onderzoek. Waarbij ik jou gewoon lekker wil interviewen over jouw blik op deze zaak over dus jouw blik op agentic AI binnen marketing. Als je daarna leuk vindt kunnen we natuurlijk altijd even verder praten over ook mijn visie 
+En dat doe ik eigenlijk over drie assen: Dus ik kijk naar marketingmanagers en hoe die AI gebruiken om dus waarde te creëren. Ik kijk naar mensen die binnen de marketingteams AI-projecten leiden en ik kijk naar die groep adviseert om eigenlijk met die drie brillen te kijken van hoe zou ja, wat kan marketing eigenlijk doen, wat kunnen marketing teams doen, om nog meer waarde te creëren binnen een team.
 
-Them: Ja. En wat je al tegenkomt. 
+En waarde gaat dan over benefits, dat gaat over drawbacks, dat gaat eigenlijk over alles wat wat value in gaat en dat kan financieel zijn, maar ook juist niet financieel. Dus ik krijg dingen terug van hey, ik voel me in mijn kracht gezet als marketeer als ik AI gebruik. Maar het zou ook bijvoorbeeld kunnen gaan over brand positioning of consumer value of van alles. 
 
-Me: en ik kan ook mijn inzichten delen naderhand. Het is natuurlijk wel zo dat vanwege academische redenen ik mijn eigen visie een beetje opzij moet zetten terwijl ik met jou het interview doe en daarna kan het dan alweer daarvoor komen. 
+Eum, en daar wil ik het ook vandaag met jou over hebben. Dus dit is echt onderdeel van van een stukje academisch onderzoek. Waarbij ik jou gewoon lekker wil interviewen over jouw blik op deze zaak over dus jouw blik op agentic AI binnen marketing. En als je het daarna leuk vindt kunnen we natuurlijk altijd even verder praten over ook mijn visie en ik kan ook mijn inzichten delen naderhand. 
 
-Them: Yeah. That's not big. Feel very much for Veel veel mensen gesproken? 
+Het is natuurlijk wel zo dat vanwege academische redenen ik mijn eigen visie een beetje opzij moet zetten terwijl ik met jou het interview doe en daarna kan het dan alweer daarvoor komen. 
 
-Me: Jij bent nummer drie in de lijst. Eum, dus dat is ja, ik ben, ik ben eigenlijk week begonnen met de interviews. Dus ik heb er deze week weer drie staan en volgende week twee en dan op die manier open ik over een weekje of tien mannetje of vijfentwintig gesproken te hebben. 
+Them: Ja dat snap ik. Al veel mensen gesproken?
 
-Them: Ya, preciso. 
+Me: Jij bent nummer drie in de lijst. Eum, dus dat is ja, ik ben, ik ben eigenlijk week begonnen met de interviews. Dus ik heb er deze week weer drie staan en volgende week twee en dan op die manier open ik over een weekje of tien mannetje of vijfentwintig gesproken te hebben. Dat is op zich een een mooie sample size denk ik, om toch even wel iets serieus op te tuigen.
 
-Me: Dat is op zich een een mooie sample size denk ik, om toch even wel iets serieus op te 
-
-Them: Leuk spannend ben benieuwd. 
-
-Me: tuigen. Ja, 
-
-Them: Wilt graag, wilt graag zien als de office. 
+Them: Leuk spannend ben benieuwd. Ik wil het graag zien als het af is. 
 
 Me: ja dat dat deel ik graag. 
 
 Them: Super. 
 
-Me: Dat schrijf ik sowieso even op. Maar Maar laat laten we hem lekker aftrappen. Ik ben in de eerste plaats even benieuwd naar 
+Me: Dat schrijf ik sowieso even op. 
 
-Them: Sí. 
 
-Me: jou en jouw rol binnen je organisatie. Zou je daar even iets over kunnen vertellen? 
+## Job description
 
-Them: Sí. Ja, dus ik ben één van de oprichters van The Only Consultant. En The Only Consultant heeft zich bezig met innovatie Dat is natuurlijk vreselijk abstract bericht. Begrip. Maar we zijn The Only Consultant ooit begonnen met ik twee anderen, omdat we zagen dat met name in veel marketingtechnologie pitches daar hebben we de laatste jaren veel gewerkt. Dat mensen vreselijk verliefd werden op het idee van wat die technologie allemaal kon brengen en prachtige vergezichten en dat de realiteit veel meer barstreeg als dan had je voor weet ik wel als je een jaar verder had je de miljoen geeft dan was iedereen echt dezelfde te-doelen als je had afwerken en precies zelf 
+Maar laat laten we hem lekker aftrappen. Ik ben in de eerste plaats even benieuwd naar jou en jouw rol binnen je organisatie. Zou je daar even iets over kunnen vertellen? 
 
-Me: Mhmm. 
+Them: Ja, dus ik ben één van de oprichters van The Only Constant. En The Only Constant heeft zich bezig met innovatie, dat is natuurlijk vreselijk abstract begrip. Maar we zijn The Only Constant ooit begonnen met ik twee anderen, omdat we zagen dat met name in veel marketingtechnologie pitches, daar hebben we de laatste jaren veel gewerkt, dat mensen vreselijk verliefd werden op het idee van wat die technologie allemaal kon brengen en prachtige vergezichten en dat de realiteit veel weerbarstiger is. Dan had je voor, weet ik veel, dan wasje  een jaar verder had je de miljoen geeft dan was iedereen echt dezelfde te-doelen als je had afwerken en precies zelf aan het genereren alleen dan met een nieuw systeem. 
 
-Them: aan genereren alleen dan met een nieuw systeem. Daarmee werd pitchen en ideeën strategie eigenlijk idee en pitchen. Er werd eigenlijk een soort presales theater en dat dat dat dat vrienden heel erg dus toen kwamen wij getriggerd op het inzicht dat veranderen blijkbaar heel moeilijk is in een hele marketing context. Dus toen zijn wij die hele constant begonnen vanuit het inzicht dat je moet in ieder geval zorgen dat er beweging is. Binnen de tent ben ik, doe ik veel strategie 
+Daarmee werd pitchen en ideeën strategie eigenlijk dat werd eigenlijk een soort presales theater. en dat dat dat dat vringt heel erg dus toen kwamen wij getriggerd tot het inzicht dat veranderen blijkbaar heel moeilijk is in een marketing context. Dus toen zijn wij The Only Constant begonnen vanuit het inzicht dat je moet in ieder geval zorgen dat er beweging is. 
 
-Me: Mhmm. 
+Binnen de tent ben ik, doe ik veel strategie en help ik helpen we bedrijven zoals Air Miles of we zijn nu over landbouw of of we doen een klus voor Randstad. Na te denken hoe zorg je nou voor jullie die, Klein zijstapje AI zorgt ervoor dat dingen veel makkelijker te maken zijn dan ze ooit waren. Dus je krijgt dingen veel makkelijker van een powerpoint af. Als je dingen  maken dan kun je beslissingsinformatie genereren, en dan kun je ook gaan veranderen. 
 
-Them: en help ik helpen we bedrijven zoals Air Miles of we zijn nu over landbouw of of we doen een klus voor Randstad. Na te denken hoe zorg je nou voor jullie die bij een zijstapje AI zorgt ervoor dat dingen veel makkelijker te maken zijn dan ze ooit waren. Dus je krijgt dingen veel makkelijker van een bouwpoint af. Als je dingen 
+Nou, nu zitten we langzamerhand komen in de fase waarin kunt afvragen of de tussenstap van een proof-of-concept nog wel zo nodig is. We namelijk heel makkelijk dingen kunnen maken, kunnen we heel makkelijk dingen in de echte omgeving testen en ook weggooien die werken. Dus dit gaat... uiteindelijk zijn wij denk ik veel meer een organisatie transformatie bureau geworden dan wat anders. En dan met name heel erg in het marketing domein omdat we daar alle drie veel ervaringen hebben. 
 
-Me: Mhmm. 
+Maar we zien heel veel teams en en daar ga ik een beetje vannaak op tak geven met dat, maar binnen heel veel marketing teams is heel duidelijk wat de is de output heel duidelijk gedefinieerd, maar de manier waarop tot output komt heel slecht gerefineerd. En dat zorgt ervoor dat bij veranderingen of bij, gaan we lekker naar de agentic toepassingen ook bij die stap dus heel ingewikkeld is, want over het algemeen heeft de marketing manager geen idee hoe zij mensen tot de output komen. Dus hoe kun je in gods naam dan bedenken hoe iets automatiseert. Maar de strategisch dus lang verhaal kort. 
 
-Them: maken dan kun je beslissingsinformatie genereren. En dan kun je ook gaan veranderen. Nou, nu zitten we langzamerhand komen in de fase waarin kunt afvragen of de tussenstap van een concept nog wel zo nodig is. We namelijk heel makkelijk dingen kunnen maken, kunnen we heel makkelijk dingen in de echte omgeving testen en ook weggooien die werken. Dus dit gaat uiteindelijk zijn wij denk ik veel meer een organisatie transformatie bureau geworden dan wat anders. 
+Ik heb daarnaast heb ik nog een volstrekt uit de hand gelopen hobby, een drank bedrijf. Dus ik maak gin en dat gin merk dat misbruik of verbruik zo je wilt ik eigenlijk als mijn marketing laboratorie Dus alles wat ik aan een klant niet kan verkopen dat kan ik dan voor Stookers doen. Stookers met twee o's en dan kan ik vaak klanten laten zien kijk eens dus zo hadden wij bijvoorbeeld al ruim twee jaar geleden op basis van microsoft toeapssing al een agentic social media afdeling gebouwd. Dus dit is nu vreselijk hoor. Dus kijk er kijk ernaar, maar neemt niet te veel Serieus. Maar ik heb al drie, twee jaar lang een volstrekt autonome social media afdeling waarbij  zeven agents met elkaar alles doen. 
 
-Me: Mhmm. 
+En waar ik niet review en ik brief niet meer en en nooit tussen na nadat we het aangezet hebben we er nooit meer naar gekeken. Er nooit meer aan getweaked moet zeggen. En dat zorgde ervoor dat het idee over wat kun je nou wel niet automatiseren anders is geworden want dat gaat namelijk van daar naar rol naar afdelingen en anders kijken wat werkt het niet werkt. Dus dus dat dat dat drankmerk misgebruiken we als als marketinglab en dat is heel leuk. 
 
-Them: En dan met name heel erg in het marketing domein omdat we daar alle drie veel ervaringen hebben. Maar we zien heel veel heel veel teams en en daar ga ik een beetje vannaak op tak geven met dat, maar binnen heel veel marketing teams is heel duidelijk wat de is de output heel duidelijk gedefinieerd, maar de manier waarop tot output komt heel slecht gerefineerd. En dat zorgt ervoor dat bij veranderingen of bij gaan we lekker naar de toepassingen ook bij die stap dus heel ingewikkeld is, want over het algemeen heeft de markt die mensen geen idee hoe zij mensen tot de output komen. Dus hoe kun je in geval samen denken hoe iets automatiseert. Maar de strategisch dus lang verhaal kort. Ik heb daarnaast heb ik nog een 
+Zo hebben we ook een een smaak die door AI gemaakt is die gewoon op de markt is, die is goedkoop. Wat mij nogal deed beseffen dat ook productontwikkeling nogal klaar is om opnieuw gedefinieerd te worden. Als ik in de middag en de smaak in elkaar ga zetten die blijft staan en ook zeer goed gewaardeerd wordt. Ja, dat betekent het dan voor je voor je productontwikkeling. 
 
-Me: Yeah. 
+Me: Superleuk ook superleuk dat je die die speeltuin hebt om gewoon dingen te proberen. Ik ben nu wel heel erg benieuwd naar die AI ontwikkelde Gin die je of de plank hebt staan. Welke is dat?
 
-Them: een volstrekt uit de hand gelopen hobby, een drank bedrijf. Dus ik maak gin en dat gin merk dat misbruik of verbruik zo je wilt ik eigenlijk als mijn marketing laboratorie Dus alles wat ik aan een klant niet kan verkopen dat kan ik dan voor Stookers doen. Stookers met twee o's en dan kan ik vaak klanten laten zien kijk eens dus zo hadden wij bijvoorbeeld al ruim twee jaar geleden op basis van maakstoepassing al een social media afdeling flauwt. Dus dit is nu vreselijk kort. Dus kijk er kijk ernaar, maar neemt niet veel. Serieus, maar ik heb al drie, twee jaar lang een volstrekt autonome social media afdrekening bij een zeven agents met elkaar alles doen. 
+Them: Dutch Summer. de vraag was ik heb ik doe dat ik doe ik deed het met drie, ik doe het met met één andere vriend nog. En dat is een gymkens en die is beta als het maar kan, die kun je helemaal niet meer over smaak praten. Ik had al heel lang het idee van hoe smaakt nou de herfst of hoe smaakt Maastricht of hoe spraak verzin het maar. En dat liep allemaal, het ging allemaal nergens over. 
 
-Me: Yep. 
+Toen heb ik met ik weet niet eens wat een voorloop van perplexity, weet niet eens meer hoe het heet. Maar ja, ruim twee jaar geleden een gesprek gehad. Oké wat ik wil een distillers recept maken voor een gin die daar Nederlandse zovers maakt. Dan krijg je afpelt wat wat is dan wat is dan gin en wat is een distillers, wat is een distillers respect hoe werkt slaatje eigenlijk en wat zijn smaken en wat is Nederland en wat is zomer. En dan krijg je een vrij snel gesprek over heel inhoudelijk dus schijkundig over wat voor smaken dan in destillaties, best een gewelddadig proces, dan overeind blijven na na destillatie. Nou uiteindelijk een recept dat wel wat ook klopte, maar in de middag wat ik fascinerend vond en dus dat labaratorium dat is echt leuk ja. 
 
-Them: En waar ik niet review en ik brief niet meer en en nooit tussen na nadat we het aangezet hebben we er nooit meer naar gekeken. Je hebt nooit meer aan getweaked moet zeggen. En dat zorgde ervoor dat het idee over wat kun je nou wel niet automatiseren anders is geworden want dat gaat namelijk van daar naar rol naar afdelingen en anders kijken wat werkt het niet werkt. Dus dus dat dat dat drankmerk we gebruiken we als als marketing en dat is heel leuk. Ze hebben ook een een smaak die door AI gemaakt is waarvan je gewoon op de markt is die is goedkoop Waar wat mij nogal deed beseffen dat ook productontwikkeling nogal 
+Me: Ja, en ook richting de toekomst hè normaal gesproken ben je gewend en ben ik ook gewend om gewoon lekker mee te lullen en ja te knikken en dat dat mag allemaal niet van mijn thesis begeleiden. Dus ik ga af en toe streng kijken omdat het moet. 
 
-Me: Yeah. 
-
-Them: klaar is om opnieuw gedefinieerd te worden. Als ik in de middag en de smaak in elkaar ga zetten die blijft staan en ook zeer goed gewaardeerd wordt. Ja, dat betekent het dan voor je voor de contacting. 
-
-Me: Yeah. Superleuk ook superleuk dat je die die speeltuin hebt om gewoon dingen te proberen. Ik ben nu wel heel erg benieuwd naar die AI Gindy of de punk-upstaart. Welke is dat? Smaak? Dutch Summer oké wat leuk man. 
-
-Them: Det en dus daar was het de de vraag was ik heb ik doe dat ik doe ik deed het met drie, ik doe het met met één andere ziens nog. En dat is een gymkens en die is Sobetas markten, die kun je helemaal niet meer over smaak praten. Ik had al heel lang het idee van hoe smaakt nou de herfst of hoe smaakt Maastricht of hoe spraak 
-
-Me: Mhmm. 
-
-Them: verzin het maar en dat liep allemaal, het ging allemaal nergens over. Toen heb ik met ik weet niet eens wat een voorloop van perplexity, weet niet eens hoe het heet. Maar ja, ruim twee jaar geleden in gesprek gehad. Oké wat ik wil een distillers recept maken voor een gin die daar Nederlandse zovers maakt. Afpelt wat wat is dan wat is dan gin en wat is een distillers hoe werkt slaatje eigenlijk en wat zijn smaken en wat is Nederland en wat is zomer en dan krijg je een vrij snel gesprek over heel inhoudelijk de over wat voor smaken dan in destillaties best gewelddad proces. Dan overeind blijven na na destillatie. Nou uiteindelijk een recept dat wel wat ook klopte, maar in de middag wat ik fascinerend vond 
-
-Me: Ja, supergrappig. 
-
-Them: en dus dat dat dat is echt leuk ja. 
-
-Me: Ja, en ook richting de toekomst hè normaal gesproken ben je gewend en ben ik ook gewend om gewoon lekker mee te lullen en ja te knikken en dat dat mag allemaal niet van 
-
-Them: Yeah. 
-
-Me: met die se begeleiden. Dus ik ga af en toe streng kijken of dat het, of dat het moet. 
-
-Them: Ja, ga ik maar in hoor. Dus ik ik dat is heel goed. Dan schaadt het over iets anders en dat is niet de bedoeling. 
+Them: Ja, grijp maar in hoor. Dus ik ik dat is heel goed. Want anders gaat het over iets anders en dat is niet de bedoeling. 
 
 Me: Ja nee klopt klopt. Nee volgende vraag wat betekent generative AI voor jou? 
 
-Them: Kunstmatige intelligentie die op basis van een een een vraag een een geheel uniek en nieuw antwoord definieert. 
+Them: Kunstmatige intelligentie die op basis van een vraag een geheel uniek en nieuw antwoord definieert. 
 
-Me: Ja, Yeah. Leuk. En als je die dan eens doortrekt dat betekent AJVW. 
+Me: Ja, Leuk. En als je die dan eens doortrekt dat betekent agentic AI voor jouw. 
 
-Them: Nou dat dat is de die discussie is allemaal een beetje een beetje denk dat er een grote het is een een agent die is zelfstandig in staat om te besluiten hoe die een probleem oplost en we halen automations en agents heel erg door elkaar. 
+Them: Nou dat dat is, die discussie is allemaal een beetje een beetje denk dat er een grote het is een een agent die is zelfstandig in staat om te besluiten hoe die een probleem oplost en we halen automations en agents heel erg door elkaar. 
 
-Me: Mhmm. 
+Dus een automation is een van te voort is veel meer systeem theorie. Een van de voorge definieerde manier om of een proces om tot een eindresultaten komen en een agent kan je binnen het proces autonomie geven over beslissingen. Dus die kan zelf dus als je naar die die social media kijkt die de zeven agents goed. Die elkaar ook beoordelen op basis van is de kwaliteit van output goed voldoende aan de specs als het niet zo is stuurt die ze terug als ze er helemaal niet uitkomen gaat die iets anders vragen. En autonomie in de beslissingen en over de goed en niet goed. 
 
-Them: Dus een automation is een van te voort is veel meer systeem theorie. Een een een van de voorge definieerde manier om of een proces om tot een eindresultaten komen en een agent kan je binnen het proces autonomie geven over beslissingen. Dus die kan zelf dus als je naar die die social media kijkt die de zeven agents goed voor voor het gesprek. Die elkaar ook beoordelen op basis van is de kwaliteit van output goed voldoende aan de specs als het niet zo is stuurt die terug naar ze het 
+Me: Dat is dit is inderdaad ook zo'n vraag om even bepalen van oké wat is onze baseline hier. Dit is het correcte antwoord. Als als we zo ja als we zo de de vragen ingaan ik zeg altijd van pakken pakken lekker breed. Dus als je denkt van hé dit is niet volledig agentic maar het is wel een agent of dit is gewoon een waardevolle use case die zo top is, die wil ik even bespreken. Pak hem dan lekker mee dan kunnen we altijd uitfilteren van hé dit is wel agentic dit is niet agentic. Maar dat maakt het gewoon leuk om ja, toch ook wel weer de meest waardevolle use case met kan er boven te halen en daar wil ik dan ook gewoon gelijk in duiken met jou. Dus waarvoor wordt nu AI in jouw visie al gebruikt binnen de marketing teams waar je meewerkt. 
 
-Me: Yeah. 
+Them: ja, dus het is dus is wat ik net al even aanstipte met heel kort over taak en rol en afdeling. Wat ik zie is AI bestaat natuurlijk al heel lange en dan generative AI een beetje minder en dus aan de ene kant worden er veel tools gekocht die al bestonden en we nu dan generative AI noemen die creëren output dus worden om taken in te vullen wordt AI gebruik. Waar zie ik dat dan; we zien heel veel samenvatten, heel veel schrijven van textjes, het heel veel maken van dus het creëren van een specifieke output. En wat ik nog heel weinig zie is agent ik toepassingen binnen het hele marketing domein. Sterker nog zie ik er eigenlijk bij behalve op podia en whitepaper zie ik dat bij mijn klanten eigenlijk nergens. 
 
-Them: er helemaal niet uitkomt gaat die daar zelf vragen. En autonomie in de beslissingen en over de goed en niet goed. 
+Me: En als je dan misschien net als stapje er voorpak hè, je zegt van oké ik zie wel veel workflows waarin jij in hand of misschien is dat een beetje een interpretatie van mij. Wat voor dingen zie je dan voorbij komen? 
 
-Me: Dat is dit is inderdaad ook zo'n vraag om even bepalen van oké wat is onze baseline hier. Dit is het correcte antwoord. 
-
-Them: Yeah. Thank you. 
-
-Me: Als als we zo ja als we zo de de vragen ingaan ik zeg altijd van pakken pakken lekker breed. 
-
-Them: Yeah. 
-
-Me: Dus als je denkt van hé dit is niet volledig agentic maar het is wel een agent of dit is gewoon een waardevolle use case die zo top is die wil ik even bespreken. Pak hem lekker mee dan kunnen we altijd uitfilteren van hé dit is wel agent dit is niet agent dit maar dat maakt het gewoon leuk om ja, toch ook wel weer de meest waardevolle use case met kan er boven te gaan. 
-
-Them: Yeah. 
-
-Me: Halen. Eum, en daar wil ik dan ook gewoon gelijk in duiken met jou. Dus Wavo wordt nu AI in jouw visie al gebruikt binnen het binnen de marketing teams waar je meewerkt. 
-
-Them: Ja, wat wat wat ik 
-
-Me: Primair hè, primair wel Agentic AI. 
-
-Them: ja, dus het is dus is wat ik net al even aanzipte met heel kort over taak en rol en afdeling. 
-
-Me: Mhmm. 
-
-Them: We we wat ik zie is er bestaat natuurlijk altijd een heel lange dan generatief een beetje minder en dus aan de ene kant worden er veel tools gekocht die al bestonden en 
-
-Me: Yep. 
-
-Them: we nu dan noemen die creëren output dus wordt worden om taken in te vullen wordt AI gebruik maar zie ik dat dan we zien heel veel samenvatten, heel veel schrijven van textjes, het heel veel maken van dus het creëren van een specifieke output en wat ik nog heel weinig zie is agent ik toepassingen binnen het hele marketing domein. Stay van Oog zie ik er eigenlijk bij behalve op podia en whitepaper zie ik dat bij mijn klanten eigenlijk nergens. 
-
-Me: En als je dan misschien net als stapje de voorpak hè, je zegt van oké ik zie wel veel workflows waarin jij in hand of misschien is dat een beetje een interpretatie van mij. Wat voor dingen zie je dan voorbij komen? 
-
-Them: Kijk ik zie ik zie een proces binnen een workflow. Dus als je je werk ziet dat is een stapel workflow en stapeltje workflows. Dan in die workflows die zijn ja, de meeste processen zijn op de knippen in zes of acht processtappen en in sommige van die zes soort processtappen wordt dan AI gebruikt. Dus ik zit in een vergadering en ik neem mijn meeting op en die weet niet geannoteerd, ik komt een to do lijstje uit, ga ik daarna zelf to do lijstje doen of ik distribueer zelf to do lijstje onder mensen of de ik heb een voor voor één van onze klanten in social media die bedenkt maandag nog wat ze moeten gaan doen en die laat de captions dan door AI schrijven terwijl de rest zo niet. Dus er zit er zit het is vrij pragmatisch misschien is dat wel altijd spet wordt en opportunistisch, maar het is vrij pragmatisch ingebruikt. En ik zie heel weinig plekken Ik zie sowieso heel weinig plekken waar marketing als een een verzameling processen gezien wordt en als je die stap niet gemaakt hebt dan denk dat dingen heel veel heel ingewikkeld lijken. En blijven. 
+Them: Kijk ik zie ik zie een proces stappen binnen een workflow. Dus als je je werk ziet dat is een stapel workflow en stapeltje workflows. Dan in die workflows die zijn ja, de meeste processen zijn op de knippen in zes of acht processtappen en in sommige van die zes soort processtappen wordt dan AI gebruikt. Dus ik zit in een vergadering en ik neem mijn meeting op en die weet niet geannoteerd, ik komt een to do lijstje uit, ga ik daarna zelf to do lijstje doen of ik distribueer zelf to do lijstje onder mensen of de ik heb een voor voor één van onze klanten in social media manager die bedenkt maandag nog wat ze moeten gaan doen en die laat de captions dan door AI schrijven terwijl de rest zo... Dus er zit er zit het is vrij pragmatisch misschien is dat wel, het betere woord is opportunistisch, maar het is vrij pragmatisch in het gebruik. En ik zie heel weinig plekken, Ik zie sowieso heel weinig plekken waar marketing als een een verzameling processen gezien wordt en als je die stap niet gemaakt hebt dan denk dat dingen heel veel heel ingewikkeld lijken. En blijven. 
 
 Me: En is dit anders voor jou eigen experimentatie tuin om het zo maar te zeggen. 
 
-Them: E há certo ponto semanas. Desde o é de bater que bater que met die met het laboratorium wel lekker is, is dat ik heb wel klanten, maar we doen bijna niks weet je Als ik ik duizend liter per jaar verkoop is het veel en dan heb ik echt een heel goed jaar. Dus ik heb heel weinig klanten dus het maakt me ook iets vanuit wat die klanten ervan vinden als ze het En dus het startpunt is wat kan ik allemaal doen en wat ik eerst niet kon. Het startpunt is niet doe ik wat ik doe wat slimmer dan ik het idee. Dus dit gaat veel meer over dan over efficiency of over effectiviteit. 
+Them: Ja maar de start is ook helemaal anders. Dus wat met het laboratorium wel lekker is, is dat, ja ik heb wel klanten, maar we doen bijna niks weet je Als ik ik duizend liter per jaar verkoop is het veel en dan heb ik echt een heel goed jaar. Dus ik heb heel weinig klanten dus het maakt me ook iets vanuit wat die klanten ervan vinden als ze het mis gaat. En dus, het startpunt is wat kan ik allemaal doen en wat ik eerst niet kon. Het startpunt is niet doe ik wat ik doe wat slimmer dan ik het idee. Dus dit gaat veel meer over efficacy dan over efficiency of over effectiviteit. 
 
-Me: Yep. En maar wat zijn dan concrete even use cases waar je ook op uitkomt? Je dan die nieuwe bettap zet. 
+Me: Yep. En maar wat zijn dan concrete even use cases waar je ook op uitkomt? Je dan die nieuwe pet op zet. 
 
-Them: Nou wie is dat voor voor dat dat dat Jezus wat zijn jullie nou ik wat het er ik wat wat ik een fascinerende vond. We hebben heel veel in de e-com gedaan. 
+Them: Nou wie is dat voor voor dat dat dat Jezus wat zijn jullie nou ik wat het er ik wat... wat ik een fascinerende vond. We hebben heel veel in de e-com gedaan. En één van de dingen die ik bizar fascinerend vond altijd al is dat wij eigenlijk helemaal in de e-com niet snappen hoe je nou met data moet gaan. Dat over data is niet op orde en moeilijk moeilijk. En aan de andere kant zit je dan naar een dashboard te kijken. Beetje groen of beetje rood dan weet je goed of niet goed en het is heel moeilijk om die data te activeren. 
 
-Me: Mhmm. 
+Het generative AI en agentic AI maakt het heel goed mogelijk om die data op verschillende manieren op verschillende plekken te activeren. Dus als ik naar dat dashboard zit te kijken in mijn MT dan komen er wel dingen uit die we zouden moeten oppakken de komende week. En als ik daar weet ik veel als ik de learnings heb van segmenten over de performance van mijn advertising binnen segmenten, dan kun je een workflow zo in elkaar zetten dat jij veel sneller ook zou kunnen acteren om daar aan de gang te gaan. 
 
-Them: En één van de dingen die ik bizar fascinerend vond altijd al is dat wij eigenlijk helemaal in de e-com niet snappen hoe je nou met data moet gaan. Dat over data is niet op orde en moeilijk moeilijk is het inderdaad. Een andere dat zit zo naar een dashboard te kijken. Dat weet je groen of beetje rood of goed of niet goed en het is heel moeilijk om die data te activeren. 
+Als je je... ik kom de hele tijd op die processen uit hé, maar maar dus als je... wij richten in omdat we een beperking hebben in hoeveelheid capabilities en capaciteit. En die dat spel van capabilities en capaciteit bestaat eigenlijk niet meer, op sommige vlakken. Dus ik kan op iedere plek kan ik data-analist inpluggen die me helpt in het kader van wat ik doe. Het activeerbare, dat is lelijk, maar activeerbare komt het komt het op beslissingen voortbereiden. Dus ik kan het in in ik kan in mijn in mijn management kan het mij helpen om om op te sturen en te besturen in mijn productie kan het mij helpen om veel meer te experimenteren over breder te gaan in segmentatie of slimmer mijn media buying doen. Ik kan nou ja verzin het maar. Het is geen antwoord op je vraag of wel?
 
-Me: Mhmm. 
+Me: Nou ja, wel ten delen. Ik denk dat ze misschien leuk is om te kijken of het nog, nog ietsje concreter of... Laat ik het anders zeggen. Ik hoor hier een stukje toekomstgericht volgens mij en een stukje wat je misschien nu al doet. Ik denk dat het voor mij wel inzicht geeft als ik ook weet van oké wat is wat. Ben je nu al bezig met met dat ecosysteem of eeh... 
 
-Them: Het Gen w w I en de genting AI maakt het heel goed mogelijk om die data op verschillende manieren op verschillende plekken te activeren. Dus als ik naar dat dashboard zit te kijken in mijn MT dan komen er wel dingen uit die we zouden moeten de komende week. 
+Them: Worden de voorbeelden die ik geef, worden die breder gedeeld? 
 
-Me: Mhmm. 
+Me: in de zin dat nou ja, het wordt hier gewoon een academisch paper van geschreven. Dus als je zegt van hé, het gaat hierover specifieke organisatie en specifieke mensen ja, dat laat ik eruit. Maar de use cases die worden breder gedeeld. 
 
-Them: En als ik daar weet ik veel als ik de learnings heb van segmenten over de performance van mijn advertising binnen segmenten dan kun je een workflow zo in elkaar zetten dat jij veel sneller ook zou kunnen acteren om daar aan de gang te gaan. Dus en dus de als je je ik kom wel op die processen uit hé, maar maar dus als je wij richten 
+Them: Oké, dus één van onze klant is Landal. Landal is een fusieorganisatie die hebben dus Landal Green parks en Roompot en die hebben honderd veertig plus parken door heel Noordwest Europa. Dat merk moet een beetje een beetje opgepoetst worden. Mag allemaal wat wat wat mooier, nieuwe en moderner. De realiteit is dat ze van die honderd veertig parken hebben ze een miljoen miljard foto's die eigenlijk allemaal niet meer bruikbaar zijn. Van verkeerd logo, tot plastic tuinstoel, van mensen die kleding aan hebben uit 1980, dat schiet dat niet op. 
 
-Me: Mhmm. 
+De realiteit is dat de marketingmanager of de social media manager of in ieder geval die voor iedereen die verantwoordelijk productie het niet voor elkaar krijgt om fotograaf naar al die parken te sturen. Dus wij hebben met hen aan de hand van, hé wat zijn er de problemen die je hebt wat zijn die kunnen oplossen en hoe zou dat willen doen, bijvoorbeeld een tooltje gemaakt waarin we een fotografie van hun cabins, hun huisjes, nemen en dan een foto van een een voorbeeld een stel en een derde hun hond, een labradoedel, want dat is er tegenwoordig. En dan kunnen we die AI, die maakt dan varianten van die foto's die dan wel onbrand zijn. En dan kan ik ook nog zeggen van nou ik heb seasonality is in die in die sector nogal een ding. Dus ik kan het huisje of die plek in precies dezelfde vorm met die verschillende, met diezelfde mensen en diezelfde hond, kan ik maken dat het in de herfst of in het voorjaar is en dan ook nog het 's-ochtends of 's-avonds maken. Dus ik kan door die dat tooltje te maken dat is een een kijk heel nadrukkelijk in verkleinwoord want het is echt niet zoveel. 
 
-Them: in omdat we een beperking hebben in hoeveelheid capabilities en capaciteit. En die dat spel van capabilities en de zijn capaciteit bestaat eigenlijk niet meer. Ook op sommige vlakken. Dus ik kan op iedere plek kan ik data-analist inpluggen die me helpt in het kaartje van wat ik doe Activeerbare dat is lelijk, maar activeerbare komt het komt het op beslissingen voortbereiden. Dus ik kan het in in ik kan in mijn in mijn management kan het mij helpen om om op te sturen en te besturen in mijn productie kan het mij helpen om veel meer te experimenteren over breder te gaan in segmentatie of in mijn economische slimmer mijn media buying doen. Ik kan nou ja verzin het maar 
+Is dat die hele workflow die marketing afdeling is volkomen anders geworden want die kan prima dingen maken, die ze eerst niet konden maken. En wat daar grappig aan is er komen allemaal dingen naar voren die heel onhandig zijn. Want hoe ga je dan om met diversiteit want daar hebben we nog nooit zo over nagedacht. Hoe gaan we dan om met beeldrecht? Nooit zo over nagedacht. Hoe gaan we dan om met de kwaliteit? Dus als iedereen alles kan maken binnen de grenzen van waar tool op definieert dan is het wel handig dat je die grens ook helderder hebt. 
 
-Me: Yeah. 
+Dus een concreet voorbeeld van is een onopgemaakt bed in een hotelkamer tijdens de voor Valentijnsdag is dat onbrand of niet. Het soort... je krijgt daar wel hele interessante gesprekken over want de marketingbazen die zeggen dan; fuck dat gaat me echt niet gebeuren want we namelijk heel veel klachten over dat die hotel die kamers allemaal niet netjes genoeg zijn. Maar de social media manager ja, maar dat is lekker leuk want iedereen weet wat daar is in dit lekkere weekendje weg. 
 
-Them: misschien altijd op de vraag, dank u wel. 
+Dus er zit dus... maar dat soort toepassingen... We hebben voor Randstad hebben ze veel social voorbeelden. Maar de Randstad heeft heel erg veel moeite om jongeren aan zich te binden. Want jongeren die weten niet wat een uitzendbureau is, die weten niet dat ze wat kunnen, wat er te vermarkten  is. 
 
-Me: Nou ja, wel van delen. Ik denk dat ze misschien leuk is om te kijken of het nog, nog ietsje concreter of laat ik het anders zeggen. Ik denk dat ik ik hoor je een stukje toekomstgericht volgens mij en een stukje wat je misschien nu al doet. Ik denk dat het voor mij wel inzicht geeft als ik ook weet van oké wat is wat. Ben je nu al bezig met met 
+Dus we hebben daar vervolgens een geautomatiseerde varianten van gemaakt van, ik trek een vacaturedie geen opleidingseisen en geen ervaringseisen heeft maar wel op een bepaalde plek is, die trek ik uit een database. Op basis daarvan maak ik een social media post die gaat over binnen een thematje dus bijvoorbeeld van de kids die werken niet voor geld maar die werken voor ervaringen. Is een beetje waar, niet helemaal waar, maar een beetje waar. Dus ik kan zeggen weet ik veel is vierentwintig uur als vakkenvullen bij Zussemezo. 
 
-Them: Ja, in hoverre, hoverre competitor in hoverre 
+Kan ik volstrekt automatiseren ook. Daar kan ik er duizend van maken, honderdduizend van maken. Dat verandert de communicatie over arbeids arbeidsmarkt, dat verandert het voorkomen. Dat soort dingen maken we wel veel. 
 
+Me: En heb je dat nu dan ook in een soort van proces gegoten hè, want je had in het begin veel over processen, heb je dan bijvoorbeeld gezegd van, het moment dat zo'n vacature aan bepaalde kwalificaties voldoet dan wordt er automatisch een post aan gezet. 
 
+Them: nee wat we nu hebben, wat we wat we nu heel erg merken is dat mensen snappen het beter als je daar software oplossing neerzet. Het begint allemaal als marketing probleem dan is het een proces probleem, de deliverable is een software oplossing. Dat vind ik zelf heel onhandig maar ik krijg het slecht verkocht anders. Dus die beide tools en ook... er wordt niet nog niet, in ieder geval zie ik dat heel weinig, echt structureel nagedacht... Dus laat ik anders zeggen. 
 
-Me: dat e-tech systeem of een 
+Er wordt niet anders  gedachten over hoe je jemarketing afdeling moet dingen richten. Dit nu we gaan efficiënter doen, en gevolg daarvan is overigens dat we wel nog steeds veel meer gaan overleggen, grappig genoeg, maar er is nog niet zoveel anders doen. En uiteindelijk, maar dat ik denk dat we daar zo misschien misschien wel op komen, is dat ook heel ingewikkeld omdat je. 
 
-Them: wordt de voorbeelden die ik geef zijn worden die breder gedeeld? 
+Ik ben zelf echt gefascineerd door het fenomeen capability blurring, dus ik kan nu meer dankzij AI en hoe beter ik word in het begrijpen wat die tools allemaal kunnen is er een veel breder domein waar ik ook iets van kan vinden. Dus weet je wel, desocial media manager die worden opeens ook een designer en de die wordt ook opeens een applicatie-bedenker en de creatief die wordt opeens ook een marketing strateeg. Nou dat daar zijn we nog niet zo, maar dat wordt verwacht naar mij en ik verwacht een grote takken zooi. 
 
-Me: in de zin dat nou ja, het wordt hier gewoon een academisch speler van gegeven. Dus als je zegt van hé, het gaat hierover specifieke organisatie en specifieke mensen ja, dat laat ik eruit. Maar de use cases die worden beledig gedeeld. 
+Me: Mooi verwoord. Hey, misschien voordat ik use cases echt helemaal afrond als kopje. Heb je nog iets waarvan je zegt van ja, dit is nog echt een gave echt agentic use case waar ik gewoon, ja, het ook nog even over wil hebben. 
 
-Them: Oké, dus één van onze klant is Landal. 
+Them: Nou ik ben ik ben ben erg gefascineerd door hoe klein je dingen kunt maken. En ik heb we hebben een kaartsetje gemaakt... dus de AI is heel moeilijk om over het over te praten. Een containerbegrip niemand weet wat het is en en we hebben de neiging om te zeggen we gaan alles wat we niet snappengaan we met AI doen. Terwijl je eigenlijk alles wat je wel snapt daarin zou moeten laten doen.
 
-Me: Ja, 
+Maar kaartsetje gemaakt, zes hoofdcategorieën, die helpen je begrijpen wat AI nou eigenlijk kan. Dus capability kaarten. Dus AI kan kan zien, AI kan of AI, AI kan, het is helemaal waar maar, zintuiglijk dingen waarnemen. Dus het kan zien er is bewegend beeld, en het kan lezen. Dus hij kan dingen zien. Hij kan in data analyseren, ik vergeschote het met je delen als je wilt. Stuur ik dan setje op. En fysiek ding. 
 
-Them: Landal is een fusieorganisatie die hebben dus Landal Green Roompot en die hebben honderd veertig plus parken door heel Noord 
+Waar wilde ik naar toe. Oh ja, de klein maker. Dus dat helpt heel erg te kaderen in wat binnen een proces wat die technologie dan in die stap zou moeten doen. Dus ik heb stappen en dat deelt dingen bijvoorbeeld van oké of die die die vacatures misschien leuker. Kijk wat is dat dan voor vacature En voor wie zou Jan geschikt zijn? Dat zijn allemaal interpretaties van wat er in zo'n proces moet. Zijstapje, ik heb een, als het goed is dat vandaag morgen we al klaar, en lead magnet tool ben ik in meelkaar aan hetzetten, een systeempje in elkaar aan het zetten, waar ik op basis van "wat is je bedrijfsnaam?", "wat is de sector?" en "wat zijn je bedrijfsactiviteiten?" en en een inschatting maakt van en een rapport maakt van wat zijn nou de meest voor de hand liggende AI use cases binnen jouw sector. 
 
-Me: Yep. 
+Dus ik weet dat je ik zit nu we zitten in kantoor bij een een retail consultant en onderzoeksbureau met q&a. En dus nou ja q&a punt l. Wij zitten actief in retail, doen marketing en of we doen onderzoek en strategie. Dus laat ik perplexity zeggen hé wat zijn bedrijven die dat nou die in die sector opereren wat wat doen die nou precies? En wat zijn nou dingen hoe werken die stappen en hoe zitten die processen in elkaar. Laat ik hem bijvoorbeeld naar AI zeggen van hey aan de hand van die kaart want dit zijn de dit zijn de zes stappen, hoe zou AI kunnen we werken en dan laat ik processen herontwerven, dan laat ik Claude een rapport schrijven. 
 
-Them: Noordwest Europa. Dat merk moet een beetje een beetje opgepoetst worden. Mag allemaal wat wat wat mooier, nieuwe en moderner. De realiteit is dat ze van die honderd veertig parken hebben ze een miljoen foto's die eigenlijk allemaal niet meer bruikbaar zijn. Van verkeerd logo, land plastic tuinstoel 
+En ik vind de kwaliteit van de output vind ik verbijsterend goed. En en dus wat je daar ziet is als je helder hebt wat je wilt hoe het zou moeten werken dat je basis van, eigenlijk drie data punten, een behoorlijk goed consultantcy rapport kunt maken. Dus de de de ik denk dat we heel veel van de output die we creëren met zijn allen, zeker in het marketing domein, als we beter snappen hoe die tot stand komt, dat we de processen veel kleiner en veel sneller en veel goedkoper kunnen maken en dat we daarna ook moeten leren maar dat tot inzicht allemaal dingen ook anders kunnen gaan doen en ook andere dingen kunnen gaan doen.
 
-Me: Yep. 
+Ik heb om gericht getargeten campagnes te maken voor een specifieke doelgroep heb ik helemaal niet zoveel informatie nodig. 
 
-Them: want mensen die kleding aan hebben uit negentien schiet dat niet op. De realiteit is dat de marketingmanager of de social media manager of in ieder geval die voor iedereen die verantwoordelijk productie het niet voor elkaar krijgt om fotograaf naar al die paar keer te sturen. Dus wij hebben met hen aan de hand van hé wat zijn er de problemen die je hebt wat zijn die kunnen oplossen en hoe zou dat willen doen. Bijvoorbeeld een doeltje gemaakt waarin we een fotografie van hun cabins hun huisjes nemen en dan een foto van een een voorbeeld een stel en een derde hun hond en een laten we het doen hoor want dat is er en dan kunnen we die AI die maakt dan varianten van die foto's die dan wel onbrand zijn. En dan kan ik ook nog zeggen van nou ik heb visuality is in die in die sector nogal een ding. Dus ik kan het huisje of die plek in precies dezelfde vorm met die verschillende met diezelfde mensen en diezelfde hond. Kan ik maken dat het in de herfst of in het voorjaar is en dan ook nog des ochtends en des avonds maken. Dus ik kan door die dat tooltje te maken dat is een een kijk heel nadrukkelijk in verkleinwoord van het is echt niet zoveel. Is dat die hele workflow die marketing afdeling is volkomen anders voor 
+Me: Je hebt tussendoor heel veel gehad over dingen maken. Is dat voor jou dat je zegt van oké, wij wij hebben gewoon een IT-afdeling en die ze AI-applicaties aan het bouwen of ben je een vibe-code of doe je dat in tooltjes. Even in 2 a 3 zinnen, laten we niet altijd bij stilstaan, maar hoe hoe zet je het nu op?
 
-Me: Mhmm. 
+Them: Dus ik heb een we hebben remote een handje developers, maar het is eigenlijk heel weinig. 
 
-Them: want die kan hebben dingen gemaakt die je eens niet kon maken. En wat daar grappig aan is er komen allemaal dingen naar voren die heel onhandig zijn want hoe ga ook met diversiteit en daar werkt nog nooit zo over nagedacht. Hoe gaan we dan over om met bedrecht te gaan wijk? Nooit zo over nagedacht. Hoe gaan we dan om met de kwaliteit? Dus als iedereen alles kan maken binnen de grenzen van waar tool op definieert dan is het wel handig dat je die grens ook helderder hebt. Dus een concreet voorbeeld van is een onopgemaakt bed in een hotelkamer tijdens de voor Valentijnsdag is dat om Brent of niet. 
+Me: Oké, check duidelijk. Dan wil ik vanuit hier de value-keten echt even induiken hè. Wat zijn nu per... of in het algemeen als we dieper willen kunnen we even per use case kijken, maar wat zijn nu de type echte benefits die je eruit. De voordelen, in Nederland. 
 
-Me: Mhmm. 
+Them: Ja, dat is best een somber verhaal vind ik. Organiseert...ik Ik denk dat we lange termijn fucked zijn. Ik denk dat we allemaal, vrees ik, aan de beurt zijn. En we zijn ingericht op de manier waarop we ingericht zijn. En dat zei ik ook, capabilities en capaciteiten, maar ook omdat van iemand... Er zit een ingebakken wantrouwen in dus we overleggen heel veel over dingen... 
 
-Them: Het soort die krijgt daar wel hele interessante gesprekken over want 
+controleert de controleur. Dat hele dat hele support stuk dat dat wordt denk ik steeds minder noodzakelijk om dat door mensen te laten doen. Dus ik denk dat de waarde voorlopig zit vooral in efficiëntie. En ik denk dat we voorlopig één nieuwe spannendere dingen gaan maken. Ik denk dat we alleen maar snel, ik denk dat... omdat kwaliteit vaak slecht gedefinieerd is of niet gedefinieerd is kwaliteit vergelijken tussen machine en mensen ook niet zo makkelijk. En dan is kosten per inspanning of asset of wat je het ook wilt noemen, die zal vrij snel leidend zijn. Dus ik denk dat de waarde zit die zit veel meer in in efficiëntie en in goedkoper dan in iets anders denk ik. 
 
-Me: Mhmm. 
+Me: En je had, je had het even tussen neus en lippen door over het support-stuk. Wat betekent dat voor jou? 
 
-Them: marketingbazen die zeggen dat fuck dat gaat me echt niet gebeuren want we namelijk heel veel klachten over dat die hotel die kamers allemaal niet netjes genoeg zijn. Maar de social media manager ja, maar dat is lekker leuk want iedereen weet wat daar is in dit lekkere weekendje weg. 
+Them: Nou, dus het.. waar ik al een paar keer op terugkom is als we een definitie hebben van waar output aan moet voldoen, maar niet van hoe dat tot stand moet komen, dan is een logische stap als je AI wilt gebruiken dat je ook nadenkt over hoe we tot stand moet komen. En als je snapt hoe het tot stand kan komen kan ik heel veel meer geautomateerd laten beoordelen dan dat ik alleen de output beoordeel. Dus je zult... ik verwacht dat je in die agentic workflows... omdat je veel meer... en ik ben overigens helemaal geen software-ontwikkelaar, onthoudt dat goed... maar omdat je veel strakker zit in, wat is het wat is het niet hoe werkt het wat is nou, hoef je veel minder te praten over of dingen goed zijn of niet want ze komen uit systeem voldoende aan eisen. Is als de eisen niet goed genoeg blijken te zijn, dan herzie je het systeem. Dat betekent dat mijn mening over de output van mijn medewerkers op een heel ander niveau zou plaatsvinden. 
 
-Me: Yeah. 
+Me: Yep. Ja dus eigenlijk zeg je daarmee van hé voor mij betekent het supportstuk dat dat de organisatie ook echt klaar is. Om AI te adopteren en dan ook er vanuit de juiste bril naar te kunnen kijken.
 
-Them: Dus er zit dus maar dat soort toepassingen of we hebben voor Randstad hebben ze veel social voorbijl door u vergeten maar dat Randstad heeft heel erg veel moeite om jongeren het aanzicht te binden. Want jongeren die weten wie een uitzendbureau is, die weten niet dat ze wat kunnen wat er van maken is. Nou, maar 
+Them: Yeah. And and Ja en en dus je krijgt het maar binnen binnen. En wat wil ik daar nou over zeggen wat is daar nog? We besteden met zijn allen heel erg veel tijd aan aan aan ondersteuningen, aan controle. Dus als je naar... Natuurlijk ook gefascineerd, dat je naar als je naar gemiddelde marketing verantwoordelijke vraagt over wat die de hele dag doet, dan is dat vrij abstract. Ik ben heel veel aan het vergaderen en heel veel het praten met mensen. Wat lever dat nou, ik manage de teams, ik ga zeggen, ik support waar ze nodig hebben, en ik neem beslissingen als het nodig is, en ik ik zet de deliverables uit ik de deliverables uit dus moet ik zou moeten gaan jaarlijk zeggen marketing plan maken.
 
-Me: Mhmm. 
-
-Them: Dus we hebben daar volgens het geautomatiseerde varianten gemaakt 
-
-Me: Okay. 
-
-Them: van ik trek een 
-
-Me: Okay. 
-
-Them: die geen opleidingseisen en geen ervaringseisen heeft maar wel op een bepaalde plek is die trek ik uit een database op basis daarvan maak ik een social media post die gaat over binnen binnen een dematje dus bijvoorbeeld van de kids die werken niet voor geld maar die werken voor voor ervaringen. Is een beetje waar die helemaal maar 
-
-Me: Mhmm. 
-
-Them: een beetje waar. Dus ik kan zeggen weet ik veel is vierentwintig uur als vakkenvullen bij Zustermezow. Kan ik volstrekt ook maar kan ik er duizend van maken, honderdduizend van maken 
-
-Me: Yeah. 
-
-Them: Dat verandert de communicatie over arbeids arbeidsmarkt 
-
-Me: Yeah. 
-
-Them: of maar verandert het voorkomen. Dat soort dingen maken we wel veel. 
-
-Me: En heb je dat nu dan ook in een soort van proces gegoten hè want je had in het begin veel over processen. Heb je dan bijvoorbeeld gezegd van 
-
-Them: Ja, wat wat wat 
-
-Me: het moment dat zo'n vacature aan bepaalde kwalificaties voldoet dan wordt er automatisch een post aan gezet. 
-
-Them: nee wat we nu hebben, wat we wat we nu heel erg merken is dat mensen snappen het beter als je daar software oplossing neerzet. 
-
-Me: Mhmm. 
-
-Them: Het begint allemaal als marketing probleem dan is het een proces probleem met deliverable is een software oplossing. Dat vind ik zelf heel onhandig maar krijgt slecht verkocht anders. En dus die beide doels en ook de er wordt niet nog niet in ieder geval zie ik dat heel weinig echt structureel naar. Dus laat ik anders zeggen. Er wordt niet anders in gedachten over hoe je je je marketing 
-
-Me: Yep. 
-
-Them: moet dingen richten. Dit nu we gaan efficiënter doen en we gaan gevolg daarvan is overigens dat we wel nog steeds veel meer gaan overleggen. Grappig genoeg, maar er is nog niet zoveel anders doen. En uiteindelijk maar dat ik denk dat we daar zo misschien misschien wel op komen. 
-
-Me: Mhmm. 
-
-Them: Dat ook heel ongetwijfeld, omdat je ik ik ben zelf echt gefascineerd door het fenomeen capability blurring dus ik kan nu meer dankzij AI en hoe beter ik word in het wat die tool zal kunnen misschien zal kunnen is er een veel breder domein waar ik ook iets kan vinden. Dus weet je wel de de de social media mensen die worden opeens ook een designer en de die wordt ook opeens een applicatie-benker en de creatief die wordt opeens ook een markingsstad tegen. Nou dat daar zijn we nog niet zo, maar dat wordt verwacht naar mij en ik verwacht een grote tak met zooi. 
-
-Me: Mooi voorwoord. Hey, misschien of voordat ik een use cases echt helemaal afrond als kopje. Heb je nog iets waarvan je zegt van ja, dit is nog echt een gave echt agentic use case waar ik gewoon ja, het ook nog even over wil hebben. 
-
-Them: Nou ik ben ik ben ben echt gefascineerd door hoe klein je dingen kunt maken. En ik heb we hebben een een kaartje gemaakt dus de AI is heel moeilijk om over te Onze container begrip niemand weet wat het is en en we hebben de neiging om 
-
-Me: Mhmm. 
-
-Them: wat we niet snappen. Zeggen gaat me daar AI doen terwijl je eigenlijk alles wat je wel snapt daarin zou moeten laten doen, maar kaartseetje gemaakt, zes hoofdcategorieën, die helpen je begrijpen wat AI nou eigenlijk kan capability ga ik dus AI kan kan zien AI kan of AI AI kan het is helemaal maar maar zintuiglijk dingen waarnemen kan zien en kan het bewegendeelt en kan lezen. Dus hij kan dingen zien. Hij kan in data analyseren, ik vergeschote het met je delen als je wilt. Stuur ik dan setje op. En fysiek ding. Waar wilde ik natuurlijk de klein maken. Dus dat helpt heel erg de kaderen in wat binnen een proces wat die technologie dan in die stap zou moeten doen. Dus ik heb hem stappen en dat deelt dingen bijvoorbeeld van oké of die die die vacatures misschien leuker. Kijk wat is dat dan voor vacature En voor wie zou Jan schrikt bij schrikt zijn? Wat zijn dat zijn allemaal interpretaties van wat er in zo'n proces moet. Stapje ik heb een als het goed is dat vandaag morgen we al klaar. En lead magnet tool ben ik in elkaar aan het dingen en systeempje in elkaar aan zetten waar ik op basis van wat is je bedrijfsnaam wat is de sector en wat zijn je bedrijfsactiviteiten. En en en inschatting maakt van en en een rapport maakt van wat zijn nou de meest voor de hand liggende IA use cases binnen jouw sector. Dus ik weet dat je ik zit nu we zitten in kantoor bij een een retail consultant een retail consultant en onderzoeksbureau met q en a en dus naar q en a punt l Wij zitten actief in retail, doen marketing en of we doen onderzoek en strategie. Dus laat ik perplexity zeggen hé wat 
-
-Me: Mhmm. 
-
-Them: zijn bedrijven die dat nou die in die sector opereren wat wat doen die nou precies? En wat zijn nou dingen die stappen en hoe zitten die processen in elkaar. Laat ik hem bijvoorbeeld naar je zegt hey aan de hand van die kaart want dit zijn de dit zijn de zes stappen, hoe zou AI kunnen we werken en dan laat ik processen herontwerven, dan laat ik een rapport schrijven en ik vind de kwaliteit van de output vind ik verbijsterend goed. En en dus wat je daar ziet is als je helder hebt wat je wilt hoe het zou moeten werken dat je baas van eigenlijk drie data punten en een een behoorlijk goed consultant kunt maken. Dus de de de ik denk dat we heel veel van de output die we creëren met zijn allen zeker in het marketing domein als we beter snappen hoe die tot zand komt dat we de processen veel kleiner en veel zeller en veel verkoper kunnen maken en dat we daarna ook moeten leren maar dat tot inzicht allemaal dingen ook anders kunnen gaan doen en ook andere dingen kunnen 
-
-Me: Yeah. 
-
-Them: ik vind met ik heb om gericht getargeten campagnes te maken voor een specifieke doelgroep heb ik helemaal niet zoveel informatie nodig. 
-
-Me: Yep. Leuk. Hé en je, je hebt tussendoor heel veel gehad over dingen maken. Is dat voor jou dat je zegt van oké, wij wij hebben gewoon een IT-afdeling en die ze AI-applicaties aan het bouwen of ben je een vibe-code of doe je dat in tooltjes of even in laten we niet altijd bij stilstaan, maar hoe hoe zet je het nog weer op 
-
-Them: Dus ik heb een we hebben remote een eindje maar het is eigenlijk heel weinig. 
-
-Me: Oké, check duidelijk. Dan wil ik vanuit hier de value-keten echt even induiken hè. Wat zijn nu per of in het algemeen als we dieper willen kunnen we even per use case kijken, maar wat zijn nu de type echt de benefits die je eruit De voordeur in in Nederland. 
-
-Them: Ja, dat is best een somber verhaal vind ik. Organiseert ik Ik denk dat we langetermijn zijn. Ik denk dat we allemaal frees ik aan de beurt zijn en dat we zijn ingericht op de manier waarop we ingericht zijn. En dan zei ik oké, beeldje in capaciteiten maar ook omdat van iemand er zit een ingebakken wantrouwen in dus we overleggen heel veel en wel mijn over dingen controleert de controleur. Dat hele dat hele support stuk dat dat wordt denk ik steeds minder noodzakelijk om dat door mensen te laten doen. Dus ik denk dat de waarde voorlopig zit vooral in efficiëntie. En ik denk dat we voorlopig één nieuwe spannendere dingen gaan maken Ik denk dat we alleen maar snel, ik denk dat de omdat kwaliteit vaak slecht gedefinieerd is of niet gedefinieerd is kwaliteit vergelijken tussen machine en mensen ook niet zo makkelijk. En dan is per inspanning of asset of wat je natuurlijk wilt noemen. Er zal vrij snel leidend zijn. Dus ik denk dat het de waarde zit die zit veel meer in in efficiëntie en in 
-
-Me: Ya, ahí. 
-
-Them: goedkoper dan in iets anders denk ik. 
-
-Me: En je had, je had het even tussen de mondlip en neuslip door over het sportstuk. Wat betekent dat voor jou? 
-
-Them: Nou, dus het wat wij een werk keer op terugkomen is als we als we als we als we definitie hebben van waar oud 
-
-Me: Mhmm. 
-
-Them: aan moet voldoen, maar niet aan hoe dat tot stand moet komen. Dan is een stap als je AI wilt gebruiken dat je ook nadenkt over hoe we tot zand moet komen en als je snapt hoe we tot zand kan komen kan ik heel veel meer geautomateerd laten beoordelen dan dat ik alleen met output beoordeel. Dus je zult ik verwacht dat je in die agent workflows omdat je veel meer en ik ben overigens helemaal geen software-ontwikkelaar, nou dat is goed, maar omdat je veel strakker zit in wat is het wat is het niet hoe werkt het wat is nou hoef je veel minder te praten over of dingen goed zijn of niet want ze komen uit systeem voldoende aan eisen. Is zo'n als de eisen niet goed genoeg blijkt te zijn dan herzie je het systeem. 
-
-Me: No. Yeah. 
-
-Them: Dat betekent dat mijn mening over de output van mijn medewerkers op een heel ander niveau zou plaatsvinden. 
-
-Me: Yep. Ja dus eigenlijk zeg je daarmee van hé voor mij betekent het supportstuk dat dat de organisatie ook echt klaar is. Om AI te admetteren en dan ook vanuit die met de juiste beelden naar te kijken. 
-
-Them: Yeah. And and Ja en en dus je krijgt het maar binnen binnen En wat wil ik nou over zeggen wat is daar nog? We zijn we besteden met zijn allen heel erg veel tijd aan aan aan ondersteuningen, aan controle. 
-
-Me: Mhmm. 
-
-Them: Dus als je naar natuurlijk ook gefascineerd dat je naar als je naar gemiddelde marketing verantwoordelijk vraagt over wat die daar doet. Is dat vrij abstract. Ik ben heel veel aan het vragen en heel veel het praten met mensen wat lever je nou ja kijk ik ik manage de teams, ik ga zeggen, ik support waar ik ze nodig hebben en ik neem beslissing als het nodig is en ik ik zet de lichereelde dus ik de dikwijls uit dus moet ik zou moeten gaan jaarlijk zeggen een een een een een een een daar zit heel veel werk in wat eigenlijk geen werk is. 
-
-Me: Yep. 
-
-Them: Er is heel veel coördinatie. Heel veel defineren van van je doelstellingen. Wat ook uitbesteden heel veel coördinatie zit erin. Die coördinatie op al die nieuwe OCT's niet meer zo nodig. Ik heb nu wel trouwens en dat is een concreet voorbeeld van ooit is mij in ingeprent dat vroeger in mijn carrière door een boze boze strenge daas die het wel gelijk had. Dus als je als je niet hoeft voort te bereiden of je komt zonder te do's een meeting uit dan wil ik je er wel een keer niet meer bij hebben. Dat doorkeer ervoor dat er veel minder meetings waren. Datzelfde gevoel krijg je nu ook. Om de 
+Daar zit heel veel werk in wat eigenlijk geen werk is. Er is heel veel coördinatie. Heel veel defineren van van je doelstellingen, wat zemeestal ook uitbesteden. Heel veel coördinatie zit erin. Die coördinatie op al die niveaus niet meer zo nodig. Ik heb nu wel trouwens en dat is een concreet voorbeeld... Van ooit is mij in ingeprent, dat vroeger, in mijn carrière, door een boze boze strenge baas die eigenlijk wel gelijk had. Als je het niet hoeft voorte bereiden of je komt zonder todos een meeting uit, dan hoef ik je er eigenlijk niet meer bij te hebben. Dat zorgde ervoor dat er veel minder meetings waren. Datzelfde gevoel krijg je nu ook.
 
 Me: En hoe komt dat denk je? 
 
-Them: Omdat we die we uiteindelijk krijg je de de meerwaarde van generatie AI krijg je alleen maar dus als je die black black box openmaakt. 
-
-Me: Yeah. 
-
-Them: Dus als je en het wordt een beetje proces verhaal dus op een gegeven moment, maar de de alles wat ik kan uitleggen en wat ik kan overdragen is niet helemaal waar. Een groot deel van de dingen die ik kan uitleggen die je leggen die kan overdragen waar een heldere definitie kan done is met heldere definitie van escalatie heldere definitie nou ja, het is heel groot. En Die kan ik gaan gaan gaan ondersteunen of helemaal automatiseren. Dus dan is mijn hele die hele support vraag communicatie lager hoe je het wilt noemen die is op een hele andere manier nodig. 
+Them: Omdat we die we uiteindelijk krijg je de de meerwaarde van generative AI krijg je alleen maar dus als je die black black box openmaakt. Dus als je en het wordt een beetje proces verhaal dus vergeef me ook, maar... Alles wat ik kan uitleggen en wat ik kan overdragen (is niet helemaal waar) Een groot deel van de dingen die ik kan uitleggen die je leggen die kan overdragen waar een heldere definitie kan done is met heldere definitie van escalatie heldere definitie nou ja, het is heel groot. En Die kan ik gaan gaan gaan ondersteunen of helemaal automatiseren. Dus dan is mijn hele die hele support vraag communicatie lager hoe je het wilt noemen die is op een hele andere manier nodig. 
 
 Me: Mhmm. 
 
