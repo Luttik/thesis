@@ -24,6 +24,15 @@ npm install -g mermaid-filter @mermaid-js/mermaid-cli
 
 For detailed setup instructions, see [thesis/PANDOC-README.md](thesis/PANDOC-README.md).
 
+### PDF Knowledge Base (Qdrant + MCP)
+
+To use the PDF-to-vector pipeline and MCP in Cursor:
+
+1. **Start Docker Desktop** (required). If you see `open //./pipe/dockerDesktopLinuxEngine: The system cannot find the file specified`, Docker is not running—start Docker Desktop and wait until it is ready.
+2. From the thesis folder: `docker-compose up -d` (starts Qdrant).
+3. Run indexing from the CLI project:  
+   `poetry run pdf-vectordb -C C:\workspace\thesis index` (set `DATALAB_API_KEY` in thesis `.env` first).
+
 ## Research Question
 
 > How do marketing managers create value with agenic AI

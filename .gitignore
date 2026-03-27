@@ -25,3 +25,11 @@ local.env
 Thumbs.db
 
 /thesis/mermaid-images
+# PDF-VectorDB
+.env
+raw-sources/*
+md-sources/*
+qdrant-storage/*
+!raw-sources/.gitkeep
+!md-sources/.gitkeep
+!qdrant-storage/.gitkeep
