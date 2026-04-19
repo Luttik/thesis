@@ -20,9 +20,7 @@ Usage:
 
 import re
 import sqlite3
-import struct
 import subprocess
-import sys
 from pathlib import Path
 
 import typer
@@ -40,7 +38,6 @@ WORKSPACE_ROOT = SKILL_DIR.parent.parent.parent
 ATLAS_CODING_DIR = WORKSPACE_ROOT / "atlas-coding"
 
 ZERO_GUID = b"\x00" * 16
-AML_MAGIC = b"\x99\x40\xa8\xac\x06\x70\x11\x49\x9d\xb3\x64\xb9\xab\x81\x2f\xf1"
 
 # ── Safety checks ─────────────────────────────────────────────────────────────
 
@@ -74,19 +71,6 @@ def find_live_sqlite() -> Path:
 
 
 # ── AML binary builder ────────────────────────────────────────────────────────
-
-
-def encode_aml(text: str) -> bytes:
-    """Build a minimal AML binary blob for plain text content.
-
-    Structure: [16-byte magic][8-byte text_start=24][8-byte GUID placeholder][UTF-16 LE text]
-    This is a simplified AML suitable for descriptions and memos.
-    """
-    text_start = 24  # 16-byte magic + 8-byte offset
-    guid_placeholder = b"\x00" * 16  # 16-byte null GUID (8 UTF-16 chars)
-    text_bytes = (text.strip()).encode("utf-16-le")
-    offset = struct.pack("<q", text_start)
-    return AML_MAGIC + offset + guid_placeholder + text_bytes
 
 
 # ── Markdown parsers ──────────────────────────────────────────────────────────
@@ -265,60 +249,6 @@ def update_entity_name(cur: sqlite3.Cursor, entity_id: bytes, new_name: str) -> 
     cur.execute("UPDATE Entities SET Name = ? WHERE Id = ?", (new_name, entity_id))
 
 
-def upsert_code_description(
-    conn: sqlite3.Connection,
-    cur: sqlite3.Cursor,
-    existing: dict,
-    entity_id: bytes,
-    description: str,
-) -> None:
-    """Update or create the AML content for a code's description."""
-    aml_data = encode_aml(description)
-
-    if existing.get("content_id"):
-        # Update existing Contents row
-        cur.execute(
-            "UPDATE Contents SET Data = ? WHERE Id = ?",
-            (aml_data, existing["content_id"]),
-        )
-    else:
-        # Need to create the full chain: Contents → MediaContentHandles → Media → Comments
-        # Use deterministic IDs based on entity_id to avoid duplicates on re-run
-        import hashlib, os
-
-        def make_id(suffix: str) -> bytes:
-            return hashlib.md5(entity_id + suffix.encode()).digest()
-
-        content_id = make_id("content")
-        mch_id = make_id("mch")
-        media_id = make_id("media")
-        comment_id = make_id("comment")
-
-        cur.execute(
-            "INSERT OR REPLACE INTO Contents(Id, Data) VALUES (?, ?)",
-            (content_id, aml_data),
-        )
-        cur.execute(
-            "INSERT OR REPLACE INTO MediaContentHandles"
-            "(Id, ParentHandleId, Location, LocationType, ContentSize, Compressed, Hash, ContentId)"
-            " VALUES (?, ?, ?, 0, ?, 0, '', ?)",
-            (mch_id, None, None, len(aml_data), content_id),
-        )
-        cur.execute(
-            "INSERT OR REPLACE INTO Media(Id, CurrentContentHandleId, MediaType, FileExtension)"
-            " VALUES (?, ?, 12, 'atext3')",
-            (media_id, mch_id),
-        )
-        cur.execute(
-            "INSERT OR REPLACE INTO Comments(Id, MediumId) VALUES (?, ?)",
-            (comment_id, media_id),
-        )
-        cur.execute(
-            "UPDATE Entities SET CommentId = ? WHERE Id = ?",
-            (comment_id, entity_id),
-        )
-
-
 def update_code_group(
     cur: sqlite3.Cursor,
     tag_id: bytes,
@@ -330,35 +260,14 @@ def update_code_group(
     cur.execute("DELETE FROM TagGroupTags WHERE TagId = ?", (tag_id,))
 
     if new_group_name and new_group_name in group_map:
-        group_id = group_map[new_group_name]
         import os
+
+        group_id = group_map[new_group_name]
         link_id = os.urandom(16)
         cur.execute(
             "INSERT INTO TagGroupTags(Id, TagGroupId, TagId) VALUES (?, ?, ?)",
             (link_id, group_id, tag_id),
         )
-
-
-def update_memo_text(
-    cur: sqlite3.Cursor,
-    memo_id: bytes,
-    text: str,
-) -> None:
-    """Update the AML content for a memo."""
-    aml_data = encode_aml(text)
-    cur.execute(
-        """
-        UPDATE Contents SET Data = ?
-        WHERE Id = (
-            SELECT mch.ContentId
-            FROM Memos mo
-            JOIN Media m   ON mo.MediumId = m.Id
-            JOIN MediaContentHandles mch ON m.CurrentContentHandleId = mch.Id
-            WHERE mo.Id = ?
-        )
-        """,
-        (aml_data, memo_id),
-    )
 
 
 def sync_quotation_codes(
@@ -586,9 +495,10 @@ def get_app_version(cur: sqlite3.Cursor) -> int:
 
 
 def get_code_quotation_relation_type_id(cur: sqlite3.Cursor) -> bytes:
-    """Return the 'Code->Quotation' RelationTypeId that Atlas.ti requires for all code-quotation links."""
+    """Return the 'Code->Quotation' RelationTypeId Atlas.ti requires for code-quotation links."""
     cur.execute(
-        "SELECT r.Id FROM RelationTypes r JOIN Entities e ON r.Id = e.Id WHERE e.Name = 'Code->Quotation'"
+        "SELECT r.Id FROM RelationTypes r "
+        "JOIN Entities e ON r.Id = e.Id WHERE e.Name = 'Code->Quotation'"
     )
     row = cur.fetchone()
     return row[0] if row else ZERO_GUID
@@ -633,7 +543,8 @@ def process_new_quotations(
         doc_info = doc_map.get(clean_name) or doc_map.get(doc_name_raw)
         if not doc_info:
             errors.append(
-                f"{md_file.name}: document not found in Atlas.ti — skipping {len(annotations)} annotation(s)"
+                f"{md_file.name}: document not found in Atlas.ti — "
+                f"skipping {len(annotations)} annotation(s)"
             )
             continue
 
@@ -689,8 +600,9 @@ def process_new_quotations(
                 )
                 # Quotation row + required Entity/ChangeLog rows
                 cur.execute(
-                    """INSERT INTO Quotations(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)
-                    VALUES (?, ?, ?, 0, ?, ?)""",
+                    "INSERT INTO Quotations"
+                    "(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)"
+                    " VALUES (?, ?, ?, 0, ?, ?)",
                     (quot_id, hwm, ann["text"], layer_id, location_id),
                 )
                 create_entity(cur, quot_id, user_id)
