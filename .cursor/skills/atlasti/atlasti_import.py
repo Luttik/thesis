@@ -216,6 +216,7 @@ def get_codes(cur: sqlite3.Cursor) -> list[dict]:
         FROM Tags t
         JOIN Entities e ON t.Id = e.Id
         WHERE t.TagType = 0 AND e.Name IS NOT NULL AND e.Name != ''
+          AND hex(t.ProjectId) != '00000000000000000000000000000000'
         ORDER BY e.Name
         """
     )

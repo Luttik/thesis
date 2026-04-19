@@ -106,6 +106,27 @@ Exact verbatim text copied from below a <!-- seg:N --> marker.
 - Create new code groups (create the group in Atlas.ti first, then reassign codes here)
 - New quotation boundaries for documents that failed AML decoding (see fallback warning in document header)
 
+## Soft-delete mechanism
+
+Atlas.ti does **not** have an `IsDeleted` column. When a code is deleted via the UI, Atlas.ti
+orphans the row by setting `Tags.ProjectId` to the zero GUID
+(`00000000000000000000000000000000`) while leaving the row in the database.
+
+- **Live code**: `Tags.ProjectId = <active project UUID>`
+- **Deleted code**: `Tags.ProjectId = 00000000000000000000000000000000`
+
+The active project UUID can be found with:
+```sql
+SELECT hex(Id) FROM Projects LIMIT 1;
+```
+
+The import script filters these out with `AND hex(t.ProjectId) != '00000000000000000000000000000000'`
+in the `get_codes()` query, so deleted codes never appear in `codebook.md`.
+
+This same pattern applies to any entity type that has a `ProjectId` foreign key in its table
+(Tags, TagGroups, Quotations, Memos, Documents). Always filter on a non-zero `ProjectId`
+when querying those tables.
+
 ### Step 5 — Export back to Atlas.ti
 
 1. **Close Atlas.ti** (required — it holds a write lock on the SQLite)
