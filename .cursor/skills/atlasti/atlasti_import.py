@@ -221,12 +221,15 @@ def get_codes(cur: sqlite3.Cursor) -> list[dict]:
     )
     rows = cur.fetchall()
 
-    # Quotation counts per code
+    # Quotation counts per code — only count Code->Quotation links
     cur.execute(
         """
         SELECT hex(lnk.SourceId), COUNT(*)
         FROM Links lnk
         JOIN Tags t ON lnk.SourceId = t.Id
+        JOIN RelationTypes rt ON lnk.RelationTypeId = rt.Id
+        JOIN Entities e_rt ON rt.Id = e_rt.Id
+        WHERE e_rt.Name = 'Code->Quotation'
         GROUP BY lnk.SourceId
         """
     )

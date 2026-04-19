@@ -56,7 +56,13 @@ This writes to `atlas-coding/`:
 
 ### Step 3 — Read context (agent: do this before every coding task)
 
-**Always read in this order:**
+**Always re-run the import before making any edits.** The `atlas-coding/` folder is a generated snapshot — it becomes stale as soon as Atlas.ti is used directly. Never edit based on an old snapshot.
+
+```powershell
+python .cursor/skills/atlasti/atlasti_import.py
+```
+
+Then read in this order:
 
 1. `atlas-coding/codebook.md` — understand the full coding schema
 2. `atlas-coding/memos.md` — understand the researcher's analytical direction

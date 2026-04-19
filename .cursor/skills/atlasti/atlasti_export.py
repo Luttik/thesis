@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """atlasti_export.py — Push atlas-coding/ Markdown changes back into the live Atlas.ti SQLite.
 
-Editable elements:
-  - Code names            (codebook.md  ## headings)
-  - Code descriptions     (codebook.md  **Description**: lines)
+Editable elements (written back to Atlas.ti):
+  - Code names            (codebook.md  ### headings)
   - Code group membership (codebook.md  **Group**: lines — reassigns to existing groups)
-  - Memo text             (memos.md     body under each ## heading)
-  - Quotation code lists  (quotations/  **Codes**: lines)
+  - Quotation code lists  (quotations/  **Codes**: lines — add/remove codes on existing quotations)
+  - New quotations        (documents/   <!-- quote --> annotations)
+
+Read-only in Cursor (edit directly in Atlas.ti):
+  - Code descriptions     (AML binary format not yet supported for write-back)
+  - Memo text             (AML binary format not yet supported for write-back)
 
 All changes are keyed by the <!-- id: HEX --> anchors — do NOT remove them.
 
@@ -365,6 +368,7 @@ def sync_quotation_codes(
     name_to_id: dict[str, bytes],
     current_codes: dict[bytes, set[bytes]],
     code_quot_rel_type_id: bytes = ZERO_GUID,
+    user_id: bytes = ZERO_GUID,
 ) -> tuple[int, int]:
     """Add/remove code assignments for a quotation. Returns (added, removed)."""
     import os
@@ -391,6 +395,8 @@ def sync_quotation_codes(
             " VALUES (?, ?, ?, ?, ?)",
             (link_id, project_id, tag_id, quot_id, code_quot_rel_type_id),
         )
+        # Every Link needs an Entity row or Atlas.ti won't recognise it
+        create_entity(cur, link_id, user_id)
 
     return len(to_add), len(to_remove)
 
@@ -778,9 +784,7 @@ def main(
 
     stats = {
         "names_changed": 0,
-        "descriptions_set": 0,
         "groups_changed": 0,
-        "memos_updated": 0,
         "quot_codes_added": 0,
         "quot_codes_removed": 0,
         "new_quotations": 0,
@@ -802,11 +806,11 @@ def main(
             if not dry_run:
                 update_entity_name(cur, tag_id, c["name"])
 
-        # Description — only write if non-empty (skip placeholder / untouched codes)
-        if c["description"]:
-            stats["descriptions_set"] += 1
-            if not dry_run:
-                upsert_code_description(conn, cur, ex, tag_id, c["description"])
+        # Description — AML binary write-back is not yet supported (format not fully
+        # reverse-engineered; writing crashes Atlas.ti). Descriptions in codebook.md
+        # are read-only context for the agent; set them manually in Atlas.ti.
+        # if c["description"]:
+        #     upsert_code_description(conn, cur, ex, tag_id, c["description"])
 
         # Group
         if c["group"] is not None:
@@ -818,17 +822,14 @@ def main(
                     update_code_group(cur, tag_id, c["group"], group_map)
 
     # ── Memos ──
-    for m in memos_md:
-        if not m["text"]:
-            continue
-        stats["memos_updated"] += 1
-        if not dry_run:
-            update_memo_text(cur, m["id"], m["text"])
+    # AML binary write-back is not yet supported for memo text.
+    # Memos in memos.md are read context only; edit memo text directly in Atlas.ti.
 
     # ── Quotation code assignments (existing quotations) ──
     for quot_id, desired_names in quots_md.items():
         added, removed = sync_quotation_codes(
-            cur, quot_id, desired_names, name_to_id, current_quot_codes, code_quot_rel_type_id
+            cur, quot_id, desired_names, name_to_id, current_quot_codes,
+            code_quot_rel_type_id, user_id
         )
         if not dry_run or True:  # count even in dry-run
             stats["quot_codes_added"] += added
@@ -849,12 +850,11 @@ def main(
 
     typer.echo("\nSummary:")
     typer.echo(f"  Code names changed:        {stats['names_changed']}")
-    typer.echo(f"  Descriptions set/updated:  {stats['descriptions_set']}")
     typer.echo(f"  Group assignments updated: {stats['groups_changed']}")
-    typer.echo(f"  Memos updated:             {stats['memos_updated']}")
     typer.echo(f"  Quotation codes added:     {stats['quot_codes_added']}")
     typer.echo(f"  Quotation codes removed:   {stats['quot_codes_removed']}")
     typer.echo(f"  New quotations created:    {stats['new_quotations']}")
+    typer.echo("  (Descriptions and memo text: edit directly in Atlas.ti)")
 
     if unknown_groups:
         typer.echo(
