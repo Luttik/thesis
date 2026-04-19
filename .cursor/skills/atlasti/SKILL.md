@@ -97,14 +97,21 @@ Exact verbatim text copied from below a <!-- seg:N --> marker.
 
 **Critical rules for new quotations:**
 1. **Copy text verbatim** — the export script finds the passage by exact string match. Any difference in whitespace, punctuation, or apostrophe style (e.g. `'` vs `'`) will cause the annotation to be skipped with an error.
-2. **Code names must match exactly** — copy from `codebook.md` headings, including capitalisation and punctuation.
-3. **Do not edit `<!-- seg:N -->` markers** — these are used to resolve character positions. If they are removed or changed the lookup will fail.
-4. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
-5. **Fallback documents** (those with a warning about segment numbers being unreliable) cannot have new quotations exported — annotate them as suggestions only.
+2. **Include the speaker prefix** — Atlas.ti paragraphs begin with `[Them]` or `[Me]`. Your verbatim text **must** start from the very beginning of the line, including this prefix. Quoting only a substring that appears mid-line will embed the annotation comment inside the paragraph line, corrupting the structure and causing the export to fail silently.
+3. **Do not annotate mid-paragraph substrings** — if the phrase you want to quote appears in the middle of a long single-line paragraph, either quote from the start of that line or skip the annotation. There is no way to target a mid-line substring.
+4. **Smart quotes and special characters** — the transcripts use Unicode smart apostrophes (`'` U+2019), curly quotes, and ellipsis characters (`…` U+2026). The IDE StrReplace tool will fail on these because it uses ASCII. When annotating programmatically, always read and write the file in Python with `encoding="utf-8"` and use explicit Unicode escapes (e.g. `\u2019`, `\u2026`) in search strings.
+5. **Code names must match exactly** — copy from `codebook.md` headings, including capitalisation and punctuation.
+6. **Do not edit `<!-- seg:N -->` markers** — these are used to resolve character positions. If they are removed or changed the lookup will fail.
+7. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
+8. **Fallback documents** (those with a warning about segment numbers being unreliable) cannot have new quotations exported — annotate them as suggestions only.
 
 **What the agent cannot do directly** (requires Atlas.ti's UI):
 - Create new code groups (create the group in Atlas.ti first, then reassign codes here)
 - New quotation boundaries for documents that failed AML decoding (see fallback warning in document header)
+
+**Auto-created by the export script:**
+- Any code name referenced in a `<!-- quote -->` annotation that does not yet exist in Atlas.ti is **automatically created** as a new top-level code during export. No manual step required.
+- The export is **idempotent**: re-running it will not create duplicate quotations; it detects already-existing quotations by position and only adds missing code links.
 
 ## Soft-delete mechanism
 

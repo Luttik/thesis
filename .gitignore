@@ -36,3 +36,5 @@ qdrant-storage/*
 !raw-sources/.gitkeep
 !md-sources/.gitkeep
 !qdrant-storage/.gitkeep
+
+__pycache__/

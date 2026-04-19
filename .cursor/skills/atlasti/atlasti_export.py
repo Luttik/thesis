@@ -6,10 +6,9 @@ Editable elements (written back to Atlas.ti):
   - Code group membership (codebook.md  **Group**: lines — reassigns to existing groups)
   - Quotation code lists  (quotations/  **Codes**: lines — add/remove codes on existing quotations)
   - New quotations        (documents/   <!-- quote --> annotations)
-
 Read-only in Cursor (edit directly in Atlas.ti):
   - Code descriptions     (AML binary format not yet supported for write-back)
-  - Memo text             (AML binary format not yet supported for write-back)
+  - Memos                 (AML .atext3 format writes crash Atlas.ti — create/edit memos in Atlas.ti UI)
 
 All changes are keyed by the <!-- id: HEX --> anchors — do NOT remove them.
 
@@ -20,6 +19,7 @@ Usage:
 
 import re
 import sqlite3
+import struct
 import subprocess
 from pathlib import Path
 
@@ -353,6 +353,61 @@ def create_entity(
     )
 
 
+# ── New code creation ────────────────────────────────────────────────────────
+
+
+def create_new_code(
+    cur: sqlite3.Cursor,
+    name: str,
+    project_id: bytes,
+    user_id: bytes,
+) -> bytes:
+    """Create a new standalone code (Tag, TagType=0) in Atlas.ti.
+
+    Mirrors the column values observed in existing active codes:
+    - EffectiveType=2  (standalone / no parent)
+    - AllowAdHocValues=1
+    - DateTimeValue='0001-01-01 00:00:00' (Atlas.ti epoch sentinel)
+    - ParentId / PackedTermId = zero GUID
+
+    Returns the new code's ID as bytes.
+    """
+    import os
+
+    code_id = os.urandom(16)
+    create_entity(cur, code_id, user_id, name=name)
+    cur.execute(
+        """INSERT INTO Tags(
+               Id, TagType, LocalName, AllowAdHocValues,
+               MutuallyExclusiveValues, AllowedNumberDecimals, BooleanValue,
+               DateTimeValue, NumberValue, "Order", TextValue,
+               EffectiveType, VariableType, ProjectId, ParentId, PackedTermId)
+           VALUES (?, 0, ?, 1, 0, 0, 0, '0001-01-01 00:00:00', 0.0, 0.0, NULL,
+                   2, 0, ?, ?, ?)""",
+        (code_id, name, project_id, ZERO_GUID, ZERO_GUID),
+    )
+    return code_id
+
+
+def collect_new_code_names(
+    doc_dir: Path,
+    name_to_id: dict[str, bytes],
+) -> list[str]:
+    """Scan all document <!-- quote --> annotations for code names not yet in Atlas.ti.
+
+    Returns an ordered list of unique new code names (preserving first-seen order).
+    """
+    new_names: list[str] = []
+    seen: set[str] = set()
+    for md_file in sorted(doc_dir.glob("*.md")):
+        for ann in parse_quote_annotations(md_file):
+            for code_name in ann["codes"]:
+                if code_name not in name_to_id and code_name not in seen:
+                    new_names.append(code_name)
+                    seen.add(code_name)
+    return new_names
+
+
 # ── New quotation creation ────────────────────────────────────────────────────
 
 _QUOTE_BLOCK_RE = re.compile(
@@ -381,7 +436,7 @@ def load_paragraphs_from_doc_md(doc_md: Path) -> tuple[list[str], bool]:
             while len(paragraphs) <= seg_idx:
                 paragraphs.append("")
             current_seg = seg_idx
-        elif current_seg is not None and line.strip() and not line.startswith(">"):
+        elif current_seg is not None and line.strip() and not line.startswith(">") and not line.strip().startswith("<!--"):
             paragraphs[current_seg] = line.strip()
             current_seg = None
 
@@ -569,45 +624,68 @@ def process_new_quotations(
                 paragraphs, start_seg, start_off, end_seg, end_off
             )
 
+            # ── Idempotency: check if a quotation at this exact position already exists ──
+            existing_quot_id: bytes | None = None
+            cur.execute(
+                """SELECT q.Id FROM Quotations q
+                   JOIN TextLocations tl ON q.LocationId = tl.Id
+                   WHERE q.LayerId = ? AND tl.Interval_FirstIndex = ? AND tl.Interval_LastIndex = ?
+                   LIMIT 1""",
+                (layer_id, first_idx, last_idx),
+            )
+            row = cur.fetchone()
+            if row:
+                existing_quot_id = row[0]
+
             hwm += 1
             location_id = os.urandom(16)
-            quot_id = os.urandom(16)
+            quot_id = existing_quot_id or os.urandom(16)
 
             if not dry_run:
-                # Locations row
-                cur.execute(
-                    "INSERT INTO Locations(Id, AppVersion) VALUES (?, ?)",
-                    (location_id, app_version),
-                )
-                # TextLocations row
-                cur.execute(
-                    """INSERT INTO TextLocations(
-                        Id, StartElementId, StartOffset, EndElementId, EndOffset,
-                        StartParagraphNumber, EndParagraphNumber,
-                        Interval_FirstIndex, Interval_LastIndex
-                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
-                    (
-                        location_id,
-                        -2 * atlas_start_para,
-                        start_off,
-                        -2 * atlas_end_para,
-                        end_off,
-                        atlas_start_para,
-                        atlas_end_para,
-                        first_idx,
-                        last_idx,
-                    ),
-                )
-                # Quotation row + required Entity/ChangeLog rows
-                cur.execute(
-                    "INSERT INTO Quotations"
-                    "(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)"
-                    " VALUES (?, ?, ?, 0, ?, ?)",
-                    (quot_id, hwm, ann["text"], layer_id, location_id),
-                )
-                create_entity(cur, quot_id, user_id)
+                if existing_quot_id:
+                    # Quotation already exists — only add missing code links below
+                    hwm -= 1  # don't advance the highwater mark
+                else:
+                    # Locations row
+                    cur.execute(
+                        "INSERT INTO Locations(Id, AppVersion) VALUES (?, ?)",
+                        (location_id, app_version),
+                    )
+                    # TextLocations row
+                    cur.execute(
+                        """INSERT INTO TextLocations(
+                            Id, StartElementId, StartOffset, EndElementId, EndOffset,
+                            StartParagraphNumber, EndParagraphNumber,
+                            Interval_FirstIndex, Interval_LastIndex
+                        ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                        (
+                            location_id,
+                            -2 * atlas_start_para,
+                            start_off,
+                            -2 * atlas_end_para,
+                            end_off,
+                            atlas_start_para,
+                            atlas_end_para,
+                            first_idx,
+                            last_idx,
+                        ),
+                    )
+                    # Quotation row + required Entity/ChangeLog rows
+                    cur.execute(
+                        "INSERT INTO Quotations"
+                        "(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)"
+                        " VALUES (?, ?, ?, 0, ?, ?)",
+                        (quot_id, hwm, ann["text"], layer_id, location_id),
+                    )
+                    create_entity(cur, quot_id, user_id)
 
                 # Link rows (one per code) + required Entity/ChangeLog rows
+                # Fetch already-linked codes to avoid duplicate links
+                cur.execute(
+                    "SELECT SourceId FROM Links WHERE TargetId = ?", (quot_id,)
+                )
+                already_linked: set[bytes] = {r[0] for r in cur.fetchall()}
+
                 for code_name in ann["codes"]:
                     tag_id = name_to_id.get(code_name)
                     if not tag_id:
@@ -615,6 +693,8 @@ def process_new_quotations(
                             f"  Code not found: {code_name!r} — link skipped for this quotation"
                         )
                         continue
+                    if tag_id in already_linked:
+                        continue  # already linked — skip
                     link_id = os.urandom(16)
                     cur.execute(
                         "INSERT INTO Links(Id, ProjectId, SourceId, TargetId, RelationTypeId)"
@@ -623,7 +703,8 @@ def process_new_quotations(
                     )
                     create_entity(cur, link_id, user_id)
 
-            created += 1
+            if not existing_quot_id:
+                created += 1
 
         if not dry_run and hwm != doc_info["hwm"]:
             cur.execute(
@@ -631,6 +712,116 @@ def process_new_quotations(
                 (hwm, doc_info["id"]),
             )
             doc_info["hwm"] = hwm  # update in-memory for subsequent annotations
+
+    return created, errors
+
+
+# ── Memo creation ─────────────────────────────────────────────────────────────
+
+# AML magic header shared by all Atlas.ti text content blobs (memos, descriptions).
+_AML_MAGIC = bytes.fromhex("9940a8ac067011499db364b9ab812ff1")
+
+
+def encode_text_aml(text: str) -> bytes:
+    """Encode plain text into a minimal Atlas.ti AML binary blob.
+
+    Format (verified against existing memo blobs in the SQLite database):
+      [16-byte magic][8-byte text_start=24 (LE int64)]
+      [16-byte zero GUID][UTF-16-LE text — NO sentinel]
+
+    Existing memos do NOT end with a U+FFFE/U+FFFF sentinel; the text simply
+    ends at the blob boundary.  MediaType must be 12 and FileExtension 'atext3'.
+    """
+    text_start = 24  # header(16) + text_start_field(8); no offset table for plain text
+    return (
+        _AML_MAGIC
+        + struct.pack("<q", text_start)
+        + bytes(16)                    # zero GUID (16 bytes = 8 zero UTF-16 chars)
+        + text.encode("utf-16-le")     # text only — no sentinel
+    )
+
+
+def _get_existing_memo_ids(cur: sqlite3.Cursor) -> set[bytes]:
+    cur.execute("SELECT Id FROM Memos")
+    return {row[0] for row in cur.fetchall()}
+
+
+def _get_default_memo_type_id(cur: sqlite3.Cursor, project_id: bytes) -> bytes | None:
+    """Return the first MemoTypeId for this project (Atlas.ti requires one)."""
+    cur.execute(
+        "SELECT Id FROM MemoTypes WHERE ProjectId = ? LIMIT 1", (project_id,)
+    )
+    row = cur.fetchone()
+    return row[0] if row else None
+
+
+def push_new_memos(
+    cur: sqlite3.Cursor,
+    memos_md: list[dict],
+    user_id: bytes,
+    project_id: bytes,
+    dry_run: bool,
+) -> tuple[int, list[str]]:
+    """Create new memos in Atlas.ti for any memo whose ID does not yet exist there.
+
+    Memos whose ID already exists in Atlas.ti are skipped (text update via AML
+    write-back is handled separately; existing text is not overwritten here).
+    """
+    import os
+
+    existing_ids = _get_existing_memo_ids(cur)
+    memo_type_id = _get_default_memo_type_id(cur, project_id)
+    created = 0
+    errors: list[str] = []
+
+    for memo in memos_md:
+        memo_id: bytes | None = memo.get("id")
+        if not memo_id or memo_id in existing_ids:
+            continue  # already in Atlas.ti
+
+        name = memo.get("name", "Untitled").strip()
+        text = memo.get("text", "").strip()
+        if not text:
+            errors.append(f"New memo '{name}': empty body — skipping.")
+            continue
+        if memo_type_id is None:
+            errors.append(f"New memo '{name}': no MemoType found for project — skipping.")
+            continue
+
+        aml_data = encode_text_aml(text)
+
+        if dry_run:
+            typer.echo(f"  [DRY] Would create memo: '{name}' ({len(aml_data)} bytes AML)")
+            created += 1
+            continue
+
+        content_id = os.urandom(16)
+        mch_id = os.urandom(16)
+        media_id = os.urandom(16)
+
+        cur.execute(
+            "INSERT INTO Contents(Id, Data) VALUES (?, ?)",
+            (content_id, aml_data),
+        )
+        cur.execute(
+            """INSERT INTO MediaContentHandles
+               (Id, ParentHandleId, Location, LocationType, ContentSize, Compressed, Hash, ContentId)
+               VALUES (?, ?, NULL, 0, ?, 0, NULL, ?)""",
+            (mch_id, ZERO_GUID, len(aml_data), content_id),
+        )
+        cur.execute(
+            """INSERT INTO Media
+               (Id, CurrentContentHandleId, MediaType, FileExtension, PredecessorLinkId)
+               VALUES (?, ?, 12, 'atext3', ?)""",
+            (media_id, mch_id, ZERO_GUID),
+        )
+        cur.execute(
+            "INSERT INTO Memos(Id, MediumId, MemoTypeId, ProjectId) VALUES (?, ?, ?, ?)",
+            (memo_id, media_id, memo_type_id, project_id),
+        )
+        create_entity(cur, memo_id, user_id, name=name)
+
+        created += 1
 
     return created, errors
 
@@ -697,12 +888,28 @@ def main(
     stats = {
         "names_changed": 0,
         "groups_changed": 0,
+        "new_codes": 0,
         "quot_codes_added": 0,
         "quot_codes_removed": 0,
         "new_quotations": 0,
+        "new_memos": 0,
         "skipped": 0,
     }
     unknown_groups: set[str] = set()
+
+    # ── Auto-create codes that appear in annotations but don't exist in Atlas.ti ──
+    if doc_dir.exists():
+        new_code_names = collect_new_code_names(doc_dir, name_to_id)
+        for code_name in new_code_names:
+            stats["new_codes"] += 1
+            if dry_run:
+                typer.echo(f"  [DRY] Would create code: '{code_name}'")
+                # Add a sentinel so dry-run quotation processing doesn't report spurious errors
+                name_to_id[code_name] = ZERO_GUID
+            else:
+                new_id = create_new_code(cur, code_name, project_id, user_id)
+                name_to_id[code_name] = new_id
+                typer.echo(f"  Created code: '{code_name}'")
 
     # ── Codes ──
     for c in codes_md:
@@ -734,8 +941,15 @@ def main(
                     update_code_group(cur, tag_id, c["group"], group_map)
 
     # ── Memos ──
-    # AML binary write-back is not yet supported for memo text.
-    # Memos in memos.md are read context only; edit memo text directly in Atlas.ti.
+    # Memo write-back is permanently disabled. The .atext3 binary format written
+    # by Atlas.ti includes structure beyond raw UTF-16 text (the ContentSize in
+    # MediaContentHandles is 344+ bytes larger than the blob in Contents.Data,
+    # and the Hash value does not match any standard algorithm applied to the
+    # stored blob). Writing a minimal blob crashes Atlas.ti on open.
+    # Create new memos directly in Atlas.ti's UI, then re-import to sync.
+    new_memo_errors: list[str] = []
+    n_memos_created = 0
+    stats["new_memos"] = 0
 
     # ── Quotation code assignments (existing quotations) ──
     for quot_id, desired_names in quots_md.items():
@@ -761,12 +975,13 @@ def main(
     conn.close()
 
     typer.echo("\nSummary:")
+    typer.echo(f"  New codes created:         {stats['new_codes']}")
     typer.echo(f"  Code names changed:        {stats['names_changed']}")
     typer.echo(f"  Group assignments updated: {stats['groups_changed']}")
     typer.echo(f"  Quotation codes added:     {stats['quot_codes_added']}")
     typer.echo(f"  Quotation codes removed:   {stats['quot_codes_removed']}")
     typer.echo(f"  New quotations created:    {stats['new_quotations']}")
-    typer.echo("  (Descriptions and memo text: edit directly in Atlas.ti)")
+    typer.echo(f"  New memos created:         {stats['new_memos']}")
 
     if unknown_groups:
         typer.echo(
@@ -777,6 +992,11 @@ def main(
     if new_quot_errors:
         typer.echo(f"\nNew quotation warnings ({len(new_quot_errors)}):")
         for e in new_quot_errors:
+            typer.echo(f"  - {e}")
+
+    if new_memo_errors:
+        typer.echo(f"\nNew memo warnings ({len(new_memo_errors)}):")
+        for e in new_memo_errors:
             typer.echo(f"  - {e}")
 
     if dry_run:

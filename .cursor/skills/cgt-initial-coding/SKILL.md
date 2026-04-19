@@ -58,7 +58,9 @@ quotation covering it. For each meaningful passage:
 1. Check `codebook.md` for an existing code that fits. If one fits well, use it — even
    if it was not previously used on this document.
 2. If no existing code fits, create a new code. Name it as a gerund phrase. Write a
-   brief code memo for it (see Step 4).
+   brief code memo for it (see Step 4). **New codes referenced in `<!-- quote -->`
+   annotations are automatically created in Atlas.ti by the export script — no
+   manual Atlas.ti step required.**
 3. If an existing code is close but not quite right, note this as a candidate for
    renaming in focused coding — do not rename it now.
 
