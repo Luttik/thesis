@@ -1,6 +1,9 @@
 # Pandoc output directory
 output/
 
+# Atlas.ti Cursor workspace — generated from SQLite, not source of truth
+atlas-coding/
+
 # Temporary files
 temp-reference.md
 

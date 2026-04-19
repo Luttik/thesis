@@ -1,0 +1,31 @@
+---
+description: Always sync (git push) the Atlas.ti project files to GitHub before any AI augmentation work
+alwaysApply: true
+---
+
+# Atlas.ti Backup Sync — Push Before AI Work
+
+The live Atlas.ti project database lives **outside** this workspace:
+
+```
+C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25\
+```
+
+This folder has its own git repo with remote `origin` → `https://github.com/Luttik/atlas-thesis-backup` (private).
+
+## Rule
+
+**Before augmenting any Atlas.ti data with AI** (editing codes, memos, quotations, or running import/export scripts), always ensure the latest Atlas.ti files are pushed to the backup repo.
+
+Run this first:
+
+```powershell
+cd "C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25"
+git add .
+git commit -m "Sync before AI augmentation $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git push
+```
+
+If there is nothing to commit, confirm with `git status` that the working tree is clean before proceeding.
+
+> **Why**: Atlas.ti has no undo for external changes. A pushed backup before any AI-driven edits ensures you can always recover the exact pre-edit state.
