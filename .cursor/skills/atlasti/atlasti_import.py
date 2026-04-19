@@ -95,6 +95,50 @@ def read_aml_file(location: str) -> str:
         return ""
 
 
+def decode_aml_paragraphs(data: bytes) -> list[str]:
+    """Decode AML binary blob into a list of paragraphs (preserving \u2029 boundaries).
+
+    Each entry is one paragraph's text. Paragraph index i matches Atlas.ti's
+    StartParagraphNumber / EndParagraphNumber fields in TextLocations.
+    """
+    if not data or len(data) < 24:
+        return []
+    text_start = struct.unpack_from("<q", data, 16)[0]
+    if text_start < 24 or text_start >= len(data):
+        return []
+
+    raw = data[text_start:].decode("utf-16-le", errors="ignore")
+    raw = raw[8:]  # skip 16-byte GUID (8 UTF-16 chars)
+    raw = _AML_LEAD_RE.sub("", raw)
+    raw = _AML_SENTINEL_RE.sub("", raw)
+    raw = _CTRL_RE.sub(" ", raw)
+    raw = _MULTI_SPACE.sub(" ", raw)
+
+    parts = raw.split("\u2029")
+
+    # Strip trailing artifact-only paragraphs (same logic as decode_aml)
+    while parts:
+        stripped = parts[-1].strip()
+        tokens = stripped.split()
+        if stripped and all(len(t) <= 3 for t in tokens) and len(tokens) <= 6:
+            parts.pop()
+        else:
+            break
+
+    return [p.strip() for p in parts]
+
+
+def read_aml_file_paragraphs(location: str) -> list[str]:
+    """Return paragraph list from an AML content file by its GUID location string."""
+    path = LOCAL_CONTENTS / location
+    if not path.exists():
+        return []
+    try:
+        return decode_aml_paragraphs(path.read_bytes())
+    except Exception:
+        return []
+
+
 # ── SQLite helpers ───────────────────────────────────────────────────────────
 
 ZERO_GUID = b"\x00" * 16
@@ -421,48 +465,76 @@ def write_quotations(quotations: list[dict], out_dir: Path) -> None:
 
 
 def write_documents(documents: list[dict], out_dir: Path, warnings: list[str]) -> None:
-    """Write full interview text under atlas-coding/documents/."""
+    """Write full interview text under atlas-coding/documents/.
+
+    Each paragraph is preceded by a <!-- seg:N --> marker so the export script
+    can look up exact paragraph numbers and character offsets when processing
+    <!-- quote --> annotations.
+    """
     doc_dir = out_dir / "documents"
     doc_dir.mkdir(exist_ok=True)
 
     for doc in documents:
         safe = re.sub(r'[<>:"/\\|?*]', "_", doc["name"])
-        text = ""
+        paragraphs: list[str] = []
+        used_fallback = False
 
         if doc["location"]:
-            text = read_aml_file(doc["location"])
+            paragraphs = read_aml_file_paragraphs(doc["location"])
 
-        if not text:
+        if not paragraphs:
             # Fallback: search transcripts/ for a matching file by stem similarity
             stem = Path(doc["name"]).stem.lower()
             for md in TRANSCRIPTS_DIR.glob("*.md"):
                 if stem in md.stem.lower() or md.stem.lower() in stem:
-                    text = md.read_text(encoding="utf-8")
+                    # Treat each non-empty line as a paragraph for the fallback
+                    raw_text = md.read_text(encoding="utf-8")
+                    paragraphs = [
+                        ln for ln in raw_text.splitlines() if ln.strip()
+                    ]
+                    used_fallback = True
                     warnings.append(
                         f"Document '{doc['name']}': used fallback transcript '{md.name}' "
-                        "(AML decode failed or no content file found)"
+                        "(AML decode failed or no content file found). "
+                        "Segment numbers may not match Atlas.ti — new quotations from this "
+                        "document will be skipped."
                     )
                     break
 
-        if not text:
+        if not paragraphs:
             warnings.append(
                 f"Document '{doc['name']}': could not extract text "
                 "(no content file and no matching transcript fallback)"
             )
-            text = "*(text unavailable — open document in Atlas.ti)*"
+            paragraphs = ["*(text unavailable — open document in Atlas.ti)*"]
 
         header = [
             f"# {doc['name']}",
             "",
-            "> **Read-only** — this is the interview text as stored in Atlas.ti.",
-            "> To add new quotations, highlight text in Atlas.ti's document editor.",
-            "",
-            "---",
-            "",
+            "> **Agent instructions**: Read this document and add `<!-- quote -->` annotations",
+            "> to passages you want to code. Segment numbers (`<!-- seg:N -->`) are used by",
+            "> the export script to locate the text in Atlas.ti — do not edit them.",
         ]
-        (doc_dir / f"{safe}.md").write_text(
-            "\n".join(header) + text, encoding="utf-8"
-        )
+        if used_fallback:
+            header.append(
+                "> **Warning**: This document uses a fallback transcript. "
+                "Segment numbers will NOT match Atlas.ti — new quotation exports are disabled."
+            )
+        header += ["", "---", ""]
+
+        # Emit paragraphs with seg markers
+        body_lines: list[str] = []
+        for i, para in enumerate(paragraphs):
+            body_lines.append(f"<!-- seg:{i} -->")
+            body_lines.append(para)
+            body_lines.append("")
+
+        content = "\n".join(header) + "\n" + "\n".join(body_lines)
+        (doc_dir / f"{safe}.md").write_text(content, encoding="utf-8")
+
+        # Store paragraph count in doc dict for reference
+        doc["paragraph_count"] = len(paragraphs)
+        doc["used_fallback"] = used_fallback
 
 
 # ── Main command ─────────────────────────────────────────────────────────────

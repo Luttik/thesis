@@ -364,6 +364,7 @@ def sync_quotation_codes(
     desired_names: list[str],
     name_to_id: dict[str, bytes],
     current_codes: dict[bytes, set[bytes]],
+    code_quot_rel_type_id: bytes = ZERO_GUID,
 ) -> tuple[int, int]:
     """Add/remove code assignments for a quotation. Returns (added, removed)."""
     import os
@@ -382,17 +383,338 @@ def sync_quotation_codes(
 
     for tag_id in to_add:
         link_id = os.urandom(16)
-        # ProjectId: get from first tag
         cur.execute("SELECT ProjectId FROM Tags WHERE Id = ? LIMIT 1", (tag_id,))
         row = cur.fetchone()
         project_id = row[0] if row else ZERO_GUID
         cur.execute(
             "INSERT INTO Links(Id, ProjectId, SourceId, TargetId, RelationTypeId)"
             " VALUES (?, ?, ?, ?, ?)",
-            (link_id, project_id, tag_id, quot_id, ZERO_GUID),
+            (link_id, project_id, tag_id, quot_id, code_quot_rel_type_id),
         )
 
     return len(to_add), len(to_remove)
+
+
+# ── Entity / ChangeLog helpers ───────────────────────────────────────────────
+
+def _get_user_id(cur: sqlite3.Cursor) -> bytes:
+    """Return the primary user (OwnerId) for new entities."""
+    cur.execute(
+        "SELECT OwnerId FROM Entities WHERE OwnerId != ? LIMIT 1",
+        (ZERO_GUID,),
+    )
+    row = cur.fetchone()
+    return row[0] if row else ZERO_GUID
+
+
+def create_entity(
+    cur: sqlite3.Cursor,
+    obj_id: bytes,
+    user_id: bytes,
+    name: str | None = None,
+) -> None:
+    """Create ChangeLogEntries + ChangeLogs + Entities rows for any new Atlas.ti object."""
+    import os
+    from datetime import datetime, timezone
+
+    now = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M:%S.%f")
+    entry_id = os.urandom(16)
+    changelog_id = os.urandom(16)
+
+    cur.execute(
+        "INSERT OR IGNORE INTO ChangeLogEntries"
+        "(Id, Timestamp, AuthorId, ChangeLogEntryType, ChangeLogId) VALUES (?,?,?,0,?)",
+        (entry_id, now, user_id, changelog_id),
+    )
+    cur.execute(
+        "INSERT OR IGNORE INTO ChangeLogs"
+        "(Id, CreationEntryId, LastModificationEntryId) VALUES (?,?,?)",
+        (changelog_id, entry_id, ZERO_GUID),
+    )
+    cur.execute(
+        "INSERT OR IGNORE INTO Entities"
+        "(Id, Name, OwnerId, ChangeLogId, CommentId, ColorDefinitionId) VALUES (?,?,?,?,?,?)",
+        (obj_id, name, user_id, changelog_id, ZERO_GUID, ZERO_GUID),
+    )
+
+
+# ── New quotation creation ────────────────────────────────────────────────────
+
+_QUOTE_BLOCK_RE = re.compile(
+    r"<!--\s*quote:\s*(?P<codes>[^-]+?)\s*-->\s*\n(?P<text>.*?)\n<!--\s*/quote\s*-->",
+    re.DOTALL,
+)
+_SEG_LINE_RE = re.compile(r"^<!--\s*seg:(\d+)\s*-->$")
+_FALLBACK_WARNING_RE = re.compile(r"Segment numbers will NOT match")
+
+
+def load_paragraphs_from_doc_md(doc_md: Path) -> tuple[list[str], bool]:
+    """Parse a seg-annotated document MD file into an ordered list of paragraphs.
+
+    Returns (paragraphs, is_fallback). Fallback documents have unreliable seg numbers.
+    """
+    lines = doc_md.read_text(encoding="utf-8").splitlines()
+    paragraphs: list[str] = []
+    is_fallback = any(_FALLBACK_WARNING_RE.search(ln) for ln in lines)
+    current_seg: int | None = None
+
+    for line in lines:
+        m = _SEG_LINE_RE.match(line)
+        if m:
+            seg_idx = int(m.group(1))
+            # Ensure list is large enough (fill gaps with empty strings)
+            while len(paragraphs) <= seg_idx:
+                paragraphs.append("")
+            current_seg = seg_idx
+        elif current_seg is not None and line.strip() and not line.startswith(">"):
+            paragraphs[current_seg] = line.strip()
+            current_seg = None
+
+    return paragraphs, is_fallback
+
+
+def parse_quote_annotations(doc_md: Path) -> list[dict]:
+    """Parse <!-- quote: `Code A`, `Code B` --> ... <!-- /quote --> blocks."""
+    text = doc_md.read_text(encoding="utf-8")
+    annotations = []
+    for m in _QUOTE_BLOCK_RE.finditer(text):
+        raw_codes = m.group("codes")
+        code_names = [c.strip() for c in re.findall(r"`([^`]+)`", raw_codes)]
+        quote_text = m.group("text").strip()
+        # Strip seg markers that may be inside the quote block
+        quote_text = re.sub(r"<!--\s*seg:\d+\s*-->\n?", "", quote_text).strip()
+        if code_names and quote_text:
+            annotations.append({"codes": code_names, "text": quote_text})
+    return annotations
+
+
+def find_text_in_paragraphs(
+    paragraphs: list[str], search_text: str
+) -> tuple[int, int, int, int] | None:
+    """Locate search_text in the paragraph list.
+
+    Returns (start_seg_0based, start_offset, end_seg_0based, end_offset) or None.
+    Offsets are 0-based character positions within the paragraph.
+    """
+    # Build a flat view joining with \u2029 (single char separator, as Atlas.ti does)
+    full = "\u2029".join(paragraphs)
+    idx = full.find(search_text)
+    if idx == -1:
+        return None
+
+    end_idx = idx + len(search_text) - 1
+
+    # Convert flat index to (segment, offset)
+    def flat_to_seg_off(flat_idx: int) -> tuple[int, int]:
+        cum = 0
+        for i, para in enumerate(paragraphs):
+            para_end = cum + len(para)
+            if flat_idx <= para_end:
+                return i, flat_idx - cum
+            cum = para_end + 1  # +1 for the \u2029 separator
+        return len(paragraphs) - 1, flat_idx - cum
+
+    start_seg, start_off = flat_to_seg_off(idx)
+    end_seg, end_off = flat_to_seg_off(end_idx)
+    return start_seg, start_off, end_seg, end_off
+
+
+def compute_intervals(
+    paragraphs: list[str],
+    start_seg: int,
+    start_off: int,
+    end_seg: int,
+    end_off: int,
+) -> tuple[int, int]:
+    """Compute Interval_FirstIndex and Interval_LastIndex.
+
+    These are absolute character positions treating the document as paragraphs
+    joined by single \u2029 separators.
+    """
+    cum = 0
+    seg_starts: list[int] = []
+    for para in paragraphs:
+        seg_starts.append(cum)
+        cum += len(para) + 1  # +1 for \u2029
+
+    # Atlas.ti's interval_first uses a +1 offset relative to the flat char index
+    # (empirically confirmed: all existing quotations show interval_first = cumulative + offset + 1)
+    # interval_last uses no such offset.
+    first_idx = seg_starts[start_seg] + start_off + 1
+    last_idx = seg_starts[end_seg] + end_off
+    return first_idx, last_idx
+
+
+def get_document_map(cur: sqlite3.Cursor) -> dict[str, dict]:
+    """Return {doc_name: {id, layer_id, hwm}} for all documents."""
+    cur.execute(
+        """
+        SELECT e.Name, hex(d.Id), d.QuotationHighwaterMark, hex(l.Id), hex(d.MediumId)
+        FROM Documents d
+        JOIN Entities e ON d.Id = e.Id
+        JOIN Layers l ON l.DocumentId = d.Id
+        """
+    )
+    result: dict[str, dict] = {}
+    for name, doc_hex, hwm, layer_hex, medium_hex in cur.fetchall():
+        if name and name not in result:  # take first layer per doc name
+            result[name] = {
+                "id": bytes.fromhex(doc_hex),
+                "layer_id": bytes.fromhex(layer_hex),
+                "hwm": hwm or 0,
+                "medium_id": bytes.fromhex(medium_hex),
+            }
+    return result
+
+
+def get_project_id(cur: sqlite3.Cursor) -> bytes:
+    cur.execute("SELECT Id FROM Projects LIMIT 1")
+    row = cur.fetchone()
+    return row[0] if row else ZERO_GUID
+
+
+def get_app_version(cur: sqlite3.Cursor) -> int:
+    cur.execute("SELECT AppVersion FROM Locations LIMIT 1")
+    row = cur.fetchone()
+    return row[0] if row else 419430402  # Atlas.ti 25 default
+
+
+def get_code_quotation_relation_type_id(cur: sqlite3.Cursor) -> bytes:
+    """Return the 'Code->Quotation' RelationTypeId that Atlas.ti requires for all code-quotation links."""
+    cur.execute(
+        "SELECT r.Id FROM RelationTypes r JOIN Entities e ON r.Id = e.Id WHERE e.Name = 'Code->Quotation'"
+    )
+    row = cur.fetchone()
+    return row[0] if row else ZERO_GUID
+
+
+def process_new_quotations(
+    cur: sqlite3.Cursor,
+    doc_dir: Path,
+    doc_map: dict[str, dict],
+    name_to_id: dict[str, bytes],
+    project_id: bytes,
+    app_version: int,
+    code_quot_rel_type_id: bytes,
+    user_id: bytes,
+    dry_run: bool,
+) -> tuple[int, list[str]]:
+    """Process all <!-- quote --> annotations in documents/*.md.
+
+    Returns (quotations_created, error_messages).
+    """
+    import os
+
+    created = 0
+    errors: list[str] = []
+
+    for md_file in sorted(doc_dir.glob("*.md")):
+        doc_name_raw = md_file.stem  # e.g. "Thesis transcript Berfun Goodwin"
+        annotations = parse_quote_annotations(md_file)
+        if not annotations:
+            continue
+
+        paragraphs, is_fallback = load_paragraphs_from_doc_md(md_file)
+        if is_fallback:
+            errors.append(
+                f"{md_file.name}: skipping {len(annotations)} annotation(s) — "
+                "fallback transcript (segment numbers unreliable)"
+            )
+            continue
+
+        # Match doc_name_raw to a document in Atlas.ti (strip trailing (hex) suffix)
+        clean_name = re.sub(r"\s*\([0-9a-f]{8}\)$", "", doc_name_raw)
+        doc_info = doc_map.get(clean_name) or doc_map.get(doc_name_raw)
+        if not doc_info:
+            errors.append(
+                f"{md_file.name}: document not found in Atlas.ti — skipping {len(annotations)} annotation(s)"
+            )
+            continue
+
+        hwm = doc_info["hwm"]
+        layer_id = doc_info["layer_id"]
+
+        for ann in annotations:
+            pos = find_text_in_paragraphs(paragraphs, ann["text"])
+            if pos is None:
+                errors.append(
+                    f"{md_file.name}: text not found in document — "
+                    f"skipping quote: {ann['text'][:60]!r}"
+                )
+                continue
+
+            start_seg, start_off, end_seg, end_off = pos
+            # Atlas.ti uses 1-based paragraph numbers
+            atlas_start_para = start_seg + 1
+            atlas_end_para = end_seg + 1
+
+            first_idx, last_idx = compute_intervals(
+                paragraphs, start_seg, start_off, end_seg, end_off
+            )
+
+            hwm += 1
+            location_id = os.urandom(16)
+            quot_id = os.urandom(16)
+
+            if not dry_run:
+                # Locations row
+                cur.execute(
+                    "INSERT INTO Locations(Id, AppVersion) VALUES (?, ?)",
+                    (location_id, app_version),
+                )
+                # TextLocations row
+                cur.execute(
+                    """INSERT INTO TextLocations(
+                        Id, StartElementId, StartOffset, EndElementId, EndOffset,
+                        StartParagraphNumber, EndParagraphNumber,
+                        Interval_FirstIndex, Interval_LastIndex
+                    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
+                    (
+                        location_id,
+                        -2 * atlas_start_para,
+                        start_off,
+                        -2 * atlas_end_para,
+                        end_off,
+                        atlas_start_para,
+                        atlas_end_para,
+                        first_idx,
+                        last_idx,
+                    ),
+                )
+                # Quotation row + required Entity/ChangeLog rows
+                cur.execute(
+                    """INSERT INTO Quotations(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)
+                    VALUES (?, ?, ?, 0, ?, ?)""",
+                    (quot_id, hwm, ann["text"], layer_id, location_id),
+                )
+                create_entity(cur, quot_id, user_id)
+
+                # Link rows (one per code) + required Entity/ChangeLog rows
+                for code_name in ann["codes"]:
+                    tag_id = name_to_id.get(code_name)
+                    if not tag_id:
+                        errors.append(
+                            f"  Code not found: {code_name!r} — link skipped for this quotation"
+                        )
+                        continue
+                    link_id = os.urandom(16)
+                    cur.execute(
+                        "INSERT INTO Links(Id, ProjectId, SourceId, TargetId, RelationTypeId)"
+                        " VALUES (?, ?, ?, ?, ?)",
+                        (link_id, project_id, tag_id, quot_id, code_quot_rel_type_id),
+                    )
+                    create_entity(cur, link_id, user_id)
+
+            created += 1
+
+        if not dry_run and hwm != doc_info["hwm"]:
+            cur.execute(
+                "UPDATE Documents SET QuotationHighwaterMark = ? WHERE Id = ?",
+                (hwm, doc_info["id"]),
+            )
+            doc_info["hwm"] = hwm  # update in-memory for subsequent annotations
+
+    return created, errors
 
 
 # ── Main command ──────────────────────────────────────────────────────────────
@@ -423,6 +745,7 @@ def main(
     codebook_path = coding_dir / "codebook.md"
     memos_path = coding_dir / "memos.md"
     quot_dir = coding_dir / "quotations"
+    doc_dir = coding_dir / "documents"
 
     typer.echo(f"Reading:  {coding_dir}")
     typer.echo(f"Writing:  {sqlite_path}")
@@ -447,6 +770,11 @@ def main(
     group_map = get_group_map(cur)
     name_to_id = get_code_name_to_id(cur)
     current_quot_codes = get_quotation_current_codes(cur)
+    doc_map = get_document_map(cur)
+    project_id = get_project_id(cur)
+    app_version = get_app_version(cur)
+    code_quot_rel_type_id = get_code_quotation_relation_type_id(cur)
+    user_id = _get_user_id(cur)
 
     stats = {
         "names_changed": 0,
@@ -455,6 +783,7 @@ def main(
         "memos_updated": 0,
         "quot_codes_added": 0,
         "quot_codes_removed": 0,
+        "new_quotations": 0,
         "skipped": 0,
     }
     unknown_groups: set[str] = set()
@@ -496,14 +825,23 @@ def main(
         if not dry_run:
             update_memo_text(cur, m["id"], m["text"])
 
-    # ── Quotation code assignments ──
+    # ── Quotation code assignments (existing quotations) ──
     for quot_id, desired_names in quots_md.items():
         added, removed = sync_quotation_codes(
-            cur, quot_id, desired_names, name_to_id, current_quot_codes
+            cur, quot_id, desired_names, name_to_id, current_quot_codes, code_quot_rel_type_id
         )
         if not dry_run or True:  # count even in dry-run
             stats["quot_codes_added"] += added
             stats["quot_codes_removed"] += removed
+
+    # ── New quotations from <!-- quote --> annotations in documents/ ──
+    new_quot_errors: list[str] = []
+    if doc_dir.exists():
+        n_created, new_quot_errors = process_new_quotations(
+            cur, doc_dir, doc_map, name_to_id, project_id, app_version,
+            code_quot_rel_type_id, user_id, dry_run
+        )
+        stats["new_quotations"] = n_created
 
     if not dry_run:
         conn.commit()
@@ -516,12 +854,18 @@ def main(
     typer.echo(f"  Memos updated:             {stats['memos_updated']}")
     typer.echo(f"  Quotation codes added:     {stats['quot_codes_added']}")
     typer.echo(f"  Quotation codes removed:   {stats['quot_codes_removed']}")
+    typer.echo(f"  New quotations created:    {stats['new_quotations']}")
 
     if unknown_groups:
         typer.echo(
             f"\nWarning: {len(unknown_groups)} group name(s) not found in Atlas.ti "
             f"(skipped): {', '.join(sorted(unknown_groups))}"
         )
+
+    if new_quot_errors:
+        typer.echo(f"\nNew quotation warnings ({len(new_quot_errors)}):")
+        for e in new_quot_errors:
+            typer.echo(f"  - {e}")
 
     if dry_run:
         typer.echo("\n(Dry run — no changes written to SQLite)")
