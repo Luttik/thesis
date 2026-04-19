@@ -95,6 +95,36 @@ def read_aml_file(location: str) -> str:
         return ""
 
 
+def decode_aml_indexed_text(data: bytes) -> str:
+    """Return the 'lead-stripped' AML text used as the base for Interval_FirstIndex/LastIndex.
+
+    Atlas.ti's TextLocations.Interval_FirstIndex and Interval_LastIndex are character-level
+    offsets into this string (inclusive on both ends).  The text still contains U+2029
+    paragraph separators and may include AML sentinel characters (U+FFFE/U+FFFF) at the end;
+    those are handled when extracting a specific span.
+    """
+    if not data or len(data) < 24:
+        return ""
+    text_start = struct.unpack_from("<q", data, 16)[0]
+    if text_start < 24 or text_start >= len(data):
+        return ""
+    raw = data[text_start:].decode("utf-16-le", errors="ignore")
+    raw = raw[8:]  # skip 16-byte GUID (8 UTF-16 chars)
+    raw = _AML_LEAD_RE.sub("", raw)  # strip leading garbage — offsets are relative to HERE
+    return raw
+
+
+def read_aml_file_indexed_text(location: str) -> str:
+    """Return the lead-stripped AML indexed text from a content file."""
+    path = LOCAL_CONTENTS / location
+    if not path.exists():
+        return ""
+    try:
+        return decode_aml_indexed_text(path.read_bytes())
+    except Exception:
+        return ""
+
+
 def decode_aml_paragraphs(data: bytes) -> list[str]:
     """Decode AML binary blob into a list of paragraphs (preserving \u2029 boundaries).
 
@@ -269,6 +299,21 @@ def load_doc_paragraphs(documents: list[dict]) -> dict[str, list[str]]:
     return result
 
 
+def load_doc_indexed_texts(documents: list[dict]) -> dict[str, str]:
+    """Return {doc_name: indexed_text} for Interval_FirstIndex/LastIndex extraction.
+
+    The indexed text is the lead-stripped UTF-16 decoded AML content.  Slicing
+    ``indexed_text[first:last+1]`` gives the exact selected passage.
+    """
+    result: dict[str, str] = {}
+    for doc in documents:
+        if doc["location"]:
+            text = read_aml_file_indexed_text(doc["location"])
+            if text:
+                result[doc["name"]] = text
+    return result
+
+
 def _reconstruct_quotation_text(
     doc_paras: list[str],
     start_para: int,
@@ -301,12 +346,15 @@ def _reconstruct_quotation_text(
 def get_quotations(
     cur: sqlite3.Cursor,
     doc_paragraphs: dict[str, list[str]] | None = None,
+    doc_indexed_texts: dict[str, str] | None = None,
 ) -> list[dict]:
-    """Return all quotations with full text (reconstructed from AML), codes, and document name.
+    """Return all quotations with full text, codes, and document name.
 
-    When *doc_paragraphs* is provided the exact selected text is reconstructed
-    from TextLocations paragraph/offset data.  Falls back to PlainText for any
-    quotation whose location data is missing or out-of-range.
+    Extraction priority (highest to lowest):
+    1. Interval_FirstIndex / Interval_LastIndex sliced from the AML indexed text —
+       works for all quotations including multi-element spans.
+    2. Paragraph + offset reconstruction (fallback if indexed text unavailable).
+    3. PlainText from the SQLite column (last resort; often truncated).
     """
     # tag → quotation links
     cur.execute(
@@ -328,7 +376,8 @@ def get_quotations(
         """
         SELECT q.Id, q.Number, q.PlainText, e.Name,
                tl.StartParagraphNumber, tl.StartOffset,
-               tl.EndParagraphNumber,   tl.EndOffset
+               tl.EndParagraphNumber,   tl.EndOffset,
+               tl.Interval_FirstIndex,  tl.Interval_LastIndex
         FROM Quotations q
         JOIN Layers    l   ON q.LayerId      = l.Id
         JOIN Documents d   ON l.DocumentId   = d.Id
@@ -338,13 +387,38 @@ def get_quotations(
         """
     )
     quotations = []
-    for qid, number, plain_text, doc_name, start_para, start_off, end_para, end_off in cur.fetchall():
+    for row in cur.fetchall():
+        qid, number, plain_text, doc_name = row[0], row[1], row[2], row[3]
+        start_para, start_off, end_para, end_off = row[4], row[5], row[6], row[7]
+        first_idx, last_idx = row[8], row[9]
+
         hid = qid.hex().upper()
         code_ids = quot_to_codes.get(hid, [])
         code_names = [id_to_name[c] for c in code_ids if c in id_to_name]
 
         text = (plain_text or "").strip()
-        if doc_paragraphs and start_para is not None and end_para is not None:
+
+        # Priority 1: Interval index slice from the AML indexed text
+        if (
+            doc_indexed_texts
+            and first_idx is not None
+            and last_idx is not None
+            and last_idx > first_idx
+        ):
+            indexed = doc_indexed_texts.get(doc_name, "")
+            if indexed and last_idx < len(indexed):
+                raw_span = indexed[int(first_idx) : int(last_idx) + 1]
+                # Replace paragraph separators and clean up
+                raw_span = raw_span.replace("\u2029", "\n\n")
+                raw_span = _AML_SENTINEL_RE.sub("", raw_span)
+                raw_span = _CTRL_RE.sub(" ", raw_span)
+                raw_span = _MULTI_SPACE.sub(" ", raw_span)
+                raw_span = raw_span.strip()
+                if raw_span:
+                    text = raw_span
+
+        # Priority 2: paragraph + offset reconstruction (if interval extraction failed)
+        elif doc_paragraphs and start_para is not None and end_para is not None:
             doc_paras = doc_paragraphs.get(doc_name, [])
             if doc_paras:
                 full = _reconstruct_quotation_text(
@@ -660,9 +734,14 @@ def main(
         progress.update(1)
 
         doc_paragraphs = load_doc_paragraphs(documents)
+        doc_indexed_texts = load_doc_indexed_texts(documents)
         progress.update(1)
 
-        quotations = get_quotations(cur, doc_paragraphs=doc_paragraphs)
+        quotations = get_quotations(
+            cur,
+            doc_paragraphs=doc_paragraphs,
+            doc_indexed_texts=doc_indexed_texts,
+        )
         progress.update(1)
 
         memos = get_memos(cur)
