@@ -1,7 +1,12 @@
 {
   "mcpServers": {
-    "consensus": {
-      "url": "https://mcp.consensus.app/mcp"
+    "Consensus": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@latest",
+        "https://mcp.consensus.app/mcp"
+      ]
     },
     "qdrant-pdf-knowledge": {
       "command": "uvx",
