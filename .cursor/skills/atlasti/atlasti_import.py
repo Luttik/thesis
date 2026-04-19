@@ -257,8 +257,56 @@ def get_codes(cur: sqlite3.Cursor) -> list[dict]:
     return codes
 
 
-def get_quotations(cur: sqlite3.Cursor) -> list[dict]:
-    """Return all quotations with plain text, codes, and document name."""
+def load_doc_paragraphs(documents: list[dict]) -> dict[str, list[str]]:
+    """Return {doc_name: [paragraph_text, ...]} decoded from each document's AML file."""
+    result: dict[str, list[str]] = {}
+    for doc in documents:
+        if doc["location"]:
+            paras = read_aml_file_paragraphs(doc["location"])
+            if paras:
+                result[doc["name"]] = paras
+    return result
+
+
+def _reconstruct_quotation_text(
+    doc_paras: list[str],
+    start_para: int,
+    start_off: int,
+    end_para: int,
+    end_off: int,
+) -> str:
+    """Extract the exact selected text from decoded AML paragraphs.
+
+    Atlas.ti paragraph numbers are 1-based; offsets are character positions
+    within each paragraph.  Returns an empty string on out-of-bounds inputs
+    so the caller can fall back to PlainText.
+    """
+    start_idx = start_para - 1
+    end_idx = end_para - 1
+    if start_idx < 0 or end_idx >= len(doc_paras) or start_idx > end_idx:
+        return ""
+    if start_idx == end_idx:
+        para = doc_paras[start_idx]
+        return para[start_off : end_off if end_off > 0 else len(para)].strip()
+    parts = []
+    parts.append(doc_paras[start_idx][start_off:].strip())
+    for idx in range(start_idx + 1, end_idx):
+        parts.append(doc_paras[idx].strip())
+    end_para_text = doc_paras[end_idx]
+    parts.append(end_para_text[: end_off if end_off > 0 else len(end_para_text)].strip())
+    return "\n\n".join(p for p in parts if p)
+
+
+def get_quotations(
+    cur: sqlite3.Cursor,
+    doc_paragraphs: dict[str, list[str]] | None = None,
+) -> list[dict]:
+    """Return all quotations with full text (reconstructed from AML), codes, and document name.
+
+    When *doc_paragraphs* is provided the exact selected text is reconstructed
+    from TextLocations paragraph/offset data.  Falls back to PlainText for any
+    quotation whose location data is missing or out-of-range.
+    """
     # tag → quotation links
     cur.execute(
         """
@@ -277,24 +325,42 @@ def get_quotations(cur: sqlite3.Cursor) -> list[dict]:
 
     cur.execute(
         """
-        SELECT q.Id, q.Number, q.PlainText, e.Name
+        SELECT q.Id, q.Number, q.PlainText, e.Name,
+               tl.StartParagraphNumber, tl.StartOffset,
+               tl.EndParagraphNumber,   tl.EndOffset
         FROM Quotations q
-        JOIN Layers   l ON q.LayerId    = l.Id
-        JOIN Documents d ON l.DocumentId = d.Id
-        JOIN Entities  e ON d.Id         = e.Id
+        JOIN Layers    l   ON q.LayerId      = l.Id
+        JOIN Documents d   ON l.DocumentId   = d.Id
+        JOIN Entities  e   ON d.Id           = e.Id
+        LEFT JOIN TextLocations tl ON q.LocationId = tl.Id
         ORDER BY e.Name, q.Number
         """
     )
     quotations = []
-    for qid, number, plain_text, doc_name in cur.fetchall():
+    for qid, number, plain_text, doc_name, start_para, start_off, end_para, end_off in cur.fetchall():
         hid = qid.hex().upper()
         code_ids = quot_to_codes.get(hid, [])
         code_names = [id_to_name[c] for c in code_ids if c in id_to_name]
+
+        text = (plain_text or "").strip()
+        if doc_paragraphs and start_para is not None and end_para is not None:
+            doc_paras = doc_paragraphs.get(doc_name, [])
+            if doc_paras:
+                full = _reconstruct_quotation_text(
+                    doc_paras,
+                    int(start_para),
+                    int(start_off or 0),
+                    int(end_para),
+                    int(end_off or 0),
+                )
+                if full:
+                    text = full
+
         quotations.append(
             {
                 "id": hid,
                 "number": number,
-                "text": (plain_text or "").strip(),
+                "text": text,
                 "document": doc_name or "Unknown",
                 "codes": sorted(code_names),
             }
@@ -467,12 +533,20 @@ def write_quotations(quotations: list[dict], out_dir: Path) -> None:
         (quot_dir / f"{safe}.md").write_text("\n".join(lines), encoding="utf-8")
 
 
-def write_documents(documents: list[dict], out_dir: Path, warnings: list[str]) -> None:
+def write_documents(
+    documents: list[dict],
+    out_dir: Path,
+    warnings: list[str],
+    preloaded_paragraphs: dict[str, list[str]] | None = None,
+) -> None:
     """Write full interview text under atlas-coding/documents/.
 
     Each paragraph is preceded by a <!-- seg:N --> marker so the export script
     can look up exact paragraph numbers and character offsets when processing
     <!-- quote --> annotations.
+
+    Pass *preloaded_paragraphs* (from :func:`load_doc_paragraphs`) to avoid
+    re-decoding the AML binary content a second time.
     """
     doc_dir = out_dir / "documents"
     doc_dir.mkdir(exist_ok=True)
@@ -482,7 +556,9 @@ def write_documents(documents: list[dict], out_dir: Path, warnings: list[str]) -
         paragraphs: list[str] = []
         used_fallback = False
 
-        if doc["location"]:
+        if preloaded_paragraphs and doc["name"] in preloaded_paragraphs:
+            paragraphs = preloaded_paragraphs[doc["name"]]
+        elif doc["location"]:
             paragraphs = read_aml_file_paragraphs(doc["location"])
 
         if not paragraphs:
@@ -572,20 +648,23 @@ def main(
 
     warnings: list[str] = []
 
-    with typer.progressbar(length=5, label="Extracting") as progress:
+    with typer.progressbar(length=6, label="Extracting") as progress:
         project = get_project_info(cur)
         progress.update(1)
 
         codes = get_codes(cur)
         progress.update(1)
 
-        quotations = get_quotations(cur)
+        documents = get_documents(cur)
+        progress.update(1)
+
+        doc_paragraphs = load_doc_paragraphs(documents)
+        progress.update(1)
+
+        quotations = get_quotations(cur, doc_paragraphs=doc_paragraphs)
         progress.update(1)
 
         memos = get_memos(cur)
-        progress.update(1)
-
-        documents = get_documents(cur)
         progress.update(1)
 
     conn.close()
@@ -600,7 +679,7 @@ def main(
         write_quotations(quotations, out_dir)
         progress.update(1)
 
-        write_documents(documents, out_dir, warnings)
+        write_documents(documents, out_dir, warnings, preloaded_paragraphs=doc_paragraphs)
         progress.update(1)
 
         meta = {
