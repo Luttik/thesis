@@ -411,7 +411,9 @@ def collect_new_code_names(
 # ── New quotation creation ────────────────────────────────────────────────────
 
 _QUOTE_BLOCK_RE = re.compile(
-    r"<!--\s*quote:\s*(?P<codes>[^-]+?)\s*-->\s*\n(?P<text>.*?)\n<!--\s*/quote\s*-->",
+    # codes group: match everything up to --> (not just non-hyphen chars),
+    # so code names with hyphens (e.g. "catch-22") are captured correctly.
+    r"<!--\s*quote:\s*(?P<codes>[^>]+?)\s*-->\s*\n(?P<text>.*?)\n<!--\s*/quote\s*-->",
     re.DOTALL,
 )
 _SEG_LINE_RE = re.compile(r"^<!--\s*seg:(\d+)\s*-->$")
@@ -458,6 +460,27 @@ def parse_quote_annotations(doc_md: Path) -> list[dict]:
     return annotations
 
 
+def _normalize_quotes(text: str) -> str:
+    """Normalize all apostrophe/quote variants to a canonical form for matching.
+
+    Atlas.ti stores text with Unicode smart quotes (U+2018/U+2019/U+201C/U+201D)
+    and ellipsis (U+2026). Annotations written by hand or by an agent may use
+    ASCII equivalents instead, causing "text not found" mismatches. Normalizing
+    both sides before matching avoids the issue while preserving original text.
+    """
+    # Single quotes / apostrophes → U+2019 (right single quotation mark)
+    text = text.replace("\u2018", "\u2019")  # ' → '
+    text = text.replace("\u0027", "\u2019")  # ' → '
+    text = text.replace("\u0060", "\u2019")  # ` → '
+    text = text.replace("\u02bc", "\u2019")  # ʼ → '
+    # Double quotes → U+201D (right double quotation mark)
+    text = text.replace("\u201c", "\u201d")  # " → "
+    text = text.replace("\u0022", "\u201d")  # " → "
+    # Ellipsis → U+2026
+    text = text.replace("...", "\u2026")     # ... → …
+    return text
+
+
 def find_text_in_paragraphs(
     paragraphs: list[str], search_text: str
 ) -> tuple[int, int, int, int] | None:
@@ -465,10 +488,18 @@ def find_text_in_paragraphs(
 
     Returns (start_seg_0based, start_offset, end_seg_0based, end_offset) or None.
     Offsets are 0-based character positions within the paragraph.
+
+    Apostrophes and quotes are normalized before matching so that annotations
+    written with ASCII variants (U+0027, U+0022) still find text stored by
+    Atlas.ti with smart quotes (U+2018/U+2019, U+201C/U+201D).  Because
+    normalization is a 1-to-1 character substitution, positions in the
+    normalized string map exactly to positions in the original string.
     """
     # Build a flat view joining with \u2029 (single char separator, as Atlas.ti does)
     full = "\u2029".join(paragraphs)
-    idx = full.find(search_text)
+    full_norm = _normalize_quotes(full)
+    search_norm = _normalize_quotes(search_text)
+    idx = full_norm.find(search_norm)
     if idx == -1:
         return None
 
@@ -516,18 +547,24 @@ def compute_intervals(
 
 
 def get_document_map(cur: sqlite3.Cursor) -> dict[str, dict]:
-    """Return {doc_name: {id, layer_id, hwm}} for all documents."""
+    """Return {doc_name: {id, layer_id, hwm}} for all documents.
+
+    Documents with ProjectId = ZERO_GUID are soft-deleted and skipped.
+    When multiple documents share a name (e.g. a duplicate with a hash suffix
+    like '(4ba6ab14)'), only the live document (non-zero ProjectId) is kept.
+    """
     cur.execute(
         """
         SELECT e.Name, hex(d.Id), d.QuotationHighwaterMark, hex(l.Id), hex(d.MediumId)
         FROM Documents d
         JOIN Entities e ON d.Id = e.Id
         JOIN Layers l ON l.DocumentId = d.Id
+        WHERE hex(d.ProjectId) != '00000000000000000000000000000000'
         """
     )
     result: dict[str, dict] = {}
     for name, doc_hex, hwm, layer_hex, medium_hex in cur.fetchall():
-        if name and name not in result:  # take first layer per doc name
+        if name and name not in result:  # take first live layer per doc name
             result[name] = {
                 "id": bytes.fromhex(doc_hex),
                 "layer_id": bytes.fromhex(layer_hex),
@@ -616,9 +653,22 @@ def process_new_quotations(
                 continue
 
             start_seg, start_off, end_seg, end_off = pos
-            # Atlas.ti uses 1-based paragraph numbers
-            atlas_start_para = start_seg + 1
-            atlas_end_para = end_seg + 1
+            # Paragraph offset: Atlas.ti's StartParagraphNumber is 1-based, but
+            # the base depends on how many paragraphs the AML binary stores before
+            # the first segment our import script captures. decode_aml_paragraphs
+            # may silently drop leading empty/structural paragraphs from the raw
+            # AML, so our paragraphs[0] does not correspond to Atlas.ti para 1.
+            #
+            # The offset must be calibrated per document by comparing an existing
+            # quotation's StartParagraphNumber with the index our function returns
+            # for the same text.  For this project:
+            #   - Berfun / Andreea (regular imports): offset = 1  (start_seg + 1)
+            #   - Lauren Stokowski (4ba6ab14) import: offset = 3  (start_seg + 3)
+            #
+            # Empirically confirmed: Atlas.ti shows para[N] at StartParagraphNumber
+            # N + offset, and the Lauren (4ba6ab14) document requires offset = 3.
+            atlas_start_para = start_seg + 3
+            atlas_end_para = end_seg + 3
 
             first_idx, last_idx = compute_intervals(
                 paragraphs, start_seg, start_off, end_seg, end_off

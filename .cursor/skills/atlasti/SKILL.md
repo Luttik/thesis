@@ -96,10 +96,10 @@ Exact verbatim text copied from below a <!-- seg:N --> marker.
 ```
 
 **Critical rules for new quotations:**
-1. **Copy text verbatim** — the export script finds the passage by exact string match. Any difference in whitespace, punctuation, or apostrophe style (e.g. `'` vs `'`) will cause the annotation to be skipped with an error.
+1. **Copy text verbatim** — the export script finds the passage by string match. Apostrophe and quote variants (`'` vs `'` vs `'`, `"` vs `"`) are normalized automatically, so those differences are tolerated. Any other difference — whitespace, spelling, wrong paragraph — will cause the annotation to be skipped with an error.
 2. **Include the speaker prefix** — Atlas.ti paragraphs begin with `[Them]` or `[Me]`. Your verbatim text **must** start from the very beginning of the line, including this prefix. Quoting only a substring that appears mid-line will embed the annotation comment inside the paragraph line, corrupting the structure and causing the export to fail silently.
 3. **Do not annotate mid-paragraph substrings** — if the phrase you want to quote appears in the middle of a long single-line paragraph, either quote from the start of that line or skip the annotation. There is no way to target a mid-line substring.
-4. **Smart quotes and special characters** — the transcripts use Unicode smart apostrophes (`'` U+2019), curly quotes, and ellipsis characters (`…` U+2026). The IDE StrReplace tool will fail on these because it uses ASCII. When annotating programmatically, always read and write the file in Python with `encoding="utf-8"` and use explicit Unicode escapes (e.g. `\u2019`, `\u2026`) in search strings.
+4. **Smart quotes in file edits** — the transcripts use Unicode smart apostrophes (`'` U+2019) and ellipsis (`…` U+2026). The IDE StrReplace tool will fail silently on these. When editing the document file programmatically, always use Python with `encoding="utf-8"` and read the exact bytes from the file rather than typing quotes by hand.
 5. **Code names must match exactly** — copy from `codebook.md` headings, including capitalisation and punctuation.
 6. **Do not edit `<!-- seg:N -->` markers** — these are used to resolve character positions. If they are removed or changed the lookup will fail.
 7. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
@@ -112,6 +112,14 @@ Exact verbatim text copied from below a <!-- seg:N --> marker.
 **Auto-created by the export script:**
 - Any code name referenced in a `<!-- quote -->` annotation that does not yet exist in Atlas.ti is **automatically created** as a new top-level code during export. No manual step required.
 - The export is **idempotent**: re-running it will not create duplicate quotations; it detects already-existing quotations by position and only adds missing code links.
+
+**Duplicate document names (hash suffix):** Atlas.ti sometimes imports the same interview twice, giving the second copy a name like `Document Name (4ba6ab14)`. The 8-character hex suffix is the **first 8 characters of that document's Atlas.ti GUID** — it is unique to this project and this document, not a generic pattern. The document **without** the suffix has `Documents.ProjectId = ZERO_GUID` (soft-deleted / ghost). The one **with** the suffix is the live document. Always annotate the `(hash)` version — that is the file the export script will target. The export script filters soft-deleted documents automatically.  
+
+**Ghost document annotations must be fully stripped:** The `strip_ghost_annotations.py` pattern and the export script's `_QUOTE_BLOCK_RE` regex both use `[^>]+?` for the codes group. Any annotation left in the ghost document will be processed against the active document's layer with wrong paragraph positions. After adding new codes, re-run a dry-run to confirm 0 new quotations are detected from the ghost file.
+
+**Verbatim text must come from the document file, never typed manually:** The import script preserves the exact Unicode characters Atlas.ti stores (smart quotes U+2018/U+2019, ellipsis U+2026, etc.). Always copy verbatim text directly from the `.md` file in `atlas-coding/documents/` — never type it by hand or generate it from memory. The export script normalizes apostrophes and quotes before matching, so ASCII `'` will find `'` and vice versa, but other character differences (e.g., wrong paragraph structure) will still fail.
+
+**Paragraph offset is document-specific:** Atlas.ti's `StartParagraphNumber` is 1-based, but `decode_aml_paragraphs` may silently drop structural paragraphs from the start of the raw AML binary. This means our `paragraphs[0]` does not always correspond to Atlas.ti paragraph 1. The offset must be calibrated for each document by finding one existing quotation, looking up its `StartParagraphNumber` in the database, and comparing it to the index returned by `find_text_in_paragraphs` for the same text. For this project: Berfun/Andreea use offset `+1`, Lauren Stokowski `(4ba6ab14)` uses offset `+3`. The export script hard-codes `+3` for the current project. If a new document is added, verify the offset before exporting quotations.
 
 ## Soft-delete mechanism
 
