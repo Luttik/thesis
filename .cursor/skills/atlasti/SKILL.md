@@ -69,6 +69,17 @@ Then read in this order:
 3. `atlas-coding/quotations/[relevant doc].md` — see existing coding patterns
 4. `atlas-coding/documents/[relevant doc].md` — read full interview text
 
+**Coverage parity check** — before coding, compare quotation counts across all documents to spot under-coded interviews:
+
+```powershell
+Get-ChildItem atlas-coding\quotations\*.md | ForEach-Object {
+    $count = (Select-String -Path $_.FullName -Pattern "^## Quotation").Count
+    "$($_.BaseName): $count quotes"
+}
+```
+
+If one document has significantly fewer quotations than the others, treat that as a signal it needs a full coding pass before moving on.
+
 ### Step 4 — Coding work (what the agent can do)
 
 **Refine codes** — edit `codebook.md`:
@@ -94,6 +105,72 @@ Wrap any passage with `<!-- quote -->` / `<!-- /quote -->` tags:
 Exact verbatim text copied from below a <!-- seg:N --> marker.
 <!-- /quote -->
 ```
+
+**Batch-annotating many segments (recommended for large coding passes)**
+
+When adding more than a handful of annotations, use a Python script rather than StrReplace. StrReplace fails silently on smart quotes; a script reads exact bytes and inserts safely. Use this reusable template:
+
+```python
+filepath = r"atlas-coding\documents\[Doc (hash)].md"
+
+with open(filepath, "r", encoding="utf-8") as f:
+    lines = f.readlines()
+
+# Build seg-number → line-index map
+seg_lines: dict[int, int] = {}
+for i, line in enumerate(lines):
+    stripped = line.strip()
+    if stripped.startswith("<!-- seg:") and stripped.endswith(" -->"):
+        try:
+            seg_lines[int(stripped[9:-4])] = i
+        except ValueError:
+            pass
+
+def get_paragraph_text(seg_num: int) -> str:
+    """Return the first non-empty, non-comment line after the segment marker."""
+    for i in range(seg_lines[seg_num] + 1, seg_lines[seg_num] + 10):
+        line = lines[i].rstrip("\n").rstrip("\r")
+        if line and not line.startswith("<!--"):
+            return line
+    return ""
+
+# (seg_number, codes_string) — codes must match codebook headings exactly
+ANNOTATIONS = [
+    (88,  "`Code A`, `Code B`"),
+    (113, "`Code C`"),
+    # ...
+]
+
+# Collect insertions, sort in REVERSE order so earlier indices aren't shifted
+insertions = []
+for seg_num, codes in ANNOTATIONS:
+    text = get_paragraph_text(seg_num)
+    if text:
+        block = f"<!-- quote: {codes} -->\n{text}\n<!-- /quote -->\n"
+        insertions.append((seg_lines[seg_num] + 1, block))
+
+for idx, block in sorted(insertions, key=lambda x: x[0], reverse=True):
+    lines.insert(idx, block)
+
+with open(filepath, "w", encoding="utf-8") as f:
+    f.writelines(lines)
+```
+
+The block is inserted **between** the `<!-- seg:N -->` marker line and the paragraph line. The verbatim text inside the block is copied from `get_paragraph_text`, so it matches exactly. Always run `--dry-run` after to verify the expected count of new quotations.
+
+**Multi-pass section-by-section review strategy**
+
+For comprehensive coding of an interview, use at least two passes:
+
+1. **First pass (broad)** — scan the full document for substantive `[Them]` paragraphs and add annotations for all clearly relevant passages. Batch-annotate with the script above. Aim for parity with other documents.
+2. **Second pass (gap check)** — read through the document again section by section, comparing each segment against `quotations/[doc].md` to find passages that were skipped. Focus on:
+   - Short but analytically dense single-line paragraphs that are easy to overlook
+   - Transition paragraphs where interviewee summarises or names a concept
+   - Passages that elaborate on a theme already coded elsewhere (may warrant additional codes)
+   - Passages near the end of the interview (often contain synthesis, reflection, or new angles)
+3. **Third pass (thematic)** — scan by code rather than by document position. For each important code, ask: is the full range of what this interviewee said about this theme captured?
+
+Run the coverage parity check (Step 3) after each pass to track progress.
 
 **Critical rules for new quotations:**
 1. **Copy text verbatim** — the export script finds the passage by string match. Apostrophe and quote variants (`'` vs `'` vs `'`, `"` vs `"`) are normalized automatically, so those differences are tolerated. Any other difference — whitespace, spelling, wrong paragraph — will cause the annotation to be skipped with an error.
