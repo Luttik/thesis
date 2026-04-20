@@ -69,16 +69,28 @@ Then read in this order:
 3. `atlas-coding/quotations/[relevant doc].md` — see existing coding patterns
 4. `atlas-coding/documents/[relevant doc].md` — read full interview text
 
-**Coverage parity check** — before coding, compare quotation counts across all documents to spot under-coded interviews:
+**Coverage parity check** — before coding, compare quotation *density* across all documents. Some interviews span two sessions and are 2–3× longer, so raw quotation counts are misleading. Normalize by the number of **interviewee words** (lines starting with `[Them]` or `Them:`), which handles both transcript formats and is not inflated by `<!-- seg -->` markers or annotation blocks:
 
 ```powershell
+# Quotes per 1000 interviewee words (normalized coverage)
 Get-ChildItem atlas-coding\quotations\*.md | ForEach-Object {
-    $count = (Select-String -Path $_.FullName -Pattern "^## Quotation").Count
-    "$($_.BaseName): $count quotes"
+    $docName = $_.BaseName
+    $quotes  = (Select-String -Path $_.FullName -Pattern "^## Quotation").Count
+    # Prefer the (hash) live document if a duplicate exists
+    $docFile = Get-ChildItem "atlas-coding\documents\$docName*.md" |
+               Sort-Object Name -Descending | Select-Object -First 1
+    if ($docFile) {
+        $words = (Get-Content $docFile.FullName |
+                  Where-Object { $_ -match "^\[Them\]|^Them:" } |
+                  ForEach-Object { ($_ -split "\s+").Count } |
+                  Measure-Object -Sum).Sum
+        $density = if ($words -gt 0) { [math]::Round($quotes / $words * 1000, 1) } else { "n/a" }
+        "{0,-50} {1,3} quotes / {2,5} words = {3} q/1000w" -f $docName, $quotes, $words, $density
+    }
 }
 ```
 
-If one document has significantly fewer quotations than the others, treat that as a signal it needs a full coding pass before moving on.
+If one document's density is substantially lower than the others, it needs a full coding pass. A document with two interviews will naturally have more total words — the density metric accounts for this automatically.
 
 ### Step 4 — Coding work (what the agent can do)
 
