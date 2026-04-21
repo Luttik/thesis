@@ -6,6 +6,7 @@ Usage:
 """
 
 import json
+import os
 import re
 import sqlite3
 import struct
@@ -18,15 +19,79 @@ app = typer.Typer(help="Import Atlas.ti project into Cursor-readable Markdown wo
 
 # ── Paths ────────────────────────────────────────────────────────────────────
 
-ATLAS_LIB_BASE = (
-    Path.home() / "AppData" / "Roaming" / "Scientific Software" / "ATLASti.25" / "Libraries25"
-)
+_ATLAS_LIB_SUFFIX = Path("AppData") / "Roaming" / "Scientific Software" / "ATLASti.25" / "Libraries25"
+ATLAS_LIB_BASE = Path.home() / _ATLAS_LIB_SUFFIX
 LOCAL_CONTENTS = ATLAS_LIB_BASE / "Local" / "Contents"
 
 SKILL_DIR = Path(__file__).parent
 WORKSPACE_ROOT = SKILL_DIR.parent.parent.parent  # .cursor/skills/atlasti → workspace
 ATLAS_CODING_DIR = WORKSPACE_ROOT / "atlas-coding"
 TRANSCRIPTS_DIR = WORKSPACE_ROOT / "transcripts"
+
+
+def _normalize_host_path(path: Path | str) -> Path:
+    s = str(path)
+    if os.name != "nt" and re.match(r"^[A-Za-z]:[\\/]", s):
+        drive = s[0].lower()
+        rest = s[2:].replace("\\", "/").lstrip("/")
+        return Path("/mnt") / drive / rest
+    return Path(path)
+
+
+def _candidate_library_bases() -> list[Path]:
+    candidates: list[Path] = []
+    env_base = os.environ.get("ATLASTI_LIB_BASE")
+    if env_base:
+        candidates.append(_normalize_host_path(env_base))
+    candidates.append(Path.home() / _ATLAS_LIB_SUFFIX)
+    userprofile = os.environ.get("USERPROFILE")
+    if userprofile:
+        candidates.append(_normalize_host_path(Path(userprofile) / _ATLAS_LIB_SUFFIX))
+    users_root = Path("/mnt/c/Users")
+    if users_root.exists():
+        for user_dir in users_root.iterdir():
+            candidates.append(user_dir / _ATLAS_LIB_SUFFIX)
+    unique: list[Path] = []
+    seen: set[str] = set()
+    for p in candidates:
+        k = str(p)
+        if k not in seen:
+            seen.add(k)
+            unique.append(p)
+    return unique
+
+
+def _lib_base_from_sqlite(sqlite_path: Path) -> Path | None:
+    p = _normalize_host_path(sqlite_path)
+    for parent in [p.parent, *p.parents]:
+        if parent.name == "Libraries25":
+            return parent
+    return None
+
+
+def configure_paths_for_sqlite(sqlite_path: Path | None) -> None:
+    global ATLAS_LIB_BASE, LOCAL_CONTENTS
+
+    env_contents = os.environ.get("ATLASTI_CONTENTS_DIR")
+    if env_contents:
+        LOCAL_CONTENTS = _normalize_host_path(env_contents)
+        parent = LOCAL_CONTENTS.parent
+        if parent.name == "Local" and parent.parent.name == "Libraries25":
+            ATLAS_LIB_BASE = parent.parent
+        return
+
+    if sqlite_path:
+        base = _lib_base_from_sqlite(sqlite_path)
+        if base is not None:
+            ATLAS_LIB_BASE = base
+            LOCAL_CONTENTS = base / "Local" / "Contents"
+            return
+
+    for base in _candidate_library_bases():
+        if base.exists():
+            ATLAS_LIB_BASE = base
+            LOCAL_CONTENTS = base / "Local" / "Contents"
+            return
 
 # ── AML binary decoder ───────────────────────────────────────────────────────
 
@@ -176,14 +241,20 @@ ZERO_GUID = b"\x00" * 16
 
 def find_live_sqlite() -> Path:
     """Auto-detect the live Atlas.ti project SQLite (excludes _B_ and _WC_ backups)."""
-    for lib_dir in ATLAS_LIB_BASE.iterdir():
-        if not lib_dir.is_dir() or lib_dir.name == "Local":
+    searched: list[str] = []
+    for base in _candidate_library_bases():
+        searched.append(str(base))
+        if not base.exists():
             continue
-        for f in lib_dir.glob("*.sqlite"):
-            if "_B_" not in f.name and "_WC_" not in f.name:
-                return f
+        for lib_dir in base.iterdir():
+            if not lib_dir.is_dir() or lib_dir.name == "Local":
+                continue
+            for f in lib_dir.glob("*.sqlite"):
+                if "_B_" not in f.name and "_WC_" not in f.name:
+                    return f
     raise FileNotFoundError(
-        f"No live Atlas.ti project SQLite found under {ATLAS_LIB_BASE}.\n"
+        "No live Atlas.ti project SQLite found.\n"
+        f"Searched: {', '.join(searched)}\n"
         "Make sure Atlas.ti 25 is installed and a project has been opened at least once."
     )
 
@@ -289,18 +360,18 @@ def get_codes(cur: sqlite3.Cursor) -> list[dict]:
 
 
 def load_doc_paragraphs(documents: list[dict]) -> dict[str, list[str]]:
-    """Return {doc_name: [paragraph_text, ...]} decoded from each document's AML file."""
+    """Return {doc_id_hex: [paragraph_text, ...]} decoded from each document's AML file."""
     result: dict[str, list[str]] = {}
     for doc in documents:
         if doc["location"]:
             paras = read_aml_file_paragraphs(doc["location"])
             if paras:
-                result[doc["name"]] = paras
+                result[doc["id"]] = paras
     return result
 
 
 def load_doc_indexed_texts(documents: list[dict]) -> dict[str, str]:
-    """Return {doc_name: indexed_text} for Interval_FirstIndex/LastIndex extraction.
+    """Return {doc_id_hex: indexed_text} for Interval_FirstIndex/LastIndex extraction.
 
     The indexed text is the lead-stripped UTF-16 decoded AML content.  Slicing
     ``indexed_text[first:last+1]`` gives the exact selected passage.
@@ -310,7 +381,7 @@ def load_doc_indexed_texts(documents: list[dict]) -> dict[str, str]:
         if doc["location"]:
             text = read_aml_file_indexed_text(doc["location"])
             if text:
-                result[doc["name"]] = text
+                result[doc["id"]] = text
     return result
 
 
@@ -374,7 +445,7 @@ def get_quotations(
 
     cur.execute(
         """
-        SELECT q.Id, q.Number, q.PlainText, e.Name,
+        SELECT q.Id, q.Number, q.PlainText, e.Name, d.Id,
                tl.StartParagraphNumber, tl.StartOffset,
                tl.EndParagraphNumber,   tl.EndOffset,
                tl.Interval_FirstIndex,  tl.Interval_LastIndex
@@ -388,9 +459,9 @@ def get_quotations(
     )
     quotations = []
     for row in cur.fetchall():
-        qid, number, plain_text, doc_name = row[0], row[1], row[2], row[3]
-        start_para, start_off, end_para, end_off = row[4], row[5], row[6], row[7]
-        first_idx, last_idx = row[8], row[9]
+        qid, number, plain_text, doc_name, doc_id = row[0], row[1], row[2], row[3], row[4]
+        start_para, start_off, end_para, end_off = row[5], row[6], row[7], row[8]
+        first_idx, last_idx = row[9], row[10]
 
         hid = qid.hex().upper()
         code_ids = quot_to_codes.get(hid, [])
@@ -405,7 +476,7 @@ def get_quotations(
             and last_idx is not None
             and last_idx > first_idx
         ):
-            indexed = doc_indexed_texts.get(doc_name, "")
+            indexed = doc_indexed_texts.get(doc_id.hex().upper(), "")
             if indexed and last_idx < len(indexed):
                 raw_span = indexed[int(first_idx) : int(last_idx) + 1]
                 # Replace paragraph separators and clean up
@@ -419,7 +490,7 @@ def get_quotations(
 
         # Priority 2: paragraph + offset reconstruction (if interval extraction failed)
         elif doc_paragraphs and start_para is not None and end_para is not None:
-            doc_paras = doc_paragraphs.get(doc_name, [])
+            doc_paras = doc_paragraphs.get(doc_id.hex().upper(), [])
             if doc_paras:
                 full = _reconstruct_quotation_text(
                     doc_paras,
@@ -477,6 +548,7 @@ def get_documents(cur: sqlite3.Cursor) -> list[dict]:
         JOIN Entities e ON d.Id = e.Id
         LEFT JOIN Media m ON d.MediumId = m.Id
         LEFT JOIN MediaContentHandles mch ON m.CurrentContentHandleId = mch.Id
+        WHERE hex(d.ProjectId) != '00000000000000000000000000000000'
         ORDER BY e.Name
         """
     )
@@ -581,6 +653,8 @@ def write_quotations(quotations: list[dict], out_dir: Path) -> None:
     """Write one file per document under atlas-coding/quotations/."""
     quot_dir = out_dir / "quotations"
     quot_dir.mkdir(exist_ok=True)
+    for old in quot_dir.glob("*.md"):
+        old.unlink()
 
     by_doc: dict[str, list[dict]] = {}
     for q in quotations:
@@ -631,8 +705,8 @@ def write_documents(
         paragraphs: list[str] = []
         used_fallback = False
 
-        if preloaded_paragraphs and doc["name"] in preloaded_paragraphs:
-            paragraphs = preloaded_paragraphs[doc["name"]]
+        if preloaded_paragraphs and doc["id"] in preloaded_paragraphs:
+            paragraphs = preloaded_paragraphs[doc["id"]]
         elif doc["location"]:
             paragraphs = read_aml_file_paragraphs(doc["location"])
 
@@ -664,6 +738,7 @@ def write_documents(
 
         header = [
             f"# {doc['name']}",
+            f"<!-- id: {doc['id']} -->",
             "",
             "> **Agent instructions**: Read this document and add `<!-- quote -->` annotations",
             "> to passages you want to code. Segment numbers (`<!-- seg:N -->`) are used by",
@@ -708,7 +783,8 @@ def main(
     ),
 ) -> None:
     """Extract Atlas.ti project into a Markdown workspace for AI-assisted coding."""
-    sqlite_path = db_path or find_live_sqlite()
+    sqlite_path = _normalize_host_path(db_path) if db_path else find_live_sqlite()
+    configure_paths_for_sqlite(sqlite_path)
     out_dir = output_dir or ATLAS_CODING_DIR
 
     typer.echo(f"Reading: {sqlite_path}")

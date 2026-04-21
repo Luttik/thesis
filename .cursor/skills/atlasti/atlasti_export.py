@@ -18,9 +18,11 @@ Usage:
 """
 
 import re
+import os
 import sqlite3
 import struct
 import subprocess
+import sys
 from pathlib import Path
 
 import typer
@@ -36,6 +38,11 @@ ATLAS_LIB_BASE = (
 SKILL_DIR = Path(__file__).parent
 WORKSPACE_ROOT = SKILL_DIR.parent.parent.parent
 ATLAS_CODING_DIR = WORKSPACE_ROOT / "atlas-coding"
+
+_sd = str(SKILL_DIR.resolve())
+if _sd not in sys.path:
+    sys.path.insert(0, _sd)
+from atlasti_import import configure_paths_for_sqlite  # noqa: E402
 
 ZERO_GUID = b"\x00" * 16
 
@@ -61,13 +68,35 @@ def check_atlasti_not_running() -> None:
 
 
 def find_live_sqlite() -> Path:
-    for lib_dir in ATLAS_LIB_BASE.iterdir():
-        if not lib_dir.is_dir() or lib_dir.name == "Local":
+    candidates: list[Path] = [ATLAS_LIB_BASE]
+    userprofile = os.environ.get("USERPROFILE")
+    if userprofile:
+        candidates.append(Path(userprofile) / "AppData" / "Roaming" / "Scientific Software" / "ATLASti.25" / "Libraries25")
+    users_root = Path("/mnt/c/Users")
+    if users_root.exists():
+        for user_dir in users_root.iterdir():
+            candidates.append(user_dir / "AppData" / "Roaming" / "Scientific Software" / "ATLASti.25" / "Libraries25")
+
+    seen: set[str] = set()
+    searched: list[str] = []
+    for base in candidates:
+        k = str(base)
+        if k in seen:
             continue
-        for f in lib_dir.glob("*.sqlite"):
-            if "_B_" not in f.name and "_WC_" not in f.name:
-                return f
-    raise FileNotFoundError(f"No live Atlas.ti project SQLite found under {ATLAS_LIB_BASE}")
+        seen.add(k)
+        searched.append(k)
+        if not base.exists():
+            continue
+        for lib_dir in base.iterdir():
+            if not lib_dir.is_dir() or lib_dir.name == "Local":
+                continue
+            for f in lib_dir.glob("*.sqlite"):
+                if "_B_" not in f.name and "_WC_" not in f.name:
+                    return f
+    raise FileNotFoundError(
+        "No live Atlas.ti project SQLite found. "
+        f"Searched: {', '.join(searched)}"
+    )
 
 
 # ── AML binary builder ────────────────────────────────────────────────────────
@@ -429,8 +458,19 @@ def load_paragraphs_from_doc_md(doc_md: Path) -> tuple[list[str], bool]:
     paragraphs: list[str] = []
     is_fallback = any(_FALLBACK_WARNING_RE.search(ln) for ln in lines)
     current_seg: int | None = None
+    in_quote_block = False
 
     for line in lines:
+        stripped = line.strip()
+        if stripped.startswith("<!-- quote:") or stripped.startswith("<!--quote:"):
+            in_quote_block = True
+            continue
+        if stripped.startswith("<!--") and "/quote" in stripped:
+            in_quote_block = False
+            continue
+        if in_quote_block:
+            continue
+
         m = _SEG_LINE_RE.match(line)
         if m:
             seg_idx = int(m.group(1))
@@ -438,7 +478,7 @@ def load_paragraphs_from_doc_md(doc_md: Path) -> tuple[list[str], bool]:
             while len(paragraphs) <= seg_idx:
                 paragraphs.append("")
             current_seg = seg_idx
-        elif current_seg is not None and line.strip() and not line.startswith(">") and not line.strip().startswith("<!--"):
+        elif current_seg is not None and not line.startswith(">") and not stripped.startswith("<!--"):
             paragraphs[current_seg] = line.strip()
             current_seg = None
 
@@ -460,6 +500,17 @@ def parse_quote_annotations(doc_md: Path) -> list[dict]:
     return annotations
 
 
+def parse_document_id(doc_md: Path) -> bytes | None:
+    """Parse `<!-- id: ... -->` from document header (before first seg marker)."""
+    for line in doc_md.read_text(encoding="utf-8").splitlines():
+        if _SEG_LINE_RE.match(line):
+            break
+        m = _ID_RE.search(line)
+        if m:
+            return bytes.fromhex(m.group(1))
+    return None
+
+
 def _normalize_quotes(text: str) -> str:
     """Normalize all apostrophe/quote variants to a canonical form for matching.
 
@@ -476,9 +527,21 @@ def _normalize_quotes(text: str) -> str:
     # Double quotes → U+201D (right double quotation mark)
     text = text.replace("\u201c", "\u201d")  # " → "
     text = text.replace("\u0022", "\u201d")  # " → "
-    # Ellipsis → U+2026
-    text = text.replace("...", "\u2026")     # ... → …
     return text
+
+
+def _count_occurrences(haystack: str, needle: str) -> int:
+    if not needle:
+        return 0
+    count = 0
+    start = 0
+    while True:
+        pos = haystack.find(needle, start)
+        if pos == -1:
+            break
+        count += 1
+        start = pos + 1
+    return count
 
 
 def find_text_in_paragraphs(
@@ -495,15 +558,21 @@ def find_text_in_paragraphs(
     normalization is a 1-to-1 character substitution, positions in the
     normalized string map exactly to positions in the original string.
     """
+    st = search_text.strip()
+    if not st:
+        return None
+
     # Build a flat view joining with \u2029 (single char separator, as Atlas.ti does)
     full = "\u2029".join(paragraphs)
     full_norm = _normalize_quotes(full)
-    search_norm = _normalize_quotes(search_text)
+    search_norm = _normalize_quotes(st)
+    if _count_occurrences(full_norm, search_norm) != 1:
+        return None
     idx = full_norm.find(search_norm)
     if idx == -1:
         return None
 
-    end_idx = idx + len(search_text) - 1
+    end_idx = idx + len(st) - 1
 
     # Convert flat index to (segment, offset)
     def flat_to_seg_off(flat_idx: int) -> tuple[int, int]:
@@ -538,16 +607,171 @@ def compute_intervals(
         seg_starts.append(cum)
         cum += len(para) + 1  # +1 for \u2029
 
-    # Atlas.ti's interval_first uses a +1 offset relative to the flat char index
-    # (empirically confirmed: all existing quotations show interval_first = cumulative + offset + 1)
-    # interval_last uses no such offset.
-    first_idx = seg_starts[start_seg] + start_off + 1
-    last_idx = seg_starts[end_seg] + end_off
+    first_idx = seg_starts[start_seg] + start_off
+    last_idx = seg_starts[end_seg] + end_off - 1
     return first_idx, last_idx
 
 
-def get_document_map(cur: sqlite3.Cursor) -> dict[str, dict]:
-    """Return {doc_name: {id, layer_id, hwm}} for all documents.
+def _mode_int(values: list[int]) -> int | None:
+    if not values:
+        return None
+    counts: dict[int, int] = {}
+    for v in values:
+        counts[v] = counts.get(v, 0) + 1
+    return sorted(counts.items(), key=lambda x: (-x[1], x[0]))[0][0]
+
+
+def calibrate_location_rules(
+    cur: sqlite3.Cursor,
+    layer_id: bytes,
+    paragraphs: list[str],
+) -> dict:
+    """Infer per-document location conventions from existing quotations."""
+    cur.execute(
+        """
+        SELECT q.IsAbbreviated, q.PlainText,
+               tl.StartParagraphNumber, tl.StartOffset,
+               tl.EndParagraphNumber, tl.EndOffset,
+               tl.StartElementId, tl.EndElementId,
+               tl.Interval_FirstIndex, tl.Interval_LastIndex
+        FROM Quotations q
+        JOIN TextLocations tl ON q.LocationId = tl.Id
+        WHERE q.LayerId = ?
+        """,
+        (layer_id,),
+    )
+    rows = cur.fetchall()
+
+    factors: list[int] = []
+    first_deltas: list[int] = []
+    snippet_lengths: list[int] = []
+    offset_shifts: list[int] = []
+
+    def para_start(para_num: int) -> int | None:
+        if para_num < 1 or para_num > len(paragraphs):
+            return None
+        return sum(len(p) + 1 for p in paragraphs[: para_num - 1])
+
+    for is_abbrev, plain_text, sp, so, ep, eo, se, ee, fi, li in rows:
+        if sp and se is not None and sp != 0 and se % sp == 0:
+            factors.append(se // sp)
+        if sp and so is not None and fi is not None:
+            ps = para_start(int(sp))
+            if ps is not None:
+                first_deltas.append(int(fi) - (ps + int(so)))
+        if is_abbrev and plain_text and so is not None and eo is not None and int(eo) > int(so):
+            span_len = int(eo) - int(so)
+            pt_len = len(str(plain_text))
+            if pt_len < span_len:
+                snippet_lengths.append(pt_len)
+
+        if (
+            plain_text
+            and sp is not None
+            and ep is not None
+            and int(sp) == int(ep)
+            and so is not None
+            and 1 <= int(sp) <= len(paragraphs)
+        ):
+            para = paragraphs[int(sp) - 1]
+            pnorm = _normalize_quotes(str(plain_text).strip())
+            para_norm = _normalize_quotes(para)
+            if pnorm and _count_occurrences(para_norm, pnorm) == 1:
+                pos = para_norm.find(pnorm)
+                offset_shifts.append(int(pos) - int(so))
+
+    element_factor = _mode_int(factors)
+    if element_factor is None:
+        element_factor = -2
+    if element_factor > 0:
+        element_factor = -element_factor
+
+    first_delta = _mode_int(first_deltas)
+    if first_delta is None:
+        first_delta = 0
+
+    snippet_len = _mode_int(snippet_lengths)
+    if snippet_len is None:
+        snippet_len = 70
+
+    offset_shift = _mode_int(offset_shifts)
+    if offset_shift is None:
+        offset_shift = 0
+
+    return {
+        "element_factor": element_factor,
+        "first_delta": first_delta,
+        "snippet_len": snippet_len,
+        "offset_shift": offset_shift,
+    }
+
+
+def _plain_text_for_new_quote(full_text: str, is_abbreviated: bool, snippet_len: int) -> str:
+    text = full_text.strip()
+    if not is_abbreviated:
+        return text
+    if len(text) <= snippet_len:
+        return text
+    return text[:snippet_len]
+
+
+def validate_created_quote(
+    cur: sqlite3.Cursor,
+    quot_id: bytes,
+    expected_layer_id: bytes,
+    expected_start_para: int,
+    expected_start_off: int,
+    expected_end_para: int,
+    expected_end_off: int,
+    expected_plain: str,
+    expected_is_abbrev: int,
+    expected_code_ids: set[bytes],
+    expected_relation_type: bytes,
+) -> str | None:
+    cur.execute(
+        """
+        SELECT q.LayerId, q.PlainText, q.IsAbbreviated,
+               tl.StartParagraphNumber, tl.StartOffset,
+               tl.EndParagraphNumber, tl.EndOffset
+        FROM Quotations q
+        JOIN TextLocations tl ON q.LocationId = tl.Id
+        WHERE q.Id = ?
+        """,
+        (quot_id,),
+    )
+    row = cur.fetchone()
+    if not row:
+        return "quotation row missing after insert"
+    layer_id, plain, is_abbrev, sp, so, ep, eo = row
+    if layer_id != expected_layer_id:
+        return "layer id mismatch"
+    if (plain or "") != expected_plain:
+        return "plain text mismatch"
+    if int(is_abbrev or 0) != int(expected_is_abbrev):
+        return "is_abbreviated mismatch"
+    if (int(sp), int(so), int(ep), int(eo)) != (
+        int(expected_start_para),
+        int(expected_start_off),
+        int(expected_end_para),
+        int(expected_end_off),
+    ):
+        return "offset/paragraph mismatch"
+
+    cur.execute(
+        "SELECT SourceId, RelationTypeId FROM Links WHERE TargetId = ?",
+        (quot_id,),
+    )
+    links = cur.fetchall()
+    actual_ids = {r[0] for r in links}
+    if not expected_code_ids.issubset(actual_ids):
+        return "missing expected code links"
+    if any(r[0] in expected_code_ids and r[1] != expected_relation_type for r in links):
+        return "unexpected relation type on code link"
+    return None
+
+
+def get_document_map(cur: sqlite3.Cursor) -> dict[bytes, dict]:
+    """Return {doc_id: {name, layer_id, hwm}} for all live documents.
 
     Documents with ProjectId = ZERO_GUID are soft-deleted and skipped.
     When multiple documents share a name (e.g. a duplicate with a hash suffix
@@ -562,16 +786,28 @@ def get_document_map(cur: sqlite3.Cursor) -> dict[str, dict]:
         WHERE hex(d.ProjectId) != '00000000000000000000000000000000'
         """
     )
-    result: dict[str, dict] = {}
+    result: dict[bytes, dict] = {}
     for name, doc_hex, hwm, layer_hex, medium_hex in cur.fetchall():
-        if name and name not in result:  # take first live layer per doc name
-            result[name] = {
-                "id": bytes.fromhex(doc_hex),
+        doc_id = bytes.fromhex(doc_hex)
+        if doc_id not in result:
+            result[doc_id] = {
+                "id": doc_id,
+                "name": name or "Untitled",
                 "layer_id": bytes.fromhex(layer_hex),
                 "hwm": hwm or 0,
                 "medium_id": bytes.fromhex(medium_hex),
             }
     return result
+
+
+def _lookup_document_by_name(doc_map: dict[bytes, dict], file_stem: str) -> dict | None:
+    clean_name = re.sub(r"\s*\([0-9a-f]{8}\)$", "", file_stem)
+    candidates = [
+        d for d in doc_map.values() if d["name"] == file_stem or d["name"] == clean_name
+    ]
+    if len(candidates) == 1:
+        return candidates[0]
+    return None
 
 
 def get_project_id(cur: sqlite3.Cursor) -> bytes:
@@ -599,7 +835,7 @@ def get_code_quotation_relation_type_id(cur: sqlite3.Cursor) -> bytes:
 def process_new_quotations(
     cur: sqlite3.Cursor,
     doc_dir: Path,
-    doc_map: dict[str, dict],
+    doc_map: dict[bytes, dict],
     name_to_id: dict[str, bytes],
     project_id: bytes,
     app_version: int,
@@ -630,18 +866,21 @@ def process_new_quotations(
             )
             continue
 
-        # Match doc_name_raw to a document in Atlas.ti (strip trailing (hex) suffix)
-        clean_name = re.sub(r"\s*\([0-9a-f]{8}\)$", "", doc_name_raw)
-        doc_info = doc_map.get(clean_name) or doc_map.get(doc_name_raw)
+        doc_id = parse_document_id(md_file)
+        if doc_id is not None:
+            doc_info = doc_map.get(doc_id)
+        else:
+            doc_info = _lookup_document_by_name(doc_map, doc_name_raw)
         if not doc_info:
             errors.append(
-                f"{md_file.name}: document not found in Atlas.ti — "
+                f"{md_file.name}: document not found or ambiguous in Atlas.ti — "
                 f"skipping {len(annotations)} annotation(s)"
             )
             continue
 
         hwm = doc_info["hwm"]
         layer_id = doc_info["layer_id"]
+        rules = calibrate_location_rules(cur, layer_id, paragraphs)
 
         for ann in annotations:
             pos = find_text_in_paragraphs(paragraphs, ann["text"])
@@ -653,35 +892,55 @@ def process_new_quotations(
                 continue
 
             start_seg, start_off, end_seg, end_off = pos
-            # Paragraph offset: Atlas.ti's StartParagraphNumber is 1-based, but
-            # the base depends on how many paragraphs the AML binary stores before
-            # the first segment our import script captures. decode_aml_paragraphs
-            # may silently drop leading empty/structural paragraphs from the raw
-            # AML, so our paragraphs[0] does not correspond to Atlas.ti para 1.
-            #
-            # The offset must be calibrated per document by comparing an existing
-            # quotation's StartParagraphNumber with the index our function returns
-            # for the same text.  For this project:
-            #   - Berfun / Andreea (regular imports): offset = 1  (start_seg + 1)
-            #   - Lauren Stokowski (4ba6ab14) import: offset = 3  (start_seg + 3)
-            #
-            # Empirically confirmed: Atlas.ti shows para[N] at StartParagraphNumber
-            # N + offset, and the Lauren (4ba6ab14) document requires offset = 3.
-            atlas_start_para = start_seg + 3
-            atlas_end_para = end_seg + 3
+            start_off_doc = start_off
+            end_off_doc = end_off
 
-            first_idx, last_idx = compute_intervals(
+            offset_shift = int(rules["offset_shift"])
+            start_off = start_off_doc - offset_shift
+            end_off = end_off_doc - offset_shift
+            if start_off < 0 or end_off <= start_off:
+                errors.append(
+                    f"{md_file.name}: calibrated offsets invalid (shift={offset_shift}) — "
+                    f"skipping quote: {ann['text'][:60]!r}"
+                )
+                continue
+            atlas_start_para = start_seg + 1
+            atlas_end_para = end_seg + 1
+
+            first_idx_base, last_idx_base = compute_intervals(
                 paragraphs, start_seg, start_off, end_seg, end_off
             )
+            first_idx = first_idx_base + int(rules["first_delta"])
+            last_idx = last_idx_base + int(rules["first_delta"])
+
+            sel_text_parts: list[str] = []
+            if start_seg == end_seg:
+                sel_text_parts = [paragraphs[start_seg][start_off_doc:end_off_doc]]
+            else:
+                sel_text_parts.append(paragraphs[start_seg][start_off_doc:])
+                for i in range(start_seg + 1, end_seg):
+                    sel_text_parts.append(paragraphs[i])
+                sel_text_parts.append(paragraphs[end_seg][:end_off_doc])
+            selected_text = "\n\n".join(p.strip() for p in sel_text_parts if p is not None).strip()
+            if not selected_text:
+                errors.append(
+                    f"{md_file.name}: computed empty span for quote — skipping: {ann['text'][:60]!r}"
+                )
+                continue
+            full_para_text = paragraphs[start_seg] if start_seg == end_seg else ""
+            is_abbrev = bool(start_seg == end_seg and (start_off > 0 or end_off < len(full_para_text)))
+            plain_text = _plain_text_for_new_quote(selected_text, is_abbrev, int(rules["snippet_len"]))
 
             # ── Idempotency: check if a quotation at this exact position already exists ──
             existing_quot_id: bytes | None = None
             cur.execute(
                 """SELECT q.Id FROM Quotations q
                    JOIN TextLocations tl ON q.LocationId = tl.Id
-                   WHERE q.LayerId = ? AND tl.Interval_FirstIndex = ? AND tl.Interval_LastIndex = ?
+                   WHERE q.LayerId = ?
+                     AND tl.StartParagraphNumber = ? AND tl.StartOffset = ?
+                     AND tl.EndParagraphNumber = ? AND tl.EndOffset = ?
                    LIMIT 1""",
-                (layer_id, first_idx, last_idx),
+                (layer_id, atlas_start_para, start_off, atlas_end_para, end_off),
             )
             row = cur.fetchone()
             if row:
@@ -710,9 +969,9 @@ def process_new_quotations(
                         ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)""",
                         (
                             location_id,
-                            -2 * atlas_start_para,
+                            int(rules["element_factor"]) * atlas_start_para,
                             start_off,
-                            -2 * atlas_end_para,
+                            int(rules["element_factor"]) * atlas_end_para,
                             end_off,
                             atlas_start_para,
                             atlas_end_para,
@@ -724,8 +983,8 @@ def process_new_quotations(
                     cur.execute(
                         "INSERT INTO Quotations"
                         "(Id, Number, PlainText, IsAbbreviated, LayerId, LocationId)"
-                        " VALUES (?, ?, ?, 0, ?, ?)",
-                        (quot_id, hwm, ann["text"], layer_id, location_id),
+                        " VALUES (?, ?, ?, ?, ?, ?)",
+                        (quot_id, hwm, plain_text, 1 if is_abbrev else 0, layer_id, location_id),
                     )
                     create_entity(cur, quot_id, user_id)
 
@@ -752,6 +1011,26 @@ def process_new_quotations(
                         (link_id, project_id, tag_id, quot_id, code_quot_rel_type_id),
                     )
                     create_entity(cur, link_id, user_id)
+
+                if not existing_quot_id:
+                    expected_code_ids = {name_to_id[c] for c in ann["codes"] if c in name_to_id}
+                    err = validate_created_quote(
+                        cur,
+                        quot_id,
+                        layer_id,
+                        atlas_start_para,
+                        start_off,
+                        atlas_end_para,
+                        end_off,
+                        plain_text,
+                        1 if is_abbrev else 0,
+                        expected_code_ids,
+                        code_quot_rel_type_id,
+                    )
+                    if err:
+                        errors.append(
+                            f"{md_file.name}: post-insert validation failed for quote {quot_id.hex().upper()}: {err}"
+                        )
 
             if not existing_quot_id:
                 created += 1
@@ -894,7 +1173,15 @@ def main(
     """Push atlas-coding/ Markdown edits back into the live Atlas.ti SQLite."""
     check_atlasti_not_running()
 
-    sqlite_path = db_path or find_live_sqlite()
+    if db_path:
+        s = str(db_path)
+        if os.name != "nt" and re.match(r"^[A-Za-z]:[\\/]", s):
+            sqlite_path = Path("/mnt") / s[0].lower() / s[2:].replace("\\", "/").lstrip("/")
+        else:
+            sqlite_path = Path(db_path)
+    else:
+        sqlite_path = find_live_sqlite()
+    configure_paths_for_sqlite(sqlite_path)
     coding_dir = input_dir or ATLAS_CODING_DIR
 
     if not coding_dir.exists():

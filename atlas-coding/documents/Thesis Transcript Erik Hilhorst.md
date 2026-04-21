@@ -1,4 +1,5 @@
 # Thesis Transcript Erik Hilhorst
+<!-- id: E7CFB1F61191AA498790B391705ABCAC -->
 
 > **Agent instructions**: Read this document and add `<!-- quote -->` annotations
 > to passages you want to code. Segment numbers (`<!-- seg:N -->`) are used by
@@ -69,6 +70,10 @@
 <!-- seg:20 -->
 [Them] Ja. Ja, so, uh, my, uh, job description is, uh, data analyst, uh, at NKC. Uh, and from that, um, role, my responsibilities are, uh, basically any point about like management information. Uh, some of the, the making sure all the data is available to everybody who needs it to get insights and stuff like that. And then all the processes regarding data. So how data flows between systems, uh, making sure that, you know, the marketing tooling has the right data to, you know, be effective, uh, that sort of stuff. Um, basically the whole sort of like landscape there. Um, and then regarding AI, I guess my unofficial role is a bit like the in-office, uh, pioneer, uh, trying to, uh, make people, uh, you know, enthusiastic about it, but also make people aware about the risks. Um, so both, both opportunities and risks there, uh, and try to implement new ways to use this technology, um, wherever we see opportunities, which usually means that there’s an issue, and then we see if AI can, you know, have some impact in some way, and then we, uh, we try to work that out. And my role would be to lead the project there.
 
+<!-- quote: `Interviewees background` -->
+Ja. Ja, so, uh, my, uh, job description is, uh, data analyst, uh, at NKC.
+<!-- /quote -->
+
 <!-- seg:21 -->
 [Me] Yeah, so I think you might have the most, um, badly defined, uh, job title [lacht] in the history of mankind.
 
@@ -92,6 +97,10 @@
 
 <!-- seg:28 -->
 [Them] Yeah, I’m not so sure. Uh, to me, agentic AI is a bit of a, a hype term, uh, because I guess computers always act, uh, in a way, right? They, they get instructions and they, they follow them, and then something happens. So to me, I don’t see the, yeah, a big difference there, um, personally. Yeah.
+
+<!-- quote: `dismissing agentic AI as hype` -->
+computers always act, uh, in a way, right? They, they get instructions and they, they follow them
+<!-- /quote -->
 
 <!-- seg:29 -->
 [Me] Yeah. So I, I agree. And I think that boundary is kind of tough to make. Uh, on the other hand, I want to scope my research a bit and not only focus it on generating content, because that is something that has been written about a lot. So if that’s like my, my thesis question is how can agentic AI help marketing managers to create value, right. So very broad. Um, but then you have to scope agentic AI. And while there are many definitions in literature, I focus on two critical aspects, and that is, one, it has some capability to plan.Uh, so it, you can give it an instruction, and it’ll figure out what you actually mean and execute on it. And then that’s the second part, like, can actually execute. So that can mean, uh, RAG, like getting information from a data system using queries. Uh, but it can definitely also mean, like, acting as systems to ensure, like, the, the user or the customer has a different experience to get something done. Like, to me-
