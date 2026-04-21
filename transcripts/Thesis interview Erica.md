@@ -23,7 +23,7 @@ Jazeker.
 Altijd willing to help, want ik weet hoe lastig het is om mensen te vinden. 
 
 > [Me]
-> Ik heb nog nooit zo'n sales tijger gevoeld als wanneer ik mensen voor interviews moet stikken. [lacht] 
+> Ik heb nog nooit zo'n sales tijger gevoeld als wanneer ik mensen voor interviews moet strikken. [lacht] 
 
 [Them]
 Bij mij had niemand toen nee gezegd, dus dat was een cadeautje. 
@@ -38,13 +38,7 @@ voor interviews. Het kost veel tijd.
 > Had jij vooral mensen binnen de organisatie of ook erbuiten? 
 
 [Them]
-Nee, alleen maar buiten. 
-
-> [Me]
-> Oké. 
-
-[Them]
-Alleen maar buiten de organisatie. 
+Nee, alleen maar buiten. Alleen maar buiten de organisatie. 
 
 > [Me]
 > Ik krijg van een boel mensen reactie. Ook mensen waarvan je het in de eerste plaats niet zou verwachten. Maar ook een heleboel waarvan ik überhaupt geen reactie krijg. Zeker als je buiten Nederland kijkt. Wat ik leuk vind, om meer mensen te krijgen die verder zijn dan we vaak in dit kikkerlandje zitten. 
@@ -122,13 +116,7 @@ definition, right? Because otherwise I'm going to fall through a month. I don't 
 [laughs] I'm already very nervous. 
 
 [Them]
-But I would say generative AI means everything that's created that did not exist before, but that's created based on information that was already there. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-So it's nothing new. It's all based on something that was already there, but it creates new knowledge, specifically. And I think generative AI, yeah, it's generating new things. So I'm very far of the official 
+But I would say generative AI means everything that's created that did not exist before, but that's created based on information that was already there. So it's nothing new. It's all based on something that was already there, but it creates new knowledge, specifically. And I think generative AI, yeah, it's generating new things. So I'm very far of the official 
 
 [Them]
 definition probably, but that's okay. [laughs] 
@@ -185,9 +173,6 @@ yeah, this is probably, again, not the scientifically-
 So that means agentic AI is like, it's really taking over work. 
 
 > [Me]
-> Yeah. 
-
-> [Me]
 > I agree in that sense. What I try to use as a boundary for my research purposes is two elements. That is, one, the ability to perform tasks in some manner of ways- 
 
 [Them]
@@ -221,85 +206,31 @@ Yeah
 > ... I guess, write emails and stuff like that. Maybe you can talk to me about what use cases you have within the organization when it comes to agentic AI, specifically within the domain of marketing, but I would define marketing broadly. So that is content generation, but also customer service is also contact between your organization and the customers, right? 
 
 [Them]
-Yeah, exactly. Yeah, exactly, and we also really see that as marketing, because actually, if they have a better experience- 
-
-> [Me]
-> Yeah 
+Yeah, exactly. Yeah, exactly, and we also really see that as marketing, because actually, if they have a better experience- ... they have a better experience with our brand, they will talk more positively about us and all of that. So, 
 
 [Them]
-... they have a better experience with our brand, they will talk more positively about us and all of that. So, 
-
-[Them]
-actually, that domain is the main domain where we use it a lot. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And 
+actually, that domain is the main domain where we use it a lot. And 
 
 [Them]
 that means that, for example, we have a chatbot, she's called Ruby, 
 
 [Them]
-for our members. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And in the chatbot, we've defined a lot of conversations where agentic takes over. So there's also a lot of conversation that we pre-built, 
+for our members. And in the chatbot, we've defined a lot of conversations where agentic takes over. So there's also a lot of conversation that we pre-built, 
 
 [Them]
 because it's cheaper. 
 
 [Them]
-And if you don't have to use the agent, it's going to be cheaper. But there's a lot of instances where we feel like the real personal approach should really be tackled. So there we use then agentic AI. So for example, that is when you're wanting to change your membership. 
-
-> [Me]
-> Mm-hmm. 
+And if you don't have to use the agent, it's going to be cheaper. But there's a lot of instances where we feel like the real personal approach should really be tackled. So there we use then agentic AI. So for example, that is when you're wanting to change your membership. So when there's also commercial value against it, so for example, if you want to upgrade your membership, obviously there's value in it, so then we also think it's worth investing a bit more. It's like the investment is minimal compared to... But, yeah. But if you're moving houses, that's just pre-scripted. Because then it's literally like, "What is your new address?" Da, da, da, and we will put it in the system and that's it. But if there's really something where we can add value in a conversation, then we use agentic 
 
 [Them]
-So when there's also commercial value against it, so for example, if you want to upgrade your membership, obviously there's value in it, so then we also think it's worth investing a bit more. It's like the investment is minimal compared to... But, yeah. But if you're moving houses, that's just pre-scripted. 
-
-> [Me]
-> Mm-hmm. 
+conversations. So that's the instance where we use it a lot. 
 
 [Them]
-Because then it's literally like, "What is your new address?" Da, da, da, and we will put it in the system and that's it. 
-
-> [Me]
-> Yeah. 
+And the other one is where we use agentic is in email campaigns. So for example, the... 
 
 [Them]
-But if there's really something where we can add value in a conversation, then we use agentic 
-
-[Them]
-conversations. 
-
-> [Me]
-> Nice. 
-
-[Them]
-So that's the instance where we use it a lot. 
-
-[Them]
-And the other one is where we use agentic is in email campaigns. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-So for example, the... 
-
-[Them]
-Yeah. Is it agentic? Yes. I think that is agentic. I would still doubt if it's all agentic, because it doesn't plan in terms of time. So it does plan in terms of like, "Okay, this is the right moment for you to send out this email now." So it does plan that. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Yeah. Then it's agentic, I think. Yeah. And it's a task, it sends it out. So if- 
+Yeah. Is it agentic? Yes. I think that is agentic. I would still doubt if it's all agentic, because it doesn't plan in terms of time. So it does plan in terms of like, "Okay, this is the right moment for you to send out this email now." So it does plan that. Yeah. Then it's agentic, I think. Yeah. And it's a task, it sends it out. So if- 
 
 > [Me]
 > So maybe you can tell me a little bit more about how that works for you. Like what is the AI part in it and what do the marketeers do? What is the output there? Is it just- 
@@ -311,61 +242,13 @@ Yeah
 > ... the email as output or the flow as outputs? This is what the- 
 
 [Them]
-Yeah, not yet
-
-> [Me]
-> Very interesting 
+Yeah, not yet. So this is something that we really want to go for- ... in the near future, but that is not yet. So the whole flow is not defined based on AI, which I think there's a huge opportunity, right- ... to actually do that with agentic, but we're not there yet. So now it's mainly writing emails is done with generative AI and understanding which target group is the best also based on- ... the models and all of that. But then still, we make the action to send it out now. And 
 
 [Them]
-So this is something that we really want to go for- 
-
-> [Me]
-> Mm-hmm 
+also the follow-up then is based on a journey and a flow. So it's still really like a flow chart. If no response, it goes there. If there is a response and then it's built on this journey mapping, 
 
 [Them]
-... in the near future, but that is not yet. So the whole flow is not defined based on AI, which I think there's a huge opportunity, right- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... to actually do that with agentic, but we're not there yet. So now it's mainly writing emails is done with generative AI and understanding which target group is the best also based on- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... the models and all of that. But then still, we make the action to send it out now. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-And 
-
-[Them]
-also the follow-up then is based on a journey and a flow. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-So it's still really like a flow chart. If no response, it goes there. If there is a response and then it's built on this journey mapping, 
-
-[Them]
-so it's not yet in a agentic flow. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-And then the next email again will be written by AI- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... generative AI. 
+so it's not yet in a agentic flow. And then the next email again will be written by AI- ... generative AI. 
 
 [Them]
 But there is a human interference, so the human still checks it, and then it's just it, and then it will be sent out. 
@@ -386,13 +269,7 @@ Exactly.
 > Is it something that you want to move towards, or is it way off in the distance when it comes to priorities? 
 
 [Them]
-I don't think it's way off. I would like to move to it, but I can notice in the teams there's still a lot of wanting to keep their jobs. So if you're- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... asking what would be in the way, it's a lot of 
+I don't think it's way off. I would like to move to it, but I can notice in the teams there's still a lot of wanting to keep their jobs. So if you're- ... asking what would be in the way, it's a lot of 
 
 [Them]
 people are still, I wouldn't say afraid, but there's a lot of boundaries that are thrown on. So for example, they say, "Yeah, then we lose brand control. Then we lose our own input on everything, then 
@@ -401,28 +278,7 @@ people are still, I wouldn't say afraid, but there's a lot of boundaries that ar
 it might go wrong in certain instances." So there's 
 
 [Them]
-still some fear to actually- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... move towards that. And the other thing that I think is a bit in the way, I would say, is that we also don't have a lot of capacity to actually invest in creating it at first- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... because this requires a bit more investment. If you would calculate in the six months, ultimately it will save a lot of time, but first it needs- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... a bit more investment, and then we don't have the skills yet to actually do it. But I would say it's on a very high priority list. 
-
-> [Me]
-> Yeah. 
+still some fear to actually- ... move towards that. And the other thing that I think is a bit in the way, I would say, is that we also don't have a lot of capacity to actually invest in creating it at first- ... because this requires a bit more investment. If you would calculate in the six months, ultimately it will save a lot of time, but first it needs- ... a bit more investment, and then we don't have the skills yet to actually do it. But I would say it's on a very high priority list. 
 
 > [Me]
 > Also writing a lot of notes, of course. 
@@ -440,13 +296,7 @@ Yeah.
 > You're also diving into limitations. [chuckles] 
 
 [Them]
-Ah, yeah. Okay. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So I was already diving into limitations a bit there. 
+Ah, yeah. Okay. So I was already diving into limitations a bit there. 
 
 > [Me]
 > No, I think this makes a lot of sense, but I want to note it down so we can double back later. 
@@ -467,37 +317,13 @@ So for-
 For agentic AI, 
 
 [Them]
-I would actually say not yet. 
-
-> [Me]
-> Okay. 
+I would actually say not yet. So, 
 
 [Them]
-So, 
+we do use generative AI in terms of for the creation of assets- ... for the creation of a modular system. I don't know if that would be agentic then, because if, for example, our assets that we have online, AI 
 
 [Them]
-we do use generative AI in terms of for the creation of assets- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... for the creation of a modular system. I don't know if that would be agentic then, because if, for example, our assets that we have online, AI 
-
-[Them]
-makes sure that the right elements are matched together and then are delivered, and then it's checking which one is performing the best in terms of full asset scope. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And then it recreates new ones based on what- 
-
-> [Me]
-> Mm 
-
-[Them]
-... was creating very well, and it will create new assets, and then it will deliver that again to an audience that it thinks it's most relevant for. 
+makes sure that the right elements are matched together and then are delivered, and then it's checking which one is performing the best in terms of full asset scope. And then it recreates new ones based on what- ... was creating very well, and it will create new assets, and then it will deliver that again to an audience that it thinks it's most relevant for. 
 
 > [Me]
 > So you essentially already have an entire, whether it's AI or agentic AI, content streets where it's- 
@@ -509,19 +335,7 @@ Exactly
 > ... it doesn't just create the content, but it also learns from what is active now? 
 
 [Them]
-Yeah. 
-
-> [Me]
-> Cool. 
-
-[Them]
-And there is still human interference, huh? So then- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... still someone checks it, and then yeah. 
+Yeah. And there is still human interference, huh? So then- ... still someone checks it, and then yeah. 
 
 > [Me]
 > Does that mean that you also have a lot of AI-generated content when it comes to images and stuff like that, or is it just- 
@@ -533,19 +347,7 @@ Yeah
 > ... mixing and matching preexisting assets? 
 
 [Them]
-Mixing and matching preexisting assets, and we are now doing the first tests with having a model on a machine- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... and changing it into other persons. 
-
-> [Me]
-> Mm. 
-
-[Them]
-But to be honest, 
+Mixing and matching preexisting assets, and we are now doing the first tests with having a model on a machine- ... and changing it into other persons. But to be honest, 
 
 [Them]
 we're 
@@ -554,64 +356,25 @@ we're
 not so far ahead that we use AI models everywhere yet. So we're doing the first test because 
 
 [Them]
-we're all about the afterglow, after fitness, and we believe the afterglow should be real, if I say it properly. 
-
-> [Me]
-> Yeah. 
+we're all about the afterglow, after fitness, and we believe the afterglow should be real, if I say it properly. Because then otherwise, we're promoting something that we show this afterglow, but it's actually generated by a computer, which still feels a bit off. 
 
 [Them]
-Because then otherwise, we're promoting something that we show this afterglow, but it's actually generated by a computer, which still feels a bit off. 
-
-[Them]
-For example, I have a photo here. 
-
-[Them]
-You will see it. It's like... 
-
-> [Me]
-> Yeah. 
-
-[Them]
-It's like the real afterglow. It's like- 
+For example, I have a photo here. You will see it. It's like... It's like the real afterglow. It's like- 
 
 > [Me]
 > Yeah, you feel the energy 
 
 [Them]
-... great photo. You can just feel that she just- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... really exercised, and then she's having this glow. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-And if we would fake that, I'm not sure, so we're still in a bit of a debate around it. They are testing with it. The team is testing with it because they want to move forward, of course. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-But we're not there yet. 
+... great photo. You can just feel that she just- ... really exercised, and then she's having this glow. And if we would fake that, I'm not sure, so we're still in a bit of a debate around it. They are testing with it. The team is testing with it because they want to move forward, of course. But we're not there yet. 
 
 > [Me]
 > Cool. Yeah. So just to wrap it up, anything else in the use case departments? 
 
 [Them]
-Yeah. So in service, there's more. 
-
-> [Me]
-> Okay. 
+Yeah. So in service, there's more. So, for example, if you cancel, 
 
 [Them]
-So, for example, if you cancel, 
-
-[Them]
-there's this whole flow that starts based on-Why you wanted to cancel. So you're going to... But it's all a bit flow-based. So- 
+there's this whole flow that starts based on- why you wanted to cancel. So you're going to... But it's all a bit flow-based. So- 
 
 > [Me]
 > So is there AI or more specifically agentic AI in the flow, or is it like you have a process which sets- 
@@ -623,31 +386,13 @@ I think it's more AI in the flow, so it's more like the response is generated by
 but it's gen AI, but it's not agentic, so it will not 
 
 [Them]
-follow up after that again. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Or 
+follow up after that again. Or 
 
 [Them]
 not like a conversation. I'm thinking if there's anything else where we use it. 
 
 [Them]
-I'm just going by the departments. So we're now testing with the first sales bot. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-So on the website, instead of having a lot of pages that you need to scroll through and all of that, we're doing the first agentic sales bot. But it's like literally beta testing, so it's like- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... we are testing it on very small groups and yeah. 
+I'm just going by the departments. So we're now testing with the first sales bot. So on the website, instead of having a lot of pages that you need to scroll through and all of that, we're doing the first agentic sales bot. But it's like literally beta testing, so it's like- ... we are testing it on very small groups and yeah. 
 
 > [Me]
 > So is this 
@@ -656,19 +401,7 @@ So on the website, instead of having a lot of pages that you need to scroll thro
 > comparable to the Ruby case when it comes to architecture and- 
 
 [Them]
-Not entirely, because the Ruby case is when somebody's already a member, so it's in the member systems, and this is more in the prospecting layer. 
-
-> [Me]
-> Mm. 
-
-[Them]
-So it's different. That's why it's also a very different team that's working on it. It's also very different developments because one is in our own build app, and the other one is in the Commerce Cloud Salesforce. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So that's why it's a bit different. And one is running on Salesforce and the other one not, so yeah. 
+Not entirely, because the Ruby case is when somebody's already a member, so it's in the member systems, and this is more in the prospecting layer. So it's different. That's why it's also a very different team that's working on it. It's also very different developments because one is in our own build app, and the other one is in the Commerce Cloud Salesforce. So that's why it's a bit different. And one is running on Salesforce and the other one not, so yeah. 
 
 > [Me]
 > Is it then also 
@@ -677,13 +410,7 @@ So that's why it's a bit different. And one is running on Salesforce and the oth
 > a Salesforce-based agent or do you really develop it yourselves? 
 
 [Them]
-Yeah. No. 
-
-> [Me]
-> Okay. 
-
-[Them]
-Salesforce-based, so it's agentic. 
+Yeah. No. Salesforce-based, so it's agentic. 
 
 > [Me]
 > Check. Cool. So let's dive into the next topic, which is about what value are we getting from these systems or expecting to get from these systems? And again, I'll just use it in a very structured manner and you can always feel free to hop off the 
@@ -704,70 +431,25 @@ Yeah.
 > So let's start with Ruby. I think you already had that for quite a while, right? 
 
 [Them]
-Yeah. But it was always based on conversational AI. 
-
-> [Me]
-> Mm-hmm. 
+Yeah. But it was always based on conversational AI. Or not even AI, it was based on conversations. So the conversations were already built, and then it was like trying to match your answer to that. And now, 
 
 [Them]
-Or not even AI, it was based on conversations. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So the conversations were already built, and then it was like trying to match your answer to that. And now, 
-
-[Them]
-it's very much improved because it's really like agentic talk. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And then you're asking for the value, right? 
-
-> [Me]
-> Yeah. 
-
-[Them]
-I think 
+it's very much improved because it's really like agentic talk. And then you're asking for the value, right? I think 
 
 [Them]
 members are always seeking for convenience and the best solution possible. So I think it's delivering convenience for them because they get a better answer, but they also get it quicker, and they get it at their fingertips. So I think that's also a very important one, like it's always there right now. They don't have to wait for a response from a call center agent, or they don't have to wait for someone. And I would 
 
 [Them]
-already dare to claim that the quality is much higher, than even if an agent does it, because we have all of our agents outsourced in Madagascar. They're amazing, they're fantastic people, but they are not always as aware as a database, obviously. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Like, they don't have the whole database in their head. 
-
-> [Me]
-> Yeah. 
+already dare to claim that the quality is much higher, than even if an agent does it, because we have all of our agents outsourced in Madagascar. They're amazing, they're fantastic people, but they are not always as aware as a database, obviously. Like, they don't have the whole database in their head. 
 
 [Them]
 Yeah. 
 
 [Them]
-So those are all values, I would say a value it delivers. But in terms of business value, I would say it's creating a happier member, and because of that, they will stay longer. 
-
-> [Me]
-> Yeah. 
+So those are all values, I would say a value it delivers. But in terms of business value, I would say it's creating a happier member, and because of that, they will stay longer. And because that's what we can measure, right? If they're happier, they will stay longer. That's one. And it is also able to better understand the human on the other side already, I would say. So because of that, they are better in doing sales and upselling, 
 
 [Them]
-And because that's what we can measure, right? If they're happier, they will stay longer. That's one. And it is also able to better understand the human on the other side already, I would say. So because of that, they are better in doing sales and upselling, 
-
-[Them]
-getting more revenue out of it. 
-
-> [Me]
-> Sure. 
-
-[Them]
-So we can also see that the value that comes out of it is higher. 
+getting more revenue out of it. So we can also see that the value that comes out of it is higher. 
 
 > [Me]
 > Yeah, so Ruby doesn't only help the customers with their issues, they also help you creating additional revenue streams. 
@@ -779,28 +461,10 @@ Exactly.
 Yeah. 
 
 > [Me]
-> Cool. 
-
-> [Me]
 > So do you already measure the impact here, or is it just you feel so confident about its impact that- 
 
 [Them]
-No, we do measure the impact, but to be honest, she's on maternity leave, and the team are less on top of it as she was, so I don't have the numbers right now. 
-
-> [Me]
-> Okay. 
-
-[Them]
-But we did do the test because 
-
-[Them]
-there is cost involved. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Of course, like the development cost, but also then the usage cost. So that's why we also make the strict cut into what conversations can be agentic and what conversations cannot be. 
+No, we do measure the impact, but to be honest, she's on maternity leave, and the team are less on top of it as she was, so I don't have the numbers right now. But we did do the test because there is cost involved. Of course, like the development cost, but also then the usage cost. So that's why we also make the strict cut into what conversations can be agentic and what conversations cannot be. 
 
 > [Me]
 > Yeah. And maybe if you can, 
@@ -815,13 +479,7 @@ Yes.
 It's a difficult question, though, because 
 
 [Them]
-we work with cm.com for the conversations a lot, and they have Halo. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-But then the whole Halo system is of course much more than just these conversations. But I would say we spent on technology for service and bot related, I think we would spend around 500K a year. 
+we work with cm.com for the conversations a lot, and they have Halo. But then the whole Halo system is of course much more than just these conversations. But I would say we spent on technology for service and bot related, I think we would spend around 500K a year. 
 
 > [Me]
 > Yeah. That's significant. 
@@ -836,16 +494,10 @@ No.
 > It's- 
 
 [Them]
-But Halo was based on Inspire, I think.So I think everything was also there and, 
+But Halo was based on Inspire, I think. So I think everything was also there and, 
 
 [Them]
-yeah. 
-
-> [Me]
-> Okay. 
-
-[Them]
-But what was your question again? 
+yeah. But what was your question again? 
 
 > [Me]
 > No, so I'm really wondering, this might not even be super relevant for the research, but it's interesting to me. 
@@ -872,22 +524,10 @@ Oh, this is exactly where we are.
 > That's very flex and convoluted as a process. 
 
 [Them]
-And then also too expensive because we're using everything at once, and then what is- 
-
-> [Me]
-> Yeah. 
+And then also too expensive because we're using everything at once, and then what is- So this is exactly the conversation that we're in now, and then we also have Agentforce, of course, from Salesforce, and that is where we built all the CRM tools on. 
 
 [Them]
-So this is exactly the conversation that we're in now, and then we also have Agentforce, of course, from Salesforce, and that is where we built all the CRM tools on. 
-
-[Them]
-But that's also like you pay for the enterprise. So we now have several systems, which I'm 100% sure is not optimal. However, I also believe that the value is really in using it [chuckles] everywhere. 
-
-> [Me]
-> Yeah. Yeah. 
-
-[Them]
-And then let's see where we go. Let's see where... And there will be a winner eventually, and there will be consolidation, and there will be. But at this moment, also, to be honest, the business case is so easy to make that I'm happy to spend a bit more everywhere 
+But that's also like you pay for the enterprise. So we now have several systems, which I'm 100% sure is not optimal. However, I also believe that the value is really in using it [chuckles] everywhere. And then let's see where we go. Let's see where... And there will be a winner eventually, and there will be consolidation, and there will be. But at this moment, also, to be honest, the business case is so easy to make that I'm happy to spend a bit more everywhere 
 
 [Them]
 to make sure that we are fully capturing the development. 
@@ -911,37 +551,13 @@ Yeah.
 > It's like ballpark. Is it like 2X, 10X, 100X? 
 
 [Them]
-Yeah, I would say 10X. Let's say 10X. 
-
-> [Me]
-> Cool. 
-
-[Them]
-Because it's not two and it's also not 200. 
-
-> [Me]
-> Yeah. Check. 
+Yeah, I would say 10X. Let's say 10X. Because it's not two and it's also not 200. 
 
 > [Me]
 > Clear. Yeah, that sounds super fun, and cool that you're essentially still saying like, "Let's just do everything at the same time and see where the ship lands." 
 
 [Them]
-Yeah, but IT- 
-
-> [Me]
-> Okay. Yeah 
-
-[Them]
-... is in a different. So this is, I totally agree, but our IT director, which I also totally understand, we all have different roles, but he's really trying to push back, and push back, and push back, and make us use less systems, because he's seeing the clutter everywhere, and everyone wants their little tool for this, little tool for that, little tool for that, and then we get this "wildgroei"- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... which I also completely understand. But I'm a firm believer of just do everything at this moment, because as long as we learn and we get better, and as long as there's a business case behind every case, it's worth it. 
-
-> [Me]
-> Yeah. 
+Yeah, but IT- ... is in a different. So this is, I totally agree, but our IT director, which I also totally understand, we all have different roles, but he's really trying to push back, and push back, and push back, and make us use less systems, because he's seeing the clutter everywhere, and everyone wants their little tool for this, little tool for that, little tool for that, and then we get this "wildgroei"- ... which I also completely understand. But I'm a firm believer of just do everything at this moment, because as long as we learn and we get better, and as long as there's a business case behind every case, it's worth it. 
 
 > [Me]
 > So that was only one of the examples that you gave. 
@@ -965,13 +581,7 @@ for email flow, so for example, one of the biggest things we do is member get me
 And then being more personalized will make it way better in terms of conversion, in terms of click rate, in terms of all of that. 
 
 [Them]
-But, as you know, we are looking for a partner for that now, and I think we're like, to be honest, I would say like five years back, we were ahead of the game. We were like- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... literally like, I would say, way ahead. But at this moment, 
+But, as you know, we are looking for a partner for that now, and I think we're like, to be honest, I would say like five years back, we were ahead of the game. We were like- ... literally like, I would say, way ahead. But at this moment, 
 
 [Them]
 we're not making as much speed there as I would like to. 
@@ -1004,43 +614,13 @@ Yeah.
 > Because he was very happy to hear that, or maybe conflicted to hear that you actually liked our proposal better. 
 
 [Them]
-Yeah. I don't think I said better, but I think what I said was that I liked the connection with the team the most- 
-
-> [Me]
-> Mm 
-
-[Them]
-... because that is honestly what I felt. But ultimately the team has to work with all the teams, and- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... it's also my digital director, and I'm not like the type of CCO that decides everything. So ultimately it's also a team decision. So that's what happened. 
+Yeah. I don't think I said better, but I think what I said was that I liked the connection with the team the most- ... because that is honestly what I felt. But ultimately the team has to work with all the teams, and- ... it's also my digital director, and I'm not like the type of CCO that decides everything. So ultimately it's also a team decision. So that's what happened. 
 
 > [Me]
 > But maybe, and this will go out of the transcript of course, but did you feel like we highlighted the wrong things in our proposal or? 
 
 [Them]
-Yeah, I think that's what happened. I think also Esme, because she used to be here- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... she thought she was coming with a lot of innovative things, which was not the case. 
-
-> [Me]
-> Yeah. Yeah. 
-
-[Them]
-And then I think like in terms of the ideas and stuff, it was really below the level. The agentic things that we are discussing, that should have been in massively, and that wasn't in at all. So I think- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... it's like those kind of discussions, and then with others there was a lot more futuristic things in there. 
+Yeah, I think that's what happened. I think also Esme, because she used to be here- ... she thought she was coming with a lot of innovative things, which was not the case. And then I think like in terms of the ideas and stuff, it was really below the level. The agentic things that we are discussing, that should have been in massively, and that wasn't in at all. So I think- ... it's like those kind of discussions, and then with others there was a lot more futuristic things in there. 
 
 > [Me]
 > Yeah. So it was really just, I should have been there [chuckles] from- 
@@ -1094,9 +674,6 @@ Otherwise, you only have the
 afraid people. [laughs] 
 
 > [Me]
-> Yeah. 
-
-> [Me]
 > So we're talking about the value of the email flow. 
 
 [Them]
@@ -1112,22 +689,10 @@ Yeah
 > ... doing that in a personalized manner. Are there other values that you see coming from there? 
 
 [Them]
-Yeah, so it's also the upselling, it's also the reactivation. So we also have this predictive modeling based on if you fall out of your pattern, if you fall out of your pattern in terms of you used to go every week and now suddenly you didn't go for two weeks- 
-
-> [Me]
-> Yeah 
+Yeah, so it's also the upselling, it's also the reactivation. So we also have this predictive modeling based on if you fall out of your pattern, if you fall out of your pattern in terms of you used to go every week and now suddenly you didn't go for two weeks- ... then what happened? And then we upsell you via a mechanism that you can go to the club and you can get a free bar. So actually we try to really get you into the club. 
 
 [Them]
-... then what happened? And then we upsell you via a mechanism that you can go to the club and you can get a free bar. So actually we try to really get you into the club. 
-
-[Them]
-But I'm not sure if that's also agentic yet. I think it's more like sequence email flows- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... and then the emails are improved by 
+But I'm not sure if that's also agentic yet. I think it's more like sequence email flows- ... and then the emails are improved by 
 
 [Them]
 generative AI, but they're not agentic. 
@@ -1160,9 +725,6 @@ Exactly
 Exactly, yeah. 
 
 > [Me]
-> Check. 
-
-> [Me]
 > Cool. So, I think 
 
 > [Me]
@@ -1174,14 +736,8 @@ Engagement? No.
 [Them]
 I would say that. 
 
-> [Me]
-> Okay. 
-
 [Them]
 Yeah. 
-
-> [Me]
-> Check. 
 
 > [Me]
 > I already have a lot of inputs on gen AI contents for creation of assets, so I think I'll skip that one and dive into the service 
@@ -1259,13 +815,7 @@ Yeah. [laughs]
 > But you must have experienced also quite a few drawbacks along the way. Or maybe not. I mean- 
 
 [Them]
-By the way, we didn't talk about the fit buddies yet. I forgot the fit buddies- 
-
-> [Me]
-> Ooh, okay. Yeah 
-
-[Them]
-... which is quite an important one, because that one I launched after my thesis, actually. And the fit buddies are like a habit building tool. So it's like 
+By the way, we didn't talk about the fit buddies yet. I forgot the fit buddies- ... which is quite an important one, because that one I launched after my thesis, actually. And the fit buddies are like a habit building tool. So it's like 
 
 [Them]
 we built five different buddies, and you can choose whoever you want to talk to. 
@@ -1277,13 +827,7 @@ And
 I'm thinking if I have a photo of them somewhere, but I don't. 
 
 [Them]
-But anyway, and those five are all fully agentic, so they communicate with you, and they can even remind you next week if you scheduled your visit for the club, and yeah. And they have access to all of our content database, so you can really ask a training schedule based on-Everything that is in our content database, and it will help you find the right content. It will help you play the right content, and it's all very motivational and depending on which one you chose. So we have Power, and Power is like a hardcore, diehard power guy. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-But we also have Vibe, and Vibe is way more on the flow and making you feel relaxed and all of that. So anyway, 
+But anyway, and those five are all fully agentic, so they communicate with you, and they can even remind you next week if you scheduled your visit for the club, and yeah. And they have access to all of our content database, so you can really ask a training schedule based on- everything that is in our content database, and it will help you find the right content. It will help you play the right content, and it's all very motivational and depending on which one you chose. So we have Power, and Power is like a hardcore, diehard power guy. But we also have Vibe, and Vibe is way more on the flow and making you feel relaxed and all of that. So anyway, 
 
 [Them]
 that is also one that we launched, 
@@ -1298,13 +842,7 @@ yeah, '25. Last year.
 Yeah. Habit building. So it's keeping you to it, and it's responding. 
 
 [Them]
-Because we know that when you train together, you'll go more and you'll be- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... more there. So it's like your training buddy, but then digitally. 
+Because we know that when you train together, you'll go more and you'll be- ... more there. So it's like your training buddy, but then digitally. 
 
 > [Me]
 > Yeah. And in what ways-- 
@@ -1328,13 +866,7 @@ So in that, yes.
 > Yep. That's great. 
 
 [Them]
-But also it can send you a reminder next Tuesday if you said you were going, but you're not going on Wednesday, it will tell you, like, "Hey, I saw you didn't go. Where were you? I missed you." 
-
-> [Me]
-> Yep. 
-
-[Them]
-Those kind of things. 
+But also it can send you a reminder next Tuesday if you said you were going, but you're not going on Wednesday, it will tell you, like, "Hey, I saw you didn't go. Where were you? I missed you." Those kind of things. 
 
 > [Me]
 > Cool. So you already talked about how it drives retention. 
@@ -1349,13 +881,7 @@ Yeah.
 Yeah, exactly. So I think it's helping the users, but also it's 
 
 [Them]
-actually making them go. So one of the main KPIs for our retention team is activity, and it's increasing the activity rate, and because of that, they will stay longer, because if you're active, you're going to stay longer. 
-
-> [Me]
-> Cool. 
-
-[Them]
-And- 
+actually making them go. So one of the main KPIs for our retention team is activity, and it's increasing the activity rate, and because of that, they will stay longer, because if you're active, you're going to stay longer. And- 
 
 > [Me]
 > Any other benefits that you saw from the Fit Buddy? 
@@ -1376,25 +902,7 @@ So drawbacks, I think,
 are 
 
 [Them]
-afraid of making mistakes, brand control. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-So it's mainly brand control, I would say. It's also going to say some stupid stuff, and that is a very important- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... one. A drawback might also be from a company perspective, right? That's what you're- 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Yeah. A drawback might also be- 
+afraid of making mistakes, brand control. So it's mainly brand control, I would say. It's also going to say some stupid stuff, and that is a very important- ... one. A drawback might also be from a company perspective, right? That's what you're- Yeah. A drawback might also be- 
 
 > [Me]
 > Yeah, or for the user, right? Because if the user has a bad experience- 
@@ -1409,13 +917,7 @@ Yeah, exactly
 Yeah. Yeah, exactly. A drawback is also the security. If you're 
 
 [Them]
-really well organized and you're really understanding how the agent works, then you might be making him say stupid things, or you- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... might be able to actually get... 
+really well organized and you're really understanding how the agent works, then you might be making him say stupid things, or you- ... might be able to actually get... 
 
 [Them]
 So that again, ultimately links to brand control. But yeah. So that is a drawback. 
@@ -1424,28 +926,7 @@ So that again, ultimately links to brand control. But yeah. So that is a drawbac
 And I would say it's also 
 
 [Them]
-we are already very digital as a company, as a product. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-Of course, we have a physical product as a club, 
-
-[Them]
-but we do really want to add that human factor still. And I think- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... by now it's really good at it, but in the beginning it might feel very agentic, it might feel very AI and- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... but I think that's getting better and better every day. So I would say that's not a drawback anymore, but it used to be. 
+we are already very digital as a company, as a product. Of course, we have a physical product as a club, but we do really want to add that human factor still. And I think- ... by now it's really good at it, but in the beginning it might feel very agentic, it might feel very AI and- ... but I think that's getting better and better every day. So I would say that's not a drawback anymore, but it used to be. 
 
 > [Me]
 > Interesting. So you also talked a bit about the fear from your team, right? I think that's really- 
@@ -1490,13 +971,7 @@ No
 Yeah, we managed to solve it before it became an issue. To be honest, 
 
 [Them]
-I'm also like, McDonald's did the whole AI campaign. I think it was brilliant, and they took it offline, and I think that was very stupid. But yeah. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So it's also opinions. I think 
+I'm also like, McDonald's did the whole AI campaign. I think it was brilliant, and they took it offline, and I think that was very stupid. But yeah. So it's also opinions. I think 
 
 [Them]
 so far we've only been praised for trying things and, yeah. Then we also as a company, we really value making mistakes because we learn the most from making mistakes. And it sounds maybe a bit stupid, but yeah. I'd rather have a team that makes mistakes every week than a team that does nothing and also doesn't move forward. [chuckles] So for me, it's just extremely important.
@@ -1523,46 +998,10 @@ Thanks.
 > Usually, I have so much of an issue to draw that out in terms of they are really thinking like, "Oh yeah, value is important. What am I really driving with the things that I'm doing?" 
 
 [Them]
-Yeah. So it's actually great that you're saying this because also from Manero, but also I- 
-
-> [Me]
-> Mm-hmm 
+Yeah. So it's actually great that you're saying this because also from Manero, but also I- ... started to realize, what is my own value? And my value is that I don't do anything without understanding exactly what the return is. And I think this is something- ... that I'm so focused on always. Like, okay, but what are we getting back for it? What are we getting back for it? And, I think that's really actually very interesting because it's- ... that's what I also love, because then we test it, and it's either proving we are right or it's saying I'm not right. And if it's saying I'm not right, I'm so motivated to prove the system right again. 
 
 [Them]
-... started to realize, what is my own value? And my value is that I don't do anything without understanding exactly what the return is. And I think this is something- 
-
-> [Me]
-> Mm-hmm 
-
-[Them]
-... that I'm so focused on always. Like, okay, but what are we getting back for it? What are we getting back for it? 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And, I think that's really actually very interesting because it's- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... that's what I also love, because then we test it, and it's either proving we are right or it's saying I'm not right. And if it's saying I'm not right, I'm so motivated to prove the system right again. 
-
-[Them]
-[laughs] 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So yeah, that's what I really love. So yeah. 
-
-> [Me]
-> Nice. 
-
-[Them]
-Yeah. 
+[laughs] So yeah, that's what I really love. So yeah. Yeah. 
 
 > [Me]
 > So 
@@ -1583,52 +1022,19 @@ Good.
 > So you already described a bit about the context in the sense that you were able to really get the space to make mistakes, but maybe you can also take me through the tailwinds of what enabled your AI journey as a company essentially. 
 
 [Them]
-What is a big enabler? Yeah. I think- 
-
-> [Me]
-> Yes 
+What is a big enabler? Yeah. I think- ... being able to use several systems, actually go and invest a bit in it, I think that is a big enabler. Because if we would've been stopped at the beginning, like, "You cannot use this system because you're already on this system," or, I think that is something that's really 
 
 [Them]
-... being able to use several systems, actually go and invest a bit in it, I think that is a big enabler. Because if we would've been stopped at the beginning, like, "You cannot use this system because you're already on this system," or, I think that is something that's really 
-
-[Them]
-holding people back. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-Another one is actually using also experts externally, because if we would've waited for people internally, I think it would've been a major blocker. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So, 
+holding people back. Another one is actually using also experts externally, because if we would've waited for people internally, I think it would've been a major blocker. So, 
 
 [Them]
 at Niro you also get the process, what is it, operations management, and then you hear about the what is the main blocker. Well, if you just use internal knowledge, it's never going to happen, 
 
 [Them]
-and they will be massive blockers. So actually using external knowledge also to make speed. I'd rather have something live and test and improve than have two years down the road and then finally have something live, and then once you start testing you again learn, you could've done so many things better. 
-
-> [Me]
-> Mm-hmm. 
+and they will be massive blockers. So actually using external knowledge also to make speed. I'd rather have something live and test and improve than have two years down the road and then finally have something live, and then once you start testing you again learn, you could've done so many things better. So I really believe in speed. 
 
 [Them]
-So I really believe in speed. 
-
-[Them]
-So for example, the Fitbuddies, we really had pushback internally, like, "We want to build this internally. It also needs to be a case that the IT team- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... can be very proud of." And I was like, "Yeah, then I'm going to wait two years before I get space on the backlog," because ultimately everything that has business priority now will go first. 
-
-> [Me]
-> Yes, yeah. 
+So for example, the Fitbuddies, we really had pushback internally, like, "We want to build this internally. It also needs to be a case that the IT team- ... can be very proud of." And I was like, "Yeah, then I'm going to wait two years before I get space on the backlog," because ultimately everything that has business priority now will go first. 
 
 [Them]
 So that means my Fitbuddies will be postponed. 
@@ -1637,19 +1043,7 @@ So that means my Fitbuddies will be postponed.
 And I'd rather get something live now. So I think using that is extremely important, was really growth driver. And I think also, 
 
 [Them]
-believing in what people believe in. So, when somebody's really harsh on, "I really want to get this live, can I please go?" "Yeah, please go." You know? 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So it's also like if you need to have a few ambassadors, I would say, for projects, that really run with it, and that also really run through organization to promote what they're doing because I think that's- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... And, also full trust from my board, I would say. 
+believing in what people believe in. So, when somebody's really harsh on, "I really want to get this live, can I please go?" "Yeah, please go." You know? So it's also like if you need to have a few ambassadors, I would say, for projects, that really run with it, and that also really run through organization to promote what they're doing because I think that's- ... And, also full trust from my board, I would say. 
 
 [Them]
 In my board, 
@@ -1658,16 +1052,7 @@ In my board,
 we're also not being held back too much, even though we're still a listed company, and they're never going to say, "You cannot do this." If I believe in it, they will believe in it. So I think that's also 
 
 [Them]
-really important to make it happen. Because I hear a lot of other companies where the board is afraid or legal is holding it back, or- 
-
-> [Me]
-> Yep 
-
-[Them]
-... 
-
-[Them]
-the in-cop updating, I don't know, the buying department will be- 
+really important to make it happen. Because I hear a lot of other companies where the board is afraid or legal is holding it back, or- ... the in-cop updating, I don't know, the buying department will be- 
 
 > [Me]
 > The purchasing department 
@@ -1694,16 +1079,10 @@ important.
 Yeah, so I think if we're talking about AI, generative AI, I do see younger people being way more on top of it than older people. And I don't want to make it an age gap or whatever. But I do see a huge difference in the workforce. And I'm sometimes amazed with people that just come out of school and they don't have any knowledge about it, or hardly. They used it for their thesis maybe, but that's it. And I'm like, "How the hell is this possible?" So last week I heard someone that's doing in every interview they ask, "What are your five last, 
 
 [Them]
-built GPTs?"What are your last five ones? Show me because I want to 
+built GPTs?" What are your last five ones? Show me because I want to 
 
 [Them]
-see that you actually use it and all of that. 
-
-> [Me]
-> Yep. 
-
-[Them]
-So I thought that was just an interesting one. 
+see that you actually use it and all of that. So I thought that was just an interesting one. 
 
 [Them]
 Sorry, I'm derailing. What was the question again? 
@@ -1733,76 +1112,22 @@ Yeah
 > ... in the company and possibly more- 
 
 [Them]
-That's actually great because one other addition, so I'm of course responsible for commercial, but I'm now taking it on for the whole company because I just- 
-
-> [Me]
-> Mm 
-
-[Them]
-... like we're operationally efficient. This is the future for our company. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So I'm now launching initiatives in facility management. So I'm launching an AI bot that is actually handling all of the facility tickets. I'm launching one that's actually handling all of the supplier requests to make sure the follow-up is there and actually we get it signed off. So actually, I'm launching it throughout the company, and I have- 
-
-> [Me]
-> Mm 
-
-[Them]
-... a term for it, but actually, I was thinking about it this morning. 
+That's actually great because one other addition, so I'm of course responsible for commercial, but I'm now taking it on for the whole company because I just- ... like we're operationally efficient. This is the future for our company. So I'm now launching initiatives in facility management. So I'm launching an AI bot that is actually handling all of the facility tickets. I'm launching one that's actually handling all of the supplier requests to make sure the follow-up is there and actually we get it signed off. So actually, I'm launching it throughout the company, and I have- ... a term for it, but actually, I was thinking about it this morning. 
 
 [Them]
 We're 
 
 [Them]
-launching it in a week. It's called Infinigym. That's the product. 
-
-> [Me]
-> Okay, yeah. 
-
-[Them]
-So Infinigym, and below that we're hanging 20 for now, 20 most impactful cases with agentic AI. So we're working also with a company that's helping us to actually build all of the bots. 
+launching it in a week. It's called Infinigym. That's the product. So Infinigym, and below that we're hanging 20 for now, 20 most impactful cases with agentic AI. So we're working also with a company that's helping us to actually build all of the bots. 
 
 [Them]
 It's called Repetitive, actually. And 
 
 [Them]
-they're really focused on reducing repetitive work. 
-
-> [Me]
-> Mm-hmm. 
+they're really focused on reducing repetitive work. And of course, in a facility department, every ticket you receive, you have to get an invoice, you have to get- ... all of that can be automated. So now, we're trying to get it across the organization, but it was really because we had commercial success first, and there's a lot of use cases and there's a lot of proven, so now we can roll it out throughout the company to other departments. But you can see people in departments are very afraid still. So it's like, 
 
 [Them]
-And of course, in a facility department, every ticket you receive, you have to get an invoice, you have to get- 
-
-> [Me]
-> Yep 
-
-[Them]
-... all of that can be automated. So now, we're trying to get it across the organization, but it was really because we had commercial success first, and there's a lot of use cases and there's a lot of proven, so now we can roll it out throughout the company to other departments. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-But you can see people in departments are very afraid still. So it's like, 
-
-[Them]
-we really try to make the message very clearly that we're going to make work nicer, and we're going to not expanding people, but we're going to keep the people that are in now. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Because it's just going to be a more fun job. 
-
-> [Me]
-> Yeah. 
-
-> [Me]
-> Check. 
+we really try to make the message very clearly that we're going to make work nicer, and we're going to not expanding people, but we're going to keep the people that are in now. Because it's just going to be a more fun job. 
 
 > [Me]
 > I could talk to you for hours based on what you're [laughs] already telling me. 
@@ -1832,22 +1157,7 @@ Yeah. Oh, funny
 > ... in the company that I've interviewed that they are actually the lead for AI for the entire company. 
 
 [Them]
-Yeah, that's funny. But I was at a CMO event last Friday. 
-
-> [Me]
-> Mm-hmm. 
-
-[Them]
-And there they said, the CMO of the future, I'm just going to say, the new CEO is orchestrator of AI because actually, 
-
-[Them]
-the commercial value needs to be in there- 
-
-> [Me]
-> For sure, yeah 
-
-[Them]
-... to actually make it go faster. 
+Yeah, that's funny. But I was at a CMO event last Friday. And there they said, the CMO of the future, I'm just going to say, the new CEO is orchestrator of AI because actually, the commercial value needs to be in there- ... to actually make it go faster. 
 
 [Them]
 And the next CMO needs to be CTO's best friend. And then I'm always like, "Yes, I am," because it's actually like, without the technology, I wouldn't be able to. And I also don't understand anything of that complexity, which is helpful for me because if I would understand it, it would hold me back a lot as well. But now I'm just like, "No, this is the vision. This is where we're going. Help me get there." Right? So it's good. 
@@ -1934,25 +1244,7 @@ Yeah.
 Of course. 
 
 [Them]
-I can ask around, but to be honest, I-I don't have a lot of peers where I'm like, "Oh, you could speak to them. They are already working with AI a lot in a team." Because actually that's difficult because if I would see that, I would be hunting them down to work for Basic-Fit. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-[chuckles] But external consultants, there's just one, is Harm Theunissen. Just write it down, look him up. If you want me to connect you with him, I could. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Because literally, his slogan on his LinkedIn is, "I help marketing teams build value with AI." So I think that's literally his slogan. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-So anyway, maybe that's interesting. But in terms of in the team, of course, I could ask if you could speak to people here in the team. But then I don't know if it's double up. 
+I can ask around, but to be honest, I don't have a lot of peers where I'm like, "Oh, you could speak to them. They are already working with AI a lot in a team." Because actually that's difficult because if I would see that, I would be hunting them down to work for Basic-Fit. [chuckles] But external consultants, there's just one, is Harm Theunissen. Just write it down, look him up. If you want me to connect you with him, I could. Because literally, his slogan on his LinkedIn is, "I help marketing teams build value with AI." So I think that's literally his slogan. So anyway, maybe that's interesting. But in terms of in the team, of course, I could ask if you could speak to people here in the team. But then I don't know if it's double up. 
 
 > [Me]
 > No, I don't mind. If you have somebody who you say is really from the marketing department and really driving the value there, and we could go a bit deeper on some of the questions that I might still have, that'd be cool. Yeah, for sure. Especially if they're- 
@@ -1964,13 +1256,7 @@ I'll look around. Because the girl that's really AI pushy, she's on maternity le
 But I will look around. I will also ask, actually, 
 
 [Them]
-Repetive, the partner that we work with, if he has someone that he works for- 
-
-> [Me]
-> Sure 
-
-[Them]
-... in a company that... Yeah. 
+Repetive, the partner that we work with, if he has someone that he works for- ... in a company that... Yeah. 
 
 > [Me]
 > And do they have a background in RPA or are they really AI first as a company? And just- 
@@ -1988,19 +1274,7 @@ AI first. They just started, actually. They used to have Building Blocks in-
 > I do. 
 
 [Them]
-So it's the owners of Building Blocks, they sold it to CM. 
-
-> [Me]
-> Yep. 
-
-[Them]
-And they now started a new company. 
-
-> [Me]
-> Check. Oh, that's interesting. Yeah. 
-
-[Them]
-Yeah. 
+So it's the owners of Building Blocks, they sold it to CM. And they now started a new company. 
 
 > [Me]
 > Okay. I have so many notes. 
@@ -2018,13 +1292,7 @@ I think only good luck.
 > Thank you. 
 
 [Them]
-Rock it. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-Because it will be a little bit less sleep probably coming months, but... 
+Rock it. Because it will be a little bit less sleep probably coming months, but... 
 
 > [Me]
 > I'm trying to focus on that because I found that if I don't sleep enough, everything else breaks down. [chuckles] 
@@ -2042,28 +1310,7 @@ That is so funny, though. Yeah. Okay, well-
 > Yeah. You wisdom the experience, though. 
 
 [Them]
-Yeah, exactly. No, for me, it was literally I started way too late. So for me, it was like weeks of three hours of sleep was a lot. And then it was like, literally because I would work during the day, I had my board role, right? So I cannot say, like, "I'm going to do my studies." 
-
-> [Me]
-> No. 
-
-[Them]
-So it was really during the night until 3:00, until 4:00, and then writing. 
-
-[Them]
-And then, yeah. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-I got it done, so you know. 
-
-> [Me]
-> Yeah. 
-
-[Them]
-You'll get it done as well. Good luck. 
+Yeah, exactly. No, for me, it was literally I started way too late. So for me, it was like weeks of three hours of sleep was a lot. And then it was like, literally because I would work during the day, I had my board role, right? So I cannot say, like, "I'm going to do my studies." So it was really during the night until 3:00, until 4:00, and then writing. And then, yeah. I got it done, so you know. You'll get it done as well. Good luck. 
 
 > [Me]
 > I will. But I know the feeling. 
@@ -2075,13 +1322,7 @@ And I'm very curious to hear your thesis.
 > It's a lot of extra work. 
 
 [Them]
-Yeah, exactly. [chuckles] Well- 
-
-> [Me]
-> Yeah 
-
-[Them]
-... yeah, looking forward. If you could share it eventually, it would be great. 
+Yeah, exactly. [chuckles] Well- ... yeah, looking forward. If you could share it eventually, it would be great. 
 
 > [Me]
 > For sure. Yeah, will do. 
@@ -2093,13 +1334,7 @@ Nice.
 > I'll jot your name down. I have a list of people who are interested. Love to share it. 
 
 [Them]
-Nice. Perfect. Okay. 
-
-> [Me]
-> Okay. 
-
-[Them]
-Thanks so much. 
+Nice. Perfect. Okay. Thanks so much. 
 
 > [Me]
 > Wish you luck. See you. Bye bye. 
