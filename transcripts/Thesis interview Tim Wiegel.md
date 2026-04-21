@@ -1084,6 +1084,663 @@ And see you soon. Bye-bye.
 > [Me]
 > See you soon. Bye-bye. 
 
+# Part 2
 > [Me]
-> [mouse clicking] [notification sound]
-[mouse clicking] [notification sound]
+> Hey, Tim.
+
+[Them]
+Sorry, just had to talk to the mail guy at the door. And I probably have to give out a package for one second. I'll be back. [chuckles]
+
+> [Me]
+> Oh, sure, sure. Take your time.
+
+[Them]
+[background chatter] Now I'm ready.
+
+> [Me]
+> Yay, great. Your background really shows that you are a true IT expert
+
+[Them]
+[laughs] Oh, I'm just a fucking nerd. It's, uh...
+
+> [Me]
+> [laughs] Oh, yeah, me too. I just... I don't know if you did any gaming in your years, but I watched the Age of Empires II finals yesterday evening [laughs].
+
+[Them]
+Ne-ne- I ne- I never got into that. I played too much World of Warcraft.
+
+> [Me]
+> Yeah [laughs]. That's also a good time break.
+
+[Them]
+And then, and then at some point I decided, uh, gaming will be on the Switch, and, uh, I pretty much just bought because I want to play Zelda, but that was worth it.
+
+> [Me]
+> I, I, I don't really play games anymore, but, like, watching some of the classic esports that I did as a kid-
+
+[Them]
+[laughs]
+
+> [Me]
+> ... f-from before there was a thing called esports-
+
+[Them]
+Yeah. [laughs]
+
+> [Me]
+> ... it's so relaxing to me. It's just the best way to turn my brain off.
+
+[Them]
+Absolutely.
+
+> [Me]
+> [laughs] Okay. Hey, but it's great that you are here yet again. Uh-
+
+[Them]
+Yeah
+
+> [Me]
+> ... I had a few threads that I wanted to pull, and what I think might be best is to just do a real quick recap of what we talked about last time before-
+
+[Them]
+Yeah
+
+> [Me]
+> ... we dive in. So, um, I w- I'm going to skip what AI is and start with the use case. So we talked about Funnel.io and how you can use agents to collect data and build, uh, MMM-based models based on that.
+
+[Them]
+Yeah.
+
+> [Me]
+> We talked about, um, building marketing infrastructure with agentic coding, a lot about SQL analysis stuff with agents. Uh, generated content, we, we... I think we briefly touched.
+
+[Them]
+Yeah.
+
+> [Me]
+> Um, and that we sadly, or I think sadly, I don't know what your opinion is about that, um, don't see a lot of building of customer journeys, flows or segment agents yet.
+
+[Them]
+Yeah. Yeah.
+
+> [Me]
+> Um, we had quite a extensive, uh, talk about what the differences are between Germany and the Netherlands, and I think-
+
+[Them]
+[laughs]
+
+> [Me]
+> ... uh, that's even more stuck with the US, uh, during the session. And we talked a little bit about benefits, a bit more about draw of... or, uh, limitations within organizations, uh, and a bit about enablers as well.
+
+[Them]
+Yeah.
+
+> [Me]
+> So one of the interesting things that you touched upon was that shadow IT might be an enabler because it shows people what you can do.
+
+[Them]
+Yeah.
+
+> [Me]
+> So, you talked about starting with lighthouse products, about having data centralized. We... That was also very brief. Uh, having C-level buy-in, and that IT typically has a backlog of five years or more, which can set projects like these back.
+
+[Them]
+Yeah. Quite often.
+
+> [Me]
+> uh, in the obs- on the obstacle sides, we talked about having loads of idea but not having the permission to execute. Uh, that also brings back to mind the story that you had with, uh, a Big Four consultancy that, uh, got a ChatGPT 3.0, uh, project up and running, uh-
+
+[Them]
+Yeah
+
+> [Me]
+> ... I think this year [laughs].
+
+[Them]
+Fin-fin-finished in '29, I think.
+
+> [Me]
+> Yeah [laughs]. Yeah. That's amazing.
+
+[Them]
+Yeah.
+
+> [Me]
+> Um, I think et cetera, et cetera. So what I would wanna kick it off with is, um, we talked about l- looking back a bit about use cases-
+
+[Them]
+Yeah
+
+> [Me]
+> ... and a lot about limitations that we see in organizations when it comes to adopting AI, especially within the German market.
+
+[Them]
+Yeah.
+
+> [Me]
+> What I would love to, to know from you is, what would you advise organizations to get, get off the ground when it comes to really leveraging AI?
+
+[Them]
+Yeah.
+
+> [Me]
+> Uh, and I think that can be like the, the new bridge of conversation topics that we can dive into.
+
+[Them]
+I, I mean, [laughs] let's do that. I mean, it's pretty much, uh, the opposite of what I talked about last time, right? Uh, so give them... I mean, at first it needs to come from the top, and someone at the top has to decide that this is important, this is really... And, and not just decide this is important because, uh, my buddy told me while golfing that AI is the new shit. But really, in the best case, starting with ideas that also make sense, right? And ideas that make sense are also not like, "Hey, we will now use AI, and, uh, we will reduce the workforce by 50%," because I think that, uh, at some point this might happen, that you get redundancies, but it's not like the way I think some companies are doing it right now, just firing a certain amount of people and then seeing whether that worked, because I, I would bet that doesn't work. So it should be, yeah, it should be something coming from the top with good ideas, with maybe even, uh, valid things that already work and enable your people, right? And that might be, "Hey, feel free to use ChatGPT. Feel free to use Claude. Here's a free version. Please don't do this, this, this." So these are no-goes, and these versions also make the guidelines quite clear, because even if you tell people, "Hey, you cannot put in our data," but I mean, you can still co- you can still explain what your case is right now and do this. And then step by step really, uh, leverages more, right? I think when people understand that what they can do with agentic workflows and, uh, I mean, again, this might be something like use Make first or use n8n first, and then maybe even put it over to Claude. But I think the, the problem there is still that it's still too blurry how secure this is. So I think, uh, that's also a big thing in Germany. There needs to be, uh, yeah, credibility, clarity, whatever you wanna call this, uh, which kind of, which kind of tiers or which kind of versions of these, uh, tools-Are secure, so you can put in this, this, this. And I mean, obviously, I think almost every company in Germany will be quite hesitant to, uh, connect their HubSpot or their Pipedrive or- ... the BigQuery to, uh, to Claude, even though that would be awesome.
+
+> [Me]
+> Yeah, you do see it a bit, right? Because we talked about, uh, agentic SQL ana-analysis-
+
+[Them]
+Yeah
+
+> [Me]
+> ... uh, things. yeah, I think this, this is clear. So just to re-reiterate it, it needs to come from the top. Uh, but coming from the top, as, as you stated, also means providing freedom to experiment.
+
+[Them]
+Yeah. And, and, and I think even more important, providing freedom to experiment and not setting this, uh, this atmosphere of fear- ... that AI is going to replace you because now, uh, we will do everything like this. And when you build a great workflow, you are out, because I think that that should never be the case, right?
+
+> [Me]
+> Yeah, I agree. Um, and then what, what I hear... You didn't say it explicitly, but I read a bit be-between the lines, it's also about looking at what is already in production, then probably in other companies and just-
+
+[Them]
+Yeah
+
+> [Me]
+> ... steal good ideas.
+
+[Them]
+Yeah. Yeah, 100%. And I'm not even sure whether that's stealing. I mean, also talk to your peers, right? Talk to your peers at conferences and- ... I mean, this actually, I think, uh, needs to happen more on the, on the C level, that they really, uh, exchange ideas with, uh, with their peers, because that's actually where they will understand quickest what the benefit is, and this makes it a lot better, right? And yeah. I said, don't talk to your buddy golfing. Maybe do talk to your buddy golfing if they have a good use case that might even be... Yeah. But not like this, this, this, this shallow or hollow, "We all need to do AI now because it's important." "Yeah, why do you wanna do this?" "Yeah, because my shareholders told me." That shouldn't be the use case.
+
+> [Me]
+> Yeah, clear. Clear. And so do, do you have examples of companies that are, like, really excelling in, in doing this?
+
+[Them]
+No. [laughs] I mean, I mean, as, as I told you last time, right? It's not... I, I wouldn't really limit this to the AI case, but- ... just this general, uh, generally being open to change and to new things. And I mean, like- ... Free now work quite good in this. I'm not sure where the AI wise now, also because they, they got acquired by Lyft and there's now more corporate shit to be done. And, uh, as I also said last time, Good Games Studios was a, was a perfect example. That was before AI, but I think it was also the first time we really used machine learning and other things to, uh, get things going as fast as possible. And I think if this company would still exist in the same size and level as, like, 10 years ago, that would probably be the one there where I would see this. And, uh, I mean, I know that I already told you last time that, like, companies like About You are doing this or did this, but they also now got acquired by Zalando and also have other things to do. So, uh, yeah, not, not sure. I can at least say, uh, very, very, uh, very bluntly, for most of my clients, that's not their focus topic, sadly.
+
+> [Me]
+> Why, why do you think, like, for your clients specifically, that isn't the case? Is it that they just focus more on data now, or...?
+
+[Them]
+Yeah. I, I mean, if, if you say it like this, you can also put it in other words. I think they're always, like, five years backwards or- ... or fi-five, five years back. And not every... I mean, one of my, one of my clients is actually, we are now doing a big AI use case. Oh, no. Sorry. Yeah, that was wrong. Actually, we do, we're doing one, but this is totally not steered by the management because for this one client, I'm working with the research slash, yeah, not really data team, but the applied data team. And, uh, they pretty much, we pretty quickly realized we have to do something with this because they have... For them, the use case is they have a lot of knowledge, and they have a lot of stuff lying around, and they need something, uh, that really enables the company to use this knowledge much better. So I, I don't wanna call it knowledge base LLM, but it's, it's a bit more than that. It's more like they're, they're just now building something which is a knowledge base LLM with dashboarding, with, uh, chat interfaces and all these kind of things, which is quite good. But still, this is not... This is again not really putting AI into the whole company, but using AI to build a tool which enables them to do stuff better, but not really enabling the- ... people that work in the company. Yeah.
+
+> [Me]
+> So it goes back to essentially a-agentic coding or agentic-
+
+[Them]
+Yeah. Yeah
+
+> [Me]
+> ... workflow organization. Okay. Interesting. And so you help companies take the next step in data, right? And that also-
+
+[Them]
+Yeah
+
+> [Me]
+> ... means probably making the next step in AI.
+
+[Them]
+Yeah.
+
+> [Me]
+> Uh, may-maybe a bit of a triggering ques-question, but do you feel like you're successful in doing that?
+
+[Them]
+Uh, [laughs] next step in... Yes, I would say so. But the problem is usually that the issue... I mean, usually they come to me, they're like, "We have this problem. Can you leverage or enable us to make this better?" And then you start looking into this, and you're the first person really looking into how they use these kind of things like data, AI, whatever. And you realize that there's a, a whole lot of other issues they're having, which is, uh, not preventing them to go there. But there's organizational issues, there's, uh, issues in how they work with each other. I mean, to be honest, every company I started working on this, and someone was smart enough to get me in for these kind of things, you realize that there's silos everywhere. Their silo is going, uh-... perfect and the others don't work properly.
+
+> [Me]
+> Yeah. And that, that's, that's reality or that's the mindset?
+
+[Them]
+Both. I think that, uh, to, to, to, to be honest, I mean, I'm, I'm not... I'm working with one startup that's quite good, and the other two are big corporates. And, uh, yeah, for the big corporates it's, uh, it's mindset. But not everyone, right? But it's like you have a lot of people that have been in these companies for, uh, as I said before, like these people that, uh, have been there for like 20, 25 years, and for them, change is not, uh, the focus. [chuckles] It's-
+
+> [Me]
+> if you, if you would pi- pitch like your AI approach, like what, what, what would it be in terms of... I, what I got from our last message, looking back on my notes, is, uh, um, it's very easy to say why things aren't working yet.
+
+[Them]
+Yeah.
+
+> [Me]
+> But it's very hard to come up with a solution, uh, for the challenges that you are facing.
+
+[Them]
+Yeah.
+
+> [Me]
+> And I think that has two parts that I'm trying to get at, and that's one, um, is the business case worth it, right?
+
+[Them]
+Yeah.
+
+> [Me]
+> With AI. And the second one is, how are we getting there-
+
+[Them]
+Yeah
+
+> [Me]
+> ... if we believe that it's worth it? Uh, so m- my question would be then, then [chuckles] very, very vaguely, what are the benefits for, of AI for German organizations? And do, do you think that it's, that it's indeed worth the hassle of going through all of these organizational problems that we have scoped?
+
+[Them]
+Yeah. It, it, it is because there's... I mean, I mean, the, the big thing is that there's too many processes that are being done manually, a lot. I mean... And, and this is, this is again, not just AI, right? I mean, the, the stupidest example is this, is this thing I usually get called into that people want to understand their marketing data better. And it's really just like you have 20 different sources, you don't know how to connect them, you don't know how to put this all together. And I mean, it, it's, on a high level, it's analyzing what are the processes you are doing right now that take time and that are not useful to do manually. And whether that's like a data problem, an AI problem, but really the biggest thing is to sit together with them and really try to understand what these processes are. And I mean, usually if you, if you show them the first one that can be automated or that can be easily made a lot quicker or easier or with less effort for them- ... then, well, then often, not always, but then sometimes, uh, they understand much better what the use cases would be, right? But it's... In, in general, it's not even this whole AI thing, but it's, it's making companies understand why are you doing things. Why are you doing things? What are you doing? And, uh, to, to be honest, for the last few years it was like automation with data tools and stitching data tools together, and now it's this level on top of that, right? That you can also use this with AI agents and make it even easier. But the culprit is really still they don't understand what the issues are. And, uh, I mean, there's also this feeling we've been doing this for the last 20 years like this. This is fine. Yeah, but it's also stupid, right? But that's something really to... It just works in, in... It just works in workshops. It works in workshops. It works with, uh, sitting down with them, telling them what's possible and... Or at first really asking what their problems are, and then telling them what's possible to make this easier and better. And, uh, then AI could be an example to use or a, or a solution, or in my case, it's quite often there's, uh, yeah, as I said before, more other bases. But I, but I'm quite sure that it is quite useful, right? And it's, uh, it's really just not... How do you say this? It didn't arrive in their minds yet what could change, or even if it's not, even if it's nothing fancy, right? Even if it's nothing where you're like, "Oh, I can now, uh, get rid of all my analysts," but you can at least enable the analysts to be 20% faster. And 20% doesn't sound much, and maybe doesn't even reflect properly in, uh, your numbers, but if they're 20% faster, I'm quite sure, and I'm not sure whether I said this before, but at least for me, I have the feeling just this little bit being faster enables me to be of higher quality in all the other things I can't increase in speed, right? So in German, there's the word «Milchmädchenrechnung», which is like, um, I'm not even sure whether that translates. Maybe it's also there in Dutch, but it's like-
+
+> [Me]
+> Girl something, something.
+
+[Them]
+Yeah. Milk- milk girl calculation. It's like you, you, you have to think like, "This is what I spend, but this is also what I get back," and maybe they even search each other out a lot better than before. And I mean- Yeah. And, and yeah. I mean, in this case really for... I mean, honestly for me, that was the biggest change I realized starting to use all these tools. Uh, when I was still at Free Now three years ago, I was always stressed because when I had to do, do a presentation, I had to do that at night, or I had to do it in a shitty way. I was never happy with this. And now it's like I can do this all a bit better, which is, uh, nice. Yeah.
+
+> [Me]
+> Yeah. Of, of course. Yeah. And so what I... I'm also scrolling through our notes from last time while we are talking, and what, what I think I'm gleaning from this is that it's also really focused on doing the same things slightly more efficiently.
+
+[Them]
+At the moment, yeah. Because there's, uh, [chuckles] there's very little vision what could be done completely different. That- that's not there yet. And I think that's also not there yet because, uh, I don't think we have any good examples for doing things completely different yet in any country.I mean, Clawbot maybe, but, uh, I'm also not sure whether that's really doing something completely different. It's just doing the same stuff on speed or something like this.
+
+> [Me]
+> Yeah, and then my question would be, I'm als-always struggling with how s- how to say things in an academically rigorous way.
+
+[Them]
+[laughs]
+
+> [Me]
+> But, uh, no, maybe I'm just going to first ask you it in, in... without framing it too much. So are there net new things that you would advise companies to try doing with AI?
+
+[Them]
+A good question. No, because maybe I'm not even smart enough to know what these new things would be. And I mean, and I, I mean, I mean, for, for me, it's also more like, uh, I look a lot at stuff that other people are doing- ... and then I'm like, "Oh, that also works with my workflows," but it's not like... I, I, I mean, I mean, to be... Yeah, re-really new is really hard. I mean, it's like you're still... I, I, I still think most of the thing is really substituting something that was there before.
+
+> [Me]
+> Yeah, and I think like, uh, maybe then just to go with the framing and maybe you can draw something out of that or maybe not. I think that's typically you're always thinking at the most abstract level about-
+
+[Them]
+Yeah
+
+> [Me]
+> ... doing the same things but better, right? In the end-
+
+[Them]
+Yeah
+
+> [Me]
+> ... you can all bring it down as a company to, uh, making more money in a slightly more efficient manner.
+
+[Them]
+Yeah. Yeah. Yeah. Yeah.
+
+> [Me]
+> Um, but at a level down, you can think like, okay, now that, um, we, we essentially have intelligence, and we can buy intelligence and spend less time in it and scaling it up and down-
+
+[Them]
+Yeah
+
+> [Me]
+> ... uh, on demands, what does that mean for what we can offer? And, and now that-
+
+[Them]
+I mean, I, I mean, I mean, to be honest, you should always think about new or different revenue streams, right? Is there anything you always thought about doing but you didn't have the people for that, or you didn't have the capacity for that? But still, it, it's not something new, right? It's more like, do you have anything in your drawer already where we're like, oh, this would be a perfect example what we could do, but we don't have the capacity to do that. That's- And I mean, to be honest, yes. I mean, the new thing that maybe it's not a really new thing, but the new thing you could... you have to tell all the companies is you have to test more and try things out because this is really... I think this is also what when we said, when we said before that you might only save 20% to 30% of your time, you can use this to use this intelligence which is available now, again, as your sparrings partner- ... to try out new things and, uh, yeah, worst case, build some shitty content, see what happens. Is there interest for that or something like this, right? It's, uh-
+
+> [Me]
+> Yeah. Yeah, and that's, that is one of the use cases that I, uh, like broadly said shitty content-
+
+[Them]
+Yeah
+
+> [Me]
+> ... uh, potentially. Uh, is that what I hear a lot is like the, the fully automated content streams where you just enter in maybe not even idea, just, hey, here you have like online data.
+
+[Them]
+Yeah.
+
+> [Me]
+> Go figure it out and come back with a campaign plan and content and whatever, and it should be brand matched and checked and-
+
+[Them]
+Yeah
+
+> [Me]
+> ... validated, and we just want a person to say, "Okay, ship it."
+
+[Them]
+Yeah.
+
+> [Me]
+> Um, and that's, that's the promise. I, I ob-obviously, I don't have like clear perspective on how close organizations are to actually doing that fully, but it's seems like that's an approachable goal. Um-
+
+[Them]
+Yeah. I, I mean, I mean, in, in the end, it's, it's very similar to what I do with my fucking, uh, steer co-, uh, notion pages, right? You just tell the, uh, you tell Claude, "Hey, there's five examples. This is my style of writing." "This is how I... This is the level of depth I would like." And I mean, if you do this or if you put corporate, uh, identity in there or something like this and, uh, brand templates, shouldn't be much different.
+
+> [Me]
+> Yeah. Yeah, and if you, if you are there, you can... The next step, especially as AI becomes more important or more cheap, is now you can scale it up and make-
+
+[Them]
+Yeah
+
+> [Me]
+> ... things that were one-off, make it personalized.
+
+[Them]
+Yeah. Yeah.
+
+> [Me]
+> and that is obviously interesting from a content perspective, but what if you could do that with business processes? Like, uh, what if like suddenly you don't need to automate it step by step, but have AI figure out what the next step is in process?
+
+[Them]
+Yeah, exactly. I mean, I mean, ju-just, just tell the, just tell the AI or the agent, "Hey, these are the five tools. We're doing something with it. Please check what the workflows are and make them better and automate them more and, uh, whatever."
+
+> [Me]
+> Yeah. So these are for me the, the things that I'm thinking of, but I, I agree, like I don't have the answer yet. But if-
+
+[Them]
+Yeah, but, but, but I mean, to be honest, it's actually not a bad idea, right? You have all these... Uh, just think about things like you have tools like, I'm not sure, Google, HubSpot, something like this, and there's, uh, there's interfaces between those, and I mean this is all logged somewhere, right? So the easiest way would be just to give the AI, "Here are the logs." "Please try to understand what I'm actually doing, and then tell me whether I'm doing this right or, or I could do this better."
+
+> [Me]
+> Yeah. Yeah. And then you have suddenly an approach and I kn- I feel like I'm getting off script, so maybe it's less in-interesting for my thesis, but it's a good conversation. [laughs]
+
+[Them]
+Yeah.
+
+> [Me]
+> Um, then you also have one of those issues that marketeers are u-usually not great at, is that they are not-Systems thinkers.
+
+[Them]
+Yeah.
+
+> [Me]
+> What, what one of my interviewees said is, "It's hard for marketeers to separate the art from the science in what they are doing." And like the science you can automate and the-
+
+[Them]
+Yeah
+
+> [Me]
+> ... art you might be able to illustrate-
+
+[Them]
+Yeah
+
+> [Me]
+> ... but people want to be in control of that part. Um-
+
+[Them]
+And, and, and, and I think this is also where, where this fear sets in, right? That they're really like, oh, they, they even though... And it's also the same for like brand people or content creators or so on, they, they, they don't see this, this difference. It's like the system that's building stuff between this, and there's still your creativity or whatever you wanna call this, that needs to go in there.
+
+> [Me]
+> Yeah, and then the interesting thing is how can AI help people to get to the next step in that sense?
+
+[Them]
+Yeah.
+
+> [Me]
+> And that's also one of the things that I get back a lot is that suddenly AI can help people to have a little bit of skill sets that they don't have, I wouldn't say at all, but almost at all. Um-
+
+[Them]
+Yeah. Yeah. Or, or, or at least if they have some kind of rough idea about things, uh, AI enables them. I mean, I can now build back ends and front ends if I want to. And I wasn't able to do that before. I mean, I always knew about, knew stuff about it, but, uh, yeah, really learning how to do this is a bit harder, and this now enables you to, hey, need this, this, this, build this, done, ready.
+
+> [Me]
+> cool. What I, I think I already have answers for the main threads that I wanted to-
+
+[Them]
+Nice
+
+> [Me]
+> ... uh, share. I was thinking that I would show you something as well, and I'm trying to get it on the screen as well. Uh, let me find a good chat because we talked a bit about like a-agentic analysis.
+
+[Them]
+Yeah.
+
+> [Me]
+> And we have something for that now, and I want to see if I can find something that is interesting and safe to show.
+
+[Them]
+Yeah.
+
+> [Me]
+> I'll just go into our test account. That might be more safe. So what we have, and I think it's kinda cool, is we now have, uh, an agentic analysis platform-
+
+[Them]
+Nice
+
+> [Me]
+> ... where you can just ask your basic question and it queries, like this is fake data, so you don't see the real query, but it queries directly to Google Ads or Google Analytics or Meta or whatever, and then you get data back, and the agent converts it into a table and into graphs.
+
+[Them]
+Yeah.
+
+> [Me]
+> And the cool thing is, marketeers can now suddenly access data that would be locked within those systems-
+
+[Them]
+Yeah. Yeah
+
+> [Me]
+> ... that they could not access before at all. So the great thing here is that it's not just about, um, doing the analysis faster for the, for the marketeers. It's much more about being able to do the analyses that marketeers wouldn't have been able to do before.
+
+[Them]
+At all.
+
+> [Me]
+> Yeah. At all. Um-
+
+[Them]
+Yeah. Maybe that's always the big problem because they... You have the tools from Google and Facebook, and they are okay, but, uh, getting the, getting the raw data out and really asking your own questions is much easier.
+
+> [Me]
+> Yeah, and it's still, on one end, too complex for them, and on the other hand, you need to predefine the dashboards and the views and whatever.
+
+[Them]
+Yeah.
+
+> [Me]
+> And the marketeers are thinking like, "Okay, I want just... I, I just want to get insights. First, am I doing okay or not? And then maybe which segments are, am I targeting and which am I not-"
+
+[Them]
+Yeah
+
+> [Me]
+> ... "being able to reach?" Right? Um, and then a tool like this helps, whereas having a dashboard-
+
+[Them]
+Yeah, and the-
+
+> [Me]
+> ... it typically doesn't.
+
+[Them]
+And, and this is also the big question, uh, the big problem you have al-always everywhere in data teams, right? That, uh, you have stakeholders, they ask for dashboards, but in the end, they actually want self-service where they can get a data set and build stuff with them. But to be honest, tools like Tableau and Power BI are shit for self-service. You need something like this. It's funny because we, we, we actually tried out ThoughtSpot in 2022, which, uh, is pretty much... That was before ChatGPT, but it was really something you put on your marketing data source, on the highest aggregated one, and then you can also just ask questions. It wasn't as fancy as ChatGPT is nowadays, but that was already going a lot in that direction, and really asking, "Hey, I need this data point, this, this, this. Please compare this." Nice.
+
+> [Me]
+> Yeah. I'm very, uh, happy with it. And like the great thing is, is it's not just about a high level. It's got... It writes the, its own queries.
+
+[Them]
+Yeah.
+
+> [Me]
+> So it gets the data-
+
+[Them]
+Oh really?
+
+> [Me]
+> Um, so I'm k-kind of happy with that. We're, uh, trying to promote that now to markets. Um-
+
+[Them]
+No, do that. I mean, that's really... I, I mean if, if you... Yeah. I mean, that's also very similar to what Funnel is doing, right? And then you just need to- ... get to the next step and really combine all this data in a reasonable way.
+
+> [Me]
+> Yeah. Does, uh, does Funnel have a chat with your data feature now? Because-
+
+[Them]
+Uh-
+
+> [Me]
+> ... I know it has like a integration layer between data sources and dashboards-
+
+[Them]
+Yeah
+
+> [Me]
+> ... and BigQuery.
+
+[Them]
+It's being built. [chuckles] Well, it's, I think it's almost out. But yeah, I mean, they, they, they do have this for this, uh, measurement stuff, but also they're building this for the data hub- ... because it makes perfect sense.
+
+> [Me]
+> And for us strategically, it was necessary to have the skills to do stuff like this because we need to-
+
+[Them]
+Yeah
+
+> [Me]
+> ... have people chat with the data warehouse. Um, but it's having like the data source like these already prepared is obviously nice for people.
+
+[Them]
+Yeah, but this is also the big issue, right? You have the data source properly prepared if that's the data warehouse. Because, uh, otherwise it, uh, for the Google and, and for the Google and Facebook data, it works because it's-Very well documented and defined, but as soon as you go to any, uh, self-made
+
+> [Me]
+> ... to have a good data, data catalog. And what-
+
+[Them]
+Yeah, which w-
+
+> [Me]
+> ... helps us is that we typically use DBT, which-
+
+[Them]
+Yeah, true
+
+> [Me]
+> ... enables us to easily build a data catalog, but also for things that are not properly documented, you have the lineage graph.
+
+[Them]
+Yeah.
+
+> [Me]
+> And then you can glean insights from what is in the graph and where the data comes from.
+
+[Them]
+Yeah, it was so shit before DBT. I, I also tried to get a proper data catalog in it free now for two years. Then I, uh, did my first, uh, my first freelancing project, and they were like, "Oh, we're using DBT. This is new." And I was like, "What?" [laughs] It's perfect. It was like- ... what I would have needed for years.
+
+> [Me]
+> I, I essentially built my... I think we started using DBT in 2020, 2021, like way back-
+
+[Them]
+Yeah
+
+> [Me]
+> ... when it was in beta phase.
+
+[Them]
+Very early.
+
+> [Me]
+> Because before that, I had my own DBT, which was just, uh, building SQL scripts with YAML or YAML-
+
+[Them]
+Yeah
+
+> [Me]
+> ... uh, Jinja, which is also-
+
+[Them]
+Yeah [laughs]
+
+> [Me]
+> ... what, what DBT does under the hood. Um, but that- that's way back when I was a solo team. Uh, but yeah, it was good to have that. Okay, I want to thank you a lot for your-
+
+[Them]
+You're welcome
+
+> [Me]
+> ... additional time. I don't know if you have any questions yourselves, or I can obviously share my research with you afterwards.
+
+[Them]
+Yes, please. Please do that. That would be awesome.
+
+> [Me]
+> And then I think that's, that's it from my side, and we'll... Data world is small. We'll definitely see each other again at some point.
+
+[Them]
+Are, are you going to be at OMAR?
+
+> [Me]
+> Uh, I don't know. I have-
+
+[Them]
+Okay
+
+> [Me]
+> ... I haven't thought about that. In, in Hamburg again, right? Or is it somewhere else this time?
+
+[Them]
+Yeah. No, no, it's, it's always in Hamburg.
+
+> [Me]
+> Yeah. I, I wasn't aware of the event existing, uh, until last year.
+
+[Them]
+Yeah.
+
+> [Me]
+> And then again, because I was already in Hamburg for our session.
+
+[Them]
+Yeah.
+
+> [Me]
+> Um, so I stayed for a day, but, uh, that's soon again then as well.
+
+[Them]
+Yeah, it's in like four... It's pretty much in four weeks.
+
+> [Me]
+> I, I am on a MBA module week in four weeks.
+
+[Them]
+Ah, nah.
+
+> [Me]
+> The weeks before and after are typically hard. [laughs]
+
+[Them]
+Yeah. I, I, I guessed it.
+
+> [Me]
+> June would be possible po- potentially with [laughs]
+
+[Them]
+[laughs] I attached to this
+
+> [Me]
+> I congratulate. [laughs]
+
+[Them]
+Yeah.
+
+> [Me]
+> Next year. Okay. Well, see you soon. Take care. And, uh-
+
+[Them]
+Yeah, see you. Give me a shout when you're in Hamburg.
+
+> [Me]
+> Yeah, will do. Okay.
+
+[Them]
+Cool.
+
+> [Me]
+> Are you, are you based there or did you come over?
+
+[Them]
+No, no, I'm based in Hamburg.
+
+> [Me]
+> Cool. Yeah. Then I'll definitely do that. We can have coffee. Okay.
+
+[Them]
+Nice. Let's do it.
+
+> [Me]
+> See you, man. Bye-bye.
+
+[Them]
+See you soon. Bye-bye. [outro jingle]
