@@ -698,11 +698,21 @@ def calibrate_location_rules(
     if offset_shift is None:
         offset_shift = 0
 
+    factor_support = factors.count(element_factor) if factors else 0
+    first_support = first_deltas.count(first_delta) if first_deltas else 0
+    shift_support = offset_shifts.count(offset_shift) if offset_shifts else 0
+    snippet_support = snippet_lengths.count(snippet_len) if snippet_lengths else 0
+
     return {
         "element_factor": element_factor,
         "first_delta": first_delta,
         "snippet_len": snippet_len,
         "offset_shift": offset_shift,
+        "sample_count": len(rows),
+        "factor_support": factor_support,
+        "first_support": first_support,
+        "shift_support": shift_support,
+        "snippet_support": snippet_support,
     }
 
 
@@ -810,6 +820,77 @@ def _lookup_document_by_name(doc_map: dict[bytes, dict], file_stem: str) -> dict
     return None
 
 
+def _resolve_doc_for_markdown(md_file: Path, doc_map: dict[bytes, dict]) -> dict | None:
+    doc_id = parse_document_id(md_file)
+    if doc_id is not None:
+        return doc_map.get(doc_id)
+    return _lookup_document_by_name(doc_map, md_file.stem)
+
+
+def run_quote_self_check(
+    cur: sqlite3.Cursor,
+    doc_dir: Path,
+    doc_map: dict[bytes, dict],
+    name_to_id: dict[str, bytes],
+    strict: bool,
+) -> tuple[list[str], list[str], list[str]]:
+    """Validate quote annotation inputs and calibration before write-back.
+
+    Returns (report_lines, warnings, errors).
+    """
+    report: list[str] = []
+    warnings: list[str] = []
+    errors: list[str] = []
+
+    if not doc_dir.exists():
+        return report, warnings, errors
+
+    for md_file in sorted(doc_dir.glob("*.md")):
+        annotations = parse_quote_annotations(md_file)
+        if not annotations:
+            continue
+
+        doc_info = _resolve_doc_for_markdown(md_file, doc_map)
+        if not doc_info:
+            errors.append(f"{md_file.name}: document not found or ambiguous")
+            continue
+
+        paragraphs, is_fallback = load_paragraphs_from_doc_md(md_file)
+        if is_fallback:
+            errors.append(f"{md_file.name}: fallback transcript marker present")
+            continue
+        if not paragraphs:
+            errors.append(f"{md_file.name}: no seg-paragraphs parsed")
+            continue
+
+        rules = calibrate_location_rules(cur, doc_info["layer_id"], paragraphs)
+        report.append(
+            f"{md_file.name}: samples={rules['sample_count']} "
+            f"element_factor={rules['element_factor']}({rules['factor_support']}) "
+            f"first_delta={rules['first_delta']}({rules['first_support']}) "
+            f"offset_shift={rules['offset_shift']}({rules['shift_support']}) "
+            f"snippet_len={rules['snippet_len']}({rules['snippet_support']})"
+        )
+
+        if rules["sample_count"] == 0:
+            errors.append(f"{md_file.name}: no existing quotes to calibrate against")
+        elif strict and (rules["first_support"] == 0 or rules["factor_support"] == 0):
+            errors.append(f"{md_file.name}: calibration support too weak in strict mode")
+
+        for ann in annotations:
+            if find_text_in_paragraphs(paragraphs, ann["text"]) is None:
+                errors.append(
+                    f"{md_file.name}: annotation text not uniquely mappable: {ann['text'][:60]!r}"
+                )
+            missing_codes = [c for c in ann["codes"] if c not in name_to_id]
+            if missing_codes:
+                warnings.append(
+                    f"{md_file.name}: missing code(s) in Atlas.ti: {', '.join(missing_codes)}"
+                )
+
+    return report, warnings, errors
+
+
 def get_project_id(cur: sqlite3.Cursor) -> bytes:
     cur.execute("SELECT Id FROM Projects LIMIT 1")
     row = cur.fetchone()
@@ -866,11 +947,7 @@ def process_new_quotations(
             )
             continue
 
-        doc_id = parse_document_id(md_file)
-        if doc_id is not None:
-            doc_info = doc_map.get(doc_id)
-        else:
-            doc_info = _lookup_document_by_name(doc_map, doc_name_raw)
+        doc_info = _resolve_doc_for_markdown(md_file, doc_map)
         if not doc_info:
             errors.append(
                 f"{md_file.name}: document not found or ambiguous in Atlas.ti — "
@@ -1169,6 +1246,16 @@ def main(
     dry_run: bool = typer.Option(
         False, "--dry-run", help="Parse and report changes without writing to SQLite."
     ),
+    self_check: bool = typer.Option(
+        True,
+        "--self-check/--no-self-check",
+        help="Run pre-write quote calibration and mapping checks.",
+    ),
+    strict_self_check: bool = typer.Option(
+        False,
+        "--strict-self-check",
+        help="Abort if any self-check error is detected.",
+    ),
 ) -> None:
     """Push atlas-coding/ Markdown edits back into the live Atlas.ti SQLite."""
     check_atlasti_not_running()
@@ -1233,6 +1320,30 @@ def main(
         "skipped": 0,
     }
     unknown_groups: set[str] = set()
+
+    if self_check and doc_dir.exists():
+        report, sc_warnings, sc_errors = run_quote_self_check(
+            cur, doc_dir, doc_map, name_to_id, strict_self_check
+        )
+        typer.echo("\nSelf-check:")
+        if report:
+            for ln in report:
+                typer.echo(f"  - {ln}")
+        else:
+            typer.echo("  - no quote annotations found in documents/*.md")
+
+        if sc_warnings:
+            typer.echo(f"\nSelf-check warnings ({len(sc_warnings)}):")
+            for w in sc_warnings:
+                typer.echo(f"  - {w}")
+
+        if sc_errors:
+            typer.echo(f"\nSelf-check errors ({len(sc_errors)}):")
+            for e in sc_errors:
+                typer.echo(f"  - {e}")
+            if strict_self_check:
+                conn.close()
+                raise typer.Exit(1)
 
     # ── Auto-create codes that appear in annotations but don't exist in Atlas.ti ──
     if doc_dir.exists():
