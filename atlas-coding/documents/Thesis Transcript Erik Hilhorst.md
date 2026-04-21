@@ -114,6 +114,10 @@ computers always act, uh, in a way, right? They, they get instructions and they,
 <!-- seg:32 -->
 [Them] Uh, yeah, I would say maybe, um, there’s a few. Uh, one is just how the individual uses it. If you, if you make categories- … that’s, that’s one big category. So someone finds a way to use it in their work, and there are, uh, the systems where we- … sort of systematically employ AI. Uh, those are, are, I guess, the big two categories. Um, and then when it comes to, uh, individual use, it’s 99%, I would say, just chatbots. Just chatbots, toss in documents, uh- … let it write an email, uh, you know, uh, create, uh, instructions, something like that. Um, and then, uh, maybe 1% is imagery, so, or video and images. So we, we are experimenting a little bit with it, uh, for instance, to generate content on our website- … to have like, uh, you know, some generic image of camper somewhere. Uh, but also maybe, uh, for educational pro-, uh, purposes, like how do you replace, you know, a, a gas valve in your camper, and then have a nice little animation there. We are experimenting with that, but that’s really small, uh, still. Um, and then on the system side, we have basically two or three, depending how you see it, big systems. One is with, uh, customer support, and one is with, uh, routes and travel books. Um, with customer support, it’s essentially a, um, almost like a workflow management system where every incoming email or, uh, query that’s in, in writing gets categorized. Um, and, uh, this is especially for the, uh, insurance, uh, side of us, where it gets categorized, whether it, it needs certain diplomas. So, uh, insurance diplomas, uh, to answer the question, meaning it’s like an advisory part. Um, or anybody in our customer department could do it. Uh, and that’s a huge win for us ’cause it really helps us, uh, get more capacity towards insurance, uh, questions from, yeah, personnel that’s easier to find, lower paid- … and, and can do those, uh, simple questions. Um, and it also categorizes each question. So essentially it tells you what the subject is of the, of the, the query, and then it also provides, um, it, it looks up all the customer information, uh, and, uh, provides that to the, to the agent, um, so the, the human agent, and it gives a example answer already of like what, what could be the, a way to respond. S- uh, so that’s that. And then the other part we use it for is the, uh, routes. So we have, um, I would say about, uh, maybe 80 or 90 routes on our s- uh, camper routes. So basically … And we, we call it routes, but it’s basically a whole do it yourself travel book you could call it. Um, and we use it there to get data from public information, but also private data, like, uh, camper contact, uh, camping locations, which is not public, uh, to create a, yeah, a, a camper trip, uh, with places, uh, you can stay, uh, inspiration- … things to do, to eat and whatever. And we use the same system now also to create, uh, yeah, I guess travel books is the best word, uh, for our, uh, group travel. Uh, so we also … Everybody who, who takes part in a group travel, um, gets also a, a, yeah, a travel book with the whole-
 
+<!-- quote: `chatbot dominant use` -->
+it’s 99%, I would say, just chatbots. Just chatbots, toss in documents
+<!-- /quote -->
+
 <!-- seg:33 -->
 [Me] Like a, like a leaflet.
 
@@ -132,6 +136,10 @@ computers always act, uh, in a way, right? They, they get instructions and they,
 <!-- seg:38 -->
 [Them] … massive, yeah, massive itinerary basically. And, um, we also use AI there to help with the, uh, administrative proc- process, which is, uh, the travel guide has a, a Word document that they type- … all this information in, and it used to take us a lot of time to, yeah, basically convert that to a nicely looking booklet, uh, with images and all and, and clickable links and things like that. And now we use, uh, generative AI to basically recreate. We keep the text the same, but we recreate the entire thing, uh, with AI in a, in a format that, uh, that’s more presentable.
 
+<!-- quote: `automation in route production` -->
+it used to take us a lot of time to, yeah, basically convert that to a nicely looking booklet
+<!-- /quote -->
+
 <!-- seg:39 -->
 [Me] Interesting. And so I, I obviously know a little bit about everything that you talked about because we-
 
@@ -143,6 +151,10 @@ computers always act, uh, in a way, right? They, they get instructions and they,
 
 <!-- seg:42 -->
 [Them] Yeah, we, we … Right now it’s close to 100%- … because we, uh, essentially rewrote all the routes. Um, but the, the, the core point is that, um, if you use … We could, we could launch a thousand routes tomorrow- … with the system, but we’re very hesitant with it because, uh, our branding, uh, is very strong on, um, and people depend on it, on the quality. So, so far we’ve only produced routes with AI that have been actually driven by someone.Uh, a camper enthusiast, like, uh, uh, someone who’s a volunteer at our organization, for instance. Um, to make sure that the actual routes, so the A to B to C, uh, actually makes sense, and those places are camper friendly, you don’t get stuck on a road- … you know, stuff like that. Um, but the content itself, we kind of redid because the old content was, um, was essentially reworked from our group travel, rewro- written to an individual perspective, but it, it didn’t really… Yeah, the, the writing styles and things like that weren’t really that good, so we, we basically recreated it entirely. So it’s all AI driven, but the core sort of routes is human generated.
+
+<!-- quote: `scale vs quality tension` -->
+We could, we could launch a thousand routes tomorrow- … with the system, but we’re very hesitant with it because, uh, our branding, uh, is very strong on, um, and people depend on it, on the quality.
+<!-- /quote -->
 
 <!-- seg:43 -->
 [Me] So that is something that is not typically associated with, uh… It’s not the campaigning part of marketing, but it’s interesting that you saw a customer need here and thought like, “Hey, we can do something very different using AI.”

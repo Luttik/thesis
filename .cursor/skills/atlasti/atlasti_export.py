@@ -393,11 +393,9 @@ def create_new_code(
 ) -> bytes:
     """Create a new standalone code (Tag, TagType=0) in Atlas.ti.
 
-    Mirrors the column values observed in existing active codes:
-    - EffectiveType=2  (standalone / no parent)
-    - AllowAdHocValues=1
-    - DateTimeValue='0001-01-01 00:00:00' (Atlas.ti epoch sentinel)
-    - ParentId / PackedTermId = zero GUID
+    New ad-hoc coding labels must be regular leaf codes in the Atlas UI
+    (solid diamond icon), not parent-style nodes. Empirically this maps to
+    ``EffectiveType=0`` and ``AllowAdHocValues=0`` for root-level leaf codes.
 
     Returns the new code's ID as bytes.
     """
@@ -411,8 +409,8 @@ def create_new_code(
                MutuallyExclusiveValues, AllowedNumberDecimals, BooleanValue,
                DateTimeValue, NumberValue, "Order", TextValue,
                EffectiveType, VariableType, ProjectId, ParentId, PackedTermId)
-           VALUES (?, 0, ?, 1, 0, 0, 0, '0001-01-01 00:00:00', 0.0, 0.0, NULL,
-                   2, 0, ?, ?, ?)""",
+           VALUES (?, 0, ?, 0, 0, 0, 0, '0001-01-01 00:00:00', 0.0, 0.0, NULL,
+                   0, 0, ?, ?, ?)""",
         (code_id, name, project_id, ZERO_GUID, ZERO_GUID),
     )
     return code_id
