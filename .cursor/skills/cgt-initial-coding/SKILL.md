@@ -72,8 +72,14 @@ Exact verbatim text from the segment below.
 ```
 
 Rules (from Atlas.ti skill):
-- The quoted text must be **verbatim** — copy character-for-character from below the
-  `<!-- seg:N -->` marker.
+- The quoted text must be **verbatim** — copy character-for-character from the segment.
+- **Prefer sub-phrase quotes over full-paragraph quotes** — each distinct analytical point
+  in a paragraph should be its own annotation block quoting only the relevant phrase.
+  This creates separate quotation objects in Atlas.ti (matching native coding density).
+  Full-paragraph quotes (starting with `[Them]`) are fine but produce only one quotation
+  object per paragraph regardless of how many codes you list.
+- Sub-phrase phrases must be **unique** within the document. If the phrase appears more
+  than once, extend it until it is unique.
 - Code names must match `codebook.md` headings exactly (capitalisation, punctuation).
 - Do not edit or remove `<!-- seg:N -->` markers.
 

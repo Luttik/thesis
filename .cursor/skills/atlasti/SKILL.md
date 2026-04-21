@@ -120,15 +120,17 @@ Exact verbatim text copied from below a <!-- seg:N --> marker.
 
 **Batch-annotating many segments (recommended for large coding passes)**
 
-When adding more than a handful of annotations, use a Python script rather than StrReplace. StrReplace fails silently on smart quotes; a script reads exact bytes and inserts safely. Use this reusable template:
+When adding more than a handful of annotations, use a Python script rather than StrReplace. StrReplace fails silently on smart quotes; a script reads exact bytes and inserts safely.
 
+There are two annotation modes:
+
+**Mode A — full paragraph quote** (one quotation per paragraph, starting with `[Them]`):
 ```python
 filepath = r"atlas-coding\documents\[Doc (hash)].md"
 
 with open(filepath, "r", encoding="utf-8") as f:
     lines = f.readlines()
 
-# Build seg-number → line-index map
 seg_lines: dict[int, int] = {}
 for i, line in enumerate(lines):
     stripped = line.strip()
@@ -150,10 +152,8 @@ def get_paragraph_text(seg_num: int) -> str:
 ANNOTATIONS = [
     (88,  "`Code A`, `Code B`"),
     (113, "`Code C`"),
-    # ...
 ]
 
-# Collect insertions, sort in REVERSE order so earlier indices aren't shifted
 insertions = []
 for seg_num, codes in ANNOTATIONS:
     text = get_paragraph_text(seg_num)
@@ -168,31 +168,64 @@ with open(filepath, "w", encoding="utf-8") as f:
     f.writelines(lines)
 ```
 
-The block is inserted **between** the `<!-- seg:N -->` marker line and the paragraph line. The verbatim text inside the block is copied from `get_paragraph_text`, so it matches exactly. Always run `--dry-run` after to verify the expected count of new quotations.
+**Mode B — sub-phrase quote** (multiple distinct quotations from the same paragraph, each at a precise character offset). This is the preferred mode for dense coding — it creates separate quotation objects per phrase, matching the density of native Atlas.ti coding:
+
+```python
+filepath = r"atlas-coding\documents\[Doc (hash)].md"
+
+with open(filepath, "r", encoding="utf-8") as f:
+    content = f.read()
+
+# (verbatim_phrase, codes_string) — phrase must appear verbatim in the document
+# Each phrase gets its own quotation object in Atlas.ti (distinct character offsets)
+PHRASE_ANNOTATIONS = [
+    ("it's just automation",           "`automation v.s. augmentation`"),
+    ("agentic AI is a bit of a hype",  "`dismissing agentic AI as hype`"),
+    ("we can really get things going",  "`Benefit: Agentic AI increases speed`"),
+]
+
+blocks = []
+for phrase, codes in PHRASE_ANNOTATIONS:
+    if phrase in content:
+        blocks.append(f"<!-- quote: {codes} -->\n{phrase}\n<!-- /quote -->\n\n")
+    else:
+        print(f"WARNING: phrase not found: {phrase!r}")
+
+# Append all blocks at the end of the file (export script searches the full text)
+with open(filepath, "a", encoding="utf-8") as f:
+    f.writelines(blocks)
+```
+
+Key rule for sub-phrase annotations: the phrase must appear **exactly once** in the document. If it appears in multiple paragraphs, the export script will always match the **first** occurrence. Choose phrases that are unique or distinctive enough to identify the right passage.
+
+Always run `--dry-run` after to verify the expected count of new quotations.
 
 **Multi-pass section-by-section review strategy**
 
 For comprehensive coding of an interview, use at least two passes:
 
-1. **First pass (broad)** — scan the full document for substantive `[Them]` paragraphs and add annotations for all clearly relevant passages. Batch-annotate with the script above. Aim for parity with other documents.
-2. **Second pass (gap check)** — read through the document again section by section, comparing each segment against `quotations/[doc].md` to find passages that were skipped. Focus on:
+1. **First pass (broad)** — scan the full document for substantive `[Them]` paragraphs and add full-paragraph annotations for all clearly relevant passages. Batch-annotate with Mode A above. Aim for parity with other documents.
+2. **Second pass (sub-phrase)** — go back through each coded paragraph and identify individual sentences or key phrases that deserve their own quotation object. Use Mode B (sub-phrase) annotations. Each distinct analytical point in a long paragraph should become its own quotation with its own code. A paragraph with 4 distinct ideas → 4 sub-phrase annotation blocks → 4 separate quotation objects in Atlas.ti.
+3. **Third pass (gap check)** — read through the document again section by section, comparing each segment against `quotations/[doc].md` to find passages that were skipped. Focus on:
    - Short but analytically dense single-line paragraphs that are easy to overlook
    - Transition paragraphs where interviewee summarises or names a concept
-   - Passages that elaborate on a theme already coded elsewhere (may warrant additional codes)
    - Passages near the end of the interview (often contain synthesis, reflection, or new angles)
-3. **Third pass (thematic)** — scan by code rather than by document position. For each important code, ask: is the full range of what this interviewee said about this theme captured?
+4. **Fourth pass (thematic)** — scan by code rather than by document position. For each important code, ask: is the full range of what this interviewee said about this theme captured?
 
 Run the coverage parity check (Step 3) after each pass to track progress.
 
 **Critical rules for new quotations:**
-1. **Copy text verbatim** — the export script finds the passage by string match. Apostrophe and quote variants (`'` vs `'` vs `'`, `"` vs `"`) are normalized automatically, so those differences are tolerated. Any other difference — whitespace, spelling, wrong paragraph — will cause the annotation to be skipped with an error.
-2. **Include the speaker prefix** — Atlas.ti paragraphs begin with `[Them]` or `[Me]`. Your verbatim text **must** start from the very beginning of the line, including this prefix. Quoting only a substring that appears mid-line will embed the annotation comment inside the paragraph line, corrupting the structure and causing the export to fail silently.
-3. **Do not annotate mid-paragraph substrings** — if the phrase you want to quote appears in the middle of a long single-line paragraph, either quote from the start of that line or skip the annotation. There is no way to target a mid-line substring.
-4. **Smart quotes in file edits** — the transcripts use Unicode smart apostrophes (`'` U+2019) and ellipsis (`…` U+2026). The IDE StrReplace tool will fail silently on these. When editing the document file programmatically, always use Python with `encoding="utf-8"` and read the exact bytes from the file rather than typing quotes by hand.
-5. **Code names must match exactly** — copy from `codebook.md` headings, including capitalisation and punctuation.
-6. **Do not edit `<!-- seg:N -->` markers** — these are used to resolve character positions. If they are removed or changed the lookup will fail.
-7. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
-8. **Fallback documents** (those with a warning about segment numbers being unreliable) cannot have new quotations exported — annotate them as suggestions only.
+1. **Copy text verbatim** — the export script finds the passage by substring search. Apostrophe and quote variants (`'` vs `'` vs `'`, `"` vs `"`) are normalized automatically, so those differences are tolerated. Any other difference — whitespace, spelling — will cause the annotation to be skipped with an error.
+2. **Full-paragraph OR sub-phrase quotes are both supported.** The export script does a substring search over all paragraph text, so the verbatim text can be:
+   - The full paragraph line starting from `[Them]` (creates one quotation covering the entire paragraph)
+   - A specific phrase from within a paragraph, **without** the `[Them]` prefix (creates a sub-paragraph quotation at the exact character offsets of that phrase — this is the preferred way to achieve high quotation density)
+3. **Sub-phrase uniqueness** — if quoting a sub-phrase rather than the full paragraph, ensure the phrase appears **exactly once** in the document. The export script always matches the **first** occurrence. If a phrase is not unique, quote a longer context so it becomes unique.
+4. **Each annotation block creates its own quotation object** — two annotation blocks with different phrases (even within the same paragraph) produce two separate quotation objects in Atlas.ti with distinct character offsets. Use this to code individual sentences or key phrases as separate quotations, achieving the same density as native Atlas.ti coding.
+5. **Smart quotes in file edits** — the transcripts use Unicode smart apostrophes (`'` U+2019) and ellipsis (`…` U+2026). The IDE StrReplace tool will fail silently on these. When editing the document file programmatically, always use Python with `encoding="utf-8"` and read the exact bytes from the file rather than typing quotes by hand.
+6. **Code names must match exactly** — copy from `codebook.md` headings, including capitalisation and punctuation.
+7. **Do not edit `<!-- seg:N -->` markers** — these are used to build the paragraph list. If they are removed or changed the lookup will fail.
+8. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
+9. **Fallback documents** (those with a warning about segment numbers being unreliable) cannot have new quotations exported — annotate them as suggestions only.
 
 **What the agent cannot do directly** (requires Atlas.ti's UI):
 - Create new code groups (create the group in Atlas.ti first, then reassign codes here)
