@@ -1,9 +1,12 @@
 ---
-description: Always sync (git push) the Atlas.ti project files to GitHub before any AI augmentation work
-alwaysApply: true
+description: Fallback-only safety rule for direct Atlas.ti SQLite workflows
+alwaysApply: false
 ---
 
-# Atlas.ti Backup Sync — Push Before AI Work
+# Atlas.ti Backup Sync — Fallback Workflow Only
+
+> Primary workflow is now QDPX-first via `.cursor/skills/qdpx/`.
+> Apply this rule only when running direct SQLite scripts in `.cursor/skills/atlasti/`.
 
 The live Atlas.ti project database lives **outside** this workspace:
 
@@ -13,14 +16,38 @@ C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25\
 
 This folder has its own git repo with remote `origin` → `https://github.com/Luttik/atlas-thesis-backup` (private).
 
-## Rule
+## Startup hygiene (mandatory)
+
+Before opening Atlas.ti after any restore or external DB write:
+
+1. Check for stale `*_WC_*.sqlite` files in the project folder.
+2. Check for stale `Library.lock` in `Libraries25`.
+
+Do not delete either file automatically. Ask the researcher first and confirm a backup commit exists in `Libraries25` before deletion.
+
+These stale files can block project loading even if the main `.sqlite` passes integrity checks.
+
+## Rule (SQLite fallback only)
 
 **Before augmenting any Atlas.ti data with AI** (editing codes, memos, quotations, or running import/export scripts), always ensure the latest Atlas.ti files are pushed to the backup repo.
+
+Treat this as a hard preflight gate: no DB write operations until push succeeds (or there are provably no changes and branch is already up to date).
+
+Enforcement sequence:
+1. Check `git status --short --branch` in `Libraries25`.
+2. Run `git pull --rebase`.
+3. If there are unsynced changes, create a local sync commit first.
+4. Attempt `git push`.
+5. Only then run augmentation scripts.
+6. For quote writes, run `atlasti_export.py --dry-run` before the real export (strict self-check is default-on).
+7. After writes complete, commit and push `Libraries25` again.
 
 Run this first:
 
 ```powershell
 cd "C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25"
+git status --short --branch
+git pull --rebase
 git add .
 git commit -m "Sync before AI augmentation $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
 git push
@@ -28,4 +55,25 @@ git push
 
 If there is nothing to commit, confirm with `git status` that the working tree is clean before proceeding.
 
-> **Why**: Atlas.ti has no undo for external changes. A pushed backup before any AI-driven edits ensures you can always recover the exact pre-edit state.
+For export operations, strict self-check is default-on:
+
+```powershell
+python .cursor/skills/atlasti/atlasti_export.py --dry-run
+python .cursor/skills/atlasti/atlasti_export.py
+```
+
+Only for explicit one-off overrides, allow `--skip-strict-self-check`.
+
+After export, create and push a post-write snapshot commit in `Libraries25`.
+
+After quotation operations are applied, run a mandatory integrity check:
+
+```powershell
+python .cursor/skills/atlasti/verify_quote_ops.py --ops <ops-file>.json
+```
+
+Do not finish a coding run unless verification passes (`verified operations: N/N`, no errors).
+
+After successful verification, run startup hygiene again before reopening Atlas.ti. If stale `*_WC_*.sqlite` or `Library.lock` are present, request researcher confirmation before deletion and only delete after backup commit confirmation.
+
+> **Why**: Atlas.ti has no undo for external changes. A pushed backup before and after AI-driven edits ensures both rollback and auditability.

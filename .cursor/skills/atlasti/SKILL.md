@@ -10,6 +10,10 @@ description: >
 
 # Atlas.ti ↔ Cursor Skill
 
+> **Status**: Fallback/debug workflow only.
+> Primary coding workflow is now QDPX-first via `.cursor/skills/qdpx/`.
+> Use this SQLite path only when QDPX workflows cannot preserve a required Atlas-specific behavior.
+
 ## Purpose
 
 This skill bridges Atlas.ti 25 and Cursor so the AI agent can:
@@ -28,18 +32,39 @@ This skill bridges Atlas.ti 25 and Cursor so the AI agent can:
 
 ## Workflow
 
-### Step 1 — Sync the backup (always first)
+### Step 1 — Sync the backup (hard gate, always first)
 
-Before any AI augmentation, ensure the Atlas.ti database is pushed to the backup repo:
+Before any AI augmentation, ensure the Atlas.ti database repo is synced to remote.
+Do not run import/export until this succeeds.
 
 ```powershell
 cd "C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25"
+git status --short --branch
+git pull --rebase
 git add .
 git commit -m "Sync before AI augmentation $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
 git push
 ```
 
-If the working tree is already clean, confirm with `git status` and proceed.
+If `git commit` reports nothing to commit, still run `git push` and confirm branch is up to date.
+
+**Atlas startup guard (new, mandatory):**
+Before opening Atlas.ti (especially after restore/recovery), check for stale working-copy DB or stale lock file:
+
+```powershell
+cd "C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25\8b640123d5644e959a1e74917f970745"
+Get-ChildItem *"_WC_"*.sqlite -ErrorAction SilentlyContinue
+Get-Item "..\Library.lock" -ErrorAction SilentlyContinue
+```
+
+Why: stale `*_WC_*.sqlite` and `Library.lock` can prevent Atlas.ti from loading a project even when the restored main `.sqlite` is valid.
+
+**Safety requirement:** do **not** delete these files automatically. Ask the researcher first and confirm the latest `Libraries25` backup commit was created. Deleting them before backup commit can remove recoverable Atlas working state.
+
+**Mandatory gate (do not skip):**
+1. Run `git status --short --branch` in `Libraries25`.
+2. If there are tracked or untracked changes, run `git add . && git commit -m "Sync before AI augmentation YYYY-MM-DD HH:MM"`.
+3. Attempt `git push` and record the outcome in the session notes. If push fails due auth/remote issues, still proceed only after the local commit succeeds.
 
 ### Step 2 — Import from Atlas.ti
 
@@ -226,6 +251,21 @@ Run the coverage parity check (Step 3) after each pass to track progress.
 7. **Do not edit `<!-- seg:N -->` markers** — these are used to build the paragraph list. If they are removed or changed the lookup will fail.
 8. **Multi-paragraph quotes** are supported — the text can span multiple `<!-- seg -->` paragraphs; just ensure it matches continuously across them.
 9. **Fallback documents** (those with a warning about segment numbers being unreliable) cannot have new quotations exported — annotate them as suggestions only.
+10. **No speaker tags in quote text** — when creating new quotations, quote substantive text only (exclude `[Them]` / `Them:` speaker prefixes from the `text` span).
+
+### Step 4.5 — Post-apply verification (mandatory)
+
+After creating or updating quotations via deterministic ops, always run a structural verification before finishing:
+
+```powershell
+python .cursor/skills/atlasti/verify_quote_ops.py --ops atlas-coding/quote-ops-<doc>.json
+```
+
+Pass criteria:
+- `verified operations: N/N`
+- `errors: 0` (or no error section)
+
+If verification fails, fix the failing operations and rerun verification until all pass.
 
 **What the agent cannot do directly** (requires Atlas.ti's UI):
 - Create new code groups (create the group in Atlas.ti first, then reassign codes here)
@@ -241,7 +281,7 @@ Run the coverage parity check (Step 3) after each pass to track progress.
 
 **Verbatim text must come from the document file, never typed manually:** The import script preserves the exact Unicode characters Atlas.ti stores (smart quotes U+2018/U+2019, ellipsis U+2026, etc.). Always copy verbatim text directly from the `.md` file in `atlas-coding/documents/` — never type it by hand or generate it from memory. The export script normalizes apostrophes and quotes before matching, so ASCII `'` will find `'` and vice versa, but other character differences (e.g., wrong paragraph structure) will still fail.
 
-**Paragraph offset is document-specific:** Atlas.ti's `StartParagraphNumber` is 1-based, but `decode_aml_paragraphs` may silently drop structural paragraphs from the start of the raw AML binary. This means our `paragraphs[0]` does not always correspond to Atlas.ti paragraph 1. The offset must be calibrated for each document by finding one existing quotation, looking up its `StartParagraphNumber` in the database, and comparing it to the index returned by `find_text_in_paragraphs` for the same text. For this project: Berfun/Andreea use offset `+1`, Lauren Stokowski `(4ba6ab14)` uses offset `+3`. The export script hard-codes `+3` for the current project. If a new document is added, verify the offset before exporting quotations.
+**Location mapping is document-specific and auto-calibrated:** Atlas.ti stores quotation locations with per-document conventions (`StartElementId`, interval deltas, offset shifts). Do not assume a global paragraph offset. `atlasti_export.py` calibrates these rules from existing quotations for each document and prints the calibration in self-check. Always run strict self-check (below) and abort on any mapping error.
 
 ## Soft-delete mechanism
 
@@ -267,14 +307,39 @@ when querying those tables.
 ### Step 5 — Export back to Atlas.ti
 
 1. **Close Atlas.ti** (required — it holds a write lock on the SQLite)
-2. Run the export:
+2. Run dry-run first (strict self-check is on by default):
 
 ```powershell
-python .cursor/skills/atlasti/atlasti_export.py --dry-run   # preview changes
-python .cursor/skills/atlasti/atlasti_export.py             # write changes
+python .cursor/skills/atlasti/atlasti_export.py --dry-run
 ```
 
-3. **Reopen Atlas.ti** — changes appear immediately
+3. If dry-run has any self-check errors, fix annotations before writing.
+4. Run the real export:
+
+```powershell
+python .cursor/skills/atlasti/atlasti_export.py
+```
+
+If you intentionally need to bypass strict abort behavior for a one-off recovery, use `--skip-strict-self-check` explicitly and document why.
+
+5. Re-import immediately and verify expected quotation/code changes:
+
+```powershell
+python .cursor/skills/atlasti/atlasti_import.py
+```
+
+6. Sync the Atlas backup repo again (post-write snapshot):
+
+```powershell
+cd "C:\Users\dtlut\AppData\Roaming\Scientific Software\ATLASti.25\Libraries25"
+git add .
+git commit -m "Sync after AI augmentation $(Get-Date -Format 'yyyy-MM-dd HH:mm')"
+git push
+```
+
+7. **Reopen Atlas.ti** — changes appear immediately
+
+If Atlas.ti fails to open after export or restore, run the Atlas startup guard above and ask the researcher before deleting stale `*_WC_*.sqlite` / `Library.lock`. Only proceed after backup commit confirmation, then retry before attempting another DB restore.
 
 ## File Format Reference
 
@@ -349,7 +414,7 @@ document for the exact text to determine paragraph number and character offsets.
 
 ## Safety
 
-- **Always git-push the backup before AI augmentation** (enforced by `atlasti-backup-sync.mdc` rule)
-- **Atlas.ti must be closed before running the export script**
-- Use `--dry-run` to preview what will change before committing
-- The export script checks for a running Atlas.ti process and aborts if found
+- **Always sync the Windows `Libraries25` backup repo before and after augmentation**
+- **Treat strict self-check as mandatory**: it is enabled by default; only bypass with `--skip-strict-self-check` when you intentionally accept risk
+- **Atlas.ti must be closed before running export**; script aborts if process is running
+- **Never hand-edit SQLite for routine coding**; use `atlasti_export.py` and keep DB surgery for one-off repairs with explicit validation

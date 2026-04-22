@@ -4,7 +4,7 @@ description: >
   Write analytical memos following Charmaz's (2006) memo-writing practices. Supports
   three memo types: code memos (define a code), theoretical memos (develop a concept),
   and operational memos (log methodological decisions). Memos are written to
-  atlas-coding/memos.md and exported back to Atlas.ti. Use when the user wants to
+  qdpx-coding/memos.md and exported back to QDPX. Use when the user wants to
   write a memo, explore a theoretical idea, compare codes, or document an analytical
   decision.
 ---
@@ -19,8 +19,8 @@ categories. Memos are not summaries — they are exploratory, comparative, and
 hypothesis-generating. They record the researcher's thinking in process, including
 uncertainty and contradiction.
 
-**Always use this skill in combination with the Atlas.ti skill.** Read
-`.cursor/skills/atlasti/SKILL.md` first to understand the import/export mechanics
+**Always use this skill in combination with the QDPX skill.** Read
+`.cursor/skills/qdpx/SKILL.md` first to understand the import/export mechanics
 and file formats before proceeding.
 
 ---
@@ -47,18 +47,17 @@ why did I do it, and what are the implications for the analysis?
 
 ## Workflow
 
-### Step 1 — Sync and import (Atlas.ti skill Steps 1–2)
+### Step 1 — Import QDPX workspace snapshot
 
-Follow Steps 1 and 2 from the Atlas.ti skill:
-1. Push the Atlas.ti git backup.
-2. Run the import: `python .cursor/skills/atlasti/atlasti_import.py`
+Run the import:
+1. `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis.qdpx" --out qdpx-coding`
 
 ### Step 2 — Read context
 
 Before writing any memo, read:
-1. `atlas-coding/memos.md` — avoid duplicating an existing memo; extend or reference it instead
-2. `atlas-coding/codebook.md` — the current codes and their descriptions
-3. The relevant `atlas-coding/quotations/[Doc].md` file(s) — the actual data passages
+1. `qdpx-coding/memos.md` — avoid duplicating an existing memo; extend or reference it instead
+2. `qdpx-coding/codebook.md` — the current codes and their descriptions
+3. The relevant `qdpx-coding/quotations/[Doc].md` file(s) — the actual data passages
    that are prompting this memo
 
 ### Step 3 — Determine memo type and topic
@@ -73,7 +72,7 @@ appropriate type with a brief rationale and proceed unless they redirect.
 
 ### Step 4 — Write the memo
 
-Use the following templates. Append the new memo at the end of `atlas-coding/memos.md`
+Use the following templates. Append the new memo at the end of `qdpx-coding/memos.md`
 **without** an `<!-- id: HEX -->` anchor — the export script assigns IDs to new memos.
 
 #### Code Memo template
@@ -167,18 +166,17 @@ can be:
 ### Step 6 — Review before export
 
 Present the memo text to the researcher before writing it to disk:
-1. Show the full memo as it will appear in `memos.md`.
+1. Show the full memo as it will appear in `qdpx-coding/memos.md`.
 2. Ask: "Does this capture what you wanted to explore? Any changes before I save?"
 
-After approval, append the memo to `atlas-coding/memos.md`.
+After approval, append the memo to `qdpx-coding/memos.md`.
 
-### Step 7 — Export (Atlas.ti skill Step 5)
+### Step 7 — Export, validate, and diff (QDPX workflow)
 
-1. Confirm Atlas.ti is closed.
-2. Run dry-run: `python .cursor/skills/atlasti/atlasti_export.py --dry-run`
-3. Confirm the new memo title appears in the output.
-4. Run: `python .cursor/skills/atlasti/atlasti_export.py`
-5. Confirm success and instruct the researcher to reopen Atlas.ti.
+1. Run export: `python .cursor/skills/qdpx/qdpx_export.py --base "Thesis.qdpx" --in qdpx-coding --out "Thesis-updated.qdpx"`
+2. Validate no-loss: `python .cursor/skills/qdpx/qdpx_validate.py --baseline "Thesis.qdpx" --qdpx "Thesis-updated.qdpx"`
+3. Review deltas: `python .cursor/skills/qdpx/qdpx_diff.py --old "Thesis.qdpx" --new "Thesis-updated.qdpx"`
+4. Confirm the memo title is present after re-import: `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis-updated.qdpx" --out qdpx-coding-verify`
 
 ---
 
@@ -212,7 +210,7 @@ After approval, append the memo to `atlas-coding/memos.md`.
 
 | Item | Path |
 |---|---|
-| Atlas.ti skill | `.cursor/skills/atlasti/SKILL.md` |
-| Memos | `atlas-coding/memos.md` |
-| Codebook | `atlas-coding/codebook.md` |
-| Quotations | `atlas-coding/quotations/` |
+| QDPX skill | `.cursor/skills/qdpx/SKILL.md` |
+| Memos | `qdpx-coding/memos.md` |
+| Codebook | `qdpx-coding/codebook.md` |
+| Quotations | `qdpx-coding/quotations/` |

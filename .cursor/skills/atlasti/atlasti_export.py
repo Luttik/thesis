@@ -46,6 +46,18 @@ from atlasti_import import configure_paths_for_sqlite  # noqa: E402
 
 ZERO_GUID = b"\x00" * 16
 
+# Known-good per-document calibration fallbacks for cases where a document has
+# no existing quotations yet (e.g., fresh recoding from ground up).
+CALIBRATION_PRESETS: dict[bytes, dict[str, int]] = {
+    # Thesis Transcript Erik Hilhorst
+    bytes.fromhex("E7CFB1F61191AA498790B391705ABCAC"): {
+        "element_factor": -4,
+        "first_delta": 7,
+        "offset_shift": 7,
+        "snippet_len": 70,
+    },
+}
+
 # ── Safety checks ─────────────────────────────────────────────────────────────
 
 
@@ -621,6 +633,7 @@ def _mode_int(values: list[int]) -> int | None:
 
 def calibrate_location_rules(
     cur: sqlite3.Cursor,
+    doc_id: bytes,
     layer_id: bytes,
     paragraphs: list[str],
 ) -> dict:
@@ -678,23 +691,25 @@ def calibrate_location_rules(
                 pos = para_norm.find(pnorm)
                 offset_shifts.append(int(pos) - int(so))
 
+    preset = CALIBRATION_PRESETS.get(doc_id)
+
     element_factor = _mode_int(factors)
     if element_factor is None:
-        element_factor = -2
+        element_factor = int(preset["element_factor"]) if preset else -2
     if element_factor > 0:
         element_factor = -element_factor
 
     first_delta = _mode_int(first_deltas)
     if first_delta is None:
-        first_delta = 0
+        first_delta = int(preset["first_delta"]) if preset else 0
 
     snippet_len = _mode_int(snippet_lengths)
     if snippet_len is None:
-        snippet_len = 70
+        snippet_len = int(preset["snippet_len"]) if preset else 70
 
     offset_shift = _mode_int(offset_shifts)
     if offset_shift is None:
-        offset_shift = 0
+        offset_shift = int(preset["offset_shift"]) if preset else 0
 
     factor_support = factors.count(element_factor) if factors else 0
     first_support = first_deltas.count(first_delta) if first_deltas else 0
@@ -706,6 +721,7 @@ def calibrate_location_rules(
         "first_delta": first_delta,
         "snippet_len": snippet_len,
         "offset_shift": offset_shift,
+        "preset_used": bool(preset and len(rows) == 0),
         "sample_count": len(rows),
         "factor_support": factor_support,
         "first_support": first_support,
@@ -861,17 +877,22 @@ def run_quote_self_check(
             errors.append(f"{md_file.name}: no seg-paragraphs parsed")
             continue
 
-        rules = calibrate_location_rules(cur, doc_info["layer_id"], paragraphs)
+        rules = calibrate_location_rules(cur, doc_info["id"], doc_info["layer_id"], paragraphs)
         report.append(
             f"{md_file.name}: samples={rules['sample_count']} "
             f"element_factor={rules['element_factor']}({rules['factor_support']}) "
             f"first_delta={rules['first_delta']}({rules['first_support']}) "
             f"offset_shift={rules['offset_shift']}({rules['shift_support']}) "
-            f"snippet_len={rules['snippet_len']}({rules['snippet_support']})"
+            f"snippet_len={rules['snippet_len']}({rules['snippet_support']}) "
+            f"preset_used={rules['preset_used']}"
         )
 
-        if rules["sample_count"] == 0:
+        if rules["sample_count"] == 0 and not rules["preset_used"]:
             errors.append(f"{md_file.name}: no existing quotes to calibrate against")
+        elif rules["sample_count"] == 0 and rules["preset_used"]:
+            warnings.append(
+                f"{md_file.name}: no existing quotes; using calibration preset for document id"
+            )
         elif strict and (rules["first_support"] == 0 or rules["factor_support"] == 0):
             errors.append(f"{md_file.name}: calibration support too weak in strict mode")
 
@@ -955,7 +976,7 @@ def process_new_quotations(
 
         hwm = doc_info["hwm"]
         layer_id = doc_info["layer_id"]
-        rules = calibrate_location_rules(cur, layer_id, paragraphs)
+        rules = calibrate_location_rules(cur, doc_info["id"], layer_id, paragraphs)
 
         for ann in annotations:
             pos = find_text_in_paragraphs(paragraphs, ann["text"])
@@ -1250,9 +1271,9 @@ def main(
         help="Run pre-write quote calibration and mapping checks.",
     ),
     strict_self_check: bool = typer.Option(
-        False,
-        "--strict-self-check",
-        help="Abort if any self-check error is detected.",
+        True,
+        "--strict-self-check/--skip-strict-self-check",
+        help="Abort on self-check errors by default; use --skip-strict-self-check only for manual override.",
     ),
 ) -> None:
     """Push atlas-coding/ Markdown edits back into the live Atlas.ti SQLite."""

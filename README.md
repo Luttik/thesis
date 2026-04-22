@@ -33,6 +33,14 @@ To use the PDF-to-vector pipeline and MCP in Cursor:
 3. Run indexing from the CLI project:  
    `poetry run pdf-vectordb -C C:\workspace\thesis index` (set `DATALAB_API_KEY` in thesis `.env` first).
 
+### Qualitative Coding Workflow (QDPX-first)
+
+The coding workflow is now file-based and QDPX-first:
+
+- Runbook: `ai-notes/coding-workflow.md`
+- Primary scripts: `.cursor/skills/qdpx/qdpx_import.py`, `.cursor/skills/qdpx/qdpx_export.py`, `.cursor/skills/qdpx/qdpx_validate.py`, `.cursor/skills/qdpx/qdpx_diff.py`
+- Atlas SQLite scripts in `.cursor/skills/atlasti/` are fallback/debug only
+
 ## Research Question
 
 > How do marketing managers create value with agenic AI

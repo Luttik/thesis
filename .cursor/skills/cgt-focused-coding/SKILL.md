@@ -19,28 +19,27 @@ most analytically rich, or most theoretically promising. This skill works at the
 codebook level — refining names, writing definitions, proposing merges, and flagging
 candidate categories — without creating new quotations.
 
-**Always use this skill in combination with the Atlas.ti skill.** Read
-`.cursor/skills/atlasti/SKILL.md` first to understand the import/export mechanics
+**Always use this skill in combination with the QDPX skill.** Read
+`.cursor/skills/qdpx/SKILL.md` first to understand the import/export mechanics
 and file formats before proceeding.
 
 ---
 
 ## Workflow
 
-### Step 1 — Sync and import (Atlas.ti skill Steps 1–2)
+### Step 1 — Import QDPX workspace snapshot
 
-Follow Steps 1 and 2 from the Atlas.ti skill:
-1. Push the Atlas.ti git backup.
-2. Run the import: `python .cursor/skills/atlasti/atlasti_import.py`
+Run the import:
+1. `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis.qdpx" --out qdpx-coding`
 
 ### Step 2 — Read the full codebook and quotations
 
-1. Read `atlas-coding/codebook.md` in full — note usage counts, groups, and any
+1. Read `qdpx-coding/codebook.md` in full — note usage counts, hierarchy, and any
    existing descriptions.
-2. Read all files in `atlas-coding/quotations/` — see which codes cluster together
+2. Read all files in `qdpx-coding/quotations/` — see which codes cluster together
    on the same quotations (co-occurrence is a signal of conceptual overlap or
    a potential relationship).
-3. Read `atlas-coding/memos.md` — the researcher's existing analytical thinking
+3. Read `qdpx-coding/memos.md` — the researcher's existing analytical thinking
    should inform which codes are worth elevating.
 
 ### Step 3 — Analyse and propose changes
@@ -94,13 +93,12 @@ filled in. Write one to two sentences that:
 - Define what the code captures (the action, not the topic)
 - State what it explicitly excludes (boundary with the most similar code)
 
-#### D. Group assignments
-Propose which Atlas.ti group each focused code belongs to. Note that **groups must
-first be created in the Atlas.ti UI** before the export script can assign codes to
-them. If a needed group does not yet exist, flag it clearly:
+#### D. Hierarchy assignments
+Propose which parent code path each focused code belongs to (QDPX hierarchy).
+If a needed parent path does not yet exist, flag it clearly:
 
 ```
-NEW GROUP NEEDED: "Legitimising AI" — create this in Atlas.ti before export
+NEW PARENT PATH NEEDED: `Legitimising AI: [Child Code]`
 ```
 
 #### E. Candidate categories
@@ -131,12 +129,12 @@ Present the full proposed change list to the researcher in this structure:
 - `Code Name`: [description text]
 ...
 
-### Group assignments (N)
-- `Code Name` → group "Group Name"
+### Hierarchy assignments (N)
+- `Code Name` → parent path `Parent Code: Child Code`
 ...
 
-### New groups needed in Atlas.ti UI (before export)
-- "Group Name"
+### New parent paths needed (before export)
+- `Parent Code: Child Code`
 ...
 
 ### Category candidates
@@ -155,18 +153,18 @@ Only proceed to Step 5 after explicit approval of the final change list.
 ### Step 5 — Apply changes to codebook.md
 
 Make only the approved changes:
-- Merges: remove absorbed code entries, rename surviving entry, update `**Group**:`
+- Merges: remove absorbed code entries, rename surviving entry, verify parent path still fits
 - Renames: update `### Code Name` heading only (never touch `<!-- id -->`)
 - Descriptions: fill in `**Description**:` field
-- Group assignments: update `**Group**:` field
+- Parent-path assignments: reflect hierarchy in code headings (for example `Parent: Child`)
 
-Do not change `<!-- id -->` anchors, `**Used in**:` counts, `**Example**:`, or
-`**Related codes**:` — these are read-only fields managed by the import script.
+Do not change `<!-- id -->` anchors, `**Used in**:` counts, or `**Example**:`
+fields — these are read-only fields managed by the import script.
 
 ### Step 5b — Write memos as you analyse (do not wait until the end)
 
 Memo writing runs alongside the focused coding analysis, not after it. Use the
-`cgt-memo-writing` skill templates and append directly to `atlas-coding/memos.md`.
+`cgt-memo-writing` skill templates and append directly to `qdpx-coding/memos.md`.
 
 **Write a theoretical memo when:**
 - A proposed merge reveals that two codes are actually in tension rather than
@@ -187,7 +185,7 @@ working through the first ten codes, write the memo then and return to the revie
 
 ### Step 6 — Write a focused-coding session memo
 
-Append a memo to `atlas-coding/memos.md` documenting the focused coding session:
+Append a memo to `qdpx-coding/memos.md` documenting the focused coding session:
 
 ```markdown
 ## Focused Coding Session: [Date]
@@ -203,16 +201,13 @@ for each.
 would theoretical sampling need to resolve?
 ```
 
-### Step 7 — Export (Atlas.ti skill Step 5)
+### Step 7 — Export, validate, and diff (QDPX workflow)
 
 After all edits are made:
-1. Confirm Atlas.ti is closed.
-2. Run dry-run: `python .cursor/skills/atlasti/atlasti_export.py --dry-run`
-3. Show the dry-run output to the researcher — pay special attention to renamed and
-   merged codes, as these changes affect every quotation that used the old names.
-4. Wait for final confirmation before running the live export.
-5. Run: `python .cursor/skills/atlasti/atlasti_export.py`
-6. Confirm success and instruct the researcher to reopen Atlas.ti.
+1. Run export: `python .cursor/skills/qdpx/qdpx_export.py --base "Thesis.qdpx" --in qdpx-coding --out "Thesis-updated.qdpx"`
+2. Validate no-loss: `python .cursor/skills/qdpx/qdpx_validate.py --baseline "Thesis.qdpx" --qdpx "Thesis-updated.qdpx"`
+3. Review deltas: `python .cursor/skills/qdpx/qdpx_diff.py --old "Thesis.qdpx" --new "Thesis-updated.qdpx"`
+4. Re-import for spot check: `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis-updated.qdpx" --out qdpx-coding-verify`
 
 ---
 
@@ -231,7 +226,7 @@ After all edits are made:
 
 | Item | Path |
 |---|---|
-| Atlas.ti skill | `.cursor/skills/atlasti/SKILL.md` |
-| Codebook | `atlas-coding/codebook.md` |
-| All quotations | `atlas-coding/quotations/` |
-| Memos | `atlas-coding/memos.md` |
+| QDPX skill | `.cursor/skills/qdpx/SKILL.md` |
+| Codebook | `qdpx-coding/codebook.md` |
+| All quotations | `qdpx-coding/quotations/` |
+| Memos | `qdpx-coding/memos.md` |

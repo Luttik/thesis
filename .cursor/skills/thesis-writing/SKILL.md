@@ -1,11 +1,11 @@
 ---
 name: thesis-writing
 description: >
-  Write, edit, and develop thesis chapters using coded Atlas.ti data, APA 7
+  Write, edit, and develop thesis chapters using coded QDPX workspace data, APA 7
   citations, and Charmaz's grounded theory framework. Use when the user wants
   to work on any thesis chapter (Introduction, Literature Review, Methodology,
   Findings, Discussion, Conclusion), draw coded data into written narrative,
-  write up findings from Atlas.ti codes, structure arguments, or draft academic
+  write up findings from coded QDPX data, structure arguments, or draft academic
   prose for the thesis.
 ---
 
@@ -33,13 +33,13 @@ All chapters live in `thesis/`:
 Always load the relevant context before drafting or editing:
 
 **For Findings or Discussion:**
-1. Run the Atlas.ti import to get a fresh snapshot:
+1. Run the QDPX import to get a fresh snapshot:
    ```powershell
-   python .cursor/skills/atlasti/atlasti_import.py
+   python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis.qdpx" --out qdpx-coding
    ```
-2. Read `atlas-coding/codebook.md` — codes, categories, and descriptions
-3. Read `atlas-coding/memos.md` — the analytical thinking and theoretical hypotheses
-4. Read the relevant `atlas-coding/quotations/[Doc].md` files — actual participant quotes to use as evidence
+2. Read `qdpx-coding/codebook.md` — codes, categories, and descriptions
+3. Read `qdpx-coding/memos.md` — the analytical thinking and theoretical hypotheses
+4. Read the relevant `qdpx-coding/quotations/[Doc].md` files — actual participant quotes to use as evidence
 
 **For Literature Review or Introduction:**
 - Use the `consensus-apa7-citations` skill to search for papers and add them with correct citations.
@@ -57,11 +57,11 @@ The Findings chapter presents what participants *did* — grounded in the coded 
 1. State the finding as a category or focused code in a subheading (gerund phrase where possible).
 2. Develop the pattern in 2–3 sentences using codes as analytical vocabulary.
 3. Anchor each claim in at least one direct participant quote:
-   - Use `atlas-coding/quotations/` to find the strongest quotes.
+   - Use `qdpx-coding/quotations/` to find the strongest quotes.
    - Format as a block quote with attribution: `— *[Participant Name]*`
 4. Show variation: where participants differ on this theme, name it explicitly.
 
-**Draw quotes from Atlas.ti — not from memory.** Copy verbatim text from `atlas-coding/quotations/[Doc].md`.
+**Draw quotes from QDPX import — not from memory.** Copy verbatim text from `qdpx-coding/quotations/[Doc].md`.
 
 **Anonymisation:** Check with the researcher whether participants should be named or anonymised before including names.
 
@@ -112,7 +112,7 @@ The Discussion interprets the findings against the literature and builds toward 
 
 | Task | Skill |
 |---|---|
-| Draw coded data from Atlas.ti | `.cursor/skills/atlasti/SKILL.md` |
+| Draw coded data from QDPX | `.cursor/skills/qdpx/SKILL.md` |
 | Format APA 7 citations | `.cursor/skills/apa7-references/SKILL.md` |
 | Search and add literature | `.cursor/skills/consensus-apa7-citations/SKILL.md` |
-| Check memos for analytical direction | `atlas-coding/memos.md` |
+| Check memos for analytical direction | `qdpx-coding/memos.md` |

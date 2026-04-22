@@ -4,6 +4,10 @@ output/
 # Atlas.ti Cursor workspace — generated from SQLite, not source of truth
 atlas-coding/
 
+# QDPX Cursor workspaces — generated snapshots, not source of truth
+qdpx-coding/
+qdpx-coding-verify/
+
 # Temporary files
 temp-reference.md
 

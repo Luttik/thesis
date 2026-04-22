@@ -1,7 +1,7 @@
 ---
 name: cgt-initial-coding
 description: >
-  Apply Charmaz's (2006) initial/open coding to a single interview transcript in Atlas.ti.
+  Apply Charmaz's (2006) initial/open coding to a single interview transcript in the QDPX workspace.
   Guides line-by-line, gerund-based coding with preference for existing codes and in vivo
   language. Includes a mandatory researcher review before export. Use when the user wants
   to code a new document, do open coding, or start the first pass on a transcript.
@@ -12,35 +12,38 @@ description: >
 ## Purpose
 
 Perform **initial coding** as described in Charmaz (2006, Ch. 2): a close, line-by-line
-reading of a transcript that codes actions and processes, staying near the participants'
-own language. This skill produces new `<!-- quote -->` annotations in the Atlas.ti
-document files and writes a code memo for any genuinely new code introduced.
+ reading of a transcript that codes actions and processes, staying near the participants'
+ own language. This skill recodes and refines existing quotations in `qdpx-coding/quotations/`
+ and writes a code memo for any genuinely new code introduced.
 
-**Always use this skill in combination with the Atlas.ti skill.** Read
-`.cursor/skills/atlasti/SKILL.md` first to understand the import/export mechanics
+**Always use this skill in combination with the QDPX skill.** Read
+`.cursor/skills/qdpx/SKILL.md` first to understand the import/export mechanics
 and file formats before proceeding.
 
 ---
 
 ## Workflow
 
-### Step 1 — Sync and import (Atlas.ti skill Steps 1–2)
+### Step 1 — Import QDPX workspace snapshot
 
-Follow Steps 1 and 2 from the Atlas.ti skill:
-1. Push the Atlas.ti git backup.
-2. Run the import: `python .cursor/skills/atlasti/atlasti_import.py`
+Run the import:
+1. `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis.qdpx" --out qdpx-coding`
 
 ### Step 2 — Read context
 
 Read in this order:
-1. `atlas-coding/codebook.md` — internalize the full list of existing codes
-2. `atlas-coding/quotations/[Target Doc].md` — see what has already been coded in this document so you do not duplicate
-3. `atlas-coding/documents/[Target Doc].md` — the full interview text with `<!-- seg:N -->` markers
+1. `qdpx-coding/codebook.md` — internalize the full list of existing codes
+2. `qdpx-coding/quotations/[Target Doc].md` — see what has already been coded in this document
+3. `qdpx-coding/documents/[Target Doc].md` — the full interview text for contextual reading
 
-### Step 3 — Code segment by segment
+### Step 3 — Recode quotation by quotation
 
-Work through every `<!-- seg:N -->` block in the document that does not already have a
-quotation covering it. For each meaningful passage:
+Work through each quotation in `qdpx-coding/quotations/[Target Doc].md`. For each quotation,
+adjust the `**Codes**:` line to keep, remove, or add codes based on initial-coding principles.
+
+Note: creating brand-new quotations is currently not part of the QDPX exporter workflow in
+this repo. When you find uncaptured passages, document them in an operational memo and handle
+new quote creation in the Atlas fallback path only if explicitly required.
 
 **CGT initial coding principles (Charmaz 2006):**
 - **Use gerunds** — code what people are *doing*, not what they *are*. Prefer
@@ -58,36 +61,31 @@ quotation covering it. For each meaningful passage:
 1. Check `codebook.md` for an existing code that fits. If one fits well, use it — even
    if it was not previously used on this document.
 2. If no existing code fits, create a new code. Name it as a gerund phrase. Write a
-   brief code memo for it (see Step 4). **New codes referenced in `<!-- quote -->`
-   annotations are automatically created in Atlas.ti by the export script — no
-   manual Atlas.ti step required.**
+   brief code memo for it (see Step 4). New codes referenced in `**Codes**:` lines
+   are created in the QDPX code tree by the exporter.
 3. If an existing code is close but not quite right, note this as a candidate for
    renaming in focused coding — do not rename it now.
 
-**Annotate using the Atlas.ti format:**
+**Edit using the QDPX quotations format:**
 ```markdown
-<!-- quote: `Existing Code Name`, `Another Code` -->
-Exact verbatim text from the segment below.
-<!-- /quote -->
+## Quotation N
+<!-- id: ... -->
+**Codes**: `Existing Code Name`, `Another Code`
+
+> Existing quotation text (read-only)
 ```
 
-Rules (from Atlas.ti skill):
-- The quoted text must be **verbatim** — copy character-for-character from the segment.
-- **Prefer sub-phrase quotes over full-paragraph quotes** — each distinct analytical point
-  in a paragraph should be its own annotation block quoting only the relevant phrase.
-  This creates separate quotation objects in Atlas.ti (matching native coding density).
-  Full-paragraph quotes (starting with `[Them]`) are fine but produce only one quotation
-  object per paragraph regardless of how many codes you list.
-- Sub-phrase phrases must be **unique** within the document. If the phrase appears more
-  than once, extend it until it is unique.
+Rules:
+- Edit only the `**Codes**:` line for each quotation.
+- Keep `<!-- id: ... -->` and `<!-- span: start:end -->` anchors unchanged.
 - Code names must match `codebook.md` headings exactly (capitalisation, punctuation).
-- Do not edit or remove `<!-- seg:N -->` markers.
+- Treat quote text as read-only context.
 
 ### Step 4 — Write memos as you code (do not wait until the end)
 
 Memo writing is not a separate phase — it interrupts coding whenever something
 analytically interesting surfaces. Use the `cgt-memo-writing` skill templates for
-all memos and append them to `atlas-coding/memos.md` immediately.
+all memos and append them to `qdpx-coding/memos.md` immediately.
 
 **Write a code memo when:**
 - A new code is introduced (mandatory — define it before moving to the next segment)
@@ -129,25 +127,27 @@ if reconstructed later.
 
 Before running the export, present the following to the researcher:
 
-1. **New quotations summary** — a list of every `<!-- quote -->` annotation added,
-   showing: segment number, codes applied, first 15 words of the quoted text.
+1. **Updated quotations summary** — a list of quotations whose `**Codes**:` line changed,
+   showing quotation number, old codes, new codes.
 2. **New codes introduced** — list of any code names that do not appear in
-   `codebook.md` and will be created in Atlas.ti.
-3. **Skipped segments** — any segments that were left uncoded and a brief reason
-   (e.g. "administrative filler", "already coded in quotations file").
+   `codebook.md` and will be created during export.
+3. **Uncaptured passage notes** — any important passages not represented by existing quotations.
 
 Wait for explicit researcher approval ("yes", "go ahead", or similar) before exporting.
 If the researcher says "edit X" or "no", make the requested changes and re-present
 the summary.
 
-### Step 6 — Export (Atlas.ti skill Step 5)
+### Step 6 — Export, validate, and diff (QDPX workflow)
 
 After approval:
-1. Confirm Atlas.ti is closed.
-2. Run dry-run: `python .cursor/skills/atlasti/atlasti_export.py --dry-run`
-3. Show the dry-run output to the researcher.
-4. Run the actual export: `python .cursor/skills/atlasti/atlasti_export.py`
-5. Confirm success and instruct the researcher to reopen Atlas.ti.
+1. Run export: `python .cursor/skills/qdpx/qdpx_export.py --base "Thesis.qdpx" --in qdpx-coding --out "Thesis-updated.qdpx"`
+2. Validate no-loss: `python .cursor/skills/qdpx/qdpx_validate.py --baseline "Thesis.qdpx" --qdpx "Thesis-updated.qdpx"`
+3. Review deltas: `python .cursor/skills/qdpx/qdpx_diff.py --old "Thesis.qdpx" --new "Thesis-updated.qdpx"`
+4. Re-import for spot check: `python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis-updated.qdpx" --out qdpx-coding-verify`
+
+### Step 7 — Final verification (mandatory)
+
+Only finish when export, validate, and diff complete without integrity errors.
 
 ---
 
@@ -166,8 +166,8 @@ After approval:
 
 | Item | Path |
 |---|---|
-| Atlas.ti skill | `.cursor/skills/atlasti/SKILL.md` |
-| Target documents | `atlas-coding/documents/[Doc].md` |
-| Existing quotations | `atlas-coding/quotations/[Doc].md` |
-| Codebook | `atlas-coding/codebook.md` |
-| Memos | `atlas-coding/memos.md` |
+| QDPX skill | `.cursor/skills/qdpx/SKILL.md` |
+| Target documents | `qdpx-coding/documents/[Doc].md` |
+| Existing quotations | `qdpx-coding/quotations/[Doc].md` |
+| Codebook | `qdpx-coding/codebook.md` |
+| Memos | `qdpx-coding/memos.md` |
