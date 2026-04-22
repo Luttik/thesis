@@ -23,6 +23,7 @@ temp-reference.md
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+.opencode
 
 # Local environment
 local.env
