@@ -60,7 +60,6 @@ def clean_transcript(filepath: Path) -> dict:
                 new_lines.pop()
 
             # Check if we need to merge adjacent Them: lines
-            prev_them = None
             if new_lines and new_lines[-1].strip().startswith("Them:"):
                 next_line_idx = i
                 if next_line_idx < len(lines) and lines[next_line_idx].strip().startswith("Them:"):
@@ -93,7 +92,12 @@ def clean_transcript(filepath: Path) -> dict:
             cleaned.append(line)
 
     filepath.write_text("\n".join(cleaned), encoding="utf-8")
-    return {"removed": removed, "merged": merged, "lines_before": len(lines), "lines_after": len(cleaned)}
+    return {
+        "removed": removed,
+        "merged": merged,
+        "lines_before": len(lines),
+        "lines_after": len(cleaned),
+    }
 
 
 def main() -> None:

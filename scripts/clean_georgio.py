@@ -93,7 +93,7 @@ while i < len(merged):
     i += 1
 
 # Strip trailing whitespace from each line
-final = [l.rstrip() for l in final]
+final = [line.rstrip() for line in final]
 
 # Ensure file ends with a single newline
 while final and final[-1] == "":

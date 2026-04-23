@@ -24,6 +24,7 @@ This skill is the default coding path and is intentionally file-based.
 - `qdpx_merge.py` - merge coding from one `.qdpx` into another
 - `qdpx_validate.py` - integrity + no-loss checks
 - `qdpx_diff.py` - compare old/new `.qdpx`
+- `poetry run qdpx-dedupe-launch` - launch dedupe TUI (current terminal by default)
 
 ## Workflow
 
@@ -68,6 +69,18 @@ python .cursor/skills/qdpx/qdpx_diff.py --old "Thesis.qdpx" --new "Thesis-update
 ```powershell
 python .cursor/skills/qdpx/qdpx_import.py --qdpx "Thesis-updated.qdpx" --out qdpx-coding-verify
 ```
+
+## Code Deduplication Review (Default Launch Behavior)
+
+When deduplication review is requested, launch the TUI via the launcher script so a
+new terminal window is used by default:
+
+```powershell
+poetry run qdpx-dedupe-launch --qdpx "qdpx/Thesis (...).qdpx"
+```
+
+Use `--new-window` to request a separate terminal window/tab. If unavailable,
+the launcher falls back to the current terminal.
 
 ## Hard Rules
 

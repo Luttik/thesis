@@ -41,6 +41,51 @@ The coding workflow is now file-based and QDPX-first:
 - Primary scripts: `.cursor/skills/qdpx/qdpx_import.py`, `.cursor/skills/qdpx/qdpx_export.py`, `.cursor/skills/qdpx/qdpx_validate.py`, `.cursor/skills/qdpx/qdpx_diff.py`
 - Atlas SQLite scripts in `.cursor/skills/atlasti/` are fallback/debug only
 
+### Code Deduplication Review TUI
+
+To review likely duplicate codes with local embeddings:
+
+```powershell
+poetry run qdpx-dedupe-launch --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+If you omit `--qdpx`, you'll get an interactive file picker when multiple `.qdpx` files exist.
+
+The launcher runs in the current terminal by default.
+Use `--new-window` to request a separate terminal window/tab.
+During embedding, the script shows a live progress loader with elapsed/remaining time.
+
+On Windows PowerShell, the same command works and opens a new PowerShell window when available.
+If your GPU is detected but unsupported by the installed PyTorch build, the tool now auto-falls back to CPU.
+You can also force CPU manually with `--device cpu`.
+
+You can also run the TUI directly (without launcher) via:
+
+```powershell
+poetry run qdpx-dedupe --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+`poetry run qdpx-dedupe` without `--qdpx` also opens the same interactive picker.
+
+Keybindings inside the TUI:
+
+- `j` next candidate
+- `k` previous candidate
+- `t` open full-screen table view
+- `v` (or `Esc`) return to side-by-side compare view
+- `]` scroll quotations down (both code panels)
+- `[` scroll quotations up (both code panels)
+- `1` dedupe and keep code A name
+- `2` dedupe and keep code B name
+- `3` dedupe with custom name
+- `s` keep separate
+- `z` undo last decision
+- `e` export review files
+- `q` quit (state is autosaved)
+
+The default compare view shows scores on top and both codes side by side with full quotations.
+By default, code pairs are filtered to only coded codes (codes with at least one quotation).
+
 ## Research Question
 
 > How do marketing managers create value with agenic AI
