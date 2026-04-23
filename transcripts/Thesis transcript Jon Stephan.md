@@ -1,5 +1,5 @@
-> [Me]
-> Hello, how's it going today? 
+> *[Me]*
+> *Hello, how's it going today?*
 
 [Them]
 Pretty good. Pretty good. I'm in the States, so it's, uh, just starting out for the day, so it's going quite well. 
@@ -275,29 +275,29 @@ Cool!
 Yeah, everyone can mess it with it now. It's great. [laughing] Cool. Yeah, I'll send, uh, I'll send out an email to Skip Johnston to introduce you to, and, um, hopefully he'll set up time. He's pretty busy, so I don't know. No promises, but, uh, him and I, we've worked together on projects before, so he'll probably be for it. Yep, good deal. See you around. You too. Bye bye. 
   
 
-> [Me]
-> See. Exactly. Cool. So I'm gonna take up any unnecessary time for you. I would wanna thank you immensely for taking the time to talk with me. It was very helpful. And ja,  
+> *[Me]*
+> *See. Exactly. Cool. So I'm gonna take up any unnecessary time for you. I would wanna thank you immensely for taking the time to talk with me. It was very helpful. And ja,*
 
 [Them]
 Cool.  
 
-> [Me]
-> thank you.  
+> *[Me]*
+> *thank you.*
 
 [Them]
 Yeah. I'll send, I'll send out an email to Skip Johnston to introduce you to, and, hopefully, he'll set up time. He's pretty busy, so I don't know. No promises. But, him and I, we've worked together on projects before, so he'll probably be for it.  
 
-> [Me]
-> Thank you. It's amazing.  
+> *[Me]*
+> *Thank you. It's amazing.*
 
 [Them]
 Yep.  
 
-> [Me]
-> Well Thanks, John. See you, and have a great day.  
+> *[Me]*
+> *Well Thanks, John. See you, and have a great day.*
 
 [Them]
 Good deal. You're on You too. Bye bye.  
 
-> [Me]
-> Bye bye.
+> *[Me]*
+> *Bye bye.*
