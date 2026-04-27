@@ -37,7 +37,7 @@ To use the PDF-to-vector pipeline and MCP in Cursor:
 
 The coding workflow is now file-based and QDPX-first:
 
-- Runbook: `ai-notes/coding-workflow.md`
+- Runbook: `.cursor/skills/qdpx/SKILL.md`
 - Primary scripts: `.cursor/skills/qdpx/qdpx_import.py`, `.cursor/skills/qdpx/qdpx_export.py`, `.cursor/skills/qdpx/qdpx_validate.py`, `.cursor/skills/qdpx/qdpx_diff.py`
 - Atlas SQLite scripts in `.cursor/skills/atlasti/` are fallback/debug only
 
