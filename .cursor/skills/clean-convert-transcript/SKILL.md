@@ -67,7 +67,7 @@ Run `quote_me_sections.py` to wrap all `[Me]` sections in markdown block quotes 
 
 ```powershell
 cd c:\workspace\thesis
-python quote_me_sections.py "transcripts\<filename>.md"
+python .opencode/skills/clean-convert-transcript/quote_me_sections.py "transcripts\<filename>.md"
 ```
 
 If the transcript uses `Me:` / `Them:` inline labels (not `[Me]` section blocks), skip this step.

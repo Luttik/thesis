@@ -43,3 +43,4 @@ qdrant-storage/*
 !qdrant-storage/.gitkeep
 
 __pycache__/
+.cache/

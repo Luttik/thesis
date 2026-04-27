@@ -59,6 +59,12 @@ class MemoEdit:
     body: str
 
 
+@dataclass
+class QuoteEdit:
+    codes: list[str]
+    span: tuple[int, int] | None
+
+
 def _now_utc() -> str:
     return datetime.now(timezone.utc).isoformat(timespec="seconds").replace("+00:00", "Z")
 
@@ -127,29 +133,51 @@ def _parse_memos(path: Path) -> list[MemoEdit]:
     return edits
 
 
-def _parse_quote_codes(workspace_dir: Path) -> dict[str, list[str]]:
+def _parse_quote_edits(workspace_dir: Path) -> dict[str, QuoteEdit]:
     quotes_dir = workspace_dir / "quotations"
     if not quotes_dir.exists():
         raise CliError(f"Missing quotations directory: {quotes_dir}")
 
-    quote_codes: dict[str, list[str]] = {}
+    quote_edits: dict[str, QuoteEdit] = {}
+    block_re = re.compile(
+        r"(?ms)^##\s+Quotation\s+\d+\n(?P<body>.*?)(?=^##\s+Quotation\s+\d+\n|\Z)"
+    )
+    id_re = re.compile(r"<!--\s*id:\s*([A-Fa-f0-9\-]{32,36})\s*-->")
+    span_re = re.compile(r"<!--\s*span:\s*(\d+):(\d+)\s*-->")
+    codes_re = re.compile(r"^\*\*Codes\*\*:\s*(.*)$", re.MULTILINE)
+
     for md in sorted(quotes_dir.glob("*.md")):
         text = md.read_text(encoding="utf-8")
-        for m in QUOTE_BLOCK_RE.finditer(text):
-            guid = m.group("id").upper()
-            raw_codes = m.group("codes").strip()
-            if raw_codes == "*(none)*":
-                quote_codes[guid] = []
+        for block in block_re.finditer(text):
+            body = block.group("body")
+            id_match = id_re.search(body)
+            codes_match = codes_re.search(body)
+            if id_match is None or codes_match is None:
                 continue
-            names = [c.strip() for c in re.findall(r"`([^`]+)`", raw_codes)]
-            deduped: list[str] = []
-            seen: set[str] = set()
-            for n in names:
-                if n not in seen:
-                    deduped.append(n)
-                    seen.add(n)
-            quote_codes[guid] = deduped
-    return quote_codes
+
+            guid = id_match.group(1).upper()
+            raw_codes = codes_match.group(1).strip()
+            if raw_codes == "*(none)*":
+                deduped: list[str] = []
+            else:
+                names = [c.strip() for c in re.findall(r"`([^`]+)`", raw_codes)]
+                deduped = []
+                seen: set[str] = set()
+                for n in names:
+                    if n not in seen:
+                        deduped.append(n)
+                        seen.add(n)
+
+            span_match = span_re.search(body)
+            span: tuple[int, int] | None = None
+            if span_match is not None:
+                start = int(span_match.group(1))
+                end = int(span_match.group(2))
+                if end >= start:
+                    span = (start, end)
+
+            quote_edits[guid] = QuoteEdit(codes=deduped, span=span)
+    return quote_edits
 
 
 def _code_tree_maps(
@@ -238,7 +266,7 @@ def run_export(base_qdpx: Path, workspace_dir: Path, out_qdpx: Path) -> None:
 
     codebook_edits = _parse_codebook(workspace_dir / "codebook.md")
     memo_edits = _parse_memos(workspace_dir / "memos.md")
-    quote_codes = _parse_quote_codes(workspace_dir)
+    quote_edits = _parse_quote_edits(workspace_dir)
 
     with zipfile.ZipFile(base_qdpx, "r") as zin:
         try:
@@ -343,14 +371,22 @@ def run_export(base_qdpx: Path, workspace_dir: Path, out_qdpx: Path) -> None:
         # Apply quotation code-line edits by selection id.
         now = _now_utc()
         quote_updates = 0
-        for sel_guid, code_names in quote_codes.items():
+        for sel_guid, quote_edit in quote_edits.items():
             sel = selections_by_guid.get(sel_guid)
             if sel is None:
                 warnings.append(f"Quotation id not found in base QDPX: {sel_guid}")
                 continue
 
+            if quote_edit.span is not None:
+                span_start, span_end = quote_edit.span
+                try:
+                    sel.attrib["startPosition"] = str(span_start)
+                    sel.attrib["endPosition"] = str(span_end)
+                except ValueError:
+                    warnings.append(f"Invalid span for quotation id {sel_guid}: {quote_edit.span}")
+
             resolved_code_guids: list[str] = []
-            for code_name in code_names:
+            for code_name in quote_edit.codes:
                 code_guid = _ensure_code_by_path(
                     code_name,
                     codes_root,

@@ -4,9 +4,9 @@
 This tool parses a QDPX archive, embeds code semantics locally, computes
 pairwise cosine similarity, and opens a binary-review TUI:
 
-- `1`: dedupe and keep name of code A
-- `2`: dedupe and keep name of code B
-- `3`: dedupe with a custom merged name
+- `a`: dedupe and keep name of code A
+- `b`: dedupe and keep name of code B
+- `c`: dedupe with a custom merged name
 - `s`: keep separate
 - `j`/`k`: next/previous candidate
 - `z`: undo
@@ -46,6 +46,8 @@ from textual.binding import Binding
 from textual.containers import Horizontal, Vertical, VerticalScroll
 from textual.screen import ModalScreen
 from textual.widgets import DataTable, Footer, Header, Input, Static
+
+from thesis_cli.qdpx_dedupe_apply import apply_decisions_to_qdpx
 
 QDA_NS = "urn:QDA-XML:project:1.0"
 NS = {"q": QDA_NS}
@@ -813,9 +815,9 @@ class DedupeApp(App[None]):
         Binding("escape", "show_compare", "Back"),
         Binding("]", "scroll_panels_down", "Scroll Down"),
         Binding("[", "scroll_panels_up", "Scroll Up"),
-        Binding("1", "merge_keep_a", "Keep A"),
-        Binding("2", "merge_keep_b", "Keep B"),
-        Binding("3", "merge_custom", "Custom Name"),
+        Binding("a", "merge_keep_a", "Keep A"),
+        Binding("b", "merge_keep_b", "Keep B"),
+        Binding("c", "merge_custom", "Custom Name"),
         Binding("s", "separate_candidate", "Separate"),
         Binding("z", "undo", "Undo"),
         Binding("e", "export_now", "Export"),
@@ -896,6 +898,9 @@ class DedupeApp(App[None]):
         review_csv: Path,
         review_md: Path,
         code_lookup: dict[str, CodeRecord],
+        base_qdpx: Path,
+        apply_out_qdpx: Path,
+        apply_on_export: bool,
         initial_state: dict[str, Any],
     ) -> None:
         super().__init__()
@@ -905,6 +910,9 @@ class DedupeApp(App[None]):
         self.review_csv = review_csv
         self.review_md = review_md
         self.code_lookup = code_lookup
+        self.base_qdpx = base_qdpx
+        self.apply_out_qdpx = apply_out_qdpx
+        self.apply_on_export = apply_on_export
         self.state = initial_state
         self.decisions = normalize_decisions(initial_state.get("decisions", {}))
         self.history: list[dict[str, Any]] = list(initial_state.get("history", []))
@@ -954,11 +962,11 @@ class DedupeApp(App[None]):
             return "S"
         mode = d.get("mode")
         if mode == "keep_a":
-            return "1"
+            return "A"
         if mode == "keep_b":
-            return "2"
+            return "B"
         if mode == "custom":
-            return "3"
+            return "C"
         return ""
 
     def _sync_cursor(self, save: bool = True) -> None:
@@ -1007,8 +1015,56 @@ class DedupeApp(App[None]):
 
         code_a = self.code_lookup.get(c.guid_a)
         code_b = self.code_lookup.get(c.guid_b)
-        left_panel.update(self._format_code_panel("Code A", c.code_a, c.usage_a, code_a))
-        right_panel.update(self._format_code_panel("Code B", c.code_b, c.usage_b, code_b))
+        current_decision = self.decisions.get(c.key)
+        shared_quote_keys: set[str] = set()
+        if code_a and code_b:
+            keys_a = {
+                f"{q.source_name}\n{q.text.strip()}" for q in code_a.quotes if q.text.strip()
+            }
+            keys_b = {
+                f"{q.source_name}\n{q.text.strip()}" for q in code_b.quotes if q.text.strip()
+            }
+            shared_quote_keys = keys_a.intersection(keys_b)
+
+        left_panel.update(
+            self._format_code_panel(
+                "Code A",
+                c.code_a,
+                c.usage_a,
+                code_a,
+                panel_key="a",
+                decision=current_decision,
+                shared_quote_keys=shared_quote_keys,
+            )
+        )
+        right_panel.update(
+            self._format_code_panel(
+                "Code B",
+                c.code_b,
+                c.usage_b,
+                code_b,
+                panel_key="b",
+                decision=current_decision,
+                shared_quote_keys=shared_quote_keys,
+            )
+        )
+
+    def _header_color_for_panel(
+        self,
+        panel_key: str,
+        decision: dict[str, str] | None,
+    ) -> str:
+        if not decision:
+            return "cyan"
+        if decision.get("decision") != "merge":
+            return "cyan"
+
+        mode = decision.get("mode")
+        if mode == "keep_a":
+            return "green" if panel_key == "a" else "red"
+        if mode == "keep_b":
+            return "green" if panel_key == "b" else "red"
+        return "cyan"
 
     def _format_code_panel(
         self,
@@ -1016,11 +1072,16 @@ class DedupeApp(App[None]):
         fallback_name: str,
         usage_count: int,
         code: CodeRecord | None,
+        panel_key: str,
+        decision: dict[str, str] | None,
+        shared_quote_keys: set[str],
     ) -> str:
+        header_color = self._header_color_for_panel(panel_key=panel_key, decision=decision)
+
         if code is None:
             return (
-                f"[bold cyan]{escape(panel_title)} {escape(fallback_name)} "
-                f"(quotes: {usage_count})[/bold cyan]\n\n"
+                f"[bold {header_color}]{escape(panel_title)} {escape(fallback_name)} "
+                f"(quotes: {usage_count})[/bold {header_color}]\n\n"
                 "[dim](no code details available)[/dim]"
             )
 
@@ -1028,8 +1089,8 @@ class DedupeApp(App[None]):
 
         lines: list[str] = []
         lines.append(
-            f"[bold cyan]{escape(panel_title)} {escape(code.full_name)} "
-            f"(quotes: {len(quotes)})[/bold cyan]"
+            f"[bold {header_color}]{escape(panel_title)} {escape(code.full_name)} "
+            f"(quotes: {len(quotes)})[/bold {header_color}]"
         )
         lines.append("")
 
@@ -1037,10 +1098,15 @@ class DedupeApp(App[None]):
             lines.append("(no quotations)")
         else:
             for idx, quote in enumerate(quotes, start=1):
+                quote_key = f"{quote.source_name}\n{quote.text.strip()}"
+                is_shared = quote_key in shared_quote_keys
+                header_style = "bold yellow" if is_shared else "bold"
+                text_prefix = "[yellow]" if is_shared else ""
+                text_suffix = "[/yellow]" if is_shared else ""
                 lines.append(
-                    f"[bold]Quote {idx}: {escape(quote.source_name)}[/bold]"
+                    f"[{header_style}]Quote {idx}: {escape(quote.source_name)}[/{header_style}]"
                 )
-                lines.append(escape(quote.text))
+                lines.append(f"{text_prefix}{escape(quote.text)}{text_suffix}")
                 lines.append("")
         return "\n".join(lines).rstrip()
 
@@ -1050,7 +1116,7 @@ class DedupeApp(App[None]):
         self.state["history"] = self.history[-1000:]
         save_state(self.state_path, self.state)
 
-    def _record_decision_obj(self, decision: dict[str, str]) -> None:
+    def _record_decision_obj(self, decision: dict[str, str], auto_advance: bool = True) -> None:
         if not self.candidates:
             return
         c = self.candidates[self.current_index]
@@ -1061,6 +1127,9 @@ class DedupeApp(App[None]):
 
         table = self.query_one("#table", DataTable)
         table.update_cell_at(cast(Any, (self.current_index, 1)), self._decision_mark(key))
+
+        if auto_advance and self.current_index < len(self.candidates) - 1:
+            self.current_index += 1
 
         self._render_compare()
         self._save_state()
@@ -1157,6 +1226,27 @@ class DedupeApp(App[None]):
         export_candidates_csv(self.candidates, self.decisions, self.candidates_csv)
         export_review_csv(self.candidates, self.decisions, self.review_csv)
         export_review_md(self.candidates, self.decisions, self.review_md)
+        if self.apply_on_export:
+            try:
+                merge_count = sum(
+                    1
+                    for decision in self.decisions.values()
+                    if isinstance(decision, dict) and decision.get("decision") == "merge"
+                )
+                if merge_count > 0:
+                    apply_decisions_to_qdpx(
+                        base_qdpx=self.base_qdpx,
+                        review_csv=self.review_csv,
+                        out_qdpx=self.apply_out_qdpx,
+                    )
+                    self.notify(
+                        f"Applied {merge_count} merge decision(s) to {self.apply_out_qdpx}",
+                        timeout=2.5,
+                    )
+                else:
+                    self.notify("No merge decisions yet; skipped QDPX apply step.", timeout=2.5)
+            except Exception as exc:  # pragma: no cover - defensive runtime UX path
+                self.notify(f"QDPX apply failed: {exc}", severity="error", timeout=4.0)
         self.notify(
             f"Exported to {self.candidates_csv}, {self.review_csv}, {self.review_md}",
             timeout=2.5,
@@ -1341,6 +1431,18 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--review-md", type=Path, default=DEFAULT_REVIEW_MD)
     parser.add_argument("--cache-dir", type=Path, default=DEFAULT_CACHE_DIR)
     parser.add_argument(
+        "--apply-on-export",
+        action=argparse.BooleanOptionalAction,
+        default=True,
+        help="Apply dedupe decisions into a new QDPX when exporting",
+    )
+    parser.add_argument(
+        "--apply-out",
+        type=Path,
+        default=None,
+        help="Output QDPX path for apply-on-export (default: sibling *-deduped.qdpx)",
+    )
+    parser.add_argument(
         "--device",
         type=str,
         default="auto",
@@ -1364,6 +1466,12 @@ def main() -> int:
         args.qdpx.resolve()
         if args.qdpx
         else _pick_qdpx_interactive(_find_qdpx_candidates(workspace_root), workspace_root)
+    )
+
+    apply_out_qdpx = (
+        args.apply_out.resolve()
+        if args.apply_out
+        else qdpx_path.with_name(f"{qdpx_path.stem}-deduped.qdpx")
     )
 
     if not qdpx_path.exists():
@@ -1421,6 +1529,9 @@ def main() -> int:
         review_csv=args.review_csv,
         review_md=args.review_md,
         code_lookup={c.guid: c for c in codes if c.guid},
+        base_qdpx=qdpx_path,
+        apply_out_qdpx=apply_out_qdpx,
+        apply_on_export=args.apply_on_export,
         initial_state=state,
     )
     app.run()

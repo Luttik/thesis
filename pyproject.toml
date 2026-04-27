@@ -9,6 +9,12 @@ packages = [{ include = "thesis_cli" }]
 [tool.poetry.scripts]
 qdpx-dedupe = "thesis_cli.cli:qdpx_dedupe"
 qdpx-dedupe-launch = "thesis_cli.cli:qdpx_dedupe_launch"
+qdpx-code-search = "thesis_cli.cli:qdpx_code_search"
+qdpx-code-search-test = "thesis_cli.cli:qdpx_code_search_test"
+qdpx-dedupe-apply = "thesis_cli.cli:qdpx_dedupe_apply"
+qdpx-initial-review = "thesis_cli.cli:qdpx_initial_review"
+qdpx-category-suggest = "thesis_cli.cli:qdpx_category_suggest"
+qdpx-paragraph-vast = "thesis_cli.cli:qdpx_paragraph_vast"
 
 [tool.poetry.dependencies]
 python = "^3.12"

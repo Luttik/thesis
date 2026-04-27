@@ -1,8 +1,16 @@
-"""Turn all [Me] sections in a transcript into markdown block quotes."""
+"""Turn all [Me] sections in a transcript into italic markdown block quotes."""
 
 import argparse
-import re
 from pathlib import Path
+
+
+def italicize(text: str) -> str:
+    stripped = text.strip()
+    if not stripped:
+        return text
+    if stripped.startswith("*") and stripped.endswith("*") and len(stripped) >= 2:
+        return text
+    return f"*{text}*"
 
 
 def quote_me_sections(text: str) -> str:
@@ -13,18 +21,19 @@ def quote_me_sections(text: str) -> str:
     for line in lines:
         stripped = line.strip()
 
-        if stripped == "[Me]":
+        if stripped in {"[Me]", "> [Me]", "> *[Me]*"}:
             in_me_section = True
-            result.append("> " + line)
+            result.append("> " + italicize("[Me]") + "\n")
             continue
 
-        if stripped == "[Them]":
+        if stripped in {"[Them]", "> [Them]", "> *[Them]*"}:
             in_me_section = False
-            result.append(line)
+            result.append("[Them]\n")
             continue
 
         if in_me_section and stripped:
-            result.append("> " + line)
+            content = stripped[2:] if stripped.startswith("> ") else line.rstrip("\n")
+            result.append("> " + italicize(content) + "\n")
         else:
             result.append(line)
 
