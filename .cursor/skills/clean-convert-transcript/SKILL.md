@@ -13,6 +13,8 @@ Transcripts live in `transcripts/` as `.md` files (e.g. `transcripts/Thesis inte
 - **"Convert transcript Y to docx"** → Step 2 (quote blocks) + Step 3 (export)
 - **"Clean and convert"** → All three steps in order
 
+After every cleaning task, also do the post-cleaning administration step below.
+
 Check the first few lines of the file. If speaker labels are named (e.g. `[Speaker 0]`, `[Daan]`) rather than `[Me]` / `[Them]`, run **Step 0** first.
 
 ---
@@ -90,6 +92,14 @@ To convert **all** transcripts at once, run from the project root:
 ```powershell
 .\convert-transcripts-to-docx.ps1
 ```
+
+---
+
+## Step 4 — Update interviewee tracking table (always after cleaning)
+
+After cleaning any transcript, always update `interviewees.xlsx` based on the cleaned transcript and assign/confirm anonymized interviewee numbering and category `x` marks.
+
+Then explicitly notify the user to update the thesis table based on this updated workbook output.
 
 ---
 

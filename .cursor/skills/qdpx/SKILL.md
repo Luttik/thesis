@@ -24,9 +24,9 @@ This skill is the default coding path and is intentionally file-based.
 - `qdpx_merge.py` - merge coding from one `.qdpx` into another
 - `qdpx_validate.py` - integrity + no-loss checks
 - `qdpx_diff.py` - compare old/new `.qdpx`
-- `poetry run qdpx-dedupe-launch` - launch dedupe TUI (current terminal by default)
-- `poetry run qdpx-dedupe-apply` - apply dedupe review CSV into a new `.qdpx`
-- `poetry run qdpx-category-suggest` - review/assign top-level categories for uncategorised coded leaf codes
+- `poetry run dedupe-launch` - launch dedupe TUI (current terminal by default)
+- `poetry run dedupe-apply` - apply dedupe review CSV into a new `.qdpx`
+- `poetry run category-suggest` - review/assign top-level categories for uncategorised coded leaf codes
 
 ## Workflow
 
@@ -78,7 +78,7 @@ When deduplication review is requested, launch the TUI via the launcher script s
 new terminal window is used by default:
 
 ```powershell
-poetry run qdpx-dedupe-launch --qdpx "qdpx/Thesis (...).qdpx"
+poetry run dedupe-launch --qdpx "qdpx/Thesis (...).qdpx"
 ```
 
 Use `--new-window` to request a separate terminal window/tab. If unavailable,

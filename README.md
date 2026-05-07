@@ -46,7 +46,7 @@ The coding workflow is now file-based and QDPX-first:
 To review likely duplicate codes with local embeddings:
 
 ```powershell
-poetry run qdpx-dedupe-launch --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+poetry run dedupe-launch --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
 ```
 
 If you omit `--qdpx`, you'll get an interactive file picker when multiple `.qdpx` files exist.
@@ -62,15 +62,15 @@ You can also force CPU manually with `--device cpu`.
 You can also run the TUI directly (without launcher) via:
 
 ```powershell
-poetry run qdpx-dedupe --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+poetry run dedupe --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
 ```
 
-`poetry run qdpx-dedupe` without `--qdpx` also opens the same interactive picker.
+`poetry run dedupe` without `--qdpx` also opens the same interactive picker.
 
 To search existing codes by semantic similarity (name + quote context):
 
 ```powershell
-poetry run qdpx-code-search --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+poetry run code-search --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
 ```
 
 In search TUI, type your query and press Enter. Use `j`/`k` to move results and `/` to focus query.
@@ -78,14 +78,14 @@ In search TUI, type your query and press Enter. Use `j`/`k` to move results and 
 To index and search all QDPX document paragraphs with local vectors (no Docker required):
 
 ```powershell
-poetry run qdpx-paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" index
-poetry run qdpx-paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" search --query "volunteer onboarding" --top 15
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" index
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" search --query "volunteer onboarding" --top 15
 ```
 
 Open the interactive paragraph VAST TUI:
 
 ```powershell
-poetry run qdpx-paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" tui --query "planning and action"
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" tui --query "planning and action"
 ```
 
 The paragraph tool uses the same embedding model as the other QDPX tools (`BAAI/bge-m3`),
@@ -94,7 +94,7 @@ stores metadata in SQLite, stores vectors in NumPy, and shows related paragraphs
 To suggest top-level parent categories for uncategorised coded leaf codes:
 
 ```powershell
-poetry run qdpx-category-suggest --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+poetry run category-suggest --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
 ```
 
 Keybindings inside category suggestion TUI:
@@ -109,7 +109,7 @@ Keybindings inside category suggestion TUI:
 After reviewing dedupe decisions, apply them back into a new QDPX file:
 
 ```powershell
-poetry run qdpx-dedupe-apply --base "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" --review-csv "output/qdpx-dedupe-review.csv" --out "qdpx/Thesis-deduped.qdpx"
+poetry run dedupe-apply --base "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" --review-csv "output/qdpx-dedupe-review.csv" --out "qdpx/Thesis-deduped.qdpx"
 ```
 
 This rewrites code references based on your `keep A` / `keep B` / custom decisions and writes a new `.qdpx` archive.
@@ -139,7 +139,13 @@ Pressing `e` now also applies merge decisions into a new `*-deduped.qdpx` file b
 To review quotation-level coding suggestions from `qdpx-coding/` before export:
 
 ```powershell
-poetry run qdpx-initial-review --doc "Interview name fragment"
+poetry run initial-review --doc "Interview name fragment"
+```
+
+Quick launcher menu (numbered list):
+
+```powershell
+poetry run tools
 ```
 
 If you omit `--doc`, the tool reviews all matching quotations.
