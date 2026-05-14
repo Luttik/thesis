@@ -1,1054 +1,1011 @@
 > *[Me]*
-> *Hey Sylvia, goeiedag. *
+> *Hey Sylvia, good day.*
 
 [Them]
-Hey, goeiemorgen. 
+Hey, good morning.
 
 > *[Me]*
-> *Goeiemorgen. Hoe gaat het daar? *
+> *Good morning. How are things there?*
 
 [Them]
-Goed. 
+Good.
 
 > *[Me]*
-> *Mooi. *
+> *Great.*
 
 [Them]
-Geluid anders organiseren. 
+Need to sort the audio differently.
 
 > *[Me]*
-> *Is goed zo. Dan wacht ik heel even. *
+> *That's fine. I'll wait a moment.*
 
 [Them]
-Dit is beter denk ik. 
+This is better I think.
 
 > *[Me]*
-> *Ja. Kan je me goed horen? *
+> *Yes. Can you hear me well?*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Hey, voordat we starten. Dit is natuurlijk voor een academisch onderzoek, dus ik ga wel alles opnemen. Dus als je daar, als je dat goed vindt, dan doe ik dat. En er komt nog een consent form voor jou richting uit voor het gebruik ervan. *
+> *Hey, before we start. This is of course for academic research, so I will be recording everything. So if you're okay with that, I'll go ahead. And a consent form will still be coming your way for the use of it.*
 
 [Them]
-Ja. Ga je video opnemen of alleen het geluid? 
+Yes. Are you recording video or just the audio?
 
 > *[Me]*
-> *Ja, wat je wil. Ik kan de video ook uitzetten, die heb ik meestal wel aan. *
+> *Yes, whatever you prefer. I can also turn off the video, I usually have it on.*
 
 [Them]
-Ja, liever alleen geluid. 
+Yes, I'd prefer just audio.
 
 > *[Me]*
-> *Oké, is goed, dan doe ik dat. Even kijken. *
+> *Okay, that's fine, I'll do that. Let me see.*
 
 > *[Me]*
-> *Het zit gewoon standaard aan in mijn recording software hier. Ja, die is uit. *
+> *It's just on by default in my recording software here. Yes, it's off now.*
 
 > *[Me]*
-> *En wat fijn dat je weer, dat je aan wil sluiten. Echt super chill. *
+> *And how nice that you want to join again. Really super cool.*
 
 > *[Me]*
-> *Uhm, ik denk dat we een hoop leuke dingen om te bespreken hebben. Ik doe mijn onderzoek natuurlijk naar *
+> *Um, I think we have lots of interesting things to discuss. I'm of course doing my research on*
 
 > *[Me]*
-> *agentic AI in marketing, uh, en hoe je daar dan waarde mee kan creëren als, als organisatie, als marketingorganisatie voor je bedrijf of voor je klanten. *
+> *agentic AI in marketing, and how you can create value with it as an organization, as a marketing organization for your company or for your customers.*
 
 > *[Me]*
-> *Daar is niet heel veel over geschreven. Wel heel leuk om onderzoek naar te doen. Uhm, misschien voordat we het echt aftrappen heel kort iets over jou of mij, want daarna laat ik jou de rest van de, van de tijd eigenlijk praten. Uhm, ik werk voor een marketing agency in Eindhoven. Techonomy heet het. Uhm, *
+> *Not much has been written about it. But very interesting to research. Um, maybe before we really get started, a little bit about you or me, because after that I'll let you do most of the talking. Um, I work for a marketing agency in Eindhoven. It's called Techonomy. Um,*
 
 > *[Me]*
-> *ben ik vrij vroeg mee gestart toen zij met tien man waren. Ondertussen met tweehonderd zestig. *
+> *I joined quite early when they were with ten people. Now with two hundred and sixty.*
 
 > *[Me]*
-> *En ik ben daar verantwoordelijk aan de technische kant. Dus in het begin was het vooral data science en data engineering. En nu zit er natuurlijk steeds meer LLM-werk ook bij. *
+> *And I'm responsible there on the technical side. So in the beginning it was mainly data science and data engineering. And now there's increasingly more LLM work as well.*
 
 > *[Me]*
-> *En dat doen we in consultancyvorm, maar ook in losse projecten, producten die we de markt op brengen. *
+> *And we do that in consultancy form, but also in standalone projects, products that we bring to market.*
 
 > *[Me]*
-> *Dus ook voor mijn werk is het echt super relevant omdat ik hiermee bezig ben. *
+> *So for my work as well it's really super relevant because I'm involved in this.*
 
 [Them]
-Ja, dat is wel een goede combinatie. En wanneer ben je gestart met je executive MBA denk ik? 
+Yes, that's a good combination. And when did you start your executive MBA I think?
 
 > *[Me]*
-> *Ja, ja, bijna twee jaar geleden. Ik moet het maken. Over vier weken ben ik echt klaar. Dan mag ik mijn thesis inleveren. Dus jij bent een van mijn allerlaatste interviews. Dus ik ben in mei '24 gestart. *
+> *Yes, yes, almost two years ago. I need to finish it. In four weeks I'll really be done. Then I can hand in my thesis. So you are one of my very last interviews. So I started in May '24.*
 
 > *[Me]*
-> *Uhm, ja, en nu net mijn laatste, gisteren mijn laatste module afgerond. Dus het einde zit er nu echt aan te komen. Ja. *
+> *Um, yes, and I just finished, yesterday I completed my last module. So the end is really coming now. Yes.*
 
 [Them]
-Ja. Ja. Gaaf! 
+Yes. Yes. Cool!
 
 > *[Me]*
-> *Ja, want jij hebt het ook een keer gedaan, hè? Dat was een paar jaartjes geleden ondertussen. *
+> *Yes, because you've done it too, right? That was a few years ago now.*
 
 [Them]
-Ja. Jeetje, wanneer ben ik afgestudeerd? Ik denk acht jaar geleden of zo. 
+Yes. Gosh, when did I graduate? I think eight years ago or so.
 
-Ja, om en nabij eigenlijk. Ja. Ja. 
+Yes, around that actually. Yes. Yes.
 
 > *[Me]*
-> *Ja. Ja. Leuk zeg. Want jullie hadden toen ook nog best wel grote groepen denk ik. Of niet? Wij waren met drieëntwintig. We wilden wel verhalen dat het toen echt nog wel anders was. *
+> *Yes. Yes. How nice. Because you had quite large groups back then I think. Or not? We were with twenty-three. We liked to say it was quite different back then.*
 
 [Them]
-Nee, ik denk vergelijkbaar. Misschien dat we een iets grotere groep waren, maar. 
+No, I think comparable. Maybe we were a slightly larger group, but.
 
-Nou, niet, niet extreem veel groter hoor, nee. 
+Well, not, not extremely much larger, no.
 
 > *[Me]*
-> *Oké, nou laten we lekker induiken. Ik kan het in het Nederlands doen. Voor mijn onderzoek is het ietsje makkelijker om het in het Engels te doen, maar als je zegt van ja, ik praat echt wel ietsje soepeler in het Nederlands, dan vertaal ik het gewoon naderhand. Dat is net zo goed. *
+> *Okay, let's dive in. I can do it in Dutch. For my research it's slightly easier to do it in English, but if you say you speak a bit more smoothly in Dutch, then I'll just translate it afterwards. That's just as good.*
 
 [Them]
-Ja, nou als het jou niet uitmaakt, laten we het dan lekker Nederlands doen. 
+Yes, well if it doesn't matter to you, let's just do it in Dutch then.
 
 > *[Me]*
-> *Is goed. *
+> *That's fine.*
 
 [Them]
-Maar ja. 
+But yes.
 
 > *[Me]*
-> *Doen we dat. *
+> *Let's do that.*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Zou je mij even af kunnen trappen om iets met je, iets te vertellen over je rol en wat je doet. En. *
+> *Could you kick things off by telling me something about your role and what you do.*
 
 [Them]
-Ja. Ja, zeker. 
+Yes. Yes, certainly.
 
-Nou Sylvia Grol-Vroklage. 
+Well, Sylvia Grol-Vroklage.
 
-Ik ben CMO bij Print.com, bijna vier jaar ondertussen. 
+I'm CMO at Print.com, almost four years now.
 
-Eigenlijk was ik, mijn hele achtergrond is marketing en marketing e-commerce. Nou, dat, daar draait mijn carrière om. En dan met name daar waar, 
+Actually, my entire background is marketing and marketing e-commerce. Well, that's what my career revolves around. And particularly where
 
-commercie, data, 
+commerce, data,
 
-tech samenkomt zeg maar. Dat vind ik een mooi, mooi speelveld. 
+and tech come together. I find that a great, great playing field.
 
-Op dit moment bij Print.com, dus we zijn een internationaal 
+At the moment at Print.com, so we're an international
 
-bedrijf, ondertussen meerdere labels in de markt en verkopen sec 
+company, now with multiple labels on the market, and we sell purely
 
-via e-commerce verkopen wij, 
+via e-commerce —
 
-nou, allerlei verschillende gepersonaliseerde bedrukte producten. En daar, mijn rol daarin is aan de ene kant natuurlijk ons, ons merk, ons merkverhaal vertellen in de verschillende markten. Go to markets, 
+well, all sorts of different personalized printed products. And there, my role is on the one hand telling our brand story in the different markets. Go to markets,
 
-nieuwe regio's opstarten en vervolgens is het traffic genereren. Wij zijn geslo-, of in ieder geval de meeste, want we hebben een gesloten portaal, dus wij genereren leads. 
+launching new regions, and then it's about generating traffic. We have a clos-, or at least mostly, because we have a closed portal, so we generate leads.
 
-Of dan wel met traffic en klanten of leads. Nou, dat moeten users worden, dat moeten klanten worden. Dus het is acquisitie en zorgen met alle marketingtools die er zijn en die relevant voor ons zijn, dat onze bestaande klanten bij ons blijven. 
+Either through traffic and customers or leads. Well, those need to become users, those need to become customers. So it's acquisition and making sure, with all the marketing tools that exist and are relevant to us, that our existing customers stay with us.
 
-En idealiter dat de share of wallet van, van die klanten vergroot. Dus in een notendop is dat mijn, mijn scope en verantwoordelijkheid. 
+And ideally that the share of wallet of those customers grows. So in a nutshell, that's my scope and responsibility.
 
 > *[Me]*
-> *Hoor ik dan ook dat retentie voor jullie belangrijker is dan new business?*
+> *Am I then also hearing that retention is more important to you than new business?*
 
 [Them]
-Dat hangt er een beetje vanaf welk, uhm, welk label en, uh, welke regio. 
+That depends a bit on which label and which region.
 
-Kijk, als ik naar Print.com, als ik even Print.com als label pak. Dus, uh, Print.com is een groep waar meerdere labels onder vallen, maar Print.com zelf is ook een label. Uh, daar zijn we actief in Nederland, uh, België, ook Frankrijk en Spanje bijvoorbeeld en nog een paar regio's. In Nederland zijn wij, uhm, horen wij echt wel bij de gevestigde orde, zijn we een van de grootste partijen. Als ik daar kijk 
+Look, if I look at Print.com — taking Print.com as a label. So, Print.com is a group under which multiple labels fall, but Print.com itself is also a label. We're active there in the Netherlands, Belgium, also France and Spain for example, and a few other regions. In the Netherlands, we really are part of the established order, we're one of the biggest players. If I look there,
 
-is die bestaande base, uhm, een groot gedeelte van de omzet voor 
+the existing base accounts for a large part of the revenue. For
 
-verdere groei, uhm, is acquisitie daar wel belangrijk. Maar als ik kijk naar een Frankrijk of een Duitsland, daar hebben we echt wel substantiële business. Maar als je kijkt wat voor potentieel daar nog, uh, is, ja, dan is acquisitie, die motor van acquisitie is natuurlijk nog belangrijker om die extra goei, uh, groei te pakken. Uh, en de andere, de andere labels, onder andere Reclameland. Ja, dat open portalen en die, die, die dynamiek is gewoon anders. Dus daar zie je dat, nouja, acquisitie ook doorgaans, uh, belangrijker is. De frequentie van bestellen is lager, uh, dus daar, ja, dat is gewoon een andere dynamiek van die labels. 
+further growth, acquisition is important there too. But if I look at France or Germany, we have quite substantial business there. But if you look at the potential still there, yes, then acquisition — that acquisition engine — is of course even more important to capture that extra growth. And the other labels, including Reclameland — yes, those are open portals and the dynamics are just different. So there you see that acquisition is also generally more important. The order frequency is lower, so that's just a different dynamic for those labels.
 
 > *[Me]*
-> *Ja. Check. Leuk! Hé, en, uh, om maar gelijk het onderzoek ook in te stappen. Uhm, wat, wat betekent voor jou AI, generative AI? *
+> *Yes. Check. Nice! Hey, and to just dive straight into the research. What does AI, generative AI mean to you?*
 
 [Them]
-Ja, het is een goeie. Ik dacht daar moet ik jou van tevoren vragen wat versta jij daaronder, zeg maar. Wat is je, wat is je- 
+Yes, that's a good one. I thought I should ask you beforehand what you understand by that. What is your —
 
 > *[Me]*
-> *Die komt er ook aan. Die komt er ook aan. [lacht] *
+> *That's coming too. That's coming too. [laughs]*
 
 [Them]
-Uhm, nou, het heeft voor mij, uh, ook verschillende kanten. Dus één is, uhm, 
+Um, well, it has for me also different sides. So one is,
 
-wat gaat dat doen met de e-commerce wereld en hoe gaat de e-commerce wereld daar, uh, ver-- dat is natuurlijk commercieel aan de voorkant voor mij onwijs belangrijk. Hè, nu hebben we, uh, allerlei, uh, traffic kanalen, uh, en dat is, we zien natuurlijk gewoon dat dat aan het veranderen is. Dat traffic gaat, uh, komt gewoon vanuit, hè, er komen andere kanalen bij. En voor mij, agentic AI is zelfs wel zo dat, 
+what is that going to do with the e-commerce world and how is the e-commerce world going to tran — that is of course commercially, on the front end, hugely important to me. Right, now we have all kinds of traffic channels, and we can see that it's changing. Traffic comes from — right, new channels are being added. And for me, agentic AI is even such that
 
-uh, geen business meer aan het doen met een mens. Maar is er een bot, een project, een artifact, whatever, uh, we het gaan noemen. Ja, die, die gaat, uh, naar het platform toe. Platform moet er dus waarschijnlijk ook anders uit gaan zien. Uhm, en die gaat informatie zoeken, die gaat een product selecteren, die gaat vergelijkingen maken. Dus dat is voor mij wel de verdere vorm van agentic AI. 
+there's no longer doing business with a human. But there's a bot, a project, an artifact, whatever we're going to call it. Yes, that goes to the platform. The platform therefore probably also needs to look different. And it's going to search for information, select a product, make comparisons. So that for me is the further form of agentic AI.
 
 > *[Me]*
-> *Ja. Ja. Dus je hebt het dan vooral, hè, want, uh, dat, dit vind ik ook leuk. *
+> *Yes. Yes. So you're mainly talking about — and I also find this interesting.*
 
 > *[Me]*
-> *Uhm, *
+> *Um,*
 
 > *[Me]*
-> *je, wa-wat je wel eens hoort is dat je verschillende vormen van agentic AI hebt, hè. Je hebt, uh, e-agentic AI die wat meer autonoom werkt. Je hebt agentic AI voor, uhm, *
+> *what you sometimes hear is that there are different forms of agentic AI, right. You have agentic AI that works more autonomously. You have agentic AI for*
 
 > *[Me]*
-> *voor eigenlijk specifieke business processen die wat meer, uh, dat kunnen doen. En je hebt agentic AI voor consumenten. Jij bent volgens mij de eerste die gelijk naar die consumentenkant, uh, toestapt. Want oké, hoe kun, kan de, kan de consument nou met ons, uh, praten? Uhm. Leuk. *
+> *actually specific business processes that can do more of that. And you have agentic AI for consumers. You are I think the first who immediately steps toward that consumer side. Because okay, how can the consumer now talk with us? Um. Interesting.*
 
 [Them]
-Dus dat is aan de voorkant en dan, en dan zie ik natuurlijk ook, 
+So that's on the front end and then I naturally also see that, you know, teams and specialisms within it, how the work gets done — that naturally plays an enormous role in it. And
 
-uh, ja, weet je, teams, specialismen die erin zitten, hoe het werk gedaan wordt. Daar speelt het natuurlijk wel een enorme rol in. En 
+each time we also need to keep asking the question: okay, hey, how can we apply this? How can we think further than just using it as a smart search engine?
 
-elke keer moeten we ook de vraag blijven stellen van: oké, hé, uhm, hoe kunnen we dit inzetten? Hoe kunnen we ook verder denken dan het alleen gebruiken als slimme, uh, als slimme zoekmachine? 
+Yes, that plays a role too. And on the front end I also find a whole,
 
-Uh, ja, da-dat speelt natuurlijk ook. Uhm, en een hele ander, en zeg maar ook aan de voorkant vind ik een hele, 
+for me personally, interesting question of: yes, okay,
 
-voor mezelf interessante vraag van: ja, oké, 
+so if the human is less in the loop when finding information, making choices, making comparisons — where and how do we then add value as a brand and as a company?
 
-dus als de mens minder in de loop is in het vinden van informatie, uh, het maken van de keuzes, het maken van vergelijkingen, waar, uh, waar en hoe voegen we dan waarde toe als, uh, merk en als bedrijf? 
-
 > *[Me]*
-> *Hmm. *
+> *Hmm.*
 
 [Them]
-Uh, en als je aan een, als een persoon aan een LLM in zijn project zegt van: oké, het moet een betrouwbare partij zijn. Ja, oké, uh, hoe vindt LLM dan dat je een betrouwbare partij bent? Nou ja, dus dat, er zitten enorm veel vraagstukken omheen. 
+And if a person tells an LLM in their project: okay, it needs to be a trustworthy party — yes, okay, how does the LLM then determine that you're a trustworthy party? Well, so there are enormously many questions around it.
 
 > *[Me]*
-> *Ja, ja. En zien jullie dat meet je, denk ik. Zien jullie in jullie surfing dat jullie nu meer of minder aansluiting vinden na de hele AI-boem en dat mensen minder zoeken met Google en meer met AI? *
+> *Yes, yes. And do you see that you measure that, I think. Do you see in your traffic that you're now finding more or less traction after the whole AI boom, and that people are searching less with Google and more with AI?*
 
 [Them]
-Nou, dat, uh, en dat is al langer gaande, hè. Uh, maar dat is eigenlijk natuurlijk, 
-
-uhm, 
+Well, that, and that's been going on for a while, right. But that's actually of course
 
-de no-click search, uh, of, hè, de, de zoekopdrachten natuurlijk waar Google al, uh, meer en meer direct antwoord, uh, geeft in zijn eigen omgeving. Dus eigenlijk daar, daar zag je natuurlijk al een verschuiving ontstaan. Je ziet gewoon dat er, uhm, 
+the no-click search, or the search queries where Google is already more and more directly answering in its own environment. So there you already saw a shift emerging. You just see that
 
-ja, dat er anders gezocht wordt, dat er anders antwoorden gevonden worden. Dus de doorklik naar, ja, het doorklikken is gewoon minder geworden. Mensen vinden min, sneller, eerder hun antwoord. Uhm, 
+yes, people are searching differently, answers are being found differently. So the click-through — yes, the click-through has just decreased. People find their answer more quickly, earlier. Um,
 
-als ik kijk naar, 
+if I look at —
 
-dus dat doet iets met je organische verkeer. Vervolgens inderdaad meten we natuurlijk ook het LLM-verkeer. Nou, dat is er. Dat converteert ook al. Uhm, 
+so that does something to your organic traffic. Then indeed we also measure LLM traffic. Well, that exists. That also converts already. Um,
 
-ja, en nu is het, uh, kijk, er zijn tools om te kijken van: hé, hoe zichtbaar ben je dan in de, in de LLM's. Maar dat heeft ook, ja, dat heeft ook nog zijn beperkingen, uh, du- 
+yes, and now — look, there are tools to see: hey, how visible are you in the LLMs. But that also still has its limitations, so —
 
-Dus daar zitten we nog vol op in, uh, om daar dan ook goed zicht op te krijgen. Hoe werkt dat dan? Uhm, ja, wij hebben, 
+So we're still fully engaged in getting good insight on that. How does that work then? Um, yes, we have,
 
-het lijkt Print.com, uhm, een aardige positionering. Ik hoor ook terug van mensen van: oké, hé, ik was eens even aan het zoeken in, uh, ChatGPT, Claude, whatever. Hé, daar komen jullie mooi naar boven toe. Nou, weet, oké, dat zijn, is goede geluiden. Uhm, en vervolgens, uhm, 
+it seems Print.com has a decent positioning. I also hear back from people: okay, hey, I was searching in ChatGPT, Claude, whatever. Hey, you guys come up nicely. Well, okay, those are good signs. Um, and then
 
-moeten we gaan, ja, moeten we gaan zien dat dat nog meer verkeer gaat opleveren en nog meer business gaat opleveren. 
+we need to see that that's going to generate even more traffic and even more business.
 
 > *[Me]*
-> *Ja. Ja, ja, leuk! Ik heb hem even nog gehighlight, want misschien wil ik hier later nog op door. Uhm, maar even over de structuur. Uhm, *
+> *Yes. Yes, yes, nice! I've highlighted that for now, because maybe I want to come back to this later. Um, but briefly about the structure. Um,*
 
 > *[Me]*
-> *Agentic AI, Gen AI. Ik vroeg volgens mij Gen AI. We gingen gelijk Agentic AI in. Dat is helemaal prima. Maar om even voor mijn onderzoek de scope mee te geven. Uhm, Generative AI zien we natuurlijk als alles wat met LLM's te maken heeft en agents of niet eens agencies mee praten, maar waar je vragen kan stellen en een antwoord terug kan krijgen. Daarbinnen heb je de categorie Agentic AI en daar zijn we eigenlijk vrij snel ingedoken. *
+> *Agentic AI, Gen AI. I asked about Gen AI I think. We went straight into Agentic AI. That's completely fine. But just to give the scope for my research. Um, we naturally see Generative AI as everything that has to do with LLMs, whether or not you talk with agents, but where you can ask questions and get an answer back. Within that you have the category Agentic AI and we've actually dived into that fairly quickly.*
 
 > *[Me]*
-> *Uhm, wat in de literatuur nog niet heel erg goed gedefinieerd is. Maar ik. Oh, ben ik weg? *
+> *Um, which hasn't been very well defined in the literature yet. But I. Oh, am I gone?*
 
 [Them]
-Even hangen. 
+Just a moment.
 
-Ja, nu ben je er weer. 
+Yes, you're back.
 
 > *[Me]*
-> *Super. Uhm, wat ik zei. *
+> *Great. Um, what I was saying.*
 
 [Them]
-Je zei binnen, binnen de. 
+You said within, within the.
 
 > *[Me]*
-> *Generative AI heb je Agentic AI en dat is eigenlijk Generative AI met een aantal extra competenties. Uhm, en omdat het in de literatuur nog niet heel duidelijk gescopet is, heb ik daar gewoon iets voor geprikt. En dat is enerzijds het vermogen om te plannen. Dus je kan er een bepaald doel mee geven en het bedenkt zelf welke stapjes het nodig heeft om daar te komen. En anderzijds het vermogen om ook echt dingen uit te voeren. Waar in het begin echt die AI een vraag en antwoord machine was, is het ook steeds meer dat hij zelf kan denken van: hé, ik heb daar data nodig en ik wil dat binnen trekken. Of ik, *
+> *Within Generative AI you have Agentic AI and that's essentially Generative AI with a number of extra competencies. Um, and because it hasn't been very clearly scoped in the literature yet, I've just pinned something down for that. And that is on the one hand the ability to plan. So you can give it a certain goal and it figures out itself what steps it needs to get there. And on the other hand the ability to actually execute things. Where at the beginning that AI was really a question and answer machine, it's increasingly also able to think: hey, I need data there and I want to pull that in. Or I,*
 
 > *[Me]*
-> *ja, allemaal andere competenties. Ik wil hier in dit systeem iets uitvoeren. Uhm, en omdat het natuurlijk super nieuw is en een heleboel mensen aan het uitzoeken zijn van: hé, wat moeten we daar überhaupt mee doen in ons dagdagelijkse werk? Uhm, vind ik dat heel leuk om op, om op te focussen. Dus ik focus me echt op dat tweede stukje. Op Agentic AI. Uhm, en vooral ook wat kunnen jullie nou als marketingorganisatie doen om dat in te zetten om dus waarde te creëren? *
+> *yes, all kinds of other competencies. I want to execute something here in this system. Um, and because it's of course super new and a lot of people are figuring out: hey, what should we even do with this in our day-to-day work? Um, I find it very interesting to focus on that. So I really focus on that second piece. On Agentic AI. Um, and particularly what can you as a marketing organization do to apply that and create value?*
 
 > *[Me]*
-> *Dus daar wil ik het vandaag met jou over hebben. *
+> *So that's what I want to discuss with you today.*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Uhm, daarmee zet ik ook even dat consumentenperspectief niet helemaal uit, maar wel even op een, op een achterbrandertje. Want ik vind het veel belangrijker wat jij doet dan wat de consument doet om *
+> *Um, with that I'll also put the consumer perspective not entirely aside, but just on the back burner for now. Because I find it much more important what you do than what the consumer does to*
 
 > *[Me]*
-> *binnen te krijgen. Maar dat kan natuurlijk wel weer met elkaar samenhangen. Uhm, *
+> *get in. But that can of course still be connected. Um,*
 
 > *[Me]*
-> *dus daar wil ik lekker met jou induiken en dan wil ik gewoon lekker starten met, met use cases. Want wat doen jullie al met Agentic AI in jouw organisatie? *
+> *so I want to dive into that with you and I just want to start with use cases. What are you already doing with Agentic AI in your organization?*
 
 [Them]
-Nou, wat we nu bijvoorbeeld gemaakt hebben 
+Well, what we've built for example now
 
-is. Kijk, Claude kun je connectors koppelen. 
+is — look, you can couple connectors to Claude.
 
-Uhm, en we hebben voor een van onze webshops hebben wij een connector gemaakt, uhm, om die je bijvoorbeeld aan een Claude kunt koppelen en dat je dus een Claude zegt oké, haal al mijn orders op bij reclameland. 
+Um, and we've built a connector for one of our webshops, um, that you can for example couple to Claude and tell Claude: okay, fetch all my orders from Reclameland.
 
-En die order wil ik 
+And I want to
 
-opnieuw bestellen. En dan gaat deze via die connector gaat hij die order ook echt opnieuw, gooi je hem in mijn winkelmandje mandje. Uhm, ik voeg zelf nog een drukbestand toe en ik ga, ik wil uiteindelijk zelf betalen zeg maar. Nou en dan zie je gewoon dat die connectie is er, dus dat gebeurt dan ook echt. 
+reorder that order. And then via that connector it actually reorders that order — you throw it into my shopping cart. Um, I add a print file myself and I ultimately want to pay myself. Well, and then you see the connection is there, so that actually happens.
 
-De webshop en dan zie je dus ook dat, uhm, dat hij dat in het mandje gooit. Dat is eigenlijk een, 
+The webshop — and you also see that it puts that in the cart. That's actually a,
 
-uhm, 
+um,
 
-ik zie dat als de, de toekomst, zeg maar als. Het is een nieuw kanaal, dat moeten we gaan faciliteren. En dan vervolgens is de vraag van oké, hoe ga je dat dan vermarkten en ga je dat bij je klant krijgen? Uhm, maar dat is één. Uhm, 
+I see that as the future, so to speak. It's a new channel, we need to facilitate that. And then the question is: okay, how are you going to market that and get it to your customer? Um, but that's one. Um,
 
-wat ik doe veel, uhm, 
+what I do a lot, um,
 
-data automation aan de achterkant op dit moment. Allerlei data sources bij elkaar, marketing data sources bij elkaar brengen 
+is data automation at the backend right now. Bringing together all kinds of data sources, marketing data sources,
 
-met onze eigen klantgedrag. Daar inzichten uit halen en dat terug pushen naar HubSpot en vervolgens automations op bouwen bijvoorbeeld. 
+with our own customer behavior. Extracting insights from that and pushing it back to HubSpot and then building automations on top of that for example.
 
 > *[Me]*
-> *Ja, en ik, ik stap maar gelijk weer even terug naar *
+> *Yes, and I'll just step back to*
 
 > *[Me]*
-> *use case één, want ik vind hem wel super relevant. *
-
-[Them]
-Ja. 
+> *use case one for a moment, because I find it super relevant.*
 
 > *[Me]*
-> *Uhm, *
+> *Um,*
 
 > *[Me]*
-> *misschien even starten. Hoe ben je erop gekomen om zelf te denken van: hé, het is voor ons tijd om een, om een cloud connector of MCP of zo *
+> *maybe start with: how did you come to think — hey, it's time for us to put a cloud connector or MCP or something*
 
 > *[Me]*
-> *in de markt te zetten voor onze consumenten. *
+> *on the market for our consumers.*
 
 [Them]
-Nou en nu is de vraag van hoe ga je dat in de markt zetten? Hoe kom je er überhaupt tussen en hoe krijg je dat? Maar het is wel werken met, 
+Well, and now the question is how do you bring that to market? How do you even get in there and how do you achieve that? But it is about working with
 
-met AI. En daar, ik zit ook elke week in een clubje een uurtje, drie kwartiertje te sparren met mensen van over AI van hoe zetten jullie dat in, wat doen jullie ermee? Ja, dus eigenlijk daar over nadenken en met name ook nadenken van toch oké, wat gaat dit, kom ik toch weer op die op die klant. Wat gaat dit met het klant en klantgedrag doen en wat betekent dat voor onze business? 
+AI. And there, I'm also in a small group every week for an hour, three quarters, sparring with people about AI — how do you apply it, what do you do with it? Yes, so actually thinking about that and in particular also thinking: okay, what will this do — and I keep coming back to that customer. What will this do to the customer and customer behavior and what does that mean for our business?
 
-Ik, ik denk dat mensen dit heel veel meer gaan gebruiken om 
+I think people are going to use this much more to
 
-tot keuzes te komen en aankopen tot op zekere hoogte te doen. Dus mensen gaan, misschien nu nog niet, maar straks gaan ze hun creditcardgegevens gewoon geven aan, 
+come to decisions and make purchases to some extent. So people will — maybe not yet, but later they'll just give their credit card details to
 
-aan een LLM en die gaat 
+an LLM and it's going to
 
-dingen voor ze kopen op verzoek. Ofwel misschien wel gescheduled zeg maar. 
+buy things for them on request. Or maybe even on a schedule.
 
-Als je daar bij wil zijn moet je dat dus wel faciliteren. Dus vanuit die motivatie. Oké, nou laten we eens kijken of dat of we dat kunnen realiseren en of dat dan werkt. 
+If you want to be there you need to facilitate that. So from that motivation: okay, now let's see if we can realize that and if it works.
 
-En dan kunnen we ermee experimenteren. Waarschijnlijk zijn we nog erg vroeg, maar dan kunnen we ermee experimenteren. 
+And then we can experiment with it. Probably we're still very early, but then we can experiment with it.
 
 > *[Me]*
-> *Ja, ja, ik denk dat je vroeg bent *
+> *Yes, yes, I think you're early*
 
 > *[Me]*
-> *in de zin dat ik. Ik heb nog niemand van. Ik heb ondertussen vijftien mannen ongeveer gesproken, nog niemand heeft dit gedaan. Dus dit is wel echt leuk. Uhm, *
+> *in the sense that I. I haven't had anyone yet. I've spoken to about fifteen people by now, nobody has done this yet. So this is really interesting. Um,*
 
 > *[Me]*
-> *en heb je, heb je al eerste resultaten, mensen die het gebruiken? Waar zitten jullie in deze journey?*
+> *and do you already have first results, people who are using it? Where are you in this journey?*
 
 [Them]
-Nou ja, je ziet dat. Maar goed, wij. Het is heel specifiek dat we klanten van ons vragen of mensen die we kennen van oké, ga het eens gebruiken en vertel ons wat doe je er dan mee? Dus het zit echt in die experimentele fase. 
+Well yes, you see that. But okay, we — it's very specifically that we ask customers of ours, or people we know: okay, go ahead and use it and tell us what you do with it? So it's really in that experimental phase.
 
-Ehm. 
+Um.
 
-De drempel voelt eerst, maar dit is 
+The threshold initially feels — but this is
 
-een observatie. De drempel voelt eerst eigenlijk best wel hoog of zo van jeetje, ga je dit dan door een LLM laten doen? Maar als je het ziet denk je ja. 
+an observation. The threshold initially feels actually quite high, like gosh, are you going to let an LLM do this? But when you see it you think yes.
 
 > *[Me]*
-> *Why not? *
+> *Why not?*
 
 [Them]
-Makkelijk. Why not? 
+Easy. Why not?
 
 > *[Me]*
-> *Ja leuk zeg. *
+> *Yes, how nice.*
 
 [Them]
-Ja, ik denk alleen waar wil je als mens human in the loop je governance vanuit bedrijf en zo zeg maar. Ja, daar. Oké, dat zijn best wel belangrijke onderwerpen of dat worden belangrijke onderwerpen. Ehm. En als ik kijk hoe wij 
+Yes, I think only where do you — as a human — want to have human in the loop, your governance from a company perspective and so on. Yes, there. Okay, those are quite important topics or they're becoming important topics. Um. And when I look at how we
 
-intern nou allerlei modellen, maar ik zie dat we meer en meer op Claude zitten 
+internally now use all sorts of models, but I see that we're more and more on Claude
 
-en dat we ook hele 
+and that we're also
 
-onze hele data-infrastructuur eigenlijk herzien. Je moet maar zeggen als dit te ver van Adgentia. 
+actually reviewing our entire data infrastructure. Just say if this goes too far off topic.
 
 > *[Me]*
-> *Nee, lekker doen. *
+> *No, please continue.*
 
 [Them]
-Maar onze hele data-infrastructuur gewoon herzien. Dan zeg je van ja, je hebt een, ehm, 
+But just reviewing our entire data infrastructure. Then you say: yes, you have a,
 
-snowflake en een tableau. 
+Snowflake and a Tableau.
 
-Je wilt eigenlijk daarmee. Je wilt altijd naar selfservice toe. Ja joh, maar met Claude prik die data sources gewoon aan Claude. En dan heb je natuurlijk nog wel wat governance te doen en maar dan kan iedereen gewoon echt selfservice daarmee aan de slag. Want het is gewoon een vraag en antwoord en je krijgt inzicht. Je kunt supersimpel je eigen views en je dashboards bouwen. Daar zie ik heel hard, ehm, die verandering. 
+You want with that. You always want to go toward self-service. Yes, but with Claude you just connect those data sources directly to Claude. And then you naturally still have some governance to do, but then everyone can really do self-service with that. Because it's just a question and answer and you get insight. You can super simply build your own views and dashboards. I see that change,
 
-En dat betekent nou wel interessant. Dus je hele 
+happening very strongly.
 
-tools waar je normaal redelijk zware lock-in mee had, kun je eigenlijk, kun je eigenlijk uitfaseren. Ehm, en je ziet de rollen van de, van de mensen die dit eerder deden in je organisatie zie je gewoon echt supersnel veranderen. 
+And that's now interesting. So your entire
 
-En zelf, ja, ik vind het fantastisch, want eerder. Ik ben er redelijk handig mee, maar er waren toch altijd momenten dat ik toch even naar die datagasten toe moest. Ook dat ik dan dat het me dan te veel werk was of zo. Zei van ja, willen jullie me hier even mee helpen? Ja, nu niet. Ze hebben het één keer geven ze mij toegang tot, tot die inzichten en ik ga aan de slag. Of ja, vorige week zelf een experimentje met 
+tools that you normally had quite heavy lock-in with, you can actually phase out. Um, and you see the roles of the people who did this before in your organization changing super quickly.
 
-Supermetrics gedaan dat nog niet alle connectors van Google Ads en Google Search Console nog niet in Claude zitten, maar Supermetrics wel. Dus met Supermetrics al die sources eraan gekoppeld. Ja, nu heb ik gewoon alle online marketing sources heb ik gewoon gekoppeld aan Claude en kan ik gewoon analyses en insights op draaien. 
+And personally, yes, I find it fantastic, because earlier — I'm reasonably good at it, but there were always moments that I still had to go to those data guys. Because it was too much work for me. I would say: could you help me with this? Yes, not anymore. Once they give me access to those insights, I get to work. Or yes, last week I did a little experiment with
 
+Supermetrics — because not all connectors from Google Ads and Google Search Console are yet in Claude, but Supermetrics is. So with Supermetrics, connected all those sources. Yes, now I just have all online marketing sources connected to Claude and I can just run analyses and insights.
+
 > *[Me]*
-> *Ja. Ja, supervet! *
+> *Yes. Yes, super cool!*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Zo, ik heb echt superveel, dus ik ga even nadenken waar ik wil starten. [lacht] Ehm, en even om je te bevestigen alles wat je genoemd hebt is echt hyper relevant, want ik vind het leuk om te weten wat je doet, wat daarvan de waarde is. Ik denk dat we daar zo eerst even in gaan duiken. Ehm, maar ook hoe kan het nou dat jullie in staat zijn om dit te doen of juist niet? *
+> *Wow, I have really a lot here, so let me think about where I want to start. [laughs] Um, and just to confirm — everything you mentioned is really hyper relevant, because I find it interesting to know what you do and what the value of that is. I think we'll dive into that first. Um, but also how is it that you are able to do this, or precisely not?*
 
 [Them]
-Ja. Misschien nog twee voorbeelden die we ook noemt. Dat is nog een beetje anders. Ehm, wij hebben een enorm productassortiment, maar er zijn altijd nog 
+Yes. Maybe two more examples to mention. That's a bit different. Um, we have an enormous product range, but there are always still
 
-mensen die producten zoeken die we net niet hebben. 
+people looking for products that we just don't have.
 
-Dus kun je bij ons ook nog quotes aanvragen. Nou, dat is natuurlijk een redelijk manueel proces. 
+So you can also request quotes from us. Well, that's of course a fairly manual process.
 
-Ehm, wij positioneren onszelf als een platform. Wat wil zeggen aan de ene kant produceren wij heel veel zelf, dus we hebben ook eigen productielocatie. Maar we hebben ook heel veel partners die voor ons produceren. Nu hebben we een, zijn we een quote platform aan het bouwen. Dus eerst was dat manueel werk en nu hebben we, zijn we een quote quote platform aan het maken. Dus de klant aan de voorkant is het een soort van kleine chat. Dus van oké, wat heb je dan nodig? Nou en als het gewoon ons assortiment is, dan hop, dan verwijs je de klant gewoon naar het assortiment. Maar is het niet, het is inderdaad niet ons assortiment, dus is het te special en moet het echt een quote worden.
+Um, we position ourselves as a platform. Which means on the one hand we produce a lot ourselves, so we also have our own production facility. But we also have many partners who produce for us. Now we have a, we're building a quote platform. So first that was manual work and now we're making a quote platform. So for the customer at the front end it's a kind of small chat. So: okay, what do you need then? And if it's just our assortment, then hop, you direct the customer to the assortment. But if it's not — it's indeed not our assortment, so it's too special and needs to actually become a quote.
 
-Dan gaat het het platform in en dan gaat dat platform, ehm, zelf. Nou, er zitten partners in het platform, die gaat zelf dat uitzetten bij partners van ons. Het doel is dat we er zelf ook echt niet meer tussen zitten met quotes aan de achterkant maken. Dus die en die partner kan het oppakken, die kan een quote uitbrengen en gaan we dat proces dus zijn we aan het automatiseren. Wat het aan de ene kant makkelijker maakt voor de klant en aan de andere kant
+Then it goes into the platform and then that platform, um, itself — well, there are partners in the platform, it will itself put that out to our partners. The goal is that we also genuinely no longer sit in between making quotes at the backend. So that and that partner can pick it up, they can put out a quote, and we're thus automating that process. Which on the one hand makes it easier for the customer and on the other hand
 
-geven wij toegang aan onze partners, dus die voor ons produceren. Zij kunnen meedoen op al die quotes, dus daar doen wij geen schieten meer in. Maar ze mogen gewoon meedoen op al die quotes. Dus dat zijn we aan het doen. Dat hebben we 
+we give access to our partners — those who produce for us. They can participate in all those quotes, so we no longer have to get involved. But they can just participate in all those quotes. So that's what we're doing. We have
 
-draaien voor een aantal klanten en dat gaan we verder opschalen. 
+that running for a number of customers and we're going to scale it further.
 
-En wat we nou we hebben, we hebben Slack intern. 
+And what we now have — we have Slack internally.
 
-Die gebruiken we al heel lang en heel veel jaren. Daar wordt, is heel veel heen en weer, ook over kennis en producten en alles. Dat is een enorme kennisbank, dus die gaan we ontsluiten naar customer service. In eerste instantie als een soort van vraagbaak. Dus als wij vragen krijgen van klanten. En uiteindelijk kan dat natuurlijk gewoon ook 
+We've been using that for a very long time, many years. There's a lot of back and forth there, also about knowledge, products, and everything. That's an enormous knowledge base, so we're going to unlock that for customer service. Initially as a kind of reference resource. So when we receive questions from customers. And ultimately that can of course also
 
-faciliteren extern naar de klanten toe. En als laatste 
+facilitate externally toward customers. And lastly,
 
-we hebben een stukje assortiment. Dat zijn stickers. Nou, hartstikke leuk, maar je hebt best wel een beetje verschillende soorten stickers. En wanneer moet je nou wat gebruiken? En hebben we ook onze eigen interne ken-kennis. Dus eigenlijk vanuit die kennisbank hebben we een, een bot, een chatbot gemaakt dat onze klant daarmee zegt van oké, nou, ik heb stickers nodig, ik heb er 500 nodig. Ik wil ze buiten op de ramen plakken en ze moeten zeker een jaar blijven zitten en ze moeten kleur hebben en dan gaat hij, dus gaat hij helpen om tot de juiste keuze te komen. 
+we have a section of the assortment — stickers. Well, really fun, but there are quite a few different types of stickers. And when should you use what? And we also have our own internal know-knowledge. So from that knowledge base we've built a bot, a chatbot, that helps our customer say: okay, well, I need stickers, I need 500. I want to stick them on the outside of windows and they need to stay on for at least a year and they need to have color — and then it goes to help them come to the right choice.
 
 > *[Me]*
-> *Ja.Leuk. Hé, uh, ik wil niet s-, al te lang in de use case blijven hangen, maar Slack intern gebruiken om customer service te verbeteren. *
+> *Yes. Nice. Hey, I don't want to stay too long on the use case, but using Slack internally to improve customer service.*
 
 [Them]
-Ja. 
+Yes.
 
-Maar meer als Slack als kennisbank. 
+But more as Slack as a knowledge base.
 
-Omdat er zoveel, omdat er al die jaren zoveel heen en weer geslackt is. 
+Because there's so much — because all those years so much has been Slacked back and forth.
 
-[lacht] Uh, waarin we ook echt productkanalen hebben. Daar zit er dus heel veel kennis in. 
+[laughs] And we also have real product channels. There's a lot of knowledge in there.
 
-Dus gebruiken we het als kennisbank. 
+So we use it as a knowledge base.
 
 > *[Me]*
-> *Ja. En hoe ga je daarin met een stukjeee, uh, privacy, gevoelige content, dat soort dingen om? *
+> *Yes. And how do you handle a little bit of privacy, sensitive content, those kinds of things in that?*
 
 [Them]
-Uh, de vraag is of daar heel veel privacygevoelige content in zit. 
+The question is whether there's a lot of privacy-sensitive content in there.
 
 > *[Me]*
-> *Want, uh, hebben jullie dit afgekaderd naar bepaalde kanalen of zo waarvan je zegt van: hè, dit is hyper relevant om mee te nemen? *
+> *Because, um, have you limited it to certain channels where you say: hey, this is hyper relevant to include?*
 
 [Them]
-Ja, dus we hebben echt specifieke productkanalen en waar, ik bedoel, daar gaan geen klantgegevens over en weer. Het zijn vragen, uh, oké, o-of uitleg van: hé, er is een nieuw product live. uhm, dit en dit is het. 
+Yes, so we really have specific product channels and — I mean — no customer data goes back and forth there. They are questions, or explanations like: hey, there's a new product live.
 
-En dit zijn, uh, de features ervan. Dus we gebruiken het echt als kennisbank. 
+And these are the features of it. So we really use it as a knowledge base.
 
 > *[Me]*
-> *Ja. Ja. Leuk. Oké, nou ja, ik hoef volgens mij, uh, jou ook niet de perspective value uit te leggen, maar het gaat natuurlijk over, ik denk als commerciële waarde efficiëntie, maar ook *
+> *Yes. Yes. Nice. Okay, well I think I don't need to explain the concept of value to you, but it's of course about commercial value, efficiency, but also*
 
 > *[Me]*
-> *wat is leuk voor jullie en wat vindt de klant fijn, uh, et cetera. Uh, maar ik wil dat perspective op een aantal van de use cases van jou, uh, toepassen. Misschien startend met de connectors, uh, die we nu gemaakt hebben. *
+> *what is nice for you and what does the customer like, et cetera. And I want to apply that perspective to a number of your use cases. Maybe starting with the connectors we've just been discussing.*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Uhm, kan je daar eens wat over vertellen? *
+> *Um, can you tell me something about that?*
 
 [Them]
-Wat de waarde daar nu van is? 
+What the value of that is now?
 
 > *[Me]*
-> *Hè? *
+> *Right?*
 
 [Them]
-[lacht] Wat de waarde daar nu van is? Ja, de waarde daar, uh, nu is eigenlijk het experimenteren en voor op die golf zitten. 
-
-> *[Me]*
-> *M-hm. *
+[laughs] What the value of that is now? Yes, the value there now is actually the experimenting and staying ahead of that wave.
 
-[Them]
-En leren. Dat is de waarde nu. 
+And learning. That is the value now.
 
-Uhm, 
+Um,
 
-want ja, dit is natuurlijk niet, uh, dit, het is niet dat onze business daar nu van gaat boomen. 
+because yes, this is of course not, it's not that our business is going to boom from this right now.
 
-Uhm, dus het is met name het leren en het experimenteren. En, uhm, nou, een beetje in je, in je perceptie naar je klanten toe ben je wel ook een innovator. Nou, dat is nu de waarde, maar het is meer, ik denk dat, uh, het kennisopbouw, uh, daar zit de echte waarde naar de toekomst toe. 
+Um, so it's mainly the learning and the experimenting. And, um, well, a little bit in your perception toward your customers you're also an innovator. That's the value now, but it's more — I think that building knowledge, that's where the real value lies toward the future.
 
 > *[Me]*
-> *Ja, duidelijk. En, uh, we hebben het ook gehad over een stukje, uhm, ja, die, die moeten we misschien ook nog wel ietsje dieper, uh, erin duiken. Want je hebt het gehad over het inbrengen van je, uh, databronnen in cloud. We hebben het gehad over Supermetrics. uhm, dus wat, wat meer op, klonk voor mij als analytics niveau. Maar je noemde ook heel kort even dat je heel veel bezig was met data automation. Dus ik zit echt te denken van: oké, wat doen we nu in de customer journey? Zit er marketing automation platformen en zit, uh, passen jullie daar ook veel AI in toe? *
+> *Yes, clear. And, um, we've also talked about something, yes, that maybe we should dive into a little deeper too. Because you mentioned bringing your data sources into the cloud. We talked about Supermetrics. Um, so what — it sounded to me more at an analytics level. But you also briefly mentioned that you were very busy with data automation. So I'm thinking: okay, what are we doing now in the customer journey? Are there marketing automation platforms, and are you also applying a lot of AI to those?*
 
 [Them]
-Ja dus. Maar het begint wel met die, 
+Yes indeed. But it does start with those
 
-uh, met inzichten natuurlijk. En die inzichten kun je vervolgens gebruiken, uh, om je marketing automation naar een ander niveau te tillen. 
+insights of course. And those insights you can then use to elevate your marketing automation to another level.
 
-Uhm. 
+Um.
 
-Een beetje tweeledig. 
+A bit twofold.
 
-Door het naar de LLM te brengen. Kijk zelf, uh, weet je veel, weet je waar je moet kijken, vallen je dingen op. Uhm, maar als je je data en je analyse, uh, vra-, zeg maar doet met een LLM, ja, dan komen er toch best wel, ja, die pakt toch af, af en toe andere afslagen dat je denkt: oh, hé. Uhm, die haalt er dingen uit die je niet meteen zelf eruit zou halen. En omdat ze zoveel massa natuurlijk gewoon zo snel kunnen, uh, doorgronden, ja, krijg je gewoon meer inzichten. Dus dat helpt natuurlijk om dingen naar boven te halen en specifieker te zijn. 
+By bringing it to the LLM. Look, you know a lot yourself, you know where to look, things stand out to you. Um, but when you do your data and your analysis with an LLM, yes, it takes different turns every now and then that you think: oh, hey. Um, it pulls out things that you wouldn't immediately pull out yourself. And because they can go through so much mass so quickly, you just get more insights. So that helps to surface things and be more specific.
 
-Uh, en aan de andere kant kun je natuurlijk in de massa kun je eigenlijk, uh, klantgedrag, kun je nog veel specifieker, uhm, daar conclusies op wegzetten en ook acties op, uh, op genereren. 
+And on the other hand you can, in the mass, draw much more specific conclusions from customer behavior and also generate actions from that.
 
-Nou, dat is wel de vervolgstap. Dus we gaan dat, 
+Well, that is the next step. So we're going to,
 
-uh, HupSpot kun je er ook aan koppelen. En dat dan weer terug en dan verder personaliseren. Dus verder je marketing en je communicatie, je marketing automation doorpersonaliseren- 
+HubSpot you can also connect to it. And then push back and personalize further. So further personalizing your marketing and your communication, your marketing automation —
 
-> *[Me]*
-> *M-hm *
-
-[Them]
-...uh, op basis van het gedrag van de klant. Ja, dat is wel de use case waar we nu aan werken. 
+based on the behavior of the customer. Yes, that's the use case we're working on now.
 
 > *[Me]*
-> *Ja. En, uhm, als je dat even concreet moet brengen naar de waarde die dat voor jullie brengt. *
+> *Yes. And, um, if you have to concretize what value that brings you.*
 
 [Them]
-Ik geloof erin dat, 
+I believe that
 
-uh, de relevantie voor de klant verhoogt. En uiteindelijk gaan we daar de share of wallet, v-, mee kunnen vergroten. 
+relevance for the customer increases. And ultimately we'll be able to grow the share of wallet with that.
 
 > *[Me]*
-> *M-hm. *
+> *Mm-hm.*
 
 [Them]
-En als we dat niet redden, dan hebben we de efficiëntie verhoogd. 
+And if we don't manage that, then we've at least increased efficiency.
 
 > *[Me]*
-> *Hé, en als we nou, uh, één stapje terug doen, hè, want we hebben het over je, je bent bezig met het proces van inzichten naar automation. En hoe kan je dat helemaal, uh, beter op elkaar aan laten sluiten? *
-
-[Them]
-Ja. 
+> *Hey, and if we take one step back, right, because we've been talking about — you're working on the process from insights to automation. And how can you better align those with each other?*
 
 > *[Me]*
-> *Uhm, *
+> *Um,*
 
 > *[Me]*
-> *wat, wat is hierop jouw visie? In welke onderdelen van het proces wil je ethical AI toepassen? Heb je bepaalde onderdelen waarvan je zegt: dit moet een human in the loop element blijven? Uhm, hoe kijken jullie daarnaar als organisatie? *
+> *what is your vision on this? In which parts of the process do you want to apply ethical AI? Do you have certain parts where you say: this must remain a human in the loop element? Um, how do you look at that as an organization?*
 
 [Them]
-Ja, uhm. 
-
-De, 
+Yes, um.
 
-de mens kan de, 
+The,
 
-uhm, kijk, je hebt toch een stuk marktkennis, domeinkennis- 
+the human can the,
 
-> *[Me]*
-> *M-hm *
+um, look, you do have some market knowledge, domain knowledge —
 
-[Them]
-...en daarmee kun je het, ik denk daarmee kun je de juiste opdracht en instructies geven aan de LLM. Dus dat is, uhm, dat is, nou, dat helpt om er betere kwaliteit uit te krijgen. En uiteindelijk moet je, uh, als human in the loop moet je gewoon blijven kijken. Wat geeft hij terug? Wat staat hier? Klopt dit? Uhm, nou jaEr zijn echt wel momenten dat ik er ook naar kijk. Dat ik denk van: nou, dat is wel heel bijzonder. 
+and with that you can, I think you can give the right assignments and instructions to the LLM. So that helps to get better quality out of it. And ultimately you must, as human in the loop, just keep watching. What does it give back? What does it say here? Is this correct? Um, well yes — there are definitely moments when I look at it too. That I think: well, that is quite remarkable.
 
-Ja, en dan ga je daar even op door en dan, en dan inderdaad, dat heeft hij gewoon een afslag genomen wat niet klopt. Dus tot nog toe de vraag is of dat zal steeds beter en beter en beter worden. Maar ja, je zult gewoon, uh, die behoefte zie ik absoluut gewoon nog. Dus één: het is superbelangrijk om gewoon, uh, kennis, domeinkennis, expertise te hebben om het juiste te doen met de LLM, uh, modellen. Uh, en uiteindelijk heb je dat ook nodig om, 
+Yes, and then you dig into that a bit, and then indeed — it just took a wrong turn. So until now the question is whether it will keep getting better and better. But yes, I absolutely still see that need. So one: it's super important to have knowledge, domain knowledge, expertise to do the right thing with the LLM models. And ultimately you also need that to
 
-uh, toch wel te kijken van oké, doet hij dan het juiste, uhm, en, uhm, houdt hij dan met de juiste dingen rekening, et cetera. 
+keep checking: is it doing the right thing, and is it taking the right things into account, et cetera.
 
-Uhm, ja, dus dat zie ik wel. 
+Um, yes, so I do see that.
 
-Dus er, 
+So,
 
-ja, het blijft een samen. Ik geloof dat het een samenwerking blijft en ik zie ook een, 
+yes, it remains a collaboration. I believe it remains a collaboration, and I also see a —
 
-en hier en daar zal het ook een verschuiving zijn van 
+and here and there it will also be a shift in
 
-tools of zo. Dat klinkt dan dat ik het misschien wat, uhm, nivelleer of zo, maar ik zie gewoon, ja, die data engineer. Het is niet dat ie, dat ie straks geen werk meer heeft, maar zijn werk is gewoon, wordt gewoon heel anders. En hij heeft een hele andere toolset. 
+tools or so. That might sound like I'm leveling it down somehow, but I just see, yes — that data engineer. It's not that they'll have no work anymore, but their work just becomes very different. And they have a completely different toolset.
 
 > *[Me]*
-> *Ja. Ja. En is dat bij jullie al gebeurd? Of zit dat eigenlijk nog in z'n kinderschoenen? Of is het te ver van jouw verantwoordelijkheid bij Zicht Online? *
+> *Yes. Yes. And has that already happened at your organization? Or is that still in its infancy? Or is it too far from your responsibility at Print.com?*
 
 [Them]
-Ik vind wel dat het heel snel gaat en dan echt op sommige vlakken. Want als ik kijk naar inderdaad die data engineer en denk van: nou, 
-
-uh, en dat zegt ie, ze, zegt ze ook tegen mezelf. Eentje zei het me vorige week nog. Ja, 
+I do think it's going very fast, and really in some areas. Because when I look at that data engineer and think: well,
 
-uh, 
+and that's what they say, they say it to me too. One said it to me just last week. Yes,
 
-de rol zeg maar. En hoe ik, uhm, mensen help en hoe ik faciliteer nu in de organisatie is wezenlijk anders als dat hij een half jaar geleden was. 
+the role so to speak. And how I help people and how I facilitate now in the organization is fundamentally different from what it was half a year ago.
 
-Uh, en dan zijn wij er nog lang niet. We zijn echt nog stappen aan het maken, 
+And then we're still far from done. We're really still making steps,
 
-uh, maar ook aan de CRM kant, uhm, zie en hoor ik hetzelfde. 
+but also on the CRM side, I see and hear the same thing.
 
-Uh, dus dat is, nou ja, en even los van, uhm, performance marketing, uh, personen, uhm, meer marketeers zien natuurlijk copy en concepten en alles en zo. Ja, 
+So — and apart from performance marketing people, more marketeers of course see copy and concepts and everything. Yes,
 
-daar is het gewoon een enorme efficiency tool voor. Uhm, 
+it's just an enormous efficiency tool for that. Um,
 
-maar dan zit je niet altijd meteen aan de agentic kant. Alhoewel, oké, daar zou je, 
+but then you're not always immediately on the agentic side. Although, okay, there you would,
 
-uhm, naar de paid performance kant natuurlijk wel. Daar gaat natuurlijk zo, daar is al zoveel geautomatiseerd met, uh, met LLM's. Uhm, ja, en dat is, 
+on the paid performance side of course yes. So much has already been automated with LLMs there. Um, yes, and
 
-uhm, 
+in that, yes still, you can achieve better results with that. And one person, one FTE can just do a lot more. Done.
 
-daarin, ja toch, je kunt toch ook betere resultaten, uh, mee behalen. En één persoon, één FTE kan gewoon heel veel meer doen. Klaar. 
-
 > *[Me]*
-> *Uhm, *
+> *Um,*
 
 > *[Me]*
-> *ja, ik merk, zal je ook wel gehad hebben tijdens het onderzoek. Je wil altijd, uh, ga meepraten. Dat mag ik natuurlijk nu doen. Dus dat ik ook lekker aan het eind. [lacht] *
+> *yes, I notice — you'll have experienced this too during the research. You always want to join in the conversation. I'm allowed to do that now, of course. So I'll also do that nicely at the end. [laughs]*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *Uhm, en waar ik ook nog even op dubbelklik. Want je had het erover van nee, we zijn nu de hele data infrastructuur aan het, uh, herzien. Klonk natuurlijk best wel alsof dat voor, voor jullie verbonden is aan het, uh, agentic AI-vraag. Tot op het niveau dat jij zegt van: ja, omdat wij AI nu gebruiken, zijn we eigenlijk flexibeler in de tools die we selecteren en kunnen we makkelijker ook ze, ze switchen. Uhm, *
+> *Um, and something I also want to double-click on. Because you mentioned we're now reviewing our entire data infrastructure. It sounded quite as if that for you is connected to the agentic AI question. To the level that you say: yes, because we're now using AI, we're actually more flexible in the tools we select and can also switch them more easily. Um,*
 
 > *[Me]*
-> *misschien even voordat we daar induiken een klein stapje terug. Hoe, hoe kijk jij daar naar jouw data-infrastructuur als enabler? Of misschien wel een bottleneck voor je agentic AI-initiatieven? *
+> *maybe just before we dive into that, one small step back. How do you view your data infrastructure — as an enabler? Or perhaps even a bottleneck for your agentic AI initiatives?*
 
 [Them]
-Uhm, 
-
-nou nu gaat het, nu is het echt een enabler aan het worden. Gedeel, ja, nu is het echt een enabler aan het worden. Omdat we dat, ja, die, die switch maken we best wel, uh, snel nu. 
-
-> *[Me]*
-> *M-hm. *
+Um,
 
-[Them]
-Zijn we enorm mee aan het experimenteren van oké, hoe kunnen we dat, uhm, 
+well now it's, now it's really becoming an enabler. Partly — yes, now it's really becoming an enabler. Because we're making that switch quite quickly now.
 
-hoe kunnen we AI 
+We're enormously experimenting with okay, how can we
 
-voeden met de data? 
+feed AI
 
-En daarmee kunnen we natuurlijk veel dingen automatiseren. Maar is het ook vervolgens een enabler om het weer- 
+with the data?
 
-...te gebruiken naar je, uh, hè, naar een HubSpot toe, naar andere tools toe. Dus het, uh, staat echt op het punt van meer en meer een enabler te worden. Uhm, het heeft mij ook, het helpt mij ook de bottleneck, uh, aan de andere kant een data bottleneck op te lossen, want we hebben een acquisitie gedaan vorig jaar. En daar, ja, dat hele data landschap is gewoon veel minder gestructureerd en goed opgezet. 
+And with that we can automate many things. But it's also subsequently an enabler to use it again —
 
-> *[Me]*
-> *M-hm. *
+toward a HubSpot, toward other tools. So it's really on the verge of becoming more and more an enabler. Um, it also helps me to resolve the bottleneck on the other side — a data bottleneck — because we did an acquisition last year. And there, yes, that entire data landscape is just much less structured and well set up.
 
-[Them]
-Ik bleef er elke keer maar een beetje tegenaan 
+I kept running into it
 
-lopen. En nu om, nee, oké, ik ga het gewoon zelf koppelen, uh, aan Claude, dus ik heb heel veel mensen en dingen niet meer nodig. Uh, dus- 
+every time. And now — no, okay, I'm just going to connect it myself to Claude, so I no longer need many people and things. So —
 
-...neemt het de hele bottleneck weg zelfs. En vervolgens wordt het dan, uh, een enabler om betere business te doen. 
+it actually removes the entire bottleneck. And then subsequently it becomes an enabler to do better business.
 
 > *[Me]*
-> *Uh, leuk! Hebben jullie nu, uh, een soort van, dat, ik noem het vaak een marketing ecosysteem, maar dat die, die omgeving van alle verschillende marketingtools. Zijn die ook volledig, uh, met elkaar geïntegreerd via dan bijvoorbeeld een datawarehouse en ben je AI daar weer in aan het plakken? Of zeg je meer van oké, ik zet bijna AI in het midden en daardoor kunnen dingen wat meer zweven. En, uh, moet ik het op die manier bij elkaar brengen. *
+> *Uh, nice! Do you have now a kind of — I often call it a marketing ecosystem — that environment of all the different marketing tools. Are those also fully integrated with each other via for example a data warehouse, and are you sticking AI in there? Or do you say more like: okay, I'm putting AI almost in the middle and that allows things to float a bit more. And do I need to bring it together in that way.*
 
 [Them]
-Ja, eigenlijk, uhm, 
+Yes, actually, um,
 
-ja, het is maar net hoe je het definieert. Ik denk meer in het midden eigenlijk. Uhm, ik moet even de verschillende labels lostrekken, maar, uh, voor print hebben we, 
+yes, it just depends on how you define it. I think more in the middle actually. Um, I need to separate the different labels, but for Print we have
 
-uh, Snowflake tableau zeg maar, maar dat halen we eruit, dus we ko-, gaan het direct koppelen aan, uh, aan Claude. HubSpot ook. Dus dan zit het er wat mij betreft middenin. Dus eigenlijk alles, uhm, koppelen we daaraan. Maar vervolgens kun je ook de andere kant er weer mee uit. 
+Snowflake, Tableau, let's say — but we're taking that out, so we're going to directly connect it to Claude. HubSpot too. So then in my view it sits in the middle. So actually we connect everything to that. But then you can also output to the other side with it.
 
-Uhm, dus daar zit ie in het midden. 
+Um, so that's where it sits in the middle.
 
 > *[Me]*
-> *Hoe daarbij ook dat voor jullie Snowflake meer een systeem is wat wel insights faciliteert, maar niet zozeer het operationele proces ondersteunt?*
+> *How does it work that for you Snowflake is more a system that facilitates insights, but doesn't so much support the operational process?*
 
 [Them]
-Nou ja, nee, niet geautomatiseerd nee. 
+Well no, not automated, no.
 
-Nee. 
+No.
 
 > *[Me]*
-> *Ja, je wou, je wou, je was al iets volgend aan het zeggen. [lacht] Ik weet niet wat, maar ik ben wel benieuwd. *
+> *Yes, you were about to say something next. [laughs] I don't know what, but I'm curious.*
 
 [Them]
-Ja, je zei van: zit het in het midden of is het een- 
+Yes, you said: is it in the middle or is it —
 
 > *[Me]*
-> *Plak het er meer tegenaan als je. *
+> *More stuck onto the side.*
 
 [Them]
-Tegenaan. Ja, 
+Adjacent. Yes,
 
-uh, aan, 
+on,
 
-aan de andere kant, zeg maar andere labels plak ik het er nu nog meer tegenaan omdat ik, uh, ik gebruik het eigenlijk, uh, om, uh, dingen samen te krijgen die ik eerder niet samen kon krijgen omdat ik daar hulp van anderen nodig voor had. En nu heb ik dat niet meer, want, uh, nu helpt, uhm, de LLM helpt me daarmee. 
+on the other side, so to speak — with other labels I'm now more sticking it adjacent because I'm actually using it to get things together that I couldn't get together before because I needed help from others for that. And now I don't anymore, because the LLM helps me with that.
 
 > *[Me]*
-> *leuk! Hé, en even als pure persoonlijke interesse. Zijn jullie nu dan als het ware bezig met een groeistrategie waarbij je zegt van: hé, we kopen gewoon meerdere partijen en, uh, wij hebben nu een goed platform staan. We pluggen ze in, zij draaien beter en, uh, *
+> *Nice! Hey, and just out of pure personal interest. Are you now so to speak working on a growth strategy where you say: hey, we just buy multiple parties and we now have a good platform in place. We plug them in, they run better, and*
 
 > *[Me]*
-> *het is waarde verhogend voor iedereen. *
+> *it's value enhancing for everyone.*
 
 [Them]
-Nee, het is niet, uh, kijk, we hebben heel gewoon platform, uh, strate-- we zijn, we hebben een platform strategie als Print.com. Daar zijn we, uhm, negen jaar geleden mee gestart. Uhm, 
+No, it's not — look, we have a normal platform strate— we are, we have a platform strategy as Print.com. We started that nine years ago. Um,
 
-in de zin van oké, uhm, we hebben aan de ene kant, uh, klanten, uh, en we hebben heel veel producenten, leveranciers. Daar zijn we er zelf ook een van. Zo zien we dat als platform en we willen daarin, hè, de ene kant verkopen we producten en de andere kant faciliteren we, willen we samenwerking faciliteren, uhm, en 
+in the sense that okay, we have on the one hand customers, and we have many producers, suppliers. We ourselves are also one of those. So we see that as a platform and within that, right — on the one hand we sell products and on the other hand we facilitate, we want to facilitate collaboration, and
 
-in de vorm van projecten, maar ook, uh, bestanden, uhm, delen, uhm, documenten, uh, zeg maar een systeem waar je je drukwerk, uh, kunt neerzetten in franchiseorganisaties, et cetera, et cetera. Dus dat is onze platform strategie daar. 
+in the form of projects, but also files, sharing, documents — let's say a system where you can place your print work in franchise organizations, et cetera. So that's our platform strategy there.
 
-Uhm, 
+Um,
 
-dat maakt dat we de softwarepartij hebben gekocht ook, uh, om dat, uh, verder, 
+that means we've also bought the software company, to
 
-uhm, vaart te geven. De andere acquisitie die we gaan doen, waar ook labels bijgekomen zijn, is met name de basis wel gedaan voor de productie facilita-- uh, faciliteit. En daar zijn aan de voorkant ook labels bijgekomen. Dus, 
+give further momentum to that. The other acquisition we've done, where labels have also been added, is mainly — the foundation was laid for the production facili— facility. And labels have been added at the front end there too. So,
 
-uh, aan de voorkant label, zeg maar labels opkopen, uhm, is niet, uhm, is niet de core van onze strategie. De, uhm, 
+acquiring labels at the front end is not the core of our strategy. The
 
-het vertrekpunt voor die aankoop is, heeft ergens anders gelegen. 
+starting point for that purchase lay elsewhere.
 
 > *[Me]*
-> *Ja. Nee, heel duidelijk. *
+> *Yes. No, very clear.*
 
 [Them]
-That's right. 
+That's right.
 
-Ja. 
+Yes.
 
 > *[Me]*
-> *Oké. Uhm, *
+> *Okay. Um,*
 
 > *[Me]*
-> *heel even terugpakkend naar de, de benefits en drawbacks, hè. We hebben het gehad over *
+> *just going back to the benefits and drawbacks, right. We've talked about*
 
 > *[Me]*
-> *dingen meer doen, inzichten meer halen, meer specifiek targeten, *
+> *doing more things, gaining more insights, targeting more specifically,*
 
 > *[Me]*
-> *uh, efficiëntie, share of wallet verhogen, verschuiving van de skillsets en wat de rollen zijn. Heb je nog andere benefits waarvan je zegt van: ja, die moeten we echt wel even noemen. *
+> *efficiency, increasing share of wallet, shift in skillsets and roles. Do you have any other benefits where you say: yes, we really need to mention those.*
 
 [Them]
-Uh, nou, ik weet zo, volgens mij heb ik er best wat genoemd. Nee, schiet me zo nog niet eentje [lacht] te binnen die ik denk van: nou, die moeten we echt even. 
+Uh, well, I think I've mentioned quite a few actually. No, one doesn't immediately come to mind [laughs] that I think: well, we really need to mention that one.
 
 > *[Me]*
-> *Dat is ook mooi, dan zijn we weer lekker compleet. [lacht] *
+> *That's also nice, then we're nicely complete. [laughs]*
 
 [Them]
-Ja. Ja. 
+Yes. Yes.
 
 > *[Me]*
-> *Hé, en, uh, als je de andere kant uit kijkt, hè, waar lopen jullie tegenaan? Wat zijn een beetje voor jou de drawbacks, uh, de mindere elementen van, uh, van AI? *
+> *Hey, and if you look at the other side, right — what do you run into? What are the drawbacks, the less favorable elements of AI?*
 
 [Them]
-Uhm. 
+Um.
 
-Het is gewoon heel erg onontgonnen terrein nog, hè. Dus, uhm, 
+It's just still very uncharted territory, right. So, um,
 
-ja, ik heb gehad dat, uh, 
+yes, I've had it where
 
-mijn cloud op een gegeven moment, uhm, 
+my Claude at some point
 
-ik kon documenten niet meer openen. Nou, dit is echt een super praktisch voorbeeld, maar, 
+I couldn't open documents anymore. Well, this is a really super practical example, but
 
-en er kon ook niets gefixt worden of zo. IT kon me, kon het ook niet helpen, dus we moesten de boel helemaal resetten en daarmee verloor je allerlei werk. 
-
-> *[Me]*
-> *Oh jee. *
+nothing could be fixed either. IT couldn't help me either, so we had to completely reset everything and with that you lose all kinds of work.
 
-[Them]
-Daar was geen, uh, andere oplossing ook voor, zeg maar. Dus het kan al superveel. It enabled superveel, maar het staat ook nog wel gewoon heel erg, uh, in de kinderschoenen. Ja, en, 
+There was no other solution for that either. So it can already do a lot. It enables a lot, but it's also still very much in its early stages. Yes, and,
 
-uhm, 
+um,
 
-dus ja, bepaalde, bepaalde dingen zitten er ook gewoon nog niet in. Bepaalde governance zit er niet in vanuit merk, uh, perspectief en, 
+so yes, certain things are also just not yet in it. Certain governance is not in it from a brand perspective, and
 
-uh, hoe dingen eruit zien en tone of voice. Ja, hoe gaan we dat, uhm, in control houden is niet de juiste, hè, maar hoe ga je dat op die manier faciliteren dat je daar wel, uhm, 
+how things look and tone of voice. Yes, how we're going to — 'keep in control' isn't the right way to put it — but how do you facilitate it in such a way that you still,
 
-met elkaar dat ook aan dat merk blijft bouwen zeg maar. Dus dat we met z'n allen dezelfde tone of voice houden, dat we met de zelf, met z'n allen de juiste uitstraling, dat we, 
+together keep building on that brand. So that we all keep the same tone of voice, that we all have the right appearance —
 
-dat vinden we heel belangrijk. Dus hoe gaan we dat doen? Dus hoe ga je aan de ene kant, uh, die enorme e-enabler voor iedereen ook dusdanig, hoe kun je dat nou dusdanig vormgeven, uhm, dat het ook ons merk, uh, onze merken blijft versterken? Nou, dat is wel, uh, weet ik niet, dat is nog even een uitdaging, uh, zeg maar. 
+we find that very important. So how are we going to do that? How do you on the one hand shape that enormous enabler for everyone in such a way that it also keeps strengthening our brands? Well, that is still a challenge.
 
-Uhm. 
+Um.
 
-Ja, en je, ja, je krijgt, dus iedereen is er dus ook mee aan de slag. En iedereen, uh, dus er worden, ja, uh, komt er altijd, er worden ook allerlei waarheden gecreëerd hier en daar. [lacht] 
+Yes, and everyone is also working with it. And everyone, so all kinds of truths are also being created here and there. [laughs]
 
-Uh, dus dat is, uhm, ja, die, die, dus we moeten wel kijken van oké, daar toch weer 
+So we do need to look at okay, there again
 
-een stukje governance. En hoe ga je er dan mee om? En structuur in krijgen ook. En dat het niet alleen maar, 
+a bit of governance. And how do you deal with that? And getting structure into it too. And that it's not just
 
-uh, meer werk. En het is supergaaf, hè, met name voor de nieuwsgierigen. Je kunt er, je kunt er ook in door blijven gaan. Of het nou, het levert tot nog toe nog niet minder werk op. Laat ik het zo zeggen. Want ja, als je eenmaal daar, uh, mee aan de slag gaat, dan, nou ja, het één volgt naar het ander enEhm, de kunst is denk ik wel om het naar executie te krijgen. 
+more work. And it's super great, right, especially for the curious ones. You can just keep going deeper into it. And it hasn't yet led to less work — let me put it that way. Because yes, once you start working with it, well, one thing leads to another. And the art I think is to get it to execution.
 
-En echt, uh, bruikbaar en toepas, uh, en toepassen. 
+And really make it usable and applied.
 
 > *[Me]*
-> *Ja en, uh, hoe, hoe kijk je daar dan naar? Hè, dat naar, naar executie brengen? *
+> *Yes and, how do you look at that then? Bringing it to execution?*
 
 > *[Me]*
-> *Als in niet, niet zozeer wat is het, maar wat zijn de stappen die je aan het zetten zijn en waar loop je nu tegenaan om dat te doen? *
+> *Not so much what is it, but what are the steps you're taking and what are you running into now to do that?*
 
 [Them]
-Ehm, 
-
-ja, het kunnen hele praktische dingen zijn dat je, 
+Um,
 
-uh, je kunt, uh, natuurlijk mooie dingen maken met, uhm, LLM's, maar dan het werkelijk beschikbaar stellen voor iedereen of zo. Nou, dat is soms eventjes een zoekplaatje van: ja, hoe ga je dat dan doen? Uhm, 
+yes, it can be very practical things — you can of course build great things with LLMs, but then actually making it available for everyone or so — well, that is sometimes a bit of a puzzle: yes, how are you going to do that then? Um,
 
-je kunt, uh, natuurlijk helemaal front-end, uh, eigenlijk kun je helemaal los gaan bijvoorbeeld, maar daarmee heb je nog geen front-end, dus daarmee moet je toch, ja, het moet dan toch nog weer een bruggetje over zeg maar. 
+you can of course go completely standalone, but then you don't have a front-end, so there's still a bridge to cross.
 
-Ja, dus daar zit, uhm, 
+Yes, so there, um,
 
-dus die, ik weet niet, moet je dat processen noemen, maar ja, dat is nog niet, daar zitten nog wel wat hiccups in hier en daar. 
-
-> *[Me]*
-> *Ja, dat klinkt heel erg alsof je *
+so those — I don't know, should you call those processes — but yes, there are still quite some hiccups there here and there.
 
 > *[Me]*
-> *geregeld klem loopt te zitten in de stap van experiment naar productie. *
+> *Yes, that sounds a lot like you keep getting stuck in the step from experiment to production.*
 
 [Them]
-Ja, daar is, dat is wel de uitdaging. Absoluut. 
+Yes, that is indeed the challenge. Absolutely.
 
-Uh, en als je dan, 
+And then,
 
-uhm, en productie. Je wilt aan de ene kant experimenteren en de andere kant kijken. Er is ook een experimentje gedaan met, uhm, genereren van e-mailtjes vanuit, uhm, een BDR zeg maar naar klanten toe. Nou, daar prikt de klant vrij snel doorheen van: nou leuk dat jullie, jullie willen toch persoonlijk zijn en nu ga je me dit, uh, sturen, dus ai, net eventjes te kort door de bocht met, uh, 
+um, and production. You want on the one hand to experiment and on the other to deliver. There was also an experiment done with generating emails from a BDR to customers. Well, the customer sees through that pretty quickly: nice that you still want to be personal and now you're sending me this — so, just a bit too much of a shortcut with
 
-Met deze, uhm, use case gegaan zeg maar. Dus nee, maar ik denk dat daar zit, daar zit de uitdaging. En eigenlijk als ik om me heen kijk ook, is natuurlijk heel veel allemaal gave dingen zeg maar. Maar dan denk ik: oké, maar wat heb, wat is er nou echt tot executie gekomen? Dus je hebt echt, het heeft je heel erg geholpen. Uh, en hoe is het nou vervolgens tot executie gekomen? Daar zit wel de uitdaging. 
+this use case. So no, but I think that's where the challenge is. And actually when I look around me too, there are of course a lot of great things. But then I think: okay, but what has really come to execution? So it has really helped you enormously. And how has it subsequently come to execution? That's where the challenge lies.
 
-En, uhm, en dus ook een, een aantal dingen wel echt vastpakken en ook echt zo nou, die willen we ook echt tot executie brengen. Dus ik merk dat ik zelf ook heel veel experimenteer ermee. Nou, en dat, en dat helpt mij dan in mijn werk en in mijn proces. En, uh, voor mij allemaal makkelijk, maar, het, dan komt het niet verder dan dat. En sommige dingen vastpakken dat het ook echt voor de business naar executie komt. Ja, dat is wel belangrijk. 
+And also really grasp a number of things and say: those we also want to bring to execution. So I notice that I myself also experiment a lot with it. And that helps me in my work and my process. And easy for me, but then it doesn't get beyond that. And grasping some things so that it really comes to execution for the business — yes, that is important.
 
 > *[Me]*
-> *Ja. [ding] En als je dan kritisch bent op de, op de eigen organisatie, wat, wat is dan primair de focus die ontbreekt? *
+> *Yes. [ding] And if you're then critical about your own organization, what is the primary focus that's missing?*
 
 [Them]
-[ding] Nou, 
+[ding] Well,
 
-ik weet niet wij, uh, we zijn een scale-up, uhm, dus wij zien de, 
+I don't know — we're a scale-up, um, so we see the —
 
-en we zijn wel opportunistisch, dus weet je, wij omarmen het en we gaan het, wij gaan het wel doen, uh, en worden er enthousiast van en, uh, gaan er ook mee aan de slag. Kijk, nee, ik denk dat, 
+and we are opportunistic, so you know, we embrace it and we're going to, we will do it, and we get enthusiastic about it and get to work with it too. Look, no, I think that
 
-uhm, dus daarmee gaat het misschien hier en daar wat te veel alle kanten op. Het voordeel daarvan is dat daar ook dingen uitkomen. 
+um, so with that it might go a bit too much in all directions here and there. The advantage of that is that things also come out of it.
 
-Hè, dat helpt ook in: oh, maar wacht eens even, hiervoor kunnen we het inzetten. Uhm, het nadeel daarvan is nou ja, oké, dat we misschien hier en daar wat meer focus, uh, focus kunnen hebben. 
+Right, that also helps: oh, but wait, we can apply it for this. Um, the downside is well okay, that we might benefit from a bit more focus here and there.
 
-De andere kant is denk ik, uh, er zijn ook meer gevestigde organisaties, ja, die gaan beginnen met governance en, uh, en de boel helemaal dicht timmeren voordat mensen er überhaupt mee aan de slag mogen. Ja. 
+The other side I think — there are also more established organizations that start with governance and completely lock things down before people are even allowed to get started. Yes.
 
-En volgens mij heb je dan, uh, in ieder geval het gevaar is dan dat je misschien de boel al, uh, hè, de, al gedoofd hebt of de boel al terug in de pot hebt gedouwd voordat het überhaupt begonnen is, zeg maar. Dus 
+And I think you then have at least the danger that you might have already extinguished things, or pushed things back in the pot before it even got started. So
 
-ja, uh, wat is de juiste weg? Maar dat zijn wel onze valkuilen. 
+yes, what's the right path? But those are our pitfalls.
 
-En inderdaad, sowieso, wij kunnen veel. Als bedrijf zijnde hebben we nooit gebrek aan ideeën. Uhm, focus is altijd een iets grotere uitdaging, maar dat is los van, uh, [onverstaanbaar] 
+And indeed, in any case — we can do a lot. As a company we never lack ideas. Um, focus is always a somewhat greater challenge, but that's apart from [inaudible].
 
 > *[Me]*
-> *Dat is een mooie uitspraak [lacht]. *
+> *That's a nice quote [laughs].*
 
 [Them]
-Dat is gewoon typisch ook, uhm, gewoon onze organisatie wel eventjes. 
+That's just also typical of our organization for a moment.
 
 > *[Me]*
-> *Ja, dat, nee, je hebt natuurlijk gelijk weer terug op wat mijn volgende vraag was geweest. Dat is, je noemt dat governance natuurlijk een beetje missen in de wereld af en toe, *
+> *Yes, that — no, you're of course right back on what my next question would have been. You mention that governance is a bit lacking in the world sometimes,*
 
 > *[Me]*
-> *maar je laat, het klinkt ook niet alsof je je daar heel erg door laat t-tegenhouden. *
+> *but you — it also doesn't sound like you let yourself be held back by that.*
 
 [Them]
-Nee, we laten ons er niet heel erg door tegenhouden, nee. 
+No, we don't let ourselves be held back very much by it, no.
 
 > *[Me]*
-> *Merk je nou ook wel eens dat je tegen bepaalde risico's aanloopt dat die zichzelf verwezenlijken? Ja, je noemde natuurlijk net heel even dat sommige klanten niet heel happy waren met het, uh, BDR, uh, BDR verhaal. *
+> *Do you also sometimes notice that you run into certain risks that materialize? Yes, you just briefly mentioned that some customers weren't very happy with the BDR story.*
 
 [Them]
-Ja. Ja, we hebben wel, 
+Yes. Yes, we do have,
 
-uhm, 
+um,
 
-allemaal, uh, eigen, dus we hebben wel als, als bedrijf zijnde een cloud account, dus oké, en daar wordt dan ook in gewerkt. Dus, 
+everyone with their own — so as a company we have a cloud account, okay, and people work in that too. So,
 
-uhm, 
+um,
 
-ja, wij zijn wel een beetje gewoon learning by doing, zeg maar. 
+yes, we are a bit just learning by doing.
 
-Ja. 
+Yes.
 
 > *[Me]*
-> *Ja, gewoon experimenteren en dan, uh, vraag je maar om, uh, vergeving als het een keer fout gaat. *
+> *Yes, just experiment and ask for forgiveness when it goes wrong.*
 
 [Them]
-Ja, e-en natuurlijk, uhm, 
+Yes, a-and of course,
 
-wel blijven nadenken, hè. 
+keep thinking, right.
 
-Daar, je moet niet daar, uh, natuurlijk helemaal, uhm. Maar goed, ja, nou oké, dan, uh, hallucineert hij maar een keer en, uh, ja, oké, dus dat was het dan eventjes niet, zeg maar. uhm, maar we zijn wel eerder van het wel doen dan, 
+There, you shouldn't just completely — well okay, then it hallucinates once and yes, okay, so that wasn't it for a moment. Um, but we're more of the just-do-it type than
 
-uh, van tevoren alle risico’s mitigeren, zeg maar, en dan het pas gaan doen. Ja, we werken wel liever andersom. 
+mitigating all risks in advance and only then getting started. Yes, we prefer to work the other way around.
 
 > *[Me]*
-> *Leuk. *
+> *Nice.*
 
 > *[Me]*
-> *Hé, uh, ik zie dat we 10 minuten hebben. Uhm.Ik zit even te kijken wat ik anders best wel zien. Heb jij nog zelf dingen van oké dit, dit is zo leuk, dit moet ik echt of interessant of waardevol. Dit, dit vind ik echt wel even de tafel kom. *
+> *Hey, I see that we have 10 minutes. Um. I'm just looking at what else I might want to cover. Do you yourself have things like: okay, this is so interesting, this I really want to put on the table?*
 
 [Them]
-Nee. 
+No.
 
 > *[Me]*
-> *Dan heb ik nog wel een vraag voor jou. Een van de dingen die ik namelijk *
+> *Then I do have another question for you. Because one of the things I*
 
 > *[Me]*
-> *lijkt te zien is dat AI implementatie en uitrol beter gaan als techniek en marketing dichter op elkaar zit. Of dat dat je wat meer technische kennis hebt in de marketingteams. *
+> *seem to see is that AI implementation and rollout go better when technology and marketing are closer together. Or that you have more technical knowledge in the marketing teams.*
 
 > *[Me]*
-> *Als ik jou zo hoor, heb ik ook best wel het gevoel dat het bij jullie *
+> *When I hear you, I also get quite the feeling that at your organization*
 
 > *[Me]*
-> *misschien niet verwoven zit, maar dat jij er tenminste persoonlijk ook wel over nadenkt en mee bezig bent. En nadat nadenkt over sterker. En hoe zit onze data engineer bij en bla bla bla. Zou je, zou je iets kunnen vertellen over hoe dat bij jullie er momenteel uitziet? *
+> *maybe it's not deeply intertwined, but that you at least personally also think about it and are engaged with it. And think about it in a stronger way. And how is our data engineer doing and so on. Could you tell me something about what that currently looks like at your organization?*
 
 [Them]
-Ja, wij zijn 
+Yes, we are
 
-natuurlijk een e-commerce organisatie, dus daarmee 
+of course an e-commerce organization, so therefore
 
-bij voorbaat denk ik al wel wat techy en data driven. Ook aan de marketing kant. 
+from the outset I think already somewhat techy and data driven. Also on the marketing side.
 
-Dus we hebben natuurlijk ook meer creatives en dat zijn echt creatievelingen. 
+So we also have more creatives and those are real creatives.
 
-Maar ja, performance marketing, marketing automation, ja, dat zijn toch wel 
+But yes, performance marketing, marketing automation — those are
 
-data driven techy marketing mensen al. 
+data driven, techy marketing people already.
 
-Ik ben inderdaad zelf ook 
+I myself am indeed also
 
-wel data driven, dus 
+data driven, so
 
-daarmee dus dat helpt. 
+that helps.
 
-Maar ja, dat moet 
+But yes, that must —
 
-ja. Ik zie ook niet hoe dat dat niet samenkomt, zeg maar. Maar bij ons zit dat dus ook wel gewoon dicht bij elkaar. 
+yes. I also don't see how that wouldn't come together. But at our place that just sits closely together too.
 
-En dat heb je ook nodig inderdaad, anders gaat het niet, gaat het niet vliegen. 
+And you do need that indeed, otherwise it doesn't fly.
 
-Ik vind wel ook 
+I also think —
 
-ja, 
+yes,
 
-volgens mij kan niemand je. Je kunt er niet niets mee doen. Ik vind dat wel, zeg maar zeggen van ja, oh dit gebeurt allemaal en ik, ik ben manager of whatever. Wat voor rol ik dan ook heb van ja, ergens in het proces gaat het wel gebeuren, zeg maar ik. Maar ik zit zelf niet met mijn handen daarin. Ik doe dat zelf niet. Ja, dat kan volgens mij niet. Dan ga je die boot ga je wel missen. 
+I think nobody can avoid it. You can't do nothing with it. I do find it a bit — you can't say: oh all this is happening and I'm a manager or whatever. Whatever role you have — yes, somewhere in the process it will happen. But I myself am not involved with my own hands. I don't do that myself. Yes, I don't think that's possible. Then you're going to miss the boat.
 
 > *[Me]*
-> *Ja, dat is wel grappig, want het gebeurt natuurlijk wel. Ofwel ze, ze doen niks ofwel heb ik een keer gehoord van het mag niet. Ja dus *
+> *Yes, that's quite funny, because it does happen of course. Either they do nothing or I once heard "it's not allowed." Yes so*
 
 [Them]
-Ja, ja. En dan zou ik ook van ja als je bedrijf nu zegt van ja het mag niet, ja dan nou dan zou ik toch maar in mijn privé zou ik dan toch maar doen. 
+Yes, yes. And then I would also say: yes, if your company says it's not allowed, well then I would still do it privately.
 
 > *[Me]*
-> *Ja precies. *
+> *Yes exactly.*
 
 [Them]
-Ja, en dan niet met, 
+Yes, and then not with your company's data or insights, but think up your own things and go experiment with it because
 
-met van je, met, met data, met je bedrijf, inzicht met je bedrijf of zo, maar, maar bedenk dan eigen dingen en ga ermee experimenteren want 
+and then bring it back in that way. Because yes, you're
 
-en ga het dan op die manier maar weer terugbrengen of zo. Want ja, je, 
+really missing an enormous world that's also incredibly fun. I have to be honest — it can make me genuinely happy. Like: now this is really useful.
 
-je mist echt een enorme wereld die ook onwijs leuk is. Moet ik eerlijk zeggen, ik word kan er echt blij van worden. Denk nou dit is eens even handig. 
-
 > *[Me]*
-> *Ja, dat is leuk om om te horen en te zien ook. Hey, *
+> *Yes, that's nice to hear and see too. Hey,*
 
 > *[Me]*
-> *dan betekent dat ik het formele deel rustig aan ga afronden. *
+> *that means I'm going to wrap up the formal part.*
 
 > *[Me]*
-> *Ik vond het sowieso superleuk om jou gesproken te hebben hierover en echt wel weer leuke goede inzichten eruit gehaald. Ook weer en dat blijft wel iedere keer weer een beetje hoor, maar ook een aantal dingen die ik niet bij anderen heb gezien, dus dat is leuk. *
+> *I found it super fun to have spoken with you about this and really came away with some nice insights again. Also again — and that keeps being the case every time — but also a number of things I haven't seen with others, so that's nice.*
 
 > *[Me]*
-> *Heb jij nog dingen die, die jij van mij wil weten? Ik heb natuurlijk een tijdje onderzoek gedaan, dus ik zou ook best wel even voor me uit kunnen brullen. Heb jij bepaalde dingen waar je tegenaan loopt waarvan je zegt van ja, ik, ik kan gewoon wat advies of inzichten hierin gebruiken, want dan denk ik ook graag mee. *
+> *Do you have anything that you want to know from me? I've been doing research for a while of course, so I could also speak my mind. Do you have certain things you're running into where you say: yes, I could really use some advice or insights here, because then I'm happy to think along.*
 
 [Them]
-Nou, ik ben wel benieuwd welke interessante cases jij bent tegengekomen of die je weet. En dan toch wel aan die marketinghoek e-commerce hoek natuurlijk van zeg van nou dat is echt slim en handig om te doen. 
-
-Ja, dat daar ben ik altijd benieuwd naar. 
+Well, I'm curious about which interesting cases you've come across or that you know. Specifically in the marketing corner, e-commerce corner of course — like: well, that's really smart and useful to do.
 
-> *[Me]*
-> *Ja, tuurlijk. *
+Yes, I'm always curious about that.
 
 > *[Me]*
-> *Een van de dingen waar jij natuurlijk ook mee bezig bent, wat echt wel een hele grote is en ik denk dat dat een heel eind doorontwikkeld. Dat is de hele conversational analytics deel. Dus praat met je data, zorgen dat je AI echt goed geïntegreerd is. En wat, wat ik zie en ik weet niet waar jullie daar in staan, is dat *
+> *Yes, of course.*
 
 > *[Me]*
-> *het kan altijd, maar het verschil tussen het echt goed doen en zorgen dat je dus ook altijd de goede data krijgt en *
+> *One of the things you're also working on, which is really quite a big one and I think it's been developed quite far — that's the whole conversational analytics part. So talking with your data, ensuring AI is really well integrated. And what I see — and I don't know where you stand on that — is that*
 
 > *[Me]*
-> *wel inzicht eruit krijgt, maar niet altijd kunnen vertrouwen, is vooral de context die de AI heeft. Dus niet de data zelf. Maar hebben we dan ook van iedere kolom een goede definitie? En weten we wat de tekortkomingen van de tabel zijn? En *
+> *it can always work, but the difference between really doing it well — ensuring you always get the right data and*
 
 > *[Me]*
-> *weten we wat hierin nou echt belangrijk is, waardoor de marketeer verder geholpen wordt in plaats van dat er een pak met data uitkomt, maar *
+> *do get insights out, but not always being able to trust it — is mainly the context the AI has. So not the data itself. But do we also have a good definition of every column? And do we know what the shortcomings of the table are? And*
 
 > *[Me]*
-> *niet helpt. Dus daar goed over nadenken en dus de brug slaan tussen welke business context heb ik nodig, welke data heb ik daarvoor nodig en hoe gaan we dat gebruiken? Dat van tevoren doen, dat blijkt altijd wel een hele waardevolle te zijn. En dat is dan specifiek voor conversational analytics. *
+> *do we know what's really important in this, so that the marketer is helped further rather than a load of data coming out but*
 
 > *[Me]*
-> *Eentje waarbij ik *
+> *not helping. So thinking carefully about that and bridging the gap between: what business context do I need, what data do I need for that, and how are we going to use it? Doing that in advance always turns out to be very valuable. And that's specifically for conversational analytics.*
 
 > *[Me]*
-> *het gevoel heb dat heel veel kan, maar bijna geen organisaties er echt iets mee doen. Dat is echt de marketing automation op basis van AI. *
+> *One where I*
 
 > *[Me]*
-> *Dat vind ik echt super relevant. Want *
+> *have the feeling that a lot is possible, but almost no organizations really do anything with it. That's truly marketing automation based on AI.*
 
 > *[Me]*
-> *als je kijkt naar waar AI nu het meeste impact maakt, dat is het programmeren. En dat komt denk ik door twee zaken. Dat is één: je hebt best wel een goed duidelijk doel wat er moet zijn en niet, niet of het of dat *
+> *I find that really super relevant. Because*
 
 > *[Me]*
-> *vanuit een kwalitatief perspectief goed is, maar het werkt of het werkt niet. *
+> *if you look at where AI is having the most impact right now, that's programming. And I think that comes from two things. One: you have a pretty clear goal of what needs to be there — not whether it's qualitatively good, but whether it works or it doesn't work.*
 
 > *[Me]*
-> *En dat is met die marketing automation journeys eigenlijk ook zo. Weet je wel, als er, als er kapotte dingen in zitten kom je daar echt heel snel achter. Maar dat vanuit een menselijk perspectief inrichten, daar gaat vaak heel veel tijd in zitten. Dus als jij dat met een AI zou kunnen doen en daar een eerste draft van hebben, dan ga je echt gigantische stappen maken, denk ik. Maar het is natuurlijk eigenlijk nog maar heel kort dat, uhm, systemen dat ook echt een beetje die kanten van hun systeem ook aan het exposen zijn via API's. *
+> *And with those marketing automation journeys it's actually the same. You know, if there are broken things in it you find out really quickly. But setting that up from a human perspective, that often takes a lot of time. So if you could do that with an AI and have a first draft of it, you're going to make truly gigantic steps, I think. But of course it's only recently that systems are also really exposing those parts of their system via APIs.*
 
-> *Als je hebt nu bijvoorbeeld Salesforce die zegt van: ja, we zijn nu Salesforce headless mode of zo, uhm, waarbij je dus eigenlijk naar een fase gaat waarbij je alle dingen die in zo'n platform gedaan kunnen worden ook met AI zou kunnen inrichten. Dan is het denk ik altijd goed om een human in de loop validator te hebben. Maar ja, dan, dan staat het om het zo maar te zeggen. En dan kan je dus veel sneller gaan itereren met wat zijn mijn customer journeys, hoe wil ik dat mensen lopen? Wat zijn drop off points in de flow? Kan ik dat dan automatisch, uh, upgraden? Uh, en dan op die manier gewoon veel, veel sneller itereren. Ik denk dat dat een van de gouden elementen van AI is. *
+> *If you have for example Salesforce now saying: yes, we're in Salesforce headless mode, whereby you go to a phase where you can also use AI to configure everything that can be done in such a platform — then I think it's always good to have a human in the loop validator. But yes, then, so to speak, it's set up. And then you can iterate much faster: what are my customer journeys, how do I want people to flow? What are drop off points in the flow? Can I then automatically upgrade that? And in that way just iterate much, much faster. I think that's one of the golden elements of AI.*
 
 [Them]
-Ja. 
+Yes.
+
+> *[Me]*
+> *Um, and what I also find nice to see is that — you mentioned content earlier —*
 
 > *[Me]*
-> *Uhm, en wat ik ook wel leuk zie, vind, is dat, jij had het eerder over content, *
+> *but that's also actually something that agentic AI is used for a lot. Not so much generating the content, but then validating it. Does it meet our brand guidelines? Does it meet the elements that from measured experience we know perform well or not? And in that way creating a loop between measuring impact on the one hand and — not so much the direct generating. Sometimes it's also combining assets, but ensuring that the content that's created somewhere — perhaps not automatically — that you actually know before it goes live:*
 
 > *[Me]*
-> *maar dat is ook wel juist iets waar agentic AI veel gebruikt voor wordt. Niet zozeer het genereren van de content, maar vervolgens valideren. Voldoet het nou aan onze brand guidelines? Uh, voldoet het aan de, uh, elementen waarvan wij vanuit de, de gemeten ervaring weten dat het goed performt of niet? En op die manier een loop creëren tussen, uh, impact meten aan de ene kant en, uh, niet zozeer het directe ge-genereren. Soms is het ook het combineren van assets, maar zorgen dat de content die, die ergens gemaakt wordt, wellicht niet automatisch, dat je dan ook, dat je eigenlijk voordat het live gaat weet: *
+> *is there a chance it's going to perform well or not? And in that way you can iterate much faster on that side too.*
 
 > *[Me]*
-> *zit er kans in dat het goed gaat performen of niet? En op die manier kan je dus veel sneller, uh, ook aan die kant itereren. *
+> *Um,*
 
 > *[Me]*
-> *Uhm, *
+> *yes, I think that piece of personal efficiency is just going to become very large. And I genuinely believe very strongly that SaaS remains valuable. In the sense that SaaS applications of course also have the greatest opportunities to efficiently apply AI. And if you want to figure that out completely per type of application for your own organization, yes, then you can move just as fast as such a tool can. You can tune more toward your own process, but you can actually never move as fast. So I think those*
 
 > *[Me]*
-> *ja, ik denk dat dat stukje persoonlijke efficiëntie, die gaat gewoon heel groot worden. En, uh, we gaan denk ik wel weer echt naar een, ik geloof echt heel erg dat SaaS waardevol blijft. In de zin dat, uh, SaaS applicaties natuurlijk ook de grootste mogelijkheden hebben om AI efficiënt toe te passen. En als je dat per type applicatie voor je eigen organisatie helemaal wil uitvogelen, ja, dan kan je net zo snel bewegen als zo'n tool kan. Je kan wel meer naar je eigen proces tunen, maar je kan eigenlijk nooit zo snel bewegen. Dus ik denk dat die *
+> *parties need to get over a governance hurdle at some point. But once they've gotten over it, it's going to go very fast. But for now there's also a very big opportunity to just make gigantic steps on all sides in personal efficiency. And, well yes, you see that very bluntly with writing quotes and making PowerPoints. But you also see that with data analytics, or with entering records in HubSpot, or*
 
 > *[Me]*
-> *partijen een keer een governance drempel over moeten. Maar dat als die over zijn dat dat heel hard gaat. Maar dat voor nu er dus ook wel een hele grote kans is om gewoon in een stukje persoonlijke efficiëntie, ja, aan alle kanten gigantische stappen te maken. En, uh, nou ja, dat zie je in de, heel plat met offertes schrijven en PowerPoints makken. Uh, maar dat zie je ook, nou ja, me-met data analytics, uh, of met, uh, records inschieten in HubSpot of, uh, *
+> *having sales employees call a system that enters it. Or,*
 
 > *[Me]*
-> *salesmedewerkers naar een systeem laten bellen wat het invoert. Of, uh, *
+> *yes, those things. And a last one I find very nice is that because agents are becoming so good so fast, you can also apply much more of a marketing mindset to customer support. In the past customer support was really a labor-intensive factory and there was a training program to ensure that people*
 
 > *[Me]*
-> *ja, die dingen. En een laatste die ik wel heel leuk vind, is omdat agents natuurlijk zo snel goed aan het worden zijn, je ook veel meer een marketingmindset op customer support kan gaan toepassen. Vroeger was customer support natuurlijk echt een urenfabriek en er was wel een opleidingsprogramma om te zorgen dat mensen, uh, *
+> *were up-to-date with what needed to be communicated, what the storyline is, what the brand values are of the organization and blah, blah, blah.*
 
 > *[Me]*
-> *up-to-date waren met, uh, wat, wat moest verteld moest worden, wat de storyline is, wat de brandwaarde is van de organisatie en bla, bla, bla. Maar als je nu een e-mail binnenkrijgt, dan ga je gewoon, uh, in je, je customer support systeem zo, zeggen van: hé, ik wil eigenlijk dat er op deze manier geclassificeerd wordt. Kan je die classificaties gelijk gebruiken om te kijken van: oké, moet, kan ik dit oplossen ergens eerder in de funnel, zodat het überhaupt niet een ticket wordt? Uh, je kan gelijk erbij zetten van: hé, wat, wat wee, wat weten we van de persoon, zodat, uh, dat die context beschikbaar is. Je kan een e-mail, uh, draft erbij zetten. *
+> *But if you now receive an email, you just go into your customer support system and say: hey, I actually want it to be classified in this way. Can you immediately use those classifications to look at: okay, can I solve this somewhere earlier in the funnel, so that it doesn't even become a ticket? You can immediately add: hey, what do we know about the person, so that context is available. You can add an email draft.*
 
-> *Je kan erbij zetten welke context is er gebruikt om die draft te maken, zodat je ook altijd weer naar de bron ka-, terug kan gaan. En op die manier heb je zo 101 verschillende elementen die je toe kan voegen aan zo'n procesonderdeel. Om te zorgen dat het van heel erg naar manueel gaat, waar, ja, eigenlijk de customer support moo-- medewerker de, de mogelijkheid geven om primair na te denken van: oké, wat voor een uitstraling willen we hebben richting klant? En, uh, misschien nog iets over de brandwaarde evalueren. *
+> *You can add what context was used to make that draft, so you can always go back to the source. And in that way you have 101 different elements you can add to such a process component. To ensure that it goes from very manual — where, yes, actually giving the customer support employee the opportunity to primarily think about: okay, what kind of image do we want to have toward the customer? And maybe also evaluate something about brand value.*
 
 > *[Me]*
-> *Uhm, *
+> *Um,*
 
 > *[Me]*
-> *ja, waardoor dat echt misschien wel 70, 80%, uh, efficiënter wordt dan, uh, vorig jaar. En dan heb je nog steeds human in de loop. Sommige organisaties doen het zonder. Ik denk dat dat vaak niet heel verstandig is. Uhm, maar ja, het gaat wel echt heel veel sneller en beter daarover vaak. *
+> *yes, which means it could really become perhaps 70, 80% more efficient than last year. And you still have human in the loop. Some organizations do it without. I think that's often not very wise. Um, but yes, it does go really much faster and better with that often.*
 
 [Them]
-Ja. 
+Yes.
 
-Ja. En ja, nou interessant. Wel weer dingen om even over na te denken ook. Ja. 
+Yes. And yes, well interesting. Good things to think about again too. Yes.
 
 > *[Me]*
-> *Ja. Ja, en, uh, mocht je nog meer dingen hebben, je, je, je, je weet me te vinden, dus, uh, stel gewoon. Ik vind het altijd leuk. Weet je, dit, uh, ik ben in 2012 begonnen met software studeren. Toen ben ik in 2013 met de AI van toen in contact gekomen en sindsdien zit ik in de wereld. Het blijft gewoon echt fascinerend hoe hard het gaat en dat houdt het leuk. Uhm, dus, uh, altijd, altijd op zoek naar nieuwe ideeën. Maar ik vind het ook altijd leuk om dingen te delen als mensen vragen hebben. *
+> *Yes. Yes, and should you have more things — you know how to find me, so just ask. I always enjoy it. You know, I started studying software in 2012. Then in 2013 I came into contact with the AI of that time and since then I've been in this world. It just remains truly fascinating how fast it goes and that keeps it fun. Um, so always looking for new ideas. But I also always enjoy sharing things when people have questions.*
 
 [Them]
-Oké, nou, ga ik zeker onthouden. 
+Okay, well, I'll definitely remember that.
 
-Succes met, uh, de laatste loodjes. 
+Good luck with the final stretch.
 
 > *[Me]*
-> *Thanks! Ja, dank je wel. En jullie heel veel succes met je, met, uh, met de AI journey en, uh, waar jullie midden in zitten. Lekker blijven experimenteren inderdaad. *
+> *Thanks! Yes, thank you. And very good luck with your AI journey and where you're in the middle of it. Keep experimenting indeed.*
 
 [Them]
-Ja, precies. 
+Yes, exactly.
 
-Ja. 
+Yes.
 
-Tot ziens. 
+Goodbye.
 
 > *[Me]*
-> *Tot later. Doeidoei. *
+> *Until later. Bye bye.*
 
 [Them]
-Hoi. Hoi. [hangt telefoon op]
+Bye. Bye. [hangs up]

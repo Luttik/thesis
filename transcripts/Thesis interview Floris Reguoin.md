@@ -1,624 +1,622 @@
 > *[Me]*
-> *Hey Floris, hoe gaat ie? *
+> *Hey Floris, how's it going?*
 
 [Them]
-Hey, daar ben je eindelijk. 
+Hey, there you are finally.
 
 > *[Me]*
-> *Hey, ja, goeiedag. Sorry voor de vertraging. Uh, hij, mijn tab crashte net toen we erin stapten en nu lijkt ie weer helemaal niet, niet helemaal lekker te werken. Dus ik hoop dat je mij goed hoort. *
+> *Hey, yes, good day. Sorry for the delay. Uh, my tab just crashed when we started up and now it doesn't seem to be working completely properly. So I hope you can hear me well.*
 
 > *[Me]*
-> *Ik hoorde jou net wel, *
+> *I could hear you just now,*
 
 > *[Me]*
-> *nu niet meer. *
-
-[Them]
-Ja, ik, 
-
-uh, ja, hoor je me nu of niet? 
-
-Oké. 
-
-> *[Me]*
-> *Krijg ik iets anders. *
+> *not anymore.*
 
 [Them]
-Ik zie je alleen niet, maar. 
+Yes, I,
+
+uh, yes, can you hear me now or not?
+
+Okay.
 
 > *[Me]*
-> *Nee, ik zie mezelf ook niet bewegen, *
-
-> *[Me]*
-> *dus dat is, uh, dat is net heel even jammer. *
-
-> *[Me]*
-> *En anders moeten we even, ik weet het niet. Ik heb vanochtend *
-
-> *[Me]*
-> *dat al gedaan, dat ging helemaal vlekkeloos. *
-
-> *[Me]*
-> *Is daar nou een licht? *
+> *Let me try something different.*
 
 [Them]
-Nee, geen idee. Uhm. 
+I just can't see you, but.
 
 > *[Me]*
-> *Gaat het nu wel goed? *
+> *No, I can't see myself moving either,*
 
 > *[Me]*
-> *Ik zie het bij mezelf ook een beetje vertragen. *
-
-[Them]
-Ik hoor je wel, ik zie je alleen niet. Maar, uh, maar goed, het, uh, voor de rest werkt het wel.
+> *so that is, uh, that's a bit unfortunate for now.*
 
 > *[Me]*
-> *Ja, maar hij doet wel rare dingen, maar volgens mij werkt het goed genoeg dan. Wat ik wel zou kunnen doen is dat ik gewoon even voor de fun *
+> *And otherwise we'll need to, I don't know. This morning I*
 
 > *[Me]*
-> *mijn camera op mijn wieltje zet. Dan weet je toch tegen wie je praat, hè. Dat maakt het altijd wel een beetje leuker. *
+> *already did that, and it went completely smoothly.*
 
 > *[Me]*
-> *[gelach] Ja, kijk, zo. En kan ik jou ook weer zien. Even kijken. *
-
-> *[Me]*
-> *Ik ben geen model, dus dan zou hij het doen. Nou hoor ik je alleen niet meer, maar ik, uh, denk dat ie overgegaan is naar je mobiel en jou, uh, thuis uitgezet heeft. *
+> *Is there a light now?*
 
 [Them]
-Dan, dan doet hij het wel. 
+No, no idea. Um.
 
 > *[Me]*
-> *Oh, nee, dan wil ik mezelf dubbel. *
+> *Is it working properly now?*
 
 > *[Me]*
-> *Ik ga gewoon hier mijn camera uitzetten. *
-
-> *[Me]*
-> *Ja, ja, daar het geluid uit *
-
-> *[Me]*
-> *en dan zou dat compleet moeten zijn. *
-
-> *[Me]*
-> *Dit werkt soort van, hè? *
+> *I can see it lagging a little on my end too.*
 
 [Them]
-Dit, uh, dit doet het, ja. 
+I can hear you, I just can't see you. But, uh, but okay, the rest of it does work.
 
 > *[Me]*
-> *Top! Ja, techneuten en techniek, dat gaat altijd weer lekker samen. *
+> *Yes, but it is doing some strange things, but I think it works well enough then. What I could do is just for fun*
 
 > *[Me]*
-> *Hoe gaat ie? *
-
-[Them]
-Ja, hier is het goed. Ik ben, uhm, druk met veel te veel dingen [lacht]. Dus, uh, dat is altijd wel gezellig. En ik moet zo, uh, kort voor moet ik, uh, zeg maar onze call gaan verlaten, want dan moet ik mijn kleine man naar de breakdance brengen. Maar 
-
-ik hoop dat we dat, uh, 
-
-Ja, dus ik, ik weet niet hoe, hoe groot je vragenlijst is en anders moeten we misschien als er nog wat dingen openstaan, uh, nog even wat naplannen. 
+> *put my camera on my little wheel. Then you know at least who you're talking to, right. That always makes it a bit nicer.*
 
 > *[Me]*
-> *Ik, ik heb altijd meer vervolgvragen dan we tijd hebben. Dat is helemaal geen probleem. Dat hoort er gewoon bij. Uh, je kan altijd doorpraten over, ja, hè, het is een on-onuitputbare put. *
+> *[laughing] Yes, look, like that. And I can see you again too. Let me see.*
+
+> *[Me]*
+> *I'm no model, so then it should work. Now I can't hear you anymore, but I think it switched to your mobile and turned off your home connection.*
 
 [Them]
-Mooi. 
+Then, then it should work.
 
 > *[Me]*
-> *Hé, uh, wat mij betreft beginnen we dan ook lekker. Uh, misschien heel leuk dat je ook een klein beetje iets van, van mij weet. Ik ben, ik ben Daan. Ik heb een achtergrond in de AI. Uh, ooit begonnen met schaakcomputers maken in 2013 toen, uh, ja, dus nog echt een hele andere wereld was. Uh, en vervolgens met mijn eigen bedrijf de marketing ingerold, uhm, en daar echt bij, blijven hangen bij Ten Thirty. Daar zit ik ondertussen acht jaar, *
+> *Oh, no, then I'm getting myself twice.*
 
 > *[Me]*
-> *uhm, en heb dat, uh, ook wel groot mogen maken van de 10 man die het was toen ik erbij kwam tot de 60 waar we nu mee zitten. *
-
-[Them]
-Mhm. 
+> *I'll just turn off my camera here.*
 
 > *[Me]*
-> *En, uh, ondertussen onderdeel van de Relevance Group en daaruit ken ik Fred en die heeft mij weer bij jou geïntroduceerd volgens mij. *
-
-[Them]
-Ja. 
+> *Yes, yes, turn off the sound there*
 
 > *[Me]*
-> *Dus dat, uh, dat is altijd leuk. Uhm. *
+> *and then that should be complete.*
+
+> *[Me]*
+> *This sort of works, right?*
 
 [Them]
-Leuk. Ja, ik ben, uh, ja, dus dan kijk ik even vanuit mijn perspectief. Ik ken Fred vanuit mijn, ja, uh, ik zou zeggen dispuut. Dus we kennen elkaar ook al een hele lange tijd. Al sinds, uh, ja, 2000. Dus dat is- 
+This, uh, this works, yes.
 
 > *[Me]*
-> *Jullie zijn ook bij Vereeniging Ode? *
+> *Great! Yes, tech people and technology — always a perfect combination.*
+
+> *[Me]*
+> *How's it going?*
 
 [Them]
-Ja, precies. En, uh, dus dat is leuk. En, uh, ja, regelmatig nog wel contact met Fred. Alleen de laatste jaren ietsje minder, maar dat is ook gewoon, uh, ik ben stervend druk geweest met van alles. 
+Yes, things are good here. I am, um, busy with way too many things [laughs]. So, uh, that's always fun. And I need to shortly — I'll need to leave our call, because then I need to take my little one to breakdancing. But
 
-Uh, maar goed, dus ik heb eigenlijk wel al jaren voor bazen en bedrijven gewerkt, uh, tot een jaar of acht geleden. Toen dacht ik: joh, uh, waarom ga ik mijn kennis en kunde niet wat breder in de markt zetten? Ik, uh, ben eigenlijk altijd bezig geweest met win-win-win situaties. Dus hoe kun je, uh, richting je klanten maximale meerwaarde brengen door alle mensen in de organisatie op dezelfde manier op te lijnen en, uh, in plaats van individuele doelen dat gezamenlijk naar één doel te brengen, namelijk je klant. Uh, daar heb ik een heel model voor opgebouwd destijds. Een hele methodologie en dat heeft zichzelf een beetje geëvolueerd.
+I hope we can, uh,
 
-En, uh, de oorsprong ligt in de microbiologie en de bedrijfskunde waar ik nu afgelopen, uh, december, januari een boek voor heb uitgebracht: Natuurlijke intelligentie.
-
-Dus niet kunstmatige intelligentie. Dus het is ook niet geschreven met AI, maar, uh, dus, uh, volledig gekoppeld, uh, aan, uh, de natuurlijke [lacht] manier van doen. Uh, waarbij natuurlijke intelligentie gekoppeld is aan acht principes uit de natuur, 
-
-uh, waarbij ik die verschillende principes zoals de wet van Darwin bijvoorbeeld heb gepakt, vanuit een ecologisch of biologisch perspectief heb, uh, ja, organismen en, uh, en ecosystemen uit heb gelicht hoe dat allemaal werkt. En dat gekoppeld weer aan, uh, ja, hoe bedrijven en leiders in de wedstrijd staan. Vooral, uh, met goede voorbeelden en slechte voorbeelden in hoe je dingen wel of juist niet zou moeten doen zonder beschrijvend te zijn. Dit moet je doen of zo. Hier is de handleiding. Dus wat ik juist gedaan heb, is gewoon door mensen anders te leren kijken, uh, en te inspireren met, uh, mooie dingen uit de natuur.
-
-Dus hoe planten groeien, hoe ze dat doen, waarom ze dat doen, met wa-waarom ze samenwerken, hoe die samenwerkingen tot stand komen, wat het inhoudt. En dat, uh, dat heb ik uitgebracht. Dus dat, uh, dat is één ding en dat is eigenlijk heel leuk, want dat is meer de, ook de softe component die echt wel op de harde component van AI staat. Hè, dus dat zit veel meer op verandering en dat soort dingen. Nou ja, zoals je weet, 30% van alle AI-trajecten is maar technologie en, uh, 60% tot 70% is, uh, is eigenlijk wij als mensen of als organisatie en dus ook als ecosysteem. Uh, en hoe pak je dat dan, uh, hoe pak je dat dan goed op? Nou, dus die twee dingen die komen heel erg samen.
-
-Nou ja, dan kan ik je nog lastigvallen met allerlei andere dingen die ik aan het doen ben. Dus ik ben een iets te bezig bijtje met van alles en nog wat. Ik heb ook een, ik ben vader van twee kindjes, uh, hier in Muiden van negen en 11.
-
-En, uh, ja, uh, dus dat even als perspectief. 
+Yes, so I don't know how big your list of questions is, and otherwise if there are still some things open, we might need to reschedule a bit.
 
 > *[Me]*
-> *Leuk man! *
+> *I always have more follow-up questions than we have time for. That's no problem at all. That just comes with the territory. Uh, you can always keep talking about — yes, right, it's an inexhaustible well.*
 
 [Them]
-Ja. 
+Great.
 
 > *[Me]*
-> *En, uh, je, je bent gelijk afgetrapt, maar ik moet dit natuurlijk opnemen voor Nyenrode, dus als je dat goed vindt dan zet ik die aan. *
+> *Hey, uh, as far as I'm concerned let's just get started. Uh, maybe it's nice for you to know a little bit about me. I am, I am Daan. I have a background in AI. Uh, I once started making chess computers in 2013 when, uh, yes, it was really quite a different world. Uh, and then I rolled into marketing with my own business, and really got stuck there, stayed at Ten Thirty. I've been there for eight years now,*
+
+> *[Me]*
+> *um, and have been able to help grow it from the 10 people it was when I joined to the 60 we now have.*
 
 [Them]
-Oh, die had je nog niet eens aangezet. Oké, nou ja [lacht]. 
+Mhm.
 
 > *[Me]*
-> *Dan klik ik even door. Ja, nee, dat lijkt me heel goed, uh, want ik heb jou nog geen consentformulier gestuurd, dus dat, uh, dat moet ik wel even netjes doen. *
-
-> *[Me]*
-> *Uhm. *
+> *And, uh, now part of the Relevance Group and through that I know Fred, who introduced me to you I think.*
 
 [Them]
-Ik doe niks anders meer dan opnemen tegenwoordig. En ik, uh, je krijgt al een bericht. Ik vergeet het zelf soms te vragen, dus. 
+Yes.
 
 > *[Me]*
-> *Ja, nee, maar dat, ik snap het ook helemaal. En het is eigenlijk standaard, maar het is ook nog illegaal, dus ja, dat is een beetje. *
+> *So that, uh, that's always nice. Um.*
 
 [Them]
-Nee, dat is prima.
+Nice. Yes, I am, uh, yes, so let me look at it from my perspective. I know Fred from my, yes, uh, I would say fraternity. So we've known each other for a very long time already. Since, uh, yes, 2000. So that's —
 
 > *[Me]*
-> *Speel af en toe. Hé, uh, nee, superleuk! Maar zie ik jou dan ook, wat is het, 2 juni, juni of zo bij de AI-dag van de VDV? *
+> *You're also at Vereeniging Ode?*
 
 [Them]
-De AI-dag van de VDV? 
+Yes, exactly. And, uh, so that's nice. And, uh, yes, still in regular contact with Fred. Just a little less in recent years, but that's just, uh, I've been insanely busy with everything.
+
+Uh, but okay, so I've actually worked for employers and companies for years, uh, until about eight years ago. Then I thought: hey, uh, why don't I put my knowledge and expertise more broadly into the market? I, uh, have actually always been working on win-win-win situations. So how can you bring maximum added value toward your customers by aligning all the people in the organization in the same way and, uh, instead of individual goals, bringing them jointly to one goal — namely your customer. Uh, I built a whole model for that at the time. A whole methodology and that has evolved a little by itself.
+
+And, uh, the origin lies in microbiology and business administration, for which I published a book last December, January: *Natural Intelligence*.
+
+So not artificial intelligence. So it's also not written with AI, but, uh, so, uh, fully coupled to, uh, the natural [laughs] way of doing things. Uh, where natural intelligence is linked to eight principles from nature,
+
+uh, where I've taken those different principles like Darwin's law for example, from an ecological or biological perspective, uh, yes, highlighted organisms and ecosystems and how all that works. And linked that again to, uh, yes, how companies and leaders stand in the race. Particularly, uh, with good examples and bad examples of how you should or should not do things, without being prescriptive. You must do this. Here is the manual. So what I actually did, is just make people learn to look differently, uh, and inspire them with, uh, beautiful things from nature.
+
+So how plants grow, how they do that, why they do that, why they collaborate, how those collaborations come about, what it entails. And that, uh, I've published that. So that, uh, that is one thing and that's actually very nice, because that is more the, also the soft component that really sits on top of the hard component of AI. Right, so that sits much more on change and those kinds of things. Well yes, as you know, 30% of all AI trajectories is just technology and, uh, 60% to 70% is, uh, is actually us as humans or as an organization and therefore also as an ecosystem. Uh, and how do you then tackle that well? Well, so those two things come together very strongly.
+
+Well yes, then I can also bother you with all kinds of other things I'm doing. So I'm a bit of an overly busy bee with everything and anything. I also have — I'm a father of two children, uh, here in Muiden, aged nine and eleven.
+
+And, uh, yes, uh, that as a perspective then.
 
 > *[Me]*
-> *Nee, niet van de, uh, de VDV, VCV. De, *
-
-> *[Me]*
-> *uh, Nijenrode Alumni. Die komen vereniging hebben in een herenclubje. *
+> *Cool, man!*
 
 [Them]
-Ja. 
+Yes.
 
 > *[Me]*
-> *En die komt 2 juni of 2 juli uit mijn hoofd bij elkaar samen. Drie. Uh, twee. Ja, twee. *
-
-> *[Me]*
-> *Dus ik heb me daarvoor aangemeld, want dat leek me wel erg leuk om misschien eens zo. *
+> *And, uh, you, you already kicked off, but I of course need to record this for Nyenrode, so if you're okay with that I'll turn it on.*
 
 [Them]
-Nou, al, al belachelijk dat wij niet gevraagd zijn überhaupt om daar te komen. Even kijken hoor. Uh, 2 juni zeg je? Geen idee. Eens kijken wat ik, uh, 
-
-ik heb hier niks staan in de agenda, maar ik weet niet of ik dan Nyenrode.nl, dan kijk ik. Maar misschien is het een alumni only. 
+Oh, you hadn't even turned it on yet. Okay, well then [laughs].
 
 > *[Me]*
-> *Ik kan je wel even de link doorsturen ook, want ik heb die laatst, uh, erbij gepakt. *
+> *Let me click through. Yes, no, I think that's very good, uh, because I haven't sent you a consent form yet, so I, uh, need to do that properly.*
+
+> *[Me]*
+> *Um.*
 
 [Them]
-Evenementen. Wat staat hier? 
-
-Ik heb hier 18 mei, 20 juni. 
-
-Aankomende evenementen 2 juli. Ah, 2 juli, oké. 
+I do nothing but record these days. And I, uh, you already get a message. I sometimes forget to ask myself, so.
 
 > *[Me]*
-> *Ja. Ja. AI in leiderschap wordt het thema waarschijnlijk. *
+> *Yes, no, but that, I completely understand it too. And it's actually standard, but it's also still technically not allowed, so yes, that's a bit of a thing.*
 
 [Them]
-AI Circle. 
-
-Uh, 
-
-nou ja, 
-
-ik weet niet of ik ervoor moet doen, maar ik gooi hem in ieder geval even in mijn agenda. Dan ga ik even kijken. 
+No, that's fine.
 
 > *[Me]*
-> *Ik dacht hetzelfde. *
+> *Play along sometimes. Hey, uh, no, super nice! But will I also see you, what is it, June 2nd, July or something at the AI day of the VDV?*
 
 [Them]
-Hè? 
+The AI day of the VDV?
 
 > *[Me]*
-> *Ik dacht precies hetzelfde. Ik weet ook niet precies wat ik moet verwachten, maar ja, ik keer naar VCV. Je weet het is ook wel leuk. Ik ben dat net al gesneakt. *
+> *No, not of the, uh, the VDV, VCV. The,*
+
+> *[Me]*
+> *uh, Nyenrode Alumni. That alumni association meets in a gentlemen's club.*
 
 [Them]
-Ja, maar wat is nou de-- ik, ik begrijp even niet zo goed wat nou de, uh, daar staat, daar staat ook echt nog helemaal niks bij. 
-
-Of, of mis ik iets? Ik vind het leuk als ik in die agenda zit. 
+Yes.
 
 > *[Me]*
-> *Nee, volgens mij is het allemaal net, uh, aan het aftrappen, dus, uh, het is april in het begin. *
+> *And they're getting together on July 2nd from memory. Three. Uh, two. Yes, two.*
+
+> *[Me]*
+> *So I signed up for that, because that seemed really fun to do perhaps.*
 
 [Them]
-Oké. 
+Well, it's already ridiculous that we weren't even asked to come there. Let me check. Uh, July 2nd you say? No idea. Let me see what I, uh,
+
+I have nothing in my calendar here, but I don't know if I then — Nyenrode.nl, then I'll check. But maybe it's alumni only.
 
 > *[Me]*
-> *Het is nog een beetje uitzoeken het verhaal. *
+> *I can send you the link as well, because I grabbed it recently.*
 
 [Them]
-Mijn compagnon en ik, we zijn allebei, uh, Nijenrodeiaan, uhm, en ook nog eens een keer buren. 
+Events. What does it say here?
+
+I have here May 18th, June 20th.
+
+Upcoming events, July 2nd. Ah, July 2nd, okay.
 
 > *[Me]*
-> *Ah, wat grappig. *
+> *Yes. Yes. AI in leadership will probably be the theme.*
 
 [Them]
-Uh, 
+AI Circle.
 
-dus 
+Uh,
 
-misschien moet hij, hij doet ook een, uh, een AI, uh, of in ieder geval een salesprogramma op, uh, op Nijenrode en daar hebben we ook al wel een en ander met AI nu gedaan. 
+well,
 
-Uh, 
-
-maar goed, uh, ja, prima. Uhm. 
-
-Leuk. Uh, nou, ik zou zeggen laten we aftrappen. 
-
-Want, uh. 
+I don't know if I should do something for it, but I'll put it in my calendar anyway. Then I'll have a look.
 
 > *[Me]*
-> *Gaan we doen. Hé, uh, even ter kadering, want voordat we erin duiken. Van-vanuit jouw perspectief: wat, wat is agentic AI? *
+> *I thought the same thing.*
 
 [Them]
-Ben, ben je me nu aan het opnemen al of, uh? 
+Right?
 
 > *[Me]*
-> *Ja, hij staat aan. Hij staat aan. *
+> *I thought exactly the same. I also don't know exactly what to expect, but yes, I'm going back to VCV. You know it's also fun. I just sneaked into that.*
 
 [Them]
-Perfect. Niet dat, niet dat ik vandaag nog een keer dran. 
+Yes, but what is the — I, I don't quite understand what the, uh, it says there, there's really still nothing about it yet.
 
-Uh, dus nog een keer. Dus AI. Wat is AI? Vroeg je dat? 
-
-> *[Me]*
-> *Precies. Ik doe onderzoek over de vraag: hoe kunnen marketingmanagers AI, agentic AI gebruiken om waarde te creëren? Maar dan moet je natuurlijk wel eens met elkaar scopeen van: wat is nou voor iemand agentic AI? *
+Or, or am I missing something? I like having it in my calendar.
 
 > *[Me]*
-> *Dus voor me beter. *
+> *No, I think it's all just, uh, getting started, so, uh, it was early April.*
 
 [Them]
-Als je het hebt over, ja kijk, AI is natuurlijk een begrip wat al bestaat sinds 1956. Uh, de Dartmouth Summer Research Project door een aantal hele wijze heren, uh, is dat ooit opgebouwd en is dat een, uh, een, een vanuit een werkthema eigenlijk een concreet researchproject geworden. 
-
-Uhm, ja, en, uh, dat begon natuurlijk met simpele programmatjes aan elkaar koppelen met taakjes. En uiteindelijk werd dat een netwerkje en vervolgens is het gewoon gegroeid tot een heel, uh, ja, tot een hele kloon van onze hele, uh, hele manier van, uh, van denken. Uhm, en als je het dan hebt over agentic. Uh, ik zag laatst wel een heel leuk plaatje, die had dat heel mooi uiteengezet natuurlijk. Je hebt allerlei verschillende vormen, maar agentic is natuurlijk echt dat je, ja, autonome taken kan laten uitvoeren met een slimme laag die uiteindelijk zorgt voor, uh, ja, dingen die wij anders met onze hersenen zouden moeten doen. Om het dan maar heel erg simpel te maken. 
+Okay.
 
 > *[Me]*
-> *Ja, ik denk dat dat correct is. Uh, academisch gezien is AI niet heel, of agentic AI niet heel goed gedefinieerd. Dus waar ik vaak op doel is twee elementen. Enerzijds het vermogen om te plannen, dus dat je een taak kan meegeven en dat ie zelf nadenkt over wat zijn nou de stappen die ik nodig heb om daar te komen. *
+> *It's still a bit of figuring things out.*
 
 [Them]
-Precies. 
+My business partner and I, we're both, uh, Nyenrode alumni, and also neighbors on top of that.
+
+Uh,
+
+so
+
+maybe he should — he also does a, uh, an AI, uh, or at least a sales program at, uh, at Nyenrode and we've already done quite a few things with AI there.
+
+Uh,
+
+but okay, uh, yes, fine. Um.
+
+Nice. Uh, well, I'd say let's get started.
+
+Because, uh.
 
 > *[Me]*
-> *En, uh, aan de andere kant ook het component uitvoeren. Dus dat hij bijvoorbeeld zegt van: nee, ik heb nu een stap nodig om even wat extra context binnen te trekken zodat ik iets meer weet. Of nu ga ik in dat systeem deze vlag aanzetten of weet ik veel. Dat dus ook i-iets kan toepassen. Uh, en dat is dus ook eigenlijk de scope van mijn onderzoek. Ik ben echt op zoek naar wat zijn nou echt de agentic, uh, oplossingen die we kunnen neerzetten om die marketingmanagers te helpen. Uhm. *
+> *Let's do it. Hey, uh, just to frame things, because before we dive in. From your perspective: what, what is agentic AI?*
 
 [Them]
-Als ik hem hier even heel mooi pak, zeg maar, hè, een geavanceerde vorm van kunstmatige intelligentie die autonoom kan handelen, beslissingen kan nemen en complexe meerstapstaken kan uitvoeren om een specifiek doel te bereiken zonder constante menselijke tussenkomst. Nou, dan heb je hem, 
-
-heb je hem mooi gedefinieerd. Maar goed, ja, weet je, zo kun je natuurlijk heel, uh, heel lang aan de gang gaan. Kijk, ik, ik. 
+Are, are you already recording me or, uh?
 
 > *[Me]*
-> *Je moet er een hokje omheen zetten, hè, dat is altijd belangrijk. *
+> *Yes, it's on. It's on.*
 
 [Them]
-Nee, is echt zo. En nu even voor jouw context wat, uh, want jij wil dus marketeers wil jij meer bewust of meer kennis geven rondom AI en dan specifiek agentic AI. 
+Perfect. Not that, not that I need to go through that again today.
+
+Uh, so once more. So AI. What is AI? Is that what you asked?
 
 > *[Me]*
-> *Ja, en heel specifiek ben ik een stuk onderzoek aan het doen naar waar nu de waarde uit gehaald wordt. *
+> *Exactly. I'm doing research on the question: how can marketing managers use AI, agentic AI to create value? But then you need to scope it together of course: what is agentic AI to someone?*
+
+> *[Me]*
+> *So tell me more.*
 
 [Them]
-Ja. 
+When you talk about, yes look, AI is of course a concept that has existed since 1956. Uh, the Dartmouth Summer Research Project by a number of very wise gentlemen, uh, was once built and became a concrete research project from a working theme essentially.
+
+Um, yes, and, uh, that of course started with linking simple programs together with little tasks. And eventually that became a small network and then it just grew into a complete, uh, yes, into a whole clone of our entire, uh, entire way of, uh, of thinking. Um, and when you then talk about agentic. Uh, I recently saw a very nice diagram that really laid it out nicely. You have all sorts of different forms, but agentic is of course really that you can, yes, have autonomous tasks executed with a smart layer that ultimately takes care of, uh, yes, things that we would otherwise need to do with our brains. To put it very simply.
 
 > *[Me]*
-> *En dat zit voor een deel in, uh, gewoon bij marketingorganisaties rondkijken wat, wat ze doen, hoe ze de waarde eruithalen. En voor een deel spreek ik met mensen die wat meer in een adviesrol zitten over: wat zien ze dan bij organisaties? Uh, wat, wat voor advies wordt er dan gegeven om uiteindelijk te zorgen dat AI en specifiek agentic AI natuurlijk niet alleen een gave leuke hype is, maar ook iets is waar gewoon concreet waarde mee gehaald wordt. En dat kan natuurlijk harde euro's zijn. Het kan ook efficiëntie zijn, het kan ook werkgeluk zijn. Of uh plezier voor een klant. Al die verschillende elementen die, die passen eigenlijk binnen, binnen mijn vraagstuk. *
-
-> *En ik ben dus, uh, echt aan het kijken van oké, maar wat is nou nodig om dat tot een succes te maken? En de ene die zit veel meer aan de organisatorische kant en die vindt het leuk om daar wat over te vertellen en de ander die gaat meer op de techniek en de mogelijkheden die er zijn. *
+> *Yes, I think that's correct. Uh, academically speaking agentic AI isn't very well defined. So what I usually target is two elements. On the one hand the ability to plan, so that you can give it a task and it thinks itself about what the steps are that it needs to get there.*
 
 [Them]
-Ja. 
+Exactly.
 
 > *[Me]*
-> *Dat is in principe allemaal relevant. *
+> *And, uh, on the other hand also the component of executing. So that it for example says: no, I now need a step to pull in some extra context so I know a bit more. Or now I'm going to turn on this flag in that system or whatever. That it can therefore also actually apply something. Uh, and that is therefore also the scope of my research. I'm really looking for what are the actual agentic, uh, solutions we can deploy to help those marketing managers. Um.*
 
 [Them]
-Nou ja, uhm kijk uiteindelijk wat wij bij onze klanten neerleggen is, uh, we hebben een aantal verschillende, uh, lagen hoe we uiteindelijk ook kijken naar AI binnen een organisatie. En of dat nou gewoon AI toepassen is zoals je dat met een, een chatbot doet, hè, als een ChatGPT of Claude of een, of een Gemini waarin je interacties hebt of verder dus dat je gaat prompten. Maar, uh, je hebt aan de ene kant natuurlijk, uh, het simpele directe input output verhaal. Of je hebt dus inderdaad het aansturen van agents en dat vervaagt natuurlijk steeds meer. Je ziet dat ook gewoon Claude eigenlijk op de achterkant inmiddels allerlei agents al heeft draaien. En wat is dan een agent, hè?
+If I sum it up nicely here, right — an advanced form of artificial intelligence that can act autonomously, make decisions, and execute complex multi-step tasks to achieve a specific goal without constant human intervention. Well, there you have it,
 
-Iemand, uh, is dat een deep research activiteit die je gaat doen in Gemini en vervolgens gaat ie, uh, honderd webpagina's uit zitten spitten. Dat is eigenlijk feitelijk ook al een agent die je aan het werk zet. Uhm, hè, want uiteindelijk gebeurt er iets die, uh, en er komen analyses op basis van informatie die weer verzameld wordt. En zo maakt het natuurlijk stapjes. Nou ja, uh, het denk ik, het interessante is dat, uh, met de komst van OpenAI en Claude, uh, in november afgelopen jaar dat daar natuurlijk agentic echt in een keer een, uh, een nieuw leven ging krijgen. Waarin, uh, waarin het autonome gedrag ook in één keer heel erg zichtbaar werd.
-
-Hè, dat je natuurlijk een opeenstapeling hebt van stapjes, uh, waarbij het ene iets anders triggert. Hè, en voorheen moest je dat allemaal programmeren en nu heb je eigenlijk een soort van AI laag ertussen, hè, uh, die, uh, op basis van interacties met andere, uh, systeempjes weer allerlei nieuwe acties kan triggeren. En ja, dan hangt alles in één keer samen aan elkaar en voor je het weet, uh, ben je de controle kwijt. Natuurlijk heel erg interessant. Uhm, hè, dat betekent dat natuurlijk ook zo'n, uh, tool inventief is om alles te gaan doen wat uiteindelijk maar binnen de mogelijkheden, uh, is gegeven.
-
-Waarbij mensen ook zeggen: ja, schoon mijn e-mail op en vervolgens alle data uit hun e-mail verliezen en zeggen: ja, het is wel schoon, mijn lege database. Ja.
+nicely defined. But okay, yes, you know, you can go on about that for a very, uh, very long time. Look, I, I.
 
 > *[Me]*
-> *Ja, ja, zeker weten. *
+> *You need to put a box around it, right, that's always important.*
 
 [Them]
-Hè, en, uh, nou ja, goed, maar, dat is even het perspectief. Maar uiteindelijk wat wij vooral doen binnen bedrijven is echt twee dingen. Je hebt, uh, AI voor persoonlijk gebruik, je hebt AI voor, uh, teams om samen te werken binnen een teamomgeving, uh, en je hebt AI voor bedrijfsmatige strategische aspecten. 
-
-En naarmate je, uh, persoonlijk, dat is gewoon inderdaad die één-op-één chat, maar dat kan ook wel een tooltje zijn en dat kunnen ook al jouw persoonlijke kloon zijn die in principe alle dingen gaat doen. Jouw agent die vervolgens verschillende taken gaat uitvoeren waar jij voorheen nooit nog toegang toe had en nu in één keer wel. Uhm, en uiteindelijk als je dat in een team gaat doen, moet je natuurlijk toch ook die, uh, die afstemming en die samenwerking hebben. Dus dat vraagt toch net even wat andere dynamieken en ook net wat andere, ja, dan ga je meer van een, van een taak of een mini proces naar een, een soort van werkdomein of een reeks van processen en verschillende functies die allemaal samenkomen.
-
-Ja, en als je het dan hebt over strategisch, dan heb je het echt over een combinatie van allerlei werkpraktijken of werkdomeinen die allemaal, uh, in elkaar gaan overlopen als één grote business. Nou, uhm, en daar heeft AI natuurlijk op diverse aspecten een impact op. En hoe ik uiteindelijk in de basis altijd zie je hebt natuurlijk gewoon, uh, iets is input en dat levert output en daar moeten, dat loopt door verschillende stapjes heen. Uh, en wat wij als mens doen is wij bepalen de input en we beoordelen de output.
-
-En wat AI nu voortaan kan gaan doen is natuurlijk niet alleen maar het van het ene plekje naar het andere plekje brengen, maar ook inhoudelijk bekijken wat er uiteindelijk moet gebeuren op basis van patronen en voorspellingen en in inzichten die uiteindelijk weer vanuit allerlei aspecten, uh, of, uh, van allerlei bronnen vandaan komen. Om het maar even heel erg simpel plat te slaan. En, uhm, uiteindelijk wat je in een organisatie wil doen is je wil dat doen op, op drie dingen. Ofwel je wil jouw processen die je hebt, uh, makkelijker en sneller maken. Dus lees efficiëntie. Je wil, uh, sturen op een kwaliteitsverbetering.
-
-Dus je kan natuurlijk, je hebt eigenlijk meer tijd beschikbaar of je hebt meer, uh, activiteit of capaciteit beschikbaar om dingen uitvoeriger, grondiger, diepgaander misschien, uh, databronnen te gaan combineren, waardoor je uiteindelijk in staat bent om betere kwaliteit te gaan leveren binnen hetzelfde tijdsaspect. En als laatste, uh, je bent in staat om allerlei verschillende informatiebronnen aan elkaar te knopen en daarmee betere inzichten te hebben die je voorheen eigenlijk nooit had gedacht dat je die aan elkaar kon, ko, uh, kon koppelen. Nou, en, uhm, als je het puur hebt over gener, uh, generative, hè, dus generatieve AI, dat is hartstikke leuk en dat is natuurlijk puur op basis van patronen.
-
-De ene pixel volgt de andere. De ene sa-geluidsgolf komt na de andere, de ene lettergreep volgt weer door de andere. Dat zijn natuurlijk hele simpele manieren en op basis van al die complexe patronen is dat natuurlijk een beetje opgebouwd. En als je die combinaties en daar werken we natuurlijk naartoe, maar daar zijn we nog niet. Als je dat natuurlijk gaat combineren met voorspellende AI, dan kom je natuurlijk echt naar een AGI niveau. En, uh, hè, want, uh, generative AI engines, die kunnen niet rekenen. Dus één plus één blijft nog een ellende. Ze kunnen ook niet tellen. Ik weet niet of je heel lang dat verhaaltje had van een strawberry bijvoorbeeld, hè, hoeveel R'en zitten er in een strawberry?
-
-Ik weet niet of je dat kent. Uhm, dus daar zie je natuurlijk heel veel, uh, ja, uh, gewoon, uh, dingetjes waarbij het ene, uh, het ene AI systeem nog niet het andere is. En naarmate we natuurlijk steeds meer in staat zijn om al die achterliggende systemen aan elkaar te koppelen, meer geheugen daartoe beschikbaar te stellen, meer rekenkracht daartoe beschikbaar te stellen. Ja, dan zul je dus natuurlijk ook zien dat die modellen allemaal steeds beter worden en, uh, en steeds geavanceerder worden.
-
-Nou, dan kun je er nog allerlei toeters en bellen aan hangen. En zeker, uh, en dat is natuurlijk de grap wat er dus gebeurt, hè, naarmate je, uh, ja, uh, specifieke tooltjes ook hebt, hè, om bijvoorbeeld een presentatie te maken of om juist weer video's te genereren. Ja, als de ene weer beter is, uh, in staat is geweest om patronen te leren, daar weer hekjes omheen te zetten en te zorgen dat het binnen een bepaalde bandbreedte acteert en alleen maar dat element gaat gebruiken, dan zie je dat die een bepaalde tool in één keer beter is dan de generieke tools zoals we die kennen als een ChatGPT of een Claude of, uh. Of een chat. Sorry, of een open. Wat zeg ik nou? Cloud of een Gemini? Ja, 
-
-we misten al of net wat je wat je leuk vindt. Maar goed, kijk, uiteindelijk heb je hetzelfde aspect op, op het lezen van eiwitten, het lezen van, van chemische structuren. En dat gaat zo gek als je het niet kan bedenken. Zolang je maar een patroon leert, dan weet je dus wat honden en katten zijn. Zo zeg ik dat altijd maar. En als je me genoeg vertelt dat is een kat en dit is een hond, dan kun je uiteindelijk ook zelf wel bepalen hoe zo'n systeem een beetje werkt. Nou, dat is in een notendop zoals wij het vaak naar onze klanten toe brengen. 
-
-En dat zijn ondernemers en die moeten we proberen in zoveel mogelijk Jip-en-Janneketaal uit te leggen waar het over gaat. En vaak zitten ze niet eens te wachten over hoe het werkt. Het enige wat wel belangrijk is, is dat ze snappen dat wat je erin stopt uiteindelijk bepalend is voor wat er uit komt. En modellen die zijn op zich hartstikke slim, maar als je ze de complete wereld instuurt, dan ben je ergens op een of ander apparaat in Palo Alto ben je aan het programmeren en die weet niet eens wat het is, dus laat staan dat die weet wie jij bent. Dus dat moet je allemaal natuurlijk als context mee gaan geven. En dat noemen wij zogenaamde super stagiaires. Dus die super stagiaires.
-
-Het werkt eigenlijk bijna hetzelfde en inmiddels hebben we dus hele legers van die super stagiaires en die kunnen zichzelf al best een goed eind trainen. Maar gelukkig zijn we als mensen daar nog steeds noodzakelijk om in ieder geval als human in the loop dat proces te sturen. Nou, dan heb je het over marketeers. Nou, heel erg leuk. Even mijn perspectief rondom marketeers en stel zo meteen maar een paar vragen hoor van welke richting ik dit gesprek op wil voeren. Want ik kan eindeloos lullen, maar als je het hebt over marketing.
+No, that's really true. And now for your context — because you want so, you want to make marketers more aware or give them more knowledge about AI and specifically agentic AI.
 
 > *[Me]*
-> *Zeker tot nu toe gaat het nog goed. Anders kijk ik alleen maar. Ik heb wel heel veel blaadjes. Tot nu toe gaat het goed. *
+> *Yes, and very specifically I'm doing a piece of research into where the value is currently being extracted.*
 
 [Them]
-Ja nee, maar als je het hebt over, over marketeers. Ik, ik heb zelf een marketing achtergrond en 
-
-ja, weet je, er is onwijs veel mogelijk. Maar ook hier gaat wat je erin stopt komt eruit als jij accepteert dat je met ja, zeg maar marketingteksten kan schrijven. Schrijf prachtige teksten alleen. Ja, het is wel AI gedreven. Het is gebaseerd nog steeds op Engels, dus als jij een Nederlandse tekst wil hebben ja, ook leuk, maar ik zie marketeers aan de ene kant de technische marketeers. Ik denk een aantal jaren geleden was het een beetje zo van ja, wat heb je nou nodig als, als marketeer in een digitaal tijdperk? Nou, dan zei je ja, in het begin was dat je moet. Je moet creatief zijn. Je moet concepten kunnen denken. Nou, hele belangrijke eigenschap.
-
-Maar als je dan naar die digitale transitie gaat, dan moeten mensen data en technologie gaan leren begrijpen en dat te weten combineren met creativiteit.
-
-Nou en dan denken mensen ja, creatief en technologie, dat gaat helemaal niet samen. Nou, dat gaat heel goed samen. Sterker nog, als jij slim met AI weet te werken, dan ben je creatiever dan elke idioot dan ook. En dat komt er gewoon op neer. Want ook hier is het een voorspellingsmodel. Je moet alleen precies omgekeerd met zo'n model gaan werken. Dus je moet niet binnen de voorspellingen gaan werken. Je moet buiten de voorspellingen gaan werken. Nou, als je op die manier gaat brainstormen met zo'n systeem, dan is het onwijs leuk. En dan kom je dus op ideeën die nog nooit iemand misschien eerder of misschien heel zelden had bedacht. Omdat je juist net zoals die AlphaGo.
-
-Ik weet niet of jij dat kent, het spelletje Go. Ik weet niet of je er wat van meegekregen hebt, maar je hebt in een spelletje gezeten zei je net dus dan.
+Yes.
 
 > *[Me]*
-> *Ja, ik. Ik studeerde toen AI toen dat allemaal gebeurde. Dus ik zat toen echt super diep in de academische wereld. En dit waren allemaal dingen die ik. Ja, ik heb al die papers gelezen toentertijd. *
+> *And that comes partly from, uh, just looking around at marketing organizations at what they do, how they extract the value. And partly I speak with people who are more in an advisory role about: what do they see at organizations? Uh, what kind of advice is given to ultimately ensure that AI and specifically agentic AI isn't just a cool fun hype, but also something where real concrete value is being extracted. And that can of course be hard euros. It can also be efficiency, it can also be work happiness. Or pleasure for a customer. All those different elements — they all actually fit within my research question.*
+
+> *And so I'm really looking at: okay, but what is needed to make that a success? And one person is much more on the organizational side and enjoys talking about that, and another goes more into the technology and the possibilities.*
 
 [Them]
-Ja, nou ja en wat is zo wat zo gaaf is aan dat moment. Ik ben even die naam van die van die speler kwijt die uiteindelijk afgedropen is en nooit meer gezien is geloof ik. Die verloren van een computer. 
+Yes.
 
 > *[Me]*
-> *AlphaGo ga ik nooit vergeten, maar de speler die is gelijk weer. *
+> *That's all in principle relevant.*
 
 [Them]
-Maar die, die beste man, die die die uiteindelijk in het systeem was het was de zet dus dusdanig creatief dat het iets was wat nog nooit voorgekomen was. Terwijl je dan eigenlijk zou verwachten op basis van alle trainingsprotocollen was dit gewoon een ding wat je had kunnen leren. Maar het systeem had zoiets nog nooit gedaan en dat was denk ik het hele verband waarin je ook kan bewijzen dat creatief ook binnen AI mogelijk is. Nou goed, al met al terug naar die marketeers, want daar gaat het over. Kijk uiteindelijk het alles wat onder een systeemplafond gebeurt en bij marketing gebeurt er best veel onder een systeemplafond 
+Well, um, look, ultimately what we put to our clients is, uh, we have a number of different layers in how we ultimately also look at AI within an organization. And whether that's just applying AI like you do with a chatbot, right, like a ChatGPT or Claude or a Gemini where you have interactions or further so that you start prompting. But, uh, you have on the one hand of course the simple direct input output story. Or you have indeed the orchestrating of agents and that is of course blurring more and more. You can even see that Claude on the backend now already has all sorts of agents running. And what is an agent then, right?
 
-is vervangbaar door AI. De vraag gaat zelfs zijn als je dat heel erg ver gaat trekken wat is de functie van marketing in een toekomst waarin zeker op het technologische stuk alles vervangen kan worden door AI? 
+Someone — uh, is that a deep research activity you're going to do in Gemini and then it starts churning through a hundred web pages. That is actually already an agent you're putting to work. Um, right, because ultimately something happens, uh, and analyses come based on information that is being collected. And so it naturally takes steps. Well, uh, the interesting thing I think is that, uh, with the arrival of OpenAI and Claude, uh, in November last year, agentic really got a, uh, a new life all at once. Wherein, uh, the autonomous behavior also became very visible all at once.
 
-Wat is dan nog marketing? En ik denk dat dat een leuke hypothese is om die eens om die te toetsen, maar uiteindelijk in dat vergezicht terug te brengen. Ja, weet je, ik denk dat als je nu al kijkt naar de ontwikkeling van een mold boek 
+Right, that you naturally have a stacking of steps, uh, where one triggers something else. Right, and previously you had to program all of that and now you essentially have a sort of AI layer in between, uh, that, uh, based on interactions with other, uh, small systems can trigger all sorts of new actions. And yes, then everything suddenly hangs together and before you know it, uh, you've lost control. Of course very interesting. Um, right, that also means that such a, uh, tool is inventive enough to go and do everything that is ultimately within the given possibilities.
 
-en dat is maar een opstapje, maar waarin een complete virtuele wereld gaat ontstaan. En dit is dan geen Second Life verhaal, maar daadwerkelijk gewoon waarin agents op de achtergrond als computertjes met elkaar een beetje als mensen met elkaar aan het praten zijn, zelfs heimelijk dingen bij elkaar proberen te ontfutselen zoals API sleutels en creditcardinformatie en dat soort dingen. Om maar weer een nieuwe licentie ergens te kunnen aanschaffen. Om dan toch die voice call te kunnen doen naar iemand waar credits voor nodig zijn om tokens te gebruiken. Nou ja, dus uiteindelijk in dat hele perspectief denk ik dat het heel raar gaat zijn dat je 
-
-ja, dat een, een e-mail wordt dadelijk door een agent gelezen. Dus een e-mail wordt door een agent gegenereerd en die wordt door een andere agent weer gelezen. Ja dus hoe gaan wij daar als mensen mee om? En uiteindelijk gaat dat natuurlijk vanuit marketing werk je met je doelgroep. Je werkt met je communicatiekanalen. Dus hoe ga je nou mensen bereiken? Nou, ik denk dat dat uiteindelijk de marketing weer teruggaat naar oldskool marketing.
-
-Dus naar dingen die wij, zeg maar in een nieuwe wereld waarin technologie zichzelf reguleert en misschien ook wel, uh, zichzelf dood reguleert, hè, want die kans bestaat ook nog dat op een gegeven moment gewoon alleen maar hergebruik is van informatie en dat het internet en de vernieuwing daarin dood is. Maar dat je natuurlijk te maken hebt met, uh, toch weer de persoonlijke interacties. Dus je krijgt toch weer, uh, allerlei out of home, uh, zeg maar evenementen, uh, maar ook, uh, wat meer real life content.
-
-Dat zie je nu al, hè, dus je ziet de enorme opkomst van mensen die achter een podcast microfoontje gaan zitten, uh, en uiteindelijk daarmee bezig zijn om, uh, ja, toch op een andere manier content te genereren die nog steeds de validiteit van het echte heeft. Nou, hè, en om op dat thema door te komen merk je ook dat, uh, ik had laatst een leuke podcast met iemand die zei ook van: joh, ik luisterde een, een liedje en ik, ik vond het zo fantastisch. Het was echt een prachtig liedje en ik hoorde dat en ik dacht— en ik realiseerde me later toen iemand mij dat zei, die zei: ja, maar dat is volledig AI gemaakt. Dat ik dacht: ja, maar dat is gek.
-
-En toen was het liedje helemaal niet meer leuk, want uiteindelijk was dat in één keer dat de ziel eigenlijk uit het liedje verdwenen was. En in die context, hè, het was gewoon te perfect. Nou, en dat, en dat is denk ik waar je ook al een leuke tendens op ziet. Ik weet niet of je daar zelf nu mee bezig bent geweest, maar dat natuurlijk videotjes allemaal fantastisch zijn. Teksten zijn zo ontzettend goed geschaafd en geslepen en zeker door de, door de geavanceerde AI gebruikers binnen marketing ook. Hè, en dan krijg je nog honderd van die skills die je eroverheen kan pleuren waarbij je zegt: nou doe even alsof jij gewoon echt een mens bent.
-
-Dus kijk ook vooral naar al die, uh, kleine misfits die uiteindelijk AI produceert, zoals drie keer hetzelfde of weet ik veel wat. Nou, maar, uh, dat alles ontzettend perfect wordt en, uhm, dat je daarmee dus weer een tendens krijgt dat mensen denken: ja, ik ga daar bewust een foutje in zetten. Hè, dus alle live content die ik maak als, uh, vlogger, dan stop ik er toch maar een foutje in, want dan weet je in ieder geval: hé, dit is echt. Nou goed, dus in die ontwikkeling en daarbij zie ik gewoon dat marketeers nog steeds veel te weinig doen om het echt te omarmen. En dat betekent niet dat ze, e-, e-, ze moeten juist op dat randje gaan zitten van foutjes en, uh, en de interactie en waar doe je marketing voor?
-
-En waar zit nou echt de meerwaarde van marketing? En daar moet je volgens mij ook als marketeer op blijven zitten. En alle andere meuk die achter marketing zit, hè, uh, gewoon qua administratieve rompslomp, dat soort dingen. Ja, laat dat dan in godensnaam over aan AI. Maar zorg wel dat jouw AI engines dusdanig goed getraind, ook door jezelf, zijn met de juiste context, met de juiste data, ook met de juiste inzichten, uhm, en hou dat lekker voor jezelf en ga dat niet vooral de wereld in slingeren. En ben dan ook bewust in hoe je systeem gebruikt en ga vooral niet met gratis platformen aan de haal. Nou, dat zei ik, uh, [lacht] in een hele notendop. Heel veel informatie waar je denk ik, uh, heel erg-
+Where people also say: yes, clean up my email — and then lose all the data from their email and say: yes, it is clean, my empty database. Yes.
 
 > *[Me]*
-> *Nou ja, ik denk dat we inderdaad, uh, een kaart gelegd hebben met elkaar en dan, uh, ik ga er gewoon lekker vier uur op inspelen. Je zegt eigenlijk van: hé, alles wat, volgens mij zei je onder het systeemplafond hangt, dat kan de AI automatiseren. Uhm, *
-
-> *[Me]*
-> *ik wilde natuurlijk gewoon lekker, aan de ene kant is het goed dat we met elkaar denk ik high over, uh, de hele copter view gepakt hebben en zien waar het heen gaat en dat een beetje visionair doen. Ik zou nu bij jou een proe-, willen proberen om een beetje down to earth te krijgen van *
-
-> *[Me]*
-> *maar, maar oké, maar we, we denken dat, uh, AI alles, alle technologische dingen, alles aan de achterkant voor de marketing kan automatiseren. Maar waar staan we nu en wat, wat hebben we nodig om dat tot een succes te maken? En waar zien we dan in de use cases die, die waarde opleveren al? And what is misschien nog niet klaar om, uh, nu toe te passen? *
-
-> *[Me]*
-> *Misschien, misschien starten bij de use cases. Waar zie jij dat n-nu echt waarde uit gehaald kan worden? *
+> *Yes, yes, absolutely.*
 
 [Them]
-Nou in SEO. 
+Right, and, uh, well okay, but, that's the perspective. But ultimately what we mainly do within companies is really two things. You have, uh, AI for personal use, you have AI for, uh, teams to collaborate within a team environment, uh, and you have AI for business strategic aspects.
 
-Search engine optimization zit al direct de waarde. uhm, non value add videomateriaal, ik noem het zo maar eventjes, uh, of, uh, en, uh, 
+And as you, uh, personally — that's just indeed that one-on-one chat, but it can also be a small tool and it can already be your personal clone that in principle goes and does all things. Your agent that then executes various tasks that you previously never had access to and now suddenly do. Um, and ultimately when you go to do that in a team, you naturally also need that, uh, alignment and that collaboration. So that requires just a bit different dynamics and also just a bit different — yes, then you go more from a task or a mini process to a, a kind of work domain or a series of processes and different functions that all come together.
 
-uiteindelijk in, als je nu kijkt ik werk met Monks samen. Uhm, als je kijkt wat op wat voor niveau zij al reclamemateriaal kunnen maken, dan denk je echt van waarom moeten ze nog enorme, uh, videografen, uh, voice-overs, mensen allemaal ergens naartoe vliegen en, uh, en eindeloos daarmee bezig zijn. Ja, waarin ze gewoon bewijslast hebben dat je een ca-, dat je een totale, ik noem het al maar een Super Bowl, Super Bowl commercial kan maken met alle assets die erachter zitten voor communicatie op de socials, op je website. Nou noem de hele sjabbeng maar op, dat je dat gewoon in vier dagen kan doen in plaats van in een half jaar.
+Yes, and when you then talk about strategic, then you're really talking about a combination of all kinds of work practices or work domains that all, uh, flow into each other as one large business. Well, um, and AI naturally has an impact on various aspects of that. And how I ultimately at the basis always see it — you naturally just have, uh, something is input and that delivers output and that runs through various steps. Uh, and what we as humans do is we determine the input and we evaluate the output.
 
-En dus met een één of twee mensen in plaats van met 72 mensen waar je gewoon miljoenen lichter bent en dat je dit gewoon voor echt een, uh, ja, uh, in verhouding met peanuts voor minder dan een ton kan doen. Ja, dat had niemand denk ik voor ogen gehad. En als je dan het naar het verhaal van Victor, uh, Knaap luistert dus van Monks misschien sowieso wel interessant voor jou om even daar wat meer in te kijken. Dat hij ook gewoon zegt: ja, ik had een, ik had een creatief bureau van 8.000 mensen, maar inmiddels heb ik wel in de projectie daar terug naar 100.000.
+And what AI can now additionally do is of course not just bring it from one place to another, but also look at content to see what ultimately needs to happen based on patterns and predictions and insights that ultimately come again from all kinds of sources. To put it very simply. And, um, ultimately what you want to do in an organization is you want to do that on three things. Either you want to make your existing processes easier and faster — so read efficiency. You want to, uh, steer toward quality improvement.
 
-Ja, en da-, en dan kun je zeggen: ja, uh, AI werkt niet. Nou, AI werkt zeker. Het enige wat je wel heel erg ziet in die, in diezelfde marketing ge-, marketingwereld is natuurlijk de enorme weerstand die mensen hebben, 
+So you can of course — you basically have more time available or you have more, uh, activity or capacity available to combine things more extensively, more thoroughly, more deeply perhaps, combining data sources, which ultimately enables you to deliver better quality within the same time frame. And lastly, uh, you're able to link all sorts of different information sources together and thereby have better insights that you previously never thought you could connect. Well, and, um, when you purely talk about genera-, uh, generative, right, so generative AI — that's really fun and is of course purely based on patterns.
 
-uh, en dat ze allemaal maar vinden: ja, het is niet goed genoeg, het kan allemaal beter. Nou, als je kijkt wat Monks levert, serieus, dat is nagenoeg, uh, echt optimaal van wat, wat vandaag de dag kan. En dat is vaak nog beter dan de kwaliteit die uiteindelijk, uh, door, uh, door mensen gemaakt wordt. Dat wil nu niet zeggen dat dat per se beter is in de uiteindelijke uitwerking of uitlevering. Maar, uh, ja, als je dan ziet wat natuurlijk die hele reuring was geweest rondom die Coca Cola reclame en die McDonald's reclame waar ze dan allemaal een beetje schijnheilig zijn. Ja, we willen iets met AI doen, maar we houden het maar een beetje afstandelijk.
+One pixel follows another. One sound wave comes after another, one syllable follows through another. Those are of course very simple mechanisms and based on all those complex patterns that's how it's somewhat built up. And if you then combine those — and that's what we're working toward, but we're not there yet. If you naturally start combining that with predictive AI, then you naturally really get to an AGI level. And, uh, right, because, uh, generative AI engines can't do arithmetic. So one plus one remains a struggle. They also can't count. I don't know if you had that long-running story about a strawberry for example, right — how many R's are in a strawberry?
 
-Nou weet je, voor mensen maakt het volgens mij ook helemaal geen reet uit. En dat het AI is, als het maar dat doet wat het moet doen en als je er ook maar niet over liegt. Ik bedoel als je gewoon maar zegt ja, dit is met AI gemaakt. Ja, wat dan? Weet je wel. Kijk en dat heeft er ook alles mee te maken als jij, uh, fraude gaat plegen of foute dingen gaat doen. Ja, dat is natuurlijk iets heel anders. En als je dat met AI doet, ben je aan het oplichten. Maar ik vind niet dat je AI, weet je, wa-wat denken we nou? Dat wij in de, in de Hollywood wereld al niet al jarenlang gefopt zijn met alle James Bonds die uiteindelijk overal in rare ruimtes aan het vliegen waren.
+I don't know if you know that. Um, so there you see a lot of, uh, yes, uh, just small things where one AI system is not another. And as we of course become increasingly able to link all those underlying systems together, make more memory available for that, make more computing power available. Yes, then you'll naturally also see that those models all keep getting better and more advanced.
 
-Nou, die zaten echt niet in een ruimtepak ergens in, uh, achter de maan.
+Well, then you can hang all kinds of bells and whistles on it. And certainly, uh, and that's of course the trick about what happens, right, as you, uh, yes, also have specific small tools, right, for example to make a presentation or specifically to generate videos. Yes, if one has been better able to learn patterns, put fences around that and ensure it acts within a certain bandwidth and only uses that element, then you see that a certain tool is all at once better than the generic tools as we know them like a ChatGPT or a Claude or — or a chat. Sorry, or an open. What am I saying now? Cloud or a Gemini? Yes,
+
+we already missed — whatever you like. But okay, look, ultimately you have the same aspect with reading proteins, reading chemical structures. And that goes as wild as you can't imagine. As long as you learn a pattern, then you know what dogs and cats are. That's how I always put it. And if you tell it enough that this is a cat and this is a dog, then you can ultimately also determine yourself how such a system sort of works. Well, that's in a nutshell how we often bring it to our clients.
+
+And those are entrepreneurs and we need to try to explain in as plain language as possible what it's about. And often they're not even waiting to hear how it works. The only thing that is important is that they understand that what you put into it ultimately determines what comes out. And models are in themselves incredibly smart, but if you send them the whole world, you're on some device in Palo Alto — that thing doesn't even know what it is, let alone that it knows who you are. So you need to provide all of that as context of course. And we call those so-called super interns. Those super interns.
+
+It actually works almost the same and we now have whole armies of those super interns and they can already train themselves quite well. But fortunately we as humans are still necessary to at least steer that process as human in the loop. Well, then you're talking about marketers. Well, very interesting. Let me give my perspective on marketers — and feel free to ask a few questions about which direction I want to take this conversation. Because I can talk endlessly, but when you talk about marketing.
 
 > *[Me]*
-> *Die zijn in het echt allemaal dood. *
-
-> *[Me]*
-> *Zou het zijn. *
+> *Certainly, so far it's still going well. Otherwise I'm just watching. I do have a lot of notes. So far it's going well.*
 
 [Them]
-Dus, hè, dus in dat perspectief denk ik altijd van ja, weet je, de, uh, de wereld wordt natuurlijk ook gemaakt door de wereld en marketing wordt ook gemaakt door marketeers. En, uh, en dat is allemaal niet erg. Alleen, uh, wat je, wat je dus ziet, hè, want je vroeg ja, waar staan we vandaag de dag? Nou ja, wat ik vooral heel erg zie is dat je hebt echt twee soorten marketeers. Uh, de marketeers die het gewoon doen, die hoor je er niet eens over praten. Die zijn gewoon enthousiast en die hebben gewoon mooie voorbeelden. Lees maar even, zeg maar een Monks en dan hebben zie je ook partijen als een Google die dat omarmen, maar ook een BMW.
+Yes no, but when you talk about, about marketers. I, I have a marketing background myself and
 
-Uhm, maar er zijn ook heel veel bedrijven die allemaal heel terughoudend zijn. En ik kan me voorstellen als jij een bureau bent als WPP bijvoorbeeld met, uh, weet ik veel hoeveel honderd mensen die jij voor je hebt werken. Ja, wat ga je met al die, wat ga je met al die mensen doen dadelijk? Maar ook in je eigen bedrijf marketing. Ik-- we werken veel voor MKB en marketing is wat dat betreft nog niet eens, uh, het belangrijkste in dat bedrijf. We zitten heel veel met maakbedrijven bijvoorbeeld. Nou, als ze al een marketeer hebben, dan mogen ze al in hun handjes klappen. Dus iemand is vaak meer gericht op social.
+yes, you know, there's an enormous amount possible. But also here it's what you put in comes out — if you accept that you can, yes, let's say write marketing texts. Write beautiful texts alone. Yes, it is AI driven. It's still based on English, so if you want a Dutch text yes, also nice, but I see marketers on the one hand — the technical marketers. I think a few years ago it was a bit like: yes, what do you need as a marketer in a digital age? Well, then you said yes, in the beginning that was — you must be creative. You must be able to think in concepts. Well, very important quality.
 
-Uh, of die doet even wat dingetjes op LinkedIn of een bedrijfspagina, websiteje of zo, maar echt heel actief marketing zoals we dat kennen. Ja, uh, dat valt nog wel mee, maar mensen zijn wel aan het experimenteren en er gebeurt wel van alles. Maar ik moet daarbij wel zeggen als je het goed wil doen, als je goed AI wil gebruiken, heb je nog steeds vaardigheden nodig.
+But when you then go to that digital transition, then people need to learn to understand data and technology and be able to combine that with creativity.
 
-En, uhm, en daarbovenop wil ik vooral ook zeggen dat je wat ik dus zei alles onder het systeemplafond kan, 
+Well and then people think: yes, creativity and technology, those don't go together at all. Well, they go together very well. Moreover, if you know how to work smartly with AI, then you're more creative than anyone else. That's essentially what it comes down to. Because here too it's a prediction model. You just have to work with such a model in exactly the opposite way. So you should not work within the predictions. You should work outside the predictions. Well, if you brainstorm with such a system in that way, it's incredibly fun. And then you come up with ideas that perhaps nobody had ever thought of before, or maybe very rarely. Because you're just like that AlphaGo.
 
-maar maak het nou eens heel klein. Begin nou eens gewoon met één element. Dus pak nou inderdaad je search engine marketing, ga door al je webpagina's heen en laat al die webpagina's gewoon helemaal opnieuw ijken en optimaliseren aan de hand van databronnen die je kan koppelen. Maar ook dat is één taak. En ik kan me voorstellen, ja, een marketeer heeft honderd taken. Niet erg, maar ga gewoon je, uh, vinken van waar heeft het nou de meeste impact? Wat wil ik nou bereiken? Als ik mijn werk niet aankan, moet ik, kan ik van één campagne naar honderd campagnes. Nou ja, dat kun je gaan doen, maar dan moet je dus gaan nadenken over hoe je dat helemaal af gaat pellen. 
-
-> *[Me]*
-> *Ja. Ja, ik vind het wel grappig wat jij, je hebt het over achter het plafond. Uh, dat klinkt voor mij bijna alsof het meteen een technische kant is. Maar als ik jouw voorbeelden hoor, dan denk ik juist van dat is, dat is echt de content kant van marketing *
+I don't know if you know it, the game of Go. I don't know if you've picked up anything about it, but you were involved in that you said just now, so.
 
 > *[Me]*
-> *die dan, uh. *
+> *Yes, I. I was studying AI when all that happened. So I was really deep in the academic world at that time. And these were all things that I — yes, I read all those papers at the time.*
 
 [Them]
-Maakt niet uit. Kijk, ik bedoel als je met, met SEO is het natuurlijk, is ook vooral een technische expertise, maar alles zit alsnog in een database weggepropt 
-
-dus, uh, en uiteindelijk is het ook maar net begrijpen hoe uiteindelijk bepaalde algoritmes weer werken die aanhaken op die data die jij uiteindelijk beschikbaar stelt aan zo'n algoritme die daar vervolgens weer iets mee kan doen, hè. Hetzelfde als dat nu de, de wereld van search verandert. En gelukkig gaat het niet zo heel hard als dat iedereen maar dacht dat het zou gaan veranderen. Maar, uhm, het feit dat informatie natuurlijk door, uh, LLM's uiteindelijk in de botjes die binnen die LLM's ingesloten zijn. Lees die agents, ja, die moeten natuurlijk die web scraping doen.
-
-Ja, er is maar één tool die ik echt vertrouw op basis van web scraping en dat is Google zelf, want die zijn in staat om, zeg maar, die data echt optimaal uit te nutten. Dus als je echt een deep research wil gaan doen, ja, dan kun je nog het beste bij Google aan gaan kloppen. Want ja, uh, heel veel dingen worden gewoon inmiddels ook al afgesloten, waaronder Google zelf vaak ook natuurlijk bij content bronnen als een, uh, als, als, als een krant of wat ook.
-
-Dus kijk en het is, het is vooral een combinatie denk ik tussen op nu nog steeds eigenlijk creativiteit, technologie. Maar ik denk dat de data component, ja, wel de allerbelangrijkste factor is, ook bij marketeers van ja, maar, en dat zie ik overal terug, van ja, maar waar focus je dan op? Wat, wat is nou, wat is nou je doel? Waar ga je nou, waar ga je nou mee aan de slag? Wat is nou je succes? Welke doelgroep wil je nou benaderen? En hoe ga je dat nou doen? Waar ga je ze vinden? 
+Yes, well and what's so what's so cool about that moment. I'm temporarily forgetting the name of that player who ultimately walked away and was never seen again I think. Who lost to a computer.
 
 > *[Me]*
-> *Ja. Hé, en we, ik zit ook even naar de tijd te kijken. We hebben nog vijf minuten voordat jij, uh, je zoontje moet brengen. *
+> *AlphaGo I'll never forget, but the player immediately escaped me.*
 
 [Them]
-Ja, we, we kunnen nog wel even, we kunnen nog wel een keer doorpraten hoor, als je dat zegt van, uh. 
+But that man, that excellent fellow who ultimately — in the system it was the move that was so creative that it was something that had never occurred before. While you would actually expect based on all the training protocols this was just a thing you could have learned. But the system had never done anything like that and that I think was the whole context in which you can also prove that creativity is possible within AI. Well okay, all in all back to those marketers, because that's what it's about. Look, ultimately everything that happens below a system ceiling — and in marketing quite a lot happens below a system ceiling —
+
+is replaceable by AI. The question will even be, if you take that very far: what is the function of marketing in a future where certainly on the technological piece everything can be replaced by AI?
+
+What is marketing then? And I think that's an interesting hypothesis to test, but ultimately bring back from that distant vision. Yes, you know, I think that if you already look at the development of a model book
+
+and that's just a stepping stone, but in which a complete virtual world will emerge. And this is not a Second Life story, but actually one where agents in the background are talking to each other like little computers a bit like humans, even surreptitiously trying to extract things from each other like API keys and credit card information and those kinds of things. Just to be able to purchase a new license somewhere. To still be able to do that voice call to someone for which credits are needed to use tokens. Well, so ultimately in that whole perspective I think it's going to be very strange that
+
+yes, that an email will soon be read by an agent. So an email is generated by an agent and that is then read again by another agent. So how do we as humans deal with that? And ultimately that of course goes from marketing — you work with your target audience. You work with your communication channels. So how are you going to reach people now? Well, I think that marketing will ultimately go back to old-school marketing.
+
+So to things that, let's say in a new world where technology regulates itself and perhaps also, uh, regulates itself to death, right — because there's also that chance that at some point it's just reuse of information and the internet and its innovation is dead. But that you naturally deal with, uh, the personal interactions again. So you get back, uh, all kinds of out of home, uh, let's say events, uh, but also, uh, somewhat more real life content.
+
+You can already see that now, right — you see the enormous rise of people sitting behind a podcast microphone, uh, and ultimately generating content in a different way that still has the validity of the real. Well, right, and to get to that theme you also notice that, uh, I recently had a nice podcast with someone who also said: hey, I was listening to a, a song and I, I found it so fantastic. It was really a beautiful song and I heard that and I thought — and I realized later when someone told me, they said: yes, but that's completely made by AI. And I thought: yes, but that's strange.
+
+And then the song was no longer fun at all, because ultimately it was all at once that the soul had actually left the song. And in that context, right, it was just too perfect. Well, and that's I think where you can already see a nice trend. I don't know if you've been working on that yourself recently, but that of course videos are all fantastic. Texts are so incredibly well polished and refined, certainly by the advanced AI users within marketing too. Right, and then you get another hundred of those skills you can throw on top of it where you say: now just act as if you're a real human.
+
+So look in particular at all those, uh, small misfits that AI ultimately produces, like three times the same thing or whatever. Well, but, uh, that everything becomes incredibly perfect and, um, that you therefore again get a trend where people think: yes, I'm going to deliberately put a mistake in there. Right, so all the live content I make as a, uh, vlogger, I'll put a mistake in it anyway, because then you know at least: hey, this is real. Well okay, so in that development — and I just see that marketers still do far too little to really embrace it. And that doesn't mean that they — they should actually sit exactly on that edge of mistakes and, uh, and the interaction and what do you do marketing for?
+
+And where does the real added value of marketing lie? And I think as a marketer you should also keep sitting on that. And all the other junk that sits behind marketing, right, uh, just in terms of administrative hassle and those kinds of things — yes, for goodness' sake hand that over to AI. But make sure that your AI engines are well trained, also by yourself, with the right context, with the right data, also with the right insights, um, and keep that nicely to yourself and don't especially go throwing that out into the world. And also be conscious of how you use your system and especially don't go off with free platforms. Well, I said that, uh, [laughs] in quite a nutshell. A lot of information that you I think, uh, very much —
 
 > *[Me]*
-> *Ja, nee, ik, ik ben vooral nu heel erg benieuwd naar alles wat je verteld hebt. Je, je hintte heel even snel naar marketeers moeten ook echt wel skillsets opbouwen om dit specifiek te doen. Wat merk je dat daarin de grootste unlocks zijn? *
+> *Well yes, I think we've indeed, uh, laid out a map together and, uh, I'll just play with it for four hours. You're essentially saying: hey, everything that — I think you said hangs below the system ceiling, AI can automate that. Um,*
+
+> *[Me]*
+> *I naturally wanted to, on the one hand it's good that we I think together have taken the high, uh, the whole helicopter view and see where it's going and be a bit visionary about it. I would now want to try to bring it a bit more down to earth with you —*
+
+> *[Me]*
+> *but, but okay, we, we think that, uh, AI can automate everything, all technological things, everything at the backend for marketing. But where do we stand now and what, what do we need to make that a success? And where do we already see value being created in the use cases? And what maybe isn't ready to, uh, be applied now?*
+
+> *[Me]*
+> *Maybe, maybe start with the use cases. Where do you see that value can really be extracted right now?*
 
 [Them]
-De grootste unlocks? 
+Well in SEO.
+
+Search engine optimization already has value directly in it. Um, non-value-add video material — let me just call it that for now, uh, or, uh, and, uh,
+
+ultimately in, if you look at it now — I work with Monks. Um, if you look at what level they can already produce advertising material, you really think: why do they still need to fly enormous, uh, videographers, uh, voice-overs, people all somewhere, and, uh, be endlessly busy with that. Yes, where they simply have proof that you can create a ca-, that you can create a total — I'll just call it a Super Bowl, Super Bowl commercial with all the assets behind it for communication on the socials, on your website. Well name the whole lot, that you can just do that in four days instead of in half a year.
+
+And so with one or two people instead of with 72 people where you're simply millions lighter and you can just do this for really a, uh, yes, proportionally for peanuts — for less than a hundred thousand. Yes, nobody I think had envisioned that. And if you then listen to the story of Victor, uh, Knaap from Monks — maybe interesting for you to look into that a bit more anyway. That he also simply says: yes, I had a, I had a creative agency of 8,000 people, but now I have in the projection back toward 100,000.
+
+Yes, and then you can say: yes, uh, AI doesn't work. Well, AI certainly works. The only thing you really see in that, in that same marketing world is of course the enormous resistance that people have,
+
+uh, and that they all find: yes, it's not good enough, everything can be better. Well, if you look at what Monks delivers, seriously, that is almost, uh, truly optimal of what is possible today. And that is often even better than the quality that is ultimately, uh, made by, uh, by people. That's not to say that it's necessarily better in the final execution or delivery. But, uh, yes, if you then see what the whole fuss was of course about with that Coca Cola commercial and that McDonald's commercial where they're all being a bit hypocritical. Yes, we want to do something with AI, but we're keeping it a bit at arm's length.
+
+Well you know, for people I think it doesn't matter in the slightest. And that it's AI — as long as it does what it needs to do and as long as you don't lie about it. I mean if you just say yes, this was made with AI. Yes, so what? You know. Look and that also has everything to do with it if you, uh, are going to commit fraud or do wrong things. Yes, that is of course a very different thing. And if you do that with AI, you're deceiving people. But I don't think that AI — you know, what are we thinking now? That we in, in the Hollywood world haven't already been fooled for years with all the James Bonds who were ultimately flying around in strange spaces everywhere.
+
+Well, they really weren't in a space suit somewhere, uh, behind the moon.
 
 > *[Me]*
-> *Ja, wat, wat zijn nou de belangrijkste skillsets of competenties om je organisatie in te krijgen om nu de waarde van AI en specifiek agentic AI in je organisatie maximaal te kunnen benutten? *
+> *In real life they'd all be dead.*
+
+> *[Me]*
+> *That they would be.*
 
 [Them]
-Nou ja, dat zijn er een, uh, een, een vijftal. Ik moet zeggen, we hebben laatst een, uh, een, een workshop, uh, gegeven. Dat is misschien ook wel even leuk, 
+So, right, so in that perspective I always think: yes, you know, the, uh, the world is of course also made by the world and marketing is also made by marketers. And, uh, and none of that is bad. Only, uh, what you therefore see, right — because you asked yes, where do we stand today?
 
-uhm, waarin je, uhm, ik zal ze meteen even erbij pakken. Uh, kijk, dan begint het eigenlijk van welke tool ga je kiezen voor welk doel? En, uh, en dat begint eigenlijk met het doel. En elk doel heeft een tool en heel veel tooltjes kunnen daarin, zeg maar, moet je gaan mee beginnen en dan zul je vanzelf wel merken of een bepaalde tool uiteindelijk dat doel voor jou kan invullen. 
+Well, what I especially see very strongly is that you really have two types of marketers. Uh, the marketers who just do it — you don't even hear them talking about it. They're just enthusiastic and they just have nice examples. Just look at, let's say a Monks and then you also see parties like a Google that embrace that, but also a BMW.
 
-En dus wat we doen is vooral het platslaan en uiteindelijk kijken naar welk proces je welke taak of welke activiteit wil je nou vervolgens ingevuld gaan krijgen? En zijn er generieke dan wel specifieke tools die dat stukje voor jou kunnen gaan doen. En dan zul je ook vaak zien dat je door moet gaan naar een tweede tool. Dus je moet gewoon binnen jouw gebied van marketing moet je weten welke tools zijn er nou allemaal beschikbaar. En als jij een digitale marketeer bent, moet jij weten welke digitale AI tools er beschikbaar zijn. En als jij meer op het creatieve vlak zit, dan zul je ook moeten weten welke AI tools er gericht zijn op het creatieve stuk. Nou, dat is één. Dus, uhm.
+Um, but there are also a lot of companies that are all very hesitant. And I can imagine if you're an agency like WPP for example with, uh, I don't know how many hundreds of people working for you. Yes, what are you going to do with all those, what are you going to do with all those people later? But also in your own company's marketing. I — we work a lot for SMEs and marketing in that respect isn't even, uh, the most important thing in that company. We work a lot with manufacturing companies for example. Well, if they already have a marketer, they can already count themselves lucky. So someone is often more focused on social.
 
-Maar het kan ook zijn dat je simpelweg gewoon helemaal nog geen AI nodig hebt. Ik bedoel, dat is ook heel simpel. Dus je kan zeggen: ja joh, sorry, maar ik doe dit gewoon nog even lekker op de ouderwetse manier en dat is vaak net zo snel. Dus dat kan ook, hè, dat is een afweging. Maar de, het dient dus het doel. Dus het doel is niet het doel op zich, maar, uh, het doel heeft, ja, kun je inzetten of je kunt het doel bereiken met één of meerdere tools. Dat is één. Uhm, dan is het vooral je data. Dus welke, uh, ja, wat gebeurt er met je data? Welke data heb ik nodig? Wat is de context en wat gebeurt er met al die data die ik gebruik?
+Uh, or they do some things on LinkedIn or a company page, a small website or so, but really very active marketing as we know it. Yes, uh, that's still manageable, but people are experimenting and quite a lot is happening. But I must say: if you want to do it well, if you want to use AI well, you still need skills.
 
-Hè, en dan is het ook al simpelweg je moet gewoon kennis hebben van AVG ofwel de GDPR.
+And, um, and on top of that I especially want to say — what I said: everything below the system ceiling is possible —
 
-Want anders dan raak je gewoon, uh, ja, dan ga je met informatie aan de haal die je ergens bij een ander neerlegt. Dus het is een hele belangrijke vaardigheid om goed te snappen wat je met je data doet en waar je je data voor gebruikt en welke data je ook nodig hebt. Want soms kun je ook zeggen: ja, ik flikker maar gewoon alles erin. Ja, dat gaat ook niet werken, hè. Het blijft nog steeds een systeem en uiteindelijk je systeem heeft een maximum beperking van geheugen en rekenkracht. Ja, dus je kunt zo'n systeem ook niet helemaal volplempen. En als je dat nog zou willen, dan ga je nog eens een keer heel hard in je tokens. Dus dan wordt het alsnog een hele dure exercitie. Nou, dat is, uh, dat is het tweede.
-
-Dus dat is echt, dat ligt alles rondom, ja, weten wat er met je data, weten welke data je gebruikt en wat je ermee kan doen. Nou, dan is het aanbieden van die data, dus de context gaan creëren. Dus wat is de informatie die je gaat bieden aan zo'n AI? En als je dus een, een tool als een Gamma hebt bijvoorbeeld waarin je per, uh, PowerPoint-presentatie kan bouwen of zo, ik noem maar even wat specifieks, ja, dan heeft zo'n tool al heel veel hekjes gekregen, dus die is al heel erg, hè, gekaderd. En die heeft daarnaast ook nog eens heel veel al geleerd van presentaties. Dus die heeft eigenlijk nog meer katten en honden foto's gezien dan, uh, dan ChatGPT, noem het zo maar even, om te weten wat een kat en een hond is.
-
-En die kan ook nog eens een keer precies het ras gaan beschrijven ofwel hoe oud die kat is. Nou, dat is allemaal data, maar uiteindelijk de context, die ben jij, daar moet jij voor zorgen. Want dat systeem wat ik al zei in het begin, ja, dat staat ergens op een server in Palo Alto of hopelijk misschien ergens in Europa, uhm, maar die moet dus uiteindelijk helderheid hebben van joh, wie ben jij? Wat wil je? Waarom wil je dat? Hoe moet ik het uiteindelijk doen? Uh, kun je me helpen om uiteindelijk die weg te vinden? Want uiteindelijk, dat is natuurlijk ook wel ingesloten data die in die trainingsmodellen zit. Maar goed, uiteindelijk die context moet je vullen.
-
-En hoe beter je die context vult, hoe beter je uiteindelijk in staat bent om uiteindelijk ook het beste resultaat eruit te halen. Nou, dan is het je krijgt resultaten terug, dan ga je itereren. Dus daar zit, uh, hè, het bijsturen, uh, nieuwe vragen stellen, uh, en uiteindelijk, uh, net zoals jij als onderzoeker uiteindelijk mee bezig bent. Dieper erin, minder diep erin om vervolgens dingen, dingen te doen.
+but now make it very small. Just start with one element. So take your search engine marketing, go through all your web pages and just have all those web pages completely re-benchmarked and optimized based on data sources you can connect. But that too is just one task. And I can imagine, yes, a marketer has a hundred tasks. No problem, but just tick off: where does it have the most impact? What do I want to achieve? If I can't handle my workload, I can go from one campaign to a hundred campaigns. Well, you can do that, but then you need to start thinking about how you're going to peel that all the way back.
 
 > *[Me]*
-> *Wacht even, hoor. *
+> *Yes. Yes, I find it quite interesting — you talk about below the ceiling. Uh, that sounds to me almost like it's immediately a technical side. But when I hear your examples, I actually think: that is, that is really the content side of marketing*
+
+> *[Me]*
+> *that then, uh.*
 
 [Them]
-Uhm, dan. Wat zeg je? 
+Doesn't matter. Look, I mean when you have, with SEO it's of course, it's also mainly a technical expertise, but everything is still stuffed away in a database
+
+so, uh, and ultimately it's also just understanding how certain algorithms work again that hook onto the data that you ultimately make available to such an algorithm that can then do something with it again, right. Same as how the world of search is now changing. And fortunately it's not going as fast as everyone thought it would change. But, um, the fact that information of course through, uh, LLMs ultimately in the bots that are contained within those LLMs — read those agents — yes, they of course need to do that web scraping.
+
+Yes, there is only one tool that I really trust based on web scraping and that is Google itself, because they are able to really optimally utilize that data. So if you really want to do deep research, yes, then your best bet is still to go to Google. Because yes, uh, many things are now already being closed off, including Google itself often at content sources like, uh, like, like a newspaper or whatever.
+
+So look and it is, it's mainly a combination I think between now still actually creativity, technology. But I think the data component, yes, is the most important factor, also for marketers of: yes, but — and I see this everywhere — yes, but what do you focus on then? What is your goal now? What are you going to work on? What is your success? Which target audience do you want to approach now? And how are you going to do that? Where are you going to find them?
 
 > *[Me]*
-> *Het is tijd. Waar zijn- *
+> *Yes. Hey, and I'm also keeping an eye on the time. We have five more minutes before you, uh, need to take your son.*
 
 [Them]
-Nee, ik werd, ik, ik werd gebeld. 
+Yes, we, we can still go a bit longer, we can always talk again, if you say, uh.
 
 > *[Me]*
-> *Oh, oké. *
+> *Yes, no, I am especially very curious now about everything you've told me. You, you hinted very briefly that marketers really do need to build up skillsets to specifically do this. What do you notice are the biggest unlocks in that?*
 
 [Them]
-Uh, en de laatste is, uh, vooral denk ik een hele belangrijke. En, uh, hè, weten wat je erin stopt, maar ook vooral weten wat er uiteindelijk uit komt. En kun je dat valideren, verifiëren en, uh, ja, uh, is hetgene wat ik uiteindelijk opschrijf, klopt het wel? Nou, en zelfs daar kun je dan natuurlijk ook wel weer technieken voor gaan gebruiken. Maar, uh, human in the loop is hier nog steeds gewoon echt het criterium. Je moet gewoon valideren en controleren wat eruit komt, want je bent niet de eerste die uiteindelijk gewoon output creëert en dan vervolgens, uh, ja, gewoon een hoop bullshit de wereld in slingert die niet gevalideerd is.
-
-Nou, dat zijn denk ik de, de essenties en welke tool je er vervolgens voor gaat gebruiken, ja, dat is puur afhankelijk uiteindelijk ook waar zo'n tool in gespecialiseerd is. Maar heel veel dingen, ook binnen marketing, kun je al met één tool doen. En hoe minder je jezelf vastpint aan één tool,
-
-uh, voor de lange termijn tenminste, uh, hoe beter je het voor jezelf houdt om uiteindelijk ook toekomstproof te zijn. Want die ontwikkelingen, die gaan nog zo hard, die gaan echt in een, in een hockeystick. Uhm, ja, uiteindelijk, hè, wat, wat morgen in één keer spectaculair was binnen Gemini is, uh, is overmorgen in één keer, uh, overgenomen door Claude en de week daarna dan, uh, zijn we weer twee stappen verder met ChatGPT. Dus ik, ik bedoel, weet je, dat gaat zo verschrikkelijk hard. Uhm, maar dit, dit zijn dus een beetje de vaardigheden die een marketeer ook nodig heeft. Eigenlijk elke werknemer.
-
-Ja, je krijgt een Zwitsers zakmes tot je beschikking met 100.000 meer functionaliteiten dan jij ooit op je eigen zakmes had kunnen bedenken. Alleen, ja, weet je, ga wel verstandig aan de slag met, uh, met de juiste tool, uh, en bouw het stapje voor stapje op.
+The biggest unlocks?
 
 > *[Me]*
-> *Ja. Ja, logisch. *
-
-> *[Me]*
-> *Uhm. *
+> *Yes, what are the most important skillsets or competencies to get into your organization in order to maximally leverage the value of AI and specifically agentic AI?*
 
 [Them]
-Dus als jij nou zegt: ik heb nu nog een hele waslijst aan vragen, nou ja, dan, uh, kunnen we altijd nog- 
+Well yes, there are about five of them. I must say, we recently gave a, uh, a workshop. That's maybe also quite interesting,
+
+um, in which you — um, let me just quickly grab them. Uh, look, then it actually starts with: which tool are you going to choose for which goal? And, uh, and that actually starts with the goal. And every goal has a tool and many small tools — let's say, you need to start going with them and then you'll naturally notice whether a certain tool can ultimately fulfill that goal for you.
+
+And so what we do is mainly simplify it down and ultimately look at: for which process, which task or which activity do you want to get filled in? And are there generic or specific tools that can do that piece for you. And then you'll often also see that you need to move on to a second tool. So you simply need — within your area of marketing you need to know which tools are available. And if you're a digital marketer, you need to know which digital AI tools are available. And if you're more on the creative side, then you'll also need to know which AI tools are focused on the creative piece. Well, that's one. So, um.
+
+But it can also be that you simply don't need AI at all yet. I mean, that's also very simple. So you can say: yes hey, sorry, but I'll just do this the old-fashioned way for now and that's often just as fast. So that's also possible, right, that's a trade-off. But the, it serves the goal. So the goal is not the goal in itself, but, uh, you can deploy or you can achieve the goal with one or more tools. That's one. Um, then it's mainly your data. So which, uh, yes, what happens to your data? Which data do I need? What is the context and what happens with all the data I use?
+
+Right, and then it's also simply — you just need to have knowledge of GDPR.
+
+Because otherwise you'll just, uh, yes, go and take information and leave it somewhere with someone else. So it's a very important skill to properly understand what you do with your data and what you use your data for and which data you also need. Because sometimes you can also say: yes, I'll just throw everything in. Yes, that's also not going to work, right. It remains a system and ultimately your system has a maximum limitation of memory and computing power. Yes, so you can't completely stuff such a system either. And if you still wanted to, you'd be hitting your tokens very hard. So then it becomes a very expensive exercise anyway. Well, that's, uh, that's the second.
+
+So that really is — everything revolves around yes, knowing what happens to your data, knowing which data you use and what you can do with it. Well, then it's offering that data — so creating the context. So what is the information you're going to provide to such an AI? And if you have a, a tool like Gamma for example in which you can build, uh, PowerPoint presentations or so, I'll mention something specific — yes, then such a tool has already received a lot of constraints, so it's already very, right, framed. And it has also already learned a lot from presentations. So it has actually seen even more cat and dog photos than, uh, than ChatGPT, let's put it that way, to know what a cat and a dog is.
+
+And it can also go on to precisely describe the breed or how old that cat is. Well, that's all data, but ultimately the context — that is you, you need to provide that. Because that system I already mentioned at the beginning — yes, it's sitting somewhere on a server in Palo Alto or hopefully maybe somewhere in Europe, um, but it ultimately needs clarity of: hey, who are you? What do you want? Why do you want that? How should I ultimately do it? Uh, can you help me to ultimately find that path? Because ultimately, that is of course also encapsulated data that sits in those training models. But okay, ultimately you need to fill that context.
+
+And the better you fill that context, the better you're ultimately able to get the best result out of it. Well, then you get results back, then you're going to iterate. So there's, uh, right, the steering, uh, asking new questions, uh, and ultimately, uh, just like you as a researcher are ultimately doing. Deeper into it, less deep into it to then do things, do things.
 
 > *[Me]*
-> *Sowieso, maar daar ga ik niet mee vermoeien. Ik zit even door mijn notities heen te kijken of er nog één is waarvan ik denk van: die moet ik er heel even uitpikken. Uh, ik denk dat we gewoon een hele goede snelle vogelvlucht hebben gehad door, door de belangrijkste thema's heen zoals je die beleefd. En ik denk dat het gewoon helemaal goed is voor mijn onderzoek. *
-
-> *[Me]*
-> *Uhm, dus ik zou wel zeggen: pak zo lekker tijd mee, kids. Uh, ik ga hier, ik heb hier sowieso, al-alles wat ik zelf aan heb gezegd en heb wijde heb hoeven sturen, dat is soms ook wel lekker, heb ik hier echt wel wat aan. En, uh, dan hoop ik jou de twe-2 juni te, weer te zien. *
+> *Hold on a moment.*
 
 [Them]
-Ja, dat zou leuk zijn. Dat zou leuk zijn. Super. Nou ja, dus en, uh, schroom niet, hè, joh, als er, als er nog een specifieke vraag is of zo en je zegt: joh, ik, uh, ik wil nog wel iets, uh, ik wil nog wel iets uitdiepen. Uhm, kijk, en marketing is natuurlijk gigantisch breed, 
-
-uh, maar, uh, ik, ik, ja, ik, ik denk dat, uh, dat alle marketeers zich gewoon simpelweg zorgen moeten maken. 
+Um, then. What did you say?
 
 > *[Me]*
-> *Ik, uh, ik denk dat er een heleboel gaat veranderen en op het moment dat je niet meebeweegt, ja, dan, dan ben je gewoon niet interessant meer straks. *
+> *It's time. Where are —*
 
 [Them]
-Nee. 
+No, I was, I, I was getting a call.
 
 > *[Me]*
-> *Dat geldt voor de marketeer. Maar ja, ik, ik geef leiding aan een team met dataspecialisten in de marketing. Ja, ik geloof ook 100% dat data science en data engineering straks ook niet relevant is als je niet dus straks duidelijk AI in je mix hebt. Ja, als je loodgieter bent, dan duurt het misschien nog een tijd en dan verandert het opeens van nul naar 100 op het moment dat er loodgieterrobots bestaan. Maar ja, alles wat ertussen zit en achter een computer zit, dat gaat stapje voor stapje de komende tijd. Je moet gewoon mee. Ja, dat is het gewoon. *
+> *Oh, okay.*
 
 [Them]
-Precies, dat is, dat is het. Ja, je hebt natuurlijk die bekende spreuk van McKinsey, hè, dus, uh, je wordt, AI zal jou niet vervangen, maar iemand die met AI werkt gaat jou wel vervangen. 
+Uh, and the last one is, uh, I think especially a very important one. And, uh, right, knowing what you put into it, but also especially knowing what ultimately comes out. And can you validate, verify and, uh, yes, uh — is what I ultimately write down actually correct? Well, and even for that you can of course also go and use techniques. But, uh, human in the loop is still really the criterion here. You simply need to validate and check what comes out, because you're not the first to ultimately just create output and then, uh, yes, just throw a lot of unvalidated nonsense out into the world.
+
+Well, those are I think the essentials, and which tool you then go and use for it — yes, that depends purely on what such a tool specializes in. But a lot of things, also within marketing, you can already do with one tool. And the less you pin yourself to one tool,
+
+uh, for the long term at least, uh, the better you keep it for yourself to also ultimately be future-proof. Because these developments are going so fast, they really go in a, in a hockey stick. Um, yes, ultimately, right — what was spectacular all at once within Gemini tomorrow is, uh, taken over all at once by Claude the day after, and the week after that we're, uh, two steps further with ChatGPT. So I, I mean, you know, it goes so incredibly fast. Um, but these are thus a bit of the skills that a marketer also needs. Actually every employee.
+
+Yes, you get a Swiss army knife at your disposal with 100,000 more functionalities than you could ever have conceived on your own knife. Only, yes, you know, do go to work smartly with, uh, the right tool, uh, and build it up step by step.
 
 > *[Me]*
-> *Ja, ik vind het leukste mensen die gewoon inderdaad zichzelf blijven vernieuwen en, uh, dat heb ik altijd mooi gevonden. Daarom heb ik ook ooit voor de softwarebroek gekozen. *
+> *Yes. Yes, logical.*
+
+> *[Me]*
+> *Um.*
 
 [Them]
-Ja. 
+So if you now say: I still have a whole laundry list of questions, well then, uh, we can always —
 
 > *[Me]*
-> *Want als je iets ziet in de softwarewereld, ja, met AI hoor je voor het eerst dat mensen denken dat softwaremensen vervangen gaan worden met AI. Maar ja, uiteindelijk *
+> *Absolutely, but I won't burden you with that. I'm just looking through my notes to see if there's one that I want to pick out. Uh, I think we just had a really good quick bird's-eye view through the most important themes as you experience them. And I think it's completely good for my research.*
 
 > *[Me]*
-> *zijn er softwaremensen die AI bouwen in de eerste plek, maar z-, ook sowieso softwaremensen die al, *
-
-> *[Me]*
-> *iedere vijf jaar ben je gewoon op een hele andere manier aan het werk. Daar hoort gewoon bij. Dat maakt het ook leuk en ik hoop dat de rest van de wereld ook gaat ervaren hoe leuk het is als je gewoon iedere zoveel tijd gewoon eigenlijk alles, alles het raam uit kan gooien en opnieuw mag bedenken hoe je kan werken. *
+> *Um, so I would say: go enjoy your time with the kids. Uh, I'll go here, I have here anyway — everything that I myself have said and have had to send out broadly, that's sometimes also nice, I really do get something from this. And, uh, then I hope to see you on the 2nd of July.*
 
 [Them]
-Nou ja, kijk, uh, wat, wat het belangrijkste is, ik zal nog te afsluiten met twee dingen, maar één ding is dat, uh, wat we hier niet moeten vergeten is dat, uh, de vierde industriële revolutie niet kracht vervangt, maar hersenen. Hè, uh, dat dat eigenlijk de grootste bedreiging is in de evolutietheorie van de mens. Want uiteindelijk zijn wij als mens altijd, uh, beter geweest dan elk ander dier of wezen op aarde door onze hersenen. Uh, en nu hebben we een computer die het beter doet dan wij. Dus dat is al een hele grote, uh, bedreigingscomponent.
+Yes, that would be nice. That would be nice. Great. Well yes, so and, uh, don't hesitate, right hey, if there, if there's a specific question or something and you say: hey, I, uh, I still want to explore something further. Um, look, and marketing is of course gigantically broad,
 
-Ja, en het tweede is denk ik, uh, wat je ook al zegt, hè, maar, uh, AI gaat niet alleen maar de manier veranderen hoe wij vandaag de dag werken, maar het zorgt er ook voor dat inderdaad precies als jij met AI aan de slag gaat, gaat het ook bepalen dat jij wel of niet de winnaar bent in deze wedstrijd en, uh, of in ieder geval er als beste uitkomt dus, uh, en dat is gewoon de transitie waar die marketeers in moeten. Ja, en ik merk wel dat heel veel CMO's en bedrijven echt wel heel erg bang zijn voor, uh, het inzetten ervan, omdat ze natuurlijk een soort van overdreven noodzaak hebben tot perfectie.
-
-Maar, uh, ja, hoe perfect is een mens? Dus, uh, en als we het tussen de vingers krijgen en dit moet je, dit moet je dus met AI gaan doen, want die perfectie kun je beter met AI realiseren dan uiteindelijk denken dat we het zelf als mens nog steeds kunnen. Maar goed. 
+uh, but, uh, I, I, yes, I think that, uh, all marketers simply need to be concerned.
 
 > *[Me]*
-> *Ja, dat was precies misschien heel leuk als afsluiter, maar, uh, ik, ik had het eerder over, of jij had het eerder [lacht] over creativiteit van AI. Uhm, ik heb daar laatst onderzoek naar gedaan en zodra je kwali-kwantitatief onderzoek bekijkt, ja, dus kunnen we meten wat of wat creatiever is, de mens of AI, dan kom je er eigenlijk altijd op uit: ze zijn even creatief en als ze samenwerken zijn ze misschien nog creatiever, alleen dan zit in die samenwerking is wat minder variatie. *
+> *I, uh, I think a lot is going to change and the moment you don't move along, yes, then, then you're simply no longer interesting going forward.*
 
 [Them]
-Ja. 
+No.
 
 > *[Me]*
-> *Uhm, zodra je kwalitatief onderzoek kijkt, dan zegt eigenlijk iedereen: nee, AI is niet kwalitatief of is niet creatief. Dus gewoon omdat mensen na moeten denken over: ja, kan ik creativiteit een AI-model toeschrijven? Dan zeggen ze, komen ze toch tot de conclusies van niet meetbare dingen. Als, er zit geen intrinsieke motivatie in of, nou, dat soort dingen die je eigenlijk nooit kan, kan ontkrachten. *
+> *That goes for the marketer. But yes, I, I lead a team of data specialists in marketing. Yes, I also 100% believe that data science and data engineering will also not be relevant going forward if you don't have AI clearly in your mix. Yes, if you're a plumber, then it might still take some time and then suddenly it changes from zero to a hundred the moment plumber robots exist. But yes, everything that's in between and sits behind a computer, that's going step by step in the coming time. You just need to move with it. Yes, that's just it.*
 
 [Them]
-Nee. 
+Exactly, that is, that is it. Yes, you have of course that well-known saying from McKinsey, right, so — AI won't replace you, but someone who works with AI will replace you.
 
 > *[Me]*
-> *Uh, dus dat vind ik heel leuk, want dat, die mindset die kan je denk ik straks met AI op heel veel dingen toepassen. Uhm, ja, het gaat gewoon alsmaar anders. *
+> *Yes, I find the most fun people those who just indeed keep reinventing themselves and, uh, I've always found that admirable. That's also why I once chose the software path.*
 
 [Them]
-Leuk! Nou. 
+Yes.
 
 > *[Me]*
-> *Ja. Uh, fijne dag. We zien elkaar vast. *
-
-[Them]
-Zeker. Ja, hou me even op de hoogte van je, van je onderzoek. 
+> *Because if you see something in the software world — yes, with AI you hear for the first time that people think software people are going to be replaced by AI. But yes, ultimately*
 
 > *[Me]*
-> *Terugsturen als je, als ik klaar ben, als je het leuk vindt. *
-
-[Them]
-Ja, leuk. Leuk. 
+> *there are software people who build AI in the first place, but s-, also in any case software people who already,*
 
 > *[Me]*
-> *Ja, doe ik dat. *
+> *every five years you're just working in a completely different way. That just comes with the territory. That also makes it fun and I hope the rest of the world will also experience how fun it is when every so often you can just actually throw everything, everything out the window and get to rethink how you can work.*
 
 [Them]
-Doen. Super. 
+Well look, uh, what, what is most important — I'll close with two things, but one thing is that, uh, what we must not forget here is that, uh, the fourth industrial revolution does not replace strength, but brains. Right, uh, that is actually the biggest threat in the evolutionary theory of mankind. Because ultimately we as humans have always been, uh, better than any other animal or being on earth because of our brains. Uh, and now we have a computer that does it better than we do. So that is already a very large, uh, threat component.
+
+Yes, and the second is I think, uh, what you also already say, right, but, uh, AI is not only going to change the way we work today, but it also ensures that indeed precisely when you start working with AI, it will also determine whether you are or aren't the winner in this race and, uh, or at least come out best, so, uh, and that is just the transition that those marketers need to go through. Yes, and I do notice that many CMOs and companies are really very afraid of, uh, deploying it, because they of course have a sort of exaggerated need for perfection.
+
+But, uh, yes, how perfect is a human? So, uh, and if we get it under our fingers — and this you must go and do with AI, because that perfection you can better realize with AI than ultimately thinking that we as humans can still do it ourselves. But okay.
 
 > *[Me]*
-> *Oké, cool! Hartstikke bedankt, hè? Spreek je graag. *
+> *Yes, that was maybe a perfect closer, but, uh, I, I mentioned earlier, or you mentioned earlier [laughs] the creativity of AI. Um, I recently did research on that and whenever you look at quantitative research, yes, so when we can measure what is more creative — the human or AI — you actually always come out at: they're equally creative and when they collaborate they're perhaps even more creative, only then there's somewhat less variation in that collaboration.*
 
 [Them]
-Dank je wel, Daan. Hoi, hoi. 
+Yes.
 
-[klikken]
+> *[Me]*
+> *Um, whenever you look at qualitative research, then essentially everyone says: no, AI is not qualitative or is not creative. So simply because people have to think about: yes, can I attribute creativity to an AI model? Then they end up coming to conclusions about unmeasurable things. Like, there's no intrinsic motivation in it, or, well, those kinds of things that you can actually never refute.*
+
+[Them]
+No.
+
+> *[Me]*
+> *Uh, so I find that very interesting, because that mindset you can going forward apply with AI to a lot of things. Um, yes, it just keeps getting different.*
+
+[Them]
+Great! Well.
+
+> *[Me]*
+> *Yes. Uh, have a good day. We'll definitely see each other.*
+
+[Them]
+Certainly. Yes, keep me posted on your research.
+
+> *[Me]*
+> *I'll send it back to you when I'm done, if you'd like.*
+
+[Them]
+Yes, great. Great.
+
+> *[Me]*
+> *Yes, I'll do that.*
+
+[Them]
+Do that. Great.
+
+> *[Me]*
+> *Okay, cool! Many thanks. Talk to you soon.*
+
+[Them]
+Thank you, Daan. Bye, bye.
+
+[clicking]
