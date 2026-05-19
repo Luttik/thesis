@@ -41,6 +41,8 @@ The coding workflow is now file-based and QDPX-first:
 - Primary scripts: `.cursor/skills/qdpx/qdpx_import.py`, `.cursor/skills/qdpx/qdpx_export.py`, `.cursor/skills/qdpx/qdpx_validate.py`, `.cursor/skills/qdpx/qdpx_diff.py`
 - Atlas SQLite scripts in `.cursor/skills/atlasti/` are fallback/debug only
 
+Note: **64-bit CPython 3.12 or 3.13** is required for `sentence-transformers`/PyTorch in this project; Python 3.14+ has no matching official `torch` wheels yet, so `poetry install` can report that every wheel was skipped for ABI tags until you `poetry env use` a 3.12/3.13 interpreter.
+
 ### Code Deduplication Review TUI
 
 To review likely duplicate codes with local embeddings:
