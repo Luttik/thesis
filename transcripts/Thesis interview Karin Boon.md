@@ -1,338 +1,341 @@
-> *[Me]*
-> *Dat heb ik wel nodig voor de opleiding natuurlijk. Hoe gaat het?*
-
-[Them]
-Ja, goed hoor. Het is uh, ja, ik zit er lekker in vandaag.
-
-[Them]
-Heb je soms, hè, dan gaat het allemaal.
 
 > *[Me]*
-> *AI-dag bij Nyenrode straks?*
+> *I do need that for the program, of course. How are you?*
 
 [Them]
-Wat zeg je?
+Yeah, good. It's uh, yeah, I'm in a good mood today.
+
+[Them]
+Sometimes you have those days, right, when everything just flows.
 
 > *[Me]*
-> *Lopen de aanmeldingen een beetje voor de AI-sessie op Nyenrode?*
+> *AI day at Nyenrode later?*
 
 [Them]
-Nou, de officiële uitnodiging is er nog niet uit, uh, omdat ik nog zit te wachten op, uh, de twee sprekers die nog, uh, officieel ja moeten zeggen. Uh, maar we hebben wel een save the date uitgestuurd voor 2 juli, dus, uh, nee, maar dat komt wel goed, dat is altijd, loopt altijd wel, uh, nou, ik wil niet zeggen dat het storm loopt, maar, ja, genoeg mensen in ieder geval.
-
-[Them]
-Vertel, want ik zag jou, uh, jij zit op Nyenrode en je hebt ook een eigen bedrijf?
+What did you say?
 
 > *[Me]*
-> *Uh, nou, niet, niet een eigen bedrijf. Ik ben wel de, uh, onderdeel van de directie bij Techonomy. Uh, en ik doe dus onderzoek voor mijn thesis naar de vraag: hoe kunnen marketingmanagers waarde halen uit AI?*
+> *Are registrations picking up a bit for the AI session at Nyenrode?*
 
 [Them]
-Ja.
+Well, the official invitation hasn't gone out yet, uh, because I'm still waiting on, uh, the two speakers who still need to officially say yes. Uh, but we did send a save the date for July 2, so, uh, no, but it'll be fine, it always is, it always works out, uh, well, I wouldn't say it's going through the roof, but, yeah, enough people in any case.
+
+[Them]
+Tell me, because I saw you, uh, you're at Nyenrode and you also have your own company?
 
 > *[Me]*
-> *Daar wou ik jou even spreken. En ik denk verder superleuk om samen verder te praten over, I don't know, de hele AI-community, uh, binnen Nyenrode. Ik ga waarschijnlijk ook meedoen met de DDMA voor de, hun AI club, de Nederlandse, waar staat het eigenlijk voor, DDMA? Data Driven Marketing Association. Dat is 'm.*
+> *Uh, well, not, not my own company. I am on the, uh, management team at Techonomy. Uh, and I'm doing research for my thesis on the question: how can marketing managers extract value from AI?*
 
 [Them]
-Oké.
+Yeah.
 
 > *[Me]*
-> *Ja, uh, die hebben nu ook een AI-corps. Vind ik allemaal wel leuk.*
+> *That's why I wanted to talk to you. And I also think it would be really nice to keep talking about, I don't know, the whole AI community, uh, within Nyenrode. I'll probably also join the DDMA for their, their AI club, the Dutch one, what does it actually stand for, DDMA? Data Driven Marketing Association. That's the one.*
 
 [Them]
-Ja.
+Okay.
 
 > *[Me]*
-> *Want AI is wel eigenlijk altijd mijn passie geweest. Ik ben ooit in 2013 begonnen in het vak toen AI nog echt was, uh, dingen als spellcheckers en, uh, nou ja, die hele oude wereld.*
+> *Yeah, uh, they now also have an AI corps. I think that's all pretty cool.*
 
 [Them]
-Ja.
+Yeah.
 
 > *[Me]*
-> *Uh, altijd ondernemend geweest. Mijn eigen bedrijfje gehad eerst, vervolgens hier in de club gekomen toen ze met tien man waren en dit ook helpen mogen groeien. Uh, maar altijd over de as van data, machine learning, AI, data engineering, cloud infrastructuur, al, al die dingen.*
+> *Because AI has actually always been my passion. I started in the field back in 2013 when AI was really still, uh, things like spell checkers and, uh, well, that whole old world.*
 
 [Them]
-Ja.
+Yeah.
 
 > *[Me]*
-> *En nu dus mijn thesis aan het doen op deze vraag.*
+> *Uh, always been entrepreneurial. Had my own little company first, then came into this club when they were ten people and got to help it grow. Uh, but always along the axis of data, machine learning, AI, data engineering, cloud infrastructure, all, all those things.*
 
 [Them]
-Ja. En wat is het bedrijf, uh, waar je nu voor werkt dan?
+Yeah.
 
 > *[Me]*
-> *Techonomy is een digital marketing agency, eigenlijk steeds meer full service, dus echt van content tot de, de infrastructuur waarbij we al je verschillende marketing applicaties, je Salesforce of e-mail systeem of wat, wat, whatever je hebt in je organisatie aan elkaar koppelen. Zorgen dat het klaar zit in je organisatie, dat je marketeers ermee kunnen werken. Dus ook een stukje change management zit er vaak bij.*
-
-> *Maar we kunnen ook gewoon de mensen leveren die het voor je doen als het ware. Dus je kan eigenlijk kiezen van: hé, we willen alleen de technische infrastructuur, we hebben gewoon handjes nodig of maakt eigenlijk niet uit. We, we kunnen helpen is meestal de conclusie.*
+> *And now I'm doing my thesis on this question.*
 
 [Them]
-Ja, ja, ja. Oké, leuk. Leuk! Ga los zou ik zeggen. Tell me.
+Yeah. And what's the company, uh, you work for now?
 
 > *[Me]*
-> *Ik ben ook wel heel kort even in een paar zinnen benieuwd naar wat jij doet. Dan heb ik die framing ook even voor mijn onderzoek en dan kunnen we vervolgens lekker de, de rest induiken.*
+> *Techonomy is a digital marketing agency, actually increasingly full service, so really from content to the, the infrastructure where we connect all your different marketing applications, your Salesforce or email system or whatever you have in your organization. Make sure it's set up in your organization so your marketers can work with it. So there's often a bit of change management involved too.*
+
+> *But we can also simply provide the people who do it for you, so to speak. So you can basically choose: hey, we only want the technical infrastructure, we just need hands, or it doesn't really matter. We can help is usually the conclusion.*
 
 [Them]
-Ja, uh, ik ben zeventien jaar geleden begonnen als, uh, als eigen marketingbureau, Boni Agency. Uh, mijn achtergrond zit, uh, eigenlijk, uh, in een stukje medialandschap waar ik heb gewerkt. En KPN heb ik gewerkt, uh, waarin ik eigenlijk altijd op het snijvlak was, zat van marketing sales. Dus, uh, veel met trade marketeers natuurlijk samenwerkt. En, uh, ja, eigenlijk op het allerhoogste niveau marketing heb, uh, kunnen ervaren. Dus, uh, superleuk.
-
-En, uhm, ja, toen ik eigenlijk moeder werd, uh, toen bedacht ik van: oké, ik, ik, ja, ik, ik wil gewoon, ik stop met werken en kijken wat het me gaat brengen. En, uh, nou, eigenlijk al heel snel dacht ik van: oké, ik wil die ondernemer zijn, ik wil gewoon mijn eigen bedrijf starten. Dus dat heb ik gedaan. En, uhm, ik ben een tijdje, uh, distributeur geweest van babyartikelen. Dat heb ik drie jaar gedaan.
-
-Toen heb ik mijn bedrijf verkocht en, uhm, toen dacht ik: oké, ik kan heel goed een merk bouwen, een merk naar de markt zetten, uh, samenwerken met influencers. Eigenlijk alles rondom retail begreep ik natuurlijk heel erg goed en begrijp ik nog steeds heel goed.
-
-Uhm, dus toen ben ik Boni Agency gestart en, uhm, ja, grappig genoeg kwamen toen eigenlijk de concurrenten waar ik, uhm, uhm, die ik had in mijn, uh, markt als, uhm, distributeur die vroeg aan mij van: oké, wil jij voor ons de marketing doen? Dus, uh, dat is heel grappig hoe dat dan gaat. Dus, uh, ik heb heel lang, uhm, in die babymarkt heel veel merken vertegenwoordigd.
-
-Heel veel beauty gedaan, uh, omdat daar ook wel echt zo wat, uh, uh, nou ja, ook gewoon wel passie zit in, uh, gewoon dat te weten. En eigenlijk altijd een hele creatieve ondernemers, ja, ondernemer geweest om, uh, om vanuit daar ook te kijken van oké, hoe kan ik mijn merk eigenlijk op een, en hoe kan ik een merk van iemand anders eigenlijk op zo'n manier neerzetten zodat je echt een unieke propositie creëert?
-
-Nou, vanuit dat, uh, stuk, nou, kwam natuurlijk ChatGPT eind 2022 en, uh, ik had al, uh, ja, ik heb op LinkedIn een heel sterk netwerk van mensen die ik eigenlijk ook al daarvoor al volgde, uh, over AI en dat soort dingen. Maar met de komst van ChatGPT dacht ik wel van: oké, dit gaat nu echt drastisch mijn, uhm, vakgebied veranderen. Dus vandaar mijn, uhm, volledige storting. Heel autodidact, heel veel video's gaan kijken, met heel veel mensen gaan samenwerken.
-
-Eh, heel veel AI engineers gesproken, eh, in een netwerk terechtgekomen. Ehm, eigenlijk als een van de weinige vrouwen ook, want dat was wel, ja, je ziet nu steeds meer vrouwen daar natuurlijk op toezien. Maar ik dacht wel van: ja, oké, ik ben geen engineer, maar ik ben wel die brand engineer, dus ik kan wel heel goed samenwerken met, met AI en met het merk. Dus, eh, en toen dacht ik: ja, als marketeer moet je natuurlijk ook een goede naam bedenken.
-
-Dus daar is Lady AI uitgekomen. Dus dat is in een notendop.
+Yeah, yeah, yeah. Okay, nice. Nice! Go for it, I'd say. Tell me.
 
 > *[Me]*
-> *Ja, ja, het klinkt ook wel als een, als een goede domeinnaam om, eh, te mogen registreren. Die, die was waarschijnlijk al bezet ergens of niet?*
+> *I'm also quite briefly curious in a few sentences about what you do. Then I have that framing for my research too and then we can dive into the, the rest.*
 
 [Them]
-Eh, nee.
+Yeah, uh, I started seventeen years ago as, uh, my own marketing agency, Boni Agency. Uh, my background is, uh, actually, uh, partly in the media landscape where I worked. And I worked at KPN, uh, where I was always at the intersection of marketing and sales. So, uh, worked a lot with trade marketers of course. And, uh, yeah, actually experienced marketing at the very highest level. So, uh, really great.
+
+And, uhm, yeah, when I actually became a mother, uh, I thought: okay, I, I, yeah, I, I just want to, I'm stopping work and see what it brings me. And, uh, well, actually very soon I thought: okay, I want to be that entrepreneur, I just want to start my own company. So I did that. And, uhm, I was a distributor of baby products for a while. I did that for three years.
+
+Then I sold my company and, uhm, then I thought: okay, I'm really good at building a brand, bringing a brand to market, uh, working with influencers. I naturally understood everything around retail very well and I still understand it very well.
+
+Uhm, so then I started Boni Agency and, uhm, yeah, funny enough the competitors I, uhm, uhm, had in my, uh, market as, uhm, a distributor then asked me: okay, do you want to do the marketing for us? So, uh, that's really funny how that goes. So, uh, I represented a lot of brands in the baby market for a long time.
+
+Did a lot of beauty, uh, because there's also real passion in that, uh, just knowing that world. And actually always been a very creative entrepreneur, yeah, entrepreneur to, uh, look from there at okay, how can I position my brand, and how can I position someone else's brand in such a way that you really create a unique proposition?
+
+Well, from that, uh, part, well, ChatGPT came along at the end of 2022 and, uh, I already, uh, yeah, I have a very strong network on LinkedIn of people I was already following before that, uh, around AI and that kind of thing. But with the arrival of ChatGPT I thought: okay, this is really going to drastically change my, uhm, field.
+
+So that's where my, uhm, full dive came from. Very self-taught, watched a lot of videos, collaborated with a lot of people.
+
+Uh, spoke to a lot of AI engineers, uh, ended up in a network. Ehm, actually as one of the few women too, because that was, yeah, you do see more women showing up there now of course. But I thought: yeah, okay, I'm not an engineer, but I am that brand engineer, so I can collaborate really well with, with AI and with the brand. So, eh, and then I thought: yeah, as a marketer you naturally also need to come up with a good name.
+
+So that's where Lady AI came from. So that's the nutshell version.
 
 > *[Me]*
-> *Niet? Oh, dan heb jij geluk gehad zeg.*
+> *Yeah, yeah, it also sounds like a, like a good domain name to, eh, be able to register. That one was probably already taken somewhere, or not?*
 
 [Them]
-Ja.
-
-[Them]
-Dus ik heb meteen, eh, alles vastgelegd en, eh, ja, superleuk. Maar dat, dat was gewoon, ja, als je een van de eerste innovators bent, ja, dan, eh, gaat dat natuurlijk snel. En, ehm, ja, waar sta ik nu? Ehm, ik geef dus heel veel trainingen. Ik heb, ben vast trainer bij Unica. Grote organisatie waarin ik heel erg zit op Copilot. Eh, en ook, ja, eigenlijk, eh, wat betekent AI voor je bedrijf, voor je team, voor je marketingteam, voor directie.
-
-Dus dan heb ik het ook echt over AI-integratie. Ehm, de Nuvo, de opticien brancheorganisatie doe ik hetzelfde. Elke maand sta ik daar voor een klas van opticiens, optometristen. Ehm, nou en tussendoor spreek ik op veel leuke locaties, eh, werk ik ook voor, eh, Workmode in Amsterdam, eh, waar ik eigenlijk vaste, eh, momenten heb dat ik met ze samenwerk.
-
-En, eh, heb ik natuurlijk ook nog mijn marketing agency waar ik ook nog een aantal klanten bedien, maar dat is wel iets minder geworden. Eh, wat ik helemaal niet erg vind overigens, want dat deed ik ook al zestien jaar, weet je wel. En, eh, dus. Maar ik begrijp heel erg goed wat, eh, een marketeer nodig heeft en hoe je samen moet werken met eigenlijk alle tools die er zijn.
-
-Dus, ehm, ik heb net m'n, ehm, m'n voice agent helemaal ingericht, ehm, die gekoppeld is aan m'n telefoon op momenten als ik er zelf niet ben. Weet je wel, allemaal dat soort dingen. Dus ik probeer heel erg vanuit dat perspectief, eh, te denken. Eh, en ik werk met een team van engineers, eh, ook in Oekraïne. En wij zijn een eigen marketingproduct aan het ontwikkelen, eh, maar daar kan ik nog niet zoveel over zeggen omdat dat, eh, ja.
+Eh, no.
 
 > *[Me]*
-> *Dat klinkt wel interessant. [lacht] Dan laten we dat voor een andere keer.*
+> *No? Oh, then you got lucky.*
 
 [Them]
-Ja. Ja. Dus, ehm, ja, dus dat even in een notendop. Ehm, ja.
+Yeah.
+
+[Them]
+So I immediately, eh, secured everything and, eh, yeah, really great. But that, that was just, yeah, when you're one of the first innovators, yeah, then, eh, it goes fast of course. And, ehm, yeah, where am I now? Ehm, I give a lot of trainings. I'm a permanent trainer at Unica. Large organization where I focus heavily on Copilot. Eh, and also, yeah, actually, eh, what does AI mean for your company, for your team, for your marketing team, for the executive board.
+
+So then I'm really talking about AI integration. Ehm, the Nuvo, the optician industry association, I do the same there. Every month I'm there for a class of opticians, optometrists. Ehm, and in between I speak at a lot of nice venues, eh, I also work for, eh, Workmode in Amsterdam, eh, where I have fixed, eh, moments when I collaborate with them.
+
+And, eh, I naturally still have my marketing agency where I still serve a number of clients, but that has become a bit less. Eh, which I don't mind at all, by the way, because I'd been doing that for sixteen years already, you know. And, eh, so. But I understand very well what, eh, a marketer needs and how you have to work together with basically all the tools that exist.
+
+So, ehm, I just set up my, ehm, my voice agent completely, ehm, linked to my phone for when I'm not there myself. You know, all that kind of thing. So I try to think very much from that perspective, eh. Eh, and I work with a team of engineers, eh, also in Ukraine. And we're developing our own marketing product, eh, but I can't say much about that yet because that, eh, yeah.
 
 > *[Me]*
-> *Oké, ik zal heel even het onderzoek een beetje scopen. Dan weet je ook waar ik het graag met je over wil hebben en dan kunnen we wat mij betreft gewoon lekker induiken. Dus mijn vraag is echt: hoe kunnen marketingmanagers waarde halen uit agentic AI? Je hebt natuurlijk, eh, AI sinds ChatGPT als de hele GenAI en LLM, eh, golf. En daar is AI, agentic AI natuurlijk een stukje van. Iedereen heeft daar een beetje een andere definitie van. Ik focus dat een beetje op twee elementen.*
-
-> *Enerzijds, eh, het kan echt een proces, eh, volgen, dus je kan een doel vragen en hij kan stapjes via een plan daar komen. En het andere element is het heeft ook de mogelijkheid om dingen te doen. Dus het is niet alleen een vraag en antwoord systeem, maar het kan ook denken van: hé, ik moet extra data uit het systeem halen om die vraag te kunnen beantwoorden. Of ik moet iets doen in een ander systeem om, eh, invulling te geven aan de vraag die ik krijg.*
-
-> *Dat is eigenlijk sinds de laatste twee jaar natuurlijk een beetje aan het opkomen. De eerste vruchten zijn al eerder geplant, maar je ziet het nu steeds meer. En de vraag is: wat zien we daar nou mee gebeuren in marketing land? Wordt er waarde uit gehaald? Zo ja, wat? En, eh, wat zijn dan de blokkers en enablers? Dus misschien leuk om even bij het begin te starten. Wat zie je nu gebeuren? Vraag en aanbod cases misschien veel of niet? Of, eh.*
+> *That does sound interesting. [laughs] Let's leave that for another time.*
 
 [Them]
-Nou, wat we zien gebeuren is dat er, ehm, dat, eh, merken eenheidsworsten worden, eh, omdat ze allemaal dezelfde tools gebruiken en eigenlijk te weinig creativiteit gebruiken om hun merk echt, ehm, bijzonder te positioneren. Ehm, en ja, dat is sowieso altijd, eh, wat er in marketing superbelangrijk is, hè, je onderscheid bieden naar je doelgroep toe. Maar dat is wat ik zie. Dus ik zie echt heel veel eenheidsworsten. Ik zie heel veel nog vlees of vis.
-
-Ik zie gewoon echt een, een kopie gedrag. Ik zie, ja, dat is wat ik zie. Te veel AI teksten, te veel beelden die eigenlijk gewoon er niet uitspringen. Ehm, ja, dat.
+Yeah. Yeah. So, ehm, yeah, that's the nutshell. Ehm, yeah.
 
 > *[Me]*
-> *En zie je ook organisaties die het goed doen?*
+> *Okay, I'll briefly scope the research. Then you also know what I'd like to talk about with you and then we can just dive in as far as I'm concerned. So my question is really: how can marketing managers extract value from agentic AI? You naturally have, eh, AI since ChatGPT as the whole GenAI and LLM, eh, wave. And agentic AI is of course part of that. Everyone has a slightly different definition of it. I focus on two elements.*
+
+> *On one hand, eh, it can really follow a process, eh, so you can ask for a goal and it can get there in steps via a plan. And the other element is it also has the ability to do things. So it's not just a question-and-answer system, but it can also think: hey, I need to pull extra data from the system to answer that question. Or I need to do something in another system to, eh, fulfill the question I'm getting.*
+
+> *That's actually been emerging a bit over the last two years. The first fruits were planted earlier, but you see it more and more now. And the question is: what do we see happening with that in marketing? Is value being extracted? If so, what? And, eh, what are the blockers and enablers? So maybe nice to start at the beginning. What do you see happening now? Lots of supply-and-demand cases or not? Or, eh.*
 
 [Them]
-Ehm. Ja, wat is goed doen, hè? Ehm, op een juiste manier, op een juiste manier met AI omgaan. Als je het hebt over beeldcreatie zie ik dat met name eigenlijk bij de AI engineers die het bedenken, dus die hun cases laten zien. En niet eens zozeer zie ik het in merken, want Coca-Cola had vorig jaar een hele mooie video gemaakt en, nou, die heeft heel veel discussie opgeleverd.
+Well, what we see happening is that, ehm, that, eh, brands all turn into the same sausage, eh, because they all use the same tools and actually use too little creativity to really, ehm, position their brand as distinctive. Ehm, and yeah, that's always, eh, super important in marketing anyway, right, offering distinction to your target group. But that's what I see. So I really see a lot of that sameness. I still see a lot of meat or fish.
 
-Ehm, ik zie een video, zie ik eigenlijk daarin ook nog niet de ultieme video ontstaan waarin er echt onderscheid wordt geboden. Eh, ik denk dat merken die het goed doen, die hebben een soort hybride vorm gevonden van AI beeld en niet AI beeld. Maar ik kan nu niet echt zo zeggen van, ehm, dat merk doet het heel goed. Kijk, ik zie bijvoorbeeld Cartier is daar wel een mooie van. Die heeft een prachtig beeld ontwikkeld met, met AI.
-
-Wat eigenlijk op de beelden die ze al hadden, dus dat was de panter van Panthere van het merk wat ze hebben, hebben ze de panters ontwikkeld en dat, dat zijn AI beelden geworden die het merk echt omarmen. Maar daarin zie je dus al is dat er een bestaand concept is wat wordt verder uitgebouwd waardoor er kosten worden bespaard. Dus ik zie daar wel heel veel dingen in ontstaan. En in de fashion industrie is dat wel sowieso denk ik heel erg goed.
-
-Dus Mango doet dat, Zara doet het. Dus zij kijken met name hoe kunnen ze kosten besparen op modellen en op, op een stukje creativiteit op basis van hun bestaande concepten. En daar, ja, dat is wat ik zie.
+I just see real, real copycat behavior. I see, yeah, that's what I see. Too much AI text, too many images that really just don't stand out. Ehm, yeah, that.
 
 > *[Me]*
-> *Dus eigenlijk zeg je van AI is het krachtigst als je eigenlijk al de ideation fase van je marketing door bent gegaan.*
+> *And do you also see organizations that are doing it well?*
 
 [Them]
-Ja.
+Ehm. Yeah, what is doing well, right? Ehm, dealing with AI in the right way. When it comes to image creation I mainly see that with the AI engineers who design it, who show their cases. And I don't really see it as much in brands, because Coca-Cola made a really beautiful video last year and, well, that sparked a lot of discussion.
+
+Ehm, I see a video, I don't really see the ultimate video emerging there yet where real distinction is offered. Eh, I think that brands that do it well have found a kind of hybrid form of AI image and non-AI image. But I can't really point to, ehm, that brand is doing really well. Look, I see Cartier is a nice example there. They developed a beautiful image with, with AI.
+
+Based on the images they already had, so that was the panther from Panthere of the brand they have, they developed the panthers and those, those became AI images that the brand really embraces. But in that you already see that there's an existing concept being further developed, which saves costs. So I do see a lot of things emerging there. And in the fashion industry that's generally really strong, I think.
+
+So Mango does that, Zara does it. So they mainly look at how they can save costs on models and on, on a bit of creativity based on their existing concepts. And there, yeah, that's what I see.
 
 > *[Me]*
-> *Mag gaan uitvoeren.*
+> *So basically you're saying AI is most powerful when you've actually already gone through the ideation phase of your marketing.*
 
 [Them]
-Ja en, en, en dat is denk ik ook gewoon wat een goed, een goede marketeer betreft. Die kijkt niet naar AI, die kijkt naar oké, wat is mijn doelstelling? En die doet eigenlijk oldskool marketing. En vanuit oldskool marketing een concept bedenken en een doelstelling maken. En dat dan in samenwerking met AI te doen. Ja, daar, dat is waar ik zelf heel erg in geloof en wat ook echt heel erg goed werkt. Alleen wat ik zeg. Kijk, in beeld gaat het heel goed, maar in video.
-
-Ja, ik weet dat nu de eerste films worden ontwikkeld met scènes en dat soort dingen, maar ik weet ook dat daar gewoon nog heel veel niet goed gaat. Dus dat het nog net zo veel werk kost. Maar ja, dat is wat ik zie.
+Yeah.
 
 > *[Me]*
-> *Ja, duidelijk. En jij? Jij helpt organisaties natuurlijk met, met de adoptie van AI en het gebruik ervan en trainingen.*
+> *Can go execute.*
 
 [Them]
-Ja.
+Yeah and, and, and I think that's also just what a good, a good marketer is about. They don't look at AI, they look at okay, what is my objective? And they basically do old-school marketing. And from old-school marketing devise a concept and set an objective. And then do that in collaboration with AI. Yeah, there, that's what I really believe in myself and what also really works well. Only what I say. Look, in image it works really well, but in video.
+
+Yeah, I know the first films are now being developed with scenes and that kind of thing, but I also know a lot still doesn't work well there. So it still costs just as much work. But yeah, that's what I see.
 
 > *[Me]*
-> *Ik, ik heb best wel wat in mijn onderzoek voorbij. Je bent trouwens de allerlaatste persoon die ik ga spreken, dus.*
+> *Yeah, clear. And you? You naturally help organizations with, with AI adoption and use and trainings.*
 
 [Them]
-Oké.
+Yeah.
 
 > *[Me]*
-> *Ik sluit ermee af aan het einde.*
+> *I've, I've seen quite a lot in my research already. You're the very last person I'm going to speak to, by the way.*
 
 [Them]
-Ja.
+Okay.
 
 > *[Me]*
-> *Wat is daarvan de impact die je ziet op een organisatie? Je hebt een training. Je bent waarschijnlijk ook wel eens naderhand ingeschakeld. Wat zijn de uitkomsten van, heb je patronen die je herkent die na zo'n training opgelost zijn of waarvoor je kunt waarschuwen in een training? Wat zijn een beetje de, de learnings voor jou eruit?*
+> *I'm wrapping up with this at the end.*
 
 [Them]
-De learnings daaruit is dat bedrijven eigenlijk alleen maar in tools denken. In van oké, wat moeten we doen met AI? En die denken vanuit een tooling. En wat daarin natuurlijk superbelangrijk is, is dat je kijkt naar je bedrijfsdoelstelling en vanuit daar gaat kijken van oké, wat is je doelstelling? Oké, ik wil meer sales of ik wil meer zichtbaarheid. En vanuit daar gaan we kijken van oké, waar kan AI dan een rol in gaan spelen?
-
-En ja, daar zie ik wel echt heel veel adoptatie in missen is dat naar twee of drie trainingen is dat bedrijven eigenlijk daarna stoppen, want dan gaan ze weer door met waar ze zijn begonnen. En ik zie weinig bedrijven die echt het AI leiderschap oppakken om er ook echt gestructureerd mee aan de slag te gaan. Want ik bied bijvoorbeeld altijd aan naar een training. Dan doen we twee of drie keer nog een check in, naar een maand of naar twee weken.
-
-En ja, dan voel ik al van oké ja, die twee weken is dan al te vroeg. Dat ik denk van oké, waarom is dat te vroeg? We zitten er helemaal in, weet je wel. Laten we starten. En ik voel dat, dat gewoon echt een struggle is. En dat heeft te maken natuurlijk met eigenlijk drie dingen. Is dat directie wil dat we met AI gaan werken. Maar kunnen medewerkers dat ook? Doen ze het ook en willen ze het ook? Dat zijn eigenlijk drie dingen.
-
-En die drie dingen, als die alignen met elkaar, dan krijg je een fantastische AI implementatie. Maar als dat er niet is, dan ja, dan, dan stopt dat gewoon. En dan gebeurt er niks. Dus ik geloof heel erg in dat, in die drie dingen. Dat je die met elkaar moet alignen en dat je daar ook echt een project van moet maken. En dat je de juiste mensen het gevoel moet geven dat ze mogen experimenteren en dat ze de dingen mogen doen in een veilige omgeving.
-
-En dat ze ook begrijpen hoe veilig, wat veilig werken met AI eigenlijk is. Dus als je Copilot krijgt in een organisatie, wat ik natuurlijk begrijp, dat je ook de mogelijkheid zou moeten krijgen om met cloud te kunnen werken of met ChatGPT te kunnen werken. Of met, nou ja, welk dan ook Perplexity. Om als je die AI organisatie wil creëren, ja, dan heb je gewoon die mensen nodig. Dus ja, dus dat is wat ik zie.
-
-Ik zie daar echt, en dat heeft te maken natuurlijk met verandermanagement. En, en verandermanagement. Ja, dat is gewoon. Ik heb dat bij KPN gezien. Van oud naar nieuw KPN. Dat heeft gewoon echt een paar jaar geduurd. En Elon Musk die heeft al gezegd en het was volgens mij vorige week of die week ervoor, die zei al van oké, elk bedrijf zouden we nu met tachtig procent met AI kunnen laten draaien. Maar voordat we zover zijn ja, de start-ups die kunnen meteen vanuit AI starten.
-
-En dat heeft natuurlijk ook te maken met ja, als je kijkt naar digitalisering, de disruptors in de markt, ja, dat zijn ook de start-ups. Ja, die kunnen meteen schakelen, dus die doen het meteen goed. En dat is wel wat ik nu heel erg zie. En. Ja, ehm, wat is daar mis mee? Eigenlijk helemaal niks. Want, ehm, tenzij je als organisatie echt geen unieke propositie hebt en je een hele grote concurrentie hebt. Ja, daar voorzie ik heel veel problemen.
-
-Maar zit jij in een markt, eh, waarin je een unieke propositie hebt en je klantportfolio helemaal goed gaat, ja, dan is AI een leuke must have om eraan toe te voegen. En dan kan je wat langzamer groeien daarin. Maar daar, daar zie ik echt geen problemen. Maar wel eigenlijk de bedrijven die gewoon grote concurrentie hebben. Die in een vakgebied zitten waarin gewoon, ja, de disruptors in de markt gewoon heel snel kunnen schakelen.
+Yeah.
 
 > *[Me]*
-> *Ja, je noemt zoveel dingen die hyper relevant zijn voor mijn onderzoek. Ik zit echt te denken van waar wil ik op doorpakken?*
+> *What's the impact you see on an organization from that? You give a training. You've probably also been brought in afterward sometimes. What are the outcomes, do you recognize patterns that get resolved after such a training or that you can warn about in a training? What are a bit of the, the learnings for you from that?*
 
 [Them]
-Die heb je nog niet eerder gehoord.
+The learnings from that are that companies actually only think in tools. In like okay, what should we do with AI? And they think from a tooling perspective. And what's super important in that is that you look at your business objective and from there look at okay, what is your objective? Okay, I want more sales or I want more visibility. And from there we look at okay, where can AI play a role?
+
+And yeah, there I really see a lot missing in adoption is that after two or three trainings companies basically stop, because then they go back to what they started with. And I see few companies that really take up AI leadership to actually work with it in a structured way. Because I always offer after a training, then we do two or three more check-ins, after a month or after two weeks.
+
+And yeah, then I already feel like okay yeah, two weeks is already too early. That I think okay, why is that too early? We're totally in it, you know. Let's start. And I feel that, that is really a struggle. And that naturally has to do with basically three things. Which is that leadership wants us to work with AI. But can employees do that too? Do they do it and do they want to?
+
+Those are basically three things. And when those three things align with each other, you get a fantastic AI implementation. But when that's not there, then yeah, then, then it just stops. And nothing happens. So I really believe in that, in those three things. That you have to align them with each other and that you also have to make a real project out of it. And that you have to give the right people the feeling that they're allowed to experiment and that they're allowed to do things in a safe environment.
+
+And that they also understand how safe, what safe work with AI actually is. So when you get Copilot in an organization, which I naturally understand, you should also get the opportunity to work with cloud or work with ChatGPT. Or with, well, whichever Perplexity. To create that AI organization, yeah, then you just need those people. So yeah, that's what I see.
+
+I really see there, and that naturally has to do with change management. And, and change management. Yeah, that's just how it is. I saw that at KPN. From old to new KPN. That just took several years. And Elon Musk already said, and I think it was last week or the week before, he already said okay, every company could now run on eighty percent with AI. But before we get there yeah, startups can start directly from AI.
+
+And that naturally also has to do with yeah, when you look at digitalization, the disruptors in the market, yeah, those are also the startups. Yeah, they can switch immediately, so they do it right away. And that's what I really see a lot now. And. Yeah, ehm, what's wrong with that? Actually nothing at all. Because, ehm, unless as an organization you really have no unique proposition and you have a lot of competition. Yeah, I foresee a lot of problems there.
+
+But if you're in a market, eh, where you have a unique proposition and your client portfolio is going really well, yeah, then AI is a nice must-have to add on. And then you can grow a bit more slowly in it. But there, there I really don't see problems. But really the companies that just have a lot of competition. That are in a field where, yeah, the disruptors in the market can switch really fast.
 
 > *[Me]*
-> *Nee, wel. Wel, maar ik zit wel ook even. Kijk wat, wat ik leuk vind jij een heleboel mensen die zijn bezig met AI en dan is het heel erg performance marketing, dashboarding, eh, personalisatie natuurlijk. Hé, di-digital marketing nieuwe, nieuwe wereld. Terwijl jij heel erg, eh, ook als je naar je site kijkt. Je straalt iets uit van ja, wat vergelijkbaar is met luxury brands, weet je wel. Iets wat meer authentieks, ehm.*
+> *Yeah, you mention so many things that are hyper relevant for my research. I'm really thinking about where I want to dig in further?*
 
 [Them]
-Ja.
+You haven't heard that before?
 
 > *[Me]*
-> *Wat meer nagedacht over wat, wat. Nou ja, je hebt het veel over je unieke pro-propositie. Wat, wat je brand story, hoe kan je je differentiëren? En dat is, dat is inderdaad ook een beetje de, de klassieke vorm van marketing. En klassiek betekent niet oud, maar wel tijdloos, om het zo maar te zeggen. En dat vind ik wel grappig en ik wil daar eigenlijk ook wel even iets, iets dieper op in. Maar ik ben even op zoek naar de juiste vraag.*
-
-> *Want ik vind het wel heel leuk dat je vanuit een heel ander perspectief dan de gemiddelde marketeer van vandaag de dag ook bezig bent met hé, wat, wat betekent AI dan?*
+> *No, I have. I have, but I'm also thinking for a moment. Look what, what I like is you, a lot of people are working with AI and then it's very much performance marketing, dashboarding, eh, personalization of course. Hey, di-digital marketing new, new world. While you very much, eh, also when you look at your site. You radiate something that's yeah, comparable to luxury brands, you know. Something more authentic, ehm.*
 
 [Them]
-Nou, dat kan ik wel, ehm. Kijk, waarom zeg ik dit? Is dat, ehm, ik zie dat mijn kinderen natuurlijk AI gebruiken en die zijn vijftien en zeventien en, ehm, en ik zie daar heel veel grote voordelen van. Maar als jij niet weet, ehm, wat marketing is in de basis, dan is het ook, eh, dan kom je heel ver met AI. Maar dan, ehm, ehm, dan, dan merk ik wel dat je gewoon daarin wel gewoon een aantal basiselementen gaat missen.
-
-En dan is het natuurlijk ook zo is dat je, ehm, als je een merk in een markt zit. Je komt denk ik heel ver met deep research en met een bepaalde propositie, maar je moet ook echt voelen waar, waar marketing vandaan komt. En ik denk dat dat wel het allerbelangrijkste is in educatie ook, wat nu op dit moment gewoon heel erg mist.
-
-Dus misschien moet die vraag ook gaan over, eh, hoe kan de educatie daarin dan eigenlijk, eh, want jij bent natuurlijk ook een voorbeeld daarvan, ehm, is dat je. Je moet ook echt wel in de praktijk eigenlijk oude authentieke leermeesters hebben. Net zoals dat je in de ambacht van bijvoorbeeld ik heb een, een bedrijf, dat is een, een houtbewerkingsbedrijf.
-
-Daar zit heel veel ambacht in, omdat zij precies begrijpen wat hout doet om bijvoorbeeld een boot te bouwen van echt het allerhoogste niveau. Maar ook om een molen te repareren of een monumentaal pand. En zo zie ik het eigenlijk ook met AI is dat je. Wil je in een vakgebied echt goed zijn, dan kan je dat niet alleen maar zo leren. Je hebt ook je leermeesters nodig. Je hebt ook de historie nodig. Je hebt ook, eh, use cases nodig.
-
-Je hebt echt wel ja meer nodig dan alleen maar dat. Dus het is niet echt een kwestie van lekker even met AI alle vragen stellen, een deep research doen en, ehm, ja, een merk bouwen. Wat gaan zoeken naar een leuke identiteit en plop, je hebt een merk. Nee, zo werkt het niet. Dus, ehm.
+Yeah.
 
 > *[Me]*
-> *Leuk! Hé, en helemaal de andere kant, want jij komt natuurlijk echt uit merkwerk, maar je bent ook echt bezig met techneuten.*
+> *More thought through about what, what. Well, you talk a lot about your unique pro-proposition. What, what your brand story is, how you can differentiate. And that is, that is indeed also a bit the, the classic form of marketing. And classic doesn't mean old, but timeless, so to speak. And I find that funny and I'd actually like to go a bit deeper on that. But I'm looking for the right question.*
+
+> *Because I do find it really nice that from a completely different perspective than the average marketer today you're also working on hey, what, what does AI mean then?*
 
 [Them]
-Ja.
+Well, I can, ehm. Look, why do I say this? It's that, ehm, I see that my children naturally use AI and they're fifteen and seventeen and, ehm, and I see a lot of great advantages in that. But if you don't know, ehm, what marketing is at its core, then you also, eh, you get really far with AI. But then, ehm, ehm, then, then I do notice that you'll miss a number of basic elements.
+
+And then it's also the case that, ehm, when you're a brand in a market. You probably get really far with deep research and with a certain proposition, but you also really have to feel where, where marketing comes from. And I think that's the most important thing in education too, which is really missing right now.
+
+So maybe the question should also be about, eh, how can education actually, eh, because you're naturally an example of that too, ehm, is that you. You also really need authentic master craftspeople in practice. Just like in the craft of, for example, I have a, a company, that's a, a woodworking company.
+
+There's a lot of craft in that, because they precisely understand what wood does to build a boat at the very highest level, for example. But also to repair a windmill or a monumental building. And that's how I actually see it with AI too. If you want to be really good in a field, you can't learn it only that way. You also need your master craftspeople. You also need the history. You also need, eh, use cases.
+
+You really need more than just that. So it's not really a matter of just firing all your questions at AI, doing a deep research, and, ehm, yeah, building a brand. Going to look for a nice identity and plop, you have a brand. No, it doesn't work like that. So, ehm.
 
 > *[Me]*
-> *Hoe, hoe, hoe gaat die samenwerking voor jou? En wat betekent dat voor de adoptie van AI?*
+> *Nice! Hey, and on the completely other side, because you naturally come from brand work, but you're also really working with tech people.*
 
 [Them]
-Eh, ik denk een hele grote. Want techneuten blijven techneuten. Met alle respect, maar, ehm, ik denk dat ik zelf, ehm, ehm, ik heb zelf voor bijvoorbeeld een internetbureau gewerkt vroeger. Ik heb echt grote internetwebsites gemaakt van meer dan een ton voor bedrijven zoals Salama en dat soort dingen. En kijk, techneuten blijven toch, ehm, ik denk dat een techneut de toekomstige techneut eigenlijk niet eens in een unit kan passen van techneut.
-
-Want die zal uiteindelijk ook gewoon heel creatief moeten denken en ook op een andere manier moeten gaan denken. Dus dat vind ik wel heel interessant is dat die techneut van vroeger waarin die codes moesten, moest maken om uiteindelijk tot een website te komen of wat dan ook. Ja, die die zie ik met name heel erg positief veranderen.
-
-Want ik denk dat ik zeg altijd als jij heel goed kan communiceren met AI, dan kan je denk ik ook in het dagelijks leven ook veel beter communiceren. Dus ik. Ik voorzie bijvoorbeeld voor die doelgroep zie ik echt wel heel veel potentie zitten in communicatie eigenlijk. Maar ja, toch ben ik wel een beetje van overtuigd is. Wat ik nu merk is dat techneuten blijven toch wel een beetje hangen in de focus op het eindproduct. En ze willen heel graag aan het handje mee worden genomen.
-
-Oké, hoe gaan we het nou in de markt zetten dus. En die vertaling naar de markt zetten. Ja, dat is denk ik wel waar techneuten nog de huidige techneuten nog wel een beetje in tekortschieten omdat ze toch wel ja dan denk ik heel erg vanuit hun vakgebied gaan gaan denken. Maar ik denk wel kijk, wat ik wat ik nu zie is dat ik als marketeer of als ondernemer. Ik kan eigenlijk een prototype al bouwen. En de techneut?
-
-Die kan er eigenlijk ervoor zorgen dat het prototype wordt omgezet naar een, een werkende tool dus. En ik merk dat ik daardoor veel sneller of veel sneller natuurlijk kan schakelen en dat de time to market veel sneller is. Dus is dat een beetje antwoord op je vraag?
+Yeah.
 
 > *[Me]*
-> *Denk ik wel ja. Ik ging een andere kant mee dan ik verwachtte, maar dat is ook wel weer leuk. Ik zie ook dat we door de tijd heen zijn die we geblokkeerd hadden. Volgens mij had jij een vervolgafspraak, dus ik wil je ook niet langer ophouden dan nodig. En anders kunnen we nog even lekker nababbelen, hoor.*
+> *How, how, how does that collaboration work for you? And what does that mean for AI adoption?*
 
 [Them]
-Ja, nee. Ik ga heel even kijken of mijn. Even kijken, hoor. Ja, ik heb nog 5 minuten en dan heb ik nog tijd om het voor te bereiden.
+Eh, I think a really big one. Because tech people stay tech people. With all respect, but, ehm, I think that I myself, ehm, ehm, I used to work for a web agency, for example. I built really large websites costing more than a hundred thousand for companies like Salama and that kind of thing. And look, tech people still, ehm, I think the future tech person won't even fit in a unit of tech person.
+
+Because they'll ultimately also have to think really creatively and also have to start thinking in a different way. So I find it really interesting that the tech person of the past who had to, had to write code to ultimately get to a website or whatever. Yeah, that that person I especially see changing very positively.
+
+Because I think I always say if you're really good at communicating with AI, then you can probably also communicate much better in daily life. So I. I foresee for example for that target group I really see a lot of potential in communication actually. But yeah, I'm still somewhat convinced. What I notice now is that tech people still get a bit stuck focusing on the end product. And they really want to be handheld.
+
+Okay, how are we going to bring it to market so. And that translation to bringing it to market. Yeah, I think that's where tech people, current tech people, still fall a bit short because they still, yeah, then I think think very much from their own field. But I do think look, what I what I see now is that I as a marketer or as an entrepreneur. I can basically already build a prototype. And the tech person?
+
+They can basically make sure the prototype gets converted into a, a working tool so. And I notice that I can switch much faster because of that or much faster of course and that time to market is much faster. So is that a bit of an answer to your question?
 
 > *[Me]*
-> *Nee, ik denk dat ik dan ook geen grote nieuwe vragen meer ga stellen. Ik heb op zich goede input voor mijn onderzoek. Ik vond het sowieso superleuk om jou even te spreken hierover. Super interessant! Ja, ik vind het ook wel heel grappig wat je zegt. Ik denk dat wat je zegt over techneuten aan de ene kant helemaal aanslaat, want ik ken dat type heel goed vanuit mijn opleiding.*
-
-> *Aan de andere kant heb je ook een nieuwe generatie van techneuten die dachten van hey, ik ben ondernemend en ik wil een medium hebben voor mijn ondernemendheid. En dat de techniek daar een uitlaatklep voor is geworden. En dat vind ik wel leuk. Ook heel leuk om te zien hoe jij van ja kijk, ik kom natuurlijk. Ik ben de laatste acht jaar in de marketing geweest en het gaat zo weinig nog over.*
-
-> *Ja, het is nog steeds wel wat is mijn brand story, maar dan is het veel meer invulling geven aan brandrichtlijnen die al bestaan.*
+> *I think so yeah. I was going a different direction than I expected, but that's also nice again. I also see we're past the time we had blocked. I think you had a follow-up appointment, so I don't want to keep you longer than necessary. And otherwise we can still chat a bit, of course.*
 
 [Them]
-Ja, maar dat is nu en dat staat nu weer ter discussie.
+Yeah, no. I'm just going to check my. Just checking. Yeah, I have 5 more minutes and then I still have time to prepare.
 
 > *[Me]*
-> *Ik hoor dat vaker.*
+> *No, I don't think I'm going to ask any big new questions then. I have good input for my research in any case. I really enjoyed talking to you about this. Super interesting! Yeah, I also find what you say about tech people on one hand really resonates, because I know that type really well from my education.*
+
+> *On the other hand you also have a new generation of tech people who thought hey, I'm entrepreneurial and I want a medium for my entrepreneurship. And technology became an outlet for that. And I find that nice. Also really nice to see how you from yeah look, I come from. I've been in marketing for the last eight years and it's talked about so little still.*
+
+> *Yeah, it's still about what is my brand story, but then it's much more filling in brand guidelines that already exist.*
 
 [Them]
-Omdat. Omdat die omdat die. Omdat dat namelijk heel erg belangrijk wordt. Wat jouw vindbaarheid wordt in de taal modellen. Dus je moet namelijk terug naar de tekentafel en echt gaan nadenken wat jouw brand framework wordt en hoe ga je naar buiten treden. En jij kan. Daar als marketeer kan je echt zaadjes planten die ervoor zorgen dat je op een andere manier wordt gevonden. En je kan echt dingen claimen. En ja, dat vind ik echt heel interessant.
-
-Dus daar zit ik altijd heel erg op van oké, wat is je framework? En we gaan kijken naar dat framework en wat je allemaal over je merk vertelt. Allemaal hartstikke leuk, maar ik geloof het niet. Dus we gaan weer terug naar de tekentafel. We gaan weer helemaal target.
+Yeah, but that's now and that's back up for discussion now.
 
 > *[Me]*
-> *Ja leuk, wij doen heel veel in community building ook. Dus heel veel. Bijvoorbeeld via sportclubs of bonden. Hoe kan je dan ook mensen die niet echt financieel aan jou gebonden zijn toch met jouw merk verbonden krijgen, zodat ze steeds verder die, die fuik ingetrokken worden, maar ook gewoon al een goede associatie met jou hebben als merk. Ja, en ik vind dat wel een hele leuke, want dat kan je natuurlijk ook weer met elkaar gaan verbinden. En ik denk dat dat op zich ook weer.*
-
-> *Communities heb je nu overal en nergens. Dat was vroeger echt wel een beetje anders. Maar wat betekent dan wie ben jij dan in die community? Wat is jouw unieke positie? Maar ja, leuke vraag hè?*
+> *I hear that a lot.*
 
 [Them]
-Ja, we kunnen er over door blijven doorpraten op erg veel.
+Because. Because that because that. Because that is really becoming very important. What your findability becomes in the language models. So you really have to go back to the drawing board and really think about what your brand framework becomes and how you're going to show up externally. And you can. There as a marketer you can really plant seeds that ensure you're found in a different way. And you can really claim things. And yeah, I find that really interesting.
+
+So I'm always really focused on okay, what is your framework? And we're going to look at that framework and everything you say about your brand. All very nice, but I don't believe it. So we're going back to the drawing board. We're going to target again completely.
 
 > *[Me]*
-> *Ja, jazeker. Ik zie jou denk ik sowieso. 2 juni was het, hè?*
+> *Yeah nice, we do a lot in community building too. So a lot. For example via sports clubs or federations. How can you then also get people who aren't really financially tied to you connected to your brand, so they get pulled further into that, that funnel, but also just already have a good association with you as a brand. Yeah, and I find that a really nice one, because you can naturally connect that with other things again. And I think that in itself again.*
+
+> *Communities are everywhere now. That used to really be a bit different. But what does it mean then who are you in that community? What is your unique position? But yeah, nice question, right?*
 
 [Them]
-Ja, heel leuk. Heel leuk. En ga jij jouw onderzoek. Mag je die met mij delen uiteindelijk?
+Yeah, we could keep talking about that for a very long time.
 
 > *[Me]*
-> *Zeker weten ja. En er is ook nog publiceren. Stephanie heeft tegen iedereen al verteld dat ik dat ga doen. Dat weet ik nog niet.*
+> *Yeah, absolutely. I'll see you on June 2 anyway, right?*
 
 [Them]
-Oké. O, dat lijkt me.
+Yeah, really nice. Really nice. And are you going to share your research with me eventually?
 
 > *[Me]*
-> *Ik wil het wel overwegen. Dat is natuurlijk ook wel leuk.*
+> *Definitely yeah. And there's also still publishing. Stephanie has already told everyone I'm going to do that. I don't know yet.*
 
 [Them]
-Ik zou het doen.
+Okay. Oh, that sounds—
 
 > *[Me]*
-> *Ja, ik. Ik vind het gewoon heel spannend hoeveel enorm veel tijd het gaat kosten waarschijnlijk als ik van andere vrienden hoor die gepubliceerd hebben. Ehm, dus ik, ik ben daar een beetje over gaan nadenken van: oké, wat betekent het dan voor de andere dingen die je dus ook niet gaat doen? Zeker in, want ik merk dat nu. Ik heb de laatste twee jaar natuurlijk heel veel tijd in MBA gestoken.*
-
-> *Dat betekent wel dat je heel veel minder tijd hebt om te spelen, te experimenteren, jezelf op andere domeinen te ontwikkelen. En soms ben ik het een beetje zat om alleen maar te schrijven en niets te doen, om zo maar te zeggen.*
+> *I'd like to consider it. That's naturally also nice.*
 
 [Them]
-Maar het is, zou ook zonde zijn als, als je iets hebt geschreven dat je er niks mee doet.
+I'd do it.
 
 > *[Me]*
-> *Klopt, klopt en ik ga sowieso dingen delen. De vraag is: wil ik het dan ook iets in iets academisch publiceren?*
+> *Yeah, I. I just find it really daunting how enormously much time it will probably take when I hear from other friends who have published. Ehm, so I, I've been thinking a bit about: okay, what does that mean for the other things you won't do then? Especially since, because I notice that now. I've naturally put a lot of time into the MBA over the last two years.*
+
+> *That does mean you have a lot less time to play, experiment, develop yourself in other domains. And sometimes I'm a bit tired of only writing and not doing anything, so to speak.*
 
 [Them]
-Ja, ja, ja, dat begrijp ik wel. Dat is ook gewoon. Ik zou dan misschien nog eerder.
+But it would also be a shame if, if you've written something and you don't do anything with it.
 
 > *[Me]*
-> *Ik denk dat wat, wat ik ga doen is dat ik gewoon een, een, een aantal kernlessen eruit haal en daar misschien een keer een stukje over schrijf en dat dan weer los online zet. Gewoon delen met je netwerk, je vrienden en je mensen die het interessant vinden.*
+> *True, true and I'm going to share things anyway. The question is: do I also want to publish something in something academic?*
 
 [Them]
-Ja, ja. Of gewoon vragen hoe, uhm, uh, hoe Nyenrode dit voor jou kan doen.
+Yeah, yeah, yeah, I understand that. That's also just. I'd maybe even rather—
 
 > *[Me]*
-> *Ja, ook leuk.*
+> *I think what, what I'm going to do is just pull a, a, a number of core lessons out of it and maybe write a piece about that once and put that online separately. Just share with your network, your friends and people who find it interesting.*
 
 [Them]
-Want, uh, dat zou ik zeker doen, want ik, ik heb laatst had ik iemand gesproken van Nyenrode. Ik ben even zijn naam kwijt en die zit daar helemaal in, dus, uh, ik zou die vraag gewoon andersop stellen.
+Yeah, yeah. Or just ask how, uhm, uh, how Nyenrode can do that for you.
 
 > *[Me]*
-> *Ik, ik doe wel eens gastcolleges voor de TIAS. Ik vind dat superleuk, maar het is, voelt ook heel raar om bij Nyenrode gestudeerd te hebben en dan bij TIAS gastcolleges te doen in plaats van Nyenrode. Weet je wel?*
+> *Yeah, also nice.*
 
 [Them]
-Ja, ja, ja.
+Because, uh, I'd definitely do that, because I, I recently spoke to someone from Nyenrode. I've forgotten his name and he's really into that there, so, uh, I'd just frame that question differently.
 
 > *[Me]*
-> *Maar ja, dat komt allemaal wel. Eerst even-*
+> *I, I sometimes give guest lectures for TIAS. I find that super fun, but it also feels really weird to have studied at Nyenrode and then give guest lectures at TIAS instead of Nyenrode. You know?*
 
 [Them]
-Nou leuk! Nou leuk! Ik wens je veel succes.
+Yeah, yeah, yeah.
 
 > *[Me]*
-> *Super bedankt.*
+> *But yeah, that will all come. First just—*
 
 [Them]
-En, uhm, ik, uh, nou ik zie je de tweede dan.
+Well nice! Well nice! I wish you lots of success.
 
 > *[Me]*
-> *Ja, tot later!*
+> *Thanks so much.*
 
 [Them]
-Oké, dank je wel Daan. Fijne dag. Hoi! Ja.
+And, uhm, I'll, uh, well I'll see you on the second then.
+
+> *[Me]*
+> *Yeah, see you later!*
+
+[Them]
+Okay, thanks Daan. Have a good day. Bye! Yeah.
