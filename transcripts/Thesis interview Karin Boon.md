@@ -1,4 +1,3 @@
-
 > *[Me]*
 > *I do need that for the program, of course. How are you?*
 
@@ -9,28 +8,28 @@ Yeah, good. It's uh, yeah, I'm in a good mood today.
 Sometimes you have those days, right, when everything just flows.
 
 > *[Me]*
-> *AI day at Nyenrode later?*
+> *AI day at [company] later?*
 
 [Them]
 What did you say?
 
 > *[Me]*
-> *Are registrations picking up a bit for the AI session at Nyenrode?*
+> *Are registrations picking up a bit for the AI session at [company]?*
 
 [Them]
 Well, the official invitation hasn't gone out yet, uh, because I'm still waiting on, uh, the two speakers who still need to officially say yes. Uh, but we did send a save the date for July 2, so, uh, no, but it'll be fine, it always is, it always works out, uh, well, I wouldn't say it's going through the roof, but, yeah, enough people in any case.
 
 [Them]
-Tell me, because I saw you, uh, you're at Nyenrode and you also have your own company?
+Tell me, because I saw you, uh, you're at [company] and you also have your own company?
 
 > *[Me]*
-> *Uh, well, not, not my own company. I am on the, uh, management team at Techonomy. Uh, and I'm doing research for my thesis on the question: how can marketing managers extract value from AI?*
+> *Uh, well, not, not my own company. I am on the, uh, management team at [company]. Uh, and I'm doing research for my thesis on the question: how can marketing managers extract value from AI?*
 
 [Them]
 Yeah.
 
 > *[Me]*
-> *That's why I wanted to talk to you. And I also think it would be really nice to keep talking about, I don't know, the whole AI community, uh, within Nyenrode. I'll probably also join the DDMA for their, their AI club, the Dutch one, what does it actually stand for, DDMA? Data Driven Marketing Association. That's the one.*
+> *That's why I wanted to talk to you. And I also think it would be really nice to keep talking about, I don't know, the whole AI community, uh, within [company]. I'll probably also join the [company] for their, their AI club, the Dutch one, what does it actually stand for, [company]? [company]. That's the one.*
 
 [Them]
 Okay.
@@ -60,7 +59,7 @@ Yeah.
 Yeah. And what's the company, uh, you work for now?
 
 > *[Me]*
-> *Techonomy is a digital marketing agency, actually increasingly full service, so really from content to the, the infrastructure where we connect all your different marketing applications, your Salesforce or email system or whatever you have in your organization. Make sure it's set up in your organization so your marketers can work with it. So there's often a bit of change management involved too.*
+> *[company] is a digital marketing agency, actually increasingly full service, so really from content to the, the infrastructure where we connect all your different marketing applications, your Salesforce or email system or whatever you have in your organization. Make sure it's set up in your organization so your marketers can work with it. So there's often a bit of change management involved too.*
 
 > *But we can also simply provide the people who do it for you, so to speak. So you can basically choose: hey, we only want the technical infrastructure, we just need hands, or it doesn't really matter. We can help is usually the conclusion.*
 
@@ -71,13 +70,13 @@ Yeah, yeah, yeah. Okay, nice. Nice! Go for it, I'd say. Tell me.
 > *I'm also quite briefly curious in a few sentences about what you do. Then I have that framing for my research too and then we can dive into the, the rest.*
 
 [Them]
-Yeah, uh, I started seventeen years ago as, uh, my own marketing agency, Boni Agency. Uh, my background is, uh, actually, uh, partly in the media landscape where I worked. And I worked at KPN, uh, where I was always at the intersection of marketing and sales. So, uh, worked a lot with trade marketers of course. And, uh, yeah, actually experienced marketing at the very highest level. So, uh, really great.
+Yeah, uh, I started seventeen years ago as, uh, my own marketing agency, [company]. Uh, my background is, uh, actually, uh, partly in the media landscape where I worked. And I worked at [company], uh, where I was always at the intersection of marketing and sales. So, uh, worked a lot with trade marketers of course. And, uh, yeah, actually experienced marketing at the very highest level. So, uh, really great.
 
 And, uhm, yeah, when I actually became a mother, uh, I thought: okay, I, I, yeah, I, I just want to, I'm stopping work and see what it brings me. And, uh, well, actually very soon I thought: okay, I want to be that entrepreneur, I just want to start my own company. So I did that. And, uhm, I was a distributor of baby products for a while. I did that for three years.
 
 Then I sold my company and, uhm, then I thought: okay, I'm really good at building a brand, bringing a brand to market, uh, working with influencers. I naturally understood everything around retail very well and I still understand it very well.
 
-Uhm, so then I started Boni Agency and, uhm, yeah, funny enough the competitors I, uhm, uhm, had in my, uh, market as, uhm, a distributor then asked me: okay, do you want to do the marketing for us? So, uh, that's really funny how that goes. So, uh, I represented a lot of brands in the baby market for a long time.
+Uhm, so then I started [company] and, uhm, yeah, funny enough the competitors I, uhm, uhm, had in my, uh, market as, uhm, a distributor then asked me: okay, do you want to do the marketing for us? So, uh, that's really funny how that goes. So, uh, I represented a lot of brands in the baby market for a long time.
 
 Did a lot of beauty, uh, because there's also real passion in that, uh, just knowing that world. And actually always been a very creative entrepreneur, yeah, entrepreneur to, uh, look from there at okay, how can I position my brand, and how can I position someone else's brand in such a way that you really create a unique proposition?
 
@@ -87,7 +86,7 @@ So that's where my, uhm, full dive came from. Very self-taught, watched a lot of
 
 Uh, spoke to a lot of AI engineers, uh, ended up in a network. Ehm, actually as one of the few women too, because that was, yeah, you do see more women showing up there now of course. But I thought: yeah, okay, I'm not an engineer, but I am that brand engineer, so I can collaborate really well with, with AI and with the brand. So, eh, and then I thought: yeah, as a marketer you naturally also need to come up with a good name.
 
-So that's where Lady AI came from. So that's the nutshell version.
+So that's where [company] came from. So that's the nutshell version.
 
 > *[Me]*
 > *Yeah, yeah, it also sounds like a, like a good domain name to, eh, be able to register. That one was probably already taken somewhere, or not?*
@@ -102,13 +101,13 @@ Eh, no.
 Yeah.
 
 [Them]
-So I immediately, eh, secured everything and, eh, yeah, really great. But that, that was just, yeah, when you're one of the first innovators, yeah, then, eh, it goes fast of course. And, ehm, yeah, where am I now? Ehm, I give a lot of trainings. I'm a permanent trainer at Unica. Large organization where I focus heavily on Copilot. Eh, and also, yeah, actually, eh, what does AI mean for your company, for your team, for your marketing team, for the executive board.
+So I immediately, eh, secured everything and, eh, yeah, really great. But that, that was just, yeah, when you're one of the first innovators, yeah, then, eh, it goes fast of course. And, ehm, yeah, where am I now? Ehm, I give a lot of trainings. I'm a permanent trainer at [company]. Large organization where I focus heavily on Copilot. Eh, and also, yeah, actually, eh, what does AI mean for your company, for your team, for your marketing team, for the executive board.
 
-So then I'm really talking about AI integration. Ehm, the Nuvo, the optician industry association, I do the same there. Every month I'm there for a class of opticians, optometrists. Ehm, and in between I speak at a lot of nice venues, eh, I also work for, eh, Workmode in Amsterdam, eh, where I have fixed, eh, moments when I collaborate with them.
+So then I'm really talking about AI integration. Ehm, the [company], the optician industry association, I do the same there. Every month I'm there for a class of opticians, optometrists. Ehm, and in between I speak at a lot of nice venues, eh, I also work for, eh, [company] in [redacted], eh, where I have fixed, eh, moments when I collaborate with them.
 
 And, eh, I naturally still have my marketing agency where I still serve a number of clients, but that has become a bit less. Eh, which I don't mind at all, by the way, because I'd been doing that for sixteen years already, you know. And, eh, so. But I understand very well what, eh, a marketer needs and how you have to work together with basically all the tools that exist.
 
-So, ehm, I just set up my, ehm, my voice agent completely, ehm, linked to my phone for when I'm not there myself. You know, all that kind of thing. So I try to think very much from that perspective, eh. Eh, and I work with a team of engineers, eh, also in Ukraine. And we're developing our own marketing product, eh, but I can't say much about that yet because that, eh, yeah.
+So, ehm, I just set up my, ehm, my voice agent completely, ehm, linked to my phone for when I'm not there myself. You know, all that kind of thing. So I try to think very much from that perspective, eh. Eh, and I work with a team of engineers, eh, also in [redacted]. And we're developing our own marketing product, eh, but I can't say much about that yet because that, eh, yeah.
 
 > *[Me]*
 > *That does sound interesting. [laughs] Let's leave that for another time.*
@@ -132,13 +131,13 @@ I just see real, real copycat behavior. I see, yeah, that's what I see. Too much
 > *And do you also see organizations that are doing it well?*
 
 [Them]
-Ehm. Yeah, what is doing well, right? Ehm, dealing with AI in the right way. When it comes to image creation I mainly see that with the AI engineers who design it, who show their cases. And I don't really see it as much in brands, because Coca-Cola made a really beautiful video last year and, well, that sparked a lot of discussion.
+Ehm. Yeah, what is doing well, right? Ehm, dealing with AI in the right way. When it comes to image creation I mainly see that with the AI engineers who design it, who show their cases. And I don't really see it as much in brands, because [company] made a really beautiful video last year and, well, that sparked a lot of discussion.
 
-Ehm, I see a video, I don't really see the ultimate video emerging there yet where real distinction is offered. Eh, I think that brands that do it well have found a kind of hybrid form of AI image and non-AI image. But I can't really point to, ehm, that brand is doing really well. Look, I see Cartier is a nice example there. They developed a beautiful image with, with AI.
+Ehm, I see a video, I don't really see the ultimate video emerging there yet where real distinction is offered. Eh, I think that brands that do it well have found a kind of hybrid form of AI image and non-AI image. But I can't really point to, ehm, that brand is doing really well. Look, I see [company] is a nice example there. They developed a beautiful image with, with AI.
 
-Based on the images they already had, so that was the panther from Panthere of the brand they have, they developed the panthers and those, those became AI images that the brand really embraces. But in that you already see that there's an existing concept being further developed, which saves costs. So I do see a lot of things emerging there. And in the fashion industry that's generally really strong, I think.
+Based on the images they already had, so that was the panther from [company] of the brand they have, they developed the panthers and those, those became AI images that the brand really embraces. But in that you already see that there's an existing concept being further developed, which saves costs. So I do see a lot of things emerging there. And in the fashion industry that's generally really strong, I think.
 
-So Mango does that, Zara does it. So they mainly look at how they can save costs on models and on, on a bit of creativity based on their existing concepts. And there, yeah, that's what I see.
+So [company] does that, [company] does it. So they mainly look at how they can save costs on models and on, on a bit of creativity based on their existing concepts. And there, yeah, that's what I see.
 
 > *[Me]*
 > *So basically you're saying AI is most powerful when you've actually already gone through the ideation phase of your marketing.*
@@ -186,7 +185,7 @@ Those are basically three things. And when those three things align with each ot
 
 And that they also understand how safe, what safe work with AI actually is. So when you get Copilot in an organization, which I naturally understand, you should also get the opportunity to work with cloud or work with ChatGPT. Or with, well, whichever Perplexity. To create that AI organization, yeah, then you just need those people. So yeah, that's what I see.
 
-I really see there, and that naturally has to do with change management. And, and change management. Yeah, that's just how it is. I saw that at KPN. From old to new KPN. That just took several years. And Elon Musk already said, and I think it was last week or the week before, he already said okay, every company could now run on eighty percent with AI. But before we get there yeah, startups can start directly from AI.
+I really see there, and that naturally has to do with change management. And, and change management. Yeah, that's just how it is. I saw that at [company]. From old to new [company]. That just took several years. And [person] already said, and I think it was last week or the week before, he already said okay, every company could now run on eighty percent with AI. But before we get there yeah, startups can start directly from AI.
 
 And that naturally also has to do with yeah, when you look at digitalization, the disruptors in the market, yeah, those are also the startups. Yeah, they can switch immediately, so they do it right away. And that's what I really see a lot now. And. Yeah, ehm, what's wrong with that? Actually nothing at all. Because, ehm, unless as an organization you really have no unique proposition and you have a lot of competition. Yeah, I foresee a lot of problems there.
 
@@ -230,7 +229,7 @@ Yeah.
 > *How, how, how does that collaboration work for you? And what does that mean for AI adoption?*
 
 [Them]
-Eh, I think a really big one. Because tech people stay tech people. With all respect, but, ehm, I think that I myself, ehm, ehm, I used to work for a web agency, for example. I built really large websites costing more than a hundred thousand for companies like Salama and that kind of thing. And look, tech people still, ehm, I think the future tech person won't even fit in a unit of tech person.
+Eh, I think a really big one. Because tech people stay tech people. With all respect, but, ehm, I think that I myself, ehm, ehm, I used to work for a web agency, for example. I built really large websites costing more than a hundred thousand for companies like [company] and that kind of thing. And look, tech people still, ehm, I think the future tech person won't even fit in a unit of tech person.
 
 Because they'll ultimately also have to think really creatively and also have to start thinking in a different way. So I find it really interesting that the tech person of the past who had to, had to write code to ultimately get to a website or whatever. Yeah, that that person I especially see changing very positively.
 
@@ -279,7 +278,7 @@ Yeah, we could keep talking about that for a very long time.
 Yeah, really nice. Really nice. And are you going to share your research with me eventually?
 
 > *[Me]*
-> *Definitely yeah. And there's also still publishing. Stephanie has already told everyone I'm going to do that. I don't know yet.*
+> *Definitely yeah. And there's also still publishing. [person] has already told everyone I'm going to do that. I don't know yet.*
 
 [Them]
 Okay. Oh, that sounds—
@@ -308,16 +307,16 @@ Yeah, yeah, yeah, I understand that. That's also just. I'd maybe even rather—
 > *I think what, what I'm going to do is just pull a, a, a number of core lessons out of it and maybe write a piece about that once and put that online separately. Just share with your network, your friends and people who find it interesting.*
 
 [Them]
-Yeah, yeah. Or just ask how, uhm, uh, how Nyenrode can do that for you.
+Yeah, yeah. Or just ask how, uhm, uh, how [company] can do that for you.
 
 > *[Me]*
 > *Yeah, also nice.*
 
 [Them]
-Because, uh, I'd definitely do that, because I, I recently spoke to someone from Nyenrode. I've forgotten his name and he's really into that there, so, uh, I'd just frame that question differently.
+Because, uh, I'd definitely do that, because I, I recently spoke to someone from [company]. I've forgotten his name and he's really into that there, so, uh, I'd just frame that question differently.
 
 > *[Me]*
-> *I, I sometimes give guest lectures for TIAS. I find that super fun, but it also feels really weird to have studied at Nyenrode and then give guest lectures at TIAS instead of Nyenrode. You know?*
+> *I, I sometimes give guest lectures for [company]. I find that super fun, but it also feels really weird to have studied at [company] and then give guest lectures at [company] instead of [company]. You know?*
 
 [Them]
 Yeah, yeah, yeah.
@@ -338,4 +337,4 @@ And, uhm, I'll, uh, well I'll see you on the second then.
 > *Yeah, see you later!*
 
 [Them]
-Okay, thanks Daan. Have a good day. Bye! Yeah.
+Okay, thanks [person]. Have a good day. Bye! Yeah.
