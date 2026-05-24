@@ -69,7 +69,7 @@ Run `quote_me_sections.py` to wrap all `[Me]` sections in markdown block quotes 
 
 ```powershell
 cd c:\workspace\thesis
-python .opencode/skills/clean-convert-transcript/quote_me_sections.py "transcripts\<filename>.md"
+python .cursor/skills/clean-convert-transcript/quote_me_sections.py "transcripts\<filename>.md"
 ```
 
 If the transcript uses `Me:` / `Them:` inline labels (not `[Me]` section blocks), skip this step.
@@ -87,11 +87,14 @@ pandoc $md -o $docx
 Write-Host "Exported: $docx"
 ```
 
-To convert **all** transcripts at once, run from the project root:
+To convert **all** transcripts at once, run from the project root. The script applies `[Me]` italic block-quote formatting before pandoc export (same as Step 2):
 
 ```powershell
-.\convert-transcripts-to-docx.ps1
+cd c:\workspace\thesis
+poetry run python .cursor/skills/clean-convert-transcript/convert_transcripts_to_docx.py
 ```
+
+Add `--update-markdown` to also write italic formatting back to the `.md` source files.
 
 ---
 

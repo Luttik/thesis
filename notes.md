@@ -10,7 +10,7 @@
 
 # TODO
 
-Redact names and orgs.
+Redact names and orgs. (done for transcripts — see transcripts/REDACTION_LOG.md)
 
 # Memo's
 

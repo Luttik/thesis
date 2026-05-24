@@ -134,7 +134,7 @@ Good that we planned a coffee. Yeah, so, yeah.
 > *[Me]*
 > *[laughs] Yeah, so, uh, maybe that's my question. So are you now looking to replace the human, uh, oversights as soon as possible? Or do you really think about this, uh, as like a two-stage approach where like the AI does the first round, and then it gets kicked off to the human, and it's only faster because more of the issues have been caught already?*
 
-[redacted]
+> *[redacted]*
 
 [Them]
 what's important there is that, uh, it's a main driver, but I do feel that it accelerates value creation. So I'm a true believer in personalization, and I do feel that if we have this foundation set up with, uh, the marketing collateral where we could scale, if we have the marketing intelligence on top, which is feeding the gen AI copy content, et cetera, to generate multiple variants, and we can do it in the good governance and brand styling, then that adds to the third layer- ... which is underneath. Which is basically our performance layer, and then it could test and optimize on the different variants. 
@@ -307,7 +307,7 @@ Uh, but if you want to know of anything else, just, um... So what she did is she
 So it inspired a lot of people. Now we're taking it a little bit more in depth with more inspiration on, um, on the basics fundamentals of AI, agentic AI, and ethics on AI. So we know, like, these three areas where it's important to understand what it would mean for you. So that hopefully triggers a lot of use cases in this individual augmentation- ... like I mentioned. Uh, so that could... Is typically something that could work parallel of the process transformation. Um, and then, um, we want to do more deep dive workshops and really having a solution where you can build your own stuff and that you learn while you're doing the work. And that's more planned for the summer. Uh, we call it AI Summit, uh, where we do some workshops in, in this area. Uh, my colleague is doing a fantastic job in, uh, uh, taking the lead in all these things, working out the program, getting inspiration inside, and, um, and working on that.
 
 > *[Me]*
-> *And it's just fully internal to align everything on your v-vision as an organization on AI and what you should be doing and how to go.*a
+> **And it's just fully internal to align everything on your v-vision as an organization on AI and what you should be doing and how to go.*a*
 
 [Them]
 Yes.
