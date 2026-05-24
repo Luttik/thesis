@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Citations in Chapter 4 — recommendation note</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+:root { --canvas:#FDFCFA; --ink:#111; --muted:#657583; --line:rgba(30,60,80,.16); --soft:#F2F6F8; --card:#fff; --accent:#007bcd; --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif; --serif:"Lora",Georgia,serif; --mono:ui-monospace,"SF Mono",Menlo,Consolas,monospace; }
+*{box-sizing:border-box}
+body{margin:0;background:var(--canvas);color:#263844;font-family:var(--sans);font-size:15px;line-height:1.6;padding:48px 22px 90px}
+.page{max-width:920px;margin:0 auto}
+h1,h2,h3{color:var(--ink)}
+h1{font-family:var(--serif);font-weight:500;font-size:34px;line-height:1.15;margin:0 0 14px}
+h2{font-family:var(--serif);font-weight:500;font-size:23px;margin:36px 0 12px}
+h3{font-size:16px;margin:18px 0 6px}
+.eyebrow{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);margin-bottom:10px}
+.lead{font-size:16.5px;color:#344957;max-width:820px}
+.recommendation{background:#F2FBF6;border:1px solid #B9DEC8;border-radius:14px;padding:18px 22px;margin:22px 0;color:#214D35}
+.recommendation h2{margin-top:0;color:#214D35;font-family:var(--serif);font-size:20px}
+.note{background:#FFFBEA;border:1px solid #E7D98B;border-radius:14px;padding:14px 18px;margin:18px 0;color:#554810;font-size:14.5px}
+.two{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;margin:14px 0}
+@media(max-width:760px){.two{grid-template-columns:1fr}}
+.card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px}
+.card h3{margin-top:0}
+.card.do{border-left:4px solid #2E6F57}
+.card.dont{border-left:4px solid #8A4F5E}
+.tag{display:inline-block;font-family:var(--mono);font-size:10.5px;color:#fff;border-radius:999px;padding:3px 9px;font-weight:600;letter-spacing:.04em;margin-right:6px;vertical-align:middle}
+.tag.do{background:#2E6F57}
+.tag.dont{background:#8A4F5E}
+.tag.maybe{background:#8A6F3D}
+ul{margin:6px 0 6px 18px;padding:0}
+li{margin:4px 0}
+code{font-family:var(--mono);background:var(--soft);border:1px solid var(--line);border-radius:5px;padding:1px 5px;font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:13.5px;background:#fff;border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:14px 0}
+th,td{border-bottom:1px solid var(--line);padding:9px 11px;vertical-align:top;text-align:left}
+th{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:#F7FAFB;font-weight:600}
+tr:last-child td{border-bottom:0}
+.where-col{width:140px}
+.footer{margin-top:44px;color:var(--muted);font-size:13px}
+.q{background:#fff;border:1px dashed var(--line);border-radius:12px;padding:14px 18px;margin:14px 0;font-size:14.5px}
+.q strong{color:var(--ink)}
+blockquote{margin:10px 0;padding:10px 14px;background:#fff;border-left:3px solid var(--accent);border-top:1px solid var(--line);border-right:1px solid var(--line);border-bottom:1px solid var(--line);border-radius:0 10px 10px 0;font-size:14px}
+</style></head><body><div class="page">
+
+<div class="eyebrow">Methodological note · chapter 4 (findings)</div>
+<h1>Does it make sense to add citations to Chapter&nbsp;4?</h1>
+<p class="lead">Short answer: only sparingly, and only for specific kinds of citation. The Findings chapter in a constructivist grounded theory (CGT) study is a description of what participants did and said, anchored in the coded data. Comparison with literature, theoretical interpretation and contribution claims belong in the Discussion chapter.</p>
+
+<div class="recommendation">
+<h2>Recommendation in one paragraph</h2>
+<p style="margin:0">Keep citations in Chapter&nbsp;4 minimal and limited to <strong>methodological framing</strong> (e.g.&nbsp;Charmaz, 2014; Blumer, 1969) and to <strong>back-references</strong> to the Literature Review (e.g. &ldquo;as set out in §2.1.4&rdquo;) when a participant uses a technical term that needs grounding. Do <em>not</em> add citations that confirm, extend or contradict prior empirical findings &mdash; those belong in Chapter&nbsp;5. In the current draft of <code>thesis/4.&nbsp;Findings.md</code>, the only citation present is the right one: <code>(Charmaz,&nbsp;2014)</code> introducing the coding vocabulary.</p>
+</div>
+
+<h2>1. The CGT argument</h2>
+<p>Constructivist grounded theory is explicit that the coding pass should stay close to the data; the researcher&rsquo;s reading of the literature is treated as a sensitising input, not as a competing argument inside the analysis. Charmaz (2014, p. 117) frames this as a separation of voices:</p>
+<blockquote>&ldquo;We use sensitizing concepts as points of departure to look at data, to listen to interviewees, and to think analytically about the data &hellip; without forcing prefabricated ideas onto our data.&rdquo;</blockquote>
+<p>If the Findings chapter is dense with citations, two practical risks arise:</p>
+<ul>
+<li><strong>Voice confusion.</strong> The reader cannot tell which claims come from the participants and which come from the literature. The analytical contribution becomes harder to assess.</li>
+<li><strong>Double work.</strong> The Discussion chapter has nowhere left to go &mdash; comparison and interpretation have already been pre-empted. This blurs the line between Findings (what was seen) and Discussion (what it means).</li>
+</ul>
+<p>Strict CGT writing therefore reserves comparative and interpretive citations for the Discussion chapter, and uses Chapter&nbsp;4 to develop the analytical vocabulary that the Discussion will then put into conversation with the literature.</p>
+
+<h2>2. Where citation in Findings is still legitimate</h2>
+<p>That said, an MBA Findings chapter is read by examiners who expect to be able to anchor terms, methods and definitions on a single read. A small, disciplined set of citation moves is appropriate:</p>
+
+<div class="two">
+<div class="card do">
+<h3><span class="tag do">Do</span>Methodological references</h3>
+<p>When you name the coding method, the sensitising concepts or the analytical vocabulary you are using, cite the methodological source.</p>
+<p><em>Example:</em> &ldquo;&hellip;the analytical vocabulary that emerged from initial and focused coding (Charmaz, 2014)&rdquo;.</p>
+</div>
+<div class="card do">
+<h3><span class="tag do">Do</span>Back-references to Chapter&nbsp;2</h3>
+<p>When a term in the data risks being misread, cross-reference the Literature Review rather than adding new external citations.</p>
+<p><em>Example:</em> &ldquo;&hellip;agentic AI (see §2.1.4 for the working definition)&rdquo;.</p>
+</div>
+<div class="card do">
+<h3><span class="tag do">Do</span>Defining a term participants used</h3>
+<p>If a participant uses a technical term that has not been introduced anywhere else (e.g.&nbsp;MCP, RAG), a single short citation on first use is acceptable.</p>
+<p><em>Example:</em> &ldquo;&hellip;new vendor-supplied connectors and protocols (MCP; Anthropic, 2024)&rdquo;.</p>
+</div>
+<div class="card do">
+<h3><span class="tag maybe">Maybe</span>One framing citation per major section</h3>
+<p>A single citation that names the lens you are using to read the data &mdash; e.g.&nbsp;value as a portfolio, dynamic capabilities &mdash; can be acceptable if it is purely organising. Prefer a sentence that points back to §2 instead.</p>
+</div>
+</div>
+
+<h2>3. Where citation in Findings is <em>not</em> appropriate</h2>
+<div class="two">
+<div class="card dont">
+<h3><span class="tag dont">Don&rsquo;t</span>Compare your finding to an existing study</h3>
+<p>&ldquo;This is consistent with Holmstr&ouml;m (2022)&hellip;&rdquo; belongs in Chapter&nbsp;5. In Chapter&nbsp;4 it pre-empts your own contribution.</p>
+</div>
+<div class="card dont">
+<h3><span class="tag dont">Don&rsquo;t</span>Interpret a category through a theory</h3>
+<p>&ldquo;Through the lens of dynamic capabilities (Teece et al., 1997)&hellip;&rdquo; is a Discussion move. In Findings, stay descriptive.</p>
+</div>
+<div class="card dont">
+<h3><span class="tag dont">Don&rsquo;t</span>Use a citation as evidence for a participant claim</h3>
+<p>If a finding is grounded in the coded data, the evidence is the quote, not an external reference. Adding a citation here actively weakens the chapter.</p>
+</div>
+<div class="card dont">
+<h3><span class="tag dont">Don&rsquo;t</span>Cite to legitimise terminology you coined</h3>
+<p>Codes such as <em>full-stack performance</em> or <em>capability-translation process</em> are analytic constructions of this study. They should not be bolstered with citations &mdash; they are the contribution.</p>
+</div>
+</div>
+
+<h2>4. Applied to the current draft</h2>
+<p>The current <code>thesis/4.&nbsp;Findings.md</code> draft contains one citation: <code>(Charmaz, 2014)</code> in the opening paragraph, where it names the methodological vocabulary. That is the only citation the chapter needs. Three places where a citation might tempt the writer but should <em>not</em> be added are:</p>
+<table>
+<thead><tr><th>Section</th><th>Tempting citation</th><th class="where-col">Where it should live</th></tr></thead>
+<tbody>
+<tr><td>§4.2 (AI progression) &mdash; participants&rsquo; difficulty drawing the line between agentic, RAG and workflows</td><td>Bandi et al. (2025); Moralles et al. (2026)</td><td>Discussion (theoretical implication for the definition of agentic AI)</td></tr>
+<tr><td>§4.4 (Internal conditions) &mdash; resistance, leadership backing, governance friction</td><td>Teece et al. (1997); Warner &amp; Wager (2019)</td><td>Discussion (dynamic-capabilities interpretation)</td></tr>
+<tr><td>§4.6.4 (Sacrifices and risks) &mdash; content homogenisation under shared models</td><td>Doshi &amp; Hauser (2024)</td><td>Discussion (brand distinctiveness as a counter-move)</td></tr>
+</tbody></table>
+
+<h2>5. Two optional additions to consider</h2>
+<div class="q">
+<p><strong>1. A one-sentence pointer at the start of §4.1 (Reading guide).</strong> Adding &ldquo;Sensitising concepts (Blumer, 1969) carried into the analysis are described in §2.5&rdquo; makes the methodological frame explicit without adding interpretive freight.</p>
+</div>
+<div class="q">
+<p><strong>2. First-use parentheticals for two technical terms.</strong> &ldquo;Model Context Protocol (MCP; Anthropic, 2024)&rdquo; and &ldquo;retrieval-augmented chat (RAG; Lewis et al., 2020)&rdquo; would help an examiner who reads Chapter&nbsp;4 without re-reading Chapter&nbsp;2. Single-citation, no interpretation, no commentary.</p>
+</div>
+<p>If you want either of these added to the current draft, I can do it as a small edit pass. They add four references at most, and they keep the chapter inside the strict CGT convention.</p>
+
+<h2>6. Quick checklist before submitting Chapter 4</h2>
+<ul>
+<li>Every citation in Chapter&nbsp;4 is either methodological or a first-use definition.</li>
+<li>No citation in Chapter&nbsp;4 compares findings to other empirical studies.</li>
+<li>No citation in Chapter&nbsp;4 interprets a category through a theoretical lens.</li>
+<li>Cross-references to Chapter&nbsp;2 use section numbers (e.g.&nbsp;§2.1.4), not external citations.</li>
+<li>All comparative, interpretive and theory-building citations are in Chapter&nbsp;5.</li>
+</ul>
+
+<div class="footer">Reference: Charmaz, K. (2014). <em>Constructing grounded theory</em> (2nd&nbsp;ed.). Sage. Specifically chs.&nbsp;5&ndash;6 on coding and chs.&nbsp;7&ndash;8 on memo-writing and theoretical sampling for the separation of analytical voice from literature engagement.</div>
+
+</div></body></html>

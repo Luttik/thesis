@@ -36,6 +36,8 @@ textual = "^0.79.1"
 [tool.poetry.group.dev.dependencies]
 ruff = "^0.8"
 pytest = "^8"
+matplotlib = "^3.10.9"
+cairosvg = "^2.9.0"
 
 [tool.ruff]
 line-length = 100
