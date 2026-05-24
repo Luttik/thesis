@@ -27,7 +27,7 @@ All right
 Yes, anything I can do to help. [chuckles] 
 
 > *[Me]*
-> *Yeah. You know, I th- I think Leo is also very busy, uh, getting his thesis on the road.*
+> *Yeah. You know, I th- I think [redacted] is also very busy, uh, getting his thesis on the road.*
 
 [Them]
 Yes, he is. He's- 
@@ -66,28 +66,28 @@ Mm-hmm.
 > *Um, I think it's best to just get, get into it. Uh, also, s- just so you know, obviously I'm researching AI, agentic AI market- in marketing, and I'm looking for people who lead marketing teams, and I know you have a... I don't know if you still do. You were looking for a job again, right?*
 
 [Them]
-Uh, just that was briefly for a month or two in the spring. So I'm working for my same company but out of London now. 
+Uh, just that was briefly for a month or two in the spring. So I'm working for my same company but out of [location] now. 
 
 > *[Me]*
-> *Yeah. Yeah. I think Leo told me something like that. Yes. Great.*
+> *Yeah. Yeah. I think [redacted] told me something like that. Yes. Great.*
 
 [Them]
 Mm-hmm. 
 
 > *[Me]*
-> *So maybe just let, let's start by introducing yourself. Uh, could you tell me a bit about you and your job?*
+> *So maybe just let, let's start by introducing yourself. Uh, could you tell me a bit [company] and your job?*
 
 [Them]
-Yeah. So I, um, start... So my background is marketing. Um, I have been working for an Omnicom agency. So Omnicom is a, a big network P&L, um, that I work for their consumer relationship marketing agency. So Omnicom has, like, six verticals. We have our brand advertising, we have our public relations, we have, um, our, what we call precision marketing, which is like consumer relationship marketing. Um, we have Omnicom Media, Omnicom Health, um, and there's a sixth I can't think of. So yeah, my background is marketing and operations. So I've been working for my agency wrap for, like, the last 
+Yeah. So I, um, start... So my background is marketing. Um, I have been working for an [company] agency. So [company] is a, a big network P&L, um, that I work for their consumer relationship marketing agency. So [company] has, like, six verticals. We have our brand advertising, we have our public relations, we have, um, our, what we call precision marketing, which is like consumer relationship marketing. Um, we have [company] Media, [company] Health, um, and there's a sixth I can't think of. So yeah, my background is marketing and operations. So I've been working for my agency [company] for, like, the last 
 
 [Them]
-10 plus years. Um, so when I worked in North America, I led our Toyota and Lexus- 
+10 plus years. Um, so when I worked in North America, I led our [company] and [company]- 
 
 > *[Me]*
 > *Mm-hmm*
 
 [Them]
-... North America account, so doing all of their CRM work. Now that I am, um, based out of London, I have been one... I'm shi- it's still operations, but I've shifted from, like, program management operations to what we call transformation, which is, like, working in the agentic space and how we start to transform our, our way of working internally, our way of working with our clients. Um, so really, like, transforming the business thinking forward instead of thinking in the present. Uh, so now I predominantly work on new business pitches. I lead, like, our global transformation initiatives between, I mean, globally, but it's really between North America and the UK. Um, 
+... North America account, so doing all of their CRM work. Now that I am, um, based out of [location], I have been one... I'm shi- it's still operations, but I've shifted from, like, program management operations to what we call transformation, which is, like, working in the agentic space and how we start to transform our, our way of working internally, our way of working with our clients. Um, so really, like, transforming the business thinking forward instead of thinking in the present. Uh, so now I predominantly work on new business pitches. I lead, like, our global transformation initiatives between, I mean, globally, but it's really between North America and the UK. Um, 
 
 [Them]
 yeah, so that's probably what I'm doing right now. 
@@ -120,7 +120,7 @@ Yeah, yeah. At first I thought you meant like Microsoft Teams, but you mean like
 > *No, yeah. Like, like actual teams that you-*
 
 [Them]
-Yeah. So North America, I led a program management team specifically on our Toyota Lexus account. Now I work... I, I don't manage a team now. I'm a specialist, and I work with, like, our project management, uh, PMO lead- 
+Yeah. So North America, I led a program management team specifically on our [company] [company] account. Now I work... I, I don't manage a team now. I'm a specialist, and I work with, like, our project management, uh, PMO lead- 
 
 > *[Me]*
 > *Yeah*
@@ -243,7 +243,7 @@ Okay
 > *It's cool to be busy with these kinds of things.*
 
 [Them]
-Oh, nice. You guys have nice cl- uh, Deloitte, Coca-Cola. Yeah, you guys have some good clients. 
+Oh, nice. You guys have nice cl- uh, [company], [company]. Yeah, you guys have some good clients. 
 
 > *[Me]*
 > *For sure, yeah. No, I'm f- very happy where we're at. Um-*
@@ -267,25 +267,25 @@ Mm-hmm.
 > *Can you tell me a bit about what you guys are doing?*
 
 [Them]
-Yeah. So we are... 'Cause you have to think of it like when we... There is Wrap, my agency, and what our AI offering is, and then there's the Omnicom AI offering. So I'll walk you through. Like, I led the, uh, Jaguar, Land Rover, Range Rover global pitch all last year. We did not win it. WPP won it, but that as a whole, there's a reason they won it, because it all comes down to relationships. So- 
+Yeah. So we are... 'Cause you have to think of it like when we... There is [company], my agency, and what our AI offering is, and then there's the [company] AI offering. So I'll walk you through. Like, I led the, uh, [company], [company], [company] global pitch all last year. We did not win it. [company] won it, but that as a whole, there's a reason they won it, because it all comes down to relationships. So- 
 
 > *[Me]*
 > *Yeah*
 
 [Them]
-... I think when we pitched JLR, we... That was really, like, setting the blueprint for how we use tech and AI in the end-to-end process- 
+... I think when we pitched [company], we... That was really, like, setting the blueprint for how we use tech and AI in the end-to-end process- 
 
 > *[Me]*
 > *Yeah*
 
 [Them]
-... to create efficiencies, and basically in the end, clients wanna save money. They wanna be in market faster, and they wanna save money. So what we did, so this was an integrated agency team pitch called an IAT, meaning, like, you know, we have our br- our, um, it's called Omnicom Advertising. We have that company pitching the brand work. Then you have Wrap coming in as the OPM, Omnicom Precision Marketing lead. Then we have, like, Omnicom Production, Omnicom Media. So we're bringing in all of our verticals to create- 
+... to create efficiencies, and basically in the end, clients wanna save money. They wanna be in market faster, and they wanna save money. So what we did, so this was an integrated agency team pitch called an IAT, meaning, like, you know, we have our br- our, um, it's called [company] Advertising. We have that company pitching the brand work. Then you have [company] coming in as the [company], [company] Precision Marketing lead. Then we have, like, [company] Production, [company] Media. So we're bringing in all of our verticals to create- 
 
 > *[Me]*
 > *Yeah*
 
 [Them]
-... an integrated agency team, so that's how we're pitching it. So when we did JLR, that was like an, uh, I wouldn't say the first instance, but the biggest instance where we had to really understand, like, what is really, like, our end-to-end agentic offering? 'Cause you have different agencies in Omnicom sometimes offering the same thing. Like, for example, CGI pipeline capabilities. So you have our production company. They have their own tools. We have our, our digital agency within the precision marketing vertical has their own tools. So it was a really interesting experience of, like, identifying who owns this capability really. 
+... an integrated agency team, so that's how we're pitching it. So when we did [company], that was like an, uh, I wouldn't say the first instance, but the biggest instance where we had to really understand, like, what is really, like, our end-to-end agentic offering? 'Cause you have different agencies in [company] sometimes offering the same thing. Like, for example, CGI pipeline capabilities. So you have our production company. They have their own tools. We have our, our digital agency within the precision marketing vertical has their own tools. So it was a really interesting experience of, like, identifying who owns this capability really. 
 
 > *[Me]*
 > *Yeah.*
@@ -303,28 +303,28 @@ Oh, go ahead.
 > *S- s- yeah, just, just jumping in, because you said who owns this capability. Does it mean that you see agentic AI or A- AI as a whole as one capability, or do you-*
 
 [Them]
-No, breaking it down. Breaking it down. So when it comes to... 'Cause there, 'cause AI comes in at almost every step in the process of an end. So when you think of a, a, think of, like, a campaign launch. So first you have the advertising agency doing the big strategic, um, discovery and definition, the big, uh, creative platform campaign. They have their own AI and tools to enable that process. Then it flows through, like, enablement and activation. Like, cool, now we have this big brand platform idea. So for example, for Range Rover, they're, they're launching a new EV vehicle, well, electric vehicle, um, and they did this big brand campaign that, um, featured Kendrick Lamar, and it was all about, like-Um, you know, you get to this place in your life where you're a leader and you wanna show that you're a leader, and so they did that whole thing. Then we come in, we take that big brand campaign, and then we distill it down to the consumer journey to say, "Okay, now how are people gonna see this?" So we have, within Precision Marketing, we have our own AI tech and tools. So when it comes to like... CGI is just an example. So CGI, meaning in the case of like Range Rover, the-- our production company [audio cuts out] CGI tools to create new 
+No, breaking it down. Breaking it down. So when it comes to... 'Cause there, 'cause AI comes in at almost every step in the process of an end. So when you think of a, a, think of, like, a campaign launch. So first you have the advertising agency doing the big strategic, um, discovery and definition, the big, uh, creative platform campaign. They have their own AI and tools to enable that process. Then it flows through, like, enablement and activation. Like, cool, now we have this big brand platform idea. So for example, for [company], they're, they're launching a new EV vehicle, well, electric vehicle, um, and they did this big brand campaign that, um, featured Kendrick Lamar, and it was all about, like-Um, you know, you get to this place in your life where you're a leader and you wanna show that you're a leader, and so they did that whole thing. Then we come in, we take that big brand campaign, and then we distill it down to the consumer journey to say, "Okay, now how are people gonna see this?" So we have, within Precision Marketing, we have our own AI tech and tools. So when it comes to like... CGI is just an example. So CGI, meaning in the case of like [company], the-- our production company [audio cuts out] CGI tools to create new 
 
 [Them]
-Range Rover. So they'll take like what's called a CAD file. 
+[company]. So they'll take like what's called a CAD file. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-And it's... A CAD is owned by the brand. So JLR, Jaguar Land Rover, they own a CAD of the new Range Rover EV. 
+And it's... A CAD is owned by the brand. So [company], [company] [company], they own a CAD of the new [company] EV. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-They then hand that off and an, an agency can use a tool, and it could be a proprietary tool, something we built or something from the outside, and they can do different renderings of the vehicle. They can put the vehicle on a backdrop. They can do live videos, like images of... So what I'm saying is, within that CGI space, what JLR, the pitch exposed is that our production agency does... like thinks that they own that, and then our digital agency thinks that they own that. So it kind of exposed those. When we're working as an IAT, we do need to identify swim lanes. 
+They then hand that off and an, an agency can use a tool, and it could be a proprietary tool, something we built or something from the outside, and they can do different renderings of the vehicle. They can put the vehicle on a backdrop. They can do live videos, like images of... So what I'm saying is, within that CGI space, what [company], the pitch exposed is that our production agency does... like thinks that they own that, and then our digital agency thinks that they own that. So it kind of exposed those. When we're working as an IAT, we do need to identify swim lanes. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-So who is going to own that capability? So that's just one example. Um, but we, we, through JLR and other pitches, so like we're pitching Philip Morris right now, we have created like end-to-end workflows of how AI... I can send you like a really cool image. Um, how AI is integrated into the end-to-end process, um, to enable, you know, better, you know, the... It basically removes the need for human interaction, and it's, it's two, two-toned. One, saves money 'cause you don't have humans doing it. Something that takes like two days can happen in twenty minutes. Two, the type of data and the accuracy is much more, um, valuable than if a human went through, you know, Google and did its own research. It is pulling things from a million different sources and outputting a strategic brief in twenty minutes. 
+So who is going to own that capability? So that's just one example. Um, but we, we, through [company] and other pitches, so like we're pitching Philip Morris right now, we have created like end-to-end workflows of how AI... I can send you like a really cool image. Um, how AI is integrated into the end-to-end process, um, to enable, you know, better, you know, the... It basically removes the need for human interaction, and it's, it's two, two-toned. One, saves money 'cause you don't have humans doing it. Something that takes like two days can happen in twenty minutes. Two, the type of data and the accuracy is much more, um, valuable than if a human went through, you know, Google and did its own research. It is pulling things from a million different sources and outputting a strategic brief in twenty minutes. 
 
 > *[Me]*
 > *Yeah.*
@@ -342,7 +342,7 @@ Mm-hmm.
 > *of make-making a campaign plan and doing that analysis, you see that the quality of output becomes much better because you're just... You, you are time limited, I guess?*
 
 [Them]
-Yeah. So think of it like this way. Like if you're working on a global campaign and you have twenty markets, like you're working from, with people from Europe, from Asia, from South America. Right now, the way that an operational model is set up is that every time you wanna do a big campaign, you have to keep going to the markets to get cultural insights. So Japan, Korea, you know, how would this big platform idea sit within your, within your market? W-what do we need to change? What do we need to make compliant? And then that back and forth can take weeks. Or you build an AI tool, like we have something called Affinity Hub, which is a consumer journey tool, and in it, it's basically like a large language model where you're constantly building up cultural insights. So all of that is in a tool. I'm not having to go to these twenty markets and get the back-to-back. And honestly, y- I'm asking a person, it's a person's opinion sometimes versus all these different sources of data that are informing these cultural insights. So, so yeah, it's, it's way quicker and the, the information is more, you know, diverse from diverse sources than just one person. 
+Yeah. So think of it like this way. Like if you're working on a global campaign and you have twenty markets, like you're working from, with people from Europe, from Asia, from South America. Right now, the way that an operational model is set up is that every time you wanna do a big campaign, you have to keep going to the markets to get cultural insights. So Japan, Korea, you know, how would this big platform idea sit within your, within your market? W-what do we need to change? What do we need to make compliant? And then that back and forth can take weeks. Or you build an AI tool, like we have something called [product], which is a consumer journey tool, and in it, it's basically like a large language model where you're constantly building up cultural insights. So all of that is in a tool. I'm not having to go to these twenty markets and get the back-to-back. And honestly, y- I'm asking a person, it's a person's opinion sometimes versus all these different sources of data that are informing these cultural insights. So, so yeah, it's, it's way quicker and the, the information is more, you know, diverse from diverse sources than just one person. 
 
 > *[Me]*
 > *Mm-hmm. Interesting.*
@@ -462,22 +462,22 @@ Yeah, yeah. Okay.
 > *And, and amazing.*
 
 [Them]
-Yeah. So it's a whole context. Yeah, so, so in that space, agentic AI, so do you know anything about, like, the big, uh, global marketing PNLs? Like, so there's four, right? So there's Omnicom. We are now the largest 'cause we purchased IPG, which used to be in the top four. 
+Yeah. So it's a whole context. Yeah, so, so in that space, agentic AI, so do you know anything about, like, the big, uh, global marketing PNLs? Like, so there's four, right? So there's [company]. We are now the largest 'cause we purchased [company], which used to be in the top four. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-So there's Omnicom, there's Publicis, and there's WPP. 
+So there's [company], there's [company], and there's [company]. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-So each holding company has their own, like, agentic system. So WPP, they call theirs Open, I think. Ours is called Omni 
+So each holding company has their own, like, agentic system. So [company], they call theirs Open, I think. Ours is called [product] 
 
 [Them]
-and OmniAI. So Omni is the data platform that we've built- 
+and [product]. So [product] is the data platform that we've built- 
 
 > *[Me]*
 > *Mm*
@@ -489,13 +489,13 @@ and OmniAI. So Omni is the data platform that we've built-
 > *Yeah*
 
 [Them]
-... that can power a, a campaign for a client. So that's Omni. Then we have OmniAI, which is supposed to be, like, all these different AI tools combined into one, and it basically is an agentic life cycle marketing tool. 
+... that can power a, a campaign for a client. So that's [product]. Then we have [product], which is supposed to be, like, all these different AI tools combined into one, and it basically is an agentic life cycle marketing tool. 
 
 > *[Me]*
 > *Mm.*
 
 [Them]
-So it can really, like, push a campaign through the end-to-end process with minimal human interaction. So you have, like, the upfront strategic and cultural insights that are happening, and that's happening between Omni and OmniAI. Then you have, you know, OmniAI taking those cultural insights and creating a brief. The brief then creates a content matrix. The content matrix then goes into this, um... it's called Art Bot. It is a, um, an AI tool where it can create a ton of different assets for different channels and different sizes in, you know, two minutes, and it can transcribe those, it can translate into multiple languages, and then that gets output into media platforms. So I guess you could consider that, like the, the- 
+So it can really, like, push a campaign through the end-to-end process with minimal human interaction. So you have, like, the upfront strategic and cultural insights that are happening, and that's happening between [product] and [product]. Then you have, you know, [product] taking those cultural insights and creating a brief. The brief then creates a content matrix. The content matrix then goes into this, um... it's called [product]. It is a, um, an AI tool where it can create a ton of different assets for different channels and different sizes in, you know, two minutes, and it can transcribe those, it can translate into multiple languages, and then that gets output into media platforms. So I guess you could consider that, like the, the- 
 
 > *[Me]*
 > *Mm*
@@ -504,7 +504,7 @@ So it can really, like, push a campaign through the end-to-end process with mini
 ... it, 'cause it has multiple AI tools within the, the big platform, and that is where a lot of big agencies are competing in that space on... When it comes down to it, a lot of the pitches that we're getting involved in 
 
 [Them]
-is around the creative, the technology, and then the relation, like the people of course, but the technology is huge. 'Cause when it comes down to it, we all kind of have the same offering. Like, our OmniAI platform is the same as WPP's, it's just how it's presented. And the other thing to keep in mind is, like, when it comes to these big platforms, everybody's figuring it out as they go. Like, I think we sometimes present something a certain way while we're trying to actually make it that way in the background, because we're constantly gonna be doing that 'cause new tools are gonna be coming out and, you know, there are different expectations in the market, and so we have to evolve our way of working, and it will be ever-evolving, so yeah. 
+is around the creative, the technology, and then the relation, like the people of course, but the technology is huge. 'Cause when it comes down to it, we all kind of have the same offering. Like, our [product] platform is the same as [company]'s, it's just how it's presented. And the other thing to keep in mind is, like, when it comes to these big platforms, everybody's figuring it out as they go. Like, I think we sometimes present something a certain way while we're trying to actually make it that way in the background, because we're constantly gonna be doing that 'cause new tools are gonna be coming out and, you know, there are different expectations in the market, and so we have to evolve our way of working, and it will be ever-evolving, so yeah. 
 
 > *[Me]*
 > *Yeah.*
@@ -519,7 +519,7 @@ When it co- If you ask me, business comes down to the people, 'cause the, the te
 ... to offer and build those relationships. 
 
 > *[Me]*
-> *So I'm, I'm wondering, and this may- may be also a bit of personal interest. Do, do you guys have a label in the Netherlands? Because I, I know that WPP is present here with Greenhouse, which they bought-*
+> *So I'm, I'm wondering, and this may- may be also a bit of personal interest. Do, do you guys have a label in the Netherlands? Because I, I know that [company] is present here with Greenhouse, which they bought-*
 
 [Them]
 Yeah 
@@ -546,16 +546,16 @@ Oh, okay.
 > *That's confusing. Yeah.*
 
 [Them]
-So, yeah. Uh, so I technically am in em- I am employed by OGS, which is... I don't even know what that stands for. Omnicom Group Services. 
+So, yeah. Uh, so I technically am in em- I am employed by [company], which is... I don't even know what that stands for. [company] Group Services. 
 
 > *[Me]*
 > *Okay.*
 
 [Them]
-It is tied to t- uh, TBWA. So TBWA Amsterdam is an Omnicom agency. Um, I think we have 180 in Amsterdam. So yes, Omnicom has offices in Amsterdam, similar to WPP has, like, VML. 
+It is tied to t- uh, [company]. So [company] is an [company] agency. Um, I think we have 180 in [location]. So yes, [company] has offices in [location], similar to [company] has, like, [company]. 
 
 > *[Me]*
-> *And all these different labels use essentially the same OmniAI solution from you?*
+> *And all these different labels use essentially the same [product] solution from you?*
 
 [Them]
 Yes. 
@@ -564,25 +564,25 @@ Yes.
 > *Cool.*
 
 [Them]
-So those are all different agencies under Omnicom. 
+So those are all different agencies under [company]. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-And they... And the thing is, like-TBWA in Amsterdam, because it's smaller, I don't know if they're completely tapped into what we're doing at a global level. 
+And they... And the thing is, like-[company] in [location], because it's smaller, I don't know if they're completely tapped into what we're doing at a global level. 
 
 [Them]
-When it comes to it, like there was this CES conference in Vegas, and that is where, you know, the new Omnicom is being presented now that we've got... Because we-- it took almost three years to go through the acquisition of IPG, and now that that's been completed, we're being presented as the new Omnicom. So in Vegas, there was a lot presented around Omni+ on the AI, and so obviously that is 
+When it comes to it, like there was this CES conference in [location], and that is where, you know, the new [company] is being presented now that we've got... Because we-- it took almost three years to go through the acquisition of [company], and now that that's been completed, we're being presented as the new [company]. So in [location], there was a lot presented around [product]+ on the AI, and so obviously that is 
 
 [Them]
-tied to every single office around the globe. But when it comes to like TBWA Amsterdam, when they're pitching new pieces of b-business, I honestly don't know how tied in they are to how we're presenting our agentic tool chain. 
+tied to every single office around the globe. But when it comes to like [company], when they're pitching new pieces of b-business, I honestly don't know how tied in they are to how we're presenting our agentic tool chain. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-If we're doing it, it's so focused on like London as the global hub and then North America. Like, I'm not super connected to TBWA Amsterdam. I don't know how they are working with our clients or, you know what I mean? So I'd be interested to know, like how are they using- 
+If we're doing it, it's so focused on like [location] as the global hub and then North America. Like, I'm not super connected to [company]. I don't know how they are working with our clients or, you know what I mean? So I'd be interested to know, like how are they using- 
 
 > *[Me]*
 > *Yeah*
@@ -609,13 +609,13 @@ So honestly, when it comes down to it, that is really it. Now, it sounds easy, b
 > *Mm.*
 
 [Them]
-But it... 'Cause the end-to-end, what we do as Omnicom, like we are producing-- You know, it's called like upper funnel, mid funnel, lower funnel. So it's kind of the same and any-anything you deliver, you can apply it to that context. 
+But it... 'Cause the end-to-end, what we do as [company], like we are producing-- You know, it's called like upper [product], mid [product], lower [product]. So it's kind of the same and any-anything you deliver, you can apply it to that context. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-So like for example, when we mapped out this JLR pitch and we said, "This is how as Omnicom we're gonna show..." And you can use the word like content supply chain, AI, agentic tool chain, whatever you wanna call it. It's kind of the same. So no matter what type of deliverable you're delivering, you're kind of following the same pattern of the operating model tools and processes. Um, other use cases, I mean, t- yeah, it's like whenever we get these new... 'Cause we have a ton of global business pitches that we're working. Like we're pitch- Any automotive company you can think of, I guess more so that's like big name brands we have as a client. 
+So like for example, when we mapped out this [company] pitch and we said, "This is how as [company] we're gonna show..." And you can use the word like content supply chain, AI, agentic tool chain, whatever you wanna call it. It's kind of the same. So no matter what type of deliverable you're delivering, you're kind of following the same pattern of the operating model tools and processes. Um, other use cases, I mean, t- yeah, it's like whenever we get these new... 'Cause we have a ton of global business pitches that we're working. Like we're pitch- Any automotive company you can think of, I guess more so that's like big name brands we have as a client. 
 
 [Them]
 And so we just got like another piece of BMW global business to pitch, and it's the same thing over and over. You know? 'Cause clients want, again, how can we get to market faster? And a lot of RFPs that come through specifically state, how can you use... Like the, the whole RFP is around how can you use AI and technology to get us to market quicker and save money and, and produce better quality outputs. 
@@ -657,19 +657,19 @@ Yeah.
 > *Yeah.*
 
 [Them]
-Yeah. So that's interesting, yeah. 'Cause you can look at AI tools offering. A-again, it's, it is... You can look at it from an operational standpoint, so removing human hours, making things quicker. And then again, you can use it for increasing the quality and precision of the marketing. So for example, Affinity Hub. So it is a proprietary tool that we built internally, and it sits in the upper funnel. Well, I guess it could sit in the upper funnel and middle funnel, and it's basically connected to our database, so the Omni+ that we created taps into that. The, the Omni+ also, in addition to like having all the data, it also has a me- uh, channel and investment planner 'cause media in the end is what like drives everything. So within that tool, it has these planners where it takes the data and then it informs what the best, you know, media plan would be. 
+Yeah. So that's interesting, yeah. 'Cause you can look at AI tools offering. A-again, it's, it is... You can look at it from an operational standpoint, so removing human hours, making things quicker. And then again, you can use it for increasing the quality and precision of the marketing. So for example, [product]. So it is a proprietary tool that we built internally, and it sits in the upper [product]. Well, I guess it could sit in the upper [product] and middle [product], and it's basically connected to our database, so the [product]+ that we created taps into that. The, the [product]+ also, in addition to like having all the data, it also has a me- uh, channel and investment planner 'cause media in the end is what like drives everything. So within that tool, it has these planners where it takes the data and then it informs what the best, you know, media plan would be. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-That then gets pushed down into what we call Affinity Hub, and Affinity Hub really is like a consumer journey tool. And so what it's doing is it's using AI to pull all the cultural insights, um, into the consumer journey to say, okay, so our consumer journey is like an infinity loop, right? It's like shop, buy, own. Um, so you're going through a shopping phase, then you're going through a buying phase, then you own the product, and then we want you to keep going into that consumer journey. So within the consumer journey, what Affinity Hub i-does, in addition to like all the cultural insights, is it, it continues to build this customer journey for a specific brand, for a market. Like you can slice and dice it in so many ways. And what it's doing is it's actually like visually even like showing you on the affinity loop like, hey, there's an opportunity here for this, for this customer.Um, it is... So for example, when we were doing the JLR pitch, there was a, a, um, response case study that we, that we did as a presentation around Defender. So we were saying in the United States, Defender, one of the big, um, segment audiences for Defender is, I don't even remember, it was like women in their 50s to 60s, and it had other cultural details around, like who that audience is, but their demand is dropping. And so in the Affinity Loop it, it showed red and it said, "Hey, there's an opportunity here." You know, it is proactively, uh, escalating a risk in the market to say, "Demand is dropping, how can we get in front of it and respond to that before it creates like, you know, stronger decline within sales?" So it's doing that. It's doing like, hey, kind of ad hoc proactive response flashes, and then it's also doing, if you are doing a launch campaign, how can you hit each point in the consumer journey? And it's all happening in this tool. It used to be very manual. It was like strategists working with data analytics people- 
+That then gets pushed down into what we call [product], and [product] really is like a consumer journey tool. And so what it's doing is it's using AI to pull all the cultural insights, um, into the consumer journey to say, okay, so our consumer journey is like an infinity loop, right? It's like shop, buy, own. Um, so you're going through a shopping phase, then you're going through a buying phase, then you own the product, and then we want you to keep going into that consumer journey. So within the consumer journey, what [product] i-does, in addition to like all the cultural insights, is it, it continues to build this customer journey for a specific brand, for a market. Like you can slice and dice it in so many ways. And what it's doing is it's actually like visually even like showing you on the affinity loop like, hey, there's an opportunity here for this, for this customer.Um, it is... So for example, when we were doing the [company] pitch, there was a, a, um, response case study that we, that we did as a presentation around Defender. So we were saying in the United States, Defender, one of the big, um, segment audiences for Defender is, I don't even remember, it was like women in their 50s to 60s, and it had other cultural details around, like who that audience is, but their demand is dropping. And so in the Affinity Loop it, it showed red and it said, "Hey, there's an opportunity here." You know, it is proactively, uh, escalating a risk in the market to say, "Demand is dropping, how can we get in front of it and respond to that before it creates like, you know, stronger decline within sales?" So it's doing that. It's doing like, hey, kind of ad hoc proactive response flashes, and then it's also doing, if you are doing a launch campaign, how can you hit each point in the consumer journey? And it's all happening in this tool. It used to be very manual. It was like strategists working with data analytics people- 
 
 > *[Me]*
 > *Mm-hmm*
 
 [Them]
-... to inform what an end-to-end journey looks like. And yes, like we are in precision marketing, so it was very dynamic based on the person, the actions they're taking, but it's all... And when I say manual, you know, it's somebody going into a spreadsheet or going into a design document and saying, "If this person takes these actions, they would then..." You know, it's all so manual. Now, this tool does it all. Um, and so it's based on, again, like the data that we have, customer data pla- platform data. It's based on insights in the market. It's based on like how things are performing in the market. So if we put a campaign into market and specific things are being clicked on more, or you know, something's not resonating with somebody, all of that data gets picked up from in-market, whether it's like from an email, a display banner ad or something like that, and it gets put back into this Affinity Hub. So the next time we do a campaign, or if it's like an always-on campaign, it is optimizing the output of that. 
+... to inform what an end-to-end journey looks like. And yes, like we are in precision marketing, so it was very dynamic based on the person, the actions they're taking, but it's all... And when I say manual, you know, it's somebody going into a spreadsheet or going into a design document and saying, "If this person takes these actions, they would then..." You know, it's all so manual. Now, this tool does it all. Um, and so it's based on, again, like the data that we have, customer data pla- platform data. It's based on insights in the market. It's based on like how things are performing in the market. So if we put a campaign into market and specific things are being clicked on more, or you know, something's not resonating with somebody, all of that data gets picked up from in-market, whether it's like from an email, a display banner ad or something like that, and it gets put back into this [product]. So the next time we do a campaign, or if it's like an always-on campaign, it is optimizing the output of that. 
 
 > *[Me]*
 > *Check. So I have so many questions from this, uh, segment that I want to dive deeper on.*
@@ -696,19 +696,19 @@ Mm-hmm.
 Mm-hmm 
 
 > *[Me]*
-> *... that we use to orchestrate the entire journey. Is that still, still what w- what works for you, or do you focus more and more on having Omni be it all?*
+> *... that we use to orchestrate the entire journey. Is that still, still what w- what works for you, or do you focus more and more on having [product] be it all?*
 
 [Them]
 So that's a very loaded question. Ours is honestly the same. It is an ecosystem of tools 
 
 [Them]
-that are very loosely connected. Now, what we are trying to do with Omni AI, which 
+that are very loosely connected. Now, what we are trying to do with [product] AI, which 
 
 [Them]
 is how we present ourselves, that it is this big platform, well, it's not really. It's like kind of just loosely connected. So we are putting resources to really build it so it all sits... And when I say ecosystem, it's no longer an ecosystem, it actually is in a platform. But, but ours is similar. It is an ecosystem of tools that goes from, you have an end-to-end process flow, and it goes from, you know, 
 
 [Them]
-creating the big brand idea, pushing that down into Affinity Hub. That then goes through Omni, which goes to Art Bot. It outputs these assets. These assets are tagged in a dam. You know, so it's all, all these tools are b- kind of getting manually pushed from one thing to the other. What we're trying to do is allow it all to be technically within the same interface, and doesn't require humans to push it. It's just pushing itself. 
+creating the big brand idea, pushing that down into [product]. That then goes through [product], which goes to [product]. It outputs these assets. These assets are tagged in a dam. You know, so it's all, all these tools are b- kind of getting manually pushed from one thing to the other. What we're trying to do is allow it all to be technically within the same interface, and doesn't require humans to push it. It's just pushing itself. 
 
 > *[Me]*
 > *Does this mean, also mean that you, uh, select marketing systems now more and more that have the capabilities to be*
@@ -717,13 +717,13 @@ creating the big brand idea, pushing that down into Affinity Hub. That then goes
 > *fully orchestrated from other tools*
 
 > *[Me]*
-> *because you want to have it all be connected to the Omni interface?*
+> *because you want to have it all be connected to the [product] interface?*
 
 [Them]
 Yeah. So it's... So explain to me what you mean by that. 
 
 > *[Me]*
-> *So I'm, I'm really trying to envision how, how Omni works now, the workflow from your marketeers' work. And what I typically find is that data might come in into one system, and then flow into like a data warehouse or a CDP, and then flow-*
+> *So I'm, I'm really trying to envision how, how [product] works now, the workflow from your marketeers' work. And what I typically find is that data might come in into one system, and then flow into like a data warehouse or a CDP, and then flow-*
 
 [Them]
 Mm-hmm 
@@ -768,16 +768,16 @@ Yeah
 > *Mm-hmm.*
 
 [Them]
-An email. So first of all, the... 'Cause already I'm talking about two different platforms. I'm talking about Omni+ as the data platform, and then I'm talking about OmniAI as the agentic tool chain. 
+An email. So first of all, the... 'Cause already I'm talking about two different platforms. I'm talking about [product]+ as the data platform, and then I'm talking about [product] as the agentic tool chain. 
 
 [Them]
-So that's... You're gonna have your data pushed from one thing into another. Now, in the OmniAI tool chain, you are always going to have things that sit outside of that, like Salesforce Marketing Cloud. So you take an email, you wanna do an email campaign, you're pulling your data from Omni+. 
+So that's... You're gonna have your data pushed from one thing into another. Now, in the [product] tool chain, you are always going to have things that sit outside of that, like [product]. So you take an email, you wanna do an email campaign, you're pulling your data from [product]+. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-You're pulling it, you know, does it go into OmniAI? Does OmniAI really just do the content generation, and the data actually just gets pushed to SFMC? Will SFMC ever really live in OmniAI? No, it's not. Maybe there will be, like, an interstitial interface that passes it through. But honestly, I don't think... I don't know. That's, like, beyond my expertise, where that's not where we are now, that's not where we're planning to go. Is that, like, where we wanna go in the, in the... Is that a capability, like, two years from now? I don't even know. I don't know if that 
+You're pulling it, you know, does it go into [product]? Does [product] really just do the content generation, and the data actually just gets pushed to [product]? Will [product] ever really live in [product]? No, it's not. Maybe there will be, like, an interstitial interface that passes it through. But honestly, I don't think... I don't know. That's, like, beyond my expertise, where that's not where we are now, that's not where we're planning to go. Is that, like, where we wanna go in the, in the... Is that a capability, like, two years from now? I don't even know. I don't know if that 
 
 [Them]
 makes sense, or if the goal is really just to connect the things so it's more seamless. But I don't think they'll all ever really live in a certain platform. I don't know if, like, we want it to. I think there's risk there. 
@@ -801,13 +801,13 @@ Why do I think it's risky?
 Because 
 
 [Them]
-that's like saying that the people that work in an agency where you have specialties, you have one person doing it all. You lose some of the quality there. Like Adobe, we work a lot with, like, the Ado- Adobe tech stack. Those things work independently for a reason. Now, is there value in connecting that to, like, our proprietary platform? Sure. 
+that's like saying that the people that work in an agency where you have specialties, you have one person doing it all. You lose some of the quality there. Like [product], we work a lot with, like, the Ado- [product] tech stack. Those things work independently for a reason. Now, is there value in connecting that to, like, our proprietary platform? Sure. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-Do we want it to live and can it live? You're gonna have firewalls, you're gonna have licensing issues. I can't go to Adobe and say, "Hey, I'm gonna take your tool, I'm gonna build it in our proprietary platform." That's just not gonna happen. So you're gonna have those limitations. So yeah, to your questions, it's really like, as we evolve in the market, really what is like... what are the capabilities and, like, whenever a, a new business pitch comes through and people are like, "We want agentic AI to help us," people don't even know what that means. People don't know what agentic AI means, you know? It's just, it is the thing, and businesses hear that other businesses are implementing it, and it's saving them money. 
+Do we want it to live and can it live? You're gonna have firewalls, you're gonna have licensing issues. I can't go to [product] and say, "Hey, I'm gonna take your tool, I'm gonna build it in our proprietary platform." That's just not gonna happen. So you're gonna have those limitations. So yeah, to your questions, it's really like, as we evolve in the market, really what is like... what are the capabilities and, like, whenever a, a new business pitch comes through and people are like, "We want agentic AI to help us," people don't even know what that means. People don't know what agentic AI means, you know? It's just, it is the thing, and businesses hear that other businesses are implementing it, and it's saving them money. 
 
 > *[Me]*
 > *Mm-hmm.*
@@ -861,7 +861,7 @@ Yeah. I'd be interested-
 ... in our, in our agentic ch- uh, tool chain, I think we have the money, and we have the resources to really build these cool things. 
 
 [Them]
-But other than that, I mean, is it that different than what, like, your agency is able to do? I don't know. Like, I'd be interested to see, like, what you guys use. 'Cause that is a big thing, is, like, we use... I mean, within OmniAI, we have Claude, we have Chat- 
+But other than that, I mean, is it that different than what, like, your agency is able to do? I don't know. Like, I'd be interested to see, like, what you guys use. 'Cause that is a big thing, is, like, we use... I mean, within [product], we have Claude, we have Chat- 
 
 > *[Me]*
 > *Mm-hmm*
@@ -933,7 +933,7 @@ Mm-hmm
 Okay. 
 
 > *[Me]*
-> *Like, you have Einstein in Salesforce Marketing Cloud, but I don't think we are using it a lot yet, for instance. Um,*
+> *Like, you have Einstein in [product], but I don't think we are using it a lot yet, for instance. Um,*
 
 > *[Me]*
 > *so that is, that is one. It's just a lot of tooling.*
@@ -969,7 +969,7 @@ With these individual AI tools that you're helping to enable-
 Mm-hmm. 
 
 > *[Me]*
-> *I, I don't wanna underplay the, the former one. What I do see is that, uh, there are starting to become, to be tools where you can, for instance, create a, a small customer journey with an AI prompt, and you get, like, the, the funnel, uh, in, in the view already and you just have to clean it up as a marketeer rather than feeding it yourself.*
+> *I, I don't wanna underplay the, the former one. What I do see is that, uh, there are starting to become, to be tools where you can, for instance, create a, a small customer journey with an AI prompt, and you get, like, the, the [product], uh, in, in the view already and you just have to clean it up as a marketeer rather than feeding it yourself.*
 
 [Them]
 Like you're using a, an existing tool? 
@@ -1143,7 +1143,7 @@ Mm-hmm.
 > *Uh, do you have some, uh, wiggling room?*
 
 [Them]
-So the tricky thing is I have to travel to London. I'm in London this week. 
+So the tricky thing is I have to travel to [location]. I'm in [location] this week. 
 
 > *[Me]*
 > *Okay.*
@@ -1161,7 +1161,7 @@ So... Oh, yes, yeah, 'cause the-
 > *We could just grab a coffee.*
 
 [Them]
-Well, I'm not going to New York. 
+Well, I'm not going to [location]. 
 
 [Them]
 I was going to- 
@@ -1170,13 +1170,13 @@ I was going to-
 > *Why? [laughs]*
 
 [Them]
-... but honestly, I go to New York a lot for work, and I was just like, I do not feel the need to go there again right now. 
+... but honestly, I go to [location] a lot for work, and I was just like, I do not feel the need to go there again right now. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-So I'm like, "Leo, you guys can have fun." Um, so I'm going home to Virginia, where Leo and I moved from. Um, but that said, how much time do you think you would want? 
+So I'm like, "[redacted], you guys can have fun." Um, so I'm going home to [location], where [redacted] and I moved from. Um, but that said, how much time do you think you would want? 
 
 > *[Me]*
 > *I think, like, we could cover a lot with another half hour, but if you have-*
@@ -1236,7 +1236,7 @@ Uh-
 > *Or next week?*
 
 [Them]
-Uh. Ooh. Hold on, let me just look real quick. I can... So I'm trying to do the math 'cause London is an hour behind me. Um, it says 3:00 to 4:00. I can do something Thur- this Thursday at 5:00. No, that's a lie. It would be 5:30, which is late, I know. 
+Uh. Ooh. Hold on, let me just look real quick. I can... So I'm trying to do the math 'cause [location] is an hour behind me. Um, it says 3:00 to 4:00. I can do something Thur- this Thursday at 5:00. No, that's a lie. It would be 5:30, which is late, I know. 
 
 > *[Me]*
 > *So to give some context, I have a dentist appointment from 3:30 to 4:00.*
@@ -1320,7 +1320,7 @@ Just let me warn you though-
 > *Yeah*
 
 [Them]
-... whenever I'm in our London office, people grab me all the time. So if whatever reason, I'll text you if for, I can't make it, but I have my calendar blocked off now. 
+... whenever I'm in our [location] office, people grab me all the time. So if whatever reason, I'll text you if for, I can't make it, but I have my calendar blocked off now. 
 
 > *[Me]*
 > *Sure.*
@@ -1329,7 +1329,7 @@ Just let me warn you though-
 I'll, um, let you know. 
 
 > *[Me]*
-> *Well, thank you a lot, Lauren. That was, this was super helpful for me.*
+> *Well, thank you a lot, [redacted]. That was, this was super helpful for me.*
 
 [Them]
 Of course. 
@@ -1356,7 +1356,7 @@ What did you say?
 > *And also fun to talk to you about this.*
 
 [Them]
-Well, I know, honestly, it's like I don't really talk to anybody outside that I... 'Cause you know, Leo, the, it's just not Leo's space. Like he's- 
+Well, I know, honestly, it's like I don't really talk to anybody outside that I... 'Cause you know, [redacted], the, it's just not [redacted]'s space. Like he's- 
 
 > *[Me]*
 > *Mm-hmm*
@@ -1399,7 +1399,7 @@ Bye.
 > *[bottles clinking]*
 
 > *[Me]*
-> *Hey, Lauren.*
+> *Hey, [redacted].*
 
 [Them]
 Hi. 
@@ -1438,13 +1438,13 @@ I'm good.
 > *Yeah.*
 
 [Them]
-Sitting at the office and kind of a lot going on here. Um, sorry, I'm just moving my thing. Okay. Um, when are you flying to New York? 
+Sitting at the office and kind of a lot going on here. Um, sorry, I'm just moving my thing. Okay. Um, when are you flying to [location]? 
 
 > *[Me]*
 > *I'm leaving Saturday in the afternoon.*
 
 [Them]
-Okay. That's what Leo's doing. 
+Okay. That's what [redacted]'s doing. 
 
 > *[Me]*
 > *Around noon.*
@@ -1483,13 +1483,13 @@ That's wild. Yeah
 I know. I understand. Okay. 
 
 > *[Me]*
-> *Yeah. Fun. Are you still in, uh, Virginia?*
+> *Yeah. Fun. Are you still in, uh, [location]?*
 
 [Them]
-No, no, I'm in London. I fly to Virginia tomorrow actually. 
+No, no, I'm in [location]. I fly to [location] tomorrow actually. 
 
 > *[Me]*
-> *Oh, okay. So I swapped it around. But then you don't have a lot of ... I thought you and Leo went there before g- he went to New York.*
+> *Oh, okay. So I swapped it around. But then you don't have a lot of ... I thought you and [redacted] went there before g- he went to [location].*
 
 [Them]
 Going after. 
@@ -1534,7 +1534,7 @@ No, you're fine. It's all good
 Oh my gosh, you never have to do that. You can just text me. 
 
 > *[Me]*
-> *[laughs] Let me check. There we are. Yeah. So last time, uh, maybe it's good to just give a brief, uh, recap. So we talked a lot about Omni+ and OmniAI and what it does and how you create content. And we talked a bit about, um, the, the customer journey optimization and why that's is being done but is not being done a lot, uh, is what I still seem to recall. Um,*
+> *[laughs] Let me check. There we are. Yeah. So last time, uh, maybe it's good to just give a brief, uh, recap. So we talked a lot about [product]+ and [product] and what it does and how you create content. And we talked a bit about, um, the, the customer journey optimization and why that's is being done but is not being done a lot, uh, is what I still seem to recall. Um,*
 
 > *[Me]*
 > *we talked a bit about benefits. I don't think we did that in a structured manner yet. It's just-*
@@ -1546,7 +1546,7 @@ Okay
 > *... things that came up. So maybe, so*
 
 > *[Me]*
-> *quick recap. So we talked about how the big four are investing and how that for you, uh, is mainly Omni, OmniAI, uh, as platform. We talked about the Affinity hub that you have.*
+> *quick recap. So we talked about how the big four are investing and how that for you, uh, is mainly [product], [product], uh, as platform. We talked about the [product] that you have.*
 
 [Them]
 Mm-hmm. 
@@ -1558,7 +1558,7 @@ Mm-hmm.
 > *and that you also still have the ecosystem of tools, but it, that's not really in your field of view what marketers might be doing there with AI or not, as I recall it.*
 
 [Them]
-So the, the, well, the ecosystem of tools is more beyond Wrap, my agency. It is the Omnicom offering. I'm sorry, but what did you say? If the 
+So the, the, well, the ecosystem of tools is more beyond [company], my agency. It is the [company] offering. I'm sorry, but what did you say? If the 
 
 [Them]
 ... 
@@ -1570,19 +1570,19 @@ So the, the, well, the ecosystem of tools is more beyond Wrap, my agency. It is 
 Well, 
 
 [Them]
-yeah. Well, okay. So that's ... The reason I don't have clear visibility into our Omnicom offering is because there's so much happening at, like, the very high level, where Omnicom is redefining what Omni is. Now it's Omni+. So I only have control ... I know what things are. 
+yeah. Well, okay. So that's ... The reason I don't have clear visibility into our [company] offering is because there's so much happening at, like, the very high level, where [company] is redefining what [product] is. Now it's [product]+. So I only have control ... I know what things are. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-Um, what I am trying to do is connect our Wrap and OPM tools in that larger ecosystem. 
+Um, what I am trying to do is connect our [company] and [company] tools in that larger ecosystem. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-So it's kind of hard to do that when I don't have full visibility into, like, what ... And, like, and it's not just me. Our global leadership team doesn't have, like, a ton of visibility into, um, like, what's going into Omni+. They haven't been formally briefed yet, so it limits us with what we can do. 
+So it's kind of hard to do that when I don't have full visibility into, like, what ... And, like, and it's not just me. Our global leadership team doesn't have, like, a ton of visibility into, um, like, what's going into [product]+. They haven't been formally briefed yet, so it limits us with what we can do. 
 
 > *[Me]*
 > *Yeah. Okay. So th- th- and they are part of the group, but they are, like, really operated as a separate company then?*
@@ -1591,16 +1591,16 @@ So it's kind of hard to do that when I don't have full visibility into, like, wh
 It, uh ... The, so it's like- 
 
 > *[Me]*
-> *No, Omni+ as a-*
+> *No, [product]+ as a-*
 
 [Them]
-Yeah. So Omni+ is managed by Omnicom. 
+Yeah. So [product]+ is managed by [company]. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-Like we are Omnicom, but it's, it's managed by, like, a governing steering committee team up at the very high level. 
+Like we are [company], but it's, it's managed by, like, a governing steering committee team up at the very high level. 
 
 > *[Me]*
 > *Okay.*
@@ -1612,7 +1612,7 @@ It's like a product team, right?
 > *Yeah.*
 
 [Them]
-But it sits at the OMC level, whereas we have ... Then we have all the individual agencies, and all that stuff that's happening at the pro- like, high level product layer needs to be communicated down, and sometimes stuff is happening and then it's communicated in, like, CES at Las Vegas. And so we're trying to kinda, like, under- unpack- 
+But it sits at the [company] level, whereas we have ... Then we have all the individual agencies, and all that stuff that's happening at the pro- like, high level product layer needs to be communicated down, and sometimes stuff is happening and then it's communicated in, like, CES at Las [location]. And so we're trying to kinda, like, under- unpack- 
 
 > *[Me]*
 > *[laughs] So you-*
@@ -1651,7 +1651,7 @@ I honestly had to watch the CES videos to understand, like, how are we supposed 
 Oh. 
 
 > *[Me]*
-> *[laughs] Um, and they are a tool that we use lots, and they have a partnership with Omni+ since yesterday, so that was interesting to see.*
+> *[laughs] Um, and they are a tool that we use lots, and they have a partnership with [product]+ since yesterday, so that was interesting to see.*
 
 [Them]
 Wait, really? 
@@ -1690,13 +1690,13 @@ Oh, yeah. Okay, interesting. Wow, so you're teaching me.
 So they're also trying to integrate 
 
 [Them]
-Omni... So, you know, it's like Omni+ is really data focused. It's like data and media focused. 
+[product]... So, you know, it's like [product]+ is really data focused. It's like data and media focused. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-Where OmniAI is like the tools, but they're trying to integrate OmniAI into Omni+, so that's like another variable. Um, but yeah, they wanna basically... And I don't know if Open, which is owned by WPP, I don't know if that houses data. Um, but yeah, they just wanna like have one big beast of a platform, so they're looking at consolidating the two. 
+Where [product] is like the tools, but they're trying to integrate [product] into [product]+, so that's like another variable. Um, but yeah, they wanna basically... And I don't know if Open, which is owned by [company], I don't know if that houses data. Um, but yeah, they just wanna like have one big beast of a platform, so they're looking at consolidating the two. 
 
 > *[Me]*
 > *Yeah. So*
@@ -1714,10 +1714,10 @@ Also, this is some inherent-
 Say that again. 
 
 > *[Me]*
-> *Like, why, why they started that within a separate company within the group, like Omni+ and OmniAI?*
+> *Like, why, why they started that within a separate company within the group, like [product]+ and [product]?*
 
 [Them]
-So I don't know if they're really created... They're both created at the OMC level. It is different p- you know, that's a question I don't even know the answer to. That's beyond my, my capabilities and my knowledge. I'm sure it's like OmniAI was created, 'cause it was a quick thing. It's this guy, Dr. Ali, right? This really smart guy, comes in, builds this AI platform, and I don't even know if it was also him that did Omni, so I don't have the answer to that. But w- what I think it is, if you were to really ask me my opinion, it's these scrappy things that people are putting together to stay up to speed with the market. And then once they're able to like digest everything, they're like, "Oh, wait, like w- when we built this roadmap, we should've had it one platform." 
+So I don't know if they're really created... They're both created at the [company] level. It is different p- you know, that's a question I don't even know the answer to. That's beyond my, my capabilities and my knowledge. I'm sure it's like [product] was created, 'cause it was a quick thing. It's this guy, [redacted], right? This really smart guy, comes in, builds this AI platform, and I don't even know if it was also him that did [product], so I don't have the answer to that. But w- what I think it is, if you were to really ask me my opinion, it's these scrappy things that people are putting together to stay up to speed with the market. And then once they're able to like digest everything, they're like, "Oh, wait, like w- when we built this roadmap, we should've had it one platform." 
 
 > *[Me]*
 > *Mm-hmm.*
@@ -1729,7 +1729,7 @@ But I don't know.
 > *But this, this al- almost sounds like success by accident, that you just have this scrappy nerd that builds a platform, but suddenly you now have like a big, new business proposal.*
 
 [Them]
-Yeah. Well, and I'm sure he did like do a business proposal. But yeah, I mean, it... all these things come from the mind of one person, and then they get, you know, they... yeah, they put together a proposal, and they get teams behind them and all that kind of stuff, but you'd be surprised. I mean, Omnicom is like a multi-billion dollar business, and yeah, it's just like one person that's starting. Like Affinity Hub was created originally by, uh, uh, our global creative director that dabbles in, in dev, and he created it, and it's like blown up, and so now there's millions of dollars of funding behind it and all this kind of stuff. 
+Yeah. Well, and I'm sure he did like do a business proposal. But yeah, I mean, it... all these things come from the mind of one person, and then they get, you know, they... yeah, they put together a proposal, and they get teams behind them and all that kind of stuff, but you'd be surprised. I mean, [company] is like a multi-billion dollar business, and yeah, it's just like one person that's starting. Like [product] was created originally by, uh, uh, our global creative director that dabbles in, in dev, and he created it, and it's like blown up, and so now there's millions of dollars of funding behind it and all this kind of stuff. 
 
 > *[Me]*
 > *That's super interesting.*
@@ -1768,7 +1768,7 @@ Optics. Optics, being in the news.
 > *Mm.*
 
 [Them]
-Having the latest, greatest AI offering. Um, yeah, staying competitive. So like with the, the three big agencies now, I don't know what Publicis has. Um, but yeah, staying competitive. Um- 
+Having the latest, greatest AI offering. Um, yeah, staying competitive. So like with the, the three big agencies now, I don't know what [company] has. Um, but yeah, staying competitive. Um- 
 
 > *[Me]*
 > *And staying competitive-*
@@ -1780,7 +1780,7 @@ Connect-
 > *... to you, does that mean... What, what does that mean?*
 
 [Them]
-It means staying competitive in the marketplace. So like if, again, WPP... You always have to have the latest and greatest offering, right? 'Cause it's like these, these sound bites that clients hear. Now AI and agentic is like such a trend term p- that people want a part of it, that if you're not offering that, you're not seen as a, as like a player in the game. 
+It means staying competitive in the marketplace. So like if, again, [company]... You always have to have the latest and greatest offering, right? 'Cause it's like these, these sound bites that clients hear. Now AI and agentic is like such a trend term p- that people want a part of it, that if you're not offering that, you're not seen as a, as like a player in the game. 
 
 > *[Me]*
 > *Yeah.*
@@ -1855,7 +1855,7 @@ it is informed by strategic and, like, analytics people, right? So what, what AI
 cultural databases, different 
 
 [Them]
-, you know, think about like how, uh, I don't know, web cookies. If I'm targeting you and you're searching for, you know, a specific type of clothing and I'm able to get that into my LLM and use that to inform my data targeting, that's something that a human can never do. So it's data in like the upper funnel process. And then 
+, you know, think about like how, uh, I don't know, web cookies. If I'm targeting you and you're searching for, you know, a specific type of clothing and I'm able to get that into my LLM and use that to inform my data targeting, that's something that a human can never do. So it's data in like the upper [product] process. And then 
 
 [Them]
 when you're manage-- when you're 
@@ -1927,7 +1927,7 @@ Oh, yeah.
 > *Every once in a while. So one of the things that I, I, I'm curious about is do you now see that pre-AI versus post-AI, you b- are able to drive*
 
 > *[Me]*
-> *higher conversion rates, uh, higher OS because you just have more options for people that come into your funnel?*
+> *higher conversion rates, uh, higher OS because you just have more options for people that come into your [product]?*
 
 [Them]
 So that is a co- like, I think it's still so relatively new. Do we have enough data? I mean, if you were to ask anybody in analytics, yes, of course, they would say yes, and they'd spin the data, so the answer is yes. I honestly don't know the answer to that. I haven't seen it. I don't know. It would be interesting to do like a A/B test- 
@@ -2011,13 +2011,13 @@ Well, see, that's tied to your question around results, right? Like pre-
 > *optics.*
 
 [Them]
-Yeah. Yeah. Yeah. I mean, to that point, I think, I think we don't know yet. I think we're still... 'Cause I'm only talking, I'm only speaking to it from a Wrap perspective. You know, Omnicom has invested... I mean, I would think W- I think WPP has invested like a billion. We have not invested that much, but even millions. So I can't speak to it from an OMC perspective. I'm sure they're saying, "Yes, this was worth the investment," because it's allowing them to win a ton of new business. Wrap, honestly, 
+Yeah. Yeah. Yeah. I mean, to that point, I think, I think we don't know yet. I think we're still... 'Cause I'm only talking, I'm only speaking to it from a [company] perspective. You know, [company] has invested... I mean, I would think W- I think [company] has invested like a billion. We have not invested that much, but even millions. So I can't speak to it from an [company] perspective. I'm sure they're saying, "Yes, this was worth the investment," because it's allowing them to win a ton of new business. [company], honestly, 
 
 [Them]
 I'm thinking, 
 
 [Them]
-'cause we... Like Wrap itself, our, our product is Affinity Hub. 
+'cause we... Like [company] itself, our, our product is [product]. 
 
 > *[Me]*
 > *Mm-hmm.*
@@ -2095,7 +2095,7 @@ The 3.9? Depends on who you ask.
 > *Yeah.*
 
 [Them]
-That's, that is a struggle, is getting... The issue is that we're selling this, you know, selling it to clients, selling it to new business, but it's not fully a capability. But we can't get investment, 'cause Affinity Hub is just a part of it. We can't get investment until we get net new revenue, like win a new piece of business. But it's... So it's kind of a catch-22. We're selling this idea, but we can't make the idea happen until we win the business, and then we're screwed, right? 'Cause we have no time to sell in the interest of things. 
+That's, that is a struggle, is getting... The issue is that we're selling this, you know, selling it to clients, selling it to new business, but it's not fully a capability. But we can't get investment, 'cause [product] is just a part of it. We can't get investment until we get net new revenue, like win a new piece of business. But it's... So it's kind of a catch-22. We're selling this idea, but we can't make the idea happen until we win the business, and then we're screwed, right? 'Cause we have no time to sell in the interest of things. 
 
 > *[Me]*
 > *Where would you say this mismatch comes from?*
@@ -2188,7 +2188,7 @@ I see your point. Yeah. Mm-hmm.
 > *compared to software, but you have very predictable, stable revenue.*
 
 [Them]
-Yeah. That's a very good point. So I think there's ... I think that comes into play in the individual agencies, and that's why at the higher OMC level, they do invest in the big, shiny product for OMC. But everything else, billable hours are prioritized. You have to have revenue attached to something, otherwise your margins ... You know, each individual office cares about their margins. 
+Yeah. That's a very good point. So I think there's ... I think that comes into play in the individual agencies, and that's why at the higher [company] level, they do invest in the big, shiny product for [company]. But everything else, billable hours are prioritized. You have to have revenue attached to something, otherwise your margins ... You know, each individual office cares about their margins. 
 
 > *[Me]*
 > *Yeah.*
@@ -2197,10 +2197,10 @@ Yeah. That's a very good point. So I think there's ... I think that comes into p
 They don't wanna ... You have non-billable hours, you have investment, it goes against your margin. It looks like you're not profitable. So I think that's exactly where it comes from. 
 
 > *[Me]*
-> *Yeah. Interesting. So there you see a big difference between how Omni AI is managed and how you guys are managed?*
+> *Yeah. Interesting. So there you see a big difference between how [product] AI is managed and how you guys are managed?*
 
 [Them]
-See, that's the thing, I do- Well, yes, from a, a Omnicom. 'Cause remember, it's like Omnicom has these, like, five or six verticals. Each vertical does have budget. So when we want budget, we go to our OPM vertical to get it approved, and I'm sure there's X amount of money annually that we can do non-billable or investment against. Um, but yes, I do think it's treated very differently. 
+See, that's the thing, I do- Well, yes, from a, a [company]. 'Cause remember, it's like [company] has these, like, five or six verticals. Each vertical does have budget. So when we want budget, we go to our [company] vertical to get it approved, and I'm sure there's X amount of money annually that we can do non-billable or investment against. Um, but yes, I do think it's treated very differently. 
 
 > *[Me]*
 > *Yeah. Interesting. Cool. Okay. So let's, let's go to the next level then. Uh, I, I just want to know, what, what do you think*
@@ -2215,7 +2215,7 @@ It's a good question. I would say our global leadership team,
 because they are most connected 
 
 [Them]
-to the OMC. Well, they're most connected to the OPM leadership, who's connected to the OMC leadership. There's two levels up. Um, and, and they are, they are the ones pushing the agenda. 
+to the [company]. Well, they're most connected to the [company] leadership, who's connected to the [company] leadership. There's two levels up. Um, and, and they are, they are the ones pushing the agenda. 
 
 > *[Me]*
 > *Mm-hmm.*
@@ -2236,7 +2236,7 @@ but yeah. Other than that, I think people, uh ... They ... Again, it goes back t
 > *Yeah. So*
 
 > *[Me]*
-> *all three I want to go a little bit deeper into. Um, so f- the first one, you talked about the OPM and the O- OMC and the global leadership team.*
+> *all three I want to go a little bit deeper into. Um, so f- the first one, you talked about the [company] and the O- [company] and the global leadership team.*
 
 > *[Me]*
 > *I, I don't have the org chart in my head. [laughs]*
@@ -2248,31 +2248,31 @@ Yeah, yeah, yeah. [laughs]
 > *So can you help me a bit there? [laughs]*
 
 [Them]
-So it's ... The very top level is Omnicom, right? 
+So it's ... The very top level is [company], right? 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-So you have, like, an OMC leadership team. Then you go into our vertical- 
+So you have, like, an [company] leadership team. Then you go into our vertical- 
 
 > *[Me]*
 > *Yeah*
 
 [Them]
-... which is Omnicom Precision Marketing. 
+... which is [company] Precision Marketing. 
 
 > *[Me]*
 > *Mm-hmm.*
 
 [Them]
-Omnicom Precision Marketing has a leadership team. 
+[company] Precision Marketing has a leadership team. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-Then you get into RAP. RAP is my agency. We are the CRM agency for OPM. RAP Global has a leadership team. 
+Then you get into [company]. [company] is my agency. We are the CRM agency for [company]. [company] Global has a leadership team. 
 
 > *[Me]*
 > *And that is the leadership team that you was referring to, where you say, like, "These are supporting us when it comes to-"*
@@ -2290,7 +2290,7 @@ Yep. You're tracking.
 > *And do you feel that supports all the way down to the ... through the tree, or is it really just*
 
 > *[Me]*
-> *you as RAP Global being isolated from the group and being supported there?*
+> *you as [company] Global being isolated from the group and being supported there?*
 
 [Them]
 So that's a good question. I think yes. In the past couple years, as we start to talk about AI capabilities, our, our technology, our products-I think there's been a little bit of a gap because a lot of it people cannot... People don't see in the day-to-day. They don't know what it is. They don't know how to use it, so it's just this thing, this theory that sits at a... 
@@ -2356,7 +2356,7 @@ Mm-hmm.
 You mean, like, changing the way we work internally at the agency versus cl- with the client? 
 
 [Them]
-Now that's another good question. It's funny because I led transformation informally on Toyota Lexus North America, um, and now I'm doing it internal for agency stuff. I would say it's... I honestly think they both have, uh, strengths and weaknesses, pros and cons. The p- the struggle with internal agency is that when you're changing the way of working, 
+Now that's another good question. It's funny because I led transformation informally on [company] [company] North America, um, and now I'm doing it internal for agency stuff. I would say it's... I honestly think they both have, uh, strengths and weaknesses, pros and cons. The p- the struggle with internal agency is that when you're changing the way of working, 
 
 [Them]
 you are pushing it to the end consumer, the end user, so there's a lot of resistance to change. 
@@ -2392,7 +2392,7 @@ Like, whether you're with the client or here, it's like you get buy-in from lead
 > *Mm. Okay. Interesting. So*
 
 > *[Me]*
-> *you have a transformation department, you have these people with an entrepreneurial mindset, you have this, this one whiz kid somewhere up on the top who is the, the mastermind behind Omni+ and Omni AI, probably both.*
+> *you have a transformation department, you have these people with an entrepreneurial mindset, you have this, this one whiz kid somewhere up on the top who is the, the mastermind behind [product]+ and [product] AI, probably both.*
 
 [Them]
 Mm-hmm. 
@@ -2485,7 +2485,7 @@ Yeah. I keep thinking of it as like a, a circle or like a, a, a layered cake alm
 > *Yeah, interesting. And so*
 
 > *[Me]*
-> *I, I'm, I'm just wondering how, how this would be at a WPP or one of your competitors, if they can copy the structure and then also become successful and hire for this or not, or ...*
+> *I, I'm, I'm just wondering how, how this would be at a [company] or one of your competitors, if they can copy the structure and then also become successful and hire for this or not, or ...*
 
 [Them]
 I think it's the same. I really think it's the same. I think they run into the same issues. I think their, uh, open product is similar to what we have. 
@@ -2509,10 +2509,10 @@ Yeah, I don't know. Are you asking, um, do they have the same capabilities aroun
 > *Like, ideally I would be, mean both, but I think, like, getting to AI based on what you're [notification sound] telling me is one of the, the key elements.*
 
 [Them]
-Yeah. I would say, um, so now we only have two competitors since we acquired IPG. I would say, I don't know, I think we're, like, head-to-head with WPP. I don't even know what Publicis has. Um, but honestly, in the end I think our results are pretty similar. Our AI offering is pretty similar. It comes down to, like, people. That's how people win business. It's like when it comes to, 
+Yeah. I would say, um, so now we only have two competitors since we acquired [company]. I would say, I don't know, I think we're, like, head-to-head with [company]. I don't even know what [company] has. Um, but honestly, in the end I think our results are pretty similar. Our AI offering is pretty similar. It comes down to, like, people. That's how people win business. It's like when it comes to, 
 
 [Them]
-especially WPP, Omnicom going head, in the end we have the same stuff. It's who, who do you like working with better is really what it is. 
+especially [company], [company] going head, in the end we have the same stuff. It's who, who do you like working with better is really what it is. 
 
 > *[Me]*
 > *So it's still the personal connection.*
@@ -2581,10 +2581,10 @@ I'm saying that's my perspective.
 > *Sure.*
 
 [Them]
-That's my opinion. I've gone through these big global pitches, and again, I don't really... I'm assuming because of feedback I've heard from clients that we're pitching, that we're pretty neck and neck with our offering, with how we're responding to different, um, phases of an RFP. So I'm assuming that in the end we're all kind of offering the same thing. How we make ourselves distinct, of course that's a priority and that's what our marketing team does, 'cause we have like a Y Omnicom capabilities. 
+That's my opinion. I've gone through these big global pitches, and again, I don't really... I'm assuming because of feedback I've heard from clients that we're pitching, that we're pretty neck and neck with our offering, with how we're responding to different, um, phases of an RFP. So I'm assuming that in the end we're all kind of offering the same thing. How we make ourselves distinct, of course that's a priority and that's what our marketing team does, 'cause we have like a Y [company] capabilities. 
 
 [Them]
-But again, [laughs] I used to work for WPP, so from what I remember, it's all kind of the same. It's not like we have this button that we press and it's gonna get you better, you know. It's just, that's not the case. 
+But again, [laughs] I used to work for [company], so from what I remember, it's all kind of the same. It's not like we have this button that we press and it's gonna get you better, you know. It's just, that's not the case. 
 
 > *[Me]*
 > *Yeah. Check. Um,*
@@ -2626,10 +2626,10 @@ Money, time, resources. 'Cause the passion is there, the need is there, the want
 > *why do they need your team?*
 
 [Them]
-Because we still have the Omnicom AI offering, 
+Because we still have the [company] AI offering, 
 
 [Them]
-and we still need to sell that to clients. We need to sell that to new clients. I'm more speaking to time, money, and resources for RAP AI capabilities. But the... But like I mentioned, at the Omnicom level, which is a multi, multi-billion dollar P&L, they have money. And so we still need to sell that. We still need to position ourselves as O- Omnicom's CRM agency, that we know AI, this is how we use it in our clients, and we're part of that connected story as a network. Um, but yeah, that's why my, my... That's, that's why my department is here. I'm having to like justify it for myself. [laughs] 
+and we still need to sell that to clients. We need to sell that to new clients. I'm more speaking to time, money, and resources for [product] capabilities. But the... But like I mentioned, at the [company] level, which is a multi, multi-billion dollar P&L, they have money. And so we still need to sell that. We still need to position ourselves as O- [company]'s CRM agency, that we know AI, this is how we use it in our clients, and we're part of that connected story as a network. Um, but yeah, that's why my, my... That's, that's why my department is here. I'm having to like justify it for myself. [laughs] 
 
 > *[Me]*
 > *[laughs]*
@@ -2695,7 +2695,7 @@ Inspirational, huh?
 [laughs] 
 
 > *[Me]*
-> *... I think, like obviously I have to have you make everything explicit because I'm doing research, but this, this makes so much sense to me. Um, maybe one last question b- before we wrap the, the formal part up. What do you run into when you're teaching these teams?*
+> *... I think, like obviously I have to have you make everything explicit because I'm doing research, but this, this makes so much sense to me. Um, maybe one last question b- before we [company] the, the formal part up. What do you run into when you're teaching these teams?*
 
 > *[Me]*
 > *What, what is holding you back in that regard?*
@@ -2746,7 +2746,7 @@ Because I am pretty transparent, and sometimes too transparent, where I'm like, 
 > *I've heard of it.*
 
 [Them]
-It's like an, it's an Adobe, um, orchestration tool. 
+It's like an, it's an [product], um, orchestration tool. 
 
 > *[Me]*
 > *Yeah.*
@@ -2758,13 +2758,13 @@ Like project management tool ty- it's like a Jira. So I'm rolling that out to th
 > *It's everything nowadays. It's, it's, uh, [laughs]*
 
 [Them]
-I'm rolling that out to the entire UK agency, and I don't even like the tool. Don't like it. I think it's like a dinosaur tool, but it is the thing that every ... Omnicom is rolling it out to all of its agencies. Clients wanna be a part of it because it's an Adobe offering. 
+I'm rolling that out to the entire UK agency, and I don't even like the tool. Don't like it. I think it's like a dinosaur tool, but it is the thing that every ... [company] is rolling it out to all of its agencies. Clients wanna be a part of it because it's an [product] offering. 
 
 > *[Me]*
 > *Yeah.*
 
 [Them]
-And it can connect to their Adobe asset, like asset manager, and their DAM, and all that kind ... Well, that is a DAM. Um, but it can connect to their Adobe tech stack. But, but so yeah, that's an example where I'm like supposed to be rolling out this thing and saying, "It can do all these things for you. It can take all your operational data and tell you how you're burning against your planned hours, and do all your forecasting." And, and I'm like, "I don't really love the tool." So yeah, that's- 
+And it can connect to their [product] asset, like asset manager, and their DAM, and all that kind ... Well, that is a DAM. Um, but it can connect to their [product] tech stack. But, but so yeah, that's an example where I'm like supposed to be rolling out this thing and saying, "It can do all these things for you. It can take all your operational data and tell you how you're burning against your planned hours, and do all your forecasting." And, and I'm like, "I don't really love the tool." So yeah, that's- 
 
 > *[Me]*
 > *Yeah*
@@ -2773,7 +2773,7 @@ And it can connect to their Adobe asset, like asset manager, and their DAM, and 
 ... that's a little bit of faking it till I make it. 
 
 > *[Me]*
-> *Why, why is Adobe so critical in your operations? Is it just-*
+> *Why, why is [product] so critical in your operations? Is it just-*
 
 [Them]
 I don't know. Uh- 
@@ -2782,19 +2782,19 @@ I don't know. Uh-
 > *... preference or contracts, or is it the creative part of your organization?*
 
 [Them]
-No, I think it's just because it's such a big, solid company. That's what a lot of clients and companies use. So they'll use like Adobe Asset Manager or, uh, Adobe Journey Optimizer, or ... And they want everything to be connected. Um, yeah. I don't know. 
+No, I think it's just because it's such a big, solid company. That's what a lot of clients and companies use. So they'll use like [product] Asset Manager or, uh, [product] Journey Optimizer, or ... And they want everything to be connected. Um, yeah. I don't know. 
 
 > *[Me]*
 > *Cool. Okay. Interesting. Yeah. Um,*
 
 > *[Me]*
-> *I wanna wrap it up, not when it comes to time, but just to make it less informal.*
+> *I wanna [company] it up, not when it comes to time, but just to make it less informal.*
 
 [Them]
 [laughs] 
 
 > *[Me]*
-> *It's always fun to, [laughs] to wrap it up in that s-sense. So th-this was yet again lovely. I c-came to a lot of the ... Sometimes answers that I expected, sometimes also not.*
+> *It's always fun to, [laughs] to [company] it up in that s-sense. So th-this was yet again lovely. I c-came to a lot of the ... Sometimes answers that I expected, sometimes also not.*
 
 [Them]
 Mm-hmm. 
@@ -2893,7 +2893,7 @@ Yeah. I'll put some thought to it. Um, but yeah, if you have any more follow-up 
 > *Yeah, sure. Sure. Is there anything you would like to know from me and my perspective on all this?*
 
 [Them]
-No, I think it's a very cool topic. I was telling Leo I really liked your topic. Obviously, it's very on brand for me. Um, no, I think it's very, um ... Yeah, you had a lot of good questions. Uh, what al- what'd also be interesting in your thesis is if you compare how a, an agency of your size is doing it versus an agency of my size, and are there parallels or- 
+No, I think it's a very cool topic. I was telling [redacted] I really liked your topic. Obviously, it's very on brand for me. Um, no, I think it's very, um ... Yeah, you had a lot of good questions. Uh, what al- what'd also be interesting in your thesis is if you compare how a, an agency of your size is doing it versus an agency of my size, and are there parallels or- 
 
 > *[Me]*
 > *Yeah.*
@@ -2998,7 +2998,7 @@ Yes. You get, you get it, 'cause it's ... You're an hour ahead of me. Yep.
 > *Yeah. Well, thank you.*
 
 [Them]
-You're welcome. Yes. Text me if you think of anything else, and have a great time in New York. 
+You're welcome. Yes. Text me if you think of anything else, and have a great time in [location]. 
 
 > *[Me]*
 > *Will do.*
@@ -3007,10 +3007,10 @@ You're welcome. Yes. Text me if you think of anything else, and have a great tim
 Okay. 
 
 > *[Me]*
-> *Yeah. You, you're in Wisconsin in a, in a bit ... Oh, Wisconsin. Uh, Virginia.*
+> *Yeah. You, you're in Wisconsin in a, in a bit ... Oh, Wisconsin. Uh, [location].*
 
 [Them]
-Virginia. I know they're all the same, aren't they? [laughs] 
+[location]. I know they're all the same, aren't they? [laughs] 
 
 > *[Me]*
 > *Yeah. It's ... You, uh, my nephew always talks about the green of North America, and so to me it's like the green of, uh, non-Mexican America. [laughs]*

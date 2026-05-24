@@ -1,14 +1,14 @@
 ---
-Meeting Title: AI in Marketing interview (Maarten Mantje)
+Meeting Title: AI in Marketing interview ([redacted])
 Date: Feb 16
-Meeting participants: Maarten Mantje
+Meeting participants: [redacted]
 Language: English translation
 ---
 
 Transcript:
 
 > *[Me]*
-> *Hey Maarten, good day.*
+> *Hey [redacted], good day.*
 
 [Them]
 Hello, good morning.
@@ -28,7 +28,7 @@ Yes, curious what you're going to talk about and what you want to do with it.
 > *[Me]*
 > *Well, I can kick it off at a very high level for a moment, and then you'll mostly have the floor. Let me just fix something because I'm getting another call.*
 
-> *So I'm doing research. I work at Teconomy, and through Teconomy I'm also a colleague of Leo, who introduced me to you, because we're in the Relevance Group together. And besides working at Teconomy as CTO, I'm also doing an MBA at Nyenrode, and there I'm researching the question: "How can Agentic AI help marketing managers create value?"*
+> *So I'm doing research. I work at [company], and through [company] I'm also a colleague of [redacted], who introduced me to you, because we're in the [company] together. And besides working at [company] as CTO, I'm also doing an MBA at [company], and there I'm researching the question: "How can Agentic AI help marketing managers create value?"*
 
 > *I'm basically looking at that through three axes: I look at marketing managers and how they use AI to create value. I look at people who lead AI projects within marketing teams. And I look at the group that advises them, to view it through those three lenses: what can marketing do, what can marketing teams do, to create even more value within a team.*
 
@@ -58,20 +58,20 @@ Great.
 
 > *## Job description*
 
-> *Let's kick it off. First, I'm curious about you and your role within your organization. Could you tell me a bit about that?*
+> *Let's kick it off. First, I'm curious [company] and your role within your organization. Could you tell me a bit about that?*
 
 [Them]
 Yes, so I'm one of the founders of The Only Constant. The Only Constant focuses on innovation, which is of course a terribly abstract term. We started The Only Constant—me and two others—because we saw that especially in many marketing technology pitches, where we've worked a lot in recent years, people became deeply in love with what the technology could potentially bring, with beautiful visions, while reality was much more stubborn. Then a year later, after spending a million, everyone was still working toward exactly the same goals and producing basically the same output, just with a new system.
 
 So pitching and idea strategy had basically become a kind of pre-sales theater. And that friction bothered us. That led us to the insight that changing things is apparently very hard in a marketing context. So we started The Only Constant from the insight that you at least need to create movement.
 
-Within the company, I do a lot of strategy, and we help companies like Air Miles, and we're now doing work in agriculture, and a project for Randstad. We help them think: how do you create movement? Small side-step: AI makes it much easier to make things than it ever was before. So it's much easier to get things out of a PowerPoint. If you can make things, you can generate decision information, and then you can start changing.
+Within the company, I do a lot of strategy, and we help companies like [company], and we're now doing work in agriculture, and a project for [company]. We help them think: how do you create movement? Small side-step: AI makes it much easier to make things than it ever was before. So it's much easier to get things out of a PowerPoint. If you can make things, you can generate decision information, and then you can start changing.
 
 Now we're gradually entering a phase where you can ask whether the proof-of-concept step is even still necessary. Because we can make things very easily, we can test things very easily in real environments, and also throw away what doesn't work. So eventually I think we've become much more of an organizational transformation agency than anything else—especially in marketing, because the three of us all have a lot of experience there.
 
 But we see many teams—and I'm jumping around a bit here—but in many marketing teams it's very clear what the output is, while the way people get to that output is poorly refined. And that makes change, including moving to agentic applications, very complicated. In general, the marketing manager has no idea how people get to the output. So how on earth can you then decide what to automate? But yes, strategically speaking, long story short.
 
-I also have a completely out-of-control hobby: a drinks company. So I make gin, and I use that gin brand—abuse it, if you will—as my marketing laboratory. So everything I can't sell to clients, I can do for Stookers. Stookers with two o's. And then I can often show clients, look: this is how. For example, more than two years ago we built an agentic social media department based on Microsoft tools. It's terrible now, so take a look but don't take it too seriously. But for two years I've had a completely autonomous social media department where seven agents do everything together.
+I also have a completely out-of-control hobby: a drinks company. So I make gin, and I use that gin brand—abuse it, if you will—as my marketing laboratory. So everything I can't sell to clients, I can do for [company]. [company] with two o's. And then I can often show clients, look: this is how. For example, more than two years ago we built an agentic social media department based on Microsoft tools. It's terrible now, so take a look but don't take it too seriously. But for two years I've had a completely autonomous social media department where seven agents do everything together.
 
 And I don't review, I don't brief, and after turning it on we've never looked at it again, never tweaked it. And that changed our ideas about what you can automate, because then you're no longer thinking from tasks, but from roles and departments, and then seeing what works and doesn't work. So yes, we use that drinks brand as a marketing lab, and that's really fun.
 
@@ -143,7 +143,7 @@ Will the examples I give be shared broadly?
 > *In the sense that this becomes an academic paper. If it's specific organizations or people, I anonymize that. But the use cases are shared at a broader level.*
 
 [Them]
-Okay. One of our clients is Landal. Landal is a merger organization—Landal GreenParks and Roompot—with over 140 parks across Northwestern Europe. Their brand needs a refresh: newer, cleaner, more modern. Reality: among those 140 parks they have countless photos that are no longer usable—wrong logos, plastic garden chairs, people wearing 1980s clothes, you name it.
+Okay. One of our clients is [company]. [company] is a merger organization—[company] GreenParks and Roompot—with over 140 parks across Northwestern Europe. Their brand needs a refresh: newer, cleaner, more modern. Reality: among those 140 parks they have countless photos that are no longer usable—wrong logos, plastic garden chairs, people wearing 1980s clothes, you name it.
 
 Reality is: a marketing manager or social media manager can't send photographers to all those parks. So with them, based on their problems and what they wanted to solve, we built a small tool. We take a photo of one of their cabins, plus reference photos of a sample couple and their dog (a labradoodle, very current), and AI generates variants that are on-brand. I can also add seasonality, which matters in that sector: the same cabin, same people, same dog, but in autumn or spring, and morning or evening light. So that tiny tool—tiny deliberately, it's not that big—changed the whole workflow of that marketing department. They can make things they couldn't make before.
 
@@ -151,7 +151,7 @@ And that surfaces all kinds of tricky questions: how do you handle diversity? We
 
 Concrete example: an unmade bed in a hotel room around Valentine's Day—is that on-brand or not? You get interesting discussions. Marketing leaders say: no way, absolutely not, because we already get complaints about room cleanliness. The social media manager says: it's playful and relatable for a romantic weekend. So these are interesting tensions.
 
-For Randstad we also built social examples. Randstad has trouble connecting with young people. Many young people don't know what an employment agency is or what it can offer.
+For [company] we also built social examples. [company] has trouble connecting with young people. Many young people don't know what an employment agency is or what it can offer.
 
 So we built automated variants where we pull a job vacancy with no education or experience requirements from a database, for a specific location. Based on that we generate a social post within a theme, e.g. "young people don't work for money, they work for experiences"—partly true. So I can auto-generate postings like 24-hour shelf-stocking jobs and make a thousand or a hundred thousand of them. That changes labor-market communication and visibility.
 
@@ -177,7 +177,7 @@ Where I was going: small-making. It helps frame what a specific process step sho
 
 Small side note: I have a lead magnet tool almost ready (today/tomorrow). It's a system where based on "company name," "sector," and "business activities," it estimates and reports the most obvious AI use cases for your sector.
 
-So if I say: we're with Q&A in retail consulting and research, we do research and strategy. I can ask Perplexity: which companies operate in this sector, what do they do, how do processes look. Then with my capability cards I can map where AI can support those steps, let processes be redesigned, and let Claude write the report.
+So if I say: we're with [company] in retail consulting and research, we do research and strategy. I can ask Perplexity: which companies operate in this sector, what do they do, how do processes look. Then with my capability cards I can map where AI can support those steps, let processes be redesigned, and let Claude write the report.
 
 I find the output quality absurdly good. If you're clear about what you want and how it should work, with three data points you can produce a pretty good consultancy report. So I think a lot of output we all create—especially in marketing—can be made much smaller, faster, and cheaper once we understand how it is produced. Then we also need to learn that, from that insight, we can do things differently and do different things altogether.
 
@@ -231,13 +231,13 @@ So I don't need meetings about the status of my marketing plan, because I alread
 [Them]
 If you look at marketing communication specifically, I think we're still very early in understanding what this technology can do. When TV appeared, it was moving radio at first. When YouTube appeared, people initially made TV-style ads for YouTube. Over time we learned platform-native forms.
 
-Now I still see mostly things that are cheaper and often less good than human-made work. You can look at those Coca-Cola AI films, for instance.
+Now I still see mostly things that are cheaper and often less good than human-made work. You can look at those [company] AI films, for instance.
 
 There was an example—I think from a company with "Flint" in the name—that made an NBA-final commercial. If you search, you'll find it. There you clearly see someone who understands the audience, visual language, and AI mechanics. In a weekend, with about two thousand euros and the right prompts/workflow, they built a strong commercial. That shows something made now that was previously impossible.
 
 But overall, in creative work, I still see very few "wins"—few genuinely new things we couldn't make before. We're still in the "moving radio" phase. That's bleak.
 
-Within DDMA, where I'm active in the creative committee, we're always looking for use cases too. There still aren't many.
+Within [company], where I'm active in the creative committee, we're always looking for use cases too. There still aren't many.
 
 > *[Me]*
 > *Got it. So basically: efficiency gains yes; radically new use cases, not really yet. Some generated content, but often not yet at a level better than human work.*
@@ -253,7 +253,7 @@ Instead of "faster same," it should become "different and better."
 
 Classic Henry Ford line: if he'd asked people what they wanted, they'd have said a faster horse, not a car. That's where we are now.
 
-We're currently working for Puk, a Dutch company making high-end barista accessories. Small team, global sales, fast growth, now entering a new segment with ambition to double without doubling sales/marketing headcount.
+We're currently working for [company], a Dutch company making high-end barista accessories. Small team, global sales, fast growth, now entering a new segment with ambition to double without doubling sales/marketing headcount.
 
 What's interesting right now is: by streamlining current processes, you can scale far more than before.
 
@@ -269,7 +269,7 @@ In B2B, sales reps often go in underprepared due to time pressure. You can build
 
 Again, with only a few data points you can produce a useful analysis.
 
-With a company like Puk it's easier because little is set in stone yet. Outside production, they are literally with four people.
+With a company like [company] it's easier because little is set in stone yet. Outside production, they are literally with four people.
 
 > *[Me]*
 > *I'm keeping one eye on the time. What drawbacks, risks, or negative effects do you currently see when these systems are implemented?*
@@ -292,17 +292,17 @@ So if I combine rigid methods with technology-driven execution, and all aimed at
 > *I’m taking extensive notes; I type slowly, but it's useful to have all this on paper. Any other negative effects you'd add?*
 
 [Them]
-Interesting example: that McDonald's Christmas film.
+Interesting example: that [company] Christmas film.
 
 > *[Me]*
-> *I saw the Coca-Cola one, not that one.*
+> *I saw the [company] one, not that one.*
 
 [Them]
-McDonald's made an online Christmas film around all the hassles of Christmas and then going to McDonald's where things feel okay again. A lot of Dutch creative-advertising people were upset: "AI," "ugly," arguments about production quality and whether it was visibly AI.
+[company] made an online Christmas film around all the hassles of Christmas and then going to [company] where things feel okay again. A lot of Dutch creative-advertising people were upset: "AI," "ugly," arguments about production quality and whether it was visibly AI.
 
 What I found strange: the debate focused on form and output. End users don't watch like creators do—they often don't detect those flaws. AI quality keeps improving anyway; eventually people won't notice what used to look bad.
 
-What people ignored, and I found that shocking, is that it didn't fit the McDonald's brand. McDonald's isn't about "everything sucks and we forget it at McDonald's." It's about shared moments together.
+What people ignored, and I found that shocking, is that it didn't fit the [company] brand. [company] isn't about "everything sucks and we forget it at [company]." It's about shared moments together.
 
 You see the same with all those "look, I made an IKEA ad in two milliseconds" posts. Technically impressive, but often not IKEA at all. IKEA isn't "a camera explodes out of a box." IKEA is affordable, better living together, personalizing your space. The proposition isn't "assembled in ten minutes."
 
@@ -354,7 +354,7 @@ The core of a good brief is precision about what problem you're solving. You nee
 
 And the better I can review, the better I can say: this seems okay, but there it fails; this needs to change.
 
-The McDonald's example: strategy should have said, "This solves the wrong problem." It may have looked polished, tested well, music fine, people liked it—but it's not who we are.
+The [company] example: strategy should have said, "This solves the wrong problem." It may have looked polished, tested well, music fine, people liked it—but it's not who we are.
 
 That only works if you're very clear about what you want to solve, success criteria, and operating constraints, and can review accordingly.
 
@@ -380,7 +380,7 @@ Leadership must understand where AI is heading to create strategic horizons. Mid
 
 Then process-level automation: in a department or workflow, identify painful tasks people would gladly never do again. Those usually map to clear, explainable, bounded processes that can be automated.
 
-Most interesting level is innovation: what can we now do that we couldn't before? That demands a better understanding of your problem domain. In the Puk case: how do you double while staying lean? That leads to different business models and organization design, and to new capability requirements for employees managing agents.
+Most interesting level is innovation: what can we now do that we couldn't before? That demands a better understanding of your problem domain. In the [company] case: how do you double while staying lean? That leads to different business models and organization design, and to new capability requirements for employees managing agents.
 
 > *[Me]*
 > *Any final outlook point you want to add before we close?*
@@ -390,9 +390,9 @@ Two sides of the same coin: we're not worried enough, and we're not new enough.
 
 An engineer recently built a contract-review agent in one afternoon. It was so good that several US listed companies in that domain collectively dropped around 7% in value after related news. One person with sharp problem understanding and execution can create huge market impact quickly. We should be more nervous.
 
-Another point, in line with Mark Ritson: in many consumer/fast-moving categories, end users don't care about your brand story nearly as much as marketers think.
+Another point, in line with [redacted]: in many consumer/fast-moving categories, end users don't care about your brand story nearly as much as marketers think.
 
-Coca-Cola says: same taste for 100 years, everywhere, world's biggest brand. Fine—but when I'm on a terrace, I don't care about that narrative.
+[company] says: same taste for 100 years, everywhere, world's biggest brand. Fine—but when I'm on a terrace, I don't care about that narrative.
 
 We spend massive time and money trying to prove things are unique, while many offers are effectively commodities. If a smaller player runs your game smarter, you're vulnerable.
 
@@ -413,7 +413,7 @@ No, I'm curious what you're seeing as a researcher.
 What are you running into? What stands out to you?
 
 > *[Me]*
-> *Quick background: I did IT and later entrepreneurship. Around 2013, while building spellcheckers and scale systems for a university, I thought AI was fascinating and started diving into data and machine learning. I then joined Teconomy (first as a client when I was independent), where I still work.*
+> *Quick background: I did IT and later entrepreneurship. Around 2013, while building spellcheckers and scale systems for a university, I thought AI was fascinating and started diving into data and machine learning. I then joined [company] (first as a client when I was independent), where I still work.*
 
 > *Now we apply AI along roughly three axes. First: the lightweight productivity use cases you also mentioned—PowerPoints, email drafting, small workflows where incoming data triggers small analyses and posts results in Slack/Teams.*
 

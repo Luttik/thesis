@@ -14,7 +14,7 @@ Voor mij, maakt niks uit. Dat mag gewoon Engels. Is goed voor mijn, training wee
 > *Yeah, then we just talk in English. that's even better. before we start, I'm just curious. In one or two sentences, how did the demo go today? What i- what's your first impression?*
 
 [Them]
-The demo of Droop, AI. Yeah, it was very good. So I think it's,
+The demo of [product]. Yeah, it was very good. So I think it's,
 
 [Them]
 a great proposition you guys, built, because of the several, platforms where you have, data, and what you try to collect. We tried it earlier stage and to collect it in one central dashboard, but that was also a little bit, uh-
@@ -23,16 +23,16 @@ a great proposition you guys, built, because of the several, platforms where you
 > *It was hard*
 
 [Them]
-... [laughs] hard to develop. So this sound for me like, wow, hey, this is also cool. We can do this much easier, and maybe we don't need the complex, complexity of a dashboard, but just easy like this. but at the other end, I would like to and it was also the talk we had yesterday to yeah, to build on the yeah, the the prompts that you give to Droop, onto maybe, you know, some kind of reporting, some kind of personalization of reporting in your own, look and feel as well. So then when you have, like a big campaign, going on that you can, give some prompts that maybe give, automatically, some, updates every day and uh-... and go, and distribute
+... [laughs] hard to develop. So this sound for me like, wow, hey, this is also cool. We can do this much easier, and maybe we don't need the complex, complexity of a dashboard, but just easy like this. but at the other end, I would like to and it was also the talk we had yesterday to yeah, to build on the yeah, the the prompts that you give to [product], onto maybe, you know, some kind of reporting, some kind of personalization of reporting in your own, look and feel as well. So then when you have, like a big campaign, going on that you can, give some prompts that maybe give, automatically, some, updates every day and uh-... and go, and distribute
 
 [Them]
 directly to some sort of yeah, templates that you can, yeah, report to your, yeah management.
 
 > *[Me]*
-> *Yeah. That's very good to hear because that's high on the roadmap, so getting that input from customers directly is also, interesting, helpful. Cool. So I wanna just dive into the view. can you briefly explain to me what your role is within the KNVB?*
+> *Yeah. That's very good to hear because that's high on the roadmap, so getting that input from customers directly is also, interesting, helpful. Cool. So I wanna just dive into the view. can you briefly explain to me what your role is within the [company]?*
 
 [Them]
-Yeah. So I am, the lead digital business, at the KNVB. I'm working from the commercial department, in the marketing team, and my role is yeah, a little bit two-sided. One side is the digital marketing, strategy, and building the plans and campaigns, from our, grassroots, target group and our, fan, fan base or the Oranje, Orange fans. and on the ot- other hand, it's, yeah, defining the business needs, and translate them to to the right digital, platform. So building on apps, building on websites, building on single sign-on system so that we in the basis have, all data of our use, and we can run easier our marketing campaigns, with own, data. so this is something, what I'm really, yeah, glad that I can do that within the Dutch Football's, Association and do it with lots of fun.
+Yeah. So I am, the lead digital business, at the [company]. I'm working from the commercial department, in the marketing team, and my role is yeah, a little bit two-sided. One side is the digital marketing, strategy, and building the plans and campaigns, from our, grassroots, target group and our, fan, fan base or the [company], Orange fans. and on the ot- other hand, it's, yeah, defining the business needs, and translate them to to the right digital, platform. So building on apps, building on websites, building on single sign-on system so that we in the basis have, all data of our use, and we can run easier our marketing campaigns, with own, data. so this is something, what I'm really, yeah, glad that I can do that within the Dutch Football's, Association and do it with lots of fun.
 
 > *[Me]*
 > *Yeah, interesting. So I just realized that I forgot to send you the consent form. I will do that-*
@@ -98,7 +98,7 @@ Data
 Yeah
 
 > *[Me]*
-> *... stuff like that. And then there's agentic AI, which I define as having two capabilities that separates it from typical generative AI, which is a capability of planning. So like having, like you give it a prompt, it thinks of steps it has to do, and then it executes. And then the second part is the ability to perform actions. So that can be something like you saw Droop. Uh-*
+> *... stuff like that. And then there's agentic AI, which I define as having two capabilities that separates it from typical generative AI, which is a capability of planning. So like having, like you give it a prompt, it thinks of steps it has to do, and then it executes. And then the second part is the ability to perform actions. So that can be something like you saw [product]. Uh-*
 
 [Them]
 Yeah
@@ -143,7 +143,7 @@ I'm sorry?
 > *If any. So sometimes we also see that's not yet the case.*
 
 [Them]
-Yeah. Some use case that we have, is within the... well, in the grassroots, area, is that, we have some, agentic AI ideas on helping, the clubs, with perhaps the volunteers', planning and roles and activities. so that's really broad, because, a volunteer can, maybe, do some, work in the at the bar or should do some work in the in the line in the fields or should, do something else. so it's something, that can help us maybe onboarding, volunteers and to get them on the position they really like to be and help them, yeah, grow in that position, and give them, yeah, work for-... the whole season. on the other hand, I think a use case that we work on is into the area of of course, of the... Yeah. It's something that's already available also in for example, Jira, for managing, the products that we are building and the backlogs and release notes that we can easily, define on yeah, what are the what are the epics and what are the stories that we're working on and who's doing what, and what is the-... current, planning, who's, who has to do what this week. so that helps also a little bit, creating, some more and better overview of all the yeah, the different things that we're doing at the KNVB.
+Yeah. Some use case that we have, is within the... well, in the grassroots, area, is that, we have some, agentic AI ideas on helping, the clubs, with perhaps the volunteers', planning and roles and activities. so that's really broad, because, a volunteer can, maybe, do some, work in the at the bar or should do some work in the in the line in the fields or should, do something else. so it's something, that can help us maybe onboarding, volunteers and to get them on the position they really like to be and help them, yeah, grow in that position, and give them, yeah, work for-... the whole season. on the other hand, I think a use case that we work on is into the area of of course, of the... Yeah. It's something that's already available also in for example, Jira, for managing, the products that we are building and the backlogs and release notes that we can easily, define on yeah, what are the what are the epics and what are the stories that we're working on and who's doing what, and what is the-... current, planning, who's, who has to do what this week. so that helps also a little bit, creating, some more and better overview of all the yeah, the different things that we're doing at the [company].
 
 > *[Me]*
 > *And I'm making notes in the meantime.*
@@ -185,7 +185,7 @@ So this is some-
 > *... typically think of it.*
 
 [Them]
-Some... It's also something that we worked on with one of our partners, from Hashtag Eleven. So that's, our innovation hub. I think the the question from us was like, how can we bring the... How to say? What's... The manager of the club, just focusing on the job that he has to do and not-... as all the yeah, all the little things that's around him to manage as well, but that we can automate a little bit more, via agentic AI. and so that was the the reason that they, yeah, worked a little bit, further on and yeah, developed the agent for well, for specific roles within the club and from there on to yeah, professionalize the yeah, the club, and yeah, make it, with that more, yeah, durable to yeah, to keep the important position that they have in a specific, location, and regarding, also other sports that are in the direct, environment. So-... this is something to help, grow the clubs and to help grow the football with it because the manager of the club, the bestuurder, or what is what's the name of the bestuurder? The-
+Some... It's also something that we worked on with one of our partners, from [company]. So that's, our innovation hub. I think the the question from us was like, how can we bring the... How to say? What's... The manager of the club, just focusing on the job that he has to do and not-... as all the yeah, all the little things that's around him to manage as well, but that we can automate a little bit more, via agentic AI. and so that was the the reason that they, yeah, worked a little bit, further on and yeah, developed the agent for well, for specific roles within the club and from there on to yeah, professionalize the yeah, the club, and yeah, make it, with that more, yeah, durable to yeah, to keep the important position that they have in a specific, location, and regarding, also other sports that are in the direct, environment. So-... this is something to help, grow the clubs and to help grow the football with it because the manager of the club, the bestuurder, or what is what's the name of the bestuurder? The-
 
 > *[Me]*
 > *Yeah. Management makes sense.*
@@ -215,7 +215,7 @@ memberships or football memberships, so and competition data of course. So
 and this is also a system that we are really, yeah, looking on into how can we improve that or maybe can change it, that we have more, grip, more, so we can cl-, own it more by ourselves. But now it's a different company that's running Spotlink, data. So we want to own it ourself, make it more scalable, and make it more, yeah, direct, usable also for for these types of initiatives.
 
 > *[Me]*
-> *Interesting. So maybe let's go a little bit back to the use case, again. you talked about you already have a prototype.*
+> *Interesting. So maybe let's go a little bit back to the use case, again. you talked [company] already have a prototype.*
 
 [Them]
 Yeah.
@@ -354,7 +354,7 @@ I think it's the the quality, that we improve on because of yeah, the more in-de
 volunteers and helping them to improve by, also the yeah, sometimes the questions that, the agents can ask to the volunteers. So it's helping them growing into their roles. and yeah, like I just said, it helps us to grow into the football, sphere and and to claim a better position, within football.
 
 > *[Me]*
-> *So that is having a stronger position for the KNVB within Dutch football or for the Dutch football to have a stronger position within like the global market or both?*
+> *So that is having a stronger position for the [company] within Dutch football or for the Dutch football to have a stronger position within like the global market or both?*
 
 [Them]
 No. So within the Dutch, football and try to yeah, to go, a little bit ahead of... and to stay ahead of other sports in the Netherlands, with our, yeah, with our, innovations and integrations in the-... in the in our club structure.
@@ -531,13 +531,13 @@ Yeah
 > *... in the box that the IT supplies.*
 
 [Them]
-So that's also the like, the feedback that we gave to the to the team working on this one, like was it's like, it's too good to be true like this. It's, it, yeah, there must be some, catch in it because, yeah, there is so much going on within the inbound, outbound, communications and running tasks. Yeah. where to yeah, where to start, where to keep it simple and safe and build from there maybe with the right system. That's the I think the really, yeah, the step that we need to look into and to create also some governance in how to work from KNVB part with you know, with AI and software and integrated or not within our systems. How to work, yeah, just,
+So that's also the like, the feedback that we gave to the to the team working on this one, like was it's like, it's too good to be true like this. It's, it, yeah, there must be some, catch in it because, yeah, there is so much going on within the inbound, outbound, communications and running tasks. Yeah. where to yeah, where to start, where to keep it simple and safe and build from there maybe with the right system. That's the I think the really, yeah, the step that we need to look into and to create also some governance in how to work from [company] part with you know, with AI and software and integrated or not within our systems. How to work, yeah, just,
 
 [Them]
 alongside of it and what to do in our own, tools. And
 
 [Them]
-that's something that we yeah, we need to make, yeah, decisions on and we get also some, help from PricewaterhouseCoopers, into that one, so that's good. But yeah, we're not, not there yet. So a lot of cool, things are going on in the world of football, but yeah, to have it, implemented and working for a big, mothership as KNVB is it's [laughs] needs to go through some, some gates. and that was the thing from Droop, I really like because I think this is something that needs less of gates within the KNVB because especially when you don't check it or don't, connect it with Snowflake or something, but only keep it into the Google and the Meta and that, kind of parties, that's okay. but I hope in the future of course that we can also, yeah, make use of it more in in depth, um-
+that's something that we yeah, we need to make, yeah, decisions on and we get also some, help from [company], into that one, so that's good. But yeah, we're not, not there yet. So a lot of cool, things are going on in the world of football, but yeah, to have it, implemented and working for a big, mothership as [company] is it's [laughs] needs to go through some, some gates. and that was the thing from [product], I really like because I think this is something that needs less of gates within the [company] because especially when you don't check it or don't, connect it with Snowflake or something, but only keep it into the Google and the Meta and that, kind of parties, that's okay. but I hope in the future of course that we can also, yeah, make use of it more in in depth, um-
 
 > *[Me]*
 > *Yeah. Yeah. I think that would be great. As like from my other interviews, I hear a lot about the success of*
@@ -555,7 +555,7 @@ Ah, cool.
 Yeah.
 
 > *[Me]*
-> *yeah, it's just great. And like the great thing for security-wise with Droop is that it doesn't contain any-- it doesn't process personal data and it doesn't-*
+> *yeah, it's just great. And like the great thing for security-wise with [product] is that it doesn't contain any-- it doesn't process personal data and it doesn't-*
 
 [Them]
 No
@@ -600,7 +600,7 @@ Yeah
 Yeah.
 
 > *[Me]*
-> *It's not about creating customer journeys. w- why do you think that is for the KNVB?*
+> *It's not about creating customer journeys. w- why do you think that is for the [company]?*
 
 > *[Me]*
 > *Is it just different prioritizations or starting points or uh-*
@@ -666,13 +666,13 @@ Yeah. It... Of course, it's also helping you to improve some of your own ideas b
 > *highly applicable use cases.*
 
 [Them]
-Yeah. Well, no, because the most-- I won't, trash your, scope with all out of scope, things, but it's more about content creation and um-... all these, all these, things. So that's not really, agentic AI, use cases. I think we... Yeah, like I just said, we are in a yeah, in a starting phase of understanding what it can do for us and working with it. But I think the the big leap will take, us, coming, months into, much more, agentic AI, working. but it's not like also from our, marketing strategy, it's not something that's, defined from like, we need to implement this or that for... It's just on high level. yeah, we want to yeah, from marketing towards, the football, experience. Want to create experiences with with the best football, with the best tools, with the best, et cetera. So there could it be a nice fit in. so yeah, I think it will come, coming, months, because of the world is changing really fast in it as well. And-... well, perhaps Droop is also one of the first things that we can, implement, in our daily, workflow, uh-
+Yeah. Well, no, because the most-- I won't, trash your, scope with all out of scope, things, but it's more about content creation and um-... all these, all these, things. So that's not really, agentic AI, use cases. I think we... Yeah, like I just said, we are in a yeah, in a starting phase of understanding what it can do for us and working with it. But I think the the big leap will take, us, coming, months into, much more, agentic AI, working. but it's not like also from our, marketing strategy, it's not something that's, defined from like, we need to implement this or that for... It's just on high level. yeah, we want to yeah, from marketing towards, the football, experience. Want to create experiences with with the best football, with the best tools, with the best, et cetera. So there could it be a nice fit in. so yeah, I think it will come, coming, months, because of the world is changing really fast in it as well. And-... well, perhaps [product] is also one of the first things that we can, implement, in our daily, workflow, uh-
 
 > *[Me]*
-> *Yeah. Would be great. Would be great. I try to st- not talk too much about Droop. I feel myself like [laughs]*
+> *Yeah. Would be great. Would be great. I try to st- not talk too much about [product]. I feel myself like [laughs]*
 
 [Them]
-[laughs] Tricking you. You're the founding father, right? Are you the founding father of Droop or is it, uh-
+[laughs] Tricking you. You're the founding father, right? Are you the founding father of [product] or is it, uh-
 
 > *[Me]*
 > *It is my brainchild, but yeah.*
@@ -765,7 +765,7 @@ Yeah
 > *... how are you thinking about that?*
 
 [Them]
-Well, yeah, from KNVB part, it's always, the the question like, is our, basis already, finalized to build on like our technical and our digital platforms, the and the content on it. Is the basis, in in good shape or do we need to improve parts of it? Because-... there we think we still need to s-, to work on because of the... And we really, yeah, we have not that, we have real- a lot of people working at KNVB, but it's, there are not a lot of people working on the digital landscape. so this is something, from also from agentic AI and also to improve the tools to tool set to our, to our, users to... Yeah, we need to make some, yeah, some bold choices because-Um, I think from--, if I look at KNVB data now, it's a platform with thousands and thousands of pages and documents, and it's really old, stuff, on there. So y-what you would like to give is you have a platform, you enter it from as a well, my role maybe as a footballer or as a fan, and just, type some, questions, and then the platform will help you guide you through the yeah, through all the content that's, behind it. but therefore the yeah, the structure on the back end should be, yeah, should be there to work the system the best, to yeah, to get the best results, for for the consumer. And the same is like also with Droop. we have, like, yeah, I think like thirty, different properties within our Google Analytics. Yeah. Why is it thirty? Why isn't it, is it like four or five? and yeah, it's almost, year on year we need to work on it to minimize all the new properties, but there's always, yeah, some, [chuckles] something going on with another, no, of course not with another agency, but then with another colleague or maybe someone is working on it and creating new pro, property. so it's really, yeah, these, here's also some governance needing, needed for and good structure, to improve, um-... to improve for yeah, making better use of agentic AI.
+Well, yeah, from [company] part, it's always, the the question like, is our, basis already, finalized to build on like our technical and our digital platforms, the and the content on it. Is the basis, in in good shape or do we need to improve parts of it? Because-... there we think we still need to s-, to work on because of the... And we really, yeah, we have not that, we have real- a lot of people working at [company], but it's, there are not a lot of people working on the digital landscape. so this is something, from also from agentic AI and also to improve the tools to tool set to our, to our, users to... Yeah, we need to make some, yeah, some bold choices because-Um, I think from--, if I look at [company] data now, it's a platform with thousands and thousands of pages and documents, and it's really old, stuff, on there. So y-what you would like to give is you have a platform, you enter it from as a well, my role maybe as a footballer or as a fan, and just, type some, questions, and then the platform will help you guide you through the yeah, through all the content that's, behind it. but therefore the yeah, the structure on the back end should be, yeah, should be there to work the system the best, to yeah, to get the best results, for for the consumer. And the same is like also with [product]. we have, like, yeah, I think like thirty, different properties within our Google Analytics. Yeah. Why is it thirty? Why isn't it, is it like four or five? and yeah, it's almost, year on year we need to work on it to minimize all the new properties, but there's always, yeah, some, [chuckles] something going on with another, no, of course not with another agency, but then with another colleague or maybe someone is working on it and creating new pro, property. so it's really, yeah, these, here's also some governance needing, needed for and good structure, to improve, um-... to improve for yeah, making better use of agentic AI.
 
 > *[Me]*
 > *Interesting. So I also see that we've just hit ten minutes left. so*
@@ -774,7 +774,7 @@ Well, yeah, from KNVB part, it's always, the the question like, is our, basis al
 > *I want to switch gears a little bit and try to get to the heart of this. So*
 
 > *[Me]*
-> *where do you think as KNVB, where do you stand in terms of AI adoption compared to other organizations? Are you ahead or behind? And what is in your terms, the core reasons for that?*
+> *where do you think as [company], where do you stand in terms of AI adoption compared to other organizations? Are you ahead or behind? And what is in your terms, the core reasons for that?*
 
 [Them]
 Yeah. So I think behind, like I just said, we are just in the first steps of our mature-maturity. and the core reason is I think I mentioned, with the the infrastructure is not, yet in place, and the work on it is very, yeah, the workload is really big. and we did a lot of improvements, last, two years. But yeah, I think the-- we need to make, another-- we nee-we need another two years to to create from all the yeah, the wilderness that it is and and yeah, to bring it back to one, basis. And from there on we can really, yeah, we can step, we can make, more, and bigger steps, forwards. Uh-
@@ -783,7 +783,7 @@ Yeah. So I think behind, like I just said, we are just in the first steps of our
 > *Interesting. So this sounds to me like*
 
 > *[Me]*
-> *there's a feeling within the KNVB that all...*
+> *there's a feeling within the [company] that all...*
 
 > *[Me]*
 > *That AI solutions in general have to touch and be integrated with what IT is doing. Am I correct to say that?*
@@ -798,7 +798,7 @@ Yeah.
 Yeah. So the experiment, is happening on the
 
 [Them]
-yeah, just a little bit external, like I just mentioned with the Hashtag Eleven, the innovation hub. and also with some, well, like, other platforms that not directly connected to our, big mothership. but yeah, we see with the major, project that we worked on last two years and also the next two years, it's centralized with the of course, the data, platform and with the new, initiatives around it, with the single sign-on with the mine, my KNVB environment, with the new app and also with now the coming years to work on the Sporting environment and the Voetbal, NL app. so these are two major, chunks in our digital, ecosystem. we need to yeah, to cut it loose or where it's possible to cut it loose and to build it again so that we can, yeah, so that we have a yeah, it's connected to our, our own data platform and to and there, and from there on we can better, yeah, make use of agentic, solutions because the structure of data and everything is better then. Where now is for yeah, fifty percent into the Sportlink, uh-... environment.
+yeah, just a little bit external, like I just mentioned with the [company], the innovation hub. and also with some, well, like, other platforms that not directly connected to our, big mothership. but yeah, we see with the major, project that we worked on last two years and also the next two years, it's centralized with the of course, the data, platform and with the new, initiatives around it, with the single sign-on with the mine, my [company] environment, with the new app and also with now the coming years to work on the Sporting environment and the Voetbal, NL app. so these are two major, chunks in our digital, ecosystem. we need to yeah, to cut it loose or where it's possible to cut it loose and to build it again so that we can, yeah, so that we have a yeah, it's connected to our, our own data platform and to and there, and from there on we can better, yeah, make use of agentic, solutions because the structure of data and everything is better then. Where now is for yeah, fifty percent into the Sportlink, uh-... environment.
 
 > *[Me]*
 > *So do you use like agentic tooling that doesn't need to be integrated with the IT hub? Like, I'm thinking of tools like Gamma, right? Where you can just give a prompt, and it generates PowerPoint presentation. Are these still easy to use for you and to experiment with or is it also something that has to go through IT and get approval and-*
@@ -852,7 +852,7 @@ Yeah. Yeah. No, what, uh-
 > *do you feel restricted in this regard, and is that's a general takeaway?*
 
 [Them]
-[laughs], no, I don't feel really restricted, but I would like to develop a little bit more on it and to build on s-, from platform strate-, strategic, approach into more, yeah, smarter ways of using, AI. but therefore, yeah, we need to have, a- again, the platform, solution there to to have better structure and to have better, results from AI also for the end user, for example. so I definitely take away with me from this, interview to yeah, to also with Droop AI in my mind, to yeah, to kick a little bit more into the organization like, this is something we should, look into, and this is what's needed for yeah, for the future. but again, I think it's, due to the the load of work, work that's, here and that therefore creating the good solution, the basis for everything, I think this is also always, gets prioritized by any other thing because it's, "Oh, no, then you need a- another project in uh-" So let's start with the Droop AI and connect it to our, [laughs] to our paid channels. That will be, I think, a big, big step forwards, and uh-
+[laughs], no, I don't feel really restricted, but I would like to develop a little bit more on it and to build on s-, from platform strate-, strategic, approach into more, yeah, smarter ways of using, AI. but therefore, yeah, we need to have, a- again, the platform, solution there to to have better structure and to have better, results from AI also for the end user, for example. so I definitely take away with me from this, interview to yeah, to also with [product] in my mind, to yeah, to kick a little bit more into the organization like, this is something we should, look into, and this is what's needed for yeah, for the future. but again, I think it's, due to the the load of work, work that's, here and that therefore creating the good solution, the basis for everything, I think this is also always, gets prioritized by any other thing because it's, "Oh, no, then you need a- another project in uh-" So let's start with the [product] and connect it to our, [laughs] to our paid channels. That will be, I think, a big, big step forwards, and uh-
 
 > *[Me]*
 > *In my perspective, that's a easy one to get going.*
@@ -900,13 +900,13 @@ Yeah
 > *... and into the chatbots and plug it in essentially.*
 
 [Them]
-Yeah. So we're currently looking at we're working with cem.com. And they have also their AI, suite, or I don't know what's the name of it-
+Yeah. So we're currently looking at we're working with [company]. And they have also their AI, suite, or I don't know what's the name of it-
 
 > *[Me]*
-> *Halo*
+> *[product]*
 
 [Them]
-... but they have... Yeah, Halo. It's exactly. So we we're looking to Halo to make, make use of Halo as well.
+... but they have... Yeah, [product]. It's exactly. So we we're looking to [product] to make, make use of [product] as well.
 
 > *[Me]*
 > *Yeah. Very curious how that works, works out for you.*
@@ -975,7 +975,7 @@ Yeah
 Thank you
 
 > *[Me]*
-> *... but thank you a lot for your time, Arjan.*
+> *... but thank you a lot for your time, [redacted].*
 
 [Them]
 Yeah. Welcome. And uh- [laughs] [speaking Dutch] [speaking Dutch]

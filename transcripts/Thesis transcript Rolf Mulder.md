@@ -1,14 +1,14 @@
 ---
-Meeting Title: AI in Marketing interview (Rolf Mulder)
+Meeting Title: AI in Marketing interview ([redacted])
 Date: Feb 19
-Meeting participants: Rolf
+Meeting participants: [redacted]
 ---
 
 [Them]
 Hé, alles goed.
 
 > *[Me]*
-> *Hey Rolf, goeiedag. Ja zeker met jou.*
+> *Hey [redacted], goeiedag. Ja zeker met jou.*
 
 [Them]
 Goed ja lekker.
@@ -23,7 +23,7 @@ Bij jou.
 > *Leuk dat je mee wilt doen man?*
 
 [Them]
-Ja, dus jij jij zit waarschijnlijk nu druk in de opdracht net zoals Leo en Jos.
+Ja, dus jij jij zit waarschijnlijk nu druk in de opdracht net zoals [redacted] en [redacted].
 
 
 [Them]
@@ -72,7 +72,7 @@ Prima.
 Yeah.
 
 > *[Me]*
-> *Let me start recording then, and then you can double conform it. Okay, Rolf. So are you okay with a new recording?*
+> *Let me start recording then, and then you can double conform it. Okay, [redacted]. So are you okay with a new recording?*
 
 [Them]
 Yeah.
@@ -184,7 +184,7 @@ Yeah.
 > *yeah. Maybe less on there.*
 
 [Them]
-Back back then it really feels a long time ago, but when we when we before we formalized the company, we were we had a proof of concept and that was clear to see if if I can work with my co founder. And if he can solve a a real use case. And but the use case was super So what we created content for a recruitment organization, and all this content was sort of scraped from competitors or other sides, and we made some sort of a hub for them. But everything there was fully automated. So we created something about thousand web pages fully automated. But that in that use case, it worked. Because it was very standardized. But what we see within marketing is once you have to have more creativity in the output and also if it needs to be on brand that AI still falls very very short. And it seems to only be very useful for very bottom funnel sales activation content and not more demand generation brand building content. That that's where I see the big shift in where AI create where it sort of automated workflows work well, automated content creation workflows work well, is for that bottom bottom funnel type of content for more Yeah, aspirational on brand, emotional creative content. I think you will be better off with with with using AI as a as a sort of a sparring partner. And even and they're still relying on human creativity.
+Back back then it really feels a long time ago, but when we when we before we formalized the company, we were we had a proof of concept and that was clear to see if if I can work with my co founder. And if he can solve a a real use case. And but the use case was super So what we created content for a recruitment organization, and all this content was sort of scraped from competitors or other sides, and we made some sort of a hub for them. But everything there was fully automated. So we created something about thousand web pages fully automated. But that in that use case, it worked. Because it was very standardized. But what we see within marketing is once you have to have more creativity in the output and also if it needs to be on brand that AI still falls very very short. And it seems to only be very useful for very bottom [product] sales activation content and not more demand generation brand building content. That that's where I see the big shift in where AI create where it sort of automated workflows work well, automated content creation workflows work well, is for that bottom bottom [product] type of content for more Yeah, aspirational on brand, emotional creative content. I think you will be better off with with with using AI as a as a sort of a sparring partner. And even and they're still relying on human creativity.
 
 > *[Me]*
 > *Yeah. And what I find interesting, as well before diving deeper into the pros and cons of this all, is you see that I think you can analyze marketings from three Right? There's contents, which is part of the communication with the customer.*
@@ -210,7 +210,7 @@ Only marketing science proves time and time again that hyper targeting doesn't r
 > *Where do you think that gap between the what, for instance, MediaMonk is saying and what you see here with the message, I could call it that maybe. Where that gap comes from.*
 
 [Them]
-Most people don't know how marketing works That's a hard hard hard bold statement but only seven only 17 only less than 30% of people who are working in marketing have a studied marketing. And so we've now ever since SaaS came into I graduated right before the SaaS explosion. So I was graduated in sort of a traditional marketing way, and then SaaS happens. And we thought that data and of course data is supported, but we thought that whole deterministic way of building a funnel was the way to market. And now everything is changing because the algorithms on platforms are changing, the marketing science tells us, ah, the still didn't really work. The the whole deterministic is much more probabilistic approach. And that is a very hard
+Most people don't know how marketing works That's a hard hard hard bold statement but only seven only 17 only less than 30% of people who are working in marketing have a studied marketing. And so we've now ever since SaaS came into I graduated right before the SaaS explosion. So I was graduated in sort of a traditional marketing way, and then SaaS happens. And we thought that data and of course data is supported, but we thought that whole deterministic way of building a [product] was the way to market. And now everything is changing because the algorithms on platforms are changing, the marketing science tells us, ah, the still didn't really work. The the whole deterministic is much more probabilistic approach. And that is a very hard
 
 
 [Them]
@@ -242,7 +242,7 @@ Yeah. But it's very
 > *Then personalization becomes very effective.*
 
 [Them]
-Yeah, but it's very bottom bottom funnel. So that's that's soup that's
+Yeah, but it's very bottom bottom [product]. So that's that's soup that's
 
 > *[Me]*
 > *Yeah. For sure.*
@@ -254,11 +254,11 @@ and precision works when you're already a customer. They they and so for acquiri
 
 
 [Them]
-if I had a million euros I would spend everything on brand building and not on personalization bottom funnel. If if I had gone to my head. And mean I've done a lot of work at SaaS businesses. I still still have to let's just say the line of profit and revenue
+if I had a million euros I would spend everything on brand building and not on personalization bottom [product]. If if I had gone to my head. And mean I've done a lot of work at SaaS businesses. I still still have to let's just say the line of profit and revenue
 
 
 [Them]
-the hockey sticky always want to achieve, never got faster because of someone bought HubSpot or someone bought a marketing automation tool.
+the hockey sticky always want to achieve, never got faster because of someone bought [company] or someone bought a marketing automation tool.
 
 > *[Me]*
 > *Yeah. True.*
@@ -307,13 +307,13 @@ Yep.
 It it's actually you need to have both branding and both sales activation. But we have been we've marketing has been much more focused past twenty years on purely sales activation and conversion. And I think there AI is very applicable. But it's only only 5% of consumers in every shape former in every industry are the market. So your efforts towards those 5%, I think, those you can do really well with, AI. Discount campaigns or sales activation campaigns. But the brand building stuff for the 95% of the consumers who are not yet into the market. I think AI can definitely help reduce cost in creation. But not so much in the thinking. I think there, you need to have much more I think their emotion is a very, very big factor. And and emotion and time. So you need you need to have the message present presented at your audience for a very, very long time. And AI probably will have of an impact there.
 
 > *[Me]*
-> *Yeah. And maybe just one last question about this to wrap it up.*
+> *Yeah. And maybe just one last question about this to [company] it up.*
 
 [Them]
 Yep.
 
 > *[Me]*
-> *Because I think you still see that a lot of organizations out of a lot of people working in systems like HubSpot or other marketing automation systems. Why do you think AI isn't taking off there? Because the status quo is still there. That's there was a lot of people working in it in it and a lot of people believing in it, but we don't see it. So I don't think it's gonna be attributed to that the fact that it doesn't work for branding. In the same way.*
+> *Because I think you still see that a lot of organizations out of a lot of people working in systems like [company] or other marketing automation systems. Why do you think AI isn't taking off there? Because the status quo is still there. That's there was a lot of people working in it in it and a lot of people believing in it, but we don't see it. So I don't think it's gonna be attributed to that the fact that it doesn't work for branding. In the same way.*
 
 [Them]
 I answer any question.
@@ -322,7 +322,7 @@ I answer any question.
 > *Oh, so we started with the question, like, hey. What why do you why do we think we don't see AI in or agentic AI marketing ops in, like, building the automations in those systems and then we took a detour into the value of branding versus ops. So trying to get us back to the to the OG question.*
 
 [Them]
-I think Hubspot's maybe their their pace of innovation is too slow. They have they have there's a lot of lock in. I still think that it's I know. Yeah. We we have a split instant crush as well, more as a CRM. Not not a not not for anything automated. But, and I think it's still requires so much data and so much discipline to apply AI within HubSpot. But why AI hasn't taken off at customers who use HubSpot? I don't know because I don't know how much AI is in I mean, everybody slaps on some AI in their offering these days, especially old SaaS businesses. But I don't know.
+I think [company]'s maybe their their pace of innovation is too slow. They have they have there's a lot of lock in. I still think that it's I know. Yeah. We we have a split [company] as well, more as a CRM. Not not a not not for anything automated. But, and I think it's still requires so much data and so much discipline to apply AI within [company]. But why AI hasn't taken off at customers who use [company]? I don't know because I don't know how much AI is in I mean, everybody slaps on some AI in their offering these days, especially old SaaS businesses. But I don't know.
 
 > *[Me]*
 > *Hello?*
@@ -416,7 +416,7 @@ Gut. Ja, creativity and emotion. If you can apply your brand and scale dan dan d
 
 
 [Them]
-Efficiency we already efficiency we are betting against efficiency is in Krishna. It it's it's it's it doesn't you can make marketing cheaper, and you can spend less on marketing, but I don't see that how how that grows a business. It hasn't. In fact, if we speak to investors as well, and we jokingly say to investors like if instant crush fulfills its promise people will spend more on marketing and not less because they see it works and the whole efficiency game, people want to spend less marketing because it doesn't really work. That's a big big tell if you, you know, if you that that's how we how we look at it. The Marketing for most click for example for for a lot of en die voor marketing eens is it works for a short amount of time because they already have small margins and willingness to pay at the customer side is dropping by the month because of AI. So they have to go into efficiency but campaigns will not be better. So
+Efficiency we already efficiency we are betting against efficiency is in Krishna. It it's it's it's it doesn't you can make marketing cheaper, and you can spend less on marketing, but I don't see that how how that grows a business. It hasn't. In fact, if we speak to investors as well, and we jokingly say to investors like if [company] fulfills its promise people will spend more on marketing and not less because they see it works and the whole efficiency game, people want to spend less marketing because it doesn't really work. That's a big big tell if you, you know, if you that that's how we how we look at it. The Marketing for most click for example for for a lot of en die voor marketing eens is it works for a short amount of time because they already have small margins and willingness to pay at the customer side is dropping by the month because of AI. So they have to go into efficiency but campaigns will not be better. So
 
 > *[Me]*
 > *Yeah. And I think the same thing. It's a pretty logical conclusion.*
@@ -727,16 +727,16 @@ No. Not just with yeah.
 > *Cool. Yeah. This this was very insightful for me at least. Conversation. Where where are you based, by the way? Are you*
 
 [Them]
-Rotterdam.
+[location].
 
 > *[Me]*
-> *Rotterdam. Okay.*
+> *[location]. Okay.*
 
 [Them]
-Ja. You you guys are in Eindhoven, right?
+Ja. You you guys are in [location], right?
 
 > *[Me]*
-> *Yes. Yeah. So I see a lot of startups the high-tech campus. I was like, maybe we could grab a wrap a coffee soon. My agenda is a bit full too full to go to Rotterdam in the next*
+> *Yes. Yeah. So I see a lot of startups the high-tech campus. I was like, maybe we could grab a [company] a coffee soon. My agenda is a bit full too full to go to [location] in the next*
 
 [Them]
 Okay.
@@ -895,13 +895,13 @@ Yeah.
 > *Yeah. How is that for you in Rhode Island?*
 
 [Them]
-It's getting better because Rotterdam is becoming more and more an expat city.
+It's getting better because [location] is becoming more and more an expat city.
 
 > *[Me]*
 > *Yes.*
 
 [Them]
-Every year. So, ten ten, fifteen years ago, much less. And now it's it's super attractive for experts. I don't know why. Probably because we used to end up in all these lonely planet, hip hip city lists or or or maybe Amsterdam is becoming too expensive. But it's it's better but I have the same problem. So it's either you have technical people who don't understand marketing and marketing people who don't understand data. And we need both. And we also need UX people a lot. Like, we go deep into to really good design UX.
+Every year. So, ten ten, fifteen years ago, much less. And now it's it's super attractive for experts. I don't know why. Probably because we used to end up in all these lonely planet, hip hip city lists or or or maybe [location] is becoming too expensive. But it's it's better but I have the same problem. So it's either you have technical people who don't understand marketing and marketing people who don't understand data. And we need both. And we also need UX people a lot. Like, we go deep into to really good design UX.
 
 > *[Me]*
 > *That is and we got struggling with is this some this the time to hire a lot, or should we are part of a group. Should we utilize*
@@ -1038,7 +1038,7 @@ Yeah. We can discuss definitely. Cool.
 Alright. Thank you. Bye bye.
 
 > *[Me]*
-> *You, Rolf. Bye bye.*
+> *You, [redacted]. Bye bye.*
 
 [Them]
 See you.

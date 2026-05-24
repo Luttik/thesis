@@ -1,5 +1,5 @@
 > [Me]
-> Erica, goededag. 
+> [redacted], goededag. 
 
 [Them]
 Goedendag. 
@@ -368,7 +368,7 @@ For example, I have a photo here. You will see it. It's like... It's like the re
 ... great photo. You can just feel that she just- ... really exercised, and then she's having this glow. And if we would fake that, I'm not sure, so we're still in a bit of a debate around it. They are testing with it. The team is testing with it because they want to move forward, of course. But we're not there yet. 
 
 > [Me]
-> Cool. Yeah. So just to wrap it up, anything else in the use case departments? 
+> Cool. Yeah. So just to [company] it up, anything else in the use case departments? 
 
 [Them]
 Yeah. So in service, there's more. So, for example, if you cancel, 
@@ -479,13 +479,13 @@ Yes.
 It's a difficult question, though, because 
 
 [Them]
-we work with cm.com for the conversations a lot, and they have Halo. But then the whole Halo system is of course much more than just these conversations. But I would say we spent on technology for service and bot related, I think we would spend around 500K a year. 
+we work with [company] for the conversations a lot, and they have [product]. But then the whole [product] system is of course much more than just these conversations. But I would say we spent on technology for service and bot related, I think we would spend around 500K a year. 
 
 > [Me]
 > Yeah. That's significant. 
 
 > [Me]
-> So do you then use parts of Halo in addition to your own stack? Because you're also building based on the old flows that you already had in Ruby, and Halo isn't that old. 
+> So do you then use parts of [product] in addition to your own stack? Because you're also building based on the old flows that you already had in Ruby, and [product] isn't that old. 
 
 [Them]
 No. 
@@ -494,7 +494,7 @@ No.
 > It's- 
 
 [Them]
-But Halo was based on Inspire, I think. So I think everything was also there and, 
+But [product] was based on Inspire, I think. So I think everything was also there and, 
 
 [Them]
 yeah. But what was your question again? 
@@ -515,7 +515,7 @@ Yeah
 Yeah. 
 
 > [Me]
-> You build that new system using Halo, which also kept part of the old process. 
+> You build that new system using [product], which also kept part of the old process. 
 
 [Them]
 Oh, this is exactly where we are. 
@@ -971,7 +971,7 @@ No
 Yeah, we managed to solve it before it became an issue. To be honest, 
 
 [Them]
-I'm also like, McDonald's did the whole AI campaign. I think it was brilliant, and they took it offline, and I think that was very stupid. But yeah. So it's also opinions. I think 
+I'm also like, [company] did the whole AI campaign. I think it was brilliant, and they took it offline, and I think that was very stupid. But yeah. So it's also opinions. I think 
 
 [Them]
 so far we've only been praised for trying things and, yeah. Then we also as a company, we really value making mistakes because we learn the most from making mistakes. And it sounds maybe a bit stupid, but yeah. I'd rather have a team that makes mistakes every week than a team that does nothing and also doesn't move forward. [chuckles] So for me, it's just extremely important.

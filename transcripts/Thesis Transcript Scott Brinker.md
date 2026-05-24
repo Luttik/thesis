@@ -8,7 +8,7 @@ I am good with you recording this.
 > * Thank you. And I'm just setting up all of my screens again, because I need that thesis.*
 
 > *[Me]*
-> *So maybe, Scott, can you just also for the, for the whole university thing, I, I, I just wanna jump right in, uh, pretty quickly. But maybe if you have any questions for me, uh, let, let's do that at the end, or I can always book another meeting, because I've-- I can assume that you might also be interested in the, the results of the research. Um, but I just, just wanna get started and don't waste too much of the time. Maybe you can, uh, tell me a bit about yourself. Uh, uh, what-*
+> *So maybe, [redacted], can you just also for the, for the whole university thing, I, I, I just wanna jump right in, uh, pretty quickly. But maybe if you have any questions for me, uh, let, let's do that at the end, or I can always book another meeting, because I've-- I can assume that you might also be interested in the, the results of the research. Um, but I just, just wanna get started and don't waste too much of the time. Maybe you can, uh, tell me a bit about yourself. Uh, uh, what-*
 
 [Them]
 Sure 
@@ -17,10 +17,10 @@ Sure
 > *... what's your job? What is your background? Uh, who am I talking to today?*
 
 [Them]
-Sure. Uh, uh, so I am a, uh, MarTech analyst and advisor. I've been in this space for, uh, over two decades at this point. Um, I originally built a, uh, software company in the MarTech space called ION Interactive. After I sold that company, I joined HubSpot, uh, to build out their technology partner ecosystem. I did that for eight years. I just left, uh, last year, actually. Uh, and then in parallel, yeah, I've been writing the Chief MarTech Blog. I co-founded the MarTech Conference, that crazy landscape of all the MarTech solutions. Uh, these are all things I've done. Uh, so essentially, uh, I am, uh, a very MarTech, uh, enthusiast, uh, pretty much from the beginning of the field.
+Sure. Uh, uh, so I am a, uh, MarTech analyst and advisor. I've been in this space for, uh, over two decades at this point. Um, I originally built a, uh, software company in the MarTech space called [company]. After I sold that company, I joined [company], uh, to build out their technology partner ecosystem. I did that for eight years. I just left, uh, last year, actually. Uh, and then in parallel, yeah, I've been writing the [product]. I co-founded the MarTech Conference, that crazy landscape of all the MarTech solutions. Uh, these are all things I've done. Uh, so essentially, uh, I am, uh, a very MarTech, uh, enthusiast, uh, pretty much from the beginning of the field.
 
 > *[Me]*
-> *Yeah. And you're doing more consulting now as well, right? In addition to, like, the, the MarTech, uh, Chief MarTech-*
+> *Yeah. And you're doing more consulting now as well, right? In addition to, like, the, the MarTech, uh, [product]-*
 
 [Them]
 Yeah, I'm now a full-time analyst and advisor, so, uh, yeah, working with, uh, companies of all kinds. 
@@ -50,13 +50,13 @@ Okay. Well, I think I would step back and say, when I think about AI agents in m
 > *improve?-*
 
 [Them]
-Oh, well, I mean, like, there's a bunch of agents here for, um, you know, actually creating campaigns for marketers, doing audience segmentation for marketers, um, audience assembly, uh, you know, a lot of things like, uh, I don't know, I'm thinking of the product like Hightouch, which is a composable CDP on top of cloud data warehouses like Databricks and Snowflake. Uh, it has a very agentic approach to being able, uh, to create audiences dynamically for you. Um, there are products like, uh, [chuckles] actually, I'm wearing their shirt here at the moment, GrowthLoop. Um, you know, that's like kind of a composable CDP as well too, but sort of their focus is being able to have agents that are actually running experiments, you know, to learn, uh, which sorts of offers to which sort of audiences are gonna work best, and, uh, do a learning process. Uh, you know, that's, yeah, uh, uh, like a reinforcement learning, uh, agentic systems. Uh, so I think those are examples beyond just pure, like- ... back office analytics, uh, that we're seeing agentic capabilities arise in marketing.
+Oh, well, I mean, like, there's a bunch of agents here for, um, you know, actually creating campaigns for marketers, doing audience segmentation for marketers, um, audience assembly, uh, you know, a lot of things like, uh, I don't know, I'm thinking of the product like [product], which is a composable CDP on top of cloud data warehouses like Databricks and Snowflake. Uh, it has a very agentic approach to being able, uh, to create audiences dynamically for you. Um, there are products like, uh, [chuckles] actually, I'm wearing their shirt here at the moment, [product]. Um, you know, that's like kind of a composable CDP as well too, but sort of their focus is being able to have agents that are actually running experiments, you know, to learn, uh, which sorts of offers to which sort of audiences are gonna work best, and, uh, do a learning process. Uh, you know, that's, yeah, uh, uh, like a reinforcement learning, uh, agentic systems. Uh, so I think those are examples beyond just pure, like- ... back office analytics, uh, that we're seeing agentic capabilities arise in marketing.
 
 > *[Me]*
 > *And y- you shared some research, uh, about this. Uh, I don't know when, when, when the last report was, but, uh, there were like, um... I saw amazing adoption numbers for agentic AI. At least I don't see that here in the Netherlands, it seems. Um,*
 
 > *[Me]*
-> *w- how much-- because, like, Hightouch, you can use Hightouch without agentic AI. You-- I, I'm not really very known to what, what they use when it comes to agentic AI. Maybe, maybe you can touch a bit on that, and then maybe also on, uh, how you see that used within the organizations, and*
+> *w- how much-- because, like, [product], you can use [product] without agentic AI. You-- I, I'm not really very known to what, what they use when it comes to agentic AI. Maybe, maybe you can touch a bit on that, and then maybe also on, uh, how you see that used within the organizations, and*
 
 > *[Me]*
 > *maybe a bit about how, how often you see organizations get into those use cases.*
@@ -83,7 +83,7 @@ Yes.
 But it, and, and it's all, all across the map because, again, it is very much like, I don't think of it as a purely binary thing. You know, a lot of it comes down to it's like a continuum of being more agentic or less agentic. Um, and because pretty much every software product in MarTech right now is going through this evolution of adding more and more a capa- AI capabilities to their product, it's, um, yeah, it's hard to keep track of.
 
 > *[Me]*
-> *Yeah. Yeah, I agree. And maybe because I think GrowthLoop is one of those examples, probably you, you briefly mentioned them, where you can also use AI to actually orchestrate journeys, and that is one of the use cases where I'm really interested in because, um... No, I, I, I don't want to bias my research too much. Maybe you can talk a bit about that [chuckles] before I influence the entire structure.*
+> *Yeah. Yeah, I agree. And maybe because I think [product] is one of those examples, probably you, you briefly mentioned them, where you can also use AI to actually orchestrate journeys, and that is one of the use cases where I'm really interested in because, um... No, I, I, I don't want to bias my research too much. Maybe you can talk a bit about that [chuckles] before I influence the entire structure.*
 
 [Them]
 Uh, well, I'm sorry. Now I'm quite sure I get the question. 
@@ -113,7 +113,7 @@ Well, I mean, in my case, I know it's because, you know, I'm, like, doing this t
 Well, um, for companies that are in B2B, uh, they've certainly been using, uh, adopting this whole set of categories of things generally called AI SDRs, uh, whether they're inbound or outbound. Uh, but essentially, these agents, uh, that are able to either handle inbound requests from customers and, like, autonomously be able to respond, and engage, and schedule calendar meetings with salespeople, and things like that. Uh, and then there's also a set of these things that are outbound, that are actually reaching out to customers or prospects to try and engage them. Um, I, I say that with some trepidation. I'm actually not a fan, uh, of these AI agents that are running outbound motions, um, uh, because I think for people on the receiving end of that, I'm not sure that's a great experience. But, uh, but nonetheless, if, if you just want to evaluate it from, "Hey, is this agentic technology that marketers are deploying?" The answer is yes.
 
 > *[Me]*
-> *Check, and I, I've, I, I have GrowthLoop in the side typing, because they have a nice menu, and I haven't looked at, uh, them for a while. Um, do... But, um,*
+> *Check, and I, I've, I, I have [product] in the side typing, because they have a nice menu, and I haven't looked at, uh, them for a while. Um, do... But, um,*
 
 > *[Me]*
 > *do, do you have any others where you think, like, this is super relevant to j- just briefly discuss? So we have the-*
@@ -125,7 +125,7 @@ Oh
 > *... AI SDRs, the analytics, and the journey orchestration, huh?*
 
 [Them]
-Yeah. Well, here, let me give you another company here I believe is a good one. Um, uh, so these folks are focused on a more agentic way, a company called Gradial. I'll put it in the chat. [notification sound] Uh, an agentic way, uh, way to, like, manage the whole end-to-end content pipeline. 
+Yeah. Well, here, let me give you another company here I believe is a good one. Um, uh, so these folks are focused on a more agentic way, a company called [product]. I'll put it in the chat. [notification sound] Uh, an agentic way, uh, way to, like, manage the whole end-to-end content pipeline. 
 
 > *[Me]*
 > *Yes. Yeah. How agentic do you think that they are? Because I've heard this use case before, but I haven't been able to pin down*
@@ -134,7 +134,7 @@ Yeah. Well, here, let me give you another company here I believe is a good one. 
 > *where the AI starts and w- where it ends, right? Because you have, like, the multimodal ChatGPT stuff. You ask a question, you get an image back. This is not really agentic yet.*
 
 [Them]
-No, yeah, yeah. Uh, I, I don't know. I haven't looked at Gradial. I mean, it's the same thing actually, Adobe has a massive, like, uh, AI engine for, like, their content production line. They did some big partnership, I think, with WPP around it. Um, yeah, I've not actually seen the product myself, so I can't, uh, I can't speak to that. 
+No, yeah, yeah. Uh, I, I don't know. I haven't looked at [product]. I mean, it's the same thing actually, [product] has a massive, like, uh, AI engine for, like, their content production line. They did some big partnership, I think, with [company] around it. Um, yeah, I've not actually seen the product myself, so I can't, uh, I can't speak to that. 
 
 > *[Me]*
 > *Check. Check. Uh, maybe let's go from use cases into benefits. So*
@@ -200,7 +200,7 @@ I, I would argue that is also-
 What do you mean, like, the drawbacks? I'm not even sure. 
 
 > *[Me]*
-> *So one of the things I've heard before is, "Hey, if we are doing data analysis and AI might hallucinate, what does that mean for the mistakes that we make in the marketing funnel?"*
+> *So one of the things I've heard before is, "Hey, if we are doing data analysis and AI might hallucinate, what does that mean for the mistakes that we make in the marketing [product]?"*
 
 > *[Me]*
 > *Um-*
@@ -263,7 +263,7 @@ Sounds good.
 Ooh! All right, there's a lot there. Um... So a couple of things. I think, first of all, 
 
 [Them]
-you have to act. You can't just be in a mode of studying this or writing memos about it, or, you know, thinking about planning about it. You know, it's easy to fall into that trap of like, "Oh, well, we're planning, you know, to do this, and when we get the plan just right, you know, then, uh, then-" It just... The stuff is moving too fast, and it is such a different beast than things that we're typically used to. The only way a company really does start to adapt is they have to start getting hands-on, you know. And this is, again, where you see like this-- even if they haven't moved things into production, even getting more and more of these, like, pilots and experiments and use cases, um, it's just incredibly powerful. And that needs to be something that the organization-... really supports and endorses, because experimentation and, you know, early learnings and like this, they have the property that they don't always provide immediate returns. In fact, there's been some of these studies lately where, you know, like they ask companies like, "Well, how much return have you gotten from AI?" And the answers are sometimes like, "Well, maybe not that much." You know, and they're like, "Aha! See, AI doesn't actually deliver." [laughing] You know, and you're like, "No, I mean, this doesn't happen overnight." This is just, just such a massive transformational change to the way, like, we work, the way businesses operate, you know? It is going to take time to figure this out and learn and adapt, and if you don't invest that time in doing that, you're never actually gonna get down the journey. So, um, I guess that's my first advice, is you actually have to get hands-on. Um, I think the second thing is, you know, make actually very explicit. My, um, the co-author of some of my reports, Frans Riemersma, who's based out of Amsterdam, um, um-
+you have to act. You can't just be in a mode of studying this or writing memos about it, or, you know, thinking about planning about it. You know, it's easy to fall into that trap of like, "Oh, well, we're planning, you know, to do this, and when we get the plan just right, you know, then, uh, then-" It just... The stuff is moving too fast, and it is such a different beast than things that we're typically used to. The only way a company really does start to adapt is they have to start getting hands-on, you know. And this is, again, where you see like this-- even if they haven't moved things into production, even getting more and more of these, like, pilots and experiments and use cases, um, it's just incredibly powerful. And that needs to be something that the organization-... really supports and endorses, because experimentation and, you know, early learnings and like this, they have the property that they don't always provide immediate returns. In fact, there's been some of these studies lately where, you know, like they ask companies like, "Well, how much return have you gotten from AI?" And the answers are sometimes like, "Well, maybe not that much." You know, and they're like, "Aha! See, AI doesn't actually deliver." [laughing] You know, and you're like, "No, I mean, this doesn't happen overnight." This is just, just such a massive transformational change to the way, like, we work, the way businesses operate, you know? It is going to take time to figure this out and learn and adapt, and if you don't invest that time in doing that, you're never actually gonna get down the journey. So, um, I guess that's my first advice, is you actually have to get hands-on. Um, I think the second thing is, you know, make actually very explicit. My, um, the co-author of some of my reports, Frans Riemersma, who's based out of [location], um, um-
 
 > *[Me]*
 > *Yeah. I talked to him, uh, just before the summer.*
@@ -359,7 +359,7 @@ Okay.
 I will, uh, keep an eye out. I'm right now talking to more martech companies, uh, but, uh, if I, uh, come across a good brand I can send your way, I will be happy to do so. 
 
 > *[Me]*
-> *Cool. Thank you, Scott.*
+> *Cool. Thank you, [redacted].*
 
 [Them]
 All right, thank you. 

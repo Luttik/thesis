@@ -1,5 +1,5 @@
 > *[Me]*
-> *Hey Floris, how's it going?*
+> *Hey [redacted], how's it going?*
 
 [Them]
 Hey, there you are finally.
@@ -106,7 +106,7 @@ Yes, so I don't know how big your list of questions is, and otherwise if there a
 Great.
 
 > *[Me]*
-> *Hey, uh, as far as I'm concerned let's just get started. Uh, maybe it's nice for you to know a little bit about me. I am, I am Daan. I have a background in AI. Uh, I once started making chess computers in 2013 when, uh, yes, it was really quite a different world. Uh, and then I rolled into marketing with my own business, and really got stuck there, stayed at Ten Thirty. I've been there for eight years now,*
+> *Hey, uh, as far as I'm concerned let's just get started. Uh, maybe it's nice for you to know a little bit about me. I am, I am [redacted]. I have a background in AI. Uh, I once started making chess computers in 2013 when, uh, yes, it was really quite a different world. Uh, and then I rolled into marketing with my own business, and really got stuck there, stayed at Ten Thirty. I've been there for eight years now,*
 
 > *[Me]*
 > *um, and have been able to help grow it from the 10 people it was when I joined to the 60 we now have.*
@@ -115,7 +115,7 @@ Great.
 Mhm.
 
 > *[Me]*
-> *And, uh, now part of the Relevance Group and through that I know Fred, who introduced me to you I think.*
+> *And, uh, now part of the [company] and through that I know Fred, who introduced me to you I think.*
 
 [Them]
 Yes.
@@ -153,7 +153,7 @@ And, uh, yes, uh, that as a perspective then.
 Yes.
 
 > *[Me]*
-> *And, uh, you, you already kicked off, but I of course need to record this for Nyenrode, so if you're okay with that I'll turn it on.*
+> *And, uh, you, you already kicked off, but I of course need to record this for [company], so if you're okay with that I'll turn it on.*
 
 [Them]
 Oh, you hadn't even turned it on yet. Okay, well then [laughs].
@@ -183,7 +183,7 @@ The AI day of the VDV?
 > *No, not of the, uh, the VDV, VCV. The,*
 
 > *[Me]*
-> *uh, Nyenrode Alumni. That alumni association meets in a gentlemen's club.*
+> *uh, [company] Alumni. That alumni association meets in a gentlemen's club.*
 
 [Them]
 Yes.
@@ -197,7 +197,7 @@ Yes.
 [Them]
 Well, it's already ridiculous that we weren't even asked to come there. Let me check. Uh, July 2nd you say? No idea. Let me see what I, uh,
 
-I have nothing in my calendar here, but I don't know if I then — Nyenrode.nl, then I'll check. But maybe it's alumni only.
+I have nothing in my calendar here, but I don't know if I then — [company].nl, then I'll check. But maybe it's alumni only.
 
 > *[Me]*
 > *I can send you the link as well, because I grabbed it recently.*
@@ -245,13 +245,13 @@ Okay.
 > *It's still a bit of figuring things out.*
 
 [Them]
-My business partner and I, we're both, uh, Nyenrode alumni, and also neighbors on top of that.
+My business partner and I, we're both, uh, [company] alumni, and also neighbors on top of that.
 
 Uh,
 
 so
 
-maybe he should — he also does a, uh, an AI, uh, or at least a sales program at, uh, at Nyenrode and we've already done quite a few things with AI there.
+maybe he should — he also does a, uh, an AI, uh, or at least a sales program at, uh, at [company] and we've already done quite a few things with AI there.
 
 Uh,
 
@@ -425,7 +425,7 @@ And so with one or two people instead of with 72 people where you're simply mill
 
 Yes, and then you can say: yes, uh, AI doesn't work. Well, AI certainly works. The only thing you really see in that, in that same marketing world is of course the enormous resistance that people have,
 
-uh, and that they all find: yes, it's not good enough, everything can be better. Well, if you look at what Monks delivers, seriously, that is almost, uh, truly optimal of what is possible today. And that is often even better than the quality that is ultimately, uh, made by, uh, by people. That's not to say that it's necessarily better in the final execution or delivery. But, uh, yes, if you then see what the whole fuss was of course about with that Coca Cola commercial and that McDonald's commercial where they're all being a bit hypocritical. Yes, we want to do something with AI, but we're keeping it a bit at arm's length.
+uh, and that they all find: yes, it's not good enough, everything can be better. Well, if you look at what Monks delivers, seriously, that is almost, uh, truly optimal of what is possible today. And that is often even better than the quality that is ultimately, uh, made by, uh, by people. That's not to say that it's necessarily better in the final execution or delivery. But, uh, yes, if you then see what the whole fuss was of course about with that [company] commercial and that [company] commercial where they're all being a bit hypocritical. Yes, we want to do something with AI, but we're keeping it a bit at arm's length.
 
 Well you know, for people I think it doesn't matter in the slightest. And that it's AI — as long as it does what it needs to do and as long as you don't lie about it. I mean if you just say yes, this was made with AI. Yes, so what? You know. Look and that also has everything to do with it if you, uh, are going to commit fraud or do wrong things. Yes, that is of course a very different thing. And if you do that with AI, you're deceiving people. But I don't think that AI — you know, what are we thinking now? That we in, in the Hollywood world haven't already been fooled for years with all the James Bonds who were ultimately flying around in strange spaces everywhere.
 
@@ -442,7 +442,7 @@ So, right, so in that perspective I always think: yes, you know, the, uh, the wo
 
 Well, what I especially see very strongly is that you really have two types of marketers. Uh, the marketers who just do it — you don't even hear them talking about it. They're just enthusiastic and they just have nice examples. Just look at, let's say a Monks and then you also see parties like a Google that embrace that, but also a BMW.
 
-Um, but there are also a lot of companies that are all very hesitant. And I can imagine if you're an agency like WPP for example with, uh, I don't know how many hundreds of people working for you. Yes, what are you going to do with all those, what are you going to do with all those people later? But also in your own company's marketing. I — we work a lot for SMEs and marketing in that respect isn't even, uh, the most important thing in that company. We work a lot with manufacturing companies for example. Well, if they already have a marketer, they can already count themselves lucky. So someone is often more focused on social.
+Um, but there are also a lot of companies that are all very hesitant. And I can imagine if you're an agency like [company] for example with, uh, I don't know how many hundreds of people working for you. Yes, what are you going to do with all those, what are you going to do with all those people later? But also in your own company's marketing. I — we work a lot for SMEs and marketing in that respect isn't even, uh, the most important thing in that company. We work a lot with manufacturing companies for example. Well, if they already have a marketer, they can already count themselves lucky. So someone is often more focused on social.
 
 Uh, or they do some things on LinkedIn or a company page, a small website or so, but really very active marketing as we know it. Yes, uh, that's still manageable, but people are experimenting and quite a lot is happening. But I must say: if you want to do it well, if you want to use AI well, you still need skills.
 
@@ -617,6 +617,6 @@ Do that. Great.
 > *Okay, cool! Many thanks. Talk to you soon.*
 
 [Them]
-Thank you, Daan. Bye, bye.
+Thank you, [redacted]. Bye, bye.
 
 [clicking]

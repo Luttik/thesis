@@ -264,7 +264,7 @@ Because. Because that because that. Because that is really becoming very importa
 So I'm always really focused on okay, what is your framework? And we're going to look at that framework and everything you say about your brand. All very nice, but I don't believe it. So we're going back to the drawing board. We're going to target again completely.
 
 > *[Me]*
-> *Yeah nice, we do a lot in community building too. So a lot. For example via sports clubs or federations. How can you then also get people who aren't really financially tied to you connected to your brand, so they get pulled further into that, that funnel, but also just already have a good association with you as a brand. Yeah, and I find that a really nice one, because you can naturally connect that with other things again. And I think that in itself again.*
+> *Yeah nice, we do a lot in community building too. So a lot. For example via sports clubs or federations. How can you then also get people who aren't really financially tied to you connected to your brand, so they get pulled further into that, that [product], but also just already have a good association with you as a brand. Yeah, and I find that a really nice one, because you can naturally connect that with other things again. And I think that in itself again.*
 
 > *Communities are everywhere now. That used to really be a bit different. But what does it mean then who are you in that community? What is your unique position? But yeah, nice question, right?*
 

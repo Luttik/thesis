@@ -17,7 +17,7 @@ Good to meet you.
 Definitely. 
 
 [Them]
-Sure. Um, I work for a company called, uh, Merck KGaA in Darmstadt, Germany. Uh, my role is specifically within digital marketing. We have a leading e-commerce site for the life science industry called sigmaldrich.com. Uh, and within that, I'm in digital marketing, like I said, and, uh, within that, we have many different, uh, levers and pulls to try to get people to go to the website and purchase products. And within that, uh, being that there's an AI revolution going on right now, my goal is to evaluate, develop, and deploy as many, uh, AI toolings as I can or AI solutions. Uh, and this is a varied amount of things from internal chatbots about our products, to agentic workflows, to, uh, really anything related to AI. Um, and why me? Just as soon as ChatGPT came on, I, uh, jumped into it, and I became obsessed, so that pretty much put me where I am right now. 
+Sure. Um, I work for a company called, uh, [company] in [location], Germany. Uh, my role is specifically within digital marketing. We have a leading e-commerce site for the life science industry called [company]. Uh, and within that, I'm in digital marketing, like I said, and, uh, within that, we have many different, uh, levers and pulls to try to get people to go to the website and purchase products. And within that, uh, being that there's an AI revolution going on right now, my goal is to evaluate, develop, and deploy as many, uh, AI toolings as I can or AI solutions. Uh, and this is a varied amount of things from internal chatbots about our products, to agentic workflows, to, uh, really anything related to AI. Um, and why me? Just as soon as ChatGPT came on, I, uh, jumped into it, and I became obsessed, so that pretty much put me where I am right now. 
 
 [Them]
 Oh, good point. Um, anything using a, an artificial intelligence to generate content, uh, that's about it. I mean, if you think about it, I don't want to limit it to LLMs because it doesn't need to be a large language model. So anything that can create or evaluate content. 
@@ -77,7 +77,7 @@ content creation is a really big part of it. Um, data anal-- I mean, really, in 
 Yeah. Yeah. 
 
 [Them]
-Not really. We haven't used it yet to evaluate customer journeys or at least, you know, see where our advertisements are towards the top of the funnel versus bottom. Bottom being, you know, product-specific, top being more of a, you know, a brand idea. Um, I, I think evaluating customer journey within that is something that we've done manually a lot of the times, and that 
+Not really. We haven't used it yet to evaluate customer journeys or at least, you know, see where our advertisements are towards the top of the [product] versus bottom. Bottom being, you know, product-specific, top being more of a, you know, a brand idea. Um, I, I think evaluating customer journey within that is something that we've done manually a lot of the times, and that 
 
 [Them]
 really, we could do more of a deep research in that using AI to get a better answer of what it is. We think we know the customer journey to a large extent because we have had the e-commerce platform for a while, but I think further insights would be helpful. I mean, we really 
@@ -167,7 +167,7 @@ Um, a huge difference, I would say, because people, you know... I, I bet some pe
 um, you know, within Europe, there's more regulations than the US, so I wouldn't say that's an obstacle, that's more of a difference, but that is something just to realize and work with. Um, 
 
 [Them]
-a- again, there are some people who... There are-- You know, I wouldn't say anyone within digital marketing is anti-AI, but there's some side partners. We work with a film studio. Um, I shouldn't share this, I don't care. Uh, and they're anti-AI to a large degree, like, they won't even use AI within Adobe. I think Adobe has something called Firefly, where you can, like, insert objects and things like that. They refuse to touch anything about AI. I'm like, you know, I'm not a young guy, so I remember, like, the computer revolution, how, like, there was one point where not everyone had a computer, um, and it took over everything, and technology keeps marching. And I just find it odd where there's always people who are using technology today that didn't exist, you know, twenty, thirty years ago, but they refuse to adopt the even newer technology that's coming out right now. So Adobe Photoshop probably came out, what, early nineties, late eighties, for the Macintosh in black and white. And, you know, every single person who does anything with any type of image uses Photoshop, but, you know, they refuse to use the newest technology. That's on them. I mean, nothing I can do about that. I'm no one's boss. [chuckles] 
+a- again, there are some people who... There are-- You know, I wouldn't say anyone within digital marketing is anti-AI, but there's some side partners. We work with a film studio. Um, I shouldn't share this, I don't care. Uh, and they're anti-AI to a large degree, like, they won't even use AI within [product]. I think [product] has something called Firefly, where you can, like, insert objects and things like that. They refuse to touch anything about AI. I'm like, you know, I'm not a young guy, so I remember, like, the computer revolution, how, like, there was one point where not everyone had a computer, um, and it took over everything, and technology keeps marching. And I just find it odd where there's always people who are using technology today that didn't exist, you know, twenty, thirty years ago, but they refuse to adopt the even newer technology that's coming out right now. So [product] Photoshop probably came out, what, early nineties, late eighties, for the Macintosh in black and white. And, you know, every single person who does anything with any type of image uses Photoshop, but, you know, they refuse to use the newest technology. That's on them. I mean, nothing I can do about that. I'm no one's boss. [chuckles] 
 
 [Them]
 Yeah, um, it was through, uh... Yeah, the cost exists. What they do is, you know, every corporation, they cost things in a very interesting way. So either if you are given a service from a different division, typically, they cost it towards your cost center. In this case, they wanted AI adoption to happen, so they just decided this new AI group, called the, uh, Digital AI Group, would eat the cost under this group, and that anyone within the corporation can, quote, unquote, "use it for free." So is it free? No, but it's not being charged towards our cost center. So in the corporate world, that's free. [chuckles] Yeah. 
@@ -203,7 +203,7 @@ Yeah. Better agent means more people using it, means more cost. [chuckles]
 Yes, we just launched one this week. I really can't talk about it. It's a type of content that we will have on our website. Um, and that's about it. It's really cool, and it solves a decade-old problem. And, um, 
 
 [Them]
-yeah, maybe ask Berfun about it. She might tell you. [chuckles] 
+yeah, maybe ask [redacted] about it. She might tell you. [chuckles] 
 
 [Them]
 Yeah, "John wouldn't talk about something he just launched. What is it?" Yeah, if she tells you, that's fine. [chuckles] Um...... Oh, I, Seedance two point O, that came out, uh, last week or last weekend. Um, that is unbelievably great for video generation. I've messed around with Sora and, uh, Veo three two. I've done some example ads. Nothing is really launched yet because we have to get a lot of buy-in to do something like that, but I think that'd be really cool to eventually do, have an AI video ad. Um, there's a lot of control that you can put within it, and it just-- it's getting shockingly good. Um, that's the part that always surprises me when something is bad, like early AI imagery, and then it becomes really good. People don't think it will get better, which I always find odd. It's like, you don't realize how much money they're putting into this, you don't think it's gonna get better? [laughing] It will get better, and then it does, and then people are like, "Oh, the next thing. Oh, well, this is not good." And it's like: Okay, just wait. [laughing] 
@@ -218,7 +218,7 @@ Yeah. I-- Yeah, I look-- Initially, I just keep touch-- There's a new thing out,
 And ironically, I tell everyone, "I don't want any credit for anything I do or any project I work on. I want this to be a problem solution so that people can, you know, have more fun at their job or, you know, get better results or elevate the corporation as a whole." That's all I'm going for. [chuckles] 
 
 [Them]
-Sure, yeah. I mean, it's not unique to Merck. It's not something even related to AI. It's just, if, if I'm in control of X at a corporation, and someone in group Y says, "Hey, I have this really cool idea," they're afraid that I'm gonna get credit for it, and I'm going to somehow one-up them. Um, and that's just how it goes. And so I work with them. I'm like: Okay, well, who in your group would like to work on this? Okay, well, they're the lead of the project now. Let's work through this together, while, you know, realistically, I'm the one doing it. And then I hand it to them. I'm like: Here, take credit, please. Please deploy this, and then go with it. And I think in the end, it really helps things because it helps elevate the corporation as a whole, and in the end, people do know where things are developed through, who does what, but credit is such a strange thing within corporations. People want, uh, little fiefdoms or what they call silos. Um, it's just a natural process, so that happens, and it's disappointing because the individual workers, which I really am, I deploy and develop things, just wanna work together and get stuff done. But I would say, I would say, yeah, uh, management and upper management, they-- they're at that level not just to make sure things get done, but they're playing the game. [chuckles] 
+Sure, yeah. I mean, it's not unique to [company]. It's not something even related to AI. It's just, if, if I'm in control of X at a corporation, and someone in group Y says, "Hey, I have this really cool idea," they're afraid that I'm gonna get credit for it, and I'm going to somehow one-up them. Um, and that's just how it goes. And so I work with them. I'm like: Okay, well, who in your group would like to work on this? Okay, well, they're the lead of the project now. Let's work through this together, while, you know, realistically, I'm the one doing it. And then I hand it to them. I'm like: Here, take credit, please. Please deploy this, and then go with it. And I think in the end, it really helps things because it helps elevate the corporation as a whole, and in the end, people do know where things are developed through, who does what, but credit is such a strange thing within corporations. People want, uh, little fiefdoms or what they call silos. Um, it's just a natural process, so that happens, and it's disappointing because the individual workers, which I really am, I deploy and develop things, just wanna work together and get stuff done. But I would say, I would say, yeah, uh, management and upper management, they-- they're at that level not just to make sure things get done, but they're playing the game. [chuckles] 
 
 [Them]
 Um, 
@@ -248,7 +248,7 @@ Well, I know of some AI.
  Uh, someone within the B2B e-commerce space. Um, he uses AI a lot. Uh, let me type in his na-- Oh, let me find his email. That'd be easier. One second. 
 
 [Them]
-Let me find it. Or actually, do you want me to introduce you two, or do you just want a cold... Okay, I'll do that. So his name is Skip Johnston. I'll send him an email with your email and saying: "Hey, he wants to talk about AI projects," you know. And, um, yeah, we'll see. I, you know, I don't know if he'll be into it or not. No promises, but he's definitely, you know, a good conversation. He's in the, uh, like I said, B2B e-commerce group. 
+Let me find it. Or actually, do you want me to introduce you two, or do you just want a cold... Okay, I'll do that. So his name is [redacted]. I'll send him an email with your email and saying: "Hey, he wants to talk about AI projects," you know. And, um, yeah, we'll see. I, you know, I don't know if he'll be into it or not. No promises, but he's definitely, you know, a good conversation. He's in the, uh, like I said, B2B e-commerce group. 
 
 [Them]
 Um, 
@@ -272,7 +272,7 @@ Cool!
  Yeah. 
 
 [Them]
-Yeah, everyone can mess it with it now. It's great. [laughing] Cool. Yeah, I'll send, uh, I'll send out an email to Skip Johnston to introduce you to, and, um, hopefully he'll set up time. He's pretty busy, so I don't know. No promises, but, uh, him and I, we've worked together on projects before, so he'll probably be for it. Yep, good deal. See you around. You too. Bye bye. 
+Yeah, everyone can mess it with it now. It's great. [laughing] Cool. Yeah, I'll send, uh, I'll send out an email to [redacted] to introduce you to, and, um, hopefully he'll set up time. He's pretty busy, so I don't know. No promises, but, uh, him and I, we've worked together on projects before, so he'll probably be for it. Yep, good deal. See you around. You too. Bye bye. 
   
 
 > *[Me]*
@@ -285,7 +285,7 @@ Cool.
 > *thank you.*
 
 [Them]
-Yeah. I'll send, I'll send out an email to Skip Johnston to introduce you to, and, hopefully, he'll set up time. He's pretty busy, so I don't know. No promises. But, him and I, we've worked together on projects before, so he'll probably be for it.  
+Yeah. I'll send, I'll send out an email to [redacted] to introduce you to, and, hopefully, he'll set up time. He's pretty busy, so I don't know. No promises. But, him and I, we've worked together on projects before, so he'll probably be for it.  
 
 > *[Me]*
 > *Thank you. It's amazing.*

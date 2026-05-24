@@ -515,13 +515,13 @@ Well, honestly, the, the, the generative AI engines across the border will have 
 Mm 
 
 [Them]
-... and in both VCs and PEs, market intelligence, and that would, that would weigh a lot in the due diligence. So that helps you screen the founder and the team, as well as competitive, competitive products. So you use it for market, uh, market research: stellar. Now, in order for any algorithm to determine if there's something missing, it would have to invoke certain things. The fact that there are already predefined, predefined, um, uh, as in like templatised contracts for the larger PEs and VCs, [notification sound] does allow the Tier 2 small ones to do a similar comparing analysis on, on different categories of, of elements in any given contract compared against. So Sequoia has- 
+... and in both VCs and PEs, market intelligence, and that would, that would weigh a lot in the due diligence. So that helps you screen the founder and the team, as well as competitive, competitive products. So you use it for market, uh, market research: stellar. Now, in order for any algorithm to determine if there's something missing, it would have to invoke certain things. The fact that there are already predefined, predefined, um, uh, as in like templatised contracts for the larger PEs and VCs, [notification sound] does allow the Tier 2 small ones to do a similar comparing analysis on, on different categories of, of elements in any given contract compared against. So [company] has- 
 
 [Me]
 Mm. 
 
 [Them]
-For example, Sequoia has a, a, a pitch deck. That pitch deck structure [notification sound] you can apply over whatever pitches you're getting and see what is it that is missing. I can give you a simple example. It just- [notification sound] I work very little with, uh, with the VCs. I used to, with startups, but for the, the ba- main distinction between European, uh, startups and US startups is that in Europe, a lot of founders lead with product. So they try to convince you they have a great product, and it's feature and so on, and then they look at the venture, uh, uh, as in the investment, to support both with capital for further development, but also market access. 
+For example, [company] has a, a, a pitch deck. That pitch deck structure [notification sound] you can apply over whatever pitches you're getting and see what is it that is missing. I can give you a simple example. It just- [notification sound] I work very little with, uh, with the VCs. I used to, with startups, but for the, the ba- main distinction between European, uh, startups and US startups is that in Europe, a lot of founders lead with product. So they try to convince you they have a great product, and it's feature and so on, and then they look at the venture, uh, uh, as in the investment, to support both with capital for further development, but also market access. 
 
 [Me]
 Mm-hmm. 
@@ -917,7 +917,7 @@ familiar with.
 Yeah. Cool. Okay, so, um, 
 
 [Me]
-from, from my side, uh, because also because I have to, uh, I do have a pretty hard end at, at 1:00, I, I would like to wrap it up and also just give you a, a bit of time to... I don't know if you have any questions to me. I, I found this very enlightening, and it was great to have this talk with you. Uh, also, especially because you have a very different background and view on the matters than the people I've talked to, uh, about this before, uh, f- for my thesis then. Um, 
+from, from my side, uh, because also because I have to, uh, I do have a pretty hard end at, at 1:00, I, I would like to [company] it up and also just give you a, a bit of time to... I don't know if you have any questions to me. I, I found this very enlightening, and it was great to have this talk with you. Uh, also, especially because you have a very different background and view on the matters than the people I've talked to, uh, about this before, uh, f- for my thesis then. Um, 
 
 [Me]
 and it's been great. Yeah. Thanks a lot. 
@@ -953,13 +953,13 @@ Uh, so that's how I, how I joined. Um, and back in the day, I really liked thing
 Yeah 
 
 [Me]
-... flows still, and they don't-- They do measure it, but it's like you-- Typically, it's like a funnel. Like we have five steps- 
+... flows still, and they don't-- They do measure it, but it's like you-- Typically, it's like a [product]. Like we have five steps- 
 
 [Them]
 Yeah 
 
 [Me]
-... and it's from top to bottom, and there's no overview of whatever other elements might come or, uh, what happens if they don't get guided through the, through that funnel. So there is all these elements in marketing that prevent, uh, the tech from yesterday. 
+... and it's from top to bottom, and there's no overview of whatever other elements might come or, uh, what happens if they don't get guided through the, through that [product]. So there is all these elements in marketing that prevent, uh, the tech from yesterday. 
 
 [Them]
 Yeah. 
@@ -1022,7 +1022,7 @@ Yeah
 Yeah. 
 
 [Them]
-So they need to find the right balance between offline and, and online. But Lovable has done a great job by simplifying things and humanizing them in a way, um, that has, uh, truly helped. And then if you can look, their, um, investor, uh, decks are available. So you should look... You see how they progress between stages of, uh- 
+So they need to find the right balance between offline and, and online. But [company] has done a great job by simplifying things and humanizing them in a way, um, that has, uh, truly helped. And then if you can look, their, um, investor, uh, decks are available. So you should look... You see how they progress between stages of, uh- 
 
 [Me]
 Mm-hmm 
@@ -1094,7 +1094,7 @@ Yeah
 ... works mostly in the US, let me know, I'm happy to do an introduction. 
 
 [Me]
-Yeah, great. And, uh, likewise, if I can help you with anything, also feel free to reach out, and that goes... I saw that you and, uh, I talked with Giorgio before, and Desiree, you all also are engaged with, uh, doing good together, essentially. So I also reached out to Desiree like, "Hey, I, I was thinking about this before I started my MBA. During the MBA, that's not really feasible, but if you have any advice for me to think about how I can, uh, 
+Yeah, great. And, uh, likewise, if I can help you with anything, also feel free to reach out, and that goes... I saw that you and, uh, I talked with Giorgio before, and [redacted], you all also are engaged with, uh, doing good together, essentially. So I also reached out to [redacted] like, "Hey, I, I was thinking about this before I started my MBA. During the MBA, that's not really feasible, but if you have any advice for me to think about how I can, uh, 
 
 [Me]
 benefit society in a, in a larger way than just 
@@ -1127,7 +1127,7 @@ Mm-hmm
 Yeah. 
 
 [Them]
-So I think at some point it's important to, uh, understand that the privilege that I came from, um, is not similar across the border. So, uh, we have a foundation, as in the chair- Desiree founded, and I'm the chairman of, and then R- uh, Giorgio is also part of, that looks at addressing the intergenerational transfer of disadvantage, knowing that some gener- some communities are by design disadvantaged. 
+So I think at some point it's important to, uh, understand that the privilege that I came from, um, is not similar across the border. So, uh, we have a foundation, as in the chair- [redacted] founded, and I'm the chairman of, and then R- uh, Giorgio is also part of, that looks at addressing the intergenerational transfer of disadvantage, knowing that some gener- some communities are by design disadvantaged. 
 
 [Me]
 Mm. 
@@ -1139,13 +1139,13 @@ And I personally think that technology has the role to, to shrink that gap.
 Yeah. 
 
 [Them]
-So we're trying to do some of these things, and happy to talk more and share more once you have the capacity, and we'll meet in New York, so we'll probably have a chance to have a coffee in, in New York. 
+So we're trying to do some of these things, and happy to talk more and share more once you have the capacity, and we'll meet in [location], so we'll probably have a chance to have a coffee in, in [location]. 
 
 [Me]
 Great. Yeah, let's do so. Amazing. Okay, I want to thank you for your time. It was amazing to talk to you, and we'll see you in, uh, three weeks. 
 
 [Them]
-Awesome. Good luck with everything. Thank you, Daan. 
+Awesome. Good luck with everything. Thank you, [redacted]. 
 
 [Me]
 Cool. Bye-bye. 
