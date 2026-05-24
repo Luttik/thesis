@@ -33,6 +33,141 @@ To use the PDF-to-vector pipeline and MCP in Cursor:
 3. Run indexing from the CLI project:  
    `poetry run pdf-vectordb -C C:\workspace\thesis index` (set `DATALAB_API_KEY` in thesis `.env` first).
 
+### Qualitative Coding Workflow (QDPX-first)
+
+The coding workflow is now file-based and QDPX-first:
+
+- Runbook: `.cursor/skills/qdpx/SKILL.md`
+- Primary scripts: `.cursor/skills/qdpx/qdpx_import.py`, `.cursor/skills/qdpx/qdpx_export.py`, `.cursor/skills/qdpx/qdpx_validate.py`, `.cursor/skills/qdpx/qdpx_diff.py`
+- Atlas SQLite scripts in `.cursor/skills/atlasti/` are fallback/debug only
+
+Note: **64-bit CPython 3.12 or 3.13** is required for `sentence-transformers`/PyTorch in this project; Python 3.14+ has no matching official `torch` wheels yet, so `poetry install` can report that every wheel was skipped for ABI tags until you `poetry env use` a 3.12/3.13 interpreter.
+
+### Code Deduplication Review TUI
+
+To review likely duplicate codes with local embeddings:
+
+```powershell
+poetry run dedupe-launch --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+If you omit `--qdpx`, you'll get an interactive file picker when multiple `.qdpx` files exist.
+
+The launcher runs in the current terminal by default.
+Use `--new-window` to request a separate terminal window/tab.
+During embedding, the script shows a live progress loader with elapsed/remaining time.
+
+On Windows PowerShell, the same command works and opens a new PowerShell window when available.
+If your GPU is detected but unsupported by the installed PyTorch build, the tool now auto-falls back to CPU.
+You can also force CPU manually with `--device cpu`.
+
+You can also run the TUI directly (without launcher) via:
+
+```powershell
+poetry run dedupe --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+`poetry run dedupe` without `--qdpx` also opens the same interactive picker.
+
+To search existing codes by semantic similarity (name + quote context):
+
+```powershell
+poetry run code-search --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+In search TUI, type your query and press Enter. Use `j`/`k` to move results and `/` to focus query.
+
+To index and search all QDPX document paragraphs with local vectors (no Docker required):
+
+```powershell
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" index
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" search --query "volunteer onboarding" --top 15
+```
+
+Open the interactive paragraph VAST TUI:
+
+```powershell
+poetry run paragraph-vast --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" tui --query "planning and action"
+```
+
+The paragraph tool uses the same embedding model as the other QDPX tools (`BAAI/bge-m3`),
+stores metadata in SQLite, stores vectors in NumPy, and shows related paragraphs in the detail pane.
+
+To suggest top-level parent categories for uncategorised coded leaf codes:
+
+```powershell
+poetry run category-suggest --qdpx "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx"
+```
+
+Keybindings inside category suggestion TUI:
+
+- `j`/`k` or up/down: next/previous uncategorised code
+- `a`/`b`/`c`/`d`: assign suggestion rank 1/2/3/4
+- `s`: skip current code
+- `z`: undo
+- `/`: focus and clear parent filter input
+- `e`: export review and apply to a new `*-categorized.qdpx`
+
+After reviewing dedupe decisions, apply them back into a new QDPX file:
+
+```powershell
+poetry run dedupe-apply --base "qdpx/Thesis (Daan Luttik 2026-04-23 11.56).qdpx" --review-csv "output/qdpx-dedupe-review.csv" --out "qdpx/Thesis-deduped.qdpx"
+```
+
+This rewrites code references based on your `keep A` / `keep B` / custom decisions and writes a new `.qdpx` archive.
+
+Keybindings inside the TUI:
+
+- `j` next candidate
+- `k` previous candidate
+- `t` open full-screen table view
+- `v` (or `Esc`) return to side-by-side compare view
+- `]` scroll quotations down (both code panels)
+- `[` scroll quotations up (both code panels)
+- `a` dedupe and keep code A name
+- `b` dedupe and keep code B name
+- `c` dedupe with custom name
+- `s` keep separate
+- `z` undo last decision
+- `e` export review files
+- `q` quit (state is autosaved)
+
+The default compare view shows scores on top and both codes side by side with full quotations.
+By default, code pairs are filtered to only coded codes (codes with at least one quotation).
+Pressing `e` now also applies merge decisions into a new `*-deduped.qdpx` file by default.
+
+### Initial Coding Review TUI
+
+To review quotation-level coding suggestions from `qdpx-coding/` before export:
+
+```powershell
+poetry run initial-review --doc "Interview name fragment"
+```
+
+Quick launcher menu (numbered list):
+
+```powershell
+poetry run tools
+```
+
+If you omit `--doc`, the tool reviews all matching quotations.
+By default it includes only quotations that currently have at least one code.
+
+Keybindings inside the review TUI:
+
+- `a` accept suggestion
+- `d` decline suggestion (sets `**Codes**: *(none)*`)
+- `e` expand context (opens exact span editor)
+- `r` reduce context (opens exact span editor)
+- `c` add reviewer comment for next AI pass
+- `j` next quotation
+- `k` previous quotation
+- `z` undo last action
+- `q` save and quit
+
+The tool autosaves review state to `output/qdpx-initial-review-state.json` and applies
+decisions back to `qdpx-coding/quotations/*.md` on exit.
+
 ## Research Question
 
 > How do marketing managers create value with agenic AI

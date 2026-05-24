@@ -1,6 +1,13 @@
 # Pandoc output directory
 output/
 
+# Atlas.ti Cursor workspace — generated from SQLite, not source of truth
+atlas-coding/
+
+# QDPX Cursor workspaces — generated snapshots, not source of truth
+qdpx-coding/
+qdpx-coding-verify/
+
 # Temporary files
 temp-reference.md
 
@@ -16,6 +23,7 @@ temp-reference.md
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+.opencode
 
 # Local environment
 local.env
@@ -33,3 +41,7 @@ qdrant-storage/*
 !raw-sources/.gitkeep
 !md-sources/.gitkeep
 !qdrant-storage/.gitkeep
+
+__pycache__/
+.cache/
+**/.venv/

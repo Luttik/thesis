@@ -43,6 +43,10 @@ Use this skill to turn Consensus MCP search results into:
   3. If fewer than 3 papers remain, relax threshold to `>= 20` and explicitly say that fallback was used.
   4. If still sparse, keep threshold open but prioritize highest-cited items and Q1/Q2 journals when possible.
 
+## APA 7 Formatting Reference
+
+For full formatting rules, reference table examples, and the quality checklist, read [apa7-references/SKILL.md](../apa7-references/SKILL.md).
+
 ## BibTeX Rules (APA7-aligned)
 
 - Use `@article` for journal papers, `@inproceedings` for conference papers, `@book` for books.

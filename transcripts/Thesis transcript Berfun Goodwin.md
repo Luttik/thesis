@@ -1,7 +1,7 @@
 ---
-Meeting Title: AI in Marketing Interview (Berfun Goodwin) 
+Meeting Title: AI in Marketing interview ([redacted])
 Date: Feb 11 
-Meeting participants: Berfun Goodwin
+Meeting participants: [redacted]
 ---
 
 # Transcript
@@ -86,7 +86,7 @@ Them: Yeah.
 
 Me: So it was great to get together with, I think we're, like, with 50 now.  
 
-Them: Did you end up going to Turkey with them too? Did you end up going to Turkey with some too?  
+Them: Did you end up going to [location] with them too? Did you end up going to [location] with some too?  
 
 Me: No.  
 
@@ -108,7 +108,7 @@ Me: And visit them again as well because I did that back in '20 I think it's, li
 
 Them: Okay.  
 
-Me: And I've been to Boston, like, once in between, but I just had dinner with them once, then I had to leave again.  
+Me: And I've been to [location], like, once in between, but I just had dinner with them once, then I had to leave again.  
 
 Them: Yeah.  
 
@@ -128,7 +128,7 @@ Me: I ask you obviously for my thesis. So I'm going to do some research the stuf
 
 Them: Of course. Yeah.  
 
-Me: Maybe let's start with a bit about you. So could you tell me a little bit about you and your role within the organization?  
+Me: Maybe let's start with a bit [company]. So could you tell me a little bit [company] and your role within the organization?  
 
 Them: Yeah. Just wanted to say, like, I and the thing I signed, it said you would be recording. I'm fine recording. I just don't want you to forget.  
 
@@ -146,15 +146,15 @@ Them: Okay. Okay. Got you. Okay. So, yeah, I didn't know if you were going to re
 
 ## **Job description**
 
-Them: So I have been in the digital space over the past maybe ten years. I have a bachelor's degree in industrial engineering, and then I got my MBA in international marketing. Started in product-marketing in the car auto industry back in Turkey, and then I came here for my master's. So I started in business and business insights and analytics. In retail. Actually, I worked for Albert Heijn for a bit. Not for a bit. I worked for Albert Heijn for, like, five years. Yeah.  
+Them: So I have been in the digital space over the past maybe ten years. I have a bachelor's degree in industrial engineering, and then I got my MBA in international marketing. Started in product-marketing in the car auto industry back in [location], and then I came here for my master's. So I started in business and business insights and analytics. In retail. Actually, I worked for [company] for a bit. Not for a bit. I worked for [company] for, like, five years. Yeah.  
 
 Me: That's super fun.  
 
-Them: Yeah. And, I mean, Ahold. It was Ahold. Like, like,  
+Them: Yeah. And, I mean, [company]. It was [company]. Like, like,  
 
 Me: Yeah.  
 
-Them: what we called it. So then I switched over to the insurance, did digital marketing analytics, and then worked for an e-commerce company. I did site experience management, retail strategy, and analytics. And then over the past five years, I've been working at Melopori Sigma. It's called Merck in Europe. Anywhere else in the world, it's called Melopore Sigma. So you're probably familiar with the brand as Merck. I have been leading the digital marketing strategy and analytics team. It is a team of 11\. We are sort of, like, the innovation arm of digital marketing. We test into new channels within digital marketing, new tactics, etc., and then help the rest of the team scale that and also put measurement behind it. That's me in a nutshell. 
+Them: what we called it. So then I switched over to the insurance, did digital marketing analytics, and then worked for an e-commerce company. I did site experience management, retail strategy, and analytics. And then over the past five years, I've been working at [company]. It's called [company] in Europe. Anywhere else in the world, it's called [company]. So you're probably familiar with the brand as [company]. I have been leading the digital marketing strategy and analytics team. It is a team of 11\. We are sort of, like, the innovation arm of digital marketing. We test into new channels within digital marketing, new tactics, etc., and then help the rest of the team scale that and also put measurement behind it. That's me in a nutshell. 
 
 ### **Fluff**
 
@@ -322,7 +322,7 @@ Me: has got some of it's built in.
 
 ### Analytics built internally
 
-Them: Merckgroup.com. It sits in our it said it's an app that was, like, built within the company that has all these, like, different models I can pick from. I can also build my own agent and assistant. Which is what I've been doing. Yeah. And then, like, as you can see, like, I just did some, like, quicks analysis to, like, smaller like, I typically use it, like, some I use it I use AI in general, like I said, more in, like, generative AI capacity. Like, when I wanna, like, write something, like, write an insight I say, like, make this more insightful, more powerful, or whatever. That's me personally when I use it, but agentic side is more on the analytics. Side. But yeah. I use I also built my own assistant, played played around with that. That's really cool. One I don't know if this is this would be generative or agentic, but one assistant, for example, the team the branding team, felt was a trained the assistant on our different on our branding guidelines and different personas. And then now that assistant tells you if this is a pro brand aligned, or, like, tells you, like, this is what you should do to address this type of persona.  
+Them: [company]. It sits in our it said it's an app that was, like, built within the company that has all these, like, different models I can pick from. I can also build my own agent and assistant. Which is what I've been doing. Yeah. And then, like, as you can see, like, I just did some, like, quicks analysis to, like, smaller like, I typically use it, like, some I use it I use AI in general, like I said, more in, like, generative AI capacity. Like, when I wanna, like, write something, like, write an insight I say, like, make this more insightful, more powerful, or whatever. That's me personally when I use it, but agentic side is more on the analytics. Side. But yeah. I use I also built my own assistant, played played around with that. That's really cool. One I don't know if this is this would be generative or agentic, but one assistant, for example, the team the branding team, felt was a trained the assistant on our different on our branding guidelines and different personas. And then now that assistant tells you if this is a pro brand aligned, or, like, tells you, like, this is what you should do to address this type of persona.  
 
 Me: Check. So you're essentially either asking questions or sending copy in and seeing what's  
 
@@ -782,7 +782,7 @@ Them: Right.
 
 Me: held back when it comes to innovation and with with with with with sometimes like, there's also a huge gap between Europe and The States. So  
 
-Them: Yeah. So I'll tell you this, though. Like, not to toot my own horn. I think I'm a rarity in my organization, like, organization in terms like, someone who knows how to SQL code. That is more, like, from my life in the ecommerce that's where I got that skill. So I worked for, like, an online retailer They're, like, so advanced. In anything technology. I will try to think of people from Wayfair that you can talk to. I don't nobody's left there anymore. So I'm not sure. But I will get back to you. I have a few thoughts.  
+Them: Yeah. So I'll tell you this, though. Like, not to toot my own horn. I think I'm a rarity in my organization, like, organization in terms like, someone who knows how to SQL code. That is more, like, from my life in the ecommerce that's where I got that skill. So I worked for, like, an online retailer They're, like, so advanced. In anything technology. I will try to think of people from [company] that you can talk to. I don't nobody's left there anymore. So I'm not sure. But I will get back to you. I have a few thoughts.  
 
 Me: cool. Thank you.  
 

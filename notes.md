@@ -1,8 +1,16 @@
 # Notes
 
+
+
+- Problemetise literature
+    - We know this, what don't we know...
+    - Why is the lack important
+    - Paradoxes 
+
+
 # TODO
 
-Redact names and orgs.
+Redact names and orgs. (done for transcripts — see transcripts/REDACTION_LOG.md)
 
 # Memo's
 
