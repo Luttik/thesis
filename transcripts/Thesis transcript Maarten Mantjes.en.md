@@ -1,63 +1,6 @@
----
-Meeting Title: AI in Marketing interview ([redacted])
-Date: Feb 16
-Meeting participants: [redacted]
-Language: English translation
----
 
-Transcript:
 
 > *[Me]*
-> *Hey [redacted], good day.*
-
-[Them]
-Hello, good morning.
-
-> *[Me]*
-> *You were already here.*
-
-[Them]
-I was already here, I think, right? Let me sit down somewhere for a second. No, it's fine.
-
-> *[Me]*
-> *Hey, nice that you could join.*
-
-[Them]
-Yes, curious what you're going to talk about and what you want to do with it.
-
-> *[Me]*
-> *Well, I can kick it off at a very high level for a moment, and then you'll mostly have the floor. Let me just fix something because I'm getting another call.*
-
-> *So I'm doing research. I work at [company], and through [company] I'm also a colleague of [redacted], who introduced me to you, because we're in the [company] together. And besides working at [company] as CTO, I'm also doing an MBA at [company], and there I'm researching the question: "How can Agentic AI help marketing managers create value?"*
-
-> *I'm basically looking at that through three axes: I look at marketing managers and how they use AI to create value. I look at people who lead AI projects within marketing teams. And I look at the group that advises them, to view it through those three lenses: what can marketing do, what can marketing teams do, to create even more value within a team.*
-
-> *And value here means benefits, drawbacks, basically everything that goes into value. That can be financial, but also non-financial. So I hear things like, "Hey, I feel empowered as a marketer when I use AI." But it could also be about brand positioning, consumer value, or many other things.*
-
-> *And that's what I'd like to discuss with you today. This is really part of an academic research project, where I want to interview you about your perspective on this topic—your view on agentic AI in marketing. And if you like, we can always talk further afterward about my vision too, and I can share my insights afterward.*
-
-> *Because of academic reasons, I have to set my own perspective aside a bit while I do the interview with you, and afterward I can bring it back in.*
-
-[Them]
-Yes, I understand. Have you spoken to many people already?
-
-> *[Me]*
-> *You're number three on the list. So yeah, I basically started interviews this week. I have three more this week and two next week, and that way I hope to have spoken to around twenty-five people in about ten weeks. That's a solid sample size, I think, to build something serious.*
-
-[Them]
-Nice, exciting, curious to see it. I'd love to see it when it's finished.
-
-> *[Me]*
-> *Yeah, happy to share.*
-
-[Them]
-Great.
-
-> *[Me]*
-> *I'll write that down.*
-
-> *## Job description*
-
 > *Let's kick it off. First, I'm curious [company] and your role within your organization. Could you tell me a bit about that?*
 
 [Them]
@@ -522,22 +465,4 @@ If your sales, account, and support organizations are redesigned to help clients
 [Them]
 And all those discussions saying software build cost goes to zero—I think that trend is real.
 
-I need to jump now, I have another call. Really enjoyed this.
-
-> *[Me]*
-> *Me too.*
-
-[Them]
-Talk soon.
-
-> *[Me]*
-> *Will do.*
-
-[Them]
-Okay, bye.
-
-> *[Me]*
-> *Thanks so much for your time.*
-
-[Them]
-Bye.
+I need to jump now, I have another call. Really enjoyed this..

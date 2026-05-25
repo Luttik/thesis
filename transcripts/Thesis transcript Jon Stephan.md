@@ -1,16 +1,4 @@
-> *[Me]*
-> *Hello, how's it going today?*
-
-[Them]
-Pretty good. Pretty good. I'm in the States, so it's, uh, just starting out for the day, so it's going quite well. 
-
-[Them]
-Uh, working from home. I'll turn on my camera one second, you can see. [chuckles] There we are. 
-
-[Them]
-Good to meet you.
-
-[Them]
+ [Them]
  Yeah, yeah. Within digital marketing, I'm an AI, uh, specialist, strategist, and trying to implement as many agents and tooling that I can within our, uh, you know, usage and suites. 
 
 [Them]
@@ -264,40 +252,3 @@ Cool!
 
 [Them]
  Okay. Yeah. [chuckles] [laughing] Yeah, I mean, [chuckles] yeah, I really don't have a data science background, so, like, my first introduction to AI in that case was more of the, like, the twenty fifteen big data, ML type of... We were trying to do product recommendations on our e-commerce website. I had nothing to do with that. We brought in a bunch of data scientists for that, and that was really intriguing to me. But at that point in time, I didn't know how to do Python. I didn't know any of the tools they were using, and so it was kind of way above what I could even get near. I thought I needed to have a statistics degree to even touch this stuff.... But eventually, once, you know, the more generative AI came out, that might come. Yeah. Yeah. [laughing] Yeah. 
-
-[Them]
-[laughing] Yeah.
-
-[Them]
- Yeah. 
-
-[Them]
-Yeah, everyone can mess it with it now. It's great. [laughing] Cool. Yeah, I'll send, uh, I'll send out an email to [redacted] to introduce you to, and, um, hopefully he'll set up time. He's pretty busy, so I don't know. No promises, but, uh, him and I, we've worked together on projects before, so he'll probably be for it. Yep, good deal. See you around. You too. Bye bye. 
-  
-
-> *[Me]*
-> *See. Exactly. Cool. So I'm gonna take up any unnecessary time for you. I would wanna thank you immensely for taking the time to talk with me. It was very helpful. And ja,*
-
-[Them]
-Cool.  
-
-> *[Me]*
-> *thank you.*
-
-[Them]
-Yeah. I'll send, I'll send out an email to [redacted] to introduce you to, and, hopefully, he'll set up time. He's pretty busy, so I don't know. No promises. But, him and I, we've worked together on projects before, so he'll probably be for it.  
-
-> *[Me]*
-> *Thank you. It's amazing.*
-
-[Them]
-Yep.  
-
-> *[Me]*
-> *Well Thanks, John. See you, and have a great day.*
-
-[Them]
-Good deal. You're on You too. Bye bye.  
-
-> *[Me]*
-> *Bye bye.*

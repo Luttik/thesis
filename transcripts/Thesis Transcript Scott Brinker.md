@@ -1,20 +1,4 @@
-> *[Me]*
-> *Yeah. So I have the recording on. So just to check, [notification sound] you are fine with me recording this?*
-
-[Them]
-I am good with you recording this. 
-
-> *[Me]*
-> * Thank you. And I'm just setting up all of my screens again, because I need that thesis.*
-
-> *[Me]*
-> *So maybe, [redacted], can you just also for the, for the whole university thing, I, I, I just wanna jump right in, uh, pretty quickly. But maybe if you have any questions for me, uh, let, let's do that at the end, or I can always book another meeting, because I've-- I can assume that you might also be interested in the, the results of the research. Um, but I just, just wanna get started and don't waste too much of the time. Maybe you can, uh, tell me a bit about yourself. Uh, uh, what-*
-
-[Them]
-Sure 
-
-> *[Me]*
-> *... what's your job? What is your background? Uh, who am I talking to today?*
+> *So maybe, [redacted], can you just also for the, for the whole university thing, I, I, I just wanna jump right in, uh, pretty quickly. But maybe if you have any questions for me, uh, let, let's do that at the end, or I can always book another meeting, because I've-- I can assume that you might also be interested in the, the results of the research. Um, but I just, just wanna get started and don't waste too much of the time. Maybe you can, uh, tell me a bit about yourself. What's your job? What is your background? Uh, who am I talking to today?*
 
 [Them]
 Sure. Uh, uh, so I am a, uh, MarTech analyst and advisor. I've been in this space for, uh, over two decades at this point. Um, I originally built a, uh, software company in the MarTech space called [company]. After I sold that company, I joined [company], uh, to build out their technology partner ecosystem. I did that for eight years. I just left, uh, last year, actually. Uh, and then in parallel, yeah, I've been writing the [product]. I co-founded the MarTech Conference, that crazy landscape of all the MarTech solutions. Uh, these are all things I've done. Uh, so essentially, uh, I am, uh, a very MarTech, uh, enthusiast, uh, pretty much from the beginning of the field.
@@ -318,60 +302,3 @@ Yeah, well, I mean, like, for instance, we were talking about, um, you know, age
 
 > *[Me]*
 > *Yeah, check. So, um, I think I have most of my questions already. Uh, do you have anything that you would like to know? Because I've been talking about this with many people, I have backgrounds in AI. Is there something that I can, can help you with in your process of research and orientation or whatever?*
-
-[Them]
-Well, you know, I'm just curious in, like, hearing more about, uh, what you find. Um, I mean, if you have anecdotes you wanna share, but also, like, when you're done with your research and you have your thesis or whatnot- ... uh, published, yeah, I'd love to see a copy.
-
-> *[Me]*
-> *Yeah, sh- sure, I will do that. So what I found now is that*
-
-> *[Me]*
-> *I think a lot of the advice comes down to what you might call organizational change, and just the capabilities of marketing teams to adapt when it comes to*
-
-> *[Me]*
-> *technical know-how, process know-how, systems thinking, uh, willingness to change. All these factors seem to be pretty critical in the adoption process. Um,*
-
-> *[Me]*
-> *and again, what, what I'm really looking for, and maybe you can help me there as well, is just more organizations that do something cool [chuckles] on this topic. Because I've heard... I think except for one, all of the organizations that I've talked to did analytics with, uh, agentic AI, and I really think that that is a super valuable use case, because, as you said, you can just act, there's low risk there. Um, and when you have a system that can draw on the data and analyze that, and draw on the context, I think that's very important to not only include, uh, the data, but also some business context. Whether that's just*
-
-> *[Me]*
-> *the prompt engineers from the system are also marketers, so they know what they are talking about, and they can do a good job at translating the marketers, like, raw thoughts into [chuckles] a question that the data can a- actually answer. Uh, up until that, the marketing is, team is in control of setting some bounds and maybe in- including internal documents, and using that in combination with access to the systems to get data to get a good response. Um, I also do see in practice, I haven't had it in the conversations yet a, a lot when it comes to AI sales, and that is also interesting to me, because*
-
-> *[Me]*
-> *sales tech was always very far behind martech when it came to adopting new use cases, I, I, I believed. And now with AI, it seems to be the other way around. And maybe that's, uh, re- b- because marketing has a lot of structured data already, and sales typically doesn't have a lot of structured data, but they do have a lot of unstructured data, like reports, RFPs, emails, whatever. Um, so maybe AI is just so*
-
-> *[Me]*
-> *heavily qualified to do that compared to what they had before, that they are making this big, uh, just, just run for it and a, a catch-up game. Um, but those are all hypotheses that float through my mind, and, uh, I, I need to, to find it all based on it [chuckles] because it's, it's academic, uh, paper, of course, and, uh, I hope to do that over the coming time.*
-
-[Them]
-Yeah. Cool. Yeah, no, I'll be interested to see, uh, yeah- ... what your research ultimately, uh, concludes there.
-
-> *[Me]*
-> *Cool. Thank you. Well, thank you a lot for talking to me. If, if you have any organizations that come to mind, or people that come to mind that you say might be interesting for this, where you can introduce me, that would be a, an amazing, big help. Um, and if not, just thank you for your time and your thoughts.*
-
-[Them]
-Okay. 
-
-> *[Me]*
-> *It's good to see you.*
-
-[Them]
-I will, uh, keep an eye out. I'm right now talking to more martech companies, uh, but, uh, if I, uh, come across a good brand I can send your way, I will be happy to do so. 
-
-> *[Me]*
-> *Cool. Thank you, [redacted].*
-
-[Them]
-All right, thank you. 
-
-> *[Me]*
-> *Bye-bye.*
-
-[Them]
-Have a great afternoon. Bye. 
-
-> *[Me]*
-> *You too. Bye-bye.*
-
-> *[Me]*
-> *[phone dings]*

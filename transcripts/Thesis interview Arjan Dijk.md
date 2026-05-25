@@ -1,35 +1,4 @@
-> *[Me]*
-> *I think start. Uh-*
-
-[Them]
-Yeah
-
-> *[Me]*
-> *... find it good om het in het Engels te doen? That is for mij net iets makkelijker academisch gezien. Anders doen we het gewoon in het Nederlands en vertaal ik het naderhand. Dat kan ook.*
-
-[Them]
-Voor mij, maakt niks uit. Dat mag gewoon Engels. Is goed voor mijn, training weer en voor mijn-
-
-> *[Me]*
-> *Yeah, then we just talk in English. that's even better. before we start, I'm just curious. In one or two sentences, how did the demo go today? What i- what's your first impression?*
-
-[Them]
-The demo of [product]. Yeah, it was very good. So I think it's,
-
-[Them]
-a great proposition you guys, built, because of the several, platforms where you have, data, and what you try to collect. We tried it earlier stage and to collect it in one central dashboard, but that was also a little bit, uh-
-
-> *[Me]*
-> *It was hard*
-
-[Them]
-... [laughs] hard to develop. So this sound for me like, wow, hey, this is also cool. We can do this much easier, and maybe we don't need the complex, complexity of a dashboard, but just easy like this. but at the other end, I would like to and it was also the talk we had yesterday to yeah, to build on the yeah, the the prompts that you give to [product], onto maybe, you know, some kind of reporting, some kind of personalization of reporting in your own, look and feel as well. So then when you have, like a big campaign, going on that you can, give some prompts that maybe give, automatically, some, updates every day and uh-... and go, and distribute
-
-[Them]
-directly to some sort of yeah, templates that you can, yeah, report to your, yeah management.
-
-> *[Me]*
-> *Yeah. That's very good to hear because that's high on the roadmap, so getting that input from customers directly is also, interesting, helpful. Cool. So I wanna just dive into the view. can you briefly explain to me what your role is within the [company]?*
+> *Yeah. That's very good to hear because that's high on the roadmap, so getting that input from customers directly is also, interesting, helpful. Cool. So I wanna just dive into the interview. can you briefly explain to me what your role is within the [company]?*
 
 [Them]
 Yeah. So I am, the lead digital business, at the [company]. I'm working from the commercial department, in the marketing team, and my role is yeah, a little bit two-sided. One side is the digital marketing, strategy, and building the plans and campaigns, from our, grassroots, target group and our, fan, fan base or the [company], Orange fans. and on the ot- other hand, it's, yeah, defining the business needs, and translate them to to the right digital, platform. So building on apps, building on websites, building on single sign-on system so that we in the basis have, all data of our use, and we can run easier our marketing campaigns, with own, data. so this is something, what I'm really, yeah, glad that I can do that within the Dutch Football's, Association and do it with lots of fun.
@@ -964,27 +933,3 @@ Yeah. Yeah.
 
 > *[Me]*
 > *But for me, this was a great conversation. I have a very hard stop in one minute, so I have to move-*
-
-[Them]
-Yeah
-
-> *[Me]*
-> *... on to the next, conversation. Uh-*
-
-[Them]
-Thank you
-
-> *[Me]*
-> *... but thank you a lot for your time, [redacted].*
-
-[Them]
-Yeah. Welcome. And uh- [laughs] [speaking Dutch] [speaking Dutch]
-
-> *[Me]*
-> *Cool. Super. [speaking Dutch]*
-
-[Them]
-Yo. [speaking Dutch]
-
-> *[Me]*
-> *Doei.*
