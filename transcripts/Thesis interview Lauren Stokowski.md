@@ -1317,7 +1317,6 @@ Bye.
 > *[Me]*
 > * [sighs] [items clattering]*
 
-> * # Interview 2*
 > *[Me]*
 > *[bottles clinking]*
 

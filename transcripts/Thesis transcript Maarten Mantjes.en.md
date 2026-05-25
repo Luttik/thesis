@@ -1,5 +1,4 @@
 
-
 > *[Me]*
 > *Let's kick it off. First, I'm curious [company] and your role within your organization. Could you tell me a bit about that?*
 

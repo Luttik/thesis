@@ -21,10 +21,8 @@ yeah. We're we're we're started. So, we're we're we went live in May. So we're v
 [Them]
 Yeah. So basically it's it's it's the ultimate tool for focus for marketing departments. So what we see is now AI is of course coming up in the disrupting everything and we see that most AI solutions are really based are made built for building the faster horse as you might know. Purely efficiency and that's not the biggest we The biggest bottleneck we see especially for mid size is actually are you able to focus and can you can you come up with a good strategy and plan? Are do you know what to work on? And there's all these tools for that
 
-
 [Them]
 But now with AI, you can actually yeah, you can actually translate the data into insights in action. That wasn't possible before. That's basically our product.
-
 
 [Them]
 But it's it's still embedded and yeah.
@@ -53,7 +51,6 @@ Yes.
 [Them]
 Yeah. Well, we use it for at the moment, we use it in in sort of as an assistant. So not really and what I mean by that is for example, when I need to make something or or or or or or think about something, I ask AI to help me. Instead of what we stepped away from is just ask ask AI to execute for us because it it's still too limited, or we are not able or we or we are not good enough at asking the right things out of AI. To have a certain quality standard. So for us, AI is really good for example, if I have to mix piece of content, we I gather my thoughts, I can make a quick draft, ask AI to identify the gaps in my thinking, come back with a with a with a with a proposal how to how to fill in those gaps, and then as sort more of a sparring partner, that's one way. And the other one is to do analysis at scale. For customers. So that is normally a consultant has to plow through a lot of competitors a lot of content, and now AI can do most of that work. So that's pay that's generally speaking, the two use cases we use
 
-
 [Them]
 most. Yeah. What we really, really stepped away from is the is that AI makes something for us without human intervention. That that was yeah, longer than a year ago. That was our first concept. And that works and we thought that was scalable, but it's not scalable. You you we actually see that when you go beyond one use case, you have to have lots of human intervention for achieving a certain quality. So everything everything but the making, we do with AI. It's execution work.
 
@@ -80,7 +77,6 @@ Yeah.
 
 [Them]
 Yeah. So we have a customer, he uses agentic AI to inform his his customers of a good a good possible deal at the time the deal arises. So that that's what what I see but and we are at this also starting to experiment with agentic web content
-
 
 [Them]
 for our own marketing. So that means that, for example, a sort of a blog post or a piece of content is sort of alive. So it's it keeps becoming enriched and rich and rich every day. Maar het is stil scraping in data. So beyond that use case, not so much to be able
@@ -118,10 +114,8 @@ Ok,
 [Them]
 Yeah. Yes and no. Because what what's not in in I think there's a fourth one. It's called in it, it's marketing science. So most AI solutions we see in the marketing side, disregard most marketing sides. So for example, I'm targeting is a possibility for with AI or a promise.
 
-
 [Them]
 Only marketing science proves time and time again that hyper targeting doesn't really improve a brand. And that's a big so for example, you have medium one of the biggest media agencies in Netherlands. They they really promise hyper personalization. But all marketing books and science says you need to target the whole category loaded with emotional messaging. You need to balance your budget for
-
 
 [Them]
 60% emotional messaging, brand building, 40% sales activation and zo that is stand-time even more important than those principles. If you can apply them with AI, might move the needle more than looking back at what happened. So that that's a big a big gap we see with almost all AI solutions.
@@ -132,10 +126,8 @@ Only marketing science proves time and time again that hyper targeting doesn't r
 [Them]
 Most people don't know how marketing works That's a hard hard hard bold statement but only seven only 17 only less than 30% of people who are working in marketing have a studied marketing. And so we've now ever since SaaS came into I graduated right before the SaaS explosion. So I was graduated in sort of a traditional marketing way, and then SaaS happens. And we thought that data and of course data is supported, but we thought that whole deterministic way of building a [product] was the way to market. And now everything is changing because the algorithms on platforms are changing, the marketing science tells us, ah, the still didn't really work. The the whole deterministic is much more probabilistic approach. And that is a very hard
 
-
 [Them]
 and that is a realization that is now coming through. So you see that I see when I speak with investors, they understand brand building much more than than five ten years ago. And it used to be all about growth hacking. And very data driven marketing. And that really limits it puts a limit on your growth. And that realization is sort of coming through again, that it's not. Yeah.
-
 
 [Them]
 Oh, did ask what what was the original question? Sorry. Where I see that gap?
@@ -170,12 +162,8 @@ Yeah, but it's very bottom bottom [product]. So that's that's soup that's
 [Them]
 and precision works when you're already a customer. They they and so for acquiring customers,
 
-
-
-
 [Them]
 if I had a million euros I would spend everything on brand building and not on personalization bottom [product]. If if I had gone to my head. And mean I've done a lot of work at SaaS businesses. I still still have to let's just say the line of profit and revenue
-
 
 [Them]
 the hockey sticky always want to achieve, never got faster because of someone bought [company] or someone bought a marketing automation tool.
@@ -209,7 +197,6 @@ Yeah.
 
 [Them]
 Ja, wel ja, ja, because I'll put the WhatsApp down. Sorry. Yeah. Because that that's also an interesting Marketing science doesn't see much difference between b to b and b to c.
-
 
 [Them]
 We we it's sort I wrote a LinkedIn post about that, last week. The approach for b to b and b to c is quite similar because you first of all, you cannot really b two b can be a a super cheap Panda subscription. Which you can buy yourself on the credit on the company's credit card. But it can also be an insurance for the office building you have or an an an audit service, a can be a very big, purchase which we in which you have to have a buying committee, but it can also be a very quick one. But the reverse is also true that in b to c I can buy a Tony Chalcolony bar when I'm in the line in the queue of overtime. Or an optimum bar. But I can also a car is a very a purchase you have to think about for a long time. And I'm I don't know your price situation, but I have a buying committee at home as well with my girlfriends. You know? I have to convince her And so most of those principles are are are are applicable to every product or every offer. It's it's it's and that is a big so there's all these belief that seeped into marketing because everyone everyone can do marketing now. Right? So marketing we with the Internet marketing marketing became So all these beliefs seeped into marketing that were actually yeah, experts or people who studied it never really believed in. And that and that stuff took over marketing for about twenty years, and but it's the tide is turning. That's positive now.
@@ -274,7 +261,6 @@ Yeah.
 [Them]
 By an hour, in our use case, it's it's we promise very very tight focus and understanding of where you are at with your marketing. And translate it to a road map. So that's on our side the value we have. That that's a relief
 
-
 [Them]
 that they finally see beyond analytics because we present a dashboard to customers. We present facts and context. But that's already a big that's actually it sounds small, but it's very big because I've I've present as a young marketeer you present the dashboard to senior management and they give a shit because they don't understand it. So you then learn that it's not about the dashboard. It's about the message it has and how you convey that message. So that's where we really really bet on. That that's what really helps us already. Can you repeat the question? Because I feel like I'm drifting up again.
 
@@ -283,7 +269,6 @@ that they finally see beyond analytics because we present a dashboard to custome
 
 [Them]
 No.
-
 
 [Them]
 No.
@@ -306,18 +291,14 @@ Because you can I can have AI do things that I used to do as a consultant, but t
 [Them]
 a lot. And I can still make them think about marketing in a better way. But efficiency, I think, is marketing does not have an efficiency problem. That that's that's that's something. It reduced costs Yes. But you still have to buy media
 
-
 [Them]
 and you still have to buy presents which is way more expensive than asset creation
-
 
 [Them]
 especially for big brands. Marketing has an effectiveness problem because there's a lot of data You should look up system one a good company. They have a lot of really interesting research. You you see that efficiency increases, but effectiveness of marketing decreases. So the quality of marketing that's being produced has been dropping for about twenty years because it's now professionals within organizations. That's my conclusion of it. But my observation is that people started doing marketing themselves instead of having an specialist or an agency do it. And that causing a huge drop in effectiveness of marketing. It made it cheaper but marketing hasn't become much better. I mean, I know if you you've seen the Super Bowl ads. This year they were horrendous.
 
-
 [Them]
 And most of them were, a lot of them were very proud of their AI usage. They were horrendous horrendous most of them.
-
 
 [Them]
 Yeah, yeah still yeah exactly yeah.
@@ -333,7 +314,6 @@ Va,
 
 [Them]
 Gut. Ja, creativity and emotion. If you can apply your brand and scale dan dan dat's the biggest biggest driver of of new business.
-
 
 [Them]
 Efficiency we already efficiency we are betting against efficiency is in Krishna. It it's it's it's it doesn't you can make marketing cheaper, and you can spend less on marketing, but I don't see that how how that grows a business. It hasn't. In fact, if we speak to investors as well, and we jokingly say to investors like if [company] fulfills its promise people will spend more on marketing and not less because they see it works and the whole efficiency game, people want to spend less marketing because it doesn't really work. That's a big big tell if you, you know, if you that that's how we how we look at it. The Marketing for most click for example for for a lot of en die voor marketing eens is it works for a short amount of time because they already have small margins and willingness to pay at the customer side is dropping by the month because of AI. So they have to go into efficiency but campaigns will not be better. So
@@ -374,7 +354,6 @@ Yeah.
 [Them]
 Okay. Very early, but it's it's what we see at companies is that now that they they they get some really advanced insights. So, we've we've managed to prompt a few insights that a self taught marketeer or a an entrepreneur who sort of has a somewhat of an understanding about marketing. Would never be able to come up with so that can be multi card simulation. Of a customer journey and stuff like that. And what we the big insight is that it's not the when I, as a consultant, told the same things to a company, It was always sort of I had to defend my position. But now I say the same thing but with my machine. And then it's the truth.
 
-
 [Them]
 So people are very susceptible to automation bias. So all of a sudden, I have much
 
@@ -383,7 +362,6 @@ So people are very susceptible to automation bias. So all of a sudden, I have mu
 
 [Them]
 less discussions about what we recommend than I ever had. But that is so but but the impact, yeah, people for now, and it's it's still very early, we we've only been starting with with a core customer for, like, two months, but they they they tell us that, that they find it they find it you they find it a they find it very relaxing that they don't have to think about what should I do tomorrow? Am I doing the right things? But that's a very,
-
 
 [Them]
 that that's not even a business ROI, but just the having having them is beating okay, I have something that at least for now makes me focus and see what I need to do now. What we need to build in the near future, in the long future. Those three elements, that's very that's already a big, big advantage for them.
@@ -406,7 +384,6 @@ Yeah. And marketing has been too ROI focused. And it limits your growth. So if y
 [Them]
 Yeah. And so the whole ROI thinking is of course useful when you are again targeting the 5% of customers are in the market. That's where you would that's where you would apply ROAS thinking and but that's only, but the whole customer journey before that was like making your your your making sure you're you have brand preference in the market. Before they go to they see one of the more robust type of conveys. That's where, of course, the big value drop. That that's the big value driver.
 
-
 [Them]
 There's a famous quote saying, nobody has to optimize my landing page if I want to buy night sneakers. Right? So already you love it from from when you're young. And you see now upfront I don't know if you know that brand, you've probably seen it upfront doing that really really well, you know, that they're brand building brand building brand building And then every now and then, a sales activation. And, so, wow, that's Yep.
 
@@ -419,11 +396,8 @@ Yeah. And it's also
 > *[Me]*
 > *just doesn't work.*
 
-
-
 [Them]
 sometimes with ROAS, you are actually you think you're making a profit but these people were already going to buy.
-
 
 [Them]
 A lot of a lot of click that that's what you see now with SEO. So a lot of companies used to invest a lot of in SEO. And now Google make make is had u said het? Is battling against their own SEO business model or with with for AI generated as overviews in geo and but I don't see much business I don't see much business much companies go out of business because their channel stops. So then the question is, did it ever work? You know? And and it feels a little bit they they it's there's a saying as well, like, it's that type of marketing feels a little bit like you have a line in front of a ref and you give everyone a discount code who's already in line. That that that's what really that that's what's coming to service now.
@@ -433,7 +407,6 @@ A lot of a lot of click that that's what you see now with SEO. So a lot of compa
 
 [Them]
 Definitely. Yeah. So we want to say these and these channels think about them in this way. So there's a lot of and that's most of our work, actually. So there's there's there's a lot of a lot of entrepreneurs They see competitor or a befriended entrepreneur doing really well TikTok, and then they say, ah, we have to go TikTok. And then in our tool, you we would say, what channels or what approaches might work for them the best. And and what results you should expect. And also that for example, one of our customers said, you want to achieve lots of views on LinkedIn. Because his friend, business friend also had a lot of views on LinkedIn. I said okay, but if you don't brand your content, people will never remember that you have the view, but you don't have the it's called mental availability. So the they don't remember you when it's needed. And and to the again, that's a vanity so vanity metrics is actually what we're battling against.
-
 
 [Them]
 Right? Yeah. Yep.
@@ -452,7 +425,6 @@ Because it dashboard doesn't give any context. So most of marketeers are are oka
 
 [Them]
 for example, some of the smartest people I've I've met. So for example, I've worked at a company where a former minister was the owner of And he was at he's very number of had je een een very financial driven person even he couldn't understand why we should invest in branding. Because in his spreadsheet, it's very hard to put where where what's the line item, and where do I see something going up. But it solved doing that solved investing in branding, solved so much other things and made everything investing in brands six months later made some KPIs go up.
-
 
 [Them]
 But in those six months, that was a nightmare because every time I said, oh, he he saw that KPAs were not going up. So that's a very hard sell to certain people, to management. Does it answer your question? Sorry.
@@ -511,7 +483,6 @@ Yeah.
 [Them]
 Yeah, well there's of course a big limitation for our customers is because we focus on
 
-
 [Them]
 mid mark. Right? Time. So they understand they they need to do it, but they have the time. Or, sometimes they don't have the budget or don't have the they don't see so we give advice. And sometimes they don't know who or how to do that. So that's the next thing we need to solve. So that's one of the yeah. It's in those three areas. Yeah.
 
@@ -526,7 +497,6 @@ I have I have to make a very strong line there. We we are actually for entrepren
 
 [Them]
 We we give generic advice at this moment.
-
 
 [Them]
 And then what comes out of that is course sometimes we help the customer solve that ourselves as well because we're still started but eventually we are building a platform where companies have access to talent to solve those problems. That's the next step. So the next step is actually to create brief based on the insights, really good briefs. And that's so that you get sort of a marketplace for and talent to solve that problem that they can pitch it and
@@ -579,14 +549,11 @@ Tu es en
 [Them]
 No. No. No. Because we test the bronch. So in in the q so
 
-
 [Them]
 our prompts are sometimes three four pages long which is sometimes too long but it doesn't go off but it takes a long okay. A drawback is that creating creating really good AI prompts or agents takes a long long time.
 
-
 [Them]
 It's not it's it's way less It's once you have it, it scales in incredibly. Yes. But an agent that can do a certain task or a problem that analyzes in a way you re that's really meaningful that takes a long time. And that's that's something so in the in the we're now good at it. But it took us a few months to get fast. So and that's and, also, we are we are a startup, so we are we are still some sort of we have the time, and we are isolated to do so. But for most businesses, I don't see how they are getting there without stopping all operations on
-
 
 [Them]
 that specific domain.
@@ -597,10 +564,8 @@ that specific domain.
 [Them]
 Yeah. The the big thing is hype. So the AI is being overpromised all the time.
 
-
 [Them]
 And we have to reduce expectations sometimes. We have to be very very clear what we so we have to when we started, we were too broad. In our offering, and that's also gave the expectation that AI is een some sort of one button solution for all my problems.
-
 
 [Them]
 That's a big thing you have to, you have to manage. You really have to be specific about what you deliver and what you solve and not and if you if you treat AI as a sort of generic solution that people first of all, they they want to pay less because it everything is cheaper and easier now. And also they expect that you can do everything for them, which AI. That that's that's something we already have to learn. Yeah. So manage the expectations of what you're gonna deliver with AI. That that's because AI is now oversold agency especially they have to adopt but they don't have the skills yet. So they over promise on almost everything. Well, we know that in the background they had they they're doing still doing things super a little bit AI accelerated, but but much more. And then it's still very disappointing. So the biggest driver of success is really, really narrow down your your your your solution which is of course always. But even with AI, it makes that very it it's much more important with AI to narrow down your place within AI as a solution. Because, for example, this may be another discussion, but Sam speaks about AGI and about some sort of similarity. I think we're gonna we're gonna be seeing super fragmented AI That makes, of course, use of the NLMs I think on the on the application level it's gonna be some sort of winner takes all market. I it's hard to believe that.
@@ -617,7 +582,6 @@ Ja of course proprietary data so data you have unique to yours. I can also gener
 [Them]
 Not for you, but I think there's also an opportunity to get more out of people with AI. So you can you can
 
-
 [Them]
 you can have conversations with entrepreneurs about certain things at scale. And that you can collect. And yeah and that's of course building a very very strong context model for entrepreneurs, for businesses. On the branding, the marketing side. Think that that's super valuable
 
@@ -626,7 +590,6 @@ you can have conversations with entrepreneurs about certain things at scale. And
 
 [Them]
 I've seen people say they do that.
-
 
 [Them]
 I'm not sure if it works. And it's super hard. Building a right context model is superhard. En het
@@ -663,8 +626,6 @@ Okay.
 
 > *[Me]*
 > *four weeks, I think. But think it's very much fun to talk a bit further about what you guys are doing and see if we can help each other in any way.*
-
-
 
 [Them]
 Yeah. Yeah.
@@ -704,7 +665,6 @@ It's a gatory entry point.
 
 [Them]
 It's so the ads ad performance entry is sort of a a first category entry point for
-
 
 [Them]
 for your business.
@@ -847,7 +807,6 @@ Yeah.
 [Them]
 So yeah. We're we're start ups, so we do a lot of one offs.
 
-
 [Them]
 But that's very difficult. Finding talent is doable. But I see on the tech side that people are still not adapting to AI first working. We had a developer working for us. He could not translate transform his way of working. Meaning, he still wanted to do a lot of manual coding and that's a that happens way more than I used to think, than I than I than I assumed.
 
@@ -868,7 +827,6 @@ Bien.
 
 [Them]
 Ja, maar dat is also it's also hard to transfer knowledge. So, if you might cope something and someone else has to work on that you can explain the code to
-
 
 [Them]
 that person or to AI, and AI sometimes does. So how how you deal with that? That's where yeah.
@@ -914,7 +872,6 @@ Yeah.
 
 [Them]
 Yeah.
-
 
 [Them]
 Cool. Alright.

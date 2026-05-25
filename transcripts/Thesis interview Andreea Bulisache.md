@@ -1,7 +1,5 @@
 > *Yeah. So I think, uh, uh, for your context, I'm doing grounded theory, so I'm also focusing on finding gaps in what I already know from conversations w- with others. Um, and l- let's, let's start with, with you before I di- dive into the use case, by the way. I think that's still a good structure. Can you tell me a little bit about yourself, uh, yourself and your, your, your role within the company and, and how you got there? Because I think you have a very interesting journey. *
 
-> *## Job intro*
-
 [Them]
 Okay. I will try to be, uh, uh, sh- short, but- 
 
@@ -50,8 +48,6 @@ So that's where I stand.
 > *[Me]*
 > *l- let's start by, with those use cases, because I already have a lot of people who say that they use agentic AI in analyzing marketing data, but not really for anything else. I hear some stories about content pipelines which might be agentic or may, may not be. Um, do you see any other applications of a- agentic AI in, in the marketing context already? *
 
-> *## Agentic AI definition*
-
 [Them]
 Well, um, happy to deep- dive into this one, but I, I wouldn't be myself, I wouldn't be true to how I, how I operate if I won't, uh, take a step back and see, uh, what are the-... What are the definitions that you have and to have- 
 
@@ -69,8 +65,6 @@ The definition of what's the value for marketing might differ.
 
 > *[Me]*
 > *Yeah. So I, I-- That, that is good to ask. I, I always explain this, and I, with you, I was like: I think we're so on the same page that I pro-- can probably skip it. So I define agentic AI a bit broad, so I mainly focus on the, on the ability to act in some way on other systems and the ability to plan. Um, and value is also something that I, uh, define very broadly. So I really look at the value pyramids that you can see in academia, where it can be something like monetary value that you get as an organi- organization directly, but it can also be on the very other side. Like, I feel great because I did something cool, and my manager is also happy about it, right? So it can be e- everything in between that and also customer-facing, just loyal-- things that generate loyalty or other things that might be beneficial to, to the company or the people within the company. *
-
-> *## Use cases*
 
 [Them]
 Okay. Um, for me, it was more important to kind of narrow down what, what is that-- How do you define value for the audience that you're doing this research for? But it's good that you also gave me the, your lens of agentic AI, and I think the way I see it, I, I see it at, as in having five dimensions. 

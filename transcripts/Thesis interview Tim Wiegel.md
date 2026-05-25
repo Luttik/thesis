@@ -1017,7 +1017,6 @@ And see you soon. Bye-bye.
 > *[Me]*
 > *See you soon. Bye-bye.*
 
-> *# Part 2*
 > *[Me]*
 > *Hey, [redacted].*
 

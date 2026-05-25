@@ -1,5 +1,4 @@
 
-
 [Them]
 
 Uh, but okay, so I've actually worked for employers and companies for years, uh, until about eight years ago. Then I thought: hey, uh, why don't I put my knowledge and expertise more broadly into the market? I, uh, have actually always been working on win-win-win situations. So how can you bring maximum added value toward your customers by aligning all the people in the organization in the same way and, uh, instead of individual goals, bringing them jointly to one goal — namely your customer. Uh, I built a whole model for that at the time. A whole methodology and that has evolved a little by itself.
