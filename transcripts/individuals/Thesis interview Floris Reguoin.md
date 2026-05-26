@@ -22,7 +22,7 @@ And, uh, yes, uh, that as a perspective then.
 Yes.
 
 > *[Me]*
-> *And, uh, you, you already kicked off, but I of course need to record this for [University], so if you're okay with that I'll turn it on.*
+> *And, uh, you already kicked off, but I of course need to record this for [University], so if you're okay with that I'll turn it on.*
 
 [Them]
 Oh, you hadn't even turned it on yet. Okay, well then [laughs].
@@ -100,9 +100,9 @@ Right?
 > *I thought exactly the same. I also don't know exactly what to expect, but yes, I'm going back to VCV. You know it's also fun. I just sneaked into that.*
 
 [Them]
-Yes, but what is the — I, I don't quite understand what the, uh, it says there, there's really still nothing about it yet.
+Yes, but what is the — I don't quite understand what the, uh, it says there's really still nothing about it yet.
 
-Or, or am I missing something? I like having it in my calendar.
+Or am I missing something? I like having it in my calendar.
 
 > *[Me]*
 > *No, I think it's all just, uh, getting started, so, uh, it was early April.*
@@ -131,16 +131,16 @@ Nice. Uh, well, I'd say let's get started.
 Because, uh.
 
 > *[Me]*
-> *Let's do it. Hey, uh, just to frame things, because before we dive in. From your perspective: what, what is agentic AI?*
+> *Let's do it. Hey, uh, just to frame things, because before we dive in. From your perspective: what is agentic AI?*
 
 [Them]
-Are, are you already recording me or, uh?
+Are you already recording me or, uh?
 
 > *[Me]*
 > *Yes, it's on. It's on.*
 
 [Them]
-Perfect. Not that, not that I need to go through that again today.
+Perfect. Not that I need to go through that again today.
 
 Uh, so once more. So AI. What is AI? Is that what you asked?
 
@@ -167,7 +167,7 @@ Exactly.
 [Them]
 If I sum it up nicely here, right — an advanced form of artificial intelligence that can act autonomously, make decisions, and execute complex multi-step tasks to achieve a specific goal without constant human intervention. Well, there you have it,
 
-nicely defined. But okay, yes, you know, you can go on about that for a very, uh, very long time. Look, I, I.
+nicely defined. But okay, yes, you know, you can go on about that for a very, uh, very long time. Look, I.
 
 > *[Me]*
 > *You need to put a box around it, right, that's always important.*
@@ -207,7 +207,7 @@ Where people also say: yes, clean up my email — and then lose all the data fro
 [Them]
 Right, and, uh, well okay, but, that's the perspective. But ultimately what we mainly do within companies is really two things. You have, uh, AI for personal use, you have AI for, uh, teams to collaborate within a team environment, uh, and you have AI for business strategic aspects.
 
-And as you, uh, personally — that's just indeed that one-on-one chat, but it can also be a small tool and it can already be your personal clone that in principle goes and does all things. Your agent that then executes various tasks that you previously never had access to and now suddenly do. Um, and ultimately when you go to do that in a team, you naturally also need that, uh, alignment and that collaboration. So that requires just a bit different dynamics and also just a bit different — yes, then you go more from a task or a mini process to a, a kind of work domain or a series of processes and different functions that all come together.
+And as you, uh, personally — that's just indeed that one-on-one chat, but it can also be a small tool and it can already be your personal clone that in principle goes and does all things. Your agent that then executes various tasks that you previously never had access to and now suddenly do. Um, and ultimately when you go to do that in a team, you naturally also need that, uh, alignment and that collaboration. So that requires just a bit different dynamics and also just a bit different — yes, then you go more from a task or a mini process to a kind of work domain or a series of processes and different functions that all come together.
 
 Yes, and when you then talk about strategic, then you're really talking about a combination of all kinds of work practices or work domains that all, uh, flow into each other as one large business. Well, um, and AI naturally has an impact on various aspects of that. And how I ultimately at the basis always see it — you naturally just have, uh, something is input and that delivers output and that runs through various steps. Uh, and what we as humans do is we determine the input and we evaluate the output.
 
@@ -231,7 +231,7 @@ It actually works almost the same and we now have whole armies of those super in
 > *Certainly, so far it's still going well. Otherwise I'm just watching. I do have a lot of notes. So far it's going well.*
 
 [Them]
-Yes no, but when you talk about, about marketers. I, I have a marketing background myself and
+Yes no, but when you talk about marketers. I have a marketing background myself and
 
 yes, you know, there's an enormous amount possible. But also here it's what you put in comes out — if you accept that you can, yes, let's say write marketing texts. Write beautiful texts alone. Yes, it is AI driven. It's still based on English, so if you want a Dutch text yes, also nice, but I see marketers on the one hand — the technical marketers. I think a few years ago it was a bit like: yes, what do you need as a marketer in a digital age? Well, then you said yes, in the beginning that was — you must be creative. You must be able to think in concepts. Well, very important quality.
 
@@ -263,7 +263,7 @@ yes, that an email will soon be read by an agent. So an email is generated by an
 
 So to things that, let's say in a new world where technology regulates itself and perhaps also, uh, regulates itself to death, right — because there's also that chance that at some point it's just reuse of information and the internet and its innovation is dead. But that you naturally deal with, uh, the personal interactions again. So you get back, uh, all kinds of out of home, uh, let's say events, uh, but also, uh, somewhat more real life content.
 
-You can already see that now, right — you see the enormous rise of people sitting behind a podcast microphone, uh, and ultimately generating content in a different way that still has the validity of the real. Well, right, and to get to that theme you also notice that, uh, I recently had a nice podcast with someone who also said: hey, I was listening to a, a song and I, I found it so fantastic. It was really a beautiful song and I heard that and I thought — and I realized later when someone told me, they said: yes, but that's completely made by AI. And I thought: yes, but that's strange.
+You can already see that now, right — you see the enormous rise of people sitting behind a podcast microphone, uh, and ultimately generating content in a different way that still has the validity of the real. Well, right, and to get to that theme you also notice that, uh, I recently had a nice podcast with someone who also said: hey, I was listening to a song and I found it so fantastic. It was really a beautiful song and I heard that and I thought — and I realized later when someone told me, they said: yes, but that's completely made by AI. And I thought: yes, but that's strange.
 
 And then the song was no longer fun at all, because ultimately it was all at once that the soul had actually left the song. And in that context, right, it was just too perfect. Well, and that's I think where you can already see a nice trend. I don't know if you've been working on that yourself recently, but that of course videos are all fantastic. Texts are so incredibly well polished and refined, certainly by the advanced AI users within marketing too. Right, and then you get another hundred of those skills you can throw on top of it where you say: now just act as if you're a real human.
 
@@ -278,25 +278,25 @@ And where does the real added value of marketing lie? And I think as a marketer 
 > *I naturally wanted to, on the one hand it's good that we I think together have taken the high, uh, the whole helicopter view and see where it's going and be a bit visionary about it. I would now want to try to bring it a bit more down to earth with you —*
 
 > *[Me]*
-> *but, but okay, we, we think that, uh, AI can automate everything, all technological things, everything at the backend for marketing. But where do we stand now and what, what do we need to make that a success? And where do we already see value being created in the use cases? And what maybe isn't ready to, uh, be applied now?*
+> *but okay, we think that, uh, AI can automate everything, all technological things, everything at the backend for marketing. But where do we stand now and what do we need to make that a success? And where do we already see value being created in the use cases? And what maybe isn't ready to, uh, be applied now?*
 
 > *[Me]*
-> *Maybe, maybe start with the use cases. Where do you see that value can really be extracted right now?*
+> *Maybe start with the use cases. Where do you see that value can really be extracted right now?*
 
 [Them]
 Well in SEO.
 
 Search engine optimization already has value directly in it. Um, non-value-add video material — let me just call it that for now, uh, or, uh, and, uh,
 
-ultimately in, if you look at it now — I work with Monks. Um, if you look at what level they can already produce advertising material, you really think: why do they still need to fly enormous, uh, videographers, uh, voice-overs, people all somewhere, and, uh, be endlessly busy with that. Yes, where they simply have proof that you can create a ca-, that you can create a total — I'll just call it a Super Bowl, Super Bowl commercial with all the assets behind it for communication on the socials, on your website. Well name the whole lot, that you can just do that in four days instead of in half a year.
+ultimately in, if you look at it now — I work with Monks. Um, if you look at what level they can already produce advertising material, you really think: why do they still need to fly enormous, uh, videographers, uh, voice-overs, people all somewhere, and, uh, be endlessly busy with that. Yes, where they simply have proof that you can create a ca-, that you can create a total — I'll just call it a Super Bowl commercial with all the assets behind it for communication on the socials, on your website. Well name the whole lot, that you can just do that in four days instead of in half a year.
 
-And so with one or two people instead of with 72 people where you're simply millions lighter and you can just do this for really a, uh, yes, proportionally for peanuts — for less than a hundred thousand. Yes, nobody I think had envisioned that. And if you then listen to the story of Victor, uh, Knaap from Monks — maybe interesting for you to look into that a bit more anyway. That he also simply says: yes, I had a, I had a creative agency of 8,000 people, but now I have in the projection back toward 100,000.
+And so with one or two people instead of with 72 people where you're simply millions lighter and you can just do this for really a, uh, yes, proportionally for peanuts — for less than a hundred thousand. Yes, nobody I think had envisioned that. And if you then listen to the story of Victor, uh, Knaap from Monks — maybe interesting for you to look into that a bit more anyway. That he also simply says: yes, I had a creative agency of 8,000 people, but now I have in the projection back toward 100,000.
 
-Yes, and then you can say: yes, uh, AI doesn't work. Well, AI certainly works. The only thing you really see in that, in that same marketing world is of course the enormous resistance that people have,
+Yes, and then you can say: yes, uh, AI doesn't work. Well, AI certainly works. The only thing you really see in that same marketing world is of course the enormous resistance that people have,
 
 uh, and that they all find: yes, it's not good enough, everything can be better. Well, if you look at what Monks delivers, seriously, that is almost, uh, truly optimal of what is possible today. And that is often even better than the quality that is ultimately, uh, made by, uh, by people. That's not to say that it's necessarily better in the final execution or delivery. But, uh, yes, if you then see what the whole fuss was of course about with that [company] commercial and that [company] commercial where they're all being a bit hypocritical. Yes, we want to do something with AI, but we're keeping it a bit at arm's length.
 
-Well you know, for people I think it doesn't matter in the slightest. And that it's AI — as long as it does what it needs to do and as long as you don't lie about it. I mean if you just say yes, this was made with AI. Yes, so what? You know. Look and that also has everything to do with it if you, uh, are going to commit fraud or do wrong things. Yes, that is of course a very different thing. And if you do that with AI, you're deceiving people. But I don't think that AI — you know, what are we thinking now? That we in, in the Hollywood world haven't already been fooled for years with all the James Bonds who were ultimately flying around in strange spaces everywhere.
+Well you know, for people I think it doesn't matter in the slightest. And that it's AI — as long as it does what it needs to do and as long as you don't lie about it. I mean if you just say yes, this was made with AI. Yes, so what? You know. Look and that also has everything to do with it if you, uh, are going to commit fraud or do wrong things. Yes, that is of course a very different thing. And if you do that with AI, you're deceiving people. But I don't think that AI — you know, what are we thinking now? That we in the Hollywood world haven't already been fooled for years with all the James Bonds who were ultimately flying around in strange spaces everywhere.
 
 Well, they really weren't in a space suit somewhere, uh, behind the moon.
 
@@ -320,7 +320,7 @@ And, um, and on top of that I especially want to say — what I said: everything
 but now make it very small. Just start with one element. So take your search engine marketing, go through all your web pages and just have all those web pages completely re-benchmarked and optimized based on data sources you can connect. But that too is just one task. And I can imagine, yes, a marketer has a hundred tasks. No problem, but just tick off: where does it have the most impact? What do I want to achieve? If I can't handle my workload, I can go from one campaign to a hundred campaigns. Well, you can do that, but then you need to start thinking about how you're going to peel that all the way back.
 
 > *[Me]*
-> *Yes. Yes, I find it quite interesting — you talk about below the ceiling. Uh, that sounds to me almost like it's immediately a technical side. But when I hear your examples, I actually think: that is, that is really the content side of marketing*
+> *Yes. Yes, I find it quite interesting — you talk about below the ceiling. Uh, that sounds to me almost like it's immediately a technical side. But when I hear your examples, I actually think: that is really the content side of marketing*
 
 > *[Me]*
 > *that then, uh.*
@@ -338,10 +338,10 @@ So look and it is, it's mainly a combination I think between now still actually 
 > *Yes. Hey, and I'm also keeping an eye on the time. We have five more minutes before you, uh, need to take your son.*
 
 [Them]
-Yes, we, we can still go a bit longer, we can always talk again, if you say, uh.
+Yes, we can still go a bit longer, we can always talk again, if you say, uh.
 
 > *[Me]*
-> *Yes, no, I am especially very curious now about everything you've told me. You, you hinted very briefly that marketers really do need to build up skillsets to specifically do this. What do you notice are the biggest unlocks in that?*
+> *Yes, no, I am especially very curious now about everything you've told me. You hinted very briefly that marketers really do need to build up skillsets to specifically do this. What do you notice are the biggest unlocks in that?*
 
 [Them]
 The biggest unlocks?
@@ -362,11 +362,11 @@ Right, and then it's also simply — you just need to have knowledge of GDPR.
 
 Because otherwise you'll just, uh, yes, go and take information and leave it somewhere with someone else. So it's a very important skill to properly understand what you do with your data and what you use your data for and which data you also need. Because sometimes you can also say: yes, I'll just throw everything in. Yes, that's also not going to work, right. It remains a system and ultimately your system has a maximum limitation of memory and computing power. Yes, so you can't completely stuff such a system either. And if you still wanted to, you'd be hitting your tokens very hard. So then it becomes a very expensive exercise anyway. Well, that's, uh, that's the second.
 
-So that really is — everything revolves around yes, knowing what happens to your data, knowing which data you use and what you can do with it. Well, then it's offering that data — so creating the context. So what is the information you're going to provide to such an AI? And if you have a, a tool like Gamma for example in which you can build, uh, PowerPoint presentations or so, I'll mention something specific — yes, then such a tool has already received a lot of constraints, so it's already very, right, framed. And it has also already learned a lot from presentations. So it has actually seen even more cat and dog photos than, uh, than ChatGPT, let's put it that way, to know what a cat and a dog is.
+So that really is — everything revolves around yes, knowing what happens to your data, knowing which data you use and what you can do with it. Well, then it's offering that data — so creating the context. So what is the information you're going to provide to such an AI? And if you have a tool like Gamma for example in which you can build, uh, PowerPoint presentations or so, I'll mention something specific — yes, then such a tool has already received a lot of constraints, so it's already very, right, framed. And it has also already learned a lot from presentations. So it has actually seen even more cat and dog photos than, uh, than ChatGPT, let's put it that way, to know what a cat and a dog is.
 
-And it can also go on to precisely describe the breed or how old that cat is. Well, that's all data, but ultimately the context — that is you, you need to provide that. Because that system I already mentioned at the beginning — yes, it's sitting somewhere on a server in Palo Alto or hopefully maybe somewhere in Europe, um, but it ultimately needs clarity of: hey, who are you? What do you want? Why do you want that? How should I ultimately do it? Uh, can you help me to ultimately find that path? Because ultimately, that is of course also encapsulated data that sits in those training models. But okay, ultimately you need to fill that context.
+And it can also go on to precisely describe the breed or how old that cat is. Well, that's all data, but ultimately the context — that is you need to provide that. Because that system I already mentioned at the beginning — yes, it's sitting somewhere on a server in Palo Alto or hopefully maybe somewhere in Europe, um, but it ultimately needs clarity of: hey, who are you? What do you want? Why do you want that? How should I ultimately do it? Uh, can you help me to ultimately find that path? Because ultimately, that is of course also encapsulated data that sits in those training models. But okay, ultimately you need to fill that context.
 
-And the better you fill that context, the better you're ultimately able to get the best result out of it. Well, then you get results back, then you're going to iterate. So there's, uh, right, the steering, uh, asking new questions, uh, and ultimately, uh, just like you as a researcher are ultimately doing. Deeper into it, less deep into it to then do things, do things.
+And the better you fill that context, the better you're ultimately able to get the best result out of it. Well, then you get results back, then you're going to iterate. So there's, uh, right, the steering, uh, asking new questions, uh, and ultimately, uh, just like you as a researcher are ultimately doing. Deeper into it, less deep into it to then do things.
 
 > *[Me]*
 > *Hold on a moment.*
@@ -378,7 +378,7 @@ Um, then. What did you say?
 > *It's time. Where are —*
 
 [Them]
-No, I was, I, I was getting a call.
+No, I was getting a call.
 
 > *[Me]*
 > *Oh, okay.*
@@ -388,7 +388,7 @@ Uh, and the last one is, uh, I think especially a very important one. And, uh, r
 
 Well, those are I think the essentials, and which tool you then go and use for it — yes, that depends purely on what such a tool specializes in. But a lot of things, also within marketing, you can already do with one tool. And the less you pin yourself to one tool,
 
-uh, for the long term at least, uh, the better you keep it for yourself to also ultimately be future-proof. Because these developments are going so fast, they really go in a, in a hockey stick. Um, yes, ultimately, right — what was spectacular all at once within Gemini tomorrow is, uh, taken over all at once by Claude the day after, and the week after that we're, uh, two steps further with ChatGPT. So I, I mean, you know, it goes so incredibly fast. Um, but these are thus a bit of the skills that a marketer also needs. Actually every employee.
+uh, for the long term at least, uh, the better you keep it for yourself to also ultimately be future-proof. Because these developments are going so fast, they really go in a hockey stick. Um, yes, ultimately, right — what was spectacular all at once within Gemini tomorrow is, uh, taken over all at once by Claude the day after, and the week after that we're, uh, two steps further with ChatGPT. So I mean, you know, it goes so incredibly fast. Um, but these are thus a bit of the skills that a marketer also needs. Actually every employee.
 
 Yes, you get a Swiss army knife at your disposal with 100,000 more functionalities than you could ever have conceived on your own knife. Only, yes, you know, do go to work smartly with, uh, the right tool, uh, and build it up step by step.
 
@@ -408,21 +408,21 @@ So if you now say: I still have a whole laundry list of questions, well then, uh
 > *Um, so I would say: go enjoy your time with the kids. Uh, I'll go here, I have here anyway — everything that I myself have said and have had to send out broadly, that's sometimes also nice, I really do get something from this. And, uh, then I hope to see you on the 2nd of July.*
 
 [Them]
-Yes, that would be nice. That would be nice. Great. Well yes, so and, uh, don't hesitate, right hey, if there, if there's a specific question or something and you say: hey, I, uh, I still want to explore something further. Um, look, and marketing is of course gigantically broad,
+Yes, that would be nice. That would be nice. Great. Well yes, so and, uh, don't hesitate, right hey, if there's a specific question or something and you say: hey, I, uh, I still want to explore something further. Um, look, and marketing is of course gigantically broad,
 
-uh, but, uh, I, I, yes, I think that, uh, all marketers simply need to be concerned.
+uh, but, uh, I, yes, I think that, uh, all marketers simply need to be concerned.
 
 > *[Me]*
-> *I, uh, I think a lot is going to change and the moment you don't move along, yes, then, then you're simply no longer interesting going forward.*
+> *I, uh, I think a lot is going to change and the moment you don't move along, yes, then you're simply no longer interesting going forward.*
 
 [Them]
 No.
 
 > *[Me]*
-> *That goes for the marketer. But yes, I, I lead a team of data specialists in marketing. Yes, I also 100% believe that data science and data engineering will also not be relevant going forward if you don't have AI clearly in your mix. Yes, if you're a plumber, then it might still take some time and then suddenly it changes from zero to a hundred the moment plumber robots exist. But yes, everything that's in between and sits behind a computer, that's going step by step in the coming time. You just need to move with it. Yes, that's just it.*
+> *That goes for the marketer. But yes, I lead a team of data specialists in marketing. Yes, I also 100% believe that data science and data engineering will also not be relevant going forward if you don't have AI clearly in your mix. Yes, if you're a plumber, then it might still take some time and then suddenly it changes from zero to a hundred the moment plumber robots exist. But yes, everything that's in between and sits behind a computer, that's going step by step in the coming time. You just need to move with it. Yes, that's just it.*
 
 [Them]
-Exactly, that is, that is it. Yes, you have of course that well-known saying from McKinsey, right, so — AI won't replace you, but someone who works with AI will replace you.
+Exactly, that is it. Yes, you have of course that well-known saying from McKinsey, right, so — AI won't replace you, but someone who works with AI will replace you.
 
 > *[Me]*
 > *Yes, I find the most fun people those who just indeed keep reinventing themselves and, uh, I've always found that admirable. That's also why I once chose the software path.*
@@ -437,10 +437,10 @@ Yes.
 > *there are software people who build AI in the first place, but s-, also in any case software people who already,*
 
 > *[Me]*
-> *every five years you're just working in a completely different way. That just comes with the territory. That also makes it fun and I hope the rest of the world will also experience how fun it is when every so often you can just actually throw everything, everything out the window and get to rethink how you can work.*
+> *every five years you're just working in a completely different way. That just comes with the territory. That also makes it fun and I hope the rest of the world will also experience how fun it is when every so often you can just actually throw everything out the window and get to rethink how you can work.*
 
 [Them]
-Well look, uh, what, what is most important — I'll close with two things, but one thing is that, uh, what we must not forget here is that, uh, the fourth industrial revolution does not replace strength, but brains. Right, uh, that is actually the biggest threat in the evolutionary theory of mankind. Because ultimately we as humans have always been, uh, better than any other animal or being on earth because of our brains. Uh, and now we have a computer that does it better than we do. So that is already a very large, uh, threat component.
+Well look, uh, what is most important — I'll close with two things, but one thing is that, uh, what we must not forget here is that, uh, the fourth industrial revolution does not replace strength, but brains. Right, uh, that is actually the biggest threat in the evolutionary theory of mankind. Because ultimately we as humans have always been, uh, better than any other animal or being on earth because of our brains. Uh, and now we have a computer that does it better than we do. So that is already a very large, uh, threat component.
 
 Yes, and the second is I think, uh, what you also already say, right, but, uh, AI is not only going to change the way we work today, but it also ensures that indeed precisely when you start working with AI, it will also determine whether you are or aren't the winner in this race and, uh, or at least come out best, so, uh, and that is just the transition that those marketers need to go through. Yes, and I do notice that many CMOs and companies are really very afraid of, uh, deploying it, because they of course have a sort of exaggerated need for perfection.
 

@@ -25,7 +25,7 @@ We also have a flavor designed by AI that is actually on the market, and it's re
 [Them]
 Dutch Summer. The question started because I used to do this with three people and now with one other friend. That's a very beta-ish experiment, and then taste becomes a strange topic in itself. I'd had this idea for a long time: what does autumn taste like, or what does Maastricht taste like, or whatever you can come up with. And that usually went nowhere.
 
-Then I had a conversation with, I don't even remember, some precursor of Perplexity, over two years ago. I said: okay, I want to make a distiller's recipe for a gin that tastes like Dutch summer. Then it starts unpacking: what is gin, what is a distiller, what is a distiller's recipe, how does distillation work, what are flavors, what is the Netherlands, what is summer? And very quickly you get into very substantive, almost chemical discussion about which flavors survive distillation, which is quite a violent process. Eventually it produced a recipe that actually made sense—all in one afternoon. I found that fascinating. So yes, that lab is really fun.
+Then I had a conversation with, I don't even remember, some precursor of Perplexity, over two years ago. I said: okay, I want to make a distiller's recipe for a gin that tastes like Dutch summer. Then it starts unpacking: what is gin, what is a distiller's recipe, how does distillation work, what are flavors, what is the Netherlands, what is summer? And very quickly you get into very substantive, almost chemical discussion about which flavors survive distillation, which is quite a violent process. Eventually it produced a recipe that actually made sense—all in one afternoon. I found that fascinating. So yes, that lab is really fun.
 
 > *[Me]*
 > *Yes, and also looking ahead: normally I'm used to just nodding along and chatting, but my thesis supervisor says I can't do that. So every now and then I'll look strict because I have to.*
@@ -57,7 +57,7 @@ Right, so as I just touched on briefly with tasks, roles, and departments: AI ha
 > *And maybe one step before that: you say you see many workflows where AI is involved. What kinds of things do you see?*
 
 [Them]
-I see process steps inside workflows. If work is a stack of workflows, then most processes can be split into six or eight steps, and in some of those steps AI is used. Example: I'm in a meeting, I record it, it gets annotated, I get a to-do list. Then I still either execute that list myself or distribute it myself. Or for one client, the social media manager decides on Monday what to do and lets AI write captions, while the rest remains manual. So it's very pragmatic—maybe opportunistic is a better word. And I see very few places where marketing is treated as a set of processes. If you don't make that shift, everything keeps seeming difficult.
+I see process steps inside workflows. If work is a stack of workflows, then most processes can be split into six or eight steps, and in some of those steps AI is used. Example: I'm in a meeting, I record it gets annotated, I get a to-do list. Then I still either execute that list myself or distribute it myself. Or for one client, the social media manager decides on Monday what to do and lets AI write captions, while the rest remains manual. So it's very pragmatic—maybe opportunistic is a better word. And I see very few places where marketing is treated as a set of processes. If you don't make that shift, everything keeps seeming difficult.
 
 > *[Me]*
 > *And is that different in your own experimentation garden, so to speak?*

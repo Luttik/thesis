@@ -136,7 +136,7 @@ for our members. And in the chatbot, we've defined a lot of conversations where 
 because it's cheaper. 
 
 [Them]
-And if you don't have to use the agent, it's going to be cheaper. But there's a lot of instances where we feel like the real personal approach should really be tackled. So there we use then agentic AI. So for example, that is when you're wanting to change your membership. So when there's also commercial value against it, so for example, if you want to upgrade your membership, obviously there's value in it, so then we also think it's worth investing a bit more. It's like the investment is minimal compared to... But, yeah. But if you're moving houses, that's just pre-scripted. Because then it's literally like, "What is your new address?" Da, da, da, and we will put it in the system and that's it. But if there's really something where we can add value in a conversation, then we use agentic 
+And if you don't have to use the agent, it's going to be cheaper. But there's a lot of instances where we feel like the real personal approach should really be tackled. So there we use then agentic AI. So for example, that is when you're wanting to change your membership. So when there's also commercial value against it, so for example, if you want to upgrade your membership, obviously there's value in it, so then we also think it's worth investing a bit more. It's like the investment is minimal compared to... But, yeah. But if you're moving houses, that's just pre-scripted. Because then it's literally like, "What is your new address?" Da, and we will put it in the system and that's it. But if there's really something where we can add value in a conversation, then we use agentic 
 
 [Them]
 conversations. So that's the instance where we use it a lot. 
@@ -289,7 +289,7 @@ For example, I have a photo here. You will see it. It's like... It's like the re
 Yeah. So in service, there's more. So, for example, if you cancel, 
 
 [Them]
-there's this whole flow that starts based on- why you wanted to cancel. So you're going to... But it's all a bit flow-based. So- 
+there's this whole flow that starts based on why you wanted to cancel. So you're going to... But it's all a bit flow-based. So- 
 
 > *[Me]*
 > *So is there AI or more specifically agentic AI in the flow, or is it like you have a process which sets-*
@@ -439,7 +439,7 @@ Oh, this is exactly where we are.
 > *That's very flex and convoluted as a process.*
 
 [Them]
-And then also too expensive because we're using everything at once, and then what is- So this is exactly the conversation that we're in now, and then we also have Agentforce, of course, from Salesforce, and that is where we built all the CRM tools on. 
+And then also too expensive because we're using everything at once, and then what is So this is exactly the conversation that we're in now, and then we also have Agentforce, of course, from Salesforce, and that is where we built all the CRM tools on. 
 
 [Them]
 But that's also like you pay for the enterprise. So we now have several systems, which I'm 100% sure is not optimal. However, I also believe that the value is really in using it [chuckles] everywhere. And then let's see where we go. Let's see where... And there will be a winner eventually, and there will be consolidation, and there will be. But at this moment, also, to be honest, the business case is so easy to make that I'm happy to spend a bit more everywhere 
@@ -472,7 +472,7 @@ Yeah, I would say 10X. Let's say 10X. Because it's not two and it's also not 200
 > *Clear. Yeah, that sounds super fun, and cool that you're essentially still saying like, "Let's just do everything at the same time and see where the ship lands."*
 
 [Them]
-Yeah, but IT- ... is in a different. So this is, I totally agree, but our IT director, which I also totally understand, we all have different roles, but he's really trying to push back, and push back, and push back, and make us use less systems, because he's seeing the clutter everywhere, and everyone wants their little tool for this, little tool for that, little tool for that, and then we get this "wildgroei"- ... which I also completely understand. But I'm a firm believer of just do everything at this moment, because as long as we learn and we get better, and as long as there's a business case behind every case, it's worth it. 
+Yeah, but IT- ... is in a different. So this is, I totally agree, but our IT director, which I also totally understand, we all have different roles, but he's really trying to push back, and push back, and make us use less systems, because he's seeing the clutter everywhere, and everyone wants their little tool for this, little tool for that, and then we get this "wildgroei"- ... which I also completely understand. But I'm a firm believer of just do everything at this moment, because as long as we learn and we get better, and as long as there's a business case behind every case, it's worth it. 
 
 > *[Me]*
 > *So that was only one of the examples that you gave.*
@@ -628,7 +628,7 @@ relevant points.
 > *And you talked about that a human still checks every email that goes out, so*
 
 > *[Me]*
-> *I infer from that that the AI essentially builds the dynamic blocks and then content is personalized based on fields that are already-*
+> *I infer from that the AI essentially builds the dynamic blocks and then content is personalized based on fields that are already-*
 
 [Them]
 Exactly 
@@ -667,7 +667,7 @@ Yeah.
 > *So you already talked about*
 
 > *[Me]*
-> *building cancellation flows with AI, AI in the flow maybe.*
+> *building cancellation flows with AI in the flow maybe.*
 
 > *[Me]*
 > *What do you see there in terms of value?*
@@ -742,7 +742,7 @@ And
 I'm thinking if I have a photo of them somewhere, but I don't. 
 
 [Them]
-But anyway, and those five are all fully agentic, so they communicate with you, and they can even remind you next week if you scheduled your visit for the club, and yeah. And they have access to all of our content database, so you can really ask a training schedule based on- everything that is in our content database, and it will help you find the right content. It will help you play the right content, and it's all very motivational and depending on which one you chose. So we have Power, and Power is like a hardcore, diehard power guy. But we also have Vibe, and Vibe is way more on the flow and making you feel relaxed and all of that. So anyway, 
+But anyway, and those five are all fully agentic, so they communicate with you, and they can even remind you next week if you scheduled your visit for the club, and yeah. And they have access to all of our content database, so you can really ask a training schedule based on everything that is in our content database, and it will help you find the right content. It will help you play the right content, and it's all very motivational and depending on which one you chose. So we have Power, and Power is like a hardcore, diehard power guy. But we also have Vibe, and Vibe is way more on the flow and making you feel relaxed and all of that. So anyway, 
 
 [Them]
 that is also one that we launched, 
@@ -817,7 +817,7 @@ So drawbacks, I think,
 are 
 
 [Them]
-afraid of making mistakes, brand control. So it's mainly brand control, I would say. It's also going to say some stupid stuff, and that is a very important- ... one. A drawback might also be from a company perspective, right? That's what you're- Yeah. A drawback might also be- 
+afraid of making mistakes, brand control. So it's mainly brand control, I would say. It's also going to say some stupid stuff, and that is a very important- ... one. A drawback might also be from a company perspective, right? That's what you're Yeah. A drawback might also be- 
 
 > *[Me]*
 > *Yeah, or for the user, right? Because if the user has a bad experience-*
@@ -1075,7 +1075,7 @@ Yeah. Oh, funny
 Yeah, that's funny. But I was at a CMO event last Friday. And there they said, the CMO of the future, I'm just going to say, the new CEO is orchestrator of AI because actually, the commercial value needs to be in there- ... to actually make it go faster. 
 
 [Them]
-And the next CMO needs to be CTO's best friend. And then I'm always like, "Yes, I am," because it's actually like, without the technology, I wouldn't be able to. And I also don't understand anything of that complexity, which is helpful for me because if I would understand it, it would hold me back a lot as well. But now I'm just like, "No, this is the vision. This is where we're going. Help me get there." Right? So it's good. 
+And the next CMO needs to be CTO's best friend. And then I'm always like, "Yes, I am," because it's actually like, without the technology, I wouldn't be able to. And I also don't understand anything of that complexity, which is helpful for me because if I would understand it would hold me back a lot as well. But now I'm just like, "No, this is the vision. This is where we're going. Help me get there." Right? So it's good. 
 
 > *[Me]*
 > *Yeah, for sure.*

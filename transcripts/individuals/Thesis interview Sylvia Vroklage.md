@@ -19,7 +19,7 @@ Yes.
 > *Could you kick things off by telling me something about your role and what you do. *
 
 [Them]
-Yes. Yes, certainly. Well, [redacted]. I'm CMO at [company], almost four years now. Actually, my entire background is marketing and marketing e-commerce. Well, that's what my career revolves around. And particularly where commerce, data, and tech come together. I find that a great, great playing field. At the moment at [company], so we're an international company, now with multiple labels on the market, and we sell purely via e-commerce, well, all sorts of different personalized printed products. And there, my role is on the one hand telling our brand story in the different markets. Go to markets, launching new regions, and then it's about generating traffic. We have a clos-, or at least mostly, because we have a closed portal, so we generate leads.
+Yes. Yes, certainly. Well, [redacted]. I'm CMO at [company], almost four years now. Actually, my entire background is marketing and marketing e-commerce. Well, that's what my career revolves around. And particularly where commerce, data, and tech come together. I find that a great playing field. At the moment at [company], so we're an international company, now with multiple labels on the market, and we sell purely via e-commerce, well, all sorts of different personalized printed products. And there, my role is on the one hand telling our brand story in the different markets. Go to markets, launching new regions, and then it's about generating traffic. We have a clos-, or at least mostly, because we have a closed portal, so we generate leads.
 
 Either through traffic and customers or leads. Well, those need to become users, those need to become customers. So it's acquisition and making sure, with all the marketing tools that exist and are relevant to us, that our existing customers stay with us. And ideally that the share of wallet of those customers grows. So in a nutshell, that's my scope and responsibility.
 
@@ -57,7 +57,7 @@ And if a person tells an LLM in their project: okay, it needs to be a trustworth
 > *Yes, yes. And do you see that you measure that, I think. Do you see in your traffic that you're now finding more or less traction after the whole AI boom, and that people are searching less with Google and more with AI? *
 
 [Them]
-Well, that, and that's been going on for a while, right. But that's actually of course the no-click search, or the search queries where Google is already more and more directly answering in its own environment. So there you already saw a shift emerging. You just see that yes, people are searching differently, answers are being found differently. So the click-through, yes, the click-through has just decreased. People find their answer more quickly, earlier. Um, if I look at, so that does something to your organic traffic. Then indeed we also measure LLM traffic. Well, that exists. That also converts already. Um, yes, and now, look, there are tools to see: hey, how visible are you in the LLMs. But that also still has its limitations, so. So we're still fully engaged in getting good insight on that. How does that work then? Um, yes, we have, it seems [company] has a decent positioning. I also hear back from people: okay, hey, I was searching in ChatGPT, Claude, whatever. Hey, you guys come up nicely. Well, okay, those are good signs. Um, and then we need to see that that's going to generate even more traffic and even more business.
+Well, that, and that's been going on for a while, right. But that's actually of course the no-click search, or the search queries where Google is already more and more directly answering in its own environment. So there you already saw a shift emerging. You just see that yes, people are searching differently, answers are being found differently. So the click-through, yes, the click-through has just decreased. People find their answer more quickly, earlier. Um, if I look at, so that does something to your organic traffic. Then indeed we also measure LLM traffic. Well, that exists. That also converts already. Um, yes, and now, look, there are tools to see: hey, how visible are you in the LLMs. But that also still has its limitations, so. So we're still fully engaged in getting good insight on that. How does that work then? Um, yes, we have, it seems [company] has a decent positioning. I also hear back from people: okay, hey, I was searching in ChatGPT, Claude, whatever. Hey, you guys come up nicely. Well, okay, those are good signs. Um, and then we need to see that's going to generate even more traffic and even more business.
 
 > *[Me]*
 > *Yes. Yes, yes, nice! I've highlighted that for now, because maybe I want to come back to this later. Um, but briefly about the structure. Um, Agentic AI, Gen AI. I asked about Gen AI I think. We went straight into Agentic AI. That's completely fine. But just to give the scope for my research. Um, we naturally see Generative AI as everything that has to do with LLMs, whether or not you talk with agents, but where you can ask questions and get an answer back. Within that you have the category Agentic AI and we've actually dived into that fairly quickly. Um, which hasn't been very well defined in the literature yet. But I. Oh, am I gone? *
@@ -69,7 +69,7 @@ Just a moment. Yes, you're back.
 > *Great. Um, what I was saying. *
 
 [Them]
-You said within, within the.
+You said within the.
 
 > *[Me]*
 > *Within Generative AI you have Agentic AI and that's essentially Generative AI with a number of extra competencies. Um, and because it hasn't been very clearly scoped in the literature yet, I've just pinned something down for that. And that is on the one hand the ability to plan. So you can give it a certain goal and it figures out itself what steps it needs to get there. And on the other hand the ability to actually execute things. Where at the beginning that AI was really a question and answer machine, it's increasingly also able to think: hey, I need data there and I want to pull that in. Or I, yes, all kinds of other competencies. I want to execute something here in this system. Um, and because it's of course super new and a lot of people are figuring out: hey, what should we even do with this in our day-to-day work? Um, I find it very interesting to focus on that. So I really focus on that second piece. On Agentic AI. Um, and particularly what can you as a marketing organization do to apply that and create value? So that's what I want to discuss with you today. *
@@ -199,7 +199,7 @@ And if we don't manage that, then we've at least increased efficiency.
 > *Hey, and if we take one step back, right, because we've been talking about, you're working on the process from insights to automation. And how can you better align those with each other? Um, what is your vision on this? In which parts of the process do you want to apply ethical AI? Do you have certain parts where you say: this must remain a human in the loop element? Um, how do you look at that as an organization? *
 
 [Them]
-Yes, um. The, the human can the, um, look, you do have some market knowledge, domain knowledge, and with that you can, I think you can give the right assignments and instructions to the LLM. So that helps to get better quality out of it. And ultimately you must, as human in the loop, just keep watching. What does it give back? What does it say here? Is this correct? Um, well yes, there are definitely moments when I look at it too. That I think: well, that is quite remarkable.
+Yes, um. The human can the, um, look, you do have some market knowledge, domain knowledge, and with that you can, I think you can give the right assignments and instructions to the LLM. So that helps to get better quality out of it. And ultimately you must, as human in the loop, just keep watching. What does it give back? What does it say here? Is this correct? Um, well yes, there are definitely moments when I look at it too. That I think: well, that is quite remarkable.
 
 Yes, and then you dig into that a bit, and then indeed, it just took a wrong turn. So until now the question is whether it will keep getting better and better. But yes, I absolutely still see that need. So one: it's super important to have knowledge, domain knowledge, expertise to do the right thing with the LLM models. And ultimately you also need that to keep checking: is it doing the right thing, and is it taking the right things into account, et cetera.
 
@@ -209,7 +209,7 @@ Um, yes, so I do see that. So, yes, it remains a collaboration. I believe it rem
 > *Yes. Yes. And has that already happened at your organization? Or is that still in its infancy? Or is it too far from your responsibility at [company]? *
 
 [Them]
-I do think it's going very fast, and really in some areas. Because when I look at that data engineer and think: well, and that's what they say, they say it to me too. One said it to me just last week. Yes, the role so to speak. And how I help people and how I facilitate now in the organization is fundamentally different from what it was half a year ago.
+I do think it's going very fast, and really in some areas. Because when I look at that data engineer and think: well, and that's what they say it to me too. One said it to me just last week. Yes, the role so to speak. And how I help people and how I facilitate now in the organization is fundamentally different from what it was half a year ago.
 
 And then we're still far from done. We're really still making steps, but also on the CRM side, I see and hear the same thing.
 
@@ -225,7 +225,7 @@ Yes.
 > *Um, and something I also want to double-click on. Because you mentioned we're now reviewing our entire data infrastructure. It sounded quite as if that for you is connected to the agentic AI question. To the level that you say: yes, because we're now using AI, we're actually more flexible in the tools we select and can also switch them more easily. Um, maybe just before we dive into that, one small step back. How do you view your data infrastructure, as an enabler? Or perhaps even a bottleneck for your agentic AI initiatives? *
 
 [Them]
-Um, well now it's, now it's really becoming an enabler. Partly, yes, now it's really becoming an enabler. Because we're making that switch quite quickly now. We're enormously experimenting with okay, how can we feed AI with the data?
+Um, well now it's really becoming an enabler. Partly, yes, now it's really becoming an enabler. Because we're making that switch quite quickly now. We're enormously experimenting with okay, how can we feed AI with the data?
 
 And with that we can automate many things. But it's also subsequently an enabler to use it again, toward a [company], toward other tools. So it's really on the verge of becoming more and more an enabler. Um, it also helps me to resolve the bottleneck on the other side (a data bottleneck) because we did an acquisition last year. And there, yes, that entire data landscape is just much less structured and well set up. I kept running into it every time. And now, no, okay, I'm just going to connect it myself to Claude, so I no longer need many people and things. So it actually removes the entire bottleneck. And then subsequently it becomes an enabler to do better business.
 
@@ -255,7 +255,7 @@ Yes, you said: is it in the middle or is it,
 > *More stuck onto the side. *
 
 [Them]
-Adjacent. Yes, on, on the other side, so to speak, with other labels I'm now more sticking it adjacent because I'm actually using it to get things together that I couldn't get together before because I needed help from others for that. And now I don't anymore, because the LLM helps me with that.
+Adjacent. Yes, on the other side, so to speak, with other labels I'm now more sticking it adjacent because I'm actually using it to get things together that I couldn't get together before because I needed help from others for that. And now I don't anymore, because the LLM helps me with that.
 
 > *[Me]*
 > *Nice! Hey, and just out of pure personal interest. Are you now so to speak working on a growth strategy where you say: hey, we just buy multiple parties and we now have a good platform in place. We plug them in, they run better, and it's value enhancing for everyone. *
@@ -369,7 +369,7 @@ Yes, we are of course an e-commerce organization, so therefore from the outset I
 
 So we also have more creatives and those are real creatives.
 
-But yes, performance marketing, marketing automation, those are data driven, techy marketing people already. I myself am indeed also data driven, so that helps. But yes, that must, yes. I also don't see how that wouldn't come together. But at our place that just sits closely together too.
+But yes, performance marketing automation, those are data driven, techy marketing people already. I myself am indeed also data driven, so that helps. But yes, that must, yes. I also don't see how that wouldn't come together. But at our place that just sits closely together too.
 
 And you do need that indeed, otherwise it doesn't fly. I also think, yes, I think nobody can avoid it. You can't do nothing with it. I do find it a bit, you can't say: oh all this is happening and I'm a manager or whatever. Whatever role you have, yes, somewhere in the process it will happen. But I myself am not involved with my own hands. I don't do that myself. Yes, I don't think that's possible. Then you're going to miss the boat.
 
