@@ -18,7 +18,7 @@ from pathlib import Path
 from openpyxl import load_workbook
 
 ROOT = Path(__file__).resolve().parent.parent
-TRANSCRIPTS_DIR = ROOT / "transcripts"
+TRANSCRIPTS_DIR = ROOT / "transcripts" / "individuals"
 OUTPUT_DIR = ROOT / "output"
 INTERVIEWEES_XLSX = ROOT / "interviewees.xlsx"
 COMBINED_MD = OUTPUT_DIR / "All Transcripts - Daan Luttik - MBA.md"

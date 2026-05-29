@@ -274,7 +274,7 @@ it's very slow, and it's very slow at most companies. And this is also why this 
 Yeah, yeah, yeah. 
 
 [Them]
-Like, like knowledge bases. Like, uh, you have a chatbot now that, uh, tells you everything about the knowledge of the company, which is great. Uh, you could have done this with an, uh, OpenAI implementation, calling OpenAI in like, I think one tenth of the time, and they still do this, right? But it's like, it's always lagging at least one or two years behind. I went to a conference a few, [laughs] a few weeks ago and met someone from, uh, one of the big four, uh, consulting agencies, and they were like, "Yeah, we now have this big, awesome case with this company. We've been on this side for like two or three years, and we will finally release something in twenty twenty-seven ChatGPT 3.0 like, and I was like, "Great, that means in 2027 they have, uh, technology that's then five years old and has been like... I mean, what is it? Hobbs Law, Hooke's Law, whatever, this law that everything doubles every two years in, uh, IT, and I mean, you already see what you get there is at least a factor of ten worse than what is out there at the moment. And, yeah, so. 
+Like, like knowledge bases. Like, uh, you have a chatbot now that, uh, tells you everything about the knowledge of the company, which is great. Uh, you could have done this with an, uh, OpenAI implementation, calling OpenAI in like, I think one tenth of the time, and they still do this, right? But it's like, it's always lagging at least one or two years behind. I went to a conference a few, [laughs] a few weeks ago and met someone from, uh, one of the big four, uh, consulting agencies, and they were like, "Yeah, we now have this big, awesome case with this company. We've been on this side for like two or three years, and we will finally release something in twenty-seven ChatGPT 3.0 like, and I was like, "Great, that means in 2027 they have, uh, technology that's then five years old and has been like... I mean, what is it? Hobbs Law, Hooke's Law, whatever, this law that everything doubles every two years in, uh, IT, and I mean, you already see what you get there is at least a factor of ten worse than what is out there at the moment. And, yeah, so. 
 
 > *[Me]*
 > *Yeah. Yeah, and I understand. So may-maybe to close this thought, do you also see in Germany especially that companies have some capability to overcome this? Are there enablers that you see in an organization where-*
@@ -547,7 +547,7 @@ Uh, well, what it means, I mean, uh, it's not Germans are afraid to do something
 They pretty much are in the state, this is how we do it, this is how it continues, and this is how I now know my job goals for the next 20 years. 
 
 [Them]
-But to be honest, this I know how my job is going for the next 20 years is completely illogical nowadays, and has been for the last 10 years, and this is also what... This is, I really, I think, this fear of loss of, uh, importance in the company, loss of, you know, what you do in the next five days, loss of this other wor th- these other projects I work on, is something that is, uh, massively hindering us to, yeah, do the next step. And I mean, that has... It's not just gen AI, right? I mean, if you look at, uh, the advent of everyone needs data teams, that's the same. I'm not sure how many discussions I had with IT departments or tech departments that were like, "Yeah, but we are doing this." And I'm like, "Yeah, but we are doing this better, faster, and more business driven, and you have a backlog that's five years long. Do the other stuff that's also important." I mean, it's like, it's 
+But to be honest, this I know how my job is going for the next 20 years is completely illogical nowadays, and has been for the last 10 years, and this is also what... This is, I really, I think, this fear of loss of, uh, importance in the company, loss of, you know, what you do in the next five days, loss of this other wor these other projects I work on, is something that is, uh, massively hindering us to, yeah, do the next step. And I mean, that has... It's not just gen AI, right? I mean, if you look at, uh, the advent of everyone needs data teams, that's the same. I'm not sure how many discussions I had with IT departments or tech departments that were like, "Yeah, but we are doing this." And I'm like, "Yeah, but we are doing this better, faster, and more business driven, and you have a backlog that's five years long. Do the other stuff that's also important." I mean, it's like, it's 
 
 [Them]
 pe Let's just say Germans are averse to change as well. Uh, I think, uh, there's a lot of change management. A lot of my friends from, uh, from [company] and from [company], who are also now self-employed, a lot of them became change managers because, uh, we were just dumped into this to either eat or die, and everyone who got out of this well can now tell other companies, "Yeah, well, you have to fire 40 people tomorrow. How can you do this?" [laughs] It's, uh... And yeah, yeah, this is really... This is the big thing that [laughs] really stops everyone to become more, yeah, not data driven, AI driven, whatever, forward-thinking. Just put it like this. 
@@ -598,7 +598,7 @@ And I mean to, and I mean, to be honest, uh, I have a PhD as well. That sets you
 Yeah 
 
 > *[Me]*
-> *... often they're like, "Oh yeah, you want to postpone getting your real job, you do a PH P- PhD."*
+> *... often they're like, "Oh yeah, you want to postpone getting your real job, you do a PH PhD."*
 
 [Them]
 No, no, no, to be honest, in job, I'm the same, and I mean, I'm like the, I'm the worst person if someone applies to me, uh, with a PhD. I'm like, "Yeah, do you really know something, like, being in your late 20s? I don't think so."But I mean, for example, if you want to go to the authorities or if you want to hire, get a new flat or get a credit or something like this, it's, uh, makes it a lot easier. 
@@ -865,7 +865,7 @@ Yeah, yeah, yeah
 Yeah 
 
 > *[Me]*
-> *... I would I would just li love to show you some of the things that we-*
+> *... I would just li love to show you some of the things that we-*
 
 [Them]
 Yeah, let's do that. 
@@ -1039,7 +1039,7 @@ Sorry, just had to talk to the mail guy at the door. And I probably have to give
 > *[laughs] Oh, yeah, me too. I just... I don't know if you did any gaming in your years, but I watched the Age of Empires II finals yesterday evening [laughs].*
 
 [Them]
-Ne-ne I ne I never got into that. I played too much World of Warcraft.
+Ne-ne I never got into that. I played too much World of Warcraft.
 
 > *[Me]*
 > *Yeah [laughs]. That's also a good time break.*
@@ -1261,7 +1261,7 @@ Yeah. It is because there's... I mean, the big thing is that there's too many pr
 > *Girl something.*
 
 [Them]
-Yeah. Milk milk girl calculation. It's like you have to think like, "This is what I spend, but this is also what I get back," and maybe they even search each other out a lot better than before. And I mean Yeah. And yeah. I mean, in this case really for... I mean, honestly for me, that was the biggest change I realized starting to use all these tools. Uh, when I was still at [company] three years ago, I was always stressed because when I had to do a presentation, I had to do that at night, or I had to do it in a shitty way. I was never happy with this. And now it's like I can do this all a bit better, which is, uh, nice. Yeah.
+Yeah. Milk girl calculation. It's like you have to think like, "This is what I spend, but this is also what I get back," and maybe they even search each other out a lot better than before. And I mean Yeah. And yeah. I mean, in this case really for... I mean, honestly for me, that was the biggest change I realized starting to use all these tools. Uh, when I was still at [company] three years ago, I was always stressed because when I had to do a presentation, I had to do that at night, or I had to do it in a shitty way. I was never happy with this. And now it's like I can do this all a bit better, which is, uh, nice. Yeah.
 
 > *[Me]*
 > *Yeah. Of course. Yeah. And so what I... I'm also scrolling through our notes from last time while we are talking, and what I think I'm gleaning from this is that it's also really focused on doing the same things slightly more efficiently.*

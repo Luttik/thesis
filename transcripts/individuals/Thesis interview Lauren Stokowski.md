@@ -223,7 +223,7 @@ So that was a big thing. Then it was understanding-
 Oh, go ahead. 
 
 > *[Me]*
-> *s- yeah, just, just jumping in, because you said who owns this capability. Does it mean that you see agentic AI or AI as a whole as one capability, or do you-*
+> *yeah, just, just jumping in, because you said who owns this capability. Does it mean that you see agentic AI or AI as a whole as one capability, or do you-*
 
 [Them]
 No, breaking it down. Breaking it down. So when it comes to... 'Cause there, 'cause AI comes in at almost every step in the process of an end. So when you think of a, think of, like, a campaign launch. So first you have the advertising agency doing the big strategic, um, discovery and definition, the big, uh, creative platform campaign. They have their own AI and tools to enable that process. Then it flows through, like, enablement and activation. Like, cool, now we have this big brand platform idea. So for example, for [company], they're launching a new EV vehicle, well, electric vehicle, um, and they did this big brand campaign that, um, featured Kendrick Lamar, and it was all about, like-Um, you know, you get to this place in your life where you're a leader and you wanna show that you're a leader, and so they did that whole thing. Then we come in, we take that big brand campaign, and then we distill it down to the consumer journey to say, "Okay, now how are people gonna see this?" So we have, within Precision Marketing, we have our own AI tech and tools. So when it comes to like... CGI is just an example. So CGI, meaning in the case of like [company], the-- our production company [audio cuts out] CGI tools to create new 
@@ -442,7 +442,7 @@ When it co If you ask me, business comes down to the people, 'cause the technolo
 ... to offer and build those relationships. 
 
 > *[Me]*
-> *So I'm wondering, and this may may be also a bit of personal interest. Do you guys have a label in the Netherlands? Because I know that [company] is present here with Greenhouse, which they bought-*
+> *So I'm wondering, and this may be also a bit of personal interest. Do you guys have a label in the Netherlands? Because I know that [company] is present here with Greenhouse, which they bought-*
 
 [Them]
 Yeah 
@@ -1507,7 +1507,7 @@ Um, what I am trying to do is connect our [company] and [company] tools in that 
 So it's kind of hard to do that when I don't have full visibility into, like, what ... And, like, and it's not just me. Our global leadership team doesn't have, like, a ton of visibility into, um, like, what's going into [product]+. They haven't been formally briefed yet, so it limits us with what we can do. 
 
 > *[Me]*
-> *Yeah. Okay. So th th- and they are part of the group, but they are, like, really operated as a separate company then?*
+> *Yeah. Okay. So th and they are part of the group, but they are, like, really operated as a separate company then?*
 
 [Them]
 It, uh ... The, so it's like- 
@@ -1780,7 +1780,7 @@ cultural databases, different
 , you know, think about like how, uh, I don't know, web cookies. If I'm targeting you and you're searching for, you know, a specific type of clothing and I'm able to get that into my LLM and use that to inform my data targeting, that's something that a human can never do. So it's data in like the upper [product] process. And then 
 
 [Them]
-when you're manage-- when you're 
+when you're 
 
 [Them]
 defining and enabling campaigns, a human can only think in so many like variations. 
@@ -2332,7 +2332,7 @@ To each other?
 > * Um, so say that again.*
 
 > *[Me]*
-> *So maybe just to clarify the questions a bit, I think at some level I'm searching for what is really the important part here, and, uh, what is what is going to be the differentiator. And sometimes differentiator isn't one thing, it's how things are connected to each other.*
+> *So maybe just to clarify the questions a bit, I think at some level I'm searching for what is really the important part here, and, uh, what is going to be the differentiator. And sometimes differentiator isn't one thing, it's how things are connected to each other.*
 
 [Them]
 The differentiator for what, though? For ... 

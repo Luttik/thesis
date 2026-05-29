@@ -33,16 +33,16 @@ Yep.
 Mhmm.
 
 > *[Me]*
-> *So maybe that's that's a little bit of background. And maybe to kick things off from, the academic part.*
+> *So maybe that's a little bit of background. And maybe to kick things off from, the academic part.*
 
 > *[Me]*
 > *So what does generative AI even mean to you?*
 
 [Them]
-So, I'm not an expert. So, like, at a high level, what I know is, like, you give AI prompts, and then it generates something for you. But Agentic AI is more sophisticated; it has its own brain. You can give it more, like, sophisticated questions, and it's going to, like, break it down to smaller tasks for you. And then and then give you an answer. That's my high-level understanding of it.
+So, I'm not an expert. So, like, at a high level, what I know is, like, you give AI prompts, and then it generates something for you. But Agentic AI is more sophisticated; it has its own brain. You can give it more, like, sophisticated questions, and it's going to, like, break it down to smaller tasks for you. And then give you an answer. That's my high-level understanding of it.
 
 > *[Me]*
-> *Yeah. Yeah. That's exactly what I what I'm looking for.*
+> *Yeah. Yeah. That's exactly what I'm looking for.*
 
 [Them]
 Okay.
@@ -54,7 +54,7 @@ Okay.
 Okay. Yeah.
 
 > *[Me]*
-> *So let let's dive into that a bit bit more. So how are you already using Agentic AI personally, or in your team, if at all?*
+> *So let's dive into that a bit more. So how are you already using Agentic AI personally, or in your team, if at all?*
 
 [Them]
 I think we're using more, like, generative AI.
@@ -109,7 +109,7 @@ Yep.
 > *So that can depend on a bit as well where that those systems land.*
 
 [Them]
-Yeah. Yeah. When you say, like, asking questions, I think, yeah, analytics is the place where we use it the most. We haven't really, like, played with it all that much, but some of the tools that we have, like Tableau, has Einstein I think, where you can, like, ask questions and, like, it gives you more, like, sophisticated answers and analyses and also like, next level to, like, a regular reporting, We've used that And then I've I've played around with another analytics tool, which I can't remember the name of now. I can follow-up later. But, that was, like, pure question based. There was, like, no visualization. You would ask a question, and it would answer with, like, graphs and, like, stuff like that. I don't I can't remember the name of it. But I'll but they we were, like, testing it out. I used that. So I think to answer your question, I personally use a GenTech for, like, analytics purpose like, marketing analytics purposes?
+Yeah. Yeah. When you say, like, asking questions, I think, yeah, analytics is the place where we use it the most. We haven't really, like, played with it all that much, but some of the tools that we have, like Tableau, has Einstein I think, where you can, like, ask questions and, like, it gives you more, like, sophisticated answers and analyses and also like, next level to, like, a regular reporting, We've used that And then I've played around with another analytics tool, which I can't remember the name of now. I can follow-up later. But, that was, like, pure question based. There was, like, no visualization. You would ask a question, and it would answer with, like, graphs and, like, stuff like that. I don't I can't remember the name of it. But I'll but they we were, like, testing it out. I used that. So I think to answer your question, I personally use agentic for, like, analytics purpose like, marketing analytics purposes?
 
 > *[Me]*
 > *Check. And maybe going through the images initiatives that you guys have, what are the re the main benefits that you are drawing from that?*
@@ -118,13 +118,13 @@ Yeah. Yeah. When you say, like, asking questions, I think, yeah, analytics is th
 Agentic or AI in general?
 
 > *[Me]*
-> *Let let's start with agentic.*
+> *Let's start with agentic.*
 
 [Them]
 Agentic I know. Let me think. I think we're kinda, like, behind, I think, like, as a life science company or, like, always catching up. We're mostly using, like, doing things in the generative AI space. For example, we are starting to work with AI generated imagery for our website. AI generated content, So still content isn't, like, somebody will have to like, a human will have to touch an approve it afterwards because if all the regulations and stuff like that. But those are all, like, in the like, generative AI space. I know, like, we also use I didn't personally use, but we tested into dynamic creative optimization. But I'm not sure if that would be agentic.
 
 > *[Me]*
-> *What is what is what is that exactly? Dynamic*
+> *What is that exactly? Dynamic*
 
 [Them]
 That would be more so what it does
@@ -142,7 +142,7 @@ yeah. So yeah. Yeah. It is so imagine a piece of marketing creative. You have yo
 copy. You have your call to action. Your imagery can be like a lifestyle image, meaning, like, a scientist working in a lab, or your image could be just the image of the product. And there's, like, a lot of variations between all of those different dimensions. What dynamic creative optimization does is, like, you put in all those different components and variations and it creates the imager image like, the marketing asset. In a way that's gonna create the most click throughs, for example. It learns along the way, like, tests different combinations and finds the right combination than to say, okay. This is gonna create the best customer engagement I think that might be more like machine learning. Again, I don't know. I think it's agentic. But there might you might wanna look into dynamic creative optimization. I bet people like, this was, like, I know, three, four years ago. I bet people took that to the next level, and now they're doing crazy things like that.
 
 > *[Me]*
-> *What I do now is what we call CRO. Is like website website optimization usually with AB testing and stuff like that. Is it like that, or is it more like it also you give it input and it just defines experiments on its own to test what copy works best. Or do you predefine? Goes in?*
+> *What I do now is what we call CRO. Is like website optimization usually with AB testing and stuff like that. Is it like that, or is it more like it also you give it input and it just defines experiments on its own to test what copy works best. Or do you predefine? Goes in?*
 
 [Them]
 When we tested, we predefined.
@@ -205,7 +205,7 @@ I can't
 > *as I understand it is cloud desktop then, right, with the Sonnet model?*
 
 [Them]
-I'll I'll show you what it looks like. Give me a second.
+I'll show you what it looks like. Give me a second.
 
 > *[Me]*
 > *Okay. Cool. Yeah. Please do.*
@@ -235,7 +235,7 @@ yes. It's a Yes. It says my GPT. It sits in our domain.
 > *has got some of it's built in.*
 
 [Them]
-[company]. It sits in our it said it's an app that was, like, built within the company that has all these, like, different models I can pick from. I can also build my own agent and assistant. Which is what I've been doing. Yeah. And then, like, as you can see, like, I just did some, like, quicks analysis to, like, smaller like, I typically use it, like, some I use it I use AI in general, like I said, more in, like, generative AI capacity. Like, when I wanna, like, write something, like, write an insight I say, like, make this more insightful, more powerful, or whatever. That's me personally when I use it, but agentic side is more on the analytics. Side. But yeah. I use I also built my own assistant, played played around with that. That's really cool. One I don't know if this is this would be generative or agentic, but one assistant, for example, the team the branding team, felt was a trained the assistant on our different on our branding guidelines and different personas. And then now that assistant tells you if this is a pro brand aligned, or, like, tells you, like, this is what you should do to address this type of persona.
+[company]. It sits in our it said it's an app that was, like, built within the company that has all these, like, different models I can pick from. I can also build my own agent and assistant. Which is what I've been doing. Yeah. And then, like, as you can see, like, I just did some, like, quicks analysis to, like, smaller like, I typically use it, like, some I use it I use AI in general, like I said, more in, like, generative AI capacity. Like, when I wanna, like, write something, like, write an insight I say, like, make this more insightful, more powerful, or whatever. That's me personally when I use it, but agentic side is more on the analytics. Side. But yeah. I use I also built my own assistant, played around with that. That's really cool. One I don't know if this is this would be generative or agentic, but one assistant, for example, the team the branding team, felt was a trained the assistant on our different on our branding guidelines and different personas. And then now that assistant tells you if this is a pro brand aligned, or, like, tells you, like, this is what you should do to address this type of persona.
 
 > *[Me]*
 > *Check. So you're essentially either asking questions or sending copy in and seeing what's*
@@ -262,7 +262,7 @@ Yeah. Fortunately unfortunately, I can't share, and I don't
 think you can access it outside of our company.
 
 > *[Me]*
-> *It is it is like a fully internal tool.*
+> *It is like a fully internal tool.*
 
 [Them]
 Fully internal.
@@ -325,7 +325,7 @@ objective about what, like, the data is saying to you. But I'm not sure if that 
 > *Cool. And maybe from the other side, what drawbacks have you been seeing within your organization? When it comes to AIUs?*
 
 [Them]
-Elle dit, Right now, quite frankly, except maybe, like, modifications of some jobs going up. Like, some tactical, more like technical jobs. That don't require a lot of critical thinking about more execution. We have not experienced that. Yet. I think overall, it's making my work better. I don't really see I don't really see, like, drawback. Except, like, I know. I don't know. Sometimes, like, it enables you to misrepresent yourself against, like, you can easily pretend being, like, super smart and all the myth with, like, all the work AI did for you. Which is okay, I guess. That's, like, the age we're living in. Like, that's that also makes you, like, smart. You knew you knew to use that. But there's just, like, one example of Samoan What's that?
+Elle dit, Right now, quite frankly, except maybe, like, modifications of some jobs going up. Like, some tactical, more like technical jobs. That don't require a lot of critical thinking about more execution. We have not experienced that. Yet. I think overall, it's making my work better. I don't really see, like, drawback. Except, like, I know. I don't know. Sometimes, like, it enables you to misrepresent yourself against, like, you can easily pretend being, like, super smart and all the myth with, like, all the work AI did for you. Which is okay, I guess. That's, like, the age we're living in. Like, that's that also makes you, like, smart. You knew to use that. But there's just, like, one example of Samoan What's that?
 
 > *[Me]*
 > *I just love this course. Like, my biggest drawback is of AI is that it*
@@ -361,13 +361,13 @@ Yeah. I don't see any job acts.
 > *Yeah.*
 
 [Them]
-Yeah. One other thing I thought of use use of it was more about, like, communications Like, I would write something, and then I ask it what how does this come across in terms of tone? And then, like, it gives me like, it was it says, like, assertive, but, like, friendly. Or it says it comes across a little too assertive. And then I, like, tone it down or up another notch and use it to get feedback
+Yeah. One other thing I thought of use of it was more about, like, communications Like, I would write something, and then I ask it what how does this come across in terms of tone? And then, like, it gives me like, it was it says, like, assertive, but, like, friendly. Or it says it comes across a little too assertive. And then I, like, tone it down or up another notch and use it to get feedback
 
 > *[Me]*
 > *Hello?*
 
 [Them]
-I guess, for, like, my work. Otherwise, I don't I don't really see, like, any drawbacks
+I guess, for, like, my work. Otherwise, I don't really see, like, any drawbacks
 
 > *[Me]*
 > *Cool.*
@@ -385,10 +385,10 @@ Oh, for us to be, like, internally,
 > *Mhmm.*
 
 [Them]
-there is there there are, like, most teams that are looking into AI. And they build these, like, different tools within the organization, and then evangelize them. They, like, roll them out. For example, I know there are tools in the R and D space, which I'm not, like, super familiar with. But there is some governance. I don't know the details of it. But I am gonna guess it's like, we can only work through company sanctioned AI tools. I don't know. I haven't seen the general IT road map. Or AI.
+there is there are, like, most teams that are looking into AI. And they build these, like, different tools within the organization, and then evangelize them. They, like, roll them out. For example, I know there are tools in the R and D space, which I'm not, like, super familiar with. But there is some governance. I don't know the details of it. But I am gonna guess it's like, we can only work through company sanctioned AI tools. I don't know. I haven't seen the general IT road map. Or AI.
 
 > *[Me]*
-> *Check. So maybe let's see if my supervisor find this a leading question. Does it does it mean that you feel safe with using the applications? Because that is*
+> *Check. So maybe let's see if my supervisor find this a leading question. Does it mean that you feel safe with using the applications? Because that is*
 
 [Them]
 Yes.
@@ -415,7 +415,7 @@ And I'm not using anything outside of that.
 > *So next topic. What obstacles? Do you currently face with when rolling out using agentic AI or the AI solutions within the*
 
 [Them]
-I think I think there's some, like, resistance within the organization. Across some people. Our group is, like, more digital. We wanna do everything, like, digital. Grow in the digital domain. So we're, like, more adventurous. But it's, I don't know, 100, like, hundreds years old company. And they there are some, like, groups that are not as technology forward and or afraid that they will be irrelevant So there's some resistance in terms of, like, us using AI. That's mostly on, like, the content creation space. There's, like, a long, like, approval process. In the organization to get, like, content approved and written and all of that, but, like, that's this streamlines all of it, so that is creating some friction. That's the only obstacle I can think of. This is, like, human resistance. And I could also see, like, not having leadership buy in could be an option. But it's not the case for us. Leaders are just like, use AI. Like, use more AI. Like, we have to AI. They don't know what they're talking about most of the time, but, like, they're like, use more AI. They're more open to it. But I think there's, like, something in the middle where some people are not as enthused about using AI or, like, afraid of it and being able to go around that is difficult.
+I think there's some, like, resistance within the organization. Across some people. Our group is, like, more digital. We wanna do everything, like, digital. Grow in the digital domain. So we're, like, more adventurous. But it's, I don't know, 100, like, hundreds years old company. And they there are some, like, groups that are not as technology forward and or afraid that they will be irrelevant So there's some resistance in terms of, like, us using AI. That's mostly on, like, the content creation space. There's, like, a long, like, approval process. In the organization to get, like, content approved and written and all of that, but, like, that's this streamlines all of it, so that is creating some friction. That's the only obstacle I can think of. This is, like, human resistance. And I could also see, like, not having leadership buy in could be an option. But it's not the case for us. Leaders are just like, use AI. Like, use more AI. Like, we have to AI. They don't know what they're talking about most of the time, but, like, they're like, use more AI. They're more open to it. But I think there's, like, something in the middle where some people are not as enthused about using AI or, like, afraid of it and being able to go around that is difficult.
 
 > *[Me]*
 > *Check. And the other sides, what tailwinds are you feeling?*
@@ -445,7 +445,7 @@ Not, like, consistently. We don't have, like, a KPI that says, like, improve eff
 > *Yeah.*
 
 [Them]
-and she was like, this is really impressive. I'm like, thanks. AI helped me. But we don't we don't really measure. But we will measure again, I know if this is a gentic or, like, generative, but I think it's more generative. But the for example, we're creating it's huge for us. Creating AI generated product imagery. Our website is, like, so bad in terms of, like, product imagery. We were, like, really dependent on, like, someone actually taking, you know, product pictures and uploading them on the website. And not all products had coverage. And we are trying to scale our ecommerce business, and you can't scale without image. So we were, like, getting in our own way by not using AI to generate these images. So now we're gonna do that. So they are testing and measuring the impacts if AI generated imagery. I think they're gonna do, like, AB tests to see if, like, it improves engagement, traffic, what have you.
+and she was like, this is really impressive. I'm like, thanks. AI helped me. But we don't really measure. But we will measure again, I know if this is a gentic or, like, generative, but I think it's more generative. But the for example, we're creating it's huge for us. Creating AI generated product imagery. Our website is, like, so bad in terms of, like, product imagery. We were, like, really dependent on, like, someone actually taking, you know, product pictures and uploading them on the website. And not all products had coverage. And we are trying to scale our ecommerce business, and you can't scale without image. So we were, like, getting in our own way by not using AI to generate these images. So now we're gonna do that. So they are testing and measuring the impacts if AI generated imagery. I think they're gonna do, like, AB tests to see if, like, it improves engagement, traffic, what have you.
 
 > *[Me]*
 > *So then you're looping back the AI imaging in what I call CRO. You call it like dynamic*
@@ -487,9 +487,9 @@ Yeah. Conversion rate optimization. Yes. Yep. They do yeah. We will do more, lik
 > *Check. And looking forward to what From your role. What are you planning to do later? With AI solutions? If anything?*
 
 [Them]
-I think within digital marketing, we wanna be able to use every AI tool in our disposal to make things more efficient and effective. One of the biggest objectives is using our marketing dollars in the most effective and efficient way. So we test into, like, different AI tools that the, like, Google's and Bing's and, like, Meta offers They say, like and it's kind of like a black box, but they're like, oh, like, this tool is, like, AI driven. It's gonna make your campaign so much more efficient and effective. So we always take the opportunity to test into those, and those sometimes don't don't pay out. We test those future.
+I think within digital marketing, we wanna be able to use every AI tool in our disposal to make things more efficient and effective. One of the biggest objectives is using our marketing dollars in the most effective and efficient way. So we test into, like, different AI tools that the, like, Google's and Bing's and, like, Meta offers They say, like and it's kind of like a black box, but they're like, oh, like, this tool is, like, AI driven. It's gonna make your campaign so much more efficient and effective. So we always take the opportunity to test into those, and those sometimes don't pay out. We test those future.
 
-I had one other thought. Yeah, use AI wherever possible. It just escaping me. Oh, I think again, like, we're not that, like, innovative and a little behind probably in this race. But one of the focus areas of my team is to figure out how we can improve our visibility in, like, GPTs. So, like, how do we show up there? Because that's changing the search landscape drastically. Like organic search, paid search, those are all becoming less and less relevant. How do you how do you become more, visible in AI searches, like GPT inquiries, stuff like that. So this year, the focus is that for, like, a few people in my team.  
+I had one other thought. Yeah, use AI wherever possible. It just escaping me. Oh, I think again, like, we're not that, like, innovative and a little behind probably in this race. But one of the focus areas of my team is to figure out how we can improve our visibility in, like, GPTs. So, like, how do we show up there? Because that's changing the search landscape drastically. Like organic search, paid search, those are all becoming less and less relevant. How do you become more, visible in AI searches, like GPT inquiries, stuff like that. So this year, the focus is that for, like, a few people in my team.  
 
 > *[Me]*
 > *Yeah. By the way, I didn't ask you that, but how many people are in your team? Done. Check.*
@@ -537,13 +537,13 @@ So for, like, training videos,
 > *Mhmm. Mhmm.*
 
 [Them]
-I think so, for example, one thing we started doing is, like, a newsletter or, like, after every, like, team meeting is, like, 60 people. About it takes about, like, ninety minutes. We have all these, like, Afterwards, we used to send, a recap email. To say this is what we talked about. Here are the presentations. Like, we celebrate birthdays there, and, like, it's the team meeting. So it was like an email Now we started sending along I can more engaged version of it with the Synthesia video. So, like, like, head of our team has an avatar and we talked like she there says, today we talked about blah blah blah, and, like, so and so presented blah blah blah. Here are the links in, like, videos like, the recap. And then, also, I think our ad agency uses AI generated imagery and videos I
+I think so, for example, one thing we started doing is, like, a newsletter or, like, after every, like, team meeting is, like, 60 people. About it takes about, like, ninety minutes. We have all these, like, Afterwards, we used to send, a recap email. To say this is what we talked about. Here are the presentations. Like, we celebrate birthdays there, and, like, it's the team meeting. So it was like an email Now we started sending along I can more engaged version of it with the Synthesia video. So, like, like, head of our team has an avatar and we talked like she there says, today we talked about blah, and, like, so and so presented blah. Here are the links in, like, videos like, the recap. And then, also, I think our ad agency uses AI generated imagery and videos I
 
 > *[Me]*
 > *Sorry. Your AI agency is using AI generated videos?*
 
 [Them]
-The reason media media agency.
+The reason media agency.
 
 > *[Me]*
 > *Ah, check. Check. Yeah.*
@@ -561,7 +561,7 @@ Yeah. AI agents, but you have an AI agent thing? How come you didn't tell me? No
 > *And how's it with you with Synthesia? With, the email summaries and recaps?*
 
 [Them]
-That's, like, more about efficiency. Like, I'm my head of my team doesn't, like, have the time to, like, create a video to talk about, like, what happened. It's more like more engaging. Like, more people will watch a, like, two minute video than read the entire email. So that's fine. And she's not an actor, so think, like, I so, like, that documentary, like, those those were real people. Like, that's probably fine. Think where it's going, like, the state of the world in AI, like, anything AI in the creative space gives me a little anxiety. Not anxiety, but I just don't don't like it. Don't like AI actors. AI music is a crazy one. Yeah. Those, like, creative spaces
+That's, like, more about efficiency. Like, I'm my head of my team doesn't, like, have the time to, like, create a video to talk about, like, what happened. It's more like more engaging. Like, more people will watch a, like, two minute video than read the entire email. So that's fine. And she's not an actor, so think, like, I so, like, that documentary, like, those were real people. Like, that's probably fine. Think where it's going, like, the state of the world in AI, like, anything AI in the creative space gives me a little anxiety. Not anxiety, but I just don't like it. Don't like AI actors. AI music is a crazy one. Yeah. Those, like, creative spaces
 
 > *[Me]*
 > *Cool. So*
@@ -573,7 +573,7 @@ make me a little uncomfortable.
 > *Cool. So what I heard going back to the questions when it comes to benefits is mainly that you're really looking towards getting a dollar to go further by finding efficiencies and effectiveness Are there other values that you have, other benefits that you see when it comes to applying AI within the organization?*
 
 [Them]
-I guess I get all I guess I could also helps to tell the story as a company, like, because we're a life sciences company. We're a science company. Like, we should be using we should be in the forefront of using AI. So if we're able to tell the story that we're, like, using AI and technology forward company will build trust with our customers. I think that I think that would be the benefit.
+I guess I get all I guess I could also helps to tell the story as a company, like, because we're a life sciences company. We're a science company. Like, we should be using we should be in the forefront of using AI. So if we're able to tell the story that we're, like, using AI and technology forward company will build trust with our customers. I think that would be the benefit.
 
 > *[Me]*
 > *Check.*
@@ -582,10 +582,10 @@ I guess I get all I guess I could also helps to tell the story as a company, lik
 Can't think of anything else.
 
 > *[Me]*
-> *Check. And in aphora, you now also maybe maybe mainly going back to how we making those dollars go further? How are you going after this. That something that you're actually actively pursuing, or is it, more waiting on scenes? Or anything else?*
+> *Check. And in aphora, you now also maybe mainly going back to how we making those dollars go further? How are you going after this. That something that you're actually actively pursuing, or is it, more waiting on scenes? Or anything else?*
 
 [Them]
-You mean, like, achieving efficiencies through AI? It's in our goals. So it comes cascaded down from the leadership team Like, find ways to use AI to streamline processes or, like, stuff like that. There's not a dollar amount attached to it, to that goal. But we have, like, AI centered goals in our objectives. So that's how it works for my team, like, teams work. I personally like, I am more like intrinsically motivated to use it. Because it's it's makes life so much easier. Yeah. That's my motivation.
+You mean, like, achieving efficiencies through AI? It's in our goals. So it comes cascaded down from the leadership team Like, find ways to use AI to streamline processes or, like, stuff like that. There's not a dollar amount attached to it, to that goal. But we have, like, AI centered goals in our objectives. So that's how it works for my team, like, teams work. I personally like, I am more like intrinsically motivated to use it. Because it's makes life so much easier. Yeah. That's my motivation.
 
 > *[Me]*
 > *K. Cool. So I think I have most of the answers that I*
@@ -669,7 +669,7 @@ Yeah.
 > *I have a lot of threats that I can also pull with next interviewees, so that's great.*
 
 [Them]
-Okay. Yeah. Absolutely. Let me know if I can like, if you wanna jump in another call, I'm happy to if you like, as you go through your interviews. One other as you were talking, one other thing, like, kind of like a roadblock whatnot really, So the RGPT instance, like the thing I showed you, can only digest so much data. So if I try to dump anything over, like, 30 MBs, it doesn't it doesn't do it. So sometimes I wanna work with, like, larger datasets. So I think they're working on layering this on top of our data lakes. It's not there yet. So in the meantime, what I'm doing is I'm like, I'm dumping the data in. I pull the data from BigQuery myself, dump it in, and then have it analyzed. Another thing
+Okay. Yeah. Absolutely. Let me know if I can like, if you wanna jump in another call, I'm happy to if you like, as you go through your interviews. One other as you were talking, one other thing, like, kind of like a roadblock whatnot really, So the RGPT instance, like the thing I showed you, can only digest so much data. So if I try to dump anything over, like, 30 MBs, it doesn't do it. So sometimes I wanna work with, like, larger datasets. So I think they're working on layering this on top of our data lakes. It's not there yet. So in the meantime, what I'm doing is I'm like, I'm dumping the data in. I pull the data from BigQuery myself, dump it in, and then have it analyzed. Another thing
 
 > *[Me]*
 > *And you're going in as, like, a strategic marketing manager going into BigQuery and writing some psycho code.*
@@ -705,7 +705,7 @@ write a more, like, advanced SQL code. I don't need, like, advanced data scienti
 > *We're just going to edit two notes.*
 
 [Them]
-yeah. I don't I don't know if it's, like, SQL coding will even be relevant. As we, like, as AI gets more you know, advanced. I think it's just gonna sit on top of the data, and then you'll you're gonna start asking it questions. And
+yeah. I don't know if it's, like, SQL coding will even be relevant. As we, like, as AI gets more you know, advanced. I think it's just gonna sit on top of the data, and then you'll you're gonna start asking it questions. And
 
 > *[Me]*
 > *I think it's*
@@ -762,7 +762,7 @@ Right. Yeah. Yeah. I think that's, like, a little like, like, I'm work around I 
 But is it insistent?
 
 > *[Me]*
-> *you do you guys do anything to prepare that in the in the systems? You have, a master prompt or something that is configured for those agents that use data analysis? Or is it something that you do yourself? Like, you do business contents.*
+> *you do you guys do anything to prepare that in the systems? You have, a master prompt or something that is configured for those agents that use data analysis? Or is it something that you do yourself? Like, you do business contents.*
 
 [Them]
 I do myself Yeah. Through the agents. Like, I created one agent.
@@ -774,7 +774,7 @@ I do myself Yeah. Through the agents. Like, I created one agent.
 That says, like, that digests an a dataset about pricing and tells me use like, these products to run a promotion because there's opportunity. To, like, have discounts. Like, people have been buying it more when you discount it. I trained it, like, went through the agent's process. To do that. And other than that, I just, like, I use the general, like, Claude 4.5, whatever that is. I upload the data. I tell, like, this is the data I'm giving you. This is what I'm looking for. What do you see in the data? Sometimes I ask, like, specific questions. Sometimes I ask, like, more general questions. Like, what else do you see?
 
 > *[Me]*
-> *Cool. Yeah. I don't I don't want to take up too much of your time. See we have one minute left, but*
+> *Cool. Yeah. I don't want to take up too much of your time. See we have one minute left, but*
 
 [Them]
 No worries.

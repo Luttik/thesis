@@ -168,7 +168,7 @@ Because they'll ultimately also have to think really creatively and also have to
 
 Because I think I always say if you're really good at communicating with AI, then you can probably also communicate much better in daily life. So I. I foresee for example for that target group I really see a lot of potential in communication actually. But yeah, I'm still somewhat convinced. What I notice now is that tech people still get a bit stuck focusing on the end product. And they really want to be handheld.
 
-Okay, how are we going to bring it to market so. And that translation to bringing it to market. Yeah, I think that's where tech people, current tech people, still fall a bit short because they still, yeah, then I think think very much from their own field. But I do think look, what I what I see now is that I as a marketer or as an entrepreneur. I can basically already build a prototype. And the tech person?
+Okay, how are we going to bring it to market so. And that translation to bringing it to market. Yeah, I think that's where tech people, current tech people, still fall a bit short because they still, yeah, then I think very much from their own field. But I do think look, what I see now is that I as a marketer or as an entrepreneur. I can basically already build a prototype. And the tech person?
 
 They can basically make sure the prototype gets converted into a working tool so. And I notice that I can switch much faster because of that or much faster of course and that time to market is much faster. So is that a bit of an answer to your question?
 
@@ -192,6 +192,6 @@ Yeah, but that's now and that's back up for discussion now.
 > *I hear that a lot.*
 
 [Them]
-Because. Because that because that. Because that is really becoming very important. What your findability becomes in the language models. So you really have to go back to the drawing board and really think about what your brand framework becomes and how you're going to show up externally. And you can. There as a marketer you can really plant seeds that ensure you're found in a different way. And you can really claim things. And yeah, I find that really interesting.
+Because. Because that. Because that is really becoming very important. What your findability becomes in the language models. So you really have to go back to the drawing board and really think about what your brand framework becomes and how you're going to show up externally. And you can. There as a marketer you can really plant seeds that ensure you're found in a different way. And you can really claim things. And yeah, I find that really interesting.
 
 So I'm always really focused on okay, what is your framework? And we're going to look at that framework and everything you say about your brand. All very nice, but I don't believe it. So we're going back to the drawing board. We're going to target again completely.

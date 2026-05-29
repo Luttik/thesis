@@ -225,7 +225,7 @@ How do you do that? How do you come up with that? Uh, and how do you track the, 
 > *Mm. Yeah. And what I'd like to just get back to, like, the core question of the use cases that we see. So I would like you to get a little bit tactical. So tools, systems, applications, where do you see AI, like, really shining in the marketing process to, uh, re-realize benefits and value for the companies? *
 
 [Them]
-Yeah. Um, [clears throat] I can relate it to what I've done for a client of mine- -uh, where, um, the system that I built up, um, I connected an MCP to their Google Analytics and Google Search Console. So I have direct access to that data source in my cloud, and I can run cron jobs, uh, and have an agent run reports and spit that out. And we got m-much better reporting based on the prompts that I've set up. So that is a workflow that, uh, was not there because you had to download two-- from two different system, then in Excel, you had to cross correlate. And sometimes I'm joking that at [company] or at PayPal, we would go with a question to our analytics team. We had giant analytics team. They had Tableau, MicroStrategy, uh, every system under under the sun.
+Yeah. Um, [clears throat] I can relate it to what I've done for a client of mine- -uh, where, um, the system that I built up, um, I connected an MCP to their Google Analytics and Google Search Console. So I have direct access to that data source in my cloud, and I can run cron jobs, uh, and have an agent run reports and spit that out. And we got m-much better reporting based on the prompts that I've set up. So that is a workflow that, uh, was not there because you had to download two-- from two different system, then in Excel, you had to cross correlate. And sometimes I'm joking that at [company] or at PayPal, we would go with a question to our analytics team. We had giant analytics team. They had Tableau, MicroStrategy, uh, every system under the sun.
 
 We had At [company], I left in two thousand and two. You got a question, they went off, pulled the data, crunched the data, run a lot of queries, which would take like twelve hours to get all the data into a workable format. Then within a week, then you had your analysis back, right?
 
@@ -264,14 +264,14 @@ Yeah
 
 > *[Me]*
 
-> *... but judgment, yeah, it's just-- it's typically, a-as you describe it feels like it's about systems thinking, which is about context, uh- *
+> *... but judgment, yeah, it's typically, a-as you describe it feels like it's about systems thinking, which is about context, uh- *
 
 [Them]
 Yeah
 
 > *[Me]*
 
-> *... for a l-long... So is that really... But maybe my question to you is, do you do you think these three elements are unable to be, uh, replicated by AI? Do you look at the list and feel like, uh, well, if I think about this carefully- *
+> *... for a l-long... So is that really... But maybe my question to you is, do you think these three elements are unable to be, uh, replicated by AI? Do you look at the list and feel like, uh, well, if I think about this carefully- *
 
 [Them]
 But-
@@ -374,7 +374,7 @@ So you come from a certain background, and luckily I've been exposed to the diff
 > *Jonathan was the CMO of the year that you talked about in the beginning. *
 
 [Them]
-Yeah, yeah, yeah. And, um, he's just an awesome human being, but very fair. Uh, um, he challenge you to do the best work in your career. He always says that, but then you will feel like you-- you're running ten thousand miles an hour, but it becomes naturally because you're getting inspired so much from the inclusiveness, the transparency, the, um, uh, the freedom to, uh, um, innovate and test new things. And maybe you don't have it right every time, but at least as long as you learn from it, you don'Uh, it's okay to make mistakes, but learn from it. Right? And on that, I left Jonathan at [company] to join Chris Orton, who I worked with at [company], and he became the CMO of [company], CMO and revenue officer, so marketing and revenue officer, uh, coming from Orbitz. And he's this hardcore performance marketeer that can dream SQL and, uh, build in sys-systems together with the chief product and technology officer, who also came from [company]. [laughs] Um, but, uh, also he said, "Listen, we're building this winning team with a lot of people from different organization that are not politics. We know what we want to do.
+Yeah, yeah, yeah. And, um, he's just an awesome human being, but very fair. Uh, um, he challenge you to do the best work in your career. He always says that, but then you will feel like you're running ten thousand miles an hour, but it becomes naturally because you're getting inspired so much from the inclusiveness, the transparency, the, um, uh, the freedom to, uh, um, innovate and test new things. And maybe you don't have it right every time, but at least as long as you learn from it, you don'Uh, it's okay to make mistakes, but learn from it. Right? And on that, I left Jonathan at [company] to join Chris Orton, who I worked with at [company], and he became the CMO of [company], CMO and revenue officer, so marketing and revenue officer, uh, coming from Orbitz. And he's this hardcore performance marketeer that can dream SQL and, uh, build in sys-systems together with the chief product and technology officer, who also came from [company]. [laughs] Um, but, uh, also he said, "Listen, we're building this winning team with a lot of people from different organization that are not politics. We know what we want to do.
 
 Guess all the things you wanna do at [company], but you couldn't because of politics." "We don't have that anymore." And so he knew my background, of course, in data-driven storytelling and SEO, but also with, uh, with a link to brand. He wanted to get me on the team to lead some of the organic growth in data-driven storytelling and SEO stuff, et cetera. So again, it's, uh, this person who knows they need to build a big team and needs other leaders on the team to as-inspire and bring different skill sets, but work very closely. So I think the winning formula is you don't know everything. You have the deep knowledge in one part, but you're able to inspire other key team members with deep marketing knowledge to join the team, and then build a winning team.
 
@@ -441,7 +441,7 @@ New use cases come, uh, come around the corner, so. I think it's-
 > *Yeah, so is it a conscious decision for you to pick one person and make him the AI champion to get it into the organization, or is it just- *
 
 [Them]
-That's the organization. Um, he heard from me how much more I get done and, uh, so I can take on two more clients, which means that I also can raise my rates because I have new knowledge that I can bring to the table. Um, and his CMO, uh, reports to the chief, uh, experience officer, and she is actually also in cloud code and doing Git, uh, Git, uh, um, repositories, committing code to or files to GitHub and et cetera. So she. There is thisUm, C-level support and ownership of this is where we need to go as a company that allows him to do this. So it's not it's not-
+That's the organization. Um, he heard from me how much more I get done and, uh, so I can take on two more clients, which means that I also can raise my rates because I have new knowledge that I can bring to the table. Um, and his CMO, uh, reports to the chief, uh, experience officer, and she is actually also in cloud code and doing Git, uh, Git, uh, um, repositories, committing code to or files to GitHub and et cetera. So she. There is thisUm, C-level support and ownership of this is where we need to go as a company that allows him to do this. So it's not-
 
 > *[Me]*
 

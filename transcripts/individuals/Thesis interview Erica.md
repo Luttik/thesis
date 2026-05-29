@@ -835,7 +835,7 @@ Yeah. Yeah, exactly. A drawback is also the security. If you're
 really well organized and you're really understanding how the agent works, then you might be making him say stupid things, or you- ... might be able to actually get... 
 
 [Them]
-So that again, ultimately links to brand control. But yeah. So that is a drawback. 
+So that again, ultimately links to brand control. But Yeah. So that is a drawback. 
 
 [Them]
 And I would say it's also 

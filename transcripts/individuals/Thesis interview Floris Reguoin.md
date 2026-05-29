@@ -245,7 +245,7 @@ I don't know if you know it, the game of Go. I don't know if you've picked up an
 > *Yes, I. I was studying AI when all that happened. So I was really deep in the academic world at that time. And these were all things that I — yes, I read all those papers at the time.*
 
 [Them]
-Yes, well and what's so what's so cool about that moment. I'm temporarily forgetting the name of that player who ultimately walked away and was never seen again I think. Who lost to a computer.
+Yes, well and what's so cool about that moment. I'm temporarily forgetting the name of that player who ultimately walked away and was never seen again I think. Who lost to a computer.
 
 > *[Me]*
 > *AlphaGo I'll never forget, but the player immediately escaped me.*

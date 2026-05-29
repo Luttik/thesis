@@ -5,7 +5,7 @@ description: Clean and convert thesis interview transcripts. Applies correction-
 
 # Clean & Convert Transcript
 
-Transcripts live in `transcripts/` as `.md` files (e.g. `transcripts/Thesis interview Lauren Stokowski.md`).
+Transcripts live in `transcripts/individuals/` as `.md` files (e.g. `transcripts/individuals/Thesis interview Lauren Stokowski.md`). The combined export is built into `output/` via `scripts/build_combined_transcripts.py`.
 
 ## Workflow decision
 

@@ -190,7 +190,7 @@ So instead of you saying, "AI helps with," I don't know, "writing emails," you j
 > *Mm *
 
 [Them]
-... runs lifecycle experimentation," or whatever. So that would be the workflow reinvention in a way, not just tool adoption. And then I can think of marketing intelligence. I think that's another use case that is probably, um, one that generates pro most value. So it's, uh, monitoring, I don't know, competitors, uh, analyze sentiment at scale-... um, detect pricing signals- 
+... runs lifecycle experimentation," or whatever. So that would be the workflow reinvention in a way, not just tool adoption. And then I can think of marketing intelligence. I think that's another use case that is probably, um, one that generates the most value. So it's, uh, monitoring, I don't know, competitors, uh, analyze sentiment at scale-... um, detect pricing signals- 
 
 > *[Me]*
 > *Mm-hmm. *
@@ -490,7 +490,7 @@ There was an element here that I feel like it's important for me to distinguish 
 > *Mm-hmm. *
 
 [Them]
-Do you do you see the difference between them, or you treat them the same? 
+Do you see the difference between them, or you treat them the same? 
 
 > *[Me]*
 > *So what I would say is, the output is the results of your work in terms of content or process or whatever, and the outcome is usually the business, uh, result that you drive. Is that what you're talking about? *
@@ -583,7 +583,7 @@ let me see if I could, um, kind of break down your question into two. So you sai
 ... manager do? 
 
 > *[Me]*
-> *Yeah, and that essentially means like you gave a lot of advice, you help-- you guide peoples through the process. Uh, and I think that advice is also something that is probably something that's, that is part of the structure of my thesis, right? What are the inputs to drive success here? *
+> *Yeah, and that essentially means like you gave a lot of advice, you guide peoples through the process. Uh, and I think that advice is also something that is probably something that's, that is part of the structure of my thesis, right? What are the inputs to drive success here? *
 
 [Them]
 So, um, 
@@ -634,7 +634,7 @@ That's the-- [chuckles] If anything, that's the core of how I scare them.
 > *[laughing] *
 
 [Them]
-So they think they will have-- they would be up for a, an innovation session where with this AI expert that will inspire them on how the world will look like. And there I go, helping them understand how short-sighted they are with many things. So that continues to evolve with a series of additional sessions with multiple parties in the company. They will start knowing how what to ask of IT, and I work with their department, technology departments, to help articulate their, uh, their particular tech stack, work with consulting firms. Um, I help them, uh, design their criteria for vendor procurement, so what to ask from their particular vendors. Um, so there, it's not the-- it's not a, it's not an end game. 
+So they would be up for a, an innovation session where with this AI expert that will inspire them on how the world will look like. And there I go, helping them understand how short-sighted they are with many things. So that continues to evolve with a series of additional sessions with multiple parties in the company. They will start knowing how what to ask of IT, and I work with their department, technology departments, to help articulate their, uh, their particular tech stack, work with consulting firms. Um, I help them, uh, design their criteria for vendor procurement, so what to ask from their particular vendors. Um, so there, it's not a, it's not an end game. 
 
 > *[Me]*
 > *Mm-hmm. *

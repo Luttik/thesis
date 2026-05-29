@@ -63,7 +63,12 @@ TEXT_FIXES = [
 def apply_fixes(text: str) -> str:
     for old, new in TEXT_FIXES:
         text = text.replace(old, new)
-    return text
+    skill_dir = Path(__file__).resolve().parent
+    if str(skill_dir) not in sys.path:
+        sys.path.insert(0, str(skill_dir))
+    from asr_repetition_cleaner import clean_asr_repetitions
+
+    return clean_asr_repetitions(text)
 
 
 # ---------------------------------------------------------------------------
