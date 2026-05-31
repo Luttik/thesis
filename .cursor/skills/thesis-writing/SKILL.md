@@ -9,13 +9,13 @@ description: >
   prose for the thesis.
 ---
 
-# Thesis Writing
+# Thesis writing
 
-Load the relevant context when necessary. Leverage the qdpx skill with the most recent file from the `qdpx` folder to get access to codes, categrories, descriptions and transcripts.
-
-Full transcripts are also available in the `transcripts` folder.
-
-Always load the relevant context before drafting or editing:
+## Rules
+- Always load the relevant context when necessary. 
+  - Leverage the qdpx skill with the most recent file from the `qdpx` folder to get access to codes, categrories, descriptions and transcripts.
+  - Full transcripts are also available in the `transcripts` folder.
+- When writing to a docx file use track changes
 
 ## Writing the Findings chapter
 

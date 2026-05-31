@@ -1,0 +1,18 @@
+=== Thesis Draft - Daan Luttik - MBA.docx tables=3 ===
+111|Normal|After reaching theoretical saturation (see Section 3.4.5), the point where new d
+115|Normal|Constructivist grounded theory does not require the researcher to bracket prior 
+124|Heading 2|3.4.	Ensuring trustworthiness
+126|Heading 3|3.4.1.	Credibility
+130|Heading 3|3.4.2.	Transferability
+132|Heading 3|3.4.3.	Dependability
+134|Heading 3|3.4.4.	Confirmability
+136|Heading 3|3.4.5.	Theoretical saturation
+305|Normal|Table 2 at the opening of this chapter summarizes how initial codes were consoli
+=== Thesis Draft - Daan Luttik - MBA - trustworthiness-table.docx tables=4 ===
+111|normal|After reaching theoretical saturation (see Table 3), the point where new data no
+115|normal|Constructivist grounded theory does not require the researcher to bracket prior 
+124|Heading 2|3.4.	Ensuring trustworthiness
+125|normal|Qualitative inquiry does not seek statistical generalization to a population; in
+126|normal|Table 3.
+127|normal|Trustworthiness assessment.
+294|normal|Table 2 at the opening of this chapter summarizes how initial codes were consoli
