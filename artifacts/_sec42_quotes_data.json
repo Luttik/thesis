@@ -1257,7 +1257,53 @@
       "quote": "One thing I found fascinating from e-commerce is how badly we still handle data. We keep saying data isn’t in order and it’s hard. On the other hand, people stare at a dashboard: a bit green or a bit red, good or bad, and activating that data is hard."
     }
   ],
-  "4.2.3||Obstacle: high bureaucracy": [
+  "4.2.3||Tailwind: AI champion": [
+    {
+      "num": 9,
+      "name": "Lauren Stokowski",
+      "code": "Tailwind: AI champion",
+      "quote": "Omnicom is like a multi-billion dollar business, and yeah, it’s just like one person that’s starting. Like Affinity Hub was created originally by, uh, uh, our global creative director that dabbles in, in dev, and he created it, and it’s like blown up, and so now there’s millions of dollars of funding behind it and all this kind of stuff."
+    },
+    {
+      "num": 9,
+      "name": "Lauren Stokowski",
+      "code": "Tailwind: AI champion",
+      "quote": "I really don’t actually. I don’t because I don’t think anybody else knows anything. [Me] [laughs] [Them] And the people that do know stuff, that are like the visionaries and like y- basically the, the guy that leads my department- [Me] Mm-hmm [Them] … he is really smart in this space. And so he’s like, “This is like all the stuff that we can do.” All my job is to do is to say, “Okay, what makes sense? And if it makes sense, let’s make it happen.” But I don’t know if I really need to understand the techy side of things. I need to understand [Them] what is the output of it, how does that impact our business, and then how do I teach teams how to use it, basically."
+    },
+    {
+      "num": 3,
+      "name": "Berfun Goodwin",
+      "code": "Tailwind: AI champion",
+      "quote": "I personally like, I am more like intrinsically motivated to use it. Because it’s it’s makes life so much easier. Yeah. That’s my motivation."
+    },
+    {
+      "num": 8,
+      "name": "Jon Stephan",
+      "code": "Tailwind: AI champion",
+      "quote": "The cool thing is that there are people like me throughout our corporation. It’s… We don’t have an AI group, that we have probably AI strategists and specialists all throughout the corporation."
+    },
+    {
+      "num": 8,
+      "name": "Jon Stephan",
+      "code": "Tailwind: AI champion",
+      "quote": "“Yeah, sure, let’s develop this as a team.” I’m like: “Perfect. Let’s go to it.” Um, I jumped into a different cloud system about half a year ago to start developing an agent and some content, and, uh, they were all on board, even though that group, not my group, would have to eat the cost. In the end, it’s still within digital marketing, but it was a different subsection of it than the one I’m in, which is ironic. I mean, I’m generating probably– I’m probably costing the most of anyone possibly, except for maybe two or three other people within the corporation, but none of it falls into the group that I’m in. [chuckles] Who knew?"
+    }
+  ],
+  "4.2.2||Obstacle: Getting budgets": [
+    {
+      "num": 9,
+      "name": "Lauren Stokowski",
+      "code": "Obstacle: Getting budgets",
+      "quote": "That’s, that is a struggle, is getting… The issue is that we’re selling this, you know, selling it to clients, selling it to new business, but it’s not fully a capability. But we can’t get investment, ’cause Affinity Hub is just a part of it. We can’t get investment until we get net new revenue, like win a new piece of business. But it’s… So it’s kind of a catch-22. We’re selling this idea, but we can’t make the idea happen until we win the business, and then we’re screwed, right? ’Cause we have no time to sell in the interest of things."
+    },
+    {
+      "num": 9,
+      "name": "Lauren Stokowski",
+      "code": "Obstacle: Getting budgets",
+      "quote": "Money, time, resources. ’Cause the passion is there, the need is there, the want is there, the brains are there. It’s time, money, and resources."
+    }
+  ],
+  "4.2.4||Obstacle: high bureaucracy": [
     {
       "num": 2,
       "name": "Arjan Dijk",
@@ -1385,50 +1431,74 @@
       "quote": "Another issue: governance is often absent, then suddenly too strict. First everyone does bring-your-own-AI; then someone says “maybe not such a good idea,” and suddenly everything is banned. Then the most enthusiastic people either disengage or leave."
     }
   ],
-  "4.2.3||Tailwind: AI champion": [
+  "4.2.3||Tailwind: Providing clarity": [
     {
-      "num": 9,
-      "name": "Lauren Stokowski",
-      "code": "Tailwind: AI champion",
-      "quote": "Omnicom is like a multi-billion dollar business, and yeah, it’s just like one person that’s starting. Like Affinity Hub was created originally by, uh, uh, our global creative director that dabbles in, in dev, and he created it, and it’s like blown up, and so now there’s millions of dollars of funding behind it and all this kind of stuff."
+      "num": 6,
+      "name": "Erica Hahn",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "“No, this is the vision. This is where we’re going. Help me get there.”"
     },
     {
-      "num": 9,
-      "name": "Lauren Stokowski",
-      "code": "Tailwind: AI champion",
-      "quote": "I really don’t actually. I don’t because I don’t think anybody else knows anything. [Me] [laughs] [Them] And the people that do know stuff, that are like the visionaries and like y- basically the, the guy that leads my department- [Me] Mm-hmm [Them] … he is really smart in this space. And so he’s like, “This is like all the stuff that we can do.” All my job is to do is to say, “Okay, what makes sense? And if it makes sense, let’s make it happen.” But I don’t know if I really need to understand the techy side of things. I need to understand [Them] what is the output of it, how does that impact our business, and then how do I teach teams how to use it, basically."
+      "num": 1,
+      "name": "Andreea Bulisache",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "And I think if you don’t have clarity, jumping into execution will only surface a lot of problems there. And once you have clarity,"
     },
     {
-      "num": 3,
-      "name": "Berfun Goodwin",
-      "code": "Tailwind: AI champion",
-      "quote": "I personally like, I am more like intrinsically motivated to use it. Because it’s it’s makes life so much easier. Yeah. That’s my motivation."
+      "num": 13,
+      "name": "Tim Wiegel",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "So it should be, yeah, it should be something coming from the top with good ideas, with maybe even, uh, valid things that already work and enable your people, right? And that might be, “Hey, feel free to use ChatGPT. Feel free to use Claude. Here’s a free version. Please don’t do this, this, this.” So these are no-goes, and these versions also make the guidelines quite clear."
     },
     {
-      "num": 8,
-      "name": "Jon Stephan",
-      "code": "Tailwind: AI champion",
-      "quote": "The cool thing is that there are people like me throughout our corporation. It’s… We don’t have an AI group, that we have probably AI strategists and specialists all throughout the corporation."
+      "num": 17,
+      "name": "Karin Boon",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "They don’t look at AI, they look at okay, what is my objective? And they basically do old-school marketing. And from old-school marketing devise a concept and set an objective. And then do that in collaboration with AI."
     },
     {
-      "num": 8,
-      "name": "Jon Stephan",
-      "code": "Tailwind: AI champion",
-      "quote": "“Yeah, sure, let’s develop this as a team.” I’m like: “Perfect. Let’s go to it.” Um, I jumped into a different cloud system about half a year ago to start developing an agent and some content, and, uh, they were all on board, even though that group, not my group, would have to eat the cost. In the end, it’s still within digital marketing, but it was a different subsection of it than the one I’m in, which is ironic. I mean, I’m generating probably– I’m probably costing the most of anyone possibly, except for maybe two or three other people within the corporation, but none of it falls into the group that I’m in. [chuckles] Who knew?"
+      "num": 10,
+      "name": "Maarten Mantjes",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "Leadership must understand broad capabilities to set direction. Frontline staff need literacy, safe boundaries, and hands-on use. Middle management is often forgotten, but they receive strategic targets and must operationalize them."
+    },
+    {
+      "num": 10,
+      "name": "Maarten Mantjes",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "If you’re clear about what you want and how it should work"
+    },
+    {
+      "num": 1,
+      "name": "Andreea Bulisache",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "if you know exactly what you’re tracking"
+    },
+    {
+      "num": 16,
+      "name": "Anonymous",
+      "code": "Tailwind: Providing clarity / strategic direction",
+      "quote": "There’s not that role, uh, and I think it’s a little bit scattered in responsibility. So I think that’s, uh, an area, at least for myself, where I do feel, uh, discomfort, uh, uh, because I feel we could do a better job if we have that, uh, leadership in a higher place."
     }
   ],
-  "4.2.2||Obstacle: Getting budgets": [
+  "4.2.1||Tailwind: Navigate / bypass via external experts": [
     {
-      "num": 9,
-      "name": "Lauren Stokowski",
-      "code": "Obstacle: Getting budgets",
-      "quote": "That’s, that is a struggle, is getting… The issue is that we’re selling this, you know, selling it to clients, selling it to new business, but it’s not fully a capability. But we can’t get investment, ’cause Affinity Hub is just a part of it. We can’t get investment until we get net new revenue, like win a new piece of business. But it’s… So it’s kind of a catch-22. We’re selling this idea, but we can’t make the idea happen until we win the business, and then we’re screwed, right? ’Cause we have no time to sell in the interest of things."
+      "num": 6,
+      "name": "Erica Hahn",
+      "code": "Tailwind: Leveraging external experts",
+      "quote": "Another one is actually using also experts externally, because if we would’ve waited for people internally, I think it would’ve been a major blocker."
     },
     {
-      "num": 9,
-      "name": "Lauren Stokowski",
-      "code": "Obstacle: Getting budgets",
-      "quote": "Money, time, resources. ’Cause the passion is there, the need is there, the want is there, the brains are there. It’s time, money, and resources."
+      "num": 13,
+      "name": "Tim Wiegel",
+      "code": "Tailwind: Leveraging external experts",
+      "quote": "Agencies give you a kickstart and so on. The biggest issue is really this thing that too many companies make themselves dependent on an agency and then the agency basically owns all the AI knowledge."
+    },
+    {
+      "num": 4,
+      "name": "Dennis Goedegebuure",
+      "code": "Tailwind: Leveraging external experts",
+      "quote": "They found an external consultant… there is a loss of momentum there."
     }
   ]
 }
