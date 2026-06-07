@@ -1,0 +1,223 @@
+<!-- Copyright 2026 Anthropic PBC · SPDX-License-Identifier: Apache-2.0 -->
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pending tracked changes — what to know</title>
+<style>
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+:root{
+  --canvas:#FDFCFA; --ink:#000; --accent:#007bcd; --powder:#EAF1F6; --green:#66BB6A;
+  --danger:#B04A3F; --amber:#C9803E; --powder-light:#F3F7FA; --powder-line:rgba(31,74,105,0.13);
+  --powder-muted:#6E8798; --powder-ink:#3D5363; --paper:#FFF;
+  --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --mono:ui-monospace,'SF Mono',Menlo,monospace; --border:1px solid var(--powder-line);
+}
+*{box-sizing:border-box;}
+body{margin:0;padding:56px 24px 110px;background:var(--canvas);color:var(--ink);
+  font-family:var(--sans);font-size:15px;line-height:1.6;-webkit-font-smoothing:antialiased;}
+.page{max-width:900px;margin:0 auto;}
+header{margin-bottom:38px;}
+.htop{display:flex;align-items:baseline;justify-content:space-between;flex-wrap:wrap;gap:12px;margin-bottom:10px;}
+h1{font-family:var(--serif);font-weight:500;font-size:36px;letter-spacing:-0.01em;margin:0;}
+.pill{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.06em;
+  color:var(--powder-muted);background:var(--powder-light);border:var(--border);border-radius:999px;
+  padding:5px 11px;white-space:nowrap;}
+.lede{color:var(--powder-ink);max-width:740px;font-size:15.5px;}
+.lede .repo{font-family:var(--mono);font-size:13px;color:var(--powder-ink);}
+section{margin-bottom:46px;}
+h2{font-family:var(--serif);font-weight:500;font-size:23px;letter-spacing:-0.01em;margin:0 0 6px;}
+.sub{color:var(--powder-muted);font-size:14px;max-width:740px;margin:0 0 20px;}
+hr.rule{border:none;border-top:1px solid var(--powder-line);margin:0 0 20px;}
+
+/* summary band */
+.band{display:grid;grid-template-columns:repeat(4,1fr);gap:14px;margin-bottom:50px;}
+@media(max-width:720px){.band{grid-template-columns:repeat(2,1fr);}}
+.stat{background:var(--paper);border:var(--border);border-radius:16pt;padding:18px 18px;}
+.stat .k{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:0.06em;
+  color:var(--powder-muted);margin-bottom:7px;}
+.stat .v{font-size:24px;font-weight:600;color:var(--ink);line-height:1.1;}
+.stat .v small{display:block;font-size:12.5px;font-weight:400;color:var(--powder-muted);margin-top:5px;}
+.stat.accent .v{color:var(--accent);}
+
+/* cards */
+.cards{display:grid;grid-template-columns:1fr 1fr;gap:16px;}
+@media(max-width:720px){.cards{grid-template-columns:1fr;}}
+.card{background:var(--paper);border:var(--border);border-radius:16pt;padding:20px 22px;}
+.card h3{font-family:var(--serif);font-weight:600;font-size:16px;color:var(--ink);margin:0 0 8px;}
+.card p{margin:0;font-size:14px;color:var(--powder-ink);}
+.card.good{border-left:4px solid var(--green);}
+.card.neutral{border-left:4px solid var(--accent);}
+
+/* callout */
+.callout{background:var(--paper);border:var(--border);border-left:4px solid var(--danger);
+  border-radius:12pt;padding:18px 22px;}
+.callout .tag{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:0.06em;
+  color:var(--danger);font-weight:600;margin-bottom:8px;}
+.callout h3{font-family:var(--serif);font-weight:600;font-size:17px;margin:0 0 8px;color:var(--ink);}
+.callout p{margin:0 0 8px;font-size:14px;color:var(--powder-ink);}
+.callout code{font-family:var(--mono);font-size:12.5px;background:var(--powder-light);
+  padding:1px 5px;border-radius:5pt;}
+
+/* inventory table */
+.tbl{border:var(--border);border-radius:16pt;overflow:hidden;background:var(--paper);}
+.trow{display:grid;grid-template-columns:1.5fr 0.9fr 2fr 1.6fr;}
+@media(max-width:820px){.trow{grid-template-columns:1fr;}}
+.trow+.trow{border-top:1px solid var(--powder-line);}
+.tc{padding:13px 16px;font-size:13.5px;color:var(--powder-ink);}
+.tc+.tc{border-left:1px solid var(--powder-line);}
+@media(max-width:820px){.tc+.tc{border-left:none;border-top:1px dashed var(--powder-line);}}
+.thead{background:var(--powder-light);font-weight:600;color:var(--ink);font-size:11px;
+  text-transform:uppercase;letter-spacing:0.04em;}
+.tc .loc{font-family:var(--mono);font-size:12px;color:var(--ink);}
+.badge{display:inline-block;font-family:var(--mono);font-size:10.5px;font-weight:600;
+  padding:2px 8px;border-radius:6pt;white-space:nowrap;}
+.b-claude{background:#E4EEF6;color:#1c5a82;}
+.b-sup{background:var(--powder);color:var(--powder-ink);}
+.b-you{background:#E4E9DC;color:#4B5C39;}
+.act{font-weight:600;color:var(--ink);}
+.act.warn{color:var(--danger);}
+
+/* steps */
+.steps{display:flex;flex-direction:column;gap:0;counter-reset:s;}
+.step{display:grid;grid-template-columns:30px 1fr;gap:0 16px;}
+.step .n{counter-increment:s;width:24px;height:24px;border-radius:50%;background:var(--accent);
+  color:#fff;font-size:12px;font-weight:600;display:flex;align-items:center;justify-content:center;
+  margin-top:3px;flex-shrink:0;}
+.step .n::before{content:counter(s);}
+.step .b{padding-bottom:18px;}
+.step .b strong{color:var(--ink);}
+.step .b p{margin:2px 0 0;font-size:13.5px;color:var(--powder-ink);}
+.foot{font-size:12.5px;color:var(--powder-muted);border-top:1px solid var(--powder-line);
+  padding-top:16px;margin-top:6px;}
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header>
+    <div class="htop">
+      <h1>Pending tracked changes</h1>
+      <span class="pill">Audit · 2026-06-07</span>
+    </div>
+    <p class="lede">A scan of <span class="repo">Thesis Draft - Daan Luttik - MBA.docx</span>. Short version: <strong>no intended edit was withheld</strong> — every Chapter&nbsp;5 improvement I found sat in already-accepted text, so it all went in. What follows is why I steer around paragraphs that still hold open changes, and the full map of what is currently pending your review.</p>
+  </header>
+
+  <div class="band">
+    <div class="stat"><div class="k">Paragraphs w/ pending changes</div><div class="v">65</div></div>
+    <div class="stat accent"><div class="k">Mine (Claude), awaiting accept</div><div class="v">~52<small>incl. all of Appendix D</small></div></div>
+    <div class="stat"><div class="k">Supervisor (Stefanie B.)</div><div class="v">12<small>Chapters 1–2</small></div></div>
+    <div class="stat"><div class="k">Needs care</div><div class="v" style="color:var(--danger)">1<small>orphan deletion, §5.1</small></div></div>
+  </div>
+
+  <!-- ============ direct answer ============ -->
+  <section>
+    <h2>Did I drop any edit because changes were open?</h2>
+    <hr class="rule">
+    <div class="cards">
+      <div class="card good">
+        <h3>No — nothing was withheld</h3>
+        <p>In the Chapter&nbsp;5 pass, all four improvements ([311], [312], [316], [317]) happened to be in plain, already-accepted text, so they were applied. The two paragraphs I called "left alone" ([322], [335]) simply needed <em>no further change</em> — they already carried the earlier "inside-out" reword. I didn't skip an edit I wanted to make.</p>
+      </div>
+      <div class="card neutral">
+        <h3>Why I avoid editing on top of open changes</h3>
+        <p>When a paragraph already has an unaccepted insertion, that text lives <em>inside</em> a tracked-change wrapper. Layering a second edit over it either nests changes (invalid) or produces overlapping insert/delete marks that render as a tangle in the Review pane. Cleaner to let you accept/reject first, then edit — so the diff stays readable.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ gotcha ============ -->
+  <section>
+    <h2>The one thing to handle carefully</h2>
+    <hr class="rule">
+    <div class="callout">
+      <div class="tag">⚠ Accept, do not reject</div>
+      <h3>§5.1 [315] — an orphan deletion</h3>
+      <p>From the earlier reword, this paragraph's <em>insertion</em> ("…in the organization's internal conditions and the configuration…") was already accepted, but its matching <em>deletion</em> ("…the determinants of value <code>inside the organization</code>…") is still pending on its own.</p>
+      <p><strong>Accept it.</strong> If you reject that lone deletion, the old "inside the organization" wording comes back and you'll have the phrase twice.</p>
+    </div>
+  </section>
+
+  <!-- ============ inventory ============ -->
+  <section>
+    <h2>Everything currently pending your review</h2>
+    <p class="sub">Grouped by area. My session work is still pending except §4.4.4 / Table&nbsp;4 / the customer-facing vignette, which you have already accepted.</p>
+    <div class="tbl">
+      <div class="trow thead">
+        <div class="tc">Location</div><div class="tc">Author</div><div class="tc">What it is</div><div class="tc">What to do</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">Ch 1–2</span> (12 paras)</div>
+        <div class="tc"><span class="badge b-sup">Stefanie B.</span></div>
+        <div class="tc">Your supervisor's wording edits (background, gap, AI history)</div>
+        <div class="tc act">Review &amp; accept/reject per her intent</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§4.3.1 [229]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">Foreshadowing sentence ("these use cases did not produce uniform results…")</div>
+        <div class="tc act">Accept to keep</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§5 intro + §5.1 [311,312,316,317]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">This session's review edits: tighter lead-in, Table&nbsp;4 pointers, configuration vs harness distinction + scoping</div>
+        <div class="tc act">Accept (each is an insert+delete pair)</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§5.1 [315]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">Orphan deletion of old "inside the organization" wording</div>
+        <div class="tc act warn">ACCEPT — do not reject ⚠</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§5.2 + §5.3 [322,335]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">"inside-out" → "internal conditions / configuration" reword</div>
+        <div class="tc act">Accept</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§6 Conclusion [337,341]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">Same "inside-out" reword (headline claim + contribution)</div>
+        <div class="tc act">Accept</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§7 References [358,381,394,395,404]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">5 reference entries (Cieslak &amp; Valor; Li et&nbsp;al.; Ritala et&nbsp;al.; Romeo &amp; Lacko; Weber et&nbsp;al.) backing Discussion citations</div>
+        <div class="tc act">Verify wanted, then accept</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">Appendix D [460–496]</span></div>
+        <div class="tc"><span class="badge b-claude">Claude</span></div>
+        <div class="tc">17 supporting quotes + 2 group headers + intro line behind Table&nbsp;4</div>
+        <div class="tc act">Accept to keep</div>
+      </div>
+      <div class="trow">
+        <div class="tc"><span class="loc">§4.1.1 [152]</span></div>
+        <div class="tc"><span class="badge b-you">You (Daan)</span></div>
+        <div class="tc">Your own deleted note-to-self ("Do I want to note more how the ever-changing nature of AI…")</div>
+        <div class="tc act">Accept to remove, or restore</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ clear the deck ============ -->
+  <section>
+    <h2>How to clear the deck</h2>
+    <hr class="rule">
+    <div class="steps">
+      <div class="step"><div class="n"></div><div class="b"><strong>Filter by author in the Review pane.</strong><p>Word → Review → Tracked Changes → Show Markup → Specific People. Handle one author at a time so my edits and your supervisor's don't blur together.</p></div></div>
+      <div class="step"><div class="n"></div><div class="b"><strong>For my edits, accept insert + delete together.</strong><p>Each reword is a matched pair (new text inserted, old text struck). Accepting both gives the final wording. The only exception is the §5.1 [315] orphan deletion — accept it on its own.</p></div></div>
+      <div class="step"><div class="n"></div><div class="b"><strong>Review your supervisor's Ch 1–2 edits separately.</strong><p>Those reflect her intent, not mine — read them on their own terms.</p></div></div>
+      <div class="step"><div class="n"></div><div class="b"><strong>Then ping me for the next pass.</strong><p>Once a section is accepted, I can edit it cleanly without stacking changes — which is exactly the situation that made me route around [322]/[335] this time.</p></div></div>
+    </div>
+  </section>
+
+  <p class="foot">Totals from the scan: 65 paragraphs carry pending marks — 80 insertions, 22 deletions. Nothing here is lost work; it is all awaiting accept/reject.</p>
+
+</div>
+</body>
+</html>

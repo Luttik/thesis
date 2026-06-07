@@ -45,3 +45,4 @@ qdrant-storage/*
 __pycache__/
 .cache/
 **/.venv/
+/unpacked*/

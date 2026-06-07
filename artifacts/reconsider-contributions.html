@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Reconsidering the theoretical contributions (§5.1.2–§5.1.4)</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:#FDFCFA; --ink:#000000; --accent:#007bcd; --powder:#EAF1F6; --green:#5E9C61;
+    --powder-light:#F3F7FA; --powder-line:rgba(31,74,105,0.13); --powder-muted:#6E8798;
+    --powder-ink:#3D5363; --paper:#FFFFFF; --rust:#B04A3F; --gold:#9A7B1F; --plum:#6A4C93;
+    --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:var(--sans); background:var(--canvas); color:var(--powder-ink); line-height:1.55; padding:56px 28px 120px; -webkit-font-smoothing:antialiased; }
+  .page { max-width:1060px; margin:0 auto; }
+  .eyebrow { font-family:var(--mono); font-size:11.5px; letter-spacing:0.08em; text-transform:uppercase; color:var(--powder-muted); margin-bottom:12px; }
+  h1 { font-family:var(--serif); font-weight:600; font-size:31px; line-height:1.18; color:var(--ink); margin-bottom:14px; letter-spacing:-0.01em; }
+  .lead { max-width:780px; font-size:15px; margin-bottom:6px; }
+  .lead b { color:var(--ink); }
+
+  .tldr { background:var(--paper); border:1px solid var(--powder-line); border-left:4px solid var(--accent); border-radius:16pt; padding:18px 22px; margin:26px 0 8px; max-width:880px; }
+  .tldr .k { font-family:var(--mono); font-size:10.5px; letter-spacing:0.06em; text-transform:uppercase; color:var(--powder-muted); margin-bottom:8px; }
+  .tldr p { font-size:15px; color:var(--ink); }
+  .tldr .triad { display:flex; gap:10px; flex-wrap:wrap; margin-top:12px; }
+  .tldr .triad span { font-family:var(--mono); font-size:11.5px; background:var(--powder); border:1px solid var(--powder-line); border-radius:7pt; padding:5px 10px; color:var(--ink); }
+
+  section { margin-top:52px; }
+  .sec-head { display:flex; align-items:baseline; gap:13px; margin-bottom:6px; }
+  .sec-head .num { font-family:var(--mono); font-size:12px; background:var(--powder); color:var(--ink); padding:3px 9px; border-radius:8pt; }
+  .sec-head h2 { font-family:var(--serif); font-weight:600; font-size:23px; color:var(--ink); letter-spacing:-0.01em; }
+  .sec-intro { font-size:14px; color:var(--powder-muted); max-width:760px; margin-bottom:22px; }
+
+  .cards3 { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  @media (max-width:820px){ .cards3 { grid-template-columns:1fr; } }
+  .diag { background:var(--paper); border:1px solid var(--powder-line); border-left:3px solid var(--rust); border-radius:14pt; padding:16px 18px; }
+  .diag .t { font-weight:600; color:var(--ink); font-size:14.5px; margin-bottom:6px; }
+  .diag p { font-size:13px; }
+  .diag code { font-family:var(--mono); font-size:11.5px; background:var(--powder-light); padding:1px 4px; border-radius:4pt; }
+
+  /* contribution menu */
+  .menu { display:flex; flex-direction:column; gap:12px; }
+  .item { background:var(--paper); border:1px solid var(--powder-line); border-radius:14pt; padding:16px 20px; display:grid; grid-template-columns:1fr 132px; gap:14px; align-items:start; }
+  @media (max-width:720px){ .item { grid-template-columns:1fr; } }
+  .item .claim { font-size:14px; }
+  .item .claim .h { font-family:var(--serif); font-weight:600; font-size:16px; color:var(--ink); margin-bottom:4px; }
+  .item .claim .ev { font-family:var(--mono); font-size:11px; color:var(--powder-muted); margin-top:6px; }
+  .item .claim .ev b { color:var(--powder-ink); }
+  .verdict { font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:0.04em; padding:4px 8px; border-radius:6pt; text-align:center; font-weight:600; align-self:center; }
+  .v-keep { background:#E4E9DC; color:#4B5C39; }
+  .v-promote { background:rgba(0,123,205,0.12); color:var(--accent); }
+  .v-fold { background:var(--powder); color:var(--powder-ink); }
+  .v-trim { background:#F3D9CC; color:#8A3B1E; }
+
+  /* proposed triad */
+  .triad-cards { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  @media (max-width:820px){ .triad-cards { grid-template-columns:1fr; } }
+  .tcard { background:var(--paper); border:1px solid var(--powder-line); border-top:3px solid var(--accent); border-radius:14pt; padding:18px 18px; }
+  .tcard .q { font-family:var(--mono); font-size:11px; letter-spacing:0.05em; text-transform:uppercase; color:var(--accent); margin-bottom:6px; }
+  .tcard h3 { font-family:var(--serif); font-weight:600; font-size:17px; color:var(--ink); margin-bottom:8px; line-height:1.25; }
+  .tcard p { font-size:13px; }
+  .tcard .from { font-family:var(--mono); font-size:10.5px; color:var(--powder-muted); margin-top:10px; border-top:1px solid var(--powder-line); padding-top:8px; }
+
+  /* mapping table */
+  table { border-collapse:collapse; width:100%; max-width:880px; font-size:13px; margin-top:8px; }
+  th,td { text-align:left; padding:10px 12px; border-bottom:1px solid var(--powder-line); vertical-align:top; }
+  th { font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:0.05em; color:var(--powder-muted); font-weight:500; }
+  td.old { color:var(--powder-muted); }
+  td .arr { color:var(--accent); }
+  td b { color:var(--ink); }
+
+  /* options */
+  .opts { display:grid; grid-template-columns:1fr 1fr; gap:16px; }
+  @media (max-width:720px){ .opts { grid-template-columns:1fr; } }
+  .opt { background:var(--paper); border:1px solid var(--powder-line); border-radius:14pt; padding:16px 18px; }
+  .opt.rec { border-color:var(--accent); box-shadow:0 4px 16px rgba(0,123,205,0.08); }
+  .opt .k { font-family:var(--mono); font-size:10.5px; text-transform:uppercase; letter-spacing:0.05em; color:var(--powder-muted); margin-bottom:8px; }
+  .opt.rec .k { color:var(--accent); }
+  .opt .t { font-weight:600; color:var(--ink); font-size:14.5px; margin-bottom:6px; }
+  .opt p { font-size:13px; }
+
+  .open-q { display:flex; flex-direction:column; gap:12px; max-width:880px; }
+  .q { background:var(--paper); border:1px solid var(--powder-line); border-left:4px solid var(--accent); border-radius:10pt; padding:14px 18px; }
+  .q .qt { font-weight:600; font-size:14.5px; color:var(--ink); margin-bottom:3px; }
+  .q .qd { font-size:13px; color:var(--powder-muted); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <div class="eyebrow">Thesis · §5.1 Contributions to theory · reconsideration</div>
+  <h1>Where do our key contributions actually lie?</h1>
+  <p class="lead">The material in §5.1.2–§5.1.4 is strong and well-grounded — what's drifted is the <b>framing</b>. Since §5.1.1 became the "continuation of digital transformation, intensified" section, it now overlaps the three that follow, they still carry dropped scaffolding (dynamic capabilities, imported theory), and they read as a flat list ("a second… third… fourth contribution") rather than one argument.</p>
+
+  <div class="tldr">
+    <div class="k">Recommendation in one line</div>
+    <p>Keep the contributions, but organise them as a single coherent claim about how value creation <em>changes</em> under agentic AI — a <b>where / who / what</b> triad — and pull the sharpest, most novel finding (the <b>governance inversion</b>) out of where it's currently buried.</p>
+    <div class="triad">
+      <span>WHERE value is made → the configuration / harness</span>
+      <span>WHO makes it &amp; the limit → the manager</span>
+      <span>WHAT value becomes → an entangled portfolio</span>
+    </div>
+  </div>
+
+  <!-- 01 DIAGNOSIS -->
+  <section>
+    <div class="sec-head"><span class="num">01</span><h2>Why 5.1.2–5.1.4 feel off</h2></div>
+    <div class="cards3">
+      <div class="diag">
+        <div class="t">Overlap with the new §5.1.1</div>
+        <p>§5.1.1 now discusses configuration and managerial steering, so §5.1.2 (configuration) and §5.1.3 (steering) partly repeat it. The <b>governance-inversion</b> point is split across 5.1.1 and 5.1.3.</p>
+      </div>
+      <div class="diag">
+        <div class="t">Leftover scaffolding</div>
+        <p>§5.1.3 still "refines the <code>seizing and reconfiguring</code> constructs… dynamic-capabilities literature" — but you dropped DC. §5.1.2 leans on Orlikowski's practice lens and value co-creation, which now read as imported theory, not grounded findings.</p>
+      </div>
+      <div class="diag">
+        <div class="t">A list, not an argument</div>
+        <p>"A second… Third… Fourth… contribution" presents four parallel claims with no spine. It isn't clear how they relate or which is the headline.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 THE MATERIAL -->
+  <section>
+    <div class="sec-head"><span class="num">02</span><h2>What's actually in the data (the raw contributions)</h2></div>
+    <p class="sec-intro">Stripped of framing, here is the distinctive, Chapter-4-grounded material — and a verdict on each.</p>
+    <div class="menu">
+      <div class="item">
+        <div class="claim">
+          <div class="h">Value is produced in the configuration — the harness</div>
+          Comparable use cases diverged with the configuration around the model (data access, memory, tools, guardrails, prompt) and the conditions around it — not with the model itself.
+          <div class="ev"><b>Evidence:</b> Table 4 (§4.4.4) · harness (§4.3.2) · data-readiness (§4.2.3)</div>
+        </div>
+        <div class="verdict v-keep">Keep · core</div>
+      </div>
+      <div class="item">
+        <div class="claim">
+          <div class="h">The manager is the decisive variable — a steering repertoire</div>
+          Managers reshape, leverage, or navigate conditions; value tracks what they do, not what they buy. The <b>AI champion</b> (technical + business fluency) converts leadership backing into change.
+          <div class="ev"><b>Evidence:</b> §4.2 conditions &amp; behaviors · AI champion (§4.2.2)</div>
+        </div>
+        <div class="verdict v-keep">Keep</div>
+      </div>
+      <div class="item">
+        <div class="claim">
+          <div class="h">…and managerial agency has a hard boundary — the governance inversion</div>
+          Managers reshape what they own but <b>navigate</b> what they don't; governance has flipped from the literature's classic <em>enabler</em> to the <em>main inhibitor</em>, and no one reshaped it.
+          <div class="ev"><b>Evidence:</b> §4.2.3–4.2.4 · navigation bias · governance as top obstacle</div>
+        </div>
+        <div class="verdict v-promote">Promote</div>
+      </div>
+      <div class="item">
+        <div class="claim">
+          <div class="h">Value is an entangled portfolio, governed recursively</div>
+          Benefits, sacrifices, and risks are produced together; the same technology governs its own risks — AI governs AI (brand/evaluator agents). Value destruction is actively managed, not just avoided.
+          <div class="ev"><b>Evidence:</b> §4.4 (portfolio) · §4.5 (paradoxes)</div>
+        </div>
+        <div class="verdict v-keep">Keep</div>
+      </div>
+      <div class="item">
+        <div class="claim">
+          <div class="h">Managerial demands intensify vs. prior DT waves</div>
+          Speed of progression breeds resistance ("it goes so fast that they get overwhelmed"), so the managerial behaviors that mattered in earlier digital transformation matter <em>more</em> now.
+          <div class="ev"><b>Evidence:</b> §4.1.1 · cross-cut with Enholm/Vidal/Gebauer</div>
+        </div>
+        <div class="verdict v-fold">Fold into 5.1.1</div>
+      </div>
+      <div class="item">
+        <div class="claim">
+          <div class="h">Practice lens / value co-creation theory (Orlikowski; Vargo &amp; Lusch)</div>
+          Currently used to underwrite the configuration-in-use claim.
+          <div class="ev"><b>Status:</b> imported theory; the grounded finding stands on its own</div>
+        </div>
+        <div class="verdict v-trim">Trim to 1 line</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 PROPOSED -->
+  <section>
+    <div class="sec-head"><span class="num">03</span><h2>Recommended structure — a where / who / what triad</h2></div>
+    <p class="sec-intro">One spine: agentic AI doesn't change <em>that</em> value is organizational (that's §5.1.1, the continuation) — it changes <em>where</em> value is made, <em>who</em> makes it, and <em>what</em> it becomes. Three sharp contributions, each clearly beyond the DT baseline, none leaning on dropped theory.</p>
+    <div class="triad-cards">
+      <div class="tcard">
+        <div class="q">5.1.2 · Where</div>
+        <h3>Value lives in the configuration, not the tool</h3>
+        <p>The agentic-specific complementary asset is the harness plus the conditions around it. Value is read off the configuration, not the model (Table 4).</p>
+        <div class="from">from current 5.1.2 · trim Orlikowski/co-creation to one line</div>
+      </div>
+      <div class="tcard">
+        <div class="q">5.1.3 · Who &amp; the limit</div>
+        <h3>The manager makes or breaks it — and hits a wall at governance</h3>
+        <p>The steering repertoire + the AI champion, <em>and</em> the navigation bias: managers reshape what they own but treat governance as fixed — governance inverts from enabler to chief inhibitor.</p>
+        <div class="from">merge current 5.1.3 + governance-inversion from 5.1.1 · drop DC language</div>
+      </div>
+      <div class="tcard">
+        <div class="q">5.1.4 · What</div>
+        <h3>Value becomes an entangled portfolio, governed recursively</h3>
+        <p>Benefits, sacrifices, and risks produced together; the technology governs its own risks (AI governs AI). A contribution to value theory in the AI context.</p>
+        <div class="from">from current 5.1.4 · tighten</div>
+      </div>
+    </div>
+
+    <h2 style="font-size:18px;margin:34px 0 6px;">Old → new mapping</h2>
+    <table>
+      <thead><tr><th>Now</th><th>Becomes</th></tr></thead>
+      <tbody>
+        <tr><td class="old">5.1.1 continuation of DT (intensified)</td><td><b>5.1.1</b> — keep as positioning; <span class="arr">+</span> absorb "demands intensify" (§4.1.1)</td></tr>
+        <tr><td class="old">5.1.2 value as configuration-in-use</td><td><b>5.1.2 · Where</b> — keep core; trim practice-lens / co-creation theory to a clause</td></tr>
+        <tr><td class="old">5.1.3 managerial repertoire &amp; navigation bias</td><td><b>5.1.3 · Who &amp; limit</b> — keep; <span class="arr">+</span> pull in the governance inversion; <span class="arr">−</span> drop "seizing/reconfiguring / dynamic-capabilities"</td></tr>
+        <tr><td class="old">5.1.4 entangled portfolio / paradox</td><td><b>5.1.4 · What</b> — keep; tighten</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <!-- 04 ALTERNATIVES -->
+  <section>
+    <div class="sec-head"><span class="num">04</span><h2>If you want it leaner</h2></div>
+    <div class="opts">
+      <div class="opt rec">
+        <div class="k">Option A — recommended</div>
+        <div class="t">Positioning + the where/who/what triad</div>
+        <p>§5.1.1 + three sharp contributions (above). Keeps all the distinctive material, removes overlap and DC residue. Four headings total.</p>
+      </div>
+      <div class="opt">
+        <div class="k">Option B — two big contributions</div>
+        <div class="t">"Value is configured" &amp; "the manager makes or breaks it"</div>
+        <p>Collapse to two: (1) value lives in the configuration; (2) the manager is decisive but bounded by governance. Fold the entangled-portfolio/paradox into the value-outcomes discussion rather than a standalone contribution. Tightest, but loses the value-theory contribution as a headline.</p>
+      </div>
+      <div class="opt">
+        <div class="k">Option C — model-first</div>
+        <div class="t">One contribution: the process model, with facets</div>
+        <p>Frame §5.1 as a single contribution — the grounded observe→steer→apply→value model — and present where/who/what as its facets (not separate "contributions"). Best if a reviewer wants one clear headline contribution.</p>
+      </div>
+      <div class="opt">
+        <div class="k">Cross-cutting</div>
+        <div class="t">The AI champion</div>
+        <p>Either keep it inside 5.1.3 (Who) or surface it as a short standalone micro-foundational actor — it's distinctive enough to name explicitly. Your call.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 DECISIONS -->
+  <section>
+    <div class="sec-head"><span class="num">05</span><h2>Your call</h2></div>
+    <div class="open-q">
+      <div class="q"><div class="qt">1 · Which option — A (triad), B (two), or C (model-first)?</div><div class="qd">A keeps the most while fixing the framing; C is strongest if a marker wants a single headline contribution.</div></div>
+      <div class="q"><div class="qt">2 · Promote the governance inversion?</div><div class="qd">It's your most counter-intuitive finding (enabler → inhibitor) and is currently a half-sentence. Give it prominence inside 5.1.3 (recommended) or its own short subsection?</div></div>
+      <div class="q"><div class="qt">3 · How much theory stays in 5.1.2?</div><div class="qd">Keep Orlikowski / Vargo &amp; Lusch as a one-line anchor, or cut entirely and let the grounded finding stand?</div></div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>

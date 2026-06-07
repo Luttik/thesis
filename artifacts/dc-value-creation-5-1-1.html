@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dynamic capabilities &amp; value creation — where the chain actually ends (§5.1.1)</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:    #FDFCFA;
+    --ink:       #000000;
+    --accent:    #007bcd;
+    --powder:    #EAF1F6;
+    --green:     #66BB6A;
+    --blue-muted:#6A8CAF;
+    --powder-light: #F3F7FA;
+    --powder-line:  rgba(31,74,105,0.13);
+    --powder-muted: #6E8798;
+    --powder-ink:   #3D5363;
+    --paper:     #FFFFFF;
+    --gold:      #C2A83E;
+    --rust:      #B04A3F;
+    --serif: "Lora", Georgia, "Times New Roman", serif;
+    --sans:  "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono:  ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--canvas);
+    color: var(--powder-ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    padding: 56px 24px 120px;
+  }
+  .page {
+    max-width: 1140px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 250px;
+    gap: 48px;
+  }
+  @media (max-width: 960px) { .page { grid-template-columns: 1fr; } aside { order: 2; position: static; } }
+
+  .eyebrow {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--powder-muted);
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 32px;
+    color: var(--ink);
+    letter-spacing: -0.01em;
+    line-height: 1.2;
+    margin-bottom: 14px;
+  }
+  .lead { max-width: 660px; margin-bottom: 8px; font-size: 16px; }
+  .lead em { font-style: italic; color: var(--ink); }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 600;
+    font-size: 22px;
+    color: var(--ink);
+    margin: 44px 0 12px;
+    scroll-margin-top: 24px;
+  }
+  h3 {
+    font-family: var(--sans);
+    font-weight: 600;
+    font-size: 15px;
+    color: var(--ink);
+    margin: 22px 0 6px;
+  }
+  p { margin-bottom: 12px; max-width: 700px; }
+  .muted { color: var(--powder-muted); }
+  strong { color: var(--ink); font-weight: 600; }
+  code { font-family: var(--mono); font-size: 13px; background: var(--powder-light); padding: 1px 5px; border-radius: 4pt; }
+  a { color: var(--accent); }
+
+  .term {
+    border-bottom: 1.5px dotted var(--accent);
+    cursor: help;
+    color: var(--ink);
+  }
+
+  /* ── callout ──────────────────────────── */
+  .callout {
+    border: 1px solid var(--powder-line);
+    border-left: 3px solid var(--accent);
+    background: var(--powder-light);
+    border-radius: 10pt;
+    padding: 16px 20px;
+    margin: 18px 0;
+    max-width: 720px;
+  }
+  .callout.tldr { border-left-color: var(--green); }
+  .callout .k {
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--powder-muted);
+    display: block;
+    margin-bottom: 6px;
+  }
+  .callout p:last-child { margin-bottom: 0; }
+
+  /* ── chain / pipeline diagram ─────────── */
+  .chain-wrap {
+    border: 1px solid var(--powder-line);
+    border-radius: 16pt;
+    background: var(--paper);
+    padding: 26px 22px 20px;
+    margin: 16px 0 10px;
+  }
+  .chain {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 8px;
+  }
+  .stage {
+    flex: 1 1 150px;
+    min-width: 150px;
+    border-radius: 10pt;
+    padding: 12px 13px;
+    background: var(--powder);
+    border: 1px solid var(--powder-line);
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+  .stage .chip {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--powder-muted);
+  }
+  .stage .name { font-family: var(--serif); font-size: 16px; color: var(--ink); line-height: 1.2; }
+  .stage .map  { font-size: 12px; color: var(--powder-ink); }
+  .stage .map em { color: var(--accent); font-style: italic; font-weight: 500; }
+  .stage.bridge {
+    background: #fff;
+    border: 1.5px solid var(--accent);
+    box-shadow: 0 4px 18px rgba(0,123,205,0.12);
+    flex: 1.3 1 180px;
+  }
+  .stage.bridge .chip { color: var(--accent); font-weight: 600; }
+  .stage.outcome { background: var(--powder-light); }
+  .stage.outcome .chip { color: var(--green); }
+  .arrow {
+    align-self: center;
+    color: var(--powder-muted);
+    font-size: 18px;
+    flex: 0 0 auto;
+    padding: 0 1px;
+  }
+  .zones {
+    display: flex;
+    gap: 8px;
+    margin-top: 14px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--powder-muted);
+    flex-wrap: wrap;
+  }
+  .zones span { display: inline-flex; align-items: center; gap: 6px; }
+  .dot { width: 10px; height: 10px; border-radius: 3px; display: inline-block; }
+  .dot.dc { background: var(--powder); border: 1px solid var(--powder-line); }
+  .dot.br { background: #fff; border: 1.5px solid var(--accent); }
+  .dot.ou { background: var(--powder-light); border: 1px solid var(--green); }
+  .caption { font-size: 12.5px; color: var(--powder-muted); max-width: 700px; margin-top: 10px; }
+
+  /* ── tables ───────────────────────────── */
+  table { border-collapse: collapse; width: 100%; max-width: 720px; font-size: 13.5px; margin: 14px 0; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--powder-line); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); font-weight: 500; }
+  td .q { color: var(--ink); font-weight: 600; }
+  td.was { color: var(--rust); }
+  td.is  { color: var(--powder-ink); }
+  td.is b { color: var(--green); }
+
+  /* ── tabs (draft viewer) ──────────────── */
+  .tabs { margin: 14px 0 8px; }
+  .tabbar { display: flex; gap: 6px; margin-bottom: 0; border-bottom: 1px solid var(--powder-line); }
+  .tabbar button {
+    appearance: none;
+    border: none;
+    background: none;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    letter-spacing: 0.03em;
+    color: var(--powder-muted);
+    padding: 9px 14px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    margin-bottom: -1px;
+  }
+  .tabbar button.on { color: var(--accent); border-bottom-color: var(--accent); font-weight: 600; }
+  .tabbar button:hover { color: var(--ink); }
+  .pane { display: none; }
+  .pane.on { display: block; }
+
+  .draft {
+    border: 1px solid var(--powder-line);
+    border-radius: 0 0 14pt 14pt;
+    background: var(--paper);
+    padding: 26px 28px;
+  }
+  .draft.current { background: var(--powder-light); }
+  .draft .h4 { font-family: var(--serif); font-weight: 600; font-size: 17px; color: var(--ink); margin-bottom: 14px; }
+  .draft p { font-family: var(--serif); font-size: 15.5px; line-height: 1.7; color: #283642; max-width: 640px; }
+  .draft p em { font-style: italic; }
+  .draft .new-bit { background: rgba(0,123,205,0.10); border-radius: 3pt; padding: 0 2px; }
+  .changelog { max-width: 700px; }
+  .changelog li { margin: 0 0 11px 18px; padding-left: 4px; }
+  .changelog li b { color: var(--ink); }
+
+  ul.clean { list-style: none; max-width: 700px; }
+  ul.clean li { position: relative; padding-left: 20px; margin-bottom: 9px; }
+  ul.clean li::before { content: "—"; position: absolute; left: 0; color: var(--accent); }
+
+  /* ── sidebar glossary ─────────────────── */
+  aside { position: sticky; top: 32px; align-self: start; display: flex; flex-direction: column; gap: 16px; }
+  .card {
+    border: 1px solid var(--powder-line);
+    border-radius: 16pt;
+    background: var(--paper);
+    padding: 18px 18px 10px;
+  }
+  .card .label {
+    font-family: var(--mono);
+    font-size: 10px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--powder-muted);
+    margin-bottom: 12px;
+  }
+  aside dl dt { font-family: var(--serif); font-size: 14.5px; color: var(--ink); margin-top: 0; }
+  aside dl dd { font-size: 12.5px; line-height: 1.5; color: var(--powder-ink); margin: 2px 0 13px; }
+  aside dl dt.hl, aside dl dt.hl + dd {
+    background: rgba(0,123,205,0.10);
+    margin-left: -8px; margin-right: -8px; padding-left: 8px; padding-right: 8px; border-radius: 4pt;
+  }
+  .cite-card .label { color: var(--accent); }
+  .cite-card ul { list-style: none; }
+  .cite-card li { font-size: 12px; line-height: 1.45; margin-bottom: 11px; color: var(--powder-ink); }
+  .cite-card li b { color: var(--ink); font-weight: 600; }
+  .cite-card .have { color: var(--green); font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.05em; }
+  .cite-card .add  { color: var(--gold);  font-family: var(--mono); font-size: 9.5px; text-transform: uppercase; letter-spacing: 0.05em; }
+</style>
+</head>
+<body>
+<div class="page">
+  <main>
+    <div class="eyebrow">Thesis · §5.1.1 · theory note</div>
+    <h1>Where does the chain end? Dynamic capabilities, reconfiguration, and value creation</h1>
+    <p class="lead">
+      Your question: <em>are dynamic capabilities even involved with value creation, or does it end with the
+      reconfiguration of resources?</em> The short answer is that the theory does <em>not</em> stop at
+      reconfiguration — value is the very thing it exists to explain — but the value sits <em>downstream</em> of
+      reconfiguration and is only loosely tied to it. That loose coupling is the gap your thesis fills.
+    </p>
+
+    <div class="callout tldr">
+      <span class="k">In one line</span>
+      <p>Reconfiguration renews <em>what a firm can do</em>; value appears only when the renewed resources are
+      <strong>orchestrated in use</strong>, and is kept only under further conditions of appropriability. Your data
+      says the binding constraint lives in that orchestration step — the step dynamic-capabilities theory names but
+      leaves empirically thin.</p>
+    </div>
+
+    <h2>1 · What the theory is actually a theory <em>of</em></h2>
+    <p>
+      It is tempting to read dynamic capabilities (DC) as "the ability to reconfigure resources," full stop. But
+      Teece, Pisano &amp; Shuen (1997) introduced the construct to answer a value question: how do firms
+      <strong>achieve and sustain competitive advantage</strong> in fast-changing environments? Reconfiguration is
+      the <em>mechanism</em>; advantage — i.e., value — is the <em>explanandum</em>, the thing the whole apparatus
+      exists to account for. So value is not appended after the theory; it <em>is</em> the theory's reason for
+      existing. The DC are upstream means to it.
+    </p>
+    <p>
+      In the standard microfoundational reading, the apparatus has three clusters —
+      <span class="term" data-term="sensing">sensing</span>,
+      <span class="term" data-term="seizing">seizing</span>, and
+      <span class="term" data-term="transforming">transforming</span> (reconfiguring). Crucially, value capture is
+      folded into <em>seizing</em> from the start (business-model design, investment discipline, capturing returns).
+      The theory therefore reaches all the way to value on its own terms — reconfiguration is one cluster of three,
+      not the finish line.
+    </p>
+
+    <h2>2 · The chain, drawn out</h2>
+    <p>
+      The clearest way to see your question is to lay the causal chain end to end. The three DC clusters renew the
+      resource base; a <strong>bridge</strong> step deploys that base in practice; and only then do the two value
+      outcomes appear. Your model's own categories map onto it (blue italics).
+    </p>
+
+    <div class="chain-wrap">
+      <div class="chain">
+        <div class="stage">
+          <span class="chip">Dynamic capability</span>
+          <span class="name">Sensing</span>
+          <span class="map">opportunities &amp; threats · <em>Observing</em></span>
+        </div>
+        <span class="arrow">→</span>
+        <div class="stage">
+          <span class="chip">Dynamic capability</span>
+          <span class="name">Seizing</span>
+          <span class="map">commit, mobilise, choose · <em>Steering</em></span>
+        </div>
+        <span class="arrow">→</span>
+        <div class="stage">
+          <span class="chip">Dynamic capability</span>
+          <span class="name">Transforming</span>
+          <span class="map">renew the resource base · <em>Steering</em></span>
+        </div>
+        <span class="arrow">→</span>
+        <div class="stage bridge">
+          <span class="chip">◆ Bridge — under-theorised</span>
+          <span class="name">Orchestration in use</span>
+          <span class="map">the harness &amp; configuration · <em>Applying</em></span>
+        </div>
+        <span class="arrow">→</span>
+        <div class="stage outcome">
+          <span class="chip">Outcome</span>
+          <span class="name">Value created</span>
+          <span class="map">portfolio of benefits · <em>Value outcomes</em></span>
+        </div>
+        <span class="arrow">→</span>
+        <div class="stage outcome">
+          <span class="chip">Outcome</span>
+          <span class="name">Value captured</span>
+          <span class="map">appropriability · <em>(open question)</em></span>
+        </div>
+      </div>
+      <div class="zones">
+        <span><i class="dot dc"></i> Dynamic capabilities — capacity to change the resource base</span>
+        <span><i class="dot br"></i> Asset orchestration — deploying the renewed base</span>
+        <span><i class="dot ou"></i> Value — created, then captured</span>
+      </div>
+      <p class="caption">
+        Reconfiguration sits in the third box. Your finding is that organisations diverged at the
+        <strong>fourth</strong> box — the one DC theory gestures at but rarely opens up.
+      </p>
+    </div>
+
+    <h2>3 · Three reasons reconfiguration isn't the finish line</h2>
+
+    <h3>a. A renewed resource base still has to be <em>used</em></h3>
+    <p>
+      Transforming produces a renewed set of resources; it does not, by itself, produce output. The actual
+      value-producing work is done by <span class="term" data-term="ordinary">ordinary (operational)
+      capabilities</span> deploying that base day to day. DC change the toolkit; value comes from
+      <span class="term" data-term="orchestration">orchestrating</span> the toolkit on a real problem. This is
+      exactly your <em>applying</em> category — and it is why "reconfigured" and "value-creating" are not the same
+      state.
+    </p>
+
+    <h3>b. Having the capability does not guarantee the value</h3>
+    <p>
+      The DC are <strong>necessary but not sufficient</strong>. Two firms can hold comparable capabilities yet land
+      very different outcomes, because the link to performance runs <em>indirectly</em> through the resource
+      configuration each one actually builds, and through differences in timing, cost, and learning. This is the
+      precise theoretical home of your Table 4 result: nominally identical use cases, divergent value, explained by
+      configuration rather than capability. <span class="muted">(In the literature this is the
+      Eisenhardt&nbsp;&amp;&nbsp;Martin / Zott line — see the citation card.)</span>
+    </p>
+
+    <h3>c. Value <em>created</em> is not value <em>captured</em></h3>
+    <p>
+      Even once value is created, the firm keeps it only under the right
+      <span class="term" data-term="appropriability">appropriability</span> conditions —
+      <span class="term" data-term="complementary">complementary assets</span>, isolating mechanisms, the absence of
+      easy imitation. Your §2.4 already separates creation from capture; Lepak, Smith &amp; Taylor (2007) is the
+      reference that formalises it. Your model speaks mainly to <em>creation</em>; capture (can a
+      configuration-based advantage resist imitation?) is the natural next problem it raises.
+    </p>
+
+    <h2>4 · The bridge has a name: asset orchestration</h2>
+    <p>
+      The step between "renewed resource base" and "value created" is not a void in the theory — Teece calls it
+      <strong>asset orchestration</strong>: the managerial work of combining and co-aligning resources so they
+      actually generate returns. The trouble is that the construct stays abstract; the literature rarely specifies
+      <em>what the orchestration consists of</em> in a given setting. That is the opening your study walks through.
+      Your <em>harness</em> (data access, memory, tools, guardrails, prompt, model choice) plus the surrounding
+      conditions and managerial behaviours are a concrete, microfoundational account of asset orchestration in the
+      agentic-AI setting. Framed this way, you are not merely <em>relocating</em> a constraint inside
+      sensing→reconfiguring — you are <strong>completing a link the theory leaves underdeveloped</strong>.
+    </p>
+
+    <div class="callout">
+      <span class="k">The two readings, side by side</span>
+      <table>
+        <thead><tr><th></th><th>The quick reading</th><th>What DC theory actually implies</th></tr></thead>
+        <tbody>
+          <tr>
+            <td><span class="q">Is value in scope?</span></td>
+            <td class="was">"It's about reconfiguring resources."</td>
+            <td class="is">Value (advantage) is the <b>explanandum</b>; reconfiguring is a means to it.</td>
+          </tr>
+          <tr>
+            <td><span class="q">Does reconfiguring create value?</span></td>
+            <td class="was">"Renew the base, value follows."</td>
+            <td class="is">Renewal is <b>necessary, not sufficient</b>; resources must be orchestrated in use.</td>
+          </tr>
+          <tr>
+            <td><span class="q">Is created value kept?</span></td>
+            <td class="was">"We created value, so we have an edge."</td>
+            <td class="is">Creation ≠ capture; capture needs <b>appropriability</b> &amp; complementary assets.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>5 · So — to your question, directly</h2>
+    <ul class="clean">
+      <li>Dynamic capabilities are <strong>absolutely involved with value creation</strong>; the framework was built to explain value, not just resource change.</li>
+      <li>But it does <strong>not end at reconfiguration</strong>. Reconfiguration renews the base; value is created one step later, when the base is orchestrated in use, and captured one step later still.</li>
+      <li>That orchestration step is <strong>real in the theory but thin in the evidence</strong> — which is precisely why your grounded account of the harness and conditions is a contribution rather than a restatement.</li>
+    </ul>
+
+    <h2>6 · New draft of §5.1.1</h2>
+    <p>
+      Below: a rewritten §5.1.1 that fixes the conflation in the current text (where <em>steering</em> and
+      <em>applying</em> were merged into "seizing and reconfiguring") and reframes the contribution as
+      <em>completing the chain</em>. Toggle to compare with the current version and see what changed. New material
+      is <span class="new-bit">highlighted</span>.
+    </p>
+
+    <div class="tabs" data-tabs>
+      <div class="tabbar">
+        <button class="on" data-t="0">New draft</button>
+        <button data-t="1">Current</button>
+        <button data-t="2">What changed &amp; why</button>
+      </div>
+
+      <div class="pane on" data-pane>
+        <div class="draft">
+          <div class="h4">5.1.1 Extending dynamic capabilities to agentic AI in marketing</div>
+          <p>
+            The model extends dynamic capabilities theory (Teece et al., 1997) into the specific context of agentic
+            AI in marketing, and <span class="new-bit">in doing so locates the study's contribution at a particular
+            point in that theory's causal chain</span>. Dynamic capabilities describe a firm's capacity to integrate,
+            build, and reconfigure its resource base in response to a changing environment;
+            <span class="new-bit">the theory's purpose is to explain how firms create and sustain advantage under
+            that change, so value is not external to the framework but the outcome it exists to account for.</span>
+            The model's elements map onto this apparatus. <em>Observing</em> corresponds closely to digital sensing
+            (Ellström et al., 2021; Warner &amp; Wäger, 2019). <em>Steering</em> — reshaping, leveraging, and
+            navigating organizational conditions — performs the <span class="new-bit">seizing and reconfiguring work
+            through which the resource base is renewed</span>, building the literacy, data access, clarity, and
+            protected space a capable agent requires. <em>Applying</em>, however, <span class="new-bit">is
+            analytically distinct from this renewal: it is the deployment and orchestration of the renewed resources
+            in use — the configuration through which an agent actually acts. Separating these two moments matters,
+            because it is the second, not the first, that the data identifies as decisive.</span>
+          </p>
+          <p>
+            <span class="new-bit">This separation exposes where the binding constraint sits, and it is not where the
+            theory's emphasis would predict.</span> Sensing was not the scarce capability: participants across roles
+            and organizations observed the same hockey-stick progression (Section 4.1.1), the same competitive and
+            consumer-driven market pressure (Section 4.1.2), and the same vendor roadmaps (Section 4.1.3).
+            <span class="new-bit">Nor was the renewal of the resource base sufficient on its own; comparable
+            investments produced divergent outcomes for nominally identical use cases (Section 4.4.4; Table 4). What
+            separated organizations was the orchestration of resources in use — the configuration in which a renewed
+            resource base was actually brought to bear on a marketing problem.</span> Dynamic capabilities theory
+            anticipates this step in the abstract, through <span class="new-bit">the notion of asset orchestration
+            (Teece, 2007) and</span> the long-standing argument that the value of a digital technology is mediated by
+            complementary assets rather than realized automatically (Ancillai et al., 2023; Enholm et al., 2022;
+            Holmström, 2022), <span class="new-bit">but it has remained empirically thin about what that
+            orchestration consists of. The contribution of this study is to give that step concrete,
+            microfoundational content in the agentic-AI setting: it specifies the configurational work — the harness,
+            the conditions, and the managerial behaviors around the agent — through which a renewed resource base is
+            converted into realized value.</span>
+          </p>
+          <p>
+            <span class="new-bit">Read this way, the study does more than relocate the locus of differentiation from
+            opportunity recognition to organizational follow-through; it completes a link the theory leaves
+            underdeveloped. Reconfiguration renews what a firm can do, but value is created only when those resources
+            are orchestrated in use, and captured only under the further conditions of appropriability and
+            complementarity that govern who retains the value once created (Lepak et al., 2007). The model speaks
+            principally to creation: it accounts for how marketing managers turn a widely available technology into
+            value through the configuration they build around it, and it leaves the durability of that value —
+            whether a configuration-based advantage can resist imitation — as the natural next problem the framework
+            raises.</span>
+          </p>
+        </div>
+      </div>
+
+      <div class="pane" data-pane>
+        <div class="draft current">
+          <div class="h4">5.1.1 Extending dynamic capabilities to agentic AI in marketing <span class="muted">(current)</span></div>
+          <p>
+            The model extends dynamic capabilities theory (Teece et al., 1997) into the specific context of agentic
+            AI in marketing. The observing category corresponds closely to digital sensing (Ellström et al., 2021;
+            Warner &amp; Wäger, 2019), and <strong>steering and applying together perform the seizing and
+            reconfiguring functions</strong> through which firms renew their resource base. The study's distinctive
+            contribution, however, is to show where the binding constraint actually sits. Sensing was not the scarce
+            capability: participants across roles and organizations observed the same hockey-stick progression
+            (Section 4.1.1), the same competitive and consumer-driven market pressure (Section 4.1.2), and the same
+            vendor roadmaps (Section 4.1.3). What separated organizations was the internal work of reconfiguration —
+            building literacy, freeing data, providing clarity, and protecting experimentation; the divergent
+            outcomes for comparable use cases make this difference visible (Section 4.4.4; Table 4). This relocates
+            the locus of differentiation from opportunity recognition to organizational follow-through, and it gives
+            empirical specificity, in the agentic-AI setting, to the long-standing argument that the value of a
+            digital technology is mediated by complementary assets rather than realized automatically (Ancillai et
+            al., 2023; Enholm et al., 2022; Holmström, 2022).
+          </p>
+        </div>
+      </div>
+
+      <div class="pane" data-pane>
+        <div class="draft">
+          <ul class="changelog">
+            <li><b>Un-merges <em>steering</em> from <em>applying</em>.</b> The current text says both "together perform the seizing and reconfiguring functions." But if value lives in configuration-in-use (your §5.1.2), then <em>applying</em> is not reconfiguring — it is the <em>deployment</em> of the reconfigured base. The draft assigns <em>steering</em> → seizing/transforming (renewal) and <em>applying</em> → orchestration-in-use.</li>
+            <li><b>States that value is in-scope for the theory.</b> A new clause makes explicit that DC theory exists to explain advantage, pre-empting the "doesn't it stop at reconfiguration?" reading.</li>
+            <li><b>Adds the "not sufficient" beat.</b> The draft notes renewal alone didn't separate firms — directly tying Table 4 to the necessary-but-not-sufficient logic rather than to reconfiguration as such.</li>
+            <li><b>Names the bridge.</b> Introduces <em>asset orchestration</em> as the under-specified step, so the contribution becomes "give it empirical content" rather than "relocate a constraint."</li>
+            <li><b>Closes on creation vs capture.</b> Brings in Lepak et al. (2007), scopes the model to <em>creation</em>, and seeds a future-research hook on durability/imitation that links to your §5.3.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="k">Before you paste</span>
+      <p>The draft uses two citations beyond the current paragraph: <strong>Teece (2007)</strong> for "asset
+      orchestration" and <strong>Lepak et al. (2007)</strong> for creation-vs-capture. Lepak you already have. If
+      you'd rather not add Teece (2007), drop the "(Teece, 2007)" tag and the asset-orchestration phrase still reads
+      fine as a description — but adding it is the cleaner scholarly move. See the citation card for the full list.</p>
+    </div>
+  </main>
+
+  <aside>
+    <div class="card">
+      <div class="label">Glossary — hover a dotted term</div>
+      <dl id="gloss">
+        <dt data-g="sensing">Sensing</dt>
+        <dd>Identifying and shaping opportunities and threats in the environment. Your <em>observing</em> category.</dd>
+        <dt data-g="seizing">Seizing</dt>
+        <dd>Mobilising and committing resources to an opportunity, including business-model and investment choices. Already contains value capture.</dd>
+        <dt data-g="transforming">Transforming / reconfiguring</dt>
+        <dd>Renewing the resource base — recombining, adding, retiring resources. The cluster your question asks about.</dd>
+        <dt data-g="ordinary">Ordinary capabilities</dt>
+        <dd>The operational "doing" capabilities that run the business day to day. They produce output; DC change <em>what</em> output is possible.</dd>
+        <dt data-g="orchestration">Asset orchestration</dt>
+        <dd>The managerial act of combining and co-aligning resources so they actually yield returns — the bridge from a renewed base to value.</dd>
+        <dt data-g="appropriability">Appropriability</dt>
+        <dd>How well a firm can prevent others from capturing the value it creates (imitation, bargaining, spillovers).</dd>
+        <dt data-g="complementary">Complementary assets</dt>
+        <dd>The surrounding resources (data, skills, channels, process) without which a technology's value is not realised or kept.</dd>
+      </dl>
+    </div>
+
+    <div class="card cite-card">
+      <div class="label">Citations for the draft</div>
+      <ul>
+        <li><span class="have">in library</span><br><b>Teece et al. (1997)</b> — DC definition &amp; the advantage purpose.</li>
+        <li><span class="have">in library</span><br><b>Ellström et al. (2021); Warner &amp; Wäger (2019)</b> — digital sensing.</li>
+        <li><span class="have">in library</span><br><b>Ancillai (2023); Enholm (2022); Holmström (2022)</b> — value mediated by complementary assets.</li>
+        <li><span class="add">add — pdf on disk</span><br><b>Lepak, Smith &amp; Taylor (2007)</b> — value creation vs value capture.</li>
+        <li><span class="add">optional add</span><br><b>Teece (2007)</b> — microfoundations &amp; asset orchestration. Needed if you keep that phrase.</li>
+        <li><span class="add">optional add</span><br><b>Eisenhardt &amp; Martin (2000); Zott (2003)</b> — "necessary but not sufficient"; indirect link to performance. Would let §3b cite directly.</li>
+      </ul>
+    </div>
+  </aside>
+</div>
+
+<script>
+  // glossary highlight
+  document.querySelectorAll(".term").forEach(el => {
+    const g = el.dataset.term;
+    el.addEventListener("mouseenter", () => document.querySelector(`dt[data-g="${g}"]`)?.classList.add("hl"));
+    el.addEventListener("mouseleave", () => document.querySelector(`dt[data-g="${g}"]`)?.classList.remove("hl"));
+  });
+  // tabs
+  document.querySelectorAll("[data-tabs]").forEach(box => {
+    const btns  = box.querySelectorAll(".tabbar button");
+    const panes = box.querySelectorAll("[data-pane]");
+    btns.forEach(b => b.addEventListener("click", () => {
+      btns.forEach(x => x.classList.remove("on"));
+      panes.forEach(x => x.classList.remove("on"));
+      b.classList.add("on");
+      panes[+b.dataset.t]?.classList.add("on");
+    }));
+  });
+</script>
+</body>
+</html>

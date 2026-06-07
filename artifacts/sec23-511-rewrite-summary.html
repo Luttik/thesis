@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Thesis revision — §2.3 + §5.1.1 rewrite (dynamic capabilities &amp; value creation)</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:    #FDFCFA;
+    --ink:       #000000;
+    --accent:    #007bcd;
+    --powder:    #EAF1F6;
+    --green:     #5E9C61;
+    --powder-light: #F3F7FA;
+    --powder-line:  rgba(31,74,105,0.13);
+    --powder-muted: #6E8798;
+    --powder-ink:   #3D5363;
+    --paper:     #FFFFFF;
+    --rust:      #B04A3F;
+    --gold:      #9A7B1F;
+    --serif: "Lora", Georgia, "Times New Roman", serif;
+    --sans:  "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono:  ui-monospace, "SF Mono", Menlo, Monaco, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: var(--sans); background: var(--canvas); color: var(--powder-ink);
+    line-height: 1.55; padding: 56px 32px 120px; -webkit-font-smoothing: antialiased;
+  }
+  .page { max-width: 1040px; margin: 0 auto; }
+
+  header.page-head { margin-bottom: 40px; max-width: 840px; }
+  .eyebrow { font-family: var(--mono); font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--powder-muted); margin-bottom: 12px; }
+  h1 { font-family: var(--serif); font-weight: 600; font-size: 33px; line-height: 1.16; color: var(--ink); margin-bottom: 12px; letter-spacing: -0.01em; }
+  .pr-meta { display: flex; flex-wrap: wrap; gap: 18px; font-family: var(--mono); font-size: 12.5px; color: var(--powder-muted); margin-bottom: 18px; }
+  .pr-meta strong { color: var(--ink); font-weight: 600; }
+  .pr-meta .add { color: var(--green); }
+  .pr-meta .del { color: var(--rust); }
+  .prompt-box { background: var(--powder-light); border: 1px solid var(--powder-line); border-radius: 16pt; padding: 16px 20px; font-size: 14.5px; color: var(--powder-ink); }
+  .prompt-box .label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); display: block; margin-bottom: 6px; }
+
+  .layout { display: grid; grid-template-columns: minmax(0,1fr) 230px; gap: 48px; align-items: start; }
+  @media (max-width: 900px) { .layout { grid-template-columns: 1fr; } .toc { display: none; } }
+  section { margin-bottom: 52px; scroll-margin-top: 24px; }
+  h2 { font-family: var(--serif); font-weight: 600; font-size: 24px; color: var(--ink); margin-bottom: 12px; letter-spacing: -0.01em; }
+  p.lede { font-size: 15.5px; max-width: 700px; margin-bottom: 12px; }
+  p.lede strong { color: var(--ink); }
+  code { font-family: var(--mono); font-size: 12.5px; background: var(--powder-light); padding: 1px 5px; border-radius: 4pt; }
+
+  .toc { position: sticky; top: 32px; border-left: 1px solid var(--powder-line); padding-left: 18px; font-size: 13px; }
+  .toc .t-head { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 10px; }
+  .toc a { display: block; color: var(--powder-ink); text-decoration: none; padding: 4px 0; }
+  .toc a:hover { color: var(--accent); }
+
+  .tldr { background: var(--paper); border: 1px solid var(--powder-line); border-left: 4px solid var(--accent); border-radius: 16pt; padding: 20px 24px; margin-bottom: 44px; max-width: 780px; }
+  .tldr .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 8px; }
+  .tldr p { font-size: 15px; color: var(--ink); }
+  .tldr p em { font-style: italic; }
+
+  /* before/after */
+  .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 22px; margin: 18px 0 4px; }
+  @media (max-width: 720px) { .ba { grid-template-columns: 1fr; } }
+  .ba .panel { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 16pt; padding: 18px 20px; }
+  .ba .panel.after { border-color: var(--green); }
+  .ba .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 10px; }
+  .ba .after .k { color: var(--green); }
+  .ba ul { list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 13.5px; }
+  .ba li { display: flex; gap: 8px; }
+  .ba li::before { content: '·'; color: var(--powder-muted); }
+  .ba .after li::before { content: '+'; color: var(--green); font-family: var(--mono); }
+  .ba .del-tag::before { content: '−'; color: var(--rust); font-family: var(--mono); }
+
+  /* collapsible new-text */
+  details.box { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 14pt; overflow: hidden; margin-top: 16px; }
+  details.box summary { padding: 13px 18px; cursor: pointer; display: flex; align-items: center; gap: 12px; list-style: none; background: var(--powder-light); }
+  details.box summary::-webkit-details-marker { display: none; }
+  details.box summary .chev { width: 8px; height: 8px; border-right: 2px solid var(--powder-muted); border-bottom: 2px solid var(--powder-muted); transform: rotate(-45deg); transition: transform .15s ease; flex-shrink: 0; }
+  details.box[open] summary .chev { transform: rotate(45deg); }
+  details.box summary .lab { font-family: var(--mono); font-size: 12px; color: var(--ink); flex: 1; }
+  details.box summary .hint { font-size: 11.5px; color: var(--powder-muted); }
+  .prose { padding: 6px 22px 18px; }
+  .prose p { font-family: var(--serif); font-size: 15px; line-height: 1.7; color: #283642; margin-top: 14px; max-width: 660px; }
+  .prose p em { font-style: italic; }
+  .prose .num { font-family: var(--mono); font-size: 10.5px; color: var(--accent); text-transform: uppercase; letter-spacing: 0.06em; }
+
+  /* citation cards */
+  .cites { display: flex; flex-direction: column; gap: 12px; max-width: 780px; }
+  .cite { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 12pt; padding: 14px 18px; display: flex; gap: 14px; align-items: baseline; }
+  .cite .tag { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 8px; border-radius: 6pt; font-weight: 600; flex-shrink: 0; }
+  .tag.add { background: #E4E9DC; color: #4B5C39; }
+  .tag.have { background: var(--powder); color: var(--powder-ink); }
+  .cite .ref { font-size: 13.5px; color: var(--powder-ink); }
+  .cite .ref b { color: var(--ink); }
+  .cite .ref i { font-style: italic; }
+
+  /* mapping */
+  .map { display: flex; flex-direction: column; gap: 14px; max-width: 820px; }
+  .map .row { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 12pt; padding: 16px 20px; }
+  .map .note { font-family: var(--serif); font-style: italic; font-size: 14.5px; color: var(--ink); margin-bottom: 8px; }
+  .map .where { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; font-size: 13px; }
+  @media (max-width: 620px) { .map .where { grid-template-columns: 1fr; } }
+  .map .where .c .h { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--powder-muted); margin-bottom: 4px; }
+
+  /* tests / verification */
+  .tests { display: flex; flex-direction: column; gap: 10px; max-width: 780px; }
+  .test { display: flex; align-items: flex-start; gap: 12px; background: var(--paper); border: 1px solid var(--powder-line); border-radius: 10pt; padding: 13px 18px; font-size: 14px; }
+  .test .check { width: 18px; height: 18px; border-radius: 6pt; flex-shrink: 0; margin-top: 2px; border: 1px solid var(--powder-line); background: var(--green); border-color: var(--green); position: relative; }
+  .test .check::after { content: ''; position: absolute; left: 5px; top: 2px; width: 5px; height: 9px; border-right: 2px solid var(--paper); border-bottom: 2px solid var(--paper); transform: rotate(40deg); }
+  .test .label { color: var(--ink); }
+  .test .note { color: var(--powder-muted); font-size: 13px; margin-top: 2px; }
+  .test .note code { font-size: 11.5px; }
+
+  /* FYI focus */
+  .focus { background: var(--paper); border: 1px solid var(--powder-line); border-left: 3px solid var(--gold); border-radius: 12pt; padding: 16px 20px; max-width: 780px; font-size: 14px; }
+  .focus .t { font-weight: 600; color: var(--ink); margin-bottom: 6px; }
+  .focus ul { margin: 8px 0 0 18px; font-size: 13.5px; }
+  .focus li { margin-bottom: 5px; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="page-head">
+    <div class="eyebrow">Thesis revision · Daan Luttik MBA</div>
+    <h1>§2.3 + §5.1.1 rewrite — dynamic capabilities meet value creation</h1>
+    <div class="pr-meta">
+      <span>2 sections</span>
+      <span><span class="add">+6 ¶</span> / <span class="del">−8 ¶</span></span>
+      <span><span class="add">+2</span> references</span>
+      <span>tracked · author <strong>Claude</strong></span>
+      <span>backup <strong>*.sec23-backup.docx</strong></span>
+    </div>
+    <div class="prompt-box">
+      <span class="label">The ask</span>
+      Rewrite and shorten §2.3 around the concepts that actually feed §5.1.1; source the two
+      notes I like (DT-is-more-than-tools; the digital-paradox / complementary-assets passage)
+      properly; and carry them into Chapter 5 to draw out the contribution against where dynamic
+      capabilities have <em>already</em> been applied to digital transformation.
+    </div>
+  </header>
+
+  <div class="layout">
+    <main>
+
+      <div class="tldr">
+        <div class="k">TL;DR</div>
+        <p>One thread now runs through both sections: <em>value is produced by the configuration
+        around the technology, not the technology itself</em>. §2.3 establishes it from the
+        digital-transformation literature in three tight paragraphs; §5.1.1 cashes it in by
+        following the dynamic-capabilities chain <em>past reconfiguration to value</em> — the step
+        prior DC-in-DT work names but leaves empirically thin.</p>
+      </div>
+
+      <!-- THROUGH-LINE -->
+      <section id="thread">
+        <h2>The through-line</h2>
+        <p class="lede">The two sections were edited as a pair. §2.3 sets up three concepts and
+        explicitly flags that dynamic capabilities have <strong>already</strong> been carried into
+        digital transformation (Warner &amp; Wäger; Ellström; Hanelt). §5.1.1 then differentiates
+        the contribution: not the extension itself, but <strong>relocating the binding
+        constraint</strong> to organizational follow-through and giving empirical content to
+        <strong>asset orchestration</strong> — the bridge from a reconfigured resource base to
+        realized value.</p>
+      </section>
+
+      <!-- 2.3 -->
+      <section id="sec23">
+        <h2>§2.3 — <span style="font-style:italic;font-family:var(--serif)">Learnings from earlier waves of digital transformation</span></h2>
+        <p class="lede">Five paragraphs → three. Same ideas you liked, now sourced and pointed at §5.1.</p>
+        <div class="ba">
+          <div class="panel">
+            <div class="k">Before</div>
+            <ul>
+              <li>DT-is-more-than-tools / "organizational identity" stated without a citation</li>
+              <li>Separate paragraph on digitalization-vs-DT + Holmström AI readiness</li>
+              <li>DC paragraph (Teece 1997; Warner &amp; Wäger; Hanelt; Ellström)</li>
+              <li class="del-tag">"Three lessons map directly onto the subquestions" — over-schematic</li>
+              <li>Digital-paradox / complementary-assets note (Ancillai; Enholm only)</li>
+            </ul>
+          </div>
+          <div class="panel after">
+            <div class="k">After</div>
+            <ul>
+              <li>¶1: DT-as-organizational-change, sourced to Hanelt, Verhoef &amp; <b>Wessel</b> (identity)</li>
+              <li>¶2: DC + explicit "already applied to DT", adds <b>Teece (2007)</b>, ends pointing to §5.1</li>
+              <li>¶3: digital paradox + complementary assets, adds <b>Teece (1986)</b>, forward pointer</li>
+              <li>"three lessons" paragraph removed; Holmström folded into ¶1</li>
+            </ul>
+          </div>
+        </div>
+        <details class="box">
+          <summary><span class="chev"></span><span class="lab">Read the new §2.3 (3 paragraphs)</span><span class="hint">accept-all text</span></summary>
+          <div class="prose">
+            <p><span class="num">¶1 </span>The literature on digital transformation provides the central bridge between technological capability and managerial value creation. Its core lesson is that digital transformation is not simply the adoption of digital tools; it involves changes in organizational processes, business models, capabilities, and sometimes organizational identity (Hanelt et al., 2021; Verhoef et al., 2021; Wessel et al., 2021). Verhoef et al. (2021) separate <em>digitization</em> (converting analog information into digital form) and <em>digitalization</em> (using digital tools to improve existing processes) from <em>digital transformation</em>, which alters business models and organizational logic; Wessel et al. (2021) add that digital transformation builds a new organizational identity rather than merely reinforcing the existing one. For agentic AI the distinction is decisive: used only to draft emails or summarize documents it remains a digitalization tool, but where it reshapes how marketing teams sense opportunities, allocate work, and serve customers it becomes part of a transformation. Holmström (2022) frames AI readiness as the bridge between AI experimentation and that transformation, since organizations must first develop the capabilities, data, governance, and learning practices that let AI be used productively. This thesis therefore treats agentic AI adoption as a managerial and organizational phenomenon rather than a software implementation.</p>
+            <p><span class="num">¶2 </span>Dynamic capabilities theory gives this organizational view its sharpest tools. Teece et al. (1997) define dynamic capabilities as a firm's ability to integrate, build, and reconfigure internal and external competences in response to a changing environment, and Teece (2007) disaggregates them into the microfoundations of <em>sensing</em> opportunities, <em>seizing</em> them, and <em>transforming</em> (reconfiguring) the resource base. This framework has already been carried into the digital-transformation sphere: Warner and Wäger (2019) show that incumbents build digital transformation through ongoing strategic renewal of business models, collaboration, and culture; Ellström et al. (2021) identify digital sensing, digital strategy, and the creation of unified digital infrastructure as the seizing and reconfiguring routines of transformation; and Hanelt et al. (2021) describe the more malleable organizational designs that continuous digital adaptation demands. These accounts establish dynamic capabilities as a productive lens for technological change, but they remain largely at the firm and strategy level and concentrate on how renewal capabilities are built — a point Section 5.1 returns to and extends.</p>
+            <p><span class="num">¶3 </span>A final lesson tempers any purely technological account of success. Organizations often fail to extract value from digital technologies despite heavy investment — a pattern described as the <em>digital paradox</em> (Ancillai et al., 2023; Enholm et al., 2022) — because technology value is mediated by complementary assets: the skills, data, organizational structure, leadership, culture, and process redesign that surround the tool (Teece, 1986). For agentic AI this means a technically capable agent will not create marketing value on its own; it must be embedded in a work system in which people know when to delegate, when to intervene, how to measure performance, and how to hold the system accountable. This proposition — that value is produced by the configuration around the technology rather than the technology itself — is the central thread the empirical study develops, and Section 5.1 returns to it directly.</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- 5.1.1 -->
+      <section id="sec511">
+        <h2>§5.1.1 — <span style="font-style:italic;font-family:var(--serif)">Extending dynamic capabilities to agentic AI in marketing</span></h2>
+        <p class="lede">Working-draft notes → three finished paragraphs that draw out the contribution.</p>
+        <div class="ba">
+          <div class="panel">
+            <div class="k">Before</div>
+            <ul>
+              <li><em>steering</em> and <em>applying</em> merged as "the seizing and reconfiguring functions"</li>
+              <li>A dangling "goes beyond DC in a few distinct ways: First…" with loose points</li>
+              <li>Ellström mis-dated 2022; contribution framed as relocating a constraint</li>
+              <li>No link to where DC was already applied to DT; no creation/capture</li>
+            </ul>
+          </div>
+          <div class="panel after">
+            <div class="k">After</div>
+            <ul>
+              <li>Clean mapping: <em>steering</em> = seizing/transforming; <em>applying</em> = deployment-in-use</li>
+              <li>Acknowledges DC-already-in-DT, then differentiates by following the chain to value</li>
+              <li>Names <b>asset orchestration (Teece, 2007)</b>; both §2.3 notes carried in</li>
+              <li>Closes on creation-vs-capture (<b>Lepak et al., 2007</b>); Ellström → 2021</li>
+            </ul>
+          </div>
+        </div>
+        <details class="box">
+          <summary><span class="chev"></span><span class="lab">Read the new §5.1.1 (3 paragraphs)</span><span class="hint">accept-all text</span></summary>
+          <div class="prose">
+            <p><span class="num">¶1 </span>The model in Figure 1 maps closely onto dynamic capabilities theory (Teece et al., 1997; Teece, 2007), and rendering that theory in the agentic-AI-in-marketing setting through a grounded account is in itself part of the contribution. <em>Observing</em> corresponds to digital sensing (Ellström et al., 2021; Warner &amp; Wäger, 2019); <em>steering</em> — reshaping, leveraging, and navigating organizational conditions — performs the seizing and transforming work through which a firm renews its resource base; and <em>applying</em> is the deployment of that renewed base in use. Dynamic capabilities have already been carried into the digital-transformation sphere by this same literature, but it concentrates on how firms build sensing and renewal capabilities and tends to stop at the reconfigured resource base. The present study follows the chain one step further — to the value that the reconfigured state actually creates — and it is there, rather than in the act of reconfiguration, that its distinctive findings lie.</p>
+            <p><span class="num">¶2 </span>The first concerns where the binding constraint sits, and it is not where the dynamic-capabilities emphasis on sensing would predict. Sensing was not the scarce capability: participants across roles and organizations observed the same hockey-stick progression (Section 4.1.1), the same competitive and consumer-driven market pressure (Section 4.1.2), and the same vendor roadmaps (Section 4.1.3). What separated organizations was the follow-through — building literacy, freeing data, providing clarity, and protecting experimentation, and then orchestrating these into a working configuration; the divergent outcomes for comparable use cases make the difference visible (Section 4.4.4; Table 4). This relocates the locus of differentiation from opportunity recognition to organizational follow-through, and it gives empirical specificity to the long-standing argument that the value of a digital technology is mediated by complementary assets rather than realized automatically (Ancillai et al., 2023; Enholm et al., 2022; Holmström, 2022; Teece, 1986). The <em>digital paradox</em> of earlier technological waves recurs here: a technically capable agent creates no marketing value on its own, and the complementary assets that convert it into value are precisely the configurational elements this study identifies — the harness, the organizational conditions, and the managerial behaviors around the agent.</p>
+            <p><span class="num">¶3 </span>The second reframes what that follow-through is. Digital transformation has long been understood as more than the adoption of tools — as change in organizational processes, business models, capabilities, and sometimes identity (Hanelt et al., 2021; Verhoef et al., 2021; Wessel et al., 2021) — and the present findings show the same holds at the level of an individual agentic use case: value is produced by the organizational configuration in which the technology is embedded, not by the technology itself. Dynamic capabilities theory anticipates this step in the abstract, through Teece's (2007) notion of <em>asset orchestration</em> — the managerial coordination of co-specialized resources — but leaves it empirically thin. By specifying what that orchestration consists of in the agentic-AI setting, the study gives concrete, microfoundational content to a step the framework names but rarely opens up. How that configuration co-produces value in use is developed in Section 5.1.2; whether configuration-based advantages can be <em>captured</em> and sustained rather than merely <em>created</em> (Lepak et al., 2007) is a question the framework raises and this study's design leaves open.</p>
+          </div>
+        </details>
+      </section>
+
+      <!-- NOTES MAPPING -->
+      <section id="notes">
+        <h2>Your two notes — now sourced and carried into Ch.5</h2>
+        <div class="map">
+          <div class="row">
+            <div class="note">"Digital transformation … involves changes in organizational processes, business models, capabilities, and sometimes organizational identity."</div>
+            <div class="where">
+              <div class="c"><div class="h">Sourced in §2.3 ¶1</div>Hanelt et al. (2021); Verhoef et al. (2021); Wessel et al. (2021) — Wessel anchors the <em>identity</em> claim.</div>
+              <div class="c"><div class="h">Applied in §5.1.1 ¶3</div>The same "more-than-tools" logic, now shown to hold at the level of an individual agentic use case.</div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="note">"Technology value is mediated by complementary assets … a technically capable agent will not automatically create value."</div>
+            <div class="where">
+              <div class="c"><div class="h">Sourced in §2.3 ¶3</div>Ancillai et al. (2023); Enholm et al. (2022); + <em>Teece (1986)</em> for complementary assets.</div>
+              <div class="c"><div class="h">Applied in §5.1.1 ¶2</div>The harness + conditions + managerial behaviors named as the specific complementary assets.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CITATIONS -->
+      <section id="cites">
+        <h2>New references</h2>
+        <p class="lede">Only two additions — placed before the existing <em>Teece, Pisano, &amp; Shuen (1997)</em> entry (APA: single-author entries precede multi-author ones).</p>
+        <div class="cites">
+          <div class="cite">
+            <span class="tag add">added</span>
+            <span class="ref"><b>Teece, D. J. (1986).</b> Profiting from technological innovation: Implications for integration, collaboration, licensing and public policy. <i>Research Policy, 15</i>(6), 285–305.</span>
+          </div>
+          <div class="cite">
+            <span class="tag add">added</span>
+            <span class="ref"><b>Teece, D. J. (2007).</b> Explicating dynamic capabilities: The nature and microfoundations of (sustainable) enterprise performance. <i>Strategic Management Journal, 28</i>(13), 1319–1350.</span>
+          </div>
+          <div class="cite">
+            <span class="tag have">already in list</span>
+            <span class="ref"><b>Lepak, Smith &amp; Taylor (2007)</b> — value creation vs value capture. Used in §5.1.1 ¶3; no new entry needed.</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- VERIFICATION -->
+      <section id="verify">
+        <h2>Verification</h2>
+        <div class="tests">
+          <div class="test"><span class="check"></span><div><div class="label">Accept-all &amp; reject-all simulated — both produce clean text</div><div class="note">no orphaned fragments in either edited section</div></div></div>
+          <div class="test"><span class="check"></span><div><div class="label">Deep deletion removed prior tracked-insert fragments</div><div class="note">"Holmström", "Ellström", "(2022) identify" now fully wrapped in <code>&lt;w:del&gt;</code> — a naïve delete left them as orphans</div></div></div>
+          <div class="test"><span class="check"></span><div><div class="label">References ordered correctly</div><div class="note">Teece (1986) → Teece (2007) → Teece, Pisano &amp; Shuen (1997)</div></div></div>
+          <div class="test"><span class="check"></span><div><div class="label">Headings, §5.1.2, and the reference formatting preserved</div><div class="note">teal body color 00312A; ref entries match the hanging-indent + white-highlight pattern</div></div></div>
+        </div>
+      </section>
+
+      <!-- FYI -->
+      <section id="fyi">
+        <h2>One thing to look at (pre-existing)</h2>
+        <div class="focus">
+          <div class="t">3 orphaned tracked-deletions already in the document — not from this edit</div>
+          The verifier flagged three paragraphs whose paragraph mark is deleted but which still hold
+          surviving inserted text, so on <em>accept all</em> that text would survive and merge into
+          the next paragraph:
+          <ul>
+            <li>Intro — the "Generative AI … replacement for knowledge jobs" (Bessen / Mayer) sentence</li>
+            <li>Intro — the "Attention is All You Need" / BERT passage (Vaswani; Devlin)</li>
+            <li>A stray <code>"example paper"</code> paragraph</li>
+          </ul>
+          Want these cleaned up too, or left for you to handle in Word?
+        </div>
+      </section>
+
+    </main>
+
+    <nav class="toc">
+      <div class="t-head">In this revision</div>
+      <a href="#thread">The through-line</a>
+      <a href="#sec23">§2.3 rewrite</a>
+      <a href="#sec511">§5.1.1 rewrite</a>
+      <a href="#notes">Your two notes</a>
+      <a href="#cites">New references</a>
+      <a href="#verify">Verification</a>
+      <a href="#fyi">Pre-existing FYI</a>
+    </nav>
+  </div>
+
+</div>
+</body>
+</html>

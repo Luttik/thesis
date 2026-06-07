@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Plan — refocus §2.4 &amp; §5.1.1 on what transfers from digital transformation</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:#FDFCFA; --ink:#000000; --accent:#007bcd; --powder:#EAF1F6; --green:#5E9C61;
+    --powder-light:#F3F7FA; --powder-line:rgba(31,74,105,0.13); --powder-muted:#6E8798;
+    --powder-ink:#3D5363; --paper:#FFFFFF; --rust:#B04A3F; --gold:#9A7B1F;
+    --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:var(--sans); background:var(--canvas); color:var(--powder-ink); line-height:1.55; padding:56px 32px 120px; -webkit-font-smoothing:antialiased; }
+  .page { max-width:1080px; margin:0 auto; }
+
+  header.page-head { margin-bottom:44px; max-width:840px; }
+  .eyebrow { font-family:var(--mono); font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--powder-muted); margin-bottom:12px; }
+  h1 { font-family:var(--serif); font-weight:600; font-size:33px; line-height:1.16; color:var(--ink); margin-bottom:16px; letter-spacing:-0.01em; }
+  .prompt-box { background:var(--powder-light); border:1px solid var(--powder-line); border-radius:16pt; padding:16px 20px; font-size:14.5px; color:var(--powder-ink); }
+  .prompt-box .label { font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--powder-muted); display:block; margin-bottom:6px; }
+  .prompt-box em { font-style:italic; color:var(--ink); }
+
+  .summary { display:grid; grid-template-columns:repeat(4,1fr); gap:16px; margin-bottom:60px; }
+  @media (max-width:900px){ .summary { grid-template-columns:repeat(2,1fr); } }
+  .summary .cell { background:var(--paper); border:1px solid var(--powder-line); border-radius:16pt; padding:18px 20px; }
+  .summary .k { font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--powder-muted); margin-bottom:6px; }
+  .summary .v { font-size:15px; color:var(--ink); font-weight:600; }
+  .summary .v.accent { color:var(--accent); }
+
+  section { margin-bottom:60px; }
+  .sec-head { display:flex; align-items:baseline; gap:14px; margin-bottom:8px; }
+  .sec-head .num { font-family:var(--mono); font-size:12px; background:var(--powder); color:var(--ink); padding:3px 9px; border-radius:8pt; }
+  .sec-head h2 { font-family:var(--serif); font-weight:600; font-size:25px; color:var(--ink); letter-spacing:-0.01em; }
+  .sec-intro { font-size:14.5px; color:var(--powder-muted); max-width:740px; margin-bottom:24px; }
+  .sec-intro strong { color:var(--powder-ink); }
+
+  /* two cards: away / toward */
+  .twocol { display:grid; grid-template-columns:1fr 1fr; gap:22px; }
+  @media (max-width:720px){ .twocol { grid-template-columns:1fr; } }
+  .cardx { background:var(--paper); border:1px solid var(--powder-line); border-radius:16pt; padding:18px 20px; }
+  .cardx.toward { border-color:var(--green); }
+  .cardx .k { font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--powder-muted); margin-bottom:10px; }
+  .cardx.toward .k { color:var(--green); }
+  .cardx ul { list-style:none; display:flex; flex-direction:column; gap:9px; font-size:13.5px; }
+  .cardx li { display:flex; gap:8px; }
+  .cardx li::before { content:'·'; color:var(--powder-muted); }
+  .cardx.toward li::before { content:'→'; color:var(--green); font-family:var(--mono); }
+  .cardx em { font-style:italic; color:var(--ink); }
+
+  /* contrast table */
+  .contrast { border:1px solid var(--powder-line); border-radius:16pt; overflow:hidden; background:var(--paper); }
+  .contrast .row { display:grid; grid-template-columns:0.9fr 1.3fr 1.3fr; }
+  @media (max-width:780px){ .contrast .row { grid-template-columns:1fr; } }
+  .contrast .row + .row { border-top:1px solid var(--powder-line); }
+  .contrast .cell { padding:15px 18px; font-size:13.5px; }
+  .contrast .cell + .cell { border-left:1px solid var(--powder-line); }
+  @media (max-width:780px){ .contrast .cell + .cell { border-left:none; border-top:1px dashed var(--powder-line); } }
+  .contrast .head { background:var(--powder-light); font-weight:600; color:var(--ink); font-size:11.5px; text-transform:uppercase; letter-spacing:0.04em; }
+  .contrast .dim { font-weight:600; color:var(--ink); }
+  .contrast .ag { color:var(--powder-ink); }
+  .contrast .ag b { color:var(--accent); }
+
+  /* shape blocks */
+  .shape { background:var(--paper); border:1px solid var(--powder-line); border-radius:16pt; padding:20px 22px; }
+  .shape h3 { font-family:var(--sans); font-weight:600; font-size:13px; color:var(--ink); text-transform:uppercase; letter-spacing:0.04em; margin-bottom:10px; }
+  .shape .para { margin-bottom:16px; }
+  .shape .para:last-child { margin-bottom:0; }
+  .shape .para .tag { font-family:var(--mono); font-size:10.5px; color:var(--accent); text-transform:uppercase; letter-spacing:0.05em; }
+  .shape .para .desc { font-size:14px; color:var(--powder-ink); margin-top:3px; max-width:760px; }
+  .shape .para .cites { font-family:var(--mono); font-size:11px; color:var(--powder-muted); margin-top:4px; }
+  .tt { display:flex; gap:10px; flex-wrap:wrap; margin-top:14px; }
+  .pill { font-family:var(--mono); font-size:11px; padding:3px 9px; border-radius:6pt; border:1px solid var(--powder-line); }
+  .pill.keep { background:#E4E9DC; color:#4B5C39; }
+  .pill.trim { background:#F3D9CC; color:#8A3B1E; }
+  .pill.add { background:var(--powder); color:var(--ink); }
+
+  /* citation / crossref note */
+  .note { background:var(--paper); border:1px solid var(--powder-line); border-radius:12pt; padding:14px 18px; font-size:13.5px; margin-bottom:12px; }
+  .note b { color:var(--ink); }
+  .note.warn { border-left:3px solid var(--gold); }
+
+  /* open questions */
+  .open-q { display:flex; flex-direction:column; gap:14px; max-width:840px; }
+  .q { background:var(--paper); border:1px solid var(--powder-line); border-left:4px solid var(--accent); border-radius:10pt; padding:16px 20px; }
+  .q .qt { font-weight:600; font-size:15px; color:var(--ink); margin-bottom:4px; }
+  .q .qd { font-size:13.5px; color:var(--powder-muted); }
+  .q .qd em { font-style:italic; color:var(--powder-ink); }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="page-head">
+    <div class="eyebrow">Thesis revision · plan (no edits applied yet)</div>
+    <h1>Refocus §2.4 &amp; §5.1.1 — from mapping to what actually transfers</h1>
+    <div class="prompt-box">
+      <span class="label">The ask</span>
+      Sections 2.3 / 2.4 are now swapped (value first, digital transformation second). Shorten both
+      §2.4 and §5.1.1 and re-center them on the core — <em>not</em> the sensing/seizing/observing
+      mapping, but <em>what we learn from earlier digital transformations, how that applies to
+      agentic AI, and how agentic AI differs.</em>
+    </div>
+  </header>
+
+  <div class="summary">
+    <div class="cell"><div class="k">§2.4 target</div><div class="v accent">3 ¶ → 2 ¶</div></div>
+    <div class="cell"><div class="k">§5.1.1 target</div><div class="v accent">3 ¶ → 2 ¶</div></div>
+    <div class="cell"><div class="k">New organizing idea</div><div class="v">lesson → apply → differ</div></div>
+    <div class="cell"><div class="k">Dropped spine</div><div class="v">observing/sensing mapping</div></div>
+  </div>
+
+  <!-- 01 THE REFRAME -->
+  <section>
+    <div class="sec-head"><span class="num">01</span><h2>The reframe</h2></div>
+    <p class="sec-intro">Both sections are currently organized around <strong>mapping the empirical model onto dynamic-capabilities microfoundations</strong> (observing→sensing, steering→seizing, applying→reconfiguring). That scaffolding is not the point of the research. We keep dynamic capabilities as the background lens but lead with the substantive argument.</p>
+    <div class="twocol">
+      <div class="cardx">
+        <div class="k">Move away from</div>
+        <ul>
+          <li>Walking through sensing / seizing / transforming as the structure</li>
+          <li>"<em>Observing</em> corresponds to sensing; <em>steering</em> to seizing…" term-by-term mapping</li>
+          <li>Framing the contribution as "we extend the DC framework"</li>
+        </ul>
+      </div>
+      <div class="cardx toward">
+        <div class="k">Center on</div>
+        <ul>
+          <li>What earlier digital transformations <em>teach</em> (organizational, not technological; the digital paradox)</li>
+          <li>How that lesson <em>applies</em> to agentic AI (value lives in the configuration / harness)</li>
+          <li>How agentic AI <em>differs</em> from earlier waves — the analytical core (Section 02)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- 02 THE DIFFERENCE -->
+  <section>
+    <div class="sec-head"><span class="num">02</span><h2>The analytical core: how agentic AI differs</h2></div>
+    <p class="sec-intro">This is the spine that replaces the mapping. §2.4 <strong>raises</strong> it as the open question the lessons leave; §5.1.1 <strong>answers</strong> it from the findings. Three candidate differences — I'd feature the first two and keep the third light.</p>
+    <div class="contrast">
+      <div class="row">
+        <div class="cell head">Dimension</div>
+        <div class="cell head">Earlier digital transformations</div>
+        <div class="cell head">Agentic AI (this study)</div>
+      </div>
+      <div class="row">
+        <div class="cell dim">Where advantage comes from</div>
+        <div class="cell">Sensing opportunities and threats is itself a differentiator (the dynamic-capabilities emphasis).</div>
+        <div class="cell ag">Sensing is <b>cheap and shared</b> — everyone sees the same hockey-stick, pressure, and roadmaps. The binding constraint moves to <b>follow-through and orchestration</b> (Table 4).</div>
+      </div>
+      <div class="row">
+        <div class="cell dim">Role of the technology</div>
+        <div class="cell">A passive instrument; humans operate it, and complementary assets (skills, process, structure) sit around it.</div>
+        <div class="cell ag">An <b>actor</b> that performs the work; the decisive complementary asset moves <b>inward to the harness</b> — data, memory, tools, guardrails, prompt, model.</div>
+      </div>
+      <div class="row">
+        <div class="cell dim">Tempo &amp; control <span style="color:var(--powder-muted);font-weight:400;">(keep light)</span></div>
+        <div class="cell">Unfolds over years; a specific tool can hold advantage for a while.</div>
+        <div class="cell ag">Frontier moves in weeks, so advantage lies in the capacity to <b>keep re-orchestrating</b>; recursively, AI is used to govern AI.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 03 §2.4 SHAPE -->
+  <section>
+    <div class="sec-head"><span class="num">03</span><h2>Proposed §2.4 — <span style="font-family:var(--serif);font-style:italic;font-weight:500;">Learnings from earlier waves of digital transformation</span></h2></div>
+    <p class="sec-intro">Two tight paragraphs: the lesson, then the lens + the open question. Keeps both notes you like; trims the microfoundations walk-through.</p>
+    <div class="shape">
+      <div class="para">
+        <span class="tag">¶1 · the lesson</span>
+        <div class="desc">Digital transformation is organizational, not technological — it changes processes, business models, capabilities, and sometimes identity. And its value is mediated by complementary assets, which is why investment so often disappoints (the <em>digital paradox</em>): a technically capable agent creates no value on its own; it must be embedded in a work system.</div>
+        <div class="cites">Verhoef 2021 · Wessel 2021 · Hanelt 2021 · Ancillai 2023 · Enholm 2022 · Teece 1986</div>
+      </div>
+      <div class="para">
+        <span class="tag">¶2 · the lens + the question</span>
+        <div class="desc">Dynamic capabilities (the firm's capacity to renew its resource base under change) is the lens for this, and has already been carried into digital transformation. But agentic AI may differ from earlier waves in ways that bear directly on value creation — the question Chapter 5 takes up.</div>
+        <div class="cites">Teece 1997 · Teece 2007 · Warner &amp; Wäger 2019 · Ellström 2021 · Hanelt 2021</div>
+      </div>
+      <div class="tt">
+        <span class="pill keep">keep: DT-as-org-change</span>
+        <span class="pill keep">keep: digital paradox + complementary assets</span>
+        <span class="pill trim">trim: sensing/seizing/transforming walk-through → one clause</span>
+        <span class="pill trim">trim: digitization/digitalization definitions (or shorten)</span>
+        <span class="pill add">add: one sentence raising "how agentic AI differs"</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 04 §5.1.1 SHAPE -->
+  <section>
+    <div class="sec-head"><span class="num">04</span><h2>Proposed §5.1.1 — <span style="font-family:var(--serif);font-style:italic;font-weight:500;">Extending dynamic capabilities to agentic AI in marketing</span></h2></div>
+    <p class="sec-intro">Two paragraphs, structured as the two differences — no term-by-term mapping. The contribution becomes "here is how agentic AI departs from earlier digital transformation," answered from the data.</p>
+    <div class="shape">
+      <div class="para">
+        <span class="tag">¶1 · lesson applies + difference #1</span>
+        <div class="desc">The digital-transformation lesson holds and sharpens: value is produced by the configuration around the agentic technology, not the technology itself — organizational, even at the level of a single use case. But agentic AI departs from earlier waves in where the constraint sits: sensing was not scarce (everyone saw the same frontier), so differentiation relocated to organizational follow-through and orchestration (Section 4.4.4; Table 4).</div>
+        <div class="cites">Verhoef/Wessel/Hanelt · Ancillai 2023 · Enholm 2022 · Holmström 2022</div>
+      </div>
+      <div class="para">
+        <span class="tag">¶2 · difference #2 + the bridge + handoff</span>
+        <div class="desc">A second departure: the agent is an actor, not an instrument, so the complementary assets that mediate value take a new form — the harness and the conditions around the model. This gives concrete content to <em>asset orchestration</em>, the step dynamic capabilities names but leaves thin. How that configuration co-produces value is developed in §5.1.2; whether such advantages can be captured rather than only created is left open.</div>
+        <div class="cites">Teece 2007 · Teece 1986 · Lepak 2007 · (links to §5.1.2)</div>
+      </div>
+      <div class="tt">
+        <span class="pill trim">drop: the observing/steering/applying mapping paragraph</span>
+        <span class="pill keep">keep: binding-constraint finding (reframed as a difference)</span>
+        <span class="pill keep">keep: asset orchestration + complementary assets + creation/capture</span>
+        <span class="pill add">add: "technology as actor" as the second difference</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 05 CITATION + CROSSREF -->
+  <section>
+    <div class="sec-head"><span class="num">05</span><h2>Citation &amp; cross-reference impact</h2></div>
+    <div class="note"><b>No new citations.</b> Everything the refocus needs is already in the list — including Teece (1986), Teece (2007), and Lepak (2007). Dropping the mapping doesn't strand any reference; Teece (2007) stays justified by <em>asset orchestration</em>, Ellström / Warner &amp; Wäger by "DC already applied to DT."</div>
+    <div class="note warn"><b>Verify after the 2.3 ↔ 2.4 swap.</b> Any in-text "Section 2.3" / "Section 2.4" pointers elsewhere may now point at the wrong section — I'll grep the whole doc and fix mismatches as tracked changes. The static Table of Contents (already known-stale) will also need its 2.3/2.4 titles reordered.</div>
+    <div class="note"><b>Avoid overlap with §5.1.2.</b> "Technology as actor / configuration-in-use" partly lives in §5.1.2 — §5.1.1 will name the difference and hand off, not duplicate the harness detail.</div>
+  </section>
+
+  <!-- 06 OPEN QUESTIONS -->
+  <section>
+    <div class="sec-head"><span class="num">06</span><h2>Decisions for you</h2></div>
+    <div class="open-q">
+      <div class="q">
+        <div class="qt">1 · Length</div>
+        <div class="qd">Go to <em>2 paragraphs each</em> (my proposal), or keep 3 but leaner? Two reads tighter; three leaves room if you want the tempo/self-governance difference fully developed.</div>
+      </div>
+      <div class="q">
+        <div class="qt">2 · Which differences to feature</div>
+        <div class="qd">Feature <em>#1 (sensing no longer scarce)</em> and <em>#2 (technology as actor)</em>, and keep <em>#3 (tempo / AI-governs-AI)</em> as a light touch? Or promote #3 to a full third difference?</div>
+      </div>
+      <div class="q">
+        <div class="qt">3 · How much dynamic-capabilities apparatus to keep in §2.4</div>
+        <div class="qd">Name it as the lens in a single clause (my proposal), or retain a little more of the sensing/seizing/transforming vocabulary because later sections lean on it?</div>
+      </div>
+      <div class="q">
+        <div class="qt">4 · Where the "difference" question is stated</div>
+        <div class="qd">Raise it in §2.4 and answer it in §5.1.1 (my proposal), or keep the whole difference argument inside §5.1.1 and leave §2.4 purely as lessons?</div>
+      </div>
+    </div>
+  </section>
+
+</div>
+</body>
+</html>
