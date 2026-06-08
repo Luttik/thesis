@@ -1,0 +1,283 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Discussion &amp; Conclusion — status and plan</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root{
+    --canvas:#FDFCFA; --ink:#0b1f1a; --accent:#0f6f57; --teal:#00312A; --olive:#76923C;
+    --paper:#FFFFFF; --line:rgba(0,49,42,0.14); --muted:#5d736b; --pink:#B04A3F; --gold:#9A7B1F;
+    --soft:#EFF4F1; --soft2:#F5F8F6;
+    --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,-apple-system,"Segoe UI",sans-serif;
+    --mono:ui-monospace,"SF Mono",Menlo,monospace;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{font-family:var(--sans);background:var(--canvas);color:var(--ink);line-height:1.55;padding:52px 30px 120px;-webkit-font-smoothing:antialiased}
+  .page{max-width:1080px;margin:0 auto}
+  .eyebrow{font-family:var(--mono);font-size:12px;letter-spacing:.09em;text-transform:uppercase;color:var(--olive);margin-bottom:12px}
+  h1{font-family:var(--serif);font-weight:600;font-size:33px;line-height:1.15;color:var(--teal);margin-bottom:12px;letter-spacing:-.01em;max-width:880px}
+  .meta{display:flex;flex-wrap:wrap;gap:16px;font-family:var(--mono);font-size:12.5px;color:var(--muted);margin-bottom:24px}
+  .meta strong{color:var(--ink)}
+  h2{font-family:var(--serif);font-weight:600;font-size:22px;color:var(--teal);margin:38px 0 14px;letter-spacing:-.01em;border-bottom:1px solid var(--line);padding-bottom:8px}
+  h3{font-weight:600;font-size:15px;color:var(--ink);margin:0 0 6px}
+  p{font-size:14.5px;margin-bottom:11px;max-width:840px} strong{color:var(--ink)} em{font-style:italic}
+  code{font-family:var(--mono);font-size:12px;background:var(--soft);padding:1px 5px;border-radius:4px;color:var(--teal)}
+  .frame{background:var(--paper);border:1px solid var(--line);border-left:4px solid var(--olive);border-radius:14px;padding:20px 24px;margin-bottom:14px;max-width:880px}
+  .frame .k{font-family:var(--mono);font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin-bottom:8px}
+  .frame p{font-size:15px;margin-bottom:8px}
+  .flow{display:flex;flex-wrap:wrap;gap:7px;align-items:center;margin:12px 0 2px;font-size:13px}
+  .stage{font-family:var(--mono);font-size:12px;background:var(--soft);border:1px solid var(--line);border-radius:7px;padding:4px 10px;color:var(--teal)}
+  .stage b{color:var(--olive)}
+  .arr{color:var(--muted)}
+  .review{background:linear-gradient(180deg,#fff,#f7faf8);border:1px solid var(--line);border-radius:14px;padding:18px 22px;margin:14px 0 6px;max-width:880px}
+  .review h3{color:var(--teal)}
+  .pill{display:inline-block;font-family:var(--mono);font-size:10.5px;padding:2px 9px;border-radius:999px;margin-right:6px;white-space:nowrap}
+  .pill.tracked{background:#fbf3ec;color:#8a4b1f;border:1px solid #e7c9af}
+  .pill.clean{background:#eef5f1;color:var(--accent);border:1px solid #bcdcd0}
+  table{border-collapse:collapse;width:100%;font-size:13.5px;margin:4px 0;max-width:880px}
+  th,td{text-align:left;padding:9px 11px;border-bottom:1px solid var(--line);vertical-align:top}
+  th{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);font-weight:500}
+  td.sec{font-family:var(--mono);font-size:12px;color:var(--olive);white-space:nowrap;font-weight:600}
+  .st{font-family:var(--mono);font-size:10px;padding:2px 8px;border-radius:999px;white-space:nowrap}
+  .st.done{background:#eaf3ee;color:var(--accent);border:1px solid #bfdccd}
+  .st.decide{background:#fbf6ec;color:#8a6d1f;border:1px solid #ecd9b0}
+  .st.you{background:#eef1f7;color:#3a4f8a;border:1px solid #c7d2ea}
+  tr.zebra{background:#fafcfb}
+  .cards{display:grid;grid-template-columns:1fr;gap:11px;max-width:880px;margin-top:4px}
+  .card{border:1px solid var(--line);border-radius:13px;padding:15px 18px;background:var(--paper)}
+  .card.decide{border-left:4px solid var(--gold)} .card.you{border-left:4px solid #3a4f8a} .card.opt{border-left:4px solid var(--muted)}
+  .card p{font-size:13.5px;margin-bottom:0} .card .h{display:flex;gap:9px;align-items:baseline;margin-bottom:5px;flex-wrap:wrap}
+  .bp .card{margin-bottom:13px}
+  .kp{font-size:13.5px;margin:0 0 8px} .kp b{color:var(--ink)}
+  .lit{list-style:none;padding-left:0;margin:8px 0 0}
+  .lit li{font-size:12.8px;margin-bottom:6px;padding-left:15px;position:relative;line-height:1.5}
+  .lit li:before{content:"–";position:absolute;left:0;color:var(--muted)}
+  .lit b{color:var(--teal)}
+  .use{color:var(--muted)}
+  .tag{font-family:var(--mono);font-size:9px;padding:1px 6px;border-radius:999px;margin-left:3px;white-space:nowrap;vertical-align:middle;letter-spacing:.02em}
+  .tag.s2{background:#eaf3ee;color:var(--accent);border:1px solid #bfdccd}
+  .tag.new{background:#fbf6ec;color:#8a6d1f;border:1px solid #ecd9b0}
+  .lbl{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.05em;color:var(--olive);margin:10px 0 3px}
+  .ql{display:inline-block;font-family:var(--mono);font-size:9.5px;text-transform:uppercase;letter-spacing:.04em;color:var(--olive);min-width:58px;margin-right:7px;vertical-align:baseline}
+  .foot{margin-top:28px;font-size:12.5px;color:var(--muted);font-family:var(--mono);border-top:1px solid var(--line);padding-top:14px;max-width:880px}
+</style>
+</head>
+<body>
+<div class="page">
+  <div class="eyebrow">Thesis · Discussion &amp; Conclusion · status + plan</div>
+  <h1>§5.1.1 → References: where the rewrite stands, and what's left</h1>
+  <div class="meta">
+    <span><strong>File:</strong> Thesis Draft - Daan Luttik - MBA.docx (root copy)</span>
+    <span><strong>Tracked:</strong> §2 additions · Enholm fix · intro · Vidal DOI</span>
+    <span><strong>Clean rewrite:</strong> §5.1.2 → end</span>
+    <span><strong>Supersedes:</strong> the two earlier overviews</span>
+  </div>
+
+  <div class="frame">
+    <div class="k">The frame, stated correctly</div>
+    <p>The thesis's core claim is the <strong>manager as the central actor in value creation</strong> — but the impulse is <em>external</em>. Managers <strong>observe</strong> a changing environment they did not create, then <strong>steer</strong> and <strong>apply</strong> to turn what they sense into value. So this is <em>externally triggered, managerially mediated</em> — not "inside-out" (which would wrongly imply value invented from within).</p>
+    <div class="flow">
+      <span class="stage"><b>Observe</b> external signals</span><span class="arr">→</span>
+      <span class="stage"><b>Steer</b> — reshape · leverage · navigate</span><span class="arr">→</span>
+      <span class="stage"><b>Apply</b> — workflow · harness</span><span class="arr">→</span>
+      <span class="stage"><b>Value outcomes</b> — managed portfolio</span>
+    </div>
+    <p style="margin-top:10px;margin-bottom:0;font-size:13.5px">"Drive / mediate" are kept (they come from your Figure 1 caption and §4 intro) but are now <strong>always tied to these coded terms</strong> — e.g. "it is by <em>observing, steering, and applying</em> that managers drive and mediate value." If you'd still rather drop the words, that's a one-line swap (see plan).</p>
+  </div>
+
+  <h2>Current §5.1 shape</h2>
+  <p style="margin-bottom:8px">Two positioning subsections (against the two relevant literatures), then the model walk. §5.1 intro and §5.1.1 are kept; everything from §5.1.2 is new/clean.</p>
+  <table>
+    <tr><th>§</th><th>Subsection</th><th>Does</th></tr>
+    <tr><td class="sec">5.1.1</td><td><strong>Continuation of digital transformation</strong> <em>(kept)</em></td><td>Positions vs DT literature — Enholm, Vidal, Gebauer; the governance inversion; "behaviours matter even more"</td></tr>
+    <tr class="zebra"><td class="sec">5.1.2</td><td><strong>Extending research on AI in marketing</strong> <em>(new)</em></td><td>Positions vs AI-in-marketing literature; three ways it advances the field's own call to study value as a "situated managerial process beyond content generation"</td></tr>
+    <tr><td class="sec">5.1.3</td><td><strong>Observing</strong></td><td>Manager as sensor of external signals (DC <em>sensing</em>); optics-vs-reality discipline</td></tr>
+    <tr class="zebra"><td class="sec">5.1.4</td><td><strong>Steering</strong></td><td>The repertoire — reshape / leverage / navigate; the navigation bias; the AI champion; <em>actually starting</em></td></tr>
+    <tr><td class="sec">5.1.5</td><td><strong>Applying</strong></td><td>Workflow-first; the harness as object of design — one component of value, not its sole cause</td></tr>
+    <tr class="zebra"><td class="sec">5.1.6</td><td><strong>Value outcomes</strong></td><td>Managed portfolio via value theory; <strong>Table 4 re-anchored</strong> as evidence of managerial mediation; govern-AI-with-AI</td></tr>
+  </table>
+
+  <div class="review">
+    <h3>How to review</h3>
+    <p><span class="pill tracked">tracked</span> One tracked change only — a single sentence in the §5.1 introduction. Accept/reject in Word.</p>
+    <p style="margin-top:7px"><span class="pill clean">clean</span> §5.1.2 → references is a clean rewrite (per your instruction) — read it as ordinary prose. §5.1 intro and §5.1.1 are otherwise untouched.</p>
+  </div>
+
+  <h2>Done so far</h2>
+  <table>
+    <tr><th>Area</th><th>What changed</th><th></th></tr>
+    <tr><td class="sec">Framing</td><td>Inside-out claim removed throughout; recast as externally-triggered, manager-mediated; Table 4 / §4.4.4 re-anchored as evidence of the manager's central role</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">Terminology</td><td>"Drive / mediate" anchored to observe · steer (reshape/leverage/navigate) · apply</td><td><span class="st done">done</span></td></tr>
+    <tr><td class="sec">§5.1</td><td>Restructured into 2 positioning + 4 stage subsections; manager-central throughout</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">§5.1.2</td><td>New AI-in-marketing comparison, using your own §2.2 sources (Huang &amp; Rust, Vaid, Brynjolfsson, Enholm, Kitsios, Agrawal, Wahid, Grewal, Kumar…)</td><td><span class="st done">done</span></td></tr>
+    <tr><td class="sec">§5.2</td><td>Six recommendations kept; intro reframed off inside-out; each rec now carries a Chapter 2 anchor</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">§5.3</td><td>Four limitations kept; future research pulled into an explicit four-direction cluster</td><td><span class="st done">done</span></td></tr>
+    <tr><td class="sec">§6</td><td>Conclusion recast to manager-across-the-process; answers main RQ + SQ1–SQ3 in order</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">§7</td><td>Heading note removed; Teece (1997, 2007) added; Acharya &amp; Krizhevsky fixed; duplicate Huang &amp; Rust dropped; "Jain et al." corrected; unverifiable Ellström dropped</td><td><span class="st done">done</span></td></tr>
+    <tr><td class="sec">App. B</td><td>Checked — its five stages already mirror the model and §5.2; consistent, left as is</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">Coverage</td><td>Confirmed Ch 4's key takeaways carry into Ch 5 (13 full / 2 partial / Table 4 now resolved)</td><td><span class="st done">done</span></td></tr>
+    <tr><td class="sec">Folded in</td><td>Tempered-disruption signal → §5.2.2; junior inversion + Brynjolfsson finding → §5.1.6; Vidal et al. DOI typo fixed (tracked)</td><td><span class="st done">done</span></td></tr>
+    <tr class="zebra"><td class="sec">§2 + cites</td><td>Dynamic-capabilities paragraph → §2.4; value-co-creation + practice-lens passage → §2.3 (both tracked); Enholm (2021)→(2022) citation fix in §5.1.1 (tracked)</td><td><span class="st done">done</span></td></tr>
+  </table>
+
+  <h2>Argument blueprint — key points &amp; supporting literature</h2>
+  <p style="margin-bottom:6px">For each section: the points to land, and the <strong>specific claim</strong> from each paper that can build them. Tags: <span class="tag s2">§2</span> developed in your literature review · <span class="tag new">NEW</span> a lens leaned on but not yet in §2 (see the call-out after this section).</p>
+
+  <div class="bp">
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.1</span> <h3>Continuation of digital transformation <em style="font-weight:400;color:var(--muted)">(kept)</em></h3></div>
+      <p class="kp"><b>Point:</b> agentic AI value creation extends the DT pattern (technical + organizational conditions; efficiency as a first-order benefit) — but with three differences: governance flips from enabler to inhibitor, broader applicability yields skill-extension, and the faster pace makes managerial behaviour matter <em>more</em>.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Vidal et al. (2022)</b> <span class="tag s2">§2.4</span> — DT produces strategic + operational change from the opportunities/threats of digital tech; management's role (managing technical talent, prioritising learning, driving business change) is central. <span class="use">→ transfer the digital-leader argument to the marketing manager.</span></li>
+        <li><b>Enholm et al. (2021/2022)</b> <span class="tag s2">§2.4</span> — link AI capabilities to competitive value via TOE enablers/inhibitors; efficiency a first-order effect; <em>governance an enabler</em>. <span class="use">→ confirm conditions/efficiency; <strong>contradict</strong> on governance (we find it the chief inhibitor).</span></li>
+        <li><b>Holmström (2022)</b> <span class="tag s2">§2.4</span> — AI readiness = capabilities, data, governance, learning practices built <em>before</em> value appears. <span class="use">→ confirm the readiness precondition.</span></li>
+        <li><b>Ancillai et al. (2023)</b> <span class="tag s2">§2.4</span> — the digital paradox: value mediated by complementary assets (skills, data, process, structure, leadership). <span class="use">→ confirm; we give it micro-level content.</span></li>
+        <li><b>Gebauer et al. (2020)</b> <span class="tag s2">§2.4</span> — digitalization paradox; traps incl. failing to build partner trust. <span class="use">→ extend: a far wider range of steerable elements than the named traps.</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.2</span> <h3>Extending research on AI in marketing <em style="font-weight:400;color:var(--muted)">(new)</em></h3></div>
+      <p class="kp"><b>Point:</b> the field already frames AI value as a <em>situated managerial process</em> and calls for work beyond content generation; this study answers it three ways — (1) empirical content for "translation work", (2) shifts weight from the technology to the manager, (3) widens value beyond the efficiency/content lens to a managed portfolio.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Huang &amp; Rust (2021)</b> <span class="tag s2">§2.2</span> — marketing sits at the data/tech/creativity/customer/commercial boundary; their framework is organised around <em>types of AI and their task capabilities</em>. <span class="use">→ <strong>contrast</strong>: prior frameworks centre the technology; we centre the manager.</span></li>
+        <li><b>Vaid et al. (2025); Prasanna &amp; Kushwaha (2025)</b> <span class="tag s2">§2.2</span> — AI contributes across the whole marketing process, not only communications. <span class="use">→ confirm scope.</span></li>
+        <li><b>Enholm et al. (2022); Kitsios &amp; Kamariotou (2021); Prasad Agrawal (2023)</b> <span class="tag s2">§2.2</span> — AI value requires alignment with strategy/knowledge/decision-making (not an isolated project) + "translation work"; TOE adoption factors. <span class="use">→ confirm "situated managerial process"; we give it empirical content.</span></li>
+        <li><b>Mogaji &amp; Jain (2024); Jain et al. (2024); Kim (2025)</b> <span class="tag s2">§2.2</span> — explicit calls for empirical research on GenAI / agentic AI in marketing. <span class="use">→ this study is one of the first grounded answers.</span></li>
+        <li><b>Wahid et al. (2023); Grewal et al. (2025); Kumar et al. (2025)</b> <span class="tag s2">§2.1</span><span class="tag new">Kumar new</span> — GenAI-marketing scholarship concentrates on content/creative work. <span class="use">→ contrast: we move beyond content to the value-creation process.</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.3</span> <h3>Observing</h3></div>
+      <p class="kp"><b>Point:</b> the manager is a <em>sensor</em> of external signals (AI progression, market pressure incl. agents-of-customers, supplier roadmaps); recognition is widely shared, so it is <em>not</em> the scarce capability — the discriminating act is the optics-versus-reality discipline (testing what is actually in production).</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Teece (1997, 2007)</b> <span class="tag new">NEW</span> — dynamic capabilities; <em>sensing</em> = identifying opportunities and threats in a changing environment (a microfoundation). <span class="use">→ frames "observing" as sensing. <strong>Lens not in §2 — see call-out.</strong></span></li>
+        <li><b>Mogaji &amp; Jain (2024); Kim (2025)</b> <span class="tag s2">§2.2</span> — consumers' changing behaviour / advertising in the age of agentic AI. <span class="use">→ ground "agents of customers" as a sensed signal the literature already worries about.</span></li>
+        <li><em>Study's own:</em> the optics-vs-reality gap and "agentic AI has become almost a marketing term" (§4.1.2, §4.3.1) — the empirical core; no external source needed.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.4</span> <h3>Steering — the managerial repertoire</h3></div>
+      <p class="kp"><b>Point:</b> managers act through a three-part repertoire (reshape / leverage / navigate) with a systematic <em>navigation bias</em> (own-team conditions reshaped; externally-originating ones — esp. governance — navigated, never reshaped); the AI champion is the pivotal actor; and value is won or lost here, in <em>bringing people along</em> and <em>actually starting</em>.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Teece (1997, 2007)</b> <span class="tag new">NEW</span> — <em>seizing</em> and <em>transforming/reconfiguring</em> microfoundations; <em>asset orchestration</em> (managerial coordination of co-specialised resources). <span class="use">→ frames steering as seizing/reconfiguring; the champion gives it micro-content. <strong>Not in §2.</strong></span></li>
+        <li><b>Cieslak &amp; Valor (2025)</b> <span class="tag s2">§2.2</span> — employee resistance to change undermines AI readiness. <span class="use">→ confirms resistance as the binding constraint; underwrites the navigation bias.</span></li>
+        <li><b>Weber et al. (2023)</b> <span class="tag s2">§2.2</span> — organizational capabilities for AI implementation (coping with inscrutability and data dependency). <span class="use">→ supports capability-building as reshaping work.</span></li>
+        <li><b>Romeo &amp; Lacko (2026)</b> <span class="tag s2">§2.2</span> — drivers and barriers of AI adoption. <span class="use">→ situates the repertoire among known adoption forces.</span></li>
+        <li><b>Hanelt et al. (2021)</b> <span class="tag new">NEW</span> — DT demands more malleable organizational designs and continuous adaptation. <span class="use">→ light support for reshaping; in reflist, not in §2.</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.5</span> <h3>Applying — from workflow to harness</h3></div>
+      <p class="kp"><b>Point:</b> applying is a managerial <em>design</em> act — decompose the workflow, insert AI only where reliable, engineer the harness — and configuration is <em>one</em> component of value, complementary to steering, not its sole determinant.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Orlikowski (2000)</b> <span class="tag new">NEW</span> — practice lens: a technology's structures and effects are <em>emergent in use</em>, not embodied in the artifact ("technologies-in-practice"). <span class="use">→ theoretical warrant for configuration-in-use. <strong>Not in §2.</strong></span></li>
+        <li><b>Vargo &amp; Lusch (2017)</b> <span class="tag new">NEW</span> — service-dominant logic: value is co-created; resources are <em>operant</em>; technology participates as an actor rather than a passive instrument. <span class="use">→ frames the harness as a co-creating configuration. <strong>§2.5 gestures at co-creation but §2.3 doesn't develop it.</strong></span></li>
+        <li><b>Kaartemo &amp; Helkkula (2018); Leone et al. (2021)</b> <span class="tag new">NEW</span> — AI acts within, and enhances, value co-creation (SLR; B2B/healthcare case). <span class="use">→ supports the agent-as-actor reading. Not in §2.</span></li>
+        <li><b>Enholm et al. (2022); Kitsios &amp; Kamariotou (2021)</b> <span class="tag s2">§2.2</span> — the "translation work" of turning a possibility into a bounded, governed use case. <span class="use">→ names the applying act in the literature's own terms.</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.1.6</span> <h3>Value outcomes — a managed portfolio</h3></div>
+      <p class="kp"><b>Point:</b> value is a portfolio (benefits/sacrifices/risks produced together) the manager composes and benchmarks; <em>created</em> value ≠ <em>captured</em> value; Table 4 (comparable use cases, divergent outcomes) is the evidence of managerial mediation, externally triggered; and the negative terms are contained by <em>governing AI with AI</em> on a comparative error standard.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Woodside et al. (2008)</b> <span class="tag s2">§2.3</span> — value = "relative sum of total weighted benefits perceived − relative total costs perceived"; perception-based and multidimensional. <span class="use">→ the formal backbone of the portfolio framing.</span></li>
+        <li><b>Almquist et al. (2016)</b> <span class="tag s2">§2.3</span> — 30 elements of value across functional ("saves time", "reduces effort"), emotional, and life-changing categories. <span class="use">→ map the benefit types across operational/customer/strategic levels.</span></li>
+        <li><b>Doshi &amp; Hauser (2024)</b> <span class="tag s2">§2.3</span> — GenAI raises <em>individual</em> creativity but lowers <em>collective</em> novelty (homogenization). <span class="use">→ value destruction as a managed condition; the differentiation risk in §5.2.2.</span></li>
+        <li><b>Brynjolfsson et al. (2025)</b> <span class="tag s2">§2.2</span> — (specific) a ~14% productivity gain for support agents, <em>largest for less-experienced workers</em>. <span class="use">→ grounds the efficiency + skill-extension benefit, and supports the junior-paradox inversion. Currently cited only for value-ambiguity — use the specific finding.</span></li>
+        <li><b>Lepak et al. (2007)</b> <span class="tag new">NEW</span> — value creation (use value) is distinct from value capture (exchange value), which depends on isolating mechanisms; multilevel. <span class="use">→ would properly ground the "created ≠ captured" claim. In <code>sources/</code>, not in §2 or the reflist.</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.2</span> <h3>Practical implications <em style="font-weight:400;color:var(--muted)">(anchors per recommendation)</em></h3></div>
+      <ul class="lit">
+        <li><b>5.2.1 Build conditions</b> — complementary assets / digital paradox: Ancillai (2023), Enholm (2022), Holmström (2022) <span class="tag s2">§2</span></li>
+        <li><b>5.2.2 Follow vs differentiate</b> — homogenization &amp; lost distinctiveness: Doshi &amp; Hauser (2024) <span class="tag s2">§2</span></li>
+        <li><b>5.2.3 Workflow + harness</b> — translation work: Enholm (2022), Kitsios &amp; Kamariotou (2021) <span class="tag s2">§2</span></li>
+        <li><b>5.2.4 Govern AI with AI</b> — value destruction actively managed: Doshi &amp; Hauser (2024) <span class="tag s2">§2</span></li>
+        <li><b>5.2.5 Resource &amp; source</b> — internalise complementary assets: Ancillai (2023), Enholm (2022) <span class="tag s2">§2</span> <span class="use">(+ asset orchestration, Teece 2007 <span class="tag new">NEW</span>)</span></li>
+        <li><b>5.2.6 Look outward</b> — agents of customers as co-creation: Vargo &amp; Lusch (2017), Leone et al. (2021) <span class="tag new">NEW</span>; Mogaji &amp; Jain (2024) <span class="tag s2">§2</span></li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <div class="h"><span class="sec" style="font-family:var(--mono);color:var(--olive);font-weight:600">5.3 · 6</span> <h3>Limitations / future research · Conclusion</h3></div>
+      <p class="kp"><b>Points:</b> §5.3 — category instability, interview-only/perceived data, sample skew + positionality, temporal; four future directions tied to the field's calls. §6 — manager-mediated, externally-triggered answer; SQ1–SQ3 in order; first grounded account; durable categories vs ephemeral specifics.</p>
+      <div class="lbl">Literature</div>
+      <ul class="lit">
+        <li><b>Charmaz (2006); Blumer (1969)</b> <span class="tag s2">§3</span> — constructivist grounded theory; sensitizing concepts. <span class="use">→ underwrites the positionality + category-durability arguments.</span></li>
+        <li><b>Kim (2025); Mogaji &amp; Jain (2024); Jain et al. (2024)</b> <span class="tag s2">§2.2</span> — the research calls. <span class="use">→ future research answers them; §6 closes the loop. No new literature in the conclusion.</span></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <h2>New literature elements — decide: seed in §2, or soften in §5</h2>
+  <p style="margin-bottom:6px">§2 covers the AI-in-marketing, digital-transformation, and core value-theory bases. Four lenses carried weight in the discussion without being introduced in §2. For each: the <strong>central claim</strong> it lets us make, how it <strong>relates to the findings</strong>, and the <strong>§2 section</strong> it belongs in. <strong>Three of the four are now seeded in §2 as tracked changes; only Lepak remains a decision.</strong></p>
+  <div class="cards">
+    <div class="card ok">
+      <div class="h"><span class="st done">done · §2.4</span><h3>Dynamic capabilities — Teece (1997, 2007)</h3></div>
+      <p><span class="ql">Claim</span> creating value from a new technology is a managerial capability — <em>sensing</em> opportunities, <em>seizing</em> them, <em>reconfiguring</em> the resource base — not a property of the technology; Teece (2007) supplies the microfoundations and "asset orchestration".</p>
+      <p><span class="ql">Findings</span> the spine of the model — observing = sensing, steering (reshape/leverage/navigate) = seizing/reconfiguring, the AI champion and "actually starting" = the person-level microfoundations Teece leaves abstract. We <strong>extend</strong> him with marketing-specific content and <strong>qualify</strong> him with the navigation bias (governance is never reconfigured).</p>
+      <p><span class="ql">Done</span> added to §2.4 as a tracked paragraph — the bridge from "DT is hard" to "managers need capabilities" — which §5.1 then maps onto the data.</p>
+    </div>
+    <div class="card ok">
+      <div class="h"><span class="st done">done · §2.3</span><h3>Value co-creation — Vargo &amp; Lusch (2017), Kaartemo &amp; Helkkula (2018), Leone et al. (2021)</h3></div>
+      <p><span class="ql">Claim</span> value is <em>co-created</em> through resource integration among actors, not delivered firm-to-customer; technology can be an active participant (operant resource), not a passive tool.</p>
+      <p><span class="ql">Findings</span> §5.1.5 (the agent/harness participates in creating value in use) and §5.2.6 (<em>agents of customers</em> — value co-created between the firm's agents and the consumer's own agents, a genuinely new actor). We <strong>extend</strong> co-creation into the agentic and demand-side setting.</p>
+      <p><span class="ql">Done</span> added to §2.3 as a tracked passage (with the practice lens) — closes the gap §2.5 leaves open and pre-loads the agents-of-customers argument.</p>
+    </div>
+    <div class="card ok">
+      <div class="h"><span class="st done">done · §2.3</span><h3>Practice lens — Orlikowski (2000)</h3></div>
+      <p><span class="ql">Claim</span> a technology's structures and effects are <em>enacted in use</em> ("technologies-in-practice"), not embedded in the artifact.</p>
+      <p><span class="ql">Findings</span> the theoretical name for Table 4 / §4.4.4 — identical technology, divergent outcomes by configuration and use; underwrites §5.1.5.</p>
+      <p><span class="ql">Done</span> folded into the same §2.3 tracked passage as the co-creation sources.</p>
+    </div>
+    <div class="card decide">
+      <div class="h"><span class="st decide">add source</span><h3>Value capture ≠ creation — Lepak et al. (2007)</h3></div>
+      <p><span class="ql">Claim</span> <em>creating</em> value (use value, for a beneficiary) is distinct from <em>capturing</em> it (exchange value, for the firm); capture depends on competition and isolating mechanisms.</p>
+      <p><span class="ql">Findings</span> grounds §5.1.6 (a firm can capture cost savings while destroying customer value — trust, authenticity) and §5.2.2 (efficiency parity is created value that won't be captured as advantage once rivals match it).</p>
+      <p><span class="ql">Goes in</span> §2.3 + the reference list — the <strong>only one of the four not already in the reflist</strong> (it's in <code>sources/</code>). Add only if you want the distinction explicitly sourced.</p>
+    </div>
+    <div class="card ok">
+      <div class="h"><span class="st done">done · use, not add</span><h3>Brynjolfsson et al. (2025) — the specific finding</h3></div>
+      <p><span class="ql">Claim</span> generative AI's productivity gains accrue most to less-experienced workers (~14% on average; largest for novices).</p>
+      <p><span class="ql">Findings</span> now deployed in §5.1.6 to ground the efficiency / skill-extension benefit <em>and</em> the junior-paradox inversion.</p>
+      <p><span class="ql">Goes in</span> already in §2.2 — no new source; the specific result is now used rather than only the "value is ambiguous" framing.</p>
+    </div>
+  </div>
+
+  <h2>The plan — open items</h2>
+  <div class="cards">
+    <div class="card decide">
+      <div class="h"><span class="st decide">decide</span><h3>Keep "drive / mediate", or drop them?</h3></div>
+      <p>They're now tied to the coded terms, so they read coherently. If you'd prefer to lean entirely on <em>observing / steering / applying</em> and cut "drive / mediate" altogether, that's a quick swap in §5.1.2 and §5.1.6 — your call.</p>
+    </div>
+    <div class="card you">
+      <div class="h"><span class="st you">you</span><h3>Reconcile the two copies + get the thesis into Drive</h3></div>
+      <p>This work is on the <strong>root</strong> copy; your canonical copy lives under <code>onedrive/</code>. Merge them so your submission has these edits. The <code>.docx</code> was too large to push through the Drive connector inline — drag it in, or I can push it via CLI if you have <code>rclone</code>/<code>gdrive</code> set up.</p>
+    </div>
+    <div class="card opt">
+      <div class="h"><span class="st decide">optional</span><h3>Regenerate the Table of Contents in Word</h3></div>
+      <p>The static TOC predates these edits (new §5.1.2, renumbered subsections). One "Update field" in Word refreshes it.</p>
+    </div>
+  </div>
+
+  <p class="foot">Per-step backups in repo root (<code>*.sec51-backup.docx</code> … <code>*.terms-backup.docx</code>) — safe to delete once happy. This overview supersedes <code>discussion-rewrite-overview.html</code> and <code>ch4-ch5-coverage-check.html</code>.</p>
+</div>
+</body>
+</html>
