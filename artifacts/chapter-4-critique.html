@@ -1,0 +1,571 @@
+<!-- Copyright 2026 Anthropic PBC · SPDX-License-Identifier: Apache-2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Chapter 4 — Findings · Critique</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas: #FDFCFA;
+    --ink: #000000;
+    --accent: #B04A3F;
+    --powder: #EAF1F6;
+    --green: #5E9C63;
+    --gold: #B89B6E;
+    --danger: #B04A3F;
+    --powder-light: #F3F7FA;
+    --powder-line: rgba(31,74,105,0.13);
+    --powder-muted: #6E8798;
+    --powder-ink: #3D5363;
+    --serif: "Lora", Georgia, "Times New Roman", serif;
+    --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: ui-monospace, 'SF Mono', Menlo, Monaco, monospace;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html { scroll-behavior: smooth; }
+
+  body {
+    background: var(--canvas);
+    color: var(--powder-ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 48px 24px 80px;
+  }
+  .page { max-width: 920px; margin: 0 auto; }
+
+  /* ---------- Header ---------- */
+  header.doc-head {
+    border: 1px solid var(--powder-line);
+    border-radius: 16pt;
+    padding: 28px 32px;
+    background: #fff;
+    margin-bottom: 32px;
+  }
+  .repo-line {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--powder-muted);
+    letter-spacing: 0.01em;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.25;
+    color: var(--ink);
+    margin-bottom: 16px;
+  }
+  .meta-row { display: flex; align-items: center; flex-wrap: wrap; gap: 12px; }
+  .pill {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    color: var(--powder-ink);
+    background: var(--powder-light);
+    border: 1px solid var(--powder-line);
+    border-radius: 8pt;
+    padding: 6px 11px;
+  }
+  .tally { display: flex; gap: 20px; margin-left: auto; font-family: var(--mono); font-size: 13px; }
+  .tally b { font-weight: 700; }
+  .tally .must b { color: var(--accent); }
+  .tally .sharp b { color: #7A6A4F; }
+  .tally .polish b { color: var(--powder-muted); }
+
+  /* ---------- Sections ---------- */
+  section { margin-bottom: 38px; }
+  h2 {
+    font-family: var(--serif);
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--ink);
+    margin-bottom: 6px;
+    scroll-margin-top: 20px;
+  }
+  .sec-sub { color: var(--powder-muted); font-size: 13.5px; margin-bottom: 16px; }
+
+  .lede {
+    border: 1px solid var(--powder-line);
+    border-left: 4px solid var(--gold);
+    border-radius: 12pt;
+    background: #fff;
+    padding: 20px 24px;
+  }
+  .lede p { color: var(--powder-ink); }
+  .lede p + p { margin-top: 12px; }
+  .lede strong { color: var(--ink); font-weight: 600; }
+
+  /* ---------- Working cards ---------- */
+  .grid2 { display: grid; grid-template-columns: repeat(2, minmax(0,1fr)); gap: 14px; }
+  .good {
+    border: 1px solid rgba(94,156,99,0.4);
+    background: rgba(94,156,99,0.07);
+    border-radius: 12pt;
+    padding: 14px 16px;
+  }
+  .good .gh { font-weight: 600; color: var(--ink); margin-bottom: 4px; display: flex; align-items: baseline; gap: 8px; }
+  .good .gh::before { content: "✓"; color: var(--green); font-weight: 700; }
+  .good p { font-size: 13.5px; color: var(--powder-ink); }
+
+  /* ---------- Severity map ---------- */
+  .risk-map { display: flex; flex-wrap: wrap; gap: 9px; }
+  .chip {
+    display: inline-flex; align-items: center; gap: 8px;
+    padding: 8px 12px; border-radius: 8pt;
+    border: 1px solid var(--powder-line);
+    font-family: var(--mono); font-size: 12px;
+    color: var(--ink); text-decoration: none; background: #fff;
+    transition: transform 0.12s ease;
+  }
+  .chip:hover { transform: translateY(-1px); }
+  .chip .dot { width: 9px; height: 9px; border-radius: 50%; flex-shrink: 0; }
+  .chip.must { background: rgba(176,74,63,0.10); border-color: rgba(176,74,63,0.45); }
+  .chip.must .dot { background: var(--accent); }
+  .chip.sharp { background: rgba(184,155,110,0.14); border-color: rgba(184,155,110,0.5); }
+  .chip.sharp .dot { background: var(--gold); }
+  .legend { margin-top: 12px; font-size: 12px; color: var(--powder-muted); display: flex; gap: 18px; flex-wrap: wrap; }
+  .legend span { display: inline-flex; align-items: center; gap: 6px; }
+  .legend .dot { width: 8px; height: 8px; border-radius: 50%; }
+
+  /* ---------- Finding cards ---------- */
+  .group-label {
+    font-family: var(--mono); font-size: 12px; text-transform: uppercase;
+    letter-spacing: 0.08em; color: var(--powder-muted);
+    margin: 26px 0 12px; padding-bottom: 6px;
+    border-bottom: 1px solid var(--powder-line);
+  }
+  .finding {
+    border: 1px solid var(--powder-line);
+    border-left: 4px solid var(--gold);
+    border-radius: 14pt; background: #fff;
+    margin-bottom: 16px; overflow: hidden;
+    scroll-margin-top: 20px;
+  }
+  .finding.must { border-left-color: var(--accent); }
+  .finding.sharp { border-left-color: var(--gold); }
+  .f-head {
+    padding: 15px 20px 12px;
+    display: flex; align-items: flex-start; justify-content: space-between; gap: 14px;
+  }
+  .f-title { font-family: var(--serif); font-size: 17px; color: var(--ink); font-weight: 500; line-height: 1.3; }
+  .f-id { font-family: var(--mono); font-size: 11.5px; color: var(--powder-muted); margin-bottom: 3px; }
+  .sev {
+    font-size: 10px; text-transform: uppercase; letter-spacing: 0.07em;
+    font-weight: 700; padding: 4px 9px; border-radius: 6pt; white-space: nowrap; flex-shrink: 0;
+  }
+  .sev.must { background: rgba(176,74,63,0.16); color: var(--accent); }
+  .sev.sharp { background: rgba(184,155,110,0.2); color: #7A6A4F; }
+  .f-body { padding: 0 20px 18px; }
+  .f-body p { font-size: 13.8px; color: var(--powder-ink); }
+  .f-body p + p { margin-top: 10px; }
+  .loc {
+    display: inline-block; font-family: var(--mono); font-size: 11.5px;
+    color: var(--powder-ink); background: var(--powder-light);
+    border: 1px solid var(--powder-line); border-radius: 6pt;
+    padding: 2px 7px; margin-right: 6px;
+  }
+  .f-body code, .f-body .lit {
+    font-family: var(--mono); font-size: 12.5px;
+    background: var(--powder-light); padding: 1px 5px; border-radius: 4pt;
+  }
+
+  /* excerpt + fix */
+  .excerpt {
+    margin: 12px 0 4px; border-left: 3px solid var(--powder-line);
+    background: var(--powder-light); border-radius: 0 8pt 8pt 0;
+    padding: 10px 14px; font-family: var(--serif); font-style: italic;
+    font-size: 13.5px; color: var(--powder-ink);
+  }
+  .fix { margin-top: 10px; font-size: 13.5px; }
+  .fix b { color: var(--green); font-weight: 700; }
+
+  /* heading-diff */
+  .hdiff {
+    margin: 12px 0 4px; background: var(--ink); border-radius: 8pt;
+    font-family: var(--mono); font-size: 12.5px; line-height: 1.8;
+    padding: 10px 14px; overflow-x: auto;
+  }
+  .hdiff .row { white-space: pre; color: #E8E6DC; }
+  .hdiff .row.del { color: #E6A6A0; }
+  .hdiff .row .mk { display: inline-block; width: 14px; color: var(--danger); }
+  .hdiff .row.ok .mk { color: var(--powder-muted); }
+  .hdiff .cmt { color: var(--powder-muted); }
+
+  /* ---------- Editorial table ---------- */
+  table.edit { width: 100%; border-collapse: collapse; font-size: 13.3px; }
+  table.edit th, table.edit td {
+    text-align: left; padding: 11px 12px; vertical-align: top;
+    border-bottom: 1px solid var(--powder-line);
+  }
+  table.edit th {
+    font-family: var(--mono); font-size: 11px; text-transform: uppercase;
+    letter-spacing: 0.06em; color: var(--powder-muted); font-weight: 600;
+  }
+  table.edit td.loc-c { white-space: nowrap; font-family: var(--mono); font-size: 11.5px; color: var(--powder-ink); }
+  table.edit td .lit { font-family: var(--mono); font-size: 12px; background: var(--powder-light); padding: 1px 4px; border-radius: 4pt; }
+  table.edit tr:last-child td { border-bottom: none; }
+  table.edit .fixcol { color: var(--powder-ink); }
+  table.edit .fixcol b { color: var(--green); }
+
+  /* ---------- Footer ---------- */
+  footer.next-steps {
+    border: 1px solid var(--powder-line);
+    border-radius: 16pt; background: #fff; padding: 24px 28px; margin-top: 40px;
+  }
+  .checklist { list-style: none; padding: 0; }
+  .checklist li { display: flex; align-items: flex-start; gap: 12px; padding: 7px 0; }
+  .checklist input[type="checkbox"] { width: 17px; height: 17px; margin-top: 2px; accent-color: var(--green); cursor: pointer; }
+  .checklist label { cursor: pointer; flex: 1; font-size: 14px; }
+  .checklist .tag { font-family: var(--mono); font-size: 10px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--accent); margin-right: 6px; }
+  .checklist .tag.s { color: #7A6A4F; }
+
+  .caveat { margin-top: 14px; font-size: 12.5px; color: var(--powder-muted); font-style: italic; }
+
+  @media (max-width: 720px) {
+    .grid2 { grid-template-columns: 1fr; }
+    .tally { margin-left: 0; width: 100%; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <header class="doc-head">
+    <div class="repo-line">Thesis Draft — Daan Luttik · MBA · Chapter 4 (Findings), §4.1–4.4</div>
+    <h1>Chapter 4 — Findings: editorial &amp; analytic critique</h1>
+    <div class="meta-row">
+      <span class="pill">Constructivist grounded theory</span>
+      <span class="pill">N = 17 interviews</span>
+      <span class="pill">RQ: value creation with agentic AI</span>
+      <div class="tally">
+        <span class="must">Must-fix <b>5</b></span>
+        <span class="sharp">Sharpen <b>6</b></span>
+        <span class="polish">Polish <b>10</b></span>
+      </div>
+    </div>
+  </header>
+
+  <section id="assessment">
+    <h2>Overall assessment</h2>
+    <div class="lede">
+      <p>This is a <strong>strong, well-architected Findings chapter</strong>. It has a genuine analytic spine — the <em>Observe → Navigate → Apply → Obtain-value</em> chain — that maps onto your theoretical coding (Table&nbsp;3) and reads as a process model rather than a quote dump. Your best moments hold two divergent cases side by side and let the contrast carry an argument.</p>
+      <p>The weaknesses are mostly <strong>executional and structural</strong>, not conceptual: broken section numbering, dangling cross-references, a promised category that never appears, a duplicated passage, and a few places where the framing the chapter <em>promises</em> doesn't match what it <em>delivers</em>. None are fatal; all are fixable. A handful of conceptual tensions are worth sharpening before an examiner finds them.</p>
+    </div>
+  </section>
+
+  <section id="working">
+    <h2>What's working</h2>
+    <div class="sec-sub">Keep these — they are doing real analytic work.</div>
+    <div class="grid2">
+      <div class="good">
+        <div class="gh">Clear process architecture</div>
+        <p>Every L2 section corresponds to a stage in Figure&nbsp;1 and a theoretical code in Table&nbsp;3. A reader always knows where they are in the chain.</p>
+      </div>
+      <div class="good">
+        <div class="gh">Disconfirming cases retained</div>
+        <p>The analytics divergence (I4 vs I3) and standardized-vs-creative content (I11) are exactly what a constructivist GT examiner wants — they back your credibility claim in §3.4.</p>
+      </div>
+      <div class="good">
+        <div class="gh">Analytic voice in the strong sections</div>
+        <p>§4.4.3 ("brand risk is <em>how</em>, not <em>whether</em>") and the champion profile in §4.2.1 move beyond description into interpretation.</p>
+      </div>
+      <div class="good">
+        <div class="gh">Vivid, well-chosen quotes</div>
+        <p>"Army of super interns," "drinking from a fire hose," "the factory vs. the laboratory" — concrete and memorable.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="map">
+    <h2>Finding map</h2>
+    <div class="sec-sub">Jump to any finding. Colour = priority.</div>
+    <div class="risk-map">
+      <a class="chip must" href="#S1"><span class="dot"></span>S1 · §4.2 numbering</a>
+      <a class="chip must" href="#S2"><span class="dot"></span>S2 · missing §4.1.3</a>
+      <a class="chip must" href="#S3"><span class="dot"></span>S3 · dangling refs</a>
+      <a class="chip must" href="#S4"><span class="dot"></span>S4 · duplicate passage</a>
+      <a class="chip must" href="#S5"><span class="dot"></span>S5 · Table 4 placement</a>
+      <a class="chip sharp" href="#C6"><span class="dot"></span>C6 · conditions vs behaviours</a>
+      <a class="chip sharp" href="#C7"><span class="dot"></span>C7 · unstated contingency</a>
+      <a class="chip sharp" href="#C8"><span class="dot"></span>C8 · sacrifice vs risk</a>
+      <a class="chip sharp" href="#C9"><span class="dot"></span>C9 · compliance contradiction</a>
+      <a class="chip sharp" href="#C10"><span class="dot"></span>C10 · "mediates"</a>
+      <a class="chip sharp" href="#C11"><span class="dot"></span>C11 · evidence concentration</a>
+      <a class="chip" href="#editorial"><span class="dot" style="background:var(--powder-muted)"></span>10 · editorial</a>
+    </div>
+    <div class="legend">
+      <span><span class="dot" style="background:var(--accent)"></span> must-fix — an examiner will spot it</span>
+      <span><span class="dot" style="background:var(--gold)"></span> sharpen — conceptual tension</span>
+      <span><span class="dot" style="background:var(--powder-muted)"></span> polish — line-level</span>
+    </div>
+  </section>
+
+  <section id="findings">
+
+    <div class="group-label">Structural — fix first</div>
+
+    <article class="finding must" id="S1">
+      <div class="f-head">
+        <div>
+          <div class="f-id">S1</div>
+          <div class="f-title">§4.2 numbering is broken — there is no 4.2.2</div>
+        </div>
+        <span class="sev must">must-fix</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.2</span> The section runs 4.2.1 → <b>4.2.3</b> → 4.2.4, and an empty <code>####</code> heading sits between 4.2.1 and 4.2.3. Either a subsection was deleted or the heading levels slipped.</p>
+        <div class="hdiff">
+          <div class="row ok"><span class="mk"> </span>4.2.1  Steering the marketing department</div>
+          <div class="row del"><span class="mk">−</span>4.2.3  Leveraging technical resources   <span class="cmt">← should be 4.2.2</span></div>
+          <div class="row del"><span class="mk">−</span>4.2.4  Dealing with compliance          <span class="cmt">← should be 4.2.3</span></div>
+        </div>
+        <div class="fix"><b>Fix:</b> renumber to 4.2.1 / 4.2.2 / 4.2.3 and delete the empty heading.</div>
+      </div>
+    </article>
+
+    <article class="finding must" id="S2">
+      <div class="f-head">
+        <div>
+          <div class="f-id">S2</div>
+          <div class="f-title">§4.1 promises three external conditions but delivers two</div>
+        </div>
+        <span class="sev must">must-fix</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.1</span> The intro names "AI progression, market pressures, <strong>and vendor communications</strong>," and Table&nbsp;3 lists a focused code "Observing supplier communication." But there is <strong>no subsection</strong> for it — the vendor material is folded into the tail of §4.1.1 (the "default supplier / safe haven" paragraph).</p>
+        <div class="excerpt">"…three key categories of external conditions … the progression of AI itself, market pressures, and vendor communications."</div>
+        <div class="fix"><b>Fix:</b> either promote it to its own §4.1.3, or remove it from the intro sentence <em>and</em> Table&nbsp;3 so the count matches.</div>
+      </div>
+    </article>
+
+    <article class="finding must" id="S3">
+      <div class="f-head">
+        <div>
+          <div class="f-id">S3</div>
+          <div class="f-title">Two dangling cross-references, plus one misdirected</div>
+        </div>
+        <span class="sev must">must-fix</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.1.2</span> "…the connector work discussed again <span class="lit">in section 4.1.3</span> from the supplier-standards angle." — <strong>§4.1.3 does not exist.</strong></p>
+        <p><span class="loc">§4.2.3</span> "The most notable navigating response … as described <span class="lit">in section</span>" — the sentence <strong>ends mid-reference</strong> with no number.</p>
+        <p><span class="loc">§3.2</span> forward-references "<span class="lit">see section 4</span>" for theoretical saturation, but Chapter&nbsp;4 never discusses saturation — it is handled in the §3.4 trustworthiness table. <b>Repoint</b> that reference.</p>
+      </div>
+    </article>
+
+    <article class="finding must" id="S4">
+      <div class="f-head">
+        <div>
+          <div class="f-id">S4</div>
+          <div class="f-title">Duplicated passage in §4.3.4</div>
+        </div>
+        <span class="sev must">must-fix</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.3.4</span> Interviewee&nbsp;15's web-shop connector is described <strong>twice</strong> — first fully with the quote ("We have built a connector for one of our web shops…"), then again a few lines later, where the second instance trails off into a dangling semicolon.</p>
+        <div class="excerpt">"Interviewee 15 noted a slightly different approach; she built a connector … still in the exploratory phase<strong>;</strong>"</div>
+        <div class="fix"><b>Fix:</b> delete the redundant second mention.</div>
+      </div>
+    </article>
+
+    <article class="finding must" id="S5">
+      <div class="f-head">
+        <div>
+          <div class="f-id">S5</div>
+          <div class="f-title">Table 4 is misplaced</div>
+        </div>
+        <span class="sev must">must-fix</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.4.3</span> "Examples of comparable use cases with highly divergent outcomes" summarises <em>application</em> contingency (a §4.3 idea) but sits at the very end of §4.4.3&nbsp;Risks, with no in-text callout near it.</p>
+        <div class="fix"><b>Fix:</b> move it to the end of §4.3 (or make it a bridge between Applying and Value), and add an explicit "(see Table&nbsp;4)" in the prose.</div>
+      </div>
+    </article>
+
+    <div class="group-label">Conceptual — sharpen before submission</div>
+
+    <article class="finding sharp" id="C6">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C6</div>
+          <div class="f-title">"Conditions" vs "behaviours" are blurred in §4.2</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.2</span> The verb-titles (<em>Steering, Leveraging, Dealing with</em>) promise manager <em>agency</em>, but much of the content describes <em>conditions/barriers outside the manager's control</em> — §4.2.3 even concedes "the data shows no clear patterns of reshaping behavior."</p>
+        <p>Table&nbsp;3 actually separates <em>conditions</em> (capacity, technical resources, governance) from <em>navigating responses</em> (reshaping, leveraging, navigating constraints), but the chapter collapses them — so Table&nbsp;3 and the §4.2 subsection structure can't be reconciled by a reader. Name which parts are conditions the manager <em>reads</em> and which are behaviours the manager <em>enacts</em>.</p>
+      </div>
+    </article>
+
+    <article class="finding sharp" id="C7">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C7</div>
+          <div class="f-title">Your strongest cross-cutting finding is never stated as one</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.3</span> The recurring insight — <strong>the same model/tool produces opposite value depending on data integration and context</strong> — is the analytic payoff of §4.3 and the whole point of Table&nbsp;4, but it only appears implicitly inside examples.</p>
+        <div class="fix"><b>Fix:</b> state it explicitly as a topic sentence early in §4.3. That single move lifts §4.3.1–4.3.4 from a use-case catalogue into an argument.</div>
+      </div>
+    </article>
+
+    <article class="finding sharp" id="C8">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C8</div>
+          <div class="f-title">The sacrifices/risks taxonomy is inconsistent for job displacement</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.4.2</span> You define <em>sacrifices</em> as negative outcomes "highly likely to materialize" and <em>risks</em> as "unlikely or highly unknown." Yet job replacement is filed under <strong>sacrifices</strong>, while the evidence says only one interviewee saw actual job loss and I13 says "it is not the way companies are doing it right now."</p>
+        <div class="fix"><b>Fix:</b> by your own definitions that reads like a <em>risk</em>. Either move it, or reframe the evidence to show it materialising.</div>
+      </div>
+    </article>
+
+    <article class="finding sharp" id="C9">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C9</div>
+          <div class="f-title">The compliance section contradicts itself</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4.2.4</span> The section asserts managers "accept the compliance frameworks as they are" and "no attempts to alter or negotiate … were observed" — then two paragraphs later describes work-arounds, shadow IT, and ignoring policies "altogether."</p>
+        <div class="fix"><b>Fix:</b> reconcile — they don't negotiate <em>upward</em>, but they actively <em>route around</em>. Circumvention <em>is</em> navigating the constraint, and that is a more interesting claim.</div>
+      </div>
+    </article>
+
+    <article class="finding sharp" id="C10">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C10</div>
+          <div class="f-title">"Mediates" is a strong causal word; Figure 1 is never walked through</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">§4 intro</span> The chapter says managerial behaviour "mediates value creation." For a qualitative, non-causal design, consider "appears to mediate" / "is associated with."</p>
+        <p>Figure&nbsp;1 is introduced at the top but never referenced again or explained — define what its arrows mean (sequence? mechanism?) and tie each section back to it.</p>
+      </div>
+    </article>
+
+    <article class="finding sharp" id="C11">
+      <div class="f-head">
+        <div>
+          <div class="f-id">C11</div>
+          <div class="f-title">Evidence is concentrated in a few voices</div>
+        </div>
+        <span class="sev sharp">sharpen</span>
+      </div>
+      <div class="f-body">
+        <p><span class="loc">whole chapter</span> Citation counts within Chapter&nbsp;4: I13 ≈ 16, I6 ≈ 15, I12 ≈ 13, I10 ≈ 11 — while I5 appears twice and <strong>Interviewee 17 (of N = 17) is never cited at all.</strong> This is a known GT risk: themes driven by a few articulate participants.</p>
+        <div class="fix"><b>Fix:</b> add a sentence acknowledging it, and either cite I17 somewhere or note that later interviews densified existing categories — which also substantiates your saturation claim.</div>
+      </div>
+    </article>
+
+  </section>
+
+  <section id="editorial">
+    <h2>Editorial &amp; line-level</h2>
+    <div class="sec-sub">Quick polish pass. Locations use the thesis's own section numbers.</div>
+    <table class="edit">
+      <thead>
+        <tr><th style="width:74px">Where</th><th style="width:46%">Issue</th><th>Fix</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="loc-c">§4.1.1</td>
+          <td>"While most interviewees describe the progression of AI with enthusiasm." — sentence fragment.</td>
+          <td class="fixcol">Join with a comma into the next sentence.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.4.1</td>
+          <td><em>Scale</em>: "…performed in bulk. <span class="lit">is the benefit</span> most clearly impossible without AI." — broken sentence.</td>
+          <td class="fixcol">Rejoin into one grammatical sentence.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.3.4</td>
+          <td>"employing customer-facing agents <span class="lit">with refers to</span>"; and "(e.g. upsells, membership changes, and re-orders<span class="lit">.</span>"</td>
+          <td class="fixcol">"<b>which</b> refers to"; add the missing "<b>)</b>".</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.4.1</td>
+          <td>"come in <span class="lit">various different</span> forms <span class="lit">and notes how</span>…" — redundancy + no subject.</td>
+          <td class="fixcol">Drop "various"; give the clause a subject.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.3.5</td>
+          <td>Section ends on "the data's highest-productivity setup follows this logic" — asserts but never shows the example.</td>
+          <td class="fixcol">Add the promised example, or trim the claim.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.4.1</td>
+          <td>"Interviewee <span class="lit">three</span>" vs "Interviewee 3" everywhere else.</td>
+          <td class="fixcol">Standardise to numerals.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.1</td>
+          <td>Terminology drift: <span class="lit">vendor</span> (intro) vs <span class="lit">supplier</span> (Table&nbsp;3 / §4.1.1).</td>
+          <td class="fixcol">Pick one term and use it throughout.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">whole ch.</td>
+          <td>Long runs of "Interviewee X noted… Interviewee Y noted…" flatten the prose.</td>
+          <td class="fixcol">Vary the framing; integrate more quotes inline.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.2</td>
+          <td>Impressionistic frequency: "the most prevalent," "most consistently," with no basis stated.</td>
+          <td class="fixcol">Lightly ground ("noted by most managers") or soften.</td>
+        </tr>
+        <tr>
+          <td class="loc-c">§4.3.4 / §4.4.3</td>
+          <td>Possible missing closing quotation marks (I6 chatbot quote; I15 brand quote).</td>
+          <td class="fixcol">Verify in the docx — may be a conversion artifact.</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <footer class="next-steps">
+    <h2 style="font-size:21px">Suggested next steps</h2>
+    <ul class="checklist">
+      <li><input type="checkbox" id="n1"><label for="n1"><span class="tag">must</span>Renumber §4.2 (→ 4.2.1 / 4.2.2 / 4.2.3) and remove the empty heading.</label></li>
+      <li><input type="checkbox" id="n2"><label for="n2"><span class="tag">must</span>Decide on vendor/supplier: promote to §4.1.3 <em>or</em> cut it from the §4.1 intro and Table&nbsp;3.</label></li>
+      <li><input type="checkbox" id="n3"><label for="n3"><span class="tag">must</span>Fix the two dangling cross-references and repoint the §3.2 saturation reference.</label></li>
+      <li><input type="checkbox" id="n4"><label for="n4"><span class="tag">must</span>Delete the duplicated Interviewee-15 passage in §4.3.4.</label></li>
+      <li><input type="checkbox" id="n5"><label for="n5"><span class="tag">must</span>Move Table&nbsp;4 to the end of §4.3 and add an in-text callout.</label></li>
+      <li><input type="checkbox" id="n6"><label for="n6"><span class="tag s">sharpen</span>Add a contingency topic sentence to §4.3 (value depends on integration, not model).</label></li>
+      <li><input type="checkbox" id="n7"><label for="n7"><span class="tag s">sharpen</span>Reclassify job displacement as a risk, or reframe its evidence.</label></li>
+      <li><input type="checkbox" id="n8"><label for="n8"><span class="tag s">sharpen</span>Reconcile compliance "accept" vs "circumvent"; acknowledge the few-voices concentration.</label></li>
+      <li><input type="checkbox" id="n9"><label for="n9"><span class="tag s">sharpen</span>Soften "mediates"; walk the reader through Figure&nbsp;1.</label></li>
+      <li><input type="checkbox" id="n10"><label for="n10">Sweep the editorial table fixes.</label></li>
+    </ul>
+    <p class="caveat">Reviewed against a Pandoc conversion of the .docx — structural items (numbering, cross-references, duplicated text) hold regardless; a couple of quotation-mark flags should be confirmed in the source document.</p>
+  </footer>
+
+</div>
+
+<script>
+  // Briefly highlight a finding when reached via the finding-map anchors.
+  document.querySelectorAll('.risk-map a').forEach(function (a) {
+    a.addEventListener('click', function () {
+      var target = document.querySelector(a.getAttribute('href'));
+      if (!target) return;
+      target.style.transition = 'box-shadow 180ms ease';
+      target.style.boxShadow = '0 0 0 3px rgba(176,74,63,0.32)';
+      setTimeout(function () { target.style.boxShadow = 'none'; }, 1400);
+    });
+  });
+</script>
+</body>
+</html>

@@ -1,10 +1,10 @@
-<!-- Thesis grading estimate + revision checklist — re-graded from a full read of the draft -->
+<!-- Thesis grading estimate + revision checklist — re-verified against the live shared draft (22:39) -->
 <!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<title>Thesis — Grade estimate & revision checklist</title>
+<title>Thesis (shared draft) — Grade estimate & revision checklist</title>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
   :root {
@@ -37,9 +37,10 @@
   h1 { font-family: var(--serif); font-weight: 500; font-size: 31px; letter-spacing: -0.01em; margin: 6px 0 8px; }
   h2.section { font-family: var(--serif); font-weight: 500; font-size: 22px; letter-spacing: -0.01em; margin: 40px 0 4px; }
   .section-sub { color: var(--powder-muted); font-size: 13px; margin: 0 0 18px; max-width: 760px; }
-  .sub { color: var(--powder-ink); max-width: 760px; margin: 0 0 6px; }
+  .sub { color: var(--powder-ink); max-width: 780px; margin: 0 0 6px; }
+  .stamp { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); margin: 8px 0 0; }
+  .stamp::before { content: "● "; color: var(--green-deep); }
 
-  /* headline grade cards */
   .headline { display: grid; grid-template-columns: 1fr 1fr 1.2fr; gap: 14px; margin: 22px 0 8px; }
   .hcard { background: var(--paper); border: 1px solid var(--powder-mid); border-radius: 16pt; padding: 18px 20px; }
   .hcard .glabel { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); }
@@ -50,12 +51,11 @@
   .hcard.cur .gnum { color: var(--amber); }
   .hcard.proj { border-left: 4px solid var(--green-deep); }
   .hcard.proj .gnum { color: var(--green-deep); }
-  .hcard.gate { border-left: 4px solid var(--danger); background: #FFFDFB; }
-  .hcard.gate .gtitle { font-family: var(--serif); font-size: 17px; color: var(--danger); margin: 4px 0 6px; }
+  .hcard.gate { border-left: 4px solid var(--amber); background: #FFFDFB; }
+  .hcard.gate .gtitle { font-family: var(--serif); font-size: 17px; color: var(--amber); margin: 4px 0 6px; }
   .hcard.gate .gnote { font-size: 12.5px; color: var(--powder-ink); }
   .scalehint { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); margin: 6px 0 0; }
 
-  /* grade table */
   .gtable { display: flex; flex-direction: column; gap: 0; border: 1px solid var(--powder-mid); border-radius: 14pt; overflow: hidden; background: var(--paper); }
   .grow { display: grid; grid-template-columns: 220px 54px 1fr 150px; gap: 14px; align-items: center; padding: 13px 16px; border-bottom: 1px solid var(--powder-light); }
   .grow:last-child { border-bottom: 0; }
@@ -80,13 +80,11 @@
   .g-cur.t-ok { color: var(--accent-strong); }
   .g-cur.t-good { color: var(--green-deep); }
 
-  /* fixed-since list */
   .fixed { background: #F1F6EE; border: 1px solid #CFDAC0; border-radius: 12pt; padding: 14px 18px; margin: 16px 0 0; }
   .fixed h3 { font-family: var(--sans); font-size: 13px; font-weight: 700; color: var(--green-deep); margin: 0 0 8px; text-transform: uppercase; letter-spacing: 0.03em; }
   .fixed ul { margin: 0; padding-left: 18px; columns: 2; column-gap: 28px; }
   .fixed li { font-size: 12.5px; color: var(--powder-ink); margin-bottom: 4px; break-inside: avoid; }
 
-  /* toolbar */
   .toolbar { position: sticky; top: 0; z-index: 5; background: var(--canvas); display: flex; align-items: center; gap: 10px; flex-wrap: wrap; padding: 14px 0 12px; margin: 18px 0; border-bottom: 1px solid var(--powder-mid); }
   .progwrap { flex: 1; min-width: 200px; }
   .progmeta { font-family: var(--mono); font-size: 12px; color: var(--powder-ink); margin-bottom: 6px; }
@@ -127,6 +125,7 @@
   .loc::before { content: "⌖ "; color: var(--powder-muted); }
   .fix { font-size: 13px; color: var(--powder-ink); }
   .fix b { color: var(--ink); font-weight: 600; }
+  .fix .draft { display: block; margin: 8px 0; padding: 9px 12px; background: var(--powder-light); border-left: 3px solid var(--accent); border-radius: 0 6px 6px 0; font-style: italic; color: var(--ink); line-height: 1.45; }
   code { font-family: var(--mono); font-size: 12px; background: var(--powder-light); border: 1px solid var(--powder-mid); border-radius: 4px; padding: 0 4px; color: var(--accent-strong); }
   .foot { margin-top: 28px; padding-top: 16px; border-top: 1px solid var(--powder-mid); font-size: 12px; color: var(--powder-muted); }
   .foot b { color: var(--powder-ink); }
@@ -146,53 +145,56 @@
 <div class="wrap">
 
   <header>
-    <div class="eyebrow">Thesis — Daan Luttik · Executive MBA · re-graded from a full read · Nyenrode Final Project criteria</div>
+    <div class="eyebrow">Thesis — Daan Luttik · Executive MBA · SHARED draft (OneDrive) · Nyenrode Final Project criteria</div>
     <h1>Grade estimate &amp; revision checklist</h1>
-    <p class="sub">A second, line-by-line pass over the full draft (~21,600 words). The substance has clearly moved up since the first review — the reference list is much cleaner and the structure issues are fewer. What holds the grade back now is concentrated almost entirely in one conditional criterion (APA) and a handful of missing required elements.</p>
+    <p class="sub">Re-verified line-by-line against the <b>current</b> shared file. Since the last pass you’ve written the researcher’s reflexivity and folded it into §3.4, removed the duplicated Table&nbsp;1 sentence, and more. The remaining list is short and mostly reference-hygiene plus textual polish.</p>
+    <p class="stamp">Reflects the shared draft as last saved (file timestamp ~22:39). If you’ve edited since, a few items may already be done.</p>
   </header>
 
   <div class="headline">
     <div class="hcard cur">
       <div class="glabel">Substance today (weighted)</div>
-      <div class="gnum">7.5<span class="gunit"> / 10</span></div>
-      <div class="gnote">What the content earns on its merits, across the 8 assessable criteria (defense excluded).</div>
+      <div class="gnum">≈7.9<span class="gunit"> / 10</span></div>
+      <div class="gnote">Across the 8 assessable criteria (defense excluded). Up from ~7.5 → ~7.8 → now ~7.9 as Method improves with the reflexivity written.</div>
     </div>
     <div class="hcard proj">
       <div class="glabel">Reachable after fixes</div>
       <div class="gnum">8&ndash;8.5<span class="gunit"> / 10</span></div>
-      <div class="gnote">Clearing Blocking + Required, then Polish. The Findings, Discussion and 20%-weighted recommendations are already at this level.</div>
+      <div class="gnote">Clearing the (short) Blocking list and the Polish pass. Findings, Discussion and the 20%-weighted recommendations are already there.</div>
     </div>
     <div class="hcard gate">
-      <div class="glabel">⚠ Conditional gate</div>
-      <div class="gtitle">As-is, it would fail — not on quality</div>
-      <div class="gnote">APA is a <b>conditional</b> criterion: an “insufficient” triggers an automatic fail regardless of the 7.5 substance. The reference list still has 5 cited works missing, 7 uncited orphans, 2 struck entries, and pervasive “unverified” highlighting. Plus a confidentiality leak and a <code>TODO</code> section. All mechanical, all fixable.</div>
+      <div class="glabel">⚠ Conditional gate — nearly clear</div>
+      <div class="gtitle">Down to reference hygiene</div>
+      <div class="gnote">The ethics fail is resolved and the reflexivity TODO is done. The only thing keeping the conditional APA criterion borderline is the reference list: ~81 citations are still yellow-highlighted (the “unverified” flag), 2 cited works are missing, 3 orphans remain, and Parker is struck-yet-cited. Clear those and the conditional risk is gone.</div>
     </div>
   </div>
-  <p class="scalehint">Dutch scale: 6 = pass · 7 = on par with expectations · 8 = above expectations, solid all round · 9 = excellent / significant contribution · 10 = (almost never awarded).</p>
+  <p class="scalehint">Dutch scale: 6 = pass · 7 = on par · 8 = above expectations · 9 = excellent / significant contribution · 10 = (almost never awarded).</p>
 
   <h2 class="section">Per-criterion estimate</h2>
-  <p class="section-sub">Nyenrode Final Project weights. Bars show the current grade (solid) and the projected grade after the checklist below (dashed marker). “Defense” (10%) can’t be judged from the document.</p>
+  <p class="section-sub">Nyenrode Final Project weights. Solid bar = current grade; dashed marker = projected after the checklist. “Defense” (10%) can’t be judged from the document.</p>
 
   <div class="gtable" id="gtable">
     <div class="grow head"><div>Criterion</div><div>Wt</div><div>Current → projected</div><div>Grade</div></div>
   </div>
 
   <div class="fixed">
-    <h3>✓ Already fixed since the first review</h3>
+    <h3>✓ Fixed in the shared draft (cumulative)</h3>
     <ul>
-      <li>Reference formatting repaired (Acharya, Krizhevsky no longer MLA-style)</li>
-      <li>Vaswani year now consistent (2017 in text &amp; list)</li>
-      <li>Most previously-struck references reinstated/cleaned</li>
-      <li>TOC: Ch. 5 sections no longer nested under Ch. 4</li>
-      <li>“Contributions to Academia” → “Contributions to Theory”</li>
-      <li>“4.x Placeholder” TOC line removed</li>
-      <li>Ch. 2 graphic now captioned as Figure 1 and referenced in text</li>
-      <li>Stray <code>#_d3o8hfs61axc</code> anchor gone; Ch. 7 body heading cleaned</li>
+      <li><b>Reflexivity written</b> &amp; folded into §3.4; credibility cross-ref updated to (3.4)</li>
+      <li>Confidentiality leak removed (no more Merck/Jon/Berfun)</li>
+      <li>Duplicate §3.2 resolved — Trustworthiness is now <b>§3.4</b></li>
+      <li>Duplicated Table&nbsp;1 sentence removed</li>
+      <li>Working-titles stripped from headings (“~4k words”, “10-12 pages”)</li>
+      <li>Stray “Process debt” heading + dangling Appendix C/D &amp; Figure&nbsp;B1 refs cleaned</li>
+      <li>Citation typos fixed: Enholm 2022, Vidal 2022, Teece</li>
+      <li>References added: Charmaz (2014), Merriam (1998), Srivastava (2026)</li>
+      <li>4 orphan refs + the struck Luo entry removed; TOC regenerated</li>
+      <li><b>Supervisor</b> (S. Beninger) added to the cover page</li>
     </ul>
   </div>
 
   <h2 class="section">Revision checklist</h2>
-  <p class="section-sub">Re-verified against the current draft. Tick items as you go — progress saves in this browser. Filter by tier with the chips.</p>
+  <p class="section-sub">Re-verified against the current shared draft. Tick items as you go — progress saves in this browser. Filter by tier with the chips.</p>
 
   <div class="toolbar">
     <div class="progwrap">
@@ -211,7 +213,7 @@
   <div id="board"></div>
 
   <div class="foot">
-    Estimates are provisional and reflect one assessor’s reading of the criteria in <code>thesis grading overview - structure - checklist.pdf</code>; your supervisor and second reader set the real grade. Generated from <code>Thesis Draft - Daan Luttik - MBA.docx</code>.
+    Estimates are provisional and reflect one assessor’s reading of the criteria in <code>thesis grading overview - structure - checklist.pdf</code>; your supervisor and second reader set the real grade. Generated from <code>onedrive/Thesis Draft - Daan Luttik - MBA - shared.docx</code>.
   </div>
 
 </div>
@@ -220,21 +222,21 @@
   // ---------------- GRADING DATA ----------------
   var CRITERIA = [
     { name: "Introduction", weight: 10, cur: 7.0, proj: 7.5,
-      note: "RQ + 3 sub-questions, gap and motivation all present and clear. Held back by a diffuse management problem, bullet-list relevance, and residual “GenAI” framing inconsistent with the agentic focus." },
+      note: "RQ + 3 sub-questions, gap and motivation clear. Held back by a diffuse management problem, bullet-list relevance, and residual “GenAI” framing inconsistent with the agentic focus." },
     { name: "Theoretical framework", weight: 10, cur: 8.0, proj: 8.5,
-      note: "Comprehensive, well-cited arc: AI history → LLMs → agentic → marketing AI → value theory → digital transformation → sensitizing concepts. A genuine strength." },
-    { name: "Method", weight: 10, cur: 6.5, proj: 8.0,
-      note: "Constructivist grounded theory well justified; 17 interviews; trustworthiness table. But §3.2.1 reflexivity is a literal TODO — and the trustworthiness table leans on it for credibility & confirmability." },
+      note: "Comprehensive, well-cited arc from AI history through agentic AI, marketing AI, value theory and digital transformation to sensitizing concepts. A genuine strength." },
+    { name: "Method", weight: 10, cur: 7.5, proj: 8.0,
+      note: "Constructivist grounded theory well justified; 17 interviews; trustworthiness table; reflexivity now written and placed in §3.4. The remaining lift is making the data-analysis mechanics (coding pipeline, saturation) more concrete." },
     { name: "Results / Findings", weight: 10, cur: 8.5, proj: 9.0,
-      note: "The standout chapter. Rich, well-structured thematic narrative, strong quote use, code-development and divergent-outcomes tables, a clear process figure. Only small textual slips remain." },
+      note: "The standout chapter: rich thematic narrative, strong quote use, code-development and divergent-outcomes tables, a clear process figure. Only small textual slips remain." },
     { name: "Discussion & conclusion", weight: 10, cur: 8.5, proj: 8.5,
-      note: "Findings tied back to the literature, all three sub-questions answered, clear theoretical contributions, solid limitations & future research. Minor 5.1 sub-numbering inconsistency." },
+      note: "Findings tied back to the literature, all three sub-questions answered, clear contributions, solid limitations & future research. Minor §5.1 issues: uneven sub-question signposting (Q1 restated, Q2/Q3 implicit) and sub-numbering." },
     { name: "Practical recommendations", weight: 20, cur: 8.5, proj: 9.0,
       note: "Heaviest weight, and a strength: six concrete, model-aligned recommendation clusters plus a full operational manager’s checklist (Appendix B). Actionable, not abstract." },
     { name: "Innovativeness", weight: 10, cur: 8.5, proj: 8.5,
       note: "Answers explicit published calls for research; original process model, “harness” vocabulary, “value as a managed portfolio”, and the paradoxes. Real contribution." },
-    { name: "Presentation / Structure / APA", weight: 10, cur: 5.0, proj: 7.5,
-      note: "The weak spot and the conditional gate. APA gaps (missing/orphan/struck refs, highlighting, year typos), stale TOC, missing executive summary, duplicate §3.2 numbering, working titles in headings." },
+    { name: "Presentation / Structure / APA", weight: 10, cur: 6.0, proj: 8.0,
+      note: "Much improved: structure, numbering, typos, the leak and reflexivity are all handled. Still borderline, held at 6 by ~81 highlighted citations, 2 missing refs, 3 orphans, a struck-yet-cited entry, and one dangling §3.2.1 cross-reference." },
     { name: "Defense", weight: 10, cur: null, proj: null,
       note: "Not assessable from the document — presentation quality and Q&A on the day. The remaining 10% is in your hands." }
   ];
@@ -266,91 +268,73 @@
   // ---------------- CHECKLIST DATA ----------------
   var TIERS = {
     blocking: { label: "Blocking", pill: "b", cls: "b",
-      desc: "Fix before submission. APA is conditional — “insufficient” is an automatic fail whatever the substance scores. The confidentiality leak is an anonymity breach. The TODO leaves an assessed section empty." },
+      desc: "Fix before submission. APA is conditional and currently borderline — all four items are reference-list hygiene. Clearing them removes the only remaining fail-risk." },
     required: { label: "Required", pill: "r", cls: "r",
-      desc: "Mandatory rubric/structure elements that are still missing, plus dangling cross-references and draft scaffolding that stop the document reading as finished." },
+      desc: "Mandatory rubric/structure elements still missing or incomplete, plus the one dangling cross-reference the reflexivity move left behind." },
     polish: { label: "Polish", pill: "p", cls: "p",
-      desc: "Quality lifts — the gap between a 7.5 and an 8.5. Mostly textual repairs and consistency, given how strong the underlying chapters already are." }
+      desc: "Quality lifts — the gap between ~7.9 and 8.5. Mostly textual repairs and consistency, given how strong the underlying chapters are." }
   };
 
   var ITEMS = [
-    // ----- BLOCKING -----
-    { tier: "blocking", area: "APA · conditional", title: "Add the 5 cited works missing from the reference list",
-      loc: "Ch. 7 vs in-text",
-      fix: "Cited but absent from the list: <b>Charmaz (2014)</b> (only 2006 is listed, yet 2014 is cited ~10×), <b>Merriam (1998)</b> (Table 2), <b>Srivastava (2026)</b> (§2.2, §5.1), <b>Smidt et al. (2026)</b> (§2.2, §5.1), <b>Polsa (2013)</b> (§5.3). Every in-text citation must resolve to an entry." },
-    { tier: "blocking", area: "APA · conditional", title: "Remove or cite the 7 orphan references",
+    // ----- BLOCKING (all APA / conditional) -----
+    { tier: "blocking", area: "APA · conditional", title: "Verify and clear the citation highlighting",
+      loc: "Throughout body + reference list (~81 highlighted spans)",
+      fix: "Most in-text citations and many reference entries are still yellow-highlighted (the “unverified” flag). With highlighting left in, the document reads as unfinished and the assessor can’t trust the citations. Confirm each source/attribution, then <b>remove all highlighting</b>. This is the single biggest driver of the borderline APA score." },
+    { tier: "blocking", area: "APA · conditional", title: "Add the 2 cited works still missing from the list",
+      loc: "Ch. 7 vs in-text (§2.2, §5.1, §5.3)",
+      fix: "<b>Smidt et al. (2026)</b> (process debt — cited §2.2 &amp; §5.1) and <b>Polsa (2013)</b> (cited §5.3) are still absent from the reference list. Add both. (Charmaz 2014, Merriam 1998 and Srivastava 2026 are now present — good.)" },
+    { tier: "blocking", area: "APA · conditional", title: "Remove the 3 remaining orphan references",
       loc: "Ch. 7 — listed but never cited",
-      fix: "These appear in the list but are not cited anywhere: <b>Bessen (2018), Hanelt et al. (2021), Verhoef et al. (2021), Kumar et al. (2025), Sidorchuk (2015), Prasad Agrawal (2023), Prasanna &amp; Kushwaha (2025)</b>. APA requires the list to contain only cited works — delete them or cite them." },
-    { tier: "blocking", area: "APA · conditional", title: "Resolve the 2 struck-through reference entries",
-      loc: "Ch. 7 — Luo (2019), Parker et al. (2019)",
-      fix: "Both are still in the list with strikethrough. <b>Parker et al. (2019) is actually cited</b> in §3.3 (snowball sampling) — so un-strike and keep it (and fix its self-referential journal field). <b>Luo (2019)</b> is uncited — delete it." },
-    { tier: "blocking", area: "APA · conditional", title: "Verify every flagged citation and remove the highlighting",
-      loc: "Throughout body + reference list",
-      fix: "A large share of in-text citations and reference entries are still yellow-highlighted (the “unverified” flag). Confirm each source and attribution, then <b>clear all highlighting</b> so the final text is clean." },
-    { tier: "blocking", area: "APA · conditional", title: "Fix citation year / author typos",
-      loc: "§2.4 and reference list",
-      fix: "<code>Enholm et al. (2021)</code> in §2.4 vs <code>(2022)</code> everywhere else and in the list — unify to 2022. <code>Vidal et al. (2002)</code> → <b>2022</b>. <code>Teece et al. (2007)</code> → likely <b>(1997)</b> (the integrate-build-reconfigure definition). <code>Srivastave</code> → <b>Srivastava</b>. Lowercase journal titles: <code>Harvard business review</code>, <code>nature</code>." },
-    { tier: "blocking", area: "Ethics / anonymity", title: "Remove the confidentiality leak",
-      loc: "Appendix A.1.3 “From other interviews (unrefined)”",
-      fix: "This working block still names real people and a company — <b>“Merck”, “Jon”, “Berfun”</b> — in a study that anonymizes everyone as “Interviewee N”. Delete the block (it’s analysis notes, not protocol) or fully anonymize it." },
-    { tier: "blocking", area: "Method · structure", title: "Write §3.2.1 Researcher’s reflexivity (still “TODO”)",
-      loc: "§3.2.1 — body is the literal word TODO",
-      fix: "Load-bearing: the Table 2 trustworthiness claims cite §3.2.1 for both <b>credibility</b> and <b>confirmability</b>, so those currently point at an empty section. Write the researcher’s marketing/AI background, positionality, and bias management. The qualitative rubric explicitly rewards reflexivity." },
+      fix: "Still listed yet uncited: <b>Kumar et al. (2025), Prasad Agrawal (2023), Sidorchuk (2015)</b>. APA requires the list to contain only cited works — delete them or cite them." },
+    { tier: "blocking", area: "APA · conditional", title: "Un-strike Parker, fix Merriam, fix the Srivastav typo",
+      loc: "Ch. 7 + §2.2",
+      fix: "<b>Parker et al. (2019)</b> is still struck through but is actually cited in §3.3 (snowball sampling) — un-strike and keep it, and fix its self-referential journal field. The <b>Merriam (1998)</b> entry is malformed (stray quotes + a publisher street address) — clean it to APA form. And §2.2 reads <code>Srivastav (2026)</code> once where it should be <b>Srivastava</b>." },
 
     // ----- REQUIRED -----
+    { tier: "required", area: "Coherence", title: "Fix the dangling reflexivity cross-reference",
+      loc: "§3.4 — Table 2, confirmability row",
+      fix: "Nice work moving the reflexivity into §3.4. But the confirmability cell still says “…appears in <b>Section 3.2.1</b>”, which no longer exists — change it to <b>3.4</b> (the credibility cell already says 3.4). It also still promises “…and <b>sampling implications</b>”, which the §3.4 reflexivity sentence doesn’t cover — either add a clause (recruited via the researcher’s network, §3.3) or trim that phrase." },
     { tier: "required", area: "Structure", title: "Write the one-page Executive Summary",
       loc: "Missing — belongs after the Table of Contents",
-      fix: "Required by the structure guide: purpose/RQ, method, main findings, limitations, originality — one page max. Currently absent entirely." },
-    { tier: "required", area: "Structure", title: "Resolve dangling Appendix C, Appendix D & Figure B1 references",
-      loc: "§3.2 (“figure B1”), Table 2 (“Appendix C”, “Appendix D”)",
-      fix: "The text points to <b>Appendix C</b> (coding), <b>Appendix D</b> (supporting quotes) and <b>Figure B1</b> (data-collection process) — but the document only contains Appendices A and B and no Figure B1. Either add these appendices/figure or remove the cross-references." },
-    { tier: "required", area: "Presentation", title: "Strip working-titles baked into headings",
-      loc: "Ch. 2 & Ch. 3 body headings",
-      fix: "Remove the drafting notes from the live headings: <code>2. Literature Review (~4k words)</code> and <code>3. Methodology (10-12 pages)</code>." },
-    { tier: "required", area: "Presentation", title: "Fix the duplicate §3.2 numbering",
-      loc: "Ch. 3 — “3.2 Trustworthiness” after 3.3",
-      fix: "Sequence is 3.1 → 3.2 Data collection → 3.3 Sample → <b>3.2 Trustworthiness</b>. Renumber Trustworthiness to <b>3.4</b> (and re-check 3.2.1)." },
-    { tier: "required", area: "Presentation", title: "Regenerate the Table of Contents",
+      fix: "Still absent. Required by the structure guide: purpose/RQ, method, main findings, limitations, originality — one page max." },
+    { tier: "required", area: "Structure", title: "Finish the cover / title page",
+      loc: "Cover — has Name, Student no., Email, Supervisor",
+      fix: "Supervisor is in (good). Still add the <b>second reader</b> (if assigned), the report status (MBA thesis), and the date; the structure guide also expects a separate <b>title page</b> after the cover with the university (and company, if any) details." },
+    { tier: "required", area: "Presentation", title: "Re-check the TOC after the §5.1 fix",
       loc: "Contents page",
-      fix: "Still stale: <code>7. References (not all papers are currently used…)</code>, the duplicate “3.2 Trustworthiness” after 3.3, and only “1.4 Structure” listed for Ch. 1 with no 1.1–1.3. Rebuild from the final headings after the numbering fixes." },
-    { tier: "required", area: "Structure", title: "Complete the cover & title page",
-      loc: "Cover — shows only Name / Student no. / Email",
-      fix: "Add <b>supervisor and second-reader names</b>, report status (MBA thesis), date, and university/company details on a proper title page. Required by the structure guide." },
-    { tier: "required", area: "Lit. review", title: "Remove the stray “Process debt” heading",
-      loc: "End of §2.3",
-      fix: "A bare line reading <code>Process debt</code> (with an orphan bookmark anchor) sits between §2.3 and §2.4 — a leftover outline stub. Delete it or fold it into the surrounding prose." },
+      fix: "The TOC is largely regenerated (working-titles and the duplicate 3.2 are gone — good). Just refresh it once more after the §5.1 sub-numbering fix below so page numbers and headings stay in sync." },
 
     // ----- POLISH -----
     { tier: "polish", area: "Introduction", title: "Replace “GenAI” framing in the contributions",
-      loc: "§1 — academic & practical contribution bullets",
-      fix: "The contributions still read “GenAI applications”, “valuable GenAI opportunities”, “scaling GenAI initiatives”, “strategic GenAI adoption” — residue from an earlier framing. The thesis is about <b>agentic AI</b>; align the language and convert the two bullet lists to prose." },
+      loc: "§1 — gap paragraphs &amp; the contribution bullets",
+      fix: "Still reads “GenAI applications”, “valuable GenAI opportunities”, “scaling GenAI initiatives”, “strategic GenAI adoption” — residue from an earlier framing. The thesis is about <b>agentic AI</b>; align the language and convert the two bullet lists to prose." },
     { tier: "polish", area: "Introduction", title: "Sharpen the management problem",
       loc: "§1",
       fix: "The rubric wants a problem that is specific, manageable, and clear to a non-expert. Anchor it in the concrete decision a marketing manager faces (whether/where to invest in agentic AI and how to realize value) rather than the diffuse academic framing." },
-    { tier: "polish", area: "Findings", title: "Close the unclosed quote & strip stray markup",
-      loc: "§4.4.4 (Interviewee 6) and before Table 4",
-      fix: "The Interviewee 6 quote ending §4.4.4 (“…because we had commercial success first) has no closing quote or period. A stray <code>**\\**</code> sits just before Table 4. Repair both." },
-    { tier: "polish", area: "Findings", title: "Fix garbled / incomplete sentences",
-      loc: "§3.3, §4.1, §4.2.2, §4.3.1, §4.1.2",
-      fix: "§3.3: “selected based on their <b>Since the sampling universe…</b>” (broken) and a <b>duplicated</b> Table 1 sentence. §4.1: “However, while when it comes to…” + a stray <code>[1]</code>. §4.2.2: “decrease resistance and increase.” (incomplete). §4.3.1: “Interviewee 4 <b>how</b> he configured…” (missing verb). §4.1.2: “Interviewee 12 ‘agents of consumers’ and notes…” (missing verb)." },
+    { tier: "polish", area: "Findings", title: "Close the unclosed quote",
+      loc: "§4.4.4 — Interviewee 6",
+      fix: "The Interviewee 6 quote ending §4.4.4 (“…because we had commercial success first) still has no closing quote or period. Repair it." },
+    { tier: "polish", area: "Method / Findings", title: "Fix garbled / incomplete sentences",
+      loc: "§3.3, §4.1, §4.2.2, §4.3.1",
+      fix: "§3.3: “…selected based on their <b>Since the sampling universe…</b>” (broken). §4.1: “However, while when it comes to…” + a stray <code>[1]</code>. §4.2.2: “…decrease resistance and increase.” (incomplete). §4.3.1: “Interviewee 4 <b>how</b> he configured…” (missing verb). (The duplicated Table 1 sentence is already fixed — nice.)" },
     { tier: "polish", area: "Findings", title: "Standardize interviewee references",
-      loc: "Throughout Ch. 4",
-      fix: "Mixed forms: “interviewee three”, “Interviewee 3”, “interviewee 7”. Pick one (e.g. “Interviewee 3”) and apply consistently, including capitalization at sentence start." },
-    { tier: "polish", area: "Findings", title: "Fix the dangling colon with no quote",
-      loc: "§4.2.1 (Interviewee 7 innovation culture)",
-      fix: "“Interviewee 7 described this enabling condition:” is immediately followed by the next paragraph — the intended quote is missing. Insert it or rewrite the lead-in." },
+      loc: "Throughout Ch. 4 (still mixed)",
+      fix: "Still mixes lower-case “interviewee 7” with “Interviewee 6”, and one spelled-out “interviewee three”. Pick one form (e.g. “Interviewee 3”) and apply it consistently, including capitalization at sentence start." },
     { tier: "polish", area: "Discussion", title: "Make §5.1 sub-numbering consistent",
       loc: "§5.1 — 5.1.1 … then unnumbered … then 5.1.5",
-      fix: "Sub-sections run 5.1.1, then three unnumbered headings (“Observing forces for change”, “Steering…”, “Applying…”), then 5.1.5 — and the text refers to “Section 5.1.3”, which isn’t numbered. Number them 5.1.1–5.1.5 and fix the cross-references." },
+      fix: "Still runs 5.1.1, then two unnumbered headings (“Observing forces for change”, “Steering the organizational context”), then 5.1.5 — and the text refers to “Section 5.1.3”, which isn’t numbered. Number them 5.1.1–5.1.5 and fix the cross-references." },
     { tier: "polish", area: "Method", title: "Deepen the data-analysis mechanics",
       loc: "§3.2",
       fix: "The coding pipeline (initial → focused → theoretical), memoing, and saturation are named but lightly described. A few concrete sentences on how codes became categories and how saturation was judged would lift the assessed “analysis strategy”." },
     { tier: "polish", area: "Structure", title: "Add front-matter lists (optional, near-free)",
       loc: "After the Table of Contents",
-      fix: "The structure guide names a List of Tables, List of Figures, and Table of Appendices — but this is <b>low-stakes (not conditional) and won’t move the grade much</b>. Worth doing only because it’s nearly free if captions are styled (Word auto-generates them): a <b>List of Tables</b> (4 tables) genuinely aids navigation, a <b>List of Figures</b> (1 entry) is for compliance, and a <b>Table of Appendices</b> is optional. Do not number these pages." }
+      fix: "The structure guide names a List of Tables, List of Figures, and Table of Appendices — but this is <b>low-stakes (not conditional) and won’t move the grade much</b>. Worth doing only because it’s nearly free if captions are styled (Word auto-generates them): a <b>List of Tables</b> genuinely aids navigation, a <b>List of Figures</b> is for compliance, and a <b>Table of Appendices</b> is optional. Do not number these pages." },
+    { tier: "polish", area: "Discussion", title: "Signpost all three sub-questions consistently",
+      loc: "§5.1 (“Observing / Steering / Applying”) + Conclusion",
+      fix: "The rubric wants each research question “clearly addressed”. §5.1 opens by restating <b>sub-question 1 verbatim</b>, but the “Steering…” and “Applying…” sections don’t flag sub-questions 2 and 3 the same way — so Q1 is signposted and Q2/Q3 read as implicit. Make all three consistent: a short paraphrased lead-in each (e.g. “The second sub-question asked how managers enable adoption…”) then the answer. You don’t need to quote them verbatim — clarity of linkage is what’s assessed. Keep the Conclusion’s lighter paraphrase (identify/translate, enable adoption, navigate) so the two sections don’t fully repeat." }
   ];
 
-  var STORAGE_KEY = "thesis-grade-checklist-v2";
+  var STORAGE_KEY = "thesis-grade-checklist-shared-v2";
   var done = {};
   try { done = JSON.parse(localStorage.getItem(STORAGE_KEY) || "{}") || {}; } catch (e) { done = {}; }
   function save() { try { localStorage.setItem(STORAGE_KEY, JSON.stringify(done)); } catch (e) {} }

@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>§4.4 Obtaining value outcomes — added support</title>
+  <style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+      --canvas:#FDFCFA; --ink:#000000; --accent:#007bcd; --green:#5C8A3A;
+      --powder:#EAF1F6; --powder-light:#F3F7FA; --powder-line:rgba(31,74,105,0.13);
+      --powder-muted:#6E8798; --powder-ink:#3D5363; --paper:#FFFFFF;
+      --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,-apple-system,sans-serif;
+      --mono:ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:var(--sans); background:var(--canvas); color:var(--powder-ink);
+         line-height:1.55; padding:56px 32px 120px; -webkit-font-smoothing:antialiased; }
+  .page { max-width:1040px; margin:0 auto; }
+
+  header.page-head { margin-bottom:40px; max-width:840px; }
+  .eyebrow { font-size:12px; letter-spacing:.08em; text-transform:uppercase;
+             color:var(--powder-muted); margin-bottom:12px; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:34px; line-height:1.15;
+       color:var(--ink); margin-bottom:12px; letter-spacing:-0.01em; }
+  .pr-meta { display:flex; flex-wrap:wrap; gap:18px; font-family:var(--mono);
+             font-size:12.5px; color:var(--powder-muted); margin-bottom:18px; }
+  .pr-meta .stat strong { color:var(--ink); font-weight:600; }
+  .pr-meta .add { color:var(--green); }
+  .prompt-box { background:var(--powder-light); border:1px solid var(--powder-line);
+                border-radius:16pt; padding:16px 20px; font-size:14.5px; color:var(--powder-ink); }
+  .prompt-box .label { font-family:var(--mono); font-size:11px; text-transform:uppercase;
+                       letter-spacing:.06em; color:var(--powder-muted); display:block; margin-bottom:6px; }
+
+  .layout { display:grid; grid-template-columns:1fr 220px; gap:48px; align-items:start; }
+  @media (max-width:900px){ .layout{ grid-template-columns:1fr; } .toc{ display:none; } }
+  section { margin-bottom:52px; scroll-margin-top:24px; }
+  h2 { font-family:var(--serif); font-weight:500; font-size:24px; color:var(--ink);
+       margin-bottom:14px; letter-spacing:-0.01em; }
+  p.lede { font-size:15.5px; max-width:700px; margin-bottom:12px; }
+
+  .toc { position:sticky; top:32px; border-left:1px solid var(--powder-line);
+         padding-left:18px; font-size:13px; }
+  .toc .t-head { font-family:var(--mono); font-size:11px; text-transform:uppercase;
+                 letter-spacing:.06em; color:var(--powder-muted); margin-bottom:10px; }
+  .toc a { display:block; color:var(--powder-ink); text-decoration:none; padding:4px 0; }
+  .toc a:hover { color:var(--accent); }
+  .toc .sub { padding-left:12px; color:var(--powder-muted); font-size:12.5px; }
+
+  .tldr { background:var(--paper); border:1px solid var(--powder-line);
+          border-left:4px solid var(--green); border-radius:16pt; padding:20px 24px;
+          margin-bottom:44px; max-width:780px; }
+  .tldr .k { font-family:var(--mono); font-size:11px; text-transform:uppercase;
+             letter-spacing:.06em; color:var(--powder-muted); margin-bottom:8px; }
+  .tldr p { font-size:15px; color:var(--ink); }
+  .tldr p + p { margin-top:10px; }
+
+  /* glance table */
+  table.glance { width:100%; border-collapse:collapse; font-size:13.5px; max-width:820px; }
+  table.glance th, table.glance td { text-align:left; padding:10px 12px;
+       border-bottom:1px solid var(--powder-line); vertical-align:top; }
+  table.glance th { font-family:var(--mono); font-size:11px; text-transform:uppercase;
+       letter-spacing:.05em; color:var(--powder-muted); font-weight:600; }
+  table.glance td.sub { font-family:var(--mono); color:var(--ink); white-space:nowrap; }
+  .chips { display:flex; flex-wrap:wrap; gap:4px; }
+  .chip { font-family:var(--mono); font-size:11px; padding:1px 7px; border-radius:6pt;
+          background:var(--powder); color:var(--powder-ink); }
+  .chip.new { background:#E4EEDC; color:var(--green); font-weight:600; }
+
+  /* change cards */
+  .file-tour { display:flex; flex-direction:column; gap:18px; }
+  .file { background:var(--paper); border:1px solid var(--powder-line); border-radius:16pt; overflow:hidden; }
+  .file summary { padding:14px 20px; cursor:pointer; display:flex; align-items:center; gap:12px;
+       list-style:none; background:var(--powder-light); border-bottom:1px solid var(--powder-line); }
+  .file:not([open]) summary { border-bottom:none; }
+  .file summary::-webkit-details-marker { display:none; }
+  .file summary .chev { width:8px; height:8px; border-right:2px solid var(--powder-muted);
+       border-bottom:2px solid var(--powder-muted); transform:rotate(-45deg);
+       transition:transform .15s ease; flex-shrink:0; }
+  .file[open] summary .chev { transform:rotate(45deg); }
+  .file summary .badge { font-family:var(--mono); font-size:10.5px; padding:2px 8px;
+       border-radius:6pt; font-weight:600; background:var(--powder); color:var(--ink); flex-shrink:0; }
+  .file summary .ttl { font-weight:600; color:var(--ink); font-size:14.5px; flex:1; }
+  .file summary .stat { font-family:var(--mono); font-size:12px; color:var(--green); flex-shrink:0; }
+  .file .file-body { padding:18px 20px 22px; }
+  .row { font-size:14px; margin-bottom:12px; max-width:720px; }
+  .row .lbl { font-family:var(--mono); font-size:10.5px; text-transform:uppercase;
+       letter-spacing:.05em; color:var(--powder-muted); display:block; margin-bottom:4px; }
+  .claim { color:var(--ink); font-style:italic; }
+  blockquote.add { font-family:var(--serif); font-size:14.5px; color:var(--ink);
+       border-left:3px solid var(--green); background:#F5F9F0; padding:10px 16px;
+       border-radius:0 8pt 8pt 0; margin:6px 0; }
+  blockquote.add + blockquote.add { margin-top:8px; }
+  .attr { font-family:var(--mono); font-size:11.5px; color:var(--powder-muted);
+          margin-bottom:3px; }
+  .attr .num { display:inline-block; min-width:18px; height:18px; line-height:18px;
+       text-align:center; background:var(--green); color:#fff; border-radius:50%;
+       font-size:10.5px; margin-right:6px; }
+  .why { font-size:13.5px; color:var(--powder-ink); max-width:720px; }
+  .why strong { color:var(--ink); }
+
+  .note { background:#FBF6E9; border:1px solid #E8DDBE; border-radius:12pt;
+          padding:14px 18px; font-size:13.5px; color:#6b5a2b; max-width:820px; }
+  .note strong { color:#4a3d18; }
+  .note code { font-family:var(--mono); font-size:12px; background:#fff;
+       border:1px solid #E8DDBE; padding:1px 5px; border-radius:5pt; }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="page-head">
+      <div class="eyebrow">Thesis · Findings · tracked-changes summary</div>
+      <h1>§4.4 Obtaining value outcomes — strengthening the evidence base</h1>
+      <div class="pr-meta">
+        <span class="stat">section <strong>4.4</strong></span>
+        <span class="stat"><span class="add">+13 quotes</span> across <strong>9</strong> paragraphs</span>
+        <span class="stat"><strong>3</strong> new voices</span>
+        <span class="stat">all edits <strong>tracked</strong> · author Claude</span>
+      </div>
+      <div class="prompt-box">
+        <span class="label">Request</span>
+        Improve the value-outcome section. Give more support to all of the claims we make —
+        additional interview quotes are valuable. Sourced from the coded QDPX project and the
+        full transcripts.
+      </div>
+    </header>
+
+    <div class="layout">
+      <main>
+
+        <div class="tldr">
+          <div class="k">What changed</div>
+          <p>Most claims in §4.4 rested on a single voice — scale on one quote, costs on one quote,
+          security on one quote. Each was true but thinly evidenced. I added <strong>13 corroborating
+          quotes</strong> drawn from the QDPX codes behind this section (<em>Benefit</em>, <em>Drawback</em>,
+          <em>Risk</em>), so every claim now carries breadth across interviewees.</p>
+          <p>The additions introduce <strong>three interviewees not previously quoted in §4.4</strong>
+          (2 · Arjan Dijk, 4 · Dennis Goedegebuure, 8 · Jon Stephan) and add concrete magnitudes
+          (a-year-to-a-week at scale; week-to-two-hours on efficiency). One factual fix: the intro
+          said “five themes” but lists four. Everything is a tracked insertion — nothing existing was
+          deleted except the single word <em>five → four</em>.</p>
+        </div>
+
+        <section id="glance">
+          <h2>At a glance</h2>
+          <p class="lede">Voices supporting each claim, before and after. Green chips are newly added quotes.</p>
+          <table class="glance">
+            <thead><tr><th>Sub-claim</th><th>Already cited</th><th>Added</th></tr></thead>
+            <tbody>
+              <tr><td class="sub">4.4.1 Efficiency</td>
+                  <td><div class="chips"><span class="chip">12</span><span class="chip">10</span></div></td>
+                  <td><div class="chips"><span class="chip new">3 · concrete magnitude</span></div></td></tr>
+              <tr><td class="sub">4.4.1 Speed</td>
+                  <td><div class="chips"><span class="chip">9</span><span class="chip">12</span></div></td>
+                  <td><div class="chips"><span class="chip new">4 · market responsiveness</span></div></td></tr>
+              <tr><td class="sub">4.4.1 Scale</td>
+                  <td><div class="chips"><span class="chip">14</span></div></td>
+                  <td><div class="chips"><span class="chip new">8</span><span class="chip new">9</span></div></td></tr>
+              <tr><td class="sub">4.4.1 Skillset</td>
+                  <td><div class="chips"><span class="chip">12</span><span class="chip">10</span></div></td>
+                  <td><div class="chips"><span class="chip new">7 · seniority shift</span></div></td></tr>
+              <tr><td class="sub">4.4.1 Quality</td>
+                  <td><div class="chips"><span class="chip">3</span><span class="chip">10</span><span class="chip">5</span></div></td>
+                  <td><div class="chips"><span class="chip new">14 · exceeds human</span></div></td></tr>
+              <tr><td class="sub">4.4.2 Costs</td>
+                  <td><div class="chips"><span class="chip">7</span></div></td>
+                  <td><div class="chips"><span class="chip new">9</span><span class="chip new">16 · subsidised prices</span></div></td></tr>
+              <tr><td class="sub">4.4.2 Job displacement</td>
+                  <td><div class="chips"><span class="chip">7</span><span class="chip">13</span></div></td>
+                  <td><div class="chips"><span class="chip new">4 · job morphs</span></div></td></tr>
+              <tr><td class="sub">4.4.3 Security &amp; privacy</td>
+                  <td><div class="chips"><span class="chip">13</span></div></td>
+                  <td><div class="chips"><span class="chip new">9</span><span class="chip new">2</span></div></td></tr>
+              <tr><td class="sub">4.4.3 Brand risk</td>
+                  <td><div class="chips"><span class="chip">6</span><span class="chip">15</span></div></td>
+                  <td><div class="chips"><span class="chip new">10 · capability blurring</span></div></td></tr>
+            </tbody>
+          </table>
+          <p class="lede" style="margin-top:14px; font-size:13.5px; color:var(--powder-muted);">
+            Hallucination risk (4.4.3) was left unchanged — it already carries three independent
+            voices (11, 10, 12) and is the best-evidenced claim in the section.</p>
+        </section>
+
+        <section id="changes">
+          <h2>Change by change</h2>
+          <p class="lede">Each card: the claim being supported, who already spoke to it, and the quote(s)
+          I added with attribution. Quotes are verbatim from the transcripts (ellipses mark trimmed filler).</p>
+
+          <div class="file-tour">
+
+            <!-- EFFICIENCY -->
+            <details class="file" open>
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Efficiency — a concrete magnitude</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“Efficiency forms the largest and most consistently described benefit … doing more with the same amount of effort.”</span></div>
+                <div class="row"><span class="lbl">Added after that sentence</span>
+                  <div class="attr"><span class="num">3</span>Berfun Goodwin · advisor + marketing</div>
+                  <blockquote class="add">…that I would’ve taken, like, a week to put together … within, like, two hours.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> the paragraph asserted efficiency is the dominant benefit but
+                jumped straight to Scott Brinker’s caveat that it is not a durable advantage. A concrete
+                week-to-two-hours figure grounds the claim before it is qualified.</p>
+              </div>
+            </details>
+
+            <!-- SPEED -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Speed — responsiveness, not just throughput</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“Efficiency can also materialize as speed … the ability to run more experiments.”</span></div>
+                <div class="row"><span class="lbl">Added at end of paragraph</span>
+                  <div class="attr"><span class="num">4</span>Dennis Goedegebuure · AI advisor <span style="color:var(--green)">— new to §4.4</span></div>
+                  <blockquote class="add">competition research agents that come back with every change that they made on their landing page, pricing, et cetera, so you can respond faster.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> existing quotes framed speed as faster creation. This adds the
+                distinct angle that speed shortens how fast an organisation can <em>react</em> to its market.</p>
+              </div>
+            </details>
+
+            <!-- SCALE -->
+            <details class="file" open>
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Scale — the thinnest claim, now with magnitudes</span><span class="stat">+2</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“Scale is the benefit most clearly impossible without AI … generating large amounts of content, many variations … automating processes.”</span>
+                  Previously rested on a single quote (14 · “armies of super interns”).</div>
+                <div class="row"><span class="lbl">Added at end of paragraph</span>
+                  <div class="attr"><span class="num">8</span>Jon Stephan · internal AI expert <span style="color:var(--green)">— new to §4.4</span></div>
+                  <blockquote class="add">[copy that] would take probably about a year [by hand was generated] within… a week [through an AI workflow].</blockquote>
+                  <div class="attr"><span class="num">9</span>Lauren Stokowski · internal AI expert (agency)</div>
+                  <blockquote class="add">a human can only think in so many… variations … [the system] can create all these different versions of a campaign.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> scale is the benefit the section calls “impossible without AI,”
+                yet it had the least evidence. Two vivid magnitudes (volume and variation) make it the
+                best-supported, not the weakest.</p>
+              </div>
+            </details>
+
+            <!-- SKILLSET -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Skillset — the seniority shift</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“Extending the personal skillset … AI enabling work they could not previously do.”</span></div>
+                <div class="row"><span class="lbl">Added at end of paragraph</span>
+                  <div class="attr"><span class="num">7</span>Georgio Mosis · AI advisor</div>
+                  <blockquote class="add">I don’t need two of those guys, I need one, a junior, and he can do the same thing.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> existing quotes (12, 10) describe individual capability expanding.
+                This adds the organisational corollary the codebook captures — AI lets juniors do senior work,
+                reshaping the seniority mix.</p>
+              </div>
+            </details>
+
+            <!-- QUALITY -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Quality — can exceed human output</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“… the agentic system produces better output than a human would otherwise provide.”</span></div>
+                <div class="row"><span class="lbl">Added at end of paragraph</span>
+                  <div class="attr"><span class="num">14</span>Floris Reguoin · AI advisor</div>
+                  <blockquote class="add">[output] is often even better than the quality that is ultimately… made by… people.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> directly corroborates the paragraph’s strongest assertion (AI can
+                beat human quality) with an independent voice rather than leaving it on Maarten’s single claim.</p>
+              </div>
+            </details>
+
+            <!-- COSTS -->
+            <details class="file" open>
+              <summary><span class="chev"></span><span class="badge">4.4.2</span>
+                <span class="ttl">Costs — scale of spend + subsidised prices</span><span class="stat">+2</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“AI is not cheap. Infrastructure costs, API usage, vendor licensing … real costs.”</span>
+                  Previously a single quote (7 · “very expensive”).</div>
+                <div class="row"><span class="lbl">Added after that quote</span>
+                  <div class="attr"><span class="num">9</span>Lauren Stokowski · agency</div>
+                  <blockquote class="add">millions… in our… agentic… tool chain.</blockquote>
+                  <div class="attr"><span class="num">16</span>Anonymous · internal AI expert</div>
+                  <blockquote class="add">a lot of AI is subsidized now … these prices will go up [as the market matures].</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> adds both the magnitude of investment and an analytical nuance —
+                today’s prices understate the eventual cost — turning a one-line point into a substantiated risk.</p>
+              </div>
+            </details>
+
+            <!-- JOB -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.2</span>
+                <span class="ttl">Job displacement — work morphs rather than vanishes</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“In other examples, interviewees describe more or different work being picked up.”</span>
+                  This sentence had no quote behind it.</div>
+                <div class="row"><span class="lbl">Added after that sentence</span>
+                  <div class="attr"><span class="num">4</span>Dennis Goedegebuure · AI advisor</div>
+                  <blockquote class="add">people should be very afraid… that their job is totally going to be different. And if you don’t… change with the job, you find yourself out of a job.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> the claim that jobs change rather than disappear was previously
+                unevidenced. This quote supplies it directly and balances Georgio’s “fired half the people” case.</p>
+              </div>
+            </details>
+
+            <!-- SECURITY -->
+            <details class="file" open>
+              <summary><span class="chev"></span><span class="badge">4.4.3</span>
+                <span class="ttl">Security &amp; privacy — breadth across in-house and agency</span><span class="stat">+2</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“Security and privacy violations are also most consistently noted as risks.”</span>
+                  “Most consistently noted” rested on a single block quote (13).</div>
+                <div class="row"><span class="lbl">Added before the Interviewee&nbsp;13 block quote</span>
+                  <div class="attr"><span class="num">9</span>Lauren Stokowski · agency</div>
+                  <blockquote class="add">[clients] being concerned that their… PII… is gonna go into an AI tool.</blockquote>
+                  <div class="attr"><span class="num">2</span>Arjan Dijk · marketing manager <span style="color:var(--green)">— new to §4.4</span></div>
+                  <blockquote class="add">maximum privacy and security in place … [keeping data] secure … closed.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> a “most consistently noted” claim needs more than one witness. These
+                two show the concern spanning agency-side (client PII) and in-house (member data), before
+                Tim Wiegel’s GDPR block quote deepens it.</p>
+              </div>
+            </details>
+
+            <!-- BRAND -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.3</span>
+                <span class="ttl">Brand risk — capability blurring sets up the conclusion</span><span class="stat">+1</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Claim supported</span>
+                  <span class="claim">“… content that is off-brand, tonally inappropriate, or perceived as inauthentic might negatively impact the organization.”</span></div>
+                <div class="row"><span class="lbl">Added after the Interviewee&nbsp;15 example</span>
+                  <div class="attr"><span class="num">10</span>Maarten Mantjes · AI advisor</div>
+                  <blockquote class="add">slick content made by someone who doesn’t understand the brand … a real risk with capability blurring.</blockquote>
+                </div>
+                <p class="why"><strong>Why:</strong> this quote names the mechanism (anyone can now make brand assets)
+                and directly sets up the subsection’s closing argument — brand risk is “not a question about
+                whether you are using AI, but rather how.”</p>
+              </div>
+            </details>
+
+            <!-- FIX -->
+            <details class="file">
+              <summary><span class="chev"></span><span class="badge">4.4.1</span>
+                <span class="ttl">Factual fix — “five themes” → “four themes”</span><span class="stat">1 word</span></summary>
+              <div class="file-body">
+                <div class="row"><span class="lbl">Before</span>
+                  <span class="claim">“Benefits … cluster around <s>five</s> themes: efficiency and speed, scalability, extension of personal skillsets, and improvements in the quality of output.”</span></div>
+                <p class="why"><strong>Why:</strong> the sentence names four themes (the four §4.4.1 sub-headings). The
+                only deletion in this whole set of edits.</p>
+              </div>
+            </details>
+
+          </div>
+        </section>
+
+        <section id="apply">
+          <h2>Applying it</h2>
+          <p class="lede">All edits are tracked insertions authored “Claude”, verified to reject cleanly
+          (rejecting all changes returns the exact original text, no orphan fragments) and to touch
+          nothing outside §4.4.</p>
+          <div class="note">
+            <strong>One step needed from you.</strong> Your live file
+            <code>onedrive/Thesis Draft - Daan Luttik - MBA - shared.docx</code> is currently
+            <strong>open in Word</strong>, so it’s write-locked and I couldn’t save into it. The patched
+            copy with all tracked changes is ready at <code>.cache/_value_patched.docx</code>. Close the
+            document in Word and tell me, and I’ll write the tracked changes straight into your shared
+            file (re-running against its latest saved state so nothing of yours is lost).
+          </div>
+        </section>
+
+      </main>
+
+      <nav class="toc">
+        <div class="t-head">On this page</div>
+        <a href="#glance">At a glance</a>
+        <a href="#changes">Change by change</a>
+        <a href="#changes" class="sub">4.4.1 Benefits</a>
+        <a href="#changes" class="sub">4.4.2 Sacrifices</a>
+        <a href="#changes" class="sub">4.4.3 Risks</a>
+        <a href="#apply">Applying it</a>
+      </nav>
+    </div>
+
+  </div>
+</body>
+</html>

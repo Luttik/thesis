@@ -1,0 +1,227 @@
+<!-- Copyright 2026 Anthropic PBC · SPDX-License-Identifier: Apache-2.0 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>§4.2 restructure — execution checklist</title>
+  <style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:#FDFCFA; --ink:#000; --accent:#007bcd; --powder:#EAF1F6; --green:#4F8A52;
+    --powder-light:#F3F7FA; --powder-line:rgba(31,74,105,0.13); --powder-muted:#6E8798;
+    --powder-ink:#3D5363; --paper:#FFF; --blind:#C0612E; --later:#5E4B7A;
+    --serif:"Lora",Georgia,serif; --sans:"DM Sans",system-ui,sans-serif; --mono:ui-monospace,'SF Mono',Menlo,monospace;
+  }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family:var(--sans); background:var(--canvas); color:var(--powder-ink); line-height:1.5; padding:48px 28px 120px; -webkit-font-smoothing:antialiased; }
+  .page { max-width:920px; margin:0 auto; }
+
+  .eyebrow { font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--powder-muted); margin-bottom:10px; }
+  h1 { font-family:var(--serif); font-weight:500; font-size:32px; line-height:1.15; color:var(--ink); margin-bottom:14px; letter-spacing:-0.01em; }
+  .lede { font-size:14.5px; color:var(--powder-muted); max-width:680px; margin-bottom:26px; }
+
+  /* progress */
+  .progress { position:sticky; top:0; background:var(--canvas); padding:14px 0 16px; margin-bottom:24px; border-bottom:1px solid var(--powder-line); z-index:5; }
+  .bar { height:10px; background:var(--powder); border-radius:6px; overflow:hidden; }
+  .bar-fill { height:100%; width:0; background:var(--accent); border-radius:6px; transition:width 160ms; }
+  .bar-row { display:flex; justify-content:space-between; align-items:center; margin-top:8px; font-size:12.5px; color:var(--powder-muted); }
+  .bar-num { font-family:var(--mono); color:var(--ink); font-weight:600; }
+  .reset { font-family:var(--mono); font-size:11px; color:var(--accent); cursor:pointer; border:none; background:none; }
+
+  /* locked decisions */
+  .locked { background:var(--powder-light); border:1px solid var(--powder-line); border-radius:14pt; padding:16px 20px; margin-bottom:34px; }
+  .locked .lk-h { font-family:var(--mono); font-size:11px; text-transform:uppercase; letter-spacing:0.06em; color:var(--powder-muted); margin-bottom:10px; }
+  .locked ul { list-style:none; display:flex; flex-direction:column; gap:6px; }
+  .locked li { font-size:13px; color:var(--powder-ink); padding-left:16px; position:relative; }
+  .locked li::before { content:"✓"; position:absolute; left:0; color:var(--green); font-weight:700; }
+
+  /* groups */
+  .group { margin-bottom:30px; }
+  .group-head { display:flex; align-items:baseline; gap:12px; margin-bottom:12px; }
+  .group-head h2 { font-family:var(--serif); font-weight:500; font-size:20px; color:var(--ink); }
+  .gcount { font-family:var(--mono); font-size:12px; color:var(--powder-muted); background:var(--powder); padding:2px 8px; border-radius:7pt; }
+  .group-note { font-size:13px; color:var(--powder-muted); margin-bottom:12px; max-width:680px; }
+
+  /* items */
+  .item { display:grid; grid-template-columns:22px 1fr; gap:13px; align-items:start; background:var(--paper); border:1px solid var(--powder-line); border-radius:10pt; padding:13px 16px; margin-bottom:9px; cursor:pointer; transition:background 120ms; }
+  .item:hover { background:var(--powder-light); }
+  .item.fix { border-left:4px solid var(--blind); }
+  .item.later { border-left:4px solid var(--later); background:#FBFAFC; }
+  .item.confirm { border-left:4px solid var(--accent); border-left-style:dashed; }
+  .it-check { width:20px; height:20px; border:2px solid var(--powder-muted); border-radius:6px; margin-top:1px; display:flex; align-items:center; justify-content:center; flex-shrink:0; }
+  .it-check::after { content:"✓"; font-size:13px; color:var(--paper); font-weight:700; opacity:0; }
+  .item.done .it-check { background:var(--accent); border-color:var(--accent); }
+  .item.done .it-check::after { opacity:1; }
+  .it-main { font-size:14px; color:var(--ink); font-weight:600; }
+  .item.done .it-main { text-decoration:line-through; color:var(--powder-muted); text-decoration-color:var(--powder-muted); }
+  .it-sub { font-size:13px; color:var(--powder-muted); margin-top:3px; }
+  .item.done .it-sub { opacity:0.55; }
+  .it-tags { display:flex; gap:5px; flex-wrap:wrap; margin-top:7px; }
+  .tag { font-family:var(--mono); font-size:10px; padding:2px 7px; border-radius:5pt; font-weight:600; letter-spacing:0.02em; }
+  .tag.src { background:var(--powder-light); color:var(--powder-ink); border:1px solid var(--powder-line); }
+  .tag.act { background:var(--powder); color:var(--accent); }
+  .tag.fix { background:#F3E0CC; color:var(--blind); }
+  .tag.later { background:#EBE3F0; color:var(--later); }
+  .tag.confirm { background:#E2EEF6; color:#1A5E86; }
+  code { font-family:var(--mono); font-size:12px; background:var(--powder-light); padding:1px 5px; border-radius:4pt; color:var(--powder-ink); }
+
+  .paste { background:var(--ink); border-radius:12pt; padding:16px 18px; margin:4px 0 9px; }
+  .paste pre { font-family:var(--serif); font-size:13.5px; line-height:1.6; color:#EDEBE4; white-space:pre-wrap; }
+  .paste .pl { font-family:var(--mono); font-size:10px; text-transform:uppercase; letter-spacing:0.06em; color:#9FB4C2; display:block; margin-bottom:8px; }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <div class="eyebrow">Findings · §4.2 · execution checklist</div>
+    <h1>Updating the thesis: §4.2 restructure</h1>
+    <p class="lede">Work top-to-bottom while editing <code>Thesis Draft … .docx</code>. Click any row to tick it; progress saves in this browser. Orange = defect to fix in passing · purple = do <em>after</em> Findings (Discussion §5) · dashed blue = decision to confirm first.</p>
+
+    <div class="progress">
+      <div class="bar"><div class="bar-fill"></div></div>
+      <div class="bar-row"><span class="bar-num">0 / 0</span><button class="reset" onclick="resetAll()">reset</button></div>
+    </div>
+
+    <div class="locked">
+      <div class="lk-h">Decisions locked this session — the rationale (not checklist items)</div>
+      <ul>
+        <li><strong>Rings of control</strong> is a <strong>Discussion (§5)</strong> point, not a Findings structure.</li>
+        <li>Findings §4.2 stays <strong>condition-anchored</strong> and <strong>behaviour-led</strong> (lead with the move; condition-led only where there's no move).</li>
+        <li><strong>Merge</strong> capacity + leadership into new §4.2.1; the <strong>Leverage / Navigate / Reshape</strong> typology is dropped, "navigating" is the umbrella.</li>
+        <li>Findings <strong>describes</strong>; it does not name rings, theorize, or say "managers default to navigating" — those move to §5.</li>
+      </ul>
+    </div>
+
+    <!-- A -->
+    <div class="group">
+      <div class="group-head"><h2>A · Structure &amp; renumbering</h2><span class="gcount"></span></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Merge old §4.2.1 Organizational capacity + §4.2.2 Leadership into one subsection (new §4.2.1).</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Renumber old §4.2.3 Technical resources → <code>§4.2.2</code>.</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Renumber old §4.2.4 Governance &amp; compliance → <code>§4.2.3</code>.</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Fix the internal cross-reference "(see section 4.2.3)" → new <code>§4.2.2</code>.</div><div class="it-sub">It sits inside the old capacity text, pointing at Technical resources.</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Update the Table of Contents heading numbers for §4.2.</div></div></div>
+    </div>
+
+    <!-- B -->
+    <div class="group">
+      <div class="group-head"><h2>B · The §4.2 intro paragraph</h2><span class="gcount"></span></div>
+      <div class="group-note">Replaces the old "four conditions + three responses" intro. The interpretive load is stripped out.</div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Paste the new "Navigating the organizational context" intro (below).</div>
+        <div class="paste"><span class="pl">paste-ready</span><pre>Navigating the organizational context describes how managers steer or move around conditions within the organization. The organizational context can be divided into three key scopes: (1) The marketing department, which the manager can steer to create alignment with AI initiatives, (2) Technical resources, which can be leveraged to implement AI initiatives; however, interaction with external stakeholders is likely necessary to shape or allocate these resources. (3) The governance framework: this bounds the potential for AI initiatives, and marketing managers do little to influence this framework.</pre></div>
+      </div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Confirm no Leverage / Navigate / Reshape typology survives in the intro.</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Confirm the "managers default to navigating external conditions" line is removed.</div><div class="it-sub">That observation is now §5 material — don't pre-empt the Discussion.</div></div></div>
+    </div>
+
+    <!-- C -->
+    <div class="group">
+      <div class="group-head"><h2>C · §4.2.1 The marketing department</h2><span class="gcount"></span></div>
+      <div class="group-note">Behaviour-led: each move is a bold Heading-4 demarcation, leading with what the manager does, condition woven in.</div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Educating &amp; training — addresses low AI literacy.</div><div class="it-sub">Three-level model; peer-to-peer training; show day-to-day use. Fold in old §4.2.2 "showing how to create value" (de-dupe).</div><div class="it-tags"><span class="tag src">Int 1·4·9·10·13</span><span class="tag act">de-dupe</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Bringing people along + providing clarity — addresses resistance.</div><div class="it-sub">Make people feel valued; name vision, use cases, what success looks like.</div><div class="it-tags"><span class="tag src">Int 1·4·6·12·13</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Experimenting, sustained by leadership backing — addresses analysis paralysis + risk-averse culture.</div><div class="it-sub">Safe-to-fail "laboratory"; backing absorbs cost &amp; protects non-immediate returns. Keep backing here (manager lobbies up — the soft edge).</div><div class="it-tags"><span class="tag src">Int 6·7·8·12·13·15</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Setting direction + AI champions — addresses "capacity at the top."</div><div class="it-sub">Set the horizon; champions (manager or backed technical employee) create visible proof that unlocks funding.</div><div class="it-tags"><span class="tag src">Int 4·8·9·10·14</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Close the subsection on the capacity-limit bridge → hands off to §4.2.2.</div><div class="it-sub">"…then I'm going to wait two years before I get space on the backlog." Motivates turning outward.</div></div></div>
+    </div>
+
+    <!-- D -->
+    <div class="group">
+      <div class="group-head"><h2>D · Systems / process thinking</h2><span class="gcount"></span></div>
+      <div class="group-note">The careful one. Verified in coding: raised by advisors / technical experts, absent from the two internal marketing managers.</div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Consolidate the two split mentions into one passage in §4.2.1, beside Educating.</div><div class="it-sub">Currently split across old §4.2.1 (literacy) and old §4.2.3 (technical talent).</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Present it two-sided: leveraged where present (tailwind), root-cause obstacle where absent.</div><div class="it-sub">Not "a condition with no behaviour" — the move exists, just in the advisor/technical population.</div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Report the asymmetry descriptively &amp; tentatively.</div><div class="it-sub">"Surfaced by the advisors; did not appear in the marketing managers' accounts." Don't over-claim on N=2 managers.</div><div class="it-tags"><span class="tag src">use Int 1·10·13</span><span class="tag fix">avoid Int 12 (you raised it)</span></div></div></div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">Do NOT make the "blind spot / awareness-gap contribution" claim in Findings — flag it forward to §5.</div><div class="it-tags"><span class="tag later">§5 later</span></div></div></div>
+    </div>
+
+    <!-- E -->
+    <div class="group">
+      <div class="group-head"><h2>E · §4.2.2 Technical resources</h2><span class="gcount"></span></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Note the internal vs external elements descriptively — without the "boundary of control" reading.</div><div class="it-sub">Internal: the team's own data + MarTech. External: infrastructure, integration, technical talent (IT / CTO). The straddle <em>interpretation</em> → §5.</div><div class="it-tags"><span class="tag src">Int 2·6·10·13</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Move the external-sourcing / external-hiring material here from old §4.2.1.</div><div class="it-sub">Keep the dependence / hollowing-out-of-capability trade-off.</div><div class="it-tags"><span class="tag src">Int 4·6·13</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Weave the manager response into the condition — no trailing "Manager response" paragraph.</div></div></div>
+    </div>
+
+    <!-- F -->
+    <div class="group">
+      <div class="group-head"><h2>F · §4.2.3 Governance &amp; compliance</h2><span class="gcount"></span></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Keep condition-led; stance = accept / work around.</div><div class="it-sub">Shadow IT noted as a "lighthouse" of what's possible — but not endorsed as a strategy.</div><div class="it-tags"><span class="tag src">Int 6·10·13</span></div></div></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Weave the (thin) response in — no trailing paragraph.</div></div></div>
+    </div>
+
+    <!-- G -->
+    <div class="group">
+      <div class="group-head"><h2>G · Cross-cutting tensions</h2><span class="gcount"></span></div>
+      <div class="item"><div class="it-check"></div><div><div class="it-main">Place as a short reflective block (end of §4.2.1).</div><div class="it-sub">Talent-pipeline paradox · personal vs. organizational effectiveness · optics vs. reality. All from old §4.2.1.</div></div></div>
+    </div>
+
+    <!-- H -->
+    <div class="group">
+      <div class="group-head"><h2>H · Defects in the merge zone</h2><span class="gcount"></span></div>
+      <div class="group-note">Pre-existing breakage sitting in the text you're editing — fix while you're in there.</div>
+      <div class="item fix"><div class="it-check"></div><div><div class="it-main">Restore the missing Int 7 culture quote.</div><div class="it-sub">"Interviewee 7 described this enabling condition:" is followed by an empty block.</div><div class="it-tags"><span class="tag fix">defect</span></div></div></div>
+      <div class="item fix"><div class="it-check"></div><div><div class="it-main">Complete the cut-off sentence.</div><div class="it-sub">"This behavior seems to decrease resistance and increase." — increase what?</div><div class="it-tags"><span class="tag fix">defect</span></div></div></div>
+      <div class="item fix"><div class="it-check"></div><div><div class="it-main">Fix typo <code>capabilitiesbarrier</code> → "capabilities barrier".</div><div class="it-tags"><span class="tag fix">defect</span></div></div></div>
+    </div>
+
+    <!-- I -->
+    <div class="group">
+      <div class="group-head"><h2>I · Discussion §5 knock-on</h2><span class="gcount"></span></div>
+      <div class="group-note">Do <em>after</em> the Findings pass. This is where the cleverness now lives.</div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">§5.1.3: drop the Leverage / Navigate / Reshape trichotomy.</div><div class="it-tags"><span class="tag later">§5</span></div></div></div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">Re-express the "managers default to navigating vs reshaping" finding.</div><div class="it-sub">The contrast no longer exists once the labels are gone — restate as "accept vs. act on" or fold into rings.</div><div class="it-tags"><span class="tag later">§5</span></div></div></div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">Develop "Rings of control" as the interpretive model, anchored to cited theory.</div><div class="it-sub">Locus of control / sphere of influence / managerial discretion.</div><div class="it-tags"><span class="tag later">§5</span></div></div></div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">Add the systems-thinking blind-spot contribution — with the N=2 caveat.</div><div class="it-tags"><span class="tag later">§5</span></div></div></div>
+      <div class="item later"><div class="it-check"></div><div><div class="it-main">Scan §5.2 practical implications + Appendix B checklist for the dropped trichotomy words.</div><div class="it-tags"><span class="tag later">§5 · App B</span></div></div></div>
+    </div>
+
+    <!-- J -->
+    <div class="group">
+      <div class="group-head"><h2>J · Decisions to confirm first</h2><span class="gcount"></span></div>
+      <div class="group-note">Not edits — settle these before (or as) you draft.</div>
+      <div class="item confirm"><div class="it-check"></div><div><div class="it-main">Q3 (parked): one sentence on what the §5 rings section adds beyond the Findings intro.</div><div class="it-sub">Name + theory · "treat external as fixed" · sphere-of-influence generalization · cross-boundary "so what."</div><div class="it-tags"><span class="tag confirm">parked</span></div></div></div>
+      <div class="item confirm"><div class="it-check"></div><div><div class="it-main">Systems thinking: comfortable resting "managers don't recognize it" on N=2 (tentative)?</div><div class="it-tags"><span class="tag confirm">confirm</span></div></div></div>
+      <div class="item confirm"><div class="it-check"></div><div><div class="it-main">External sourcing: confirm it sits in §4.2.2 (recommended) vs staying in §4.2.1.</div><div class="it-tags"><span class="tag confirm">confirm</span></div></div></div>
+      <div class="item confirm"><div class="it-check"></div><div><div class="it-main">§4.2.1 heading: "Organizational capacity" vs "The marketing department" — pick one.</div><div class="it-tags"><span class="tag confirm">confirm</span></div></div></div>
+    </div>
+
+  </div>
+
+  <script>
+  const KEY = 'thesis-4-2-checklist-v1';
+  let done = new Set(JSON.parse(localStorage.getItem(KEY) || '[]'));
+  const items = [...document.querySelectorAll('.item')];
+  const idOf = el => (el.querySelector('.it-main')?.textContent || '').trim().slice(0, 90);
+
+  function render() {
+    let d = 0;
+    items.forEach(el => {
+      const on = done.has(idOf(el));
+      el.classList.toggle('done', on);
+      if (on) d++;
+    });
+    const pct = items.length ? Math.round(d / items.length * 100) : 0;
+    const fill = document.querySelector('.bar-fill');
+    const num = document.querySelector('.bar-num');
+    if (fill) fill.style.width = pct + '%';
+    if (num) num.textContent = d + ' / ' + items.length + '  (' + pct + '%)';
+    document.querySelectorAll('.group').forEach(g => {
+      const its = [...g.querySelectorAll('.item')];
+      const dn = its.filter(i => i.classList.contains('done')).length;
+      const c = g.querySelector('.gcount');
+      if (c) c.textContent = dn + '/' + its.length;
+    });
+  }
+  items.forEach(el => el.addEventListener('click', e => {
+    if (e.target.tagName === 'A' || e.target.tagName === 'CODE') return;
+    const id = idOf(el);
+    done.has(id) ? done.delete(id) : done.add(id);
+    localStorage.setItem(KEY, JSON.stringify([...done]));
+    render();
+  }));
+  function resetAll() { done = new Set(); localStorage.removeItem(KEY); render(); }
+  render();
+  </script>
+</body>
+</html>

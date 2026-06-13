@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Introduction revision — word-level diff and why</title>
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+    :root {
+      --canvas: #FDFCFA;
+      --ink: #000000;
+      --accent: #dd4a68;
+      --powder: #EAF1F6;
+      --green: #4f9d54;
+      --green-bg: rgba(102,187,106,.20);
+      --powder-light: #F3F7FA;
+      --powder-line: rgba(31,74,105,0.13);
+      --powder-muted: #6E8798;
+      --powder-ink: #3D5363;
+      --paper: #FFFFFF;
+      --serif: "Lora", Georgia, "Times New Roman", serif;
+      --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+      --mono: ui-monospace, 'SF Mono', Menlo, Monaco, monospace;
+    }
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: var(--sans);
+      background: var(--canvas);
+      color: var(--powder-ink);
+      line-height: 1.55;
+      padding: 56px 32px 120px;
+      -webkit-font-smoothing: antialiased;
+    }
+    .page { max-width: 1040px; margin: 0 auto; }
+
+    /* header */
+    header.page-head { margin-bottom: 36px; max-width: 840px; }
+    .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--powder-muted); margin-bottom: 12px; }
+    h1 { font-family: var(--serif); font-weight: 500; font-size: 34px; line-height: 1.15; color: var(--ink); margin-bottom: 12px; letter-spacing: -0.01em; }
+    .meta { display: flex; flex-wrap: wrap; gap: 16px; font-family: var(--mono); font-size: 12.5px; color: var(--powder-muted); margin-bottom: 18px; }
+    .meta strong { color: var(--ink); font-weight: 600; }
+    p.intro { font-size: 15.5px; max-width: 760px; color: var(--powder-ink); }
+
+    /* legend */
+    .legend { display: flex; gap: 22px; flex-wrap: wrap; margin: 20px 0 0; font-size: 13px; }
+    .legend span { display: inline-flex; align-items: center; gap: 7px; }
+    .swatch { width: 26px; height: 14px; border-radius: 4px; display: inline-block; }
+    .swatch.del { background: transparent; border: 1px solid var(--accent); position: relative; }
+    .swatch.del::after { content: ''; position: absolute; left: 2px; right: 2px; top: 50%; height: 1px; background: var(--accent); }
+    .swatch.add { background: var(--green-bg); border: 1px solid rgba(102,187,106,.5); }
+    .swatch.ph { background: repeating-linear-gradient(45deg, transparent, transparent 4px, rgba(110,135,152,.25) 4px, rgba(110,135,152,.25) 5px); border: 1px dashed var(--powder-muted); }
+
+    /* layout */
+    .layout { display: grid; grid-template-columns: 1fr 220px; gap: 44px; align-items: start; margin-top: 36px; }
+    @media (max-width: 920px) { .layout { grid-template-columns: 1fr; } .toc { display: none; } }
+    .toc { position: sticky; top: 32px; border-left: 1px solid var(--powder-line); padding-left: 18px; font-size: 13px; }
+    .toc .t-head { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 10px; }
+    .toc a { display: block; color: var(--powder-ink); text-decoration: none; padding: 5px 0; line-height: 1.3; }
+    .toc a:hover { color: var(--accent); }
+    .toc a .cc { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); }
+
+    /* change cards */
+    .change { margin-bottom: 30px; scroll-margin-top: 24px; }
+    .change-head { display: flex; align-items: center; gap: 12px; margin-bottom: 4px; }
+    .unit-n { font-family: var(--mono); font-size: 13px; font-weight: 600; color: var(--paper); background: var(--powder-ink); width: 26px; height: 26px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .change-head h3 { font-family: var(--serif); font-weight: 600; font-size: 19px; color: var(--ink); flex: 1; letter-spacing: -0.01em; }
+    .chips { display: flex; gap: 6px; flex-wrap: wrap; }
+    .chip { font-family: var(--mono); font-size: 11px; font-weight: 600; padding: 3px 8px; border-radius: 7px; background: var(--powder); color: var(--powder-ink); border: 1px solid var(--powder-line); }
+
+    .ba { display: flex; flex-direction: column; gap: 12px; margin: 14px 0 12px; }
+    .panel { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 14px; padding: 16px 20px; }
+    .panel.before { border-left: 4px solid var(--accent); }
+    .panel.after { border-left: 4px solid var(--green); }
+    .panel .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 9px; }
+    .panel.after .k { color: var(--green); }
+    .panel p { font-size: 15px; color: var(--ink); line-height: 1.62; }
+    .panel p + p { margin-top: 10px; }
+    .panel ol, .panel ul { font-size: 15px; color: var(--ink); line-height: 1.55; padding-left: 22px; }
+    .panel li { margin-bottom: 6px; }
+    .panel li::marker { color: var(--powder-muted); }
+
+    del.d { color: var(--accent); text-decoration: line-through; text-decoration-color: rgba(221,74,104,.55); }
+    ins.a { background: var(--green-bg); text-decoration: none; border-radius: 3px; padding: 0 2px; color: var(--ink); }
+    ins.ph { background: repeating-linear-gradient(45deg, transparent, transparent 5px, rgba(110,135,152,.14) 5px, rgba(110,135,152,.14) 6px); border: 1px dashed var(--powder-muted); border-radius: 3px; padding: 0 4px; color: var(--powder-muted); font-style: italic; text-decoration: none; }
+    .rq-italic { font-style: italic; }
+
+    .why { font-size: 14px; color: var(--powder-ink); background: var(--powder-light); border: 1px solid var(--powder-line); border-radius: 12px; padding: 12px 16px; }
+    .why .lab { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 5px; }
+    .why .q { color: var(--powder-ink); }
+    .why .q b { color: var(--ink); font-weight: 600; }
+    .why .note { margin-top: 7px; font-size: 13px; color: var(--powder-muted); }
+
+    /* open items */
+    .open { background: var(--paper); border: 1px solid var(--powder-line); border-left: 4px solid var(--accent); border-radius: 14px; padding: 18px 22px; margin-top: 30px; }
+    .open h2 { font-family: var(--serif); font-weight: 500; font-size: 21px; color: var(--ink); margin-bottom: 10px; }
+    .open ul { padding-left: 20px; font-size: 14.5px; color: var(--powder-ink); }
+    .open li { margin-bottom: 8px; }
+    .open code { font-family: var(--mono); font-size: 12.5px; background: var(--powder); padding: 1px 5px; border-radius: 5px; color: var(--ink); }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="page-head">
+      <div class="eyebrow">Thesis · Chapter 1 revision</div>
+      <h1>Introduction: exactly what changed, and why</h1>
+      <div class="meta">
+        <span><strong>9</strong> change groups</span>
+        <span><strong>14</strong> of Stefanie&#8217;s comments addressed</span>
+        <span><strong>0</strong> em dashes</span>
+        <span>source: <strong>section-1-introduction-improved.md</strong></span>
+      </div>
+      <p class="intro">Every group below pairs the original text (deletions struck through in red) with the rewritten text (additions highlighted in green), and ties the change to the supervisor comment that prompted it. Words shown in plain black are carried over unchanged.</p>
+      <div class="legend">
+        <span><span class="swatch del"></span> removed</span>
+        <span><span class="swatch add"></span> added</span>
+        <span><span class="swatch ph"></span> placeholder, needs your input</span>
+        <span><span class="chip" style="padding:2px 7px">C#</span> Stefanie comment</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <main>
+
+        <!-- 1 -->
+        <section class="change" id="u1">
+          <div class="change-head">
+            <span class="unit-n">1</span>
+            <h3>Opening: define GenAI &amp; what it is used for</h3>
+            <div class="chips"><span class="chip">C4</span><span class="chip">C5</span><span class="chip">C9/47</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p>Generative <del class="d">Artificial Intelligence</del> (GenAI) <del class="d">is often seen as the replacement for a vast array of knowledge jobs.</del> <del class="d">Furthermore,</del> marketing and sales <del class="d">might be the largest opportunity of all, representing about</del> one-third of <del class="d">the expected market value of AI</del> (Mayer et al., 2025).</p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p>Generative <ins class="a">artificial intelligence</ins> (GenAI)<ins class="a">, a class of AI systems that produce novel text, images, audio, and code from patterns learned in large volumes of training data (Grewal et al., 2025), has rapidly become a central concern for marketing.</ins> <ins class="a">Of all business functions,</ins> marketing and sales <ins class="a">are projected to capture the largest share of GenAI&#8217;s economic value, on the order of</ins> one-third of <ins class="a">its total expected potential</ins> (Mayer et al., 2025). <ins class="a">In practice, marketers already apply GenAI across a range of tasks: drafting and localizing campaign copy, generating product and creative imagery, synthesizing customer insight from unstructured feedback, personalizing messages at scale, and powering conversational customer-service assistants (Grewal et al., 2025; Wahid et al., 2023; Mogaji &amp; Jain, 2024; Brinker &amp; Riemersma, 2025).</ins> <ins class="ph">[company-specific example to add]</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C4:</b> &#8220;include a definition of generative AI here.&#8221; &nbsp; <b>C5:</b> &#8220;include here a cited overview of what aspects genAI is suppose to be used by marketing.&#8221; &nbsp; <b>C9/47:</b> &#8220;put specific company-specific illustrative examples.&#8221;</div>
+            <div class="note">The vague &#8220;replacement for knowledge jobs&#8221; opener becomes a cited definition; a new sentence lists the actual marketing uses; a flagged slot is left for a company example.</div>
+          </div>
+        </section>
+
+        <!-- 2 -->
+        <section class="change" id="u2">
+          <div class="change-head">
+            <span class="unit-n">2</span>
+            <h3>&#8220;Q&amp;A machine&#8221; framing, now cited</h3>
+            <div class="chips"><span class="chip">C16/18</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p><del class="d">However, in marketing (and arguably in many other domains), AI still mainly serves as</del> a question-and-answer machine<del class="d">, largely focusing on</del> brainstorming and content generation<del class="d">, rather than a system that can really do the work or make a meaningful contribution to a vast amount of normal daily tasks</del> (Brinker &amp; Riemersma, 2025).</p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p><ins class="a">Yet across these applications, GenAI today functions largely as</ins> a question-and-answer machine<ins class="a">. Its use clusters around</ins> brainstorming and content generation <ins class="a">rather than the autonomous execution of the recurring tasks that fill a marketer&#8217;s day</ins> (Brinker &amp; Riemersma, 2025<ins class="a">; GBK Collective &amp; Wharton Human-AI Research, 2025</ins>). <ins class="a">The technology answers; in most organizations it does not yet do the work.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C16/18:</b> &#8220;is there much research done on this anyways?&#8221; &#8594; &#8220;would be important to cite this here, can use the GBK study reference 2025.&#8221;</div>
+            <div class="note">The content-generation-focus claim now carries the GBK Collective &amp; Wharton (2025) citation (a new reference to add to &#167;7).</div>
+          </div>
+        </section>
+
+        <!-- 3 -->
+        <section class="change" id="u3">
+          <div class="change-head">
+            <span class="unit-n">3</span>
+            <h3>Bridge from GenAI to agentic AI</h3>
+            <div class="chips"><span class="chip">C6</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p><del class="d">Recent</del> and quickly evolving <del class="d">technologies provide AI with the relevant context and access to tools</del> (Acharya et al., 2025)<del class="d">, which should enable it to start making meaningful contributions to these daily tasks. These innovations have led to</del> agentic AI, which Acharya et al. (2025) define as &#8220;autonomous AI systems that undertake to finish a set of complex tasks that span over long periods of time without human supervision&#8221; (p. 18913). <del class="d">These systems are capable of acting in a goal-oriented manner</del> within a changing environment (Acharya et al., 2025)<del class="d"> and might therefore be better suited for the execution of normal daily tasks of the marketer.</del></p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p><ins class="a">A more recent</ins> and quickly evolving <ins class="a">set of technologies is changing this. By giving large language models access to external tools and to the surrounding context in which a task unfolds, these advances allow AI to move from answering questions to acting on them</ins> (Acharya et al., 2025)<ins class="a">. The result is</ins> agentic AI, which Acharya et al. (2025) define as &#8220;autonomous AI systems that undertake to finish a set of complex tasks that span over long periods of time without human supervision&#8221; (p. 18913). <ins class="a">Where GenAI generates content on request, agentic AI builds on the same generative models but adds autonomy, tool use, and goal-directed behaviour, enabling it to pursue objectives</ins> within a changing environment (Acharya et al., 2025)<ins class="a">. It is therefore far better suited to the execution of a marketer&#8217;s ordinary daily work and, in principle, to creating value well beyond content generation.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C6:</b> &#8220;How does this relate to GenAI? The link with GenAI needs to be there to allow the reader to understand the landscape.&#8221;</div>
+            <div class="note">An explicit bridge sentence now states that agentic AI <em>builds on the same generative models</em> and adds autonomy, tool use, and goals.</div>
+          </div>
+        </section>
+
+        <!-- 4 -->
+        <section class="change" id="u4">
+          <div class="change-head">
+            <span class="unit-n">4</span>
+            <h3>Motivation paragraph + de-italicised research question</h3>
+            <div class="chips"><span class="chip">C8</span><span class="chip">C7</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p><del class="d">We aim to explore the question</del> <span class="rq-italic">&#8220;How do marketing managers create value with agentic AI?&#8221;</span> <del class="d">The potential of agentic AI within the context of marketing is largely unexplored empirically in academic literature</del> (Wahid et al., 2023; Grewal et al., 2025; Abou Elgheit, 2025). <del class="d">Many researchers are making calls for research regarding agentic AI within the marketing field (Kim, 2025) or for research with a wider scope that covers this scope (Mogaji &amp; Jain, 2024; Jain et al., 2024). To guide the research, the following sub questions are used:</del></p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p><ins class="a">This shift raises a question that is, as yet, largely unanswered. Marketing is at once the function with the most to gain from AI and the one where current use remains shallowest, concentrated on content (Mayer et al., 2025; GBK Collective &amp; Wharton Human-AI Research, 2025); agentic AI is the development most likely to close that gap; and the pace of change leaves managers without established frameworks or empirical evidence to guide their decisions. The intersection of these three domains (marketing, agentic AI, and value creation) is precisely where understanding is thinnest. Although scholars have begun to map GenAI&#8217;s possibilities in marketing</ins> (Wahid et al., 2023; Grewal et al., 2025; Abou Elgheit, 2025)<ins class="a">, the specific question of how marketing managers create value with agentic AI remains empirically unexplored, and researchers have issued explicit calls to address it (Kim, 2025; Mogaji &amp; Jain, 2024; Jain et al., 2024).</ins></p>
+              <p><ins class="a">This study therefore explores the question:</ins> How do marketing managers create value with agentic AI? <ins class="a">The question is deliberately exploratory, reflecting a field that is still emerging and in which both theoretical understanding and practical guidance remain underdeveloped. To structure the inquiry, three sub-questions are addressed:</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C8:</b> &#8220;why would we need this kind of research&#8230; Why marketing? Why agentic AI?&#8221; &nbsp; <b>C7:</b> &#8220;avoid italics here.&#8221;</div>
+            <div class="note">A new motivation paragraph answers <em>why marketing, why agentic AI, why now</em>. The research question keeps its wording but loses the italics, and the old &#8220;calls for research&#8221; sentences are absorbed into the motivation.</div>
+          </div>
+        </section>
+
+        <!-- 5 -->
+        <section class="change" id="u5">
+          <div class="change-head">
+            <span class="unit-n">5</span>
+            <h3>The three sub-questions</h3>
+            <div class="chips"><span class="chip">C10</span><span class="chip">C11</span><span class="chip">C14</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <ol>
+                <li>How do marketing managers identify and translate agentic AI opportunities into <del class="d">value-creating implementations for marketing</del>?</li>
+                <li>How do marketing managers <del class="d">enable adoption of</del> agentic AI <del class="d">solutions</del>?</li>
+                <li><del class="d">How do marketing managers navigate obstacles and risks in the process of creating value through agentic AI?</del></li>
+              </ol>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <ol>
+                <li>How do marketing managers identify and translate agentic AI opportunities into <ins class="a">marketing applications</ins>?</li>
+                <li>How do marketing managers <ins class="a">adopt</ins> agentic AI <ins class="a">within their organizations</ins>?</li>
+                <li><ins class="a">What benefits, sacrifices, and risks does agentic AI create in marketing, and how do marketing managers manage them?</ins></li>
+              </ol>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C11:</b> &#8220;remove the word <b>enable</b> &#8230; the word <b>solutions</b> isn&#8217;t likely needed &#8230; for (3) it is not clear why obstacles and risks are included, and no benefits? &#8230; make all subquestions different from each other and together answer the overarching question.&#8221; &nbsp; <b>C10:</b> &#8220;this needs to be simplified.&#8221; &nbsp; <b>C14:</b> &#8220;keep at 3!&#8221;</div>
+            <div class="note">Q2 drops the normative &#8220;enable&#8221; (&#8594; &#8220;adopt&#8221;) and the word &#8220;solutions&#8221;; Q3 is rebalanced to cover benefits <em>and</em> sacrifices <em>and</em> risks. The three now map cleanly onto the findings arc: identify &#8594; adopt &#8594; outcomes.</div>
+          </div>
+        </section>
+
+        <!-- 6 -->
+        <section class="change" id="u6">
+          <div class="change-head">
+            <span class="unit-n">6</span>
+            <h3>Rationale for focusing on agentic AI</h3>
+            <div class="chips"><span class="chip">C15</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p><del class="d">By focusing</del> specifically on agentic AI <del class="d">systems, this research seeks to move beyond the frequent focus on Generative AI and specific associated tasks (e.g., content generation) to examine the broader spectrum of value creation related to the emerging, and more complex, technology of Agentic AI. The question is deliberately exploratory in nature, acknowledging that the field is still emerging and that both theoretical understanding and practical guidance are largely underdeveloped but valuable to the field.</del></p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p><ins class="a">Focusing</ins> specifically on agentic AI<ins class="a">, rather than on GenAI and its now-familiar content tasks, is a deliberate choice. Agentic systems are both more capable and more complex than the generative tools that preceded them: they act rather than merely respond, and that autonomy widens the range of value they might create while also introducing new conditions, dependencies, and risks. Examining this more demanding technology allows the study to look past the prevailing emphasis on content generation and toward the fuller spectrum of value (and difficulty) that agentic AI introduces into marketing work.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C15:</b> &#8220;needed to add some more details around why you would focus on Agentic AI.&#8221;</div>
+            <div class="note">The reason is now spelled out: agentic systems are more capable <em>and</em> more complex, which widens both the value and the risk. The &#8220;deliberately exploratory&#8221; sentence moved up to the research-question paragraph (group 4).</div>
+          </div>
+        </section>
+
+        <!-- 7 -->
+        <section class="change" id="u7">
+          <div class="change-head">
+            <span class="unit-n">7</span>
+            <h3>The gap: three paragraphs condensed to one</h3>
+            <div class="chips"><span class="chip">C21</span><span class="chip">C20</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before &#183; three paragraphs</div>
+              <p>Despite the significant attention paid to GenAI in both academic literature and practitioner discourse, a critical gap exists in understanding how marketing managers can systematically leverage GenAI to create value beyond content generation. <del class="d">The academic literature has not yet adequately explored the applications of agentic AI systems in marketing contexts, particularly regarding their integration into daily marketing operations and their potential to transform core marketing processes.</del></p>
+              <p><del class="d">This gap is particularly significant given the rapid evolution of AI technologies. Marketing managers face the challenge of navigating an increasingly complex landscape of AI capabilities without clear frameworks or empirical evidence to guide their decision-making.</del></p>
+              <p>Furthermore, the existing literature on digital transformation, while valuable, does not fully account for the unique characteristics of GenAI and agentic. In many ways, the rollout of AI represents a new wave of digital transformation (Holmstr&#246;m, 2022), yet the dynamic and rapidly evolving nature of GenAI technologies requires fresh perspectives and frameworks tailored to this specific technological context.</p>
+            </div>
+            <div class="panel after">
+              <div class="k">After &#183; one paragraph</div>
+              <p>This focus addresses a clear gap. Despite <ins class="a">intense</ins> attention <ins class="a">to</ins> GenAI in both academic literature and practitioner discourse <ins class="a">(Brinker &amp; Riemersma, 2025; Mayer et al., 2025)</ins>, little is understood about how marketing managers can <ins class="a">move beyond content generation to create value systematically, and still less about how the autonomy of agentic systems reshapes that task.</ins> Existing <ins class="a">accounts of</ins> digital transformation <ins class="a">offer a useful starting point, since</ins> the rollout of AI <ins class="a">can be read as</ins> a new wave of <ins class="a">such</ins> transformation (Holmstr&#246;m, 2022)<ins class="a">; but they were not written for technologies that act with this degree of autonomy and evolve this quickly, and so cannot be assumed to transfer wholesale.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C21:</b> &#8220;this seems to be repetition of what came above.&#8221; &nbsp; <b>C20:</b> &#8220;this needs to be cited.&#8221;</div>
+            <div class="note">The repeated gap statement and the standalone &#8220;rapid evolution&#8221; paragraph are cut; the practitioner-discourse claim is now cited.</div>
+          </div>
+        </section>
+
+        <!-- 8 -->
+        <section class="change" id="u8">
+          <div class="change-head">
+            <span class="unit-n">8</span>
+            <h3>Contributions, rewritten from the findings</h3>
+            <div class="chips"><span class="chip">C23</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before &#183; placeholder bullet lists (pre-findings)</div>
+              <p><del class="d">This research makes several important contributions to both academic knowledge and management practice.</del></p>
+              <p style="font-size:13.5px;color:var(--powder-muted);margin-top:8px">Academic contributions include:</p>
+              <ul>
+                <li><del class="d">Addressing the gap in literature regarding GenAI applications in marketing beyond content generation</del></li>
+                <li><del class="d">Providing empirical insights into the emerging domain of agentic AI systems in marketing contexts</del></li>
+                <li><del class="d">Contributing to the broader discourse on digital transformation by examining a new technological wave</del></li>
+              </ul>
+              <p style="font-size:13.5px;color:var(--powder-muted);margin-top:8px">Practical contributions include:</p>
+              <ul>
+                <li><del class="d">Providing marketing managers with frameworks and insights to identify valuable GenAI opportunities</del></li>
+                <li><del class="d">Offering guidance on best practices for implementing and scaling GenAI initiatives</del></li>
+                <li><del class="d">Supporting more informed decision-making regarding marketing technology investments</del></li>
+                <li><del class="d">Enabling marketing departments to operate more efficiently through strategic GenAI adoption</del></li>
+              </ul>
+            </div>
+            <div class="panel after">
+              <div class="k">After &#183; prose grounded in the actual findings</div>
+              <p>This study makes <ins class="a">both theoretical and practical contributions. Theoretically, it offers one of the first grounded empirical accounts of how marketing managers create value with agentic AI, answering the calls for research noted above. Its central contribution is a model of managerial value creation that links observing a volatile environment, building the organizational conditions for change, steering the organization, designing how the technology is applied, and managing the portfolio of benefits, sacrifices, and risks that results. The account&#8217;s organizing insight is that value is managerially mediated rather than technologically determined: comparable use cases produced markedly different outcomes across organizations, and the difference lay in the managerial work and configuration surrounding the technology rather than in the technology itself. The technology, in short, is necessary but far from sufficient. Practically, the study offers marketing managers a vocabulary and a sequence for this work, from recognizing opportunity, through building conditions and steering adoption, to composing and governing the resulting value, including the recurring pattern in which agentic AI is deployed to govern the very risks it creates.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C23:</b> &#8220;this can be updated once we know the findings.&#8221;</div>
+            <div class="note">The generic bullet lists are replaced with the study&#8217;s actual contribution: the value-creation model and the &#8220;managerially mediated, not technologically determined&#8221; insight.</div>
+          </div>
+        </section>
+
+        <!-- 9 -->
+        <section class="change" id="u9">
+          <div class="change-head">
+            <span class="unit-n">9</span>
+            <h3>Roadmap, aligned to the real chapter order</h3>
+            <div class="chips"><span class="chip">C24</span></div>
+          </div>
+          <div class="ba">
+            <div class="panel before">
+              <div class="k">Before</div>
+              <p><del class="d">This document is structured in the following way: First, an overview of the current state of literature is provided, including calls for research within this domain. Then we provide an overview of our methods and present our findings. Afterwards, the findings are compared to literature, practical implications are derived, limitations are discussed, and directions for further research are provided. Lastly, a conclusion is provided containing the main points.</del></p>
+            </div>
+            <div class="panel after">
+              <div class="k">After</div>
+              <p><ins class="a">The remainder of this thesis is structured as follows. Chapter 2 reviews the relevant literature and the calls for research within this domain. Chapter 3 sets out the methodology. Chapter 4 presents the findings. Chapter 5 discusses these findings in relation to the literature, develops their theoretical and practical implications, and considers the study&#8217;s limitations and directions for future research. Chapter 6 concludes with the study&#8217;s main contributions.</ins></p>
+            </div>
+          </div>
+          <div class="why">
+            <div class="lab">Why</div>
+            <div class="q"><b>C24</b> (your own note): &#8220;Move to conclusion based on the requirements from Yasmina.&#8221;</div>
+            <div class="note">Chapters are now named explicitly; practical implications and limitations sit in Chapter 5, with the conclusion as Chapter 6.</div>
+          </div>
+        </section>
+
+        <div class="open">
+          <h2>Still open before this goes into the DOCX</h2>
+          <ul>
+            <li><b>Company example (C9/47).</b> The green placeholder in group 1 needs a real, citable case. Candidates: <em>Klarna&#8217;s</em> OpenAI assistant or <em>Coca-Cola&#8217;s</em> &#8220;Create Real Magic&#8221; campaign.</li>
+            <li><b>New reference.</b> <code>GBK Collective &amp; Wharton Human-AI Research (2025)</code> is cited in groups 2 and 4 but is not yet in the &#167;7 reference list.</li>
+            <li><b>Downstream consistency.</b> Because the sub-questions changed (group 5), the Discussion (&#167;5.1) and Conclusion (&#167;6) still quote the old wording and say &#8220;enable adoption&#8221;; those should be updated to match.</li>
+          </ul>
+        </div>
+
+      </main>
+
+      <nav class="toc">
+        <div class="t-head">Change groups</div>
+        <a href="#u1">1 · Define GenAI &amp; uses <span class="cc">C4 C5 C9</span></a>
+        <a href="#u2">2 · Q&amp;A framing cited <span class="cc">C16/18</span></a>
+        <a href="#u3">3 · Bridge to agentic <span class="cc">C6</span></a>
+        <a href="#u4">4 · Motivation + RQ <span class="cc">C8 C7</span></a>
+        <a href="#u5">5 · Sub-questions <span class="cc">C10 C11 C14</span></a>
+        <a href="#u6">6 · Why agentic AI <span class="cc">C15</span></a>
+        <a href="#u7">7 · Gap condensed <span class="cc">C21 C20</span></a>
+        <a href="#u8">8 · Contributions <span class="cc">C23</span></a>
+        <a href="#u9">9 · Roadmap <span class="cc">C24</span></a>
+      </nav>
+    </div>
+
+  </div>
+</body>
+</html>
