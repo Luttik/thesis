@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thesis sync — chapter 5 & methodology tables</title>
+  <style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas: #FDFCFA;
+    --ink: #000000;
+    --accent: #007bcd;
+    --powder: #EAF1F6;
+    --green: #66BB6A;
+    --powder-light: #F3F7FA;
+    --powder-line: rgba(31,74,105,0.13);
+    --powder-muted: #6E8798;
+    --powder-ink: #3D5363;
+    --paper: #FFFFFF;
+    --serif: "Lora", Georgia, "Times New Roman", serif;
+    --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: ui-monospace, 'SF Mono', Menlo, Monaco, monospace;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: var(--sans); background: var(--canvas); color: var(--powder-ink); line-height: 1.55; padding: 56px 32px 120px; -webkit-font-smoothing: antialiased; }
+  .page { max-width: 1040px; margin: 0 auto; }
+  header.page-head { margin-bottom: 40px; max-width: 840px; }
+  .eyebrow { font-size: 12px; letter-spacing: 0.08em; text-transform: uppercase; color: var(--powder-muted); margin-bottom: 12px; }
+  h1 { font-family: var(--serif); font-weight: 500; font-size: 36px; line-height: 1.15; color: var(--ink); margin-bottom: 12px; letter-spacing: -0.01em; }
+  .pr-meta { display: flex; flex-wrap: wrap; gap: 18px; font-family: var(--mono); font-size: 12.5px; color: var(--powder-muted); margin-bottom: 18px; }
+  .pr-meta strong { color: var(--ink); font-weight: 600; }
+  .pr-meta .add { color: var(--green); }
+  .layout { display: grid; grid-template-columns: 1fr 230px; gap: 48px; align-items: start; }
+  @media (max-width: 920px) { .layout { grid-template-columns: 1fr; } .toc { display: none; } }
+  section { margin-bottom: 52px; scroll-margin-top: 24px; }
+  h2 { font-family: var(--serif); font-weight: 500; font-size: 25px; color: var(--ink); margin-bottom: 14px; letter-spacing: -0.01em; }
+  p.lede { font-size: 15.5px; max-width: 700px; margin-bottom: 12px; }
+  p + p.lede { margin-top: 12px; }
+  code { font-family: var(--mono); font-size: 0.86em; background: var(--powder); padding: 1px 5px; border-radius: 5px; color: var(--ink); }
+  .toc { position: sticky; top: 32px; border-left: 1px solid var(--powder-line); padding-left: 18px; font-size: 13px; }
+  .toc .t-head { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 10px; }
+  .toc a { display: block; color: var(--powder-ink); text-decoration: none; padding: 4px 0; }
+  .toc a:hover { color: var(--accent); }
+  .tldr { background: var(--paper); border: 1px solid var(--powder-line); border-left: 4px solid var(--accent); border-radius: 16pt; padding: 20px 24px; margin-bottom: 48px; max-width: 820px; }
+  .tldr .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 8px; }
+  .tldr p { font-size: 15.5px; color: var(--ink); }
+  .ba { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin: 22px 0 4px; }
+  @media (max-width: 720px) { .ba { grid-template-columns: 1fr; } }
+  .ba .panel { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 16pt; padding: 18px 20px; }
+  .ba .panel.after { border-color: var(--green); }
+  .ba .k { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); margin-bottom: 12px; }
+  .ba .after .k { color: var(--green); }
+  .ba ul { list-style: none; display: flex; flex-direction: column; gap: 9px; font-size: 13.5px; }
+  .ba li { line-height: 1.4; }
+  .ba li b { color: var(--ink); font-weight: 600; }
+  .ba li .gone { text-decoration: line-through; color: var(--powder-muted); }
+  .ba li::before { content: '·'; color: var(--powder-muted); margin-right: 8px; }
+  .ba .after li::before { color: var(--green); }
+  .file-tour { display: flex; flex-direction: column; gap: 16px; }
+  .file { background: var(--paper); border: 1px solid var(--powder-line); border-radius: 16pt; overflow: hidden; }
+  .file summary { padding: 14px 20px; cursor: pointer; display: flex; align-items: center; gap: 12px; list-style: none; background: var(--powder-light); }
+  .file[open] summary { border-bottom: 1px solid var(--powder-line); }
+  .file summary::-webkit-details-marker { display: none; }
+  .file summary .chev { width: 8px; height: 8px; border-right: 2px solid var(--powder-muted); border-bottom: 2px solid var(--powder-muted); transform: rotate(-45deg); transition: transform .15s ease; flex-shrink: 0; }
+  .file[open] summary .chev { transform: rotate(45deg); }
+  .file summary .path { font-weight: 600; font-size: 14.5px; color: var(--ink); flex: 1; }
+  .file summary .badge { font-family: var(--mono); font-size: 10.5px; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 8px; border-radius: 6pt; font-weight: 600; }
+  .badge.new { background: #E4E9DC; color: #4B5C39; }
+  .badge.mod { background: var(--powder); color: var(--ink); }
+  .file summary .stat { font-family: var(--mono); font-size: 12px; color: var(--powder-muted); }
+  .file .file-body { padding: 16px 20px 20px; }
+  .file .why { font-size: 14.5px; max-width: 700px; }
+  .file .why strong { color: var(--ink); }
+  .file .why .loc { font-family: var(--mono); font-size: 12.5px; color: var(--accent); }
+  table.grid { width: 100%; border-collapse: collapse; font-size: 14px; margin-top: 8px; }
+  table.grid th, table.grid td { text-align: left; padding: 11px 14px; border-bottom: 1px solid var(--powder-line); vertical-align: top; }
+  table.grid th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--powder-muted); font-weight: 600; }
+  table.grid td b { color: var(--ink); font-weight: 600; }
+  table.grid td .loc { font-family: var(--mono); font-size: 12.5px; color: var(--accent); }
+  table.grid .ok { color: #4B5C39; font-weight: 600; }
+  .tests { display: flex; flex-direction: column; gap: 10px; max-width: 760px; }
+  .test { display: flex; align-items: flex-start; gap: 12px; background: var(--paper); border: 1px solid var(--powder-line); border-radius: 10pt; padding: 13px 18px; font-size: 14px; }
+  .test .check { width: 18px; height: 18px; border-radius: 6pt; flex-shrink: 0; margin-top: 1px; background: var(--green); border: 1px solid var(--green); position: relative; }
+  .test .check::after { content: ''; position: absolute; left: 5px; top: 2px; width: 5px; height: 9px; border-right: 2px solid var(--paper); border-bottom: 2px solid var(--paper); transform: rotate(40deg); }
+  .test .label { color: var(--ink); }
+  .test .note { color: var(--powder-muted); font-size: 13px; margin-top: 2px; }
+  .steps { display: flex; gap: 0; max-width: 820px; }
+  @media (max-width: 720px) { .steps { flex-direction: column; } }
+  .steps .step { flex: 1; background: var(--paper); border: 1px solid var(--powder-line); padding: 16px 18px; }
+  .steps .step:first-child { border-radius: 16pt 0 0 16pt; }
+  .steps .step:last-child { border-radius: 0 16pt 16pt 0; }
+  .steps .step + .step { border-left: none; }
+  @media (max-width: 720px) { .steps .step, .steps .step:first-child, .steps .step:last-child { border-radius: 16pt; } .steps .step + .step { border-left: 1px solid var(--powder-line); margin-top: 10px; } }
+  .steps .step .when { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px; }
+  .steps .step .t { font-weight: 600; color: var(--ink); font-size: 15px; margin-bottom: 4px; }
+  .steps .step .d { font-size: 13px; color: var(--powder-muted); }
+  .files-list { font-family: var(--mono); font-size: 12.5px; color: var(--powder-ink); background: var(--powder-light); border: 1px solid var(--powder-line); border-radius: 12pt; padding: 14px 18px; max-width: 760px; line-height: 1.9; }
+  .files-list .add { color: var(--green); }
+  </style>
+</head>
+<body>
+  <div class="page">
+
+    <header class="page-head">
+      <div class="eyebrow">Thesis · consistency pass</div>
+      <h1>Chapter 5 &amp; methodology synced to the restructured chapter 4</h1>
+      <div class="pr-meta">
+        <span>all edits <strong>tracked changes</strong></span>
+        <span>author <strong>Claude</strong></span>
+        <span>2026-06-13</span>
+        <span><span class="add">4 patches</span>, fully reversible</span>
+      </div>
+    </header>
+
+    <div class="layout">
+      <main>
+
+        <div class="tldr">
+          <div class="k">In one line</div>
+          <p>Chapter 4 was restructured (the §4.5 Paradoxes section dissolved, §4.2 reordered, several subsections folded away). Everything that depended on the old layout — chapter 5's cross-references, the coding table, and the now-orphaned paradoxes — has been brought back into line, with two cut findings re-grounded so nothing in the Discussion floats.</p>
+        </div>
+
+        <section id="why">
+          <h2>Why this was needed</h2>
+          <p class="lede">Chapter 4's section structure changed substantially. Chapter 5 and the methodology table still pointed at the old numbering, and several paradoxes lost their home. The pre-change chapter 4 was recovered from git (<code>b74d41e</code>, Jun 9) to map old&nbsp;→&nbsp;new precisely.</p>
+          <div class="ba">
+            <div class="panel">
+              <div class="k">Chapter 4 — before</div>
+              <ul>
+                <li>4.1 Observing — 4.1.1 AI progression, 4.1.2 Market pressure, <span class="gone">4.1.3 Supplier communication</span></li>
+                <li>4.2 The organizational context — <span class="gone">Org capacity / Leadership / Technical resources / Governance</span></li>
+                <li>4.3 Applying — <span class="gone">Use cases / Usage strategies</span></li>
+                <li>4.4 Value outcomes — Benefits, Sacrifices, Risks, <span class="gone">4.4.4 Driving value outcomes</span></li>
+                <li><span class="gone">4.5 Paradoxes — Branding, Hallucinating, Implementation, Junior</span></li>
+              </ul>
+            </div>
+            <div class="panel after">
+              <div class="k">Chapter 4 — now</div>
+              <ul>
+                <li><b>4.1</b> Observing external conditions — AI progression, Market pressure (supplier folded in)</li>
+                <li><b>4.2</b> Navigating the organizational context — Steering the marketing department, Leveraging technical resources, Dealing with compliance</li>
+                <li><b>4.3</b> Applying agentic AI — Generating insights, Content &amp; campaigns, Generic agents, Customer-facing agents</li>
+                <li><b>4.4</b> Obtaining value outcomes — Benefits, Sacrifices, Risks (+ Table)</li>
+                <li>Paradoxes dissolved into 4.4 / 4.1.1 / 4.4.1</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section id="changes">
+          <h2>What changed</h2>
+          <p class="lede">Six edits, all tracked under the author <code>Claude</code>. Expand each for the rationale.</p>
+          <div class="file-tour">
+
+            <details class="file" open>
+              <summary><span class="chev"></span><span class="path">Chapter 5 — cross-reference sync</span><span class="badge mod">mod</span><span class="stat">18 refs · 3 headings</span></summary>
+              <div class="file-body"><p class="why"><strong>Your argument is untouched</strong> — only pointers moved. Every stale <code>§4.x</code> reference was repointed (the 4.5.x paradoxes → <span class="loc">4.4.3</span>, the 4.2 shifts, 4.1.3 → 4.1.1, 4.4.4 → Table), the "three external sources" reduced to two, and the bare §5.1 headings numbered <span class="loc">5.1.2 / 5.1.3 / 5.1.4</span> (with the internal self-reference fixed).</p></div>
+            </details>
+
+            <details class="file">
+              <summary><span class="chev"></span><span class="path">Table 3 — coding table realigned</span><span class="badge mod">mod</span><span class="stat">15 → 12 rows</span></summary>
+              <div class="file-body"><p class="why">Focused codes now map one-to-one to the current chapter 4 subsections (the scope model), supplier communication folded into AI progression, and the condition rows carry both <em>Enablers</em> and <em>Obstacles</em> drawn from the QDPX tailwind/obstacle codes. Styling was cloned from the original so it looks identical.</p></div>
+            </details>
+
+            <details class="file">
+              <summary><span class="chev"></span><span class="path">Table 4 — definitions of the theoretical categories</span><span class="badge new">new</span><span class="stat">4 categories</span></summary>
+              <div class="file-body"><p class="why">A new table defining the four theoretical categories, worded directly from <span class="loc">§4.1–4.4</span>. Sits right after the coding table in §3.4.</p></div>
+            </details>
+
+            <details class="file">
+              <summary><span class="chev"></span><span class="path">Table renumber — divergent outcomes → Table 5</span><span class="badge mod">mod</span><span class="stat">caption + 1 ref</span></summary>
+              <div class="file-body"><p class="why">Adding a table in §3.4 bumps the comparable-use-cases table from Table 4 to <b>Table 5</b>. Just two touch-points: its caption and the one chapter-5 mention.</p></div>
+            </details>
+
+            <details class="file">
+              <summary><span class="chev"></span><span class="path">Optics-vs-reality re-grounded</span><span class="badge new">new</span><span class="stat">§4.1.1</span></summary>
+              <div class="file-body"><p class="why">Chapter 4 had deleted this finding, but chapter 5 still discussed it. A brief paragraph was added to <span class="loc">§4.1.1</span> (separating real capability from hype — interviewees 9, 12, 11), and the two chapter-5 mentions now point to it.</p></div>
+            </details>
+
+            <details class="file">
+              <summary><span class="chev"></span><span class="path">Junior-pipeline threat re-grounded</span><span class="badge new">new</span><span class="stat">4.4.1</span></summary>
+              <div class="file-body"><p class="why">Chapter 5 and the Conclusion claim deploying AI on junior tasks erodes the talent pipeline, but 4.4.1 only had the upside. A short threat note (interviewee 10) was appended right after the junior-benefit line, so <span class="loc">4.4.1</span> now reads benefit-then-risk and the references resolve.</p></div>
+            </details>
+
+          </div>
+        </section>
+
+        <section id="paradoxes">
+          <h2>Where the four paradoxes live now</h2>
+          <p class="lede">All four are still discussed in chapter 5 and now each traces back to a real finding in chapter 4 — nothing floats.</p>
+          <table class="grid">
+            <thead><tr><th>Paradox</th><th>Chapter 4 home</th><th>Chapter 5 reference</th><th>Status</th></tr></thead>
+            <tbody>
+              <tr><td><b>Branding</b></td><td>4.4.3 (Risks)</td><td><span class="loc">4.4.3</span></td><td class="ok">already solid</td></tr>
+              <tr><td><b>Hallucinating</b></td><td>4.4.3 (Risks)</td><td><span class="loc">4.4.3</span></td><td class="ok">already solid</td></tr>
+              <tr><td><b>Optics-vs-reality</b></td><td>§4.1.1 (re-added)</td><td><span class="loc">4.1.1</span></td><td class="ok">fixed</td></tr>
+              <tr><td><b>Junior pipeline</b></td><td>4.4.1 (re-added)</td><td><span class="loc">4.4.1</span></td><td class="ok">fixed</td></tr>
+            </tbody>
+          </table>
+        </section>
+
+        <section id="verification">
+          <h2>Verification</h2>
+          <p class="lede">Every patch was simulated for both accept-all and reject-all before and after saving.</p>
+          <div class="tests">
+            <div class="test"><span class="check"></span><div><div class="label">Accept-all is correct</div><div class="note">realigned 13-row Table 3, new definitions table, captions read Table 4 / Table 5, optics + junior findings present, zero stale 4.5.x / 4.4.4 / 4.2.4 / 4.1.3 refs</div></div></div>
+            <div class="test"><span class="check"></span><div><div class="label">Reject-all reverts cleanly</div><div class="note">original 16-row table, no definitions table, "Table 4", no added paragraphs</div></div></div>
+            <div class="test"><span class="check"></span><div><div class="label">No duplicate change-IDs</div><div class="note">checked across all four patches</div></div></div>
+            <div class="test"><span class="check"></span><div><div class="label">§5.1 headings render 5.1.1 → 5.1.5</div><div class="note">and key references confirmed: (Section 5.1.2), (Section 4.4.3), (Section 4.2.2)</div></div></div>
+          </div>
+          <p class="lede" style="margin-top:18px">Backups in the repo root, each reversible independently:</p>
+          <div class="files-list">
+            …<span class="add">ch5sync</span>-backup.docx&nbsp;&nbsp;<span style="color:var(--powder-muted)">— original, pre-everything</span><br>
+            …<span class="add">tables</span>-backup.docx&nbsp;&nbsp;<span style="color:var(--powder-muted)">— before the table changes</span><br>
+            …<span class="add">optics</span>-backup.docx&nbsp;&nbsp;<span style="color:var(--powder-muted)">— before the §4.1.1 addition</span><br>
+            …<span class="add">junior</span>-backup.docx&nbsp;&nbsp;<span style="color:var(--powder-muted)">— before the 4.4.1 addition</span>
+          </div>
+        </section>
+
+        <section id="todo">
+          <h2>Left for you in Word</h2>
+          <div class="steps">
+            <div class="step"><div class="when">First</div><div class="t">Review &amp; accept</div><div class="d">Walk the tracked changes and accept (or reject) as you see fit.</div></div>
+            <div class="step"><div class="when">Then</div><div class="t">Update the TOC</div><div class="d">The static contents and table numbers are stale — right-click → Update Field.</div></div>
+            <div class="step"><div class="when">Tidy</div><div class="t">One blank line</div><div class="d">Delete the stray empty line above the realigned Table 3.</div></div>
+          </div>
+        </section>
+
+      </main>
+
+      <nav class="toc">
+        <div class="t-head">On this page</div>
+        <a href="#why">Why this was needed</a>
+        <a href="#changes">What changed</a>
+        <a href="#paradoxes">The four paradoxes</a>
+        <a href="#verification">Verification</a>
+        <a href="#todo">Left for you in Word</a>
+      </nav>
+    </div>
+
+  </div>
+</body>
+</html>
