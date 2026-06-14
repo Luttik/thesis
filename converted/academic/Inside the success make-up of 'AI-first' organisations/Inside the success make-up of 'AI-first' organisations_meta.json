@@ -1,0 +1,928 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Inside the successful make-up of \n'AI-first' organisations",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          93.54329681396484,
+          72.087646484375
+        ],
+        [
+          481.9113464355469,
+          72.087646484375
+        ],
+        [
+          481.9113464355469,
+          122.07965087890625
+        ],
+        [
+          93.54329681396484,
+          122.07965087890625
+        ]
+      ]
+    },
+    {
+      "title": "Jacques Bughin",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          167.333984375,
+          152.9755859375
+        ],
+        [
+          272.681640625,
+          152.9755859375
+        ],
+        [
+          272.681640625,
+          165.6923828125
+        ],
+        [
+          167.333984375,
+          165.6923828125
+        ]
+      ]
+    },
+    {
+      "title": "INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          92.54296875,
+          516.5263671875
+        ],
+        [
+          175.3907928466797,
+          516.5263671875
+        ],
+        [
+          175.3907928466797,
+          527.2726745605469
+        ],
+        [
+          92.54296875,
+          527.2726745605469
+        ]
+      ]
+    },
+    {
+      "title": "STUDY SCOPE",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          301.783203125,
+          126.04589843749999
+        ],
+        [
+          379.2167663574219,
+          126.04589843749999
+        ],
+        [
+          379.2167663574219,
+          137.25042724609375
+        ],
+        [
+          301.783203125,
+          137.25042724609375
+        ]
+      ]
+    },
+    {
+      "title": "RESULTS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          303.6377868652344,
+          555.4248046875
+        ],
+        [
+          351.837890625,
+          555.4248046875
+        ],
+        [
+          351.837890625,
+          566.2503662109375
+        ],
+        [
+          303.6377868652344,
+          566.2503662109375
+        ]
+      ]
+    },
+    {
+      "title": "Before the AI journey: The art of strategic \nrenewal",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          300.91015625,
+          269.296875
+        ],
+        [
+          480.0062561035156,
+          269.296875
+        ],
+        [
+          480.0062561035156,
+          293.5603942871094
+        ],
+        [
+          300.91015625,
+          293.5603942871094
+        ]
+      ]
+    },
+    {
+      "title": "During the AI journey: Mastering the \ncomponents of an AI-first organisation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          93.54329681396484,
+          491.3202209472656
+        ],
+        [
+          255.92578125,
+          491.3202209472656
+        ],
+        [
+          255.92578125,
+          514.8202056884766
+        ],
+        [
+          93.54329681396484,
+          514.8202056884766
+        ]
+      ]
+    },
+    {
+      "title": "MANAGERIAL GUIDANCE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          302.65625,
+          347.4677734375
+        ],
+        [
+          433.5962829589844,
+          347.4677734375
+        ],
+        [
+          433.5962829589844,
+          358.3621826171875
+        ],
+        [
+          302.65625,
+          358.3621826171875
+        ]
+      ]
+    },
+    {
+      "title": "Responsible AI/data governance is the key \nrefinery for your data",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          303.23828125,
+          503.06152343749994
+        ],
+        [
+          485.08721923828125,
+          503.06152343749994
+        ],
+        [
+          485.08721923828125,
+          527.6722106933594
+        ],
+        [
+          303.23828125,
+          527.6722106933594
+        ]
+      ]
+    },
+    {
+      "title": "Case in point",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          92.833984375,
+          502.87060546875
+        ],
+        [
+          156.275390625,
+          502.87060546875
+        ],
+        [
+          156.275390625,
+          513.37060546875
+        ],
+        [
+          92.833984375,
+          513.37060546875
+        ]
+      ]
+    },
+    {
+      "title": "Engage in a major enterprise upskilling",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          92.54296875,
+          645.1904296875
+        ],
+        [
+          258.3617858886719,
+          645.1904296875
+        ],
+        [
+          258.3617858886719,
+          656.6785202026367
+        ],
+        [
+          92.54296875,
+          656.6785202026367
+        ]
+      ]
+    },
+    {
+      "title": "Case in point",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          303.6377868652344,
+          593.87060546875
+        ],
+        [
+          366.388671875,
+          593.87060546875
+        ],
+        [
+          366.388671875,
+          604.37060546875
+        ],
+        [
+          303.6377868652344,
+          604.37060546875
+        ]
+      ]
+    },
+    {
+      "title": "Embrace radical innovation",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          92.833984375,
+          450.69824218749994
+        ],
+        [
+          207.9932861328125,
+          450.69824218749994
+        ],
+        [
+          207.9932861328125,
+          462.57611083984375
+        ],
+        [
+          92.833984375,
+          462.57611083984375
+        ]
+      ]
+    },
+    {
+      "title": "Case in point",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          91.669921875,
+          659.7682113647461
+        ],
+        [
+          156.275390625,
+          659.7682113647461
+        ],
+        [
+          156.275390625,
+          670.2682113647461
+        ],
+        [
+          91.669921875,
+          670.2682113647461
+        ]
+      ]
+    },
+    {
+      "title": "AI ecosystem should be the new black",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          303.23828125,
+          516.5263671875
+        ],
+        [
+          465.2327880859375,
+          516.5263671875
+        ],
+        [
+          465.2327880859375,
+          527.5762023925781
+        ],
+        [
+          303.23828125,
+          527.5762023925781
+        ]
+      ]
+    },
+    {
+      "title": "Case in point",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          93.416015625,
+          295.75250244140625
+        ],
+        [
+          155.693359375,
+          295.75250244140625
+        ],
+        [
+          155.693359375,
+          306.25250244140625
+        ],
+        [
+          93.416015625,
+          306.25250244140625
+        ]
+      ]
+    },
+    {
+      "title": "Sponsor the AI transformation",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          302.65625,
+          126.41992187499999
+        ],
+        [
+          430.0472717285156,
+          126.41992187499999
+        ],
+        [
+          430.0472717285156,
+          137.56048583984375
+        ],
+        [
+          302.65625,
+          137.56048583984375
+        ]
+      ]
+    },
+    {
+      "title": "Case in point",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          303.6377868652344,
+          386.740234375
+        ],
+        [
+          366.388671875,
+          386.740234375
+        ],
+        [
+          366.388671875,
+          397.25250244140625
+        ],
+        [
+          303.6377868652344,
+          397.25250244140625
+        ]
+      ]
+    },
+    {
+      "title": "CONCLUSIONS",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          93.416015625,
+          164.1962890625
+        ],
+        [
+          171.73680114746094,
+          164.1962890625
+        ],
+        [
+          171.73680114746094,
+          176.25042724609375
+        ],
+        [
+          93.416015625,
+          176.25042724609375
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          93.54329681396484,
+          450.69824218749994
+        ],
+        [
+          150.51629638671875,
+          450.69824218749994
+        ],
+        [
+          150.51629638671875,
+          462.9606628417969
+        ],
+        [
+          93.54329681396484,
+          462.9606628417969
+        ]
+      ]
+    },
+    {
+      "title": "Inside the successful make-up of 'AI-first' organisations",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          290.43359375,
+          40.7685546875
+        ],
+        [
+          549.9126586914062,
+          40.7685546875
+        ],
+        [
+          549.9126586914062,
+          51.96881103515625
+        ],
+        [
+          290.43359375,
+          51.96881103515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          121
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          53
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          122
+        ],
+        [
+          "Line",
+          55
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "Line",
+          68
+        ],
+        [
+          "TableCell",
+          45
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          203
+        ],
+        [
+          "Line",
+          75
+        ],
+        [
+          "TableCell",
+          34
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          191
+        ],
+        [
+          "Line",
+          92
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          291
+        ],
+        [
+          "Line",
+          113
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          72
+        ],
+        [
+          "Line",
+          22
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Inside the success make-up of 'AI-first' organisations"
+}
