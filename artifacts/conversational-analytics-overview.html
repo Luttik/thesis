@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conversational analytics — story &amp; quotes for §4.3.1</title>
+<style>
+  @import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,600;9..40,700&family=Lora:ital,wght@0,400..700;1,400..700&display=swap");
+  :root {
+    --canvas:    #FDFCFA;
+    --ink:       #000000;
+    --accent:    #007bcd;
+    --powder:    #EAF1F6;
+    --powder-light: #F3F7FA;
+    --powder-line: rgba(31,74,105,0.13);
+    --powder-muted: #6E8798;
+    --powder-ink: #3D5363;
+    --paper:     #FFFFFF;
+    --green:     #4F8A57;
+    --rust:      #B04A3F;
+    --serif: "Lora", Georgia, "Times New Roman", serif;
+    --sans: "DM Sans", system-ui, -apple-system, "Segoe UI", sans-serif;
+    --mono: ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--canvas);
+    color: var(--powder-ink);
+    font-family: var(--sans);
+    font-size: 15px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    padding: 56px 24px 120px;
+  }
+  .page {
+    max-width: 1120px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 230px minmax(0, 1fr);
+    gap: 48px;
+  }
+  @media (max-width: 920px) { .page { grid-template-columns: 1fr; } aside { display: none; } }
+
+  /* ── sidebar ─────────────────────────── */
+  aside { position: sticky; top: 32px; align-self: start; }
+  aside .label {
+    font-family: var(--mono); font-size: 10px; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--powder-muted); margin: 0 0 10px 2px;
+  }
+  nav a {
+    display: block; text-decoration: none; color: var(--powder-ink);
+    font-size: 13px; padding: 7px 12px; border-left: 2px solid var(--powder-line);
+    transition: border-color 120ms, color 120ms, background 120ms;
+  }
+  nav a .n { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); margin-right: 8px; }
+  nav a:hover { background: var(--powder-light); color: var(--ink); }
+  nav a.on { border-left-color: var(--accent); color: var(--ink); background: var(--powder-light); }
+  nav a.on .n { color: var(--accent); }
+
+  .cast { margin-top: 26px; border: 1px solid var(--powder-line); border-radius: 14pt; background: var(--paper); padding: 16px 16px 8px; }
+  .cast dl { font-size: 12px; }
+  .cast dt { font-family: var(--mono); font-size: 10.5px; color: var(--accent); margin-top: 10px; }
+  .cast dt:first-child { margin-top: 0; }
+  .cast dd { color: var(--powder-ink); line-height: 1.45; }
+
+  /* ── header ──────────────────────────── */
+  .eyebrow {
+    font-family: var(--mono); font-size: 11px; letter-spacing: 0.08em;
+    text-transform: uppercase; color: var(--powder-muted); margin-bottom: 10px;
+  }
+  h1 { font-family: var(--serif); font-weight: 500; font-size: 32px; color: var(--ink); letter-spacing: -0.01em; margin-bottom: 14px; line-height: 1.2; }
+  .lead { max-width: 660px; font-size: 16px; }
+  .lead b { color: var(--ink); font-weight: 600; }
+
+  h2 { font-family: var(--serif); font-weight: 500; font-size: 22px; color: var(--ink); margin: 8px 0 4px; scroll-margin-top: 24px; }
+  .beat-tag { font-family: var(--mono); font-size: 11px; color: var(--accent); letter-spacing: 0.04em; }
+  section { margin-top: 44px; }
+  p { margin-bottom: 12px; max-width: 700px; }
+  .muted { color: var(--powder-muted); }
+
+  /* ── arc / beats ─────────────────────── */
+  .arc { display: grid; grid-template-columns: repeat(4, 1fr); gap: 12px; margin: 18px 0 8px; }
+  @media (max-width: 720px) { .arc { grid-template-columns: repeat(2, 1fr); } }
+  .step {
+    background: var(--powder-light); border: 1px solid var(--powder-line);
+    border-radius: 14pt; padding: 16px 16px 18px; position: relative;
+  }
+  .step .num { font-family: var(--mono); font-size: 11px; color: var(--accent); font-weight: 600; }
+  .step h3 { font-family: var(--serif); font-weight: 600; font-size: 16px; color: var(--ink); margin: 6px 0 6px; line-height: 1.25; }
+  .step p { font-size: 13px; margin: 0; color: var(--powder-ink); }
+
+  /* ── quote cards ─────────────────────── */
+  .quote {
+    border: 1px solid var(--powder-line); border-left: 3px solid var(--accent);
+    border-radius: 12pt; background: var(--paper); padding: 18px 20px; margin: 14px 0;
+  }
+  .quote blockquote { font-family: var(--serif); font-style: italic; font-size: 16.5px; color: var(--ink); line-height: 1.55; }
+  .quote .attr { margin-top: 11px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  .quote .who { font-size: 13px; color: var(--powder-ink); }
+  .quote .who b { color: var(--ink); }
+  .quote.soft { border-left-color: var(--powder-muted); }
+
+  .chip { font-family: var(--mono); font-size: 10.5px; padding: 2px 8px; border-radius: 20px; background: var(--powder); color: var(--powder-ink); border: 1px solid var(--powder-line); white-space: nowrap; }
+  .badge { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.05em; text-transform: uppercase; padding: 2px 7px; border-radius: 4pt; }
+  .badge.add { background: rgba(0,123,205,0.12); color: var(--accent); }
+  .badge.draft { background: var(--powder); color: var(--powder-muted); }
+
+  .note { font-size: 13px; color: var(--powder-muted); max-width: 680px; margin: 6px 0 0; }
+
+  /* ── split pane (spectrum) ───────────── */
+  .split { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 14px; margin: 16px 0; }
+  @media (max-width: 720px) { .split { grid-template-columns: 1fr; } }
+  .pole { border: 1px solid var(--powder-line); border-radius: 14pt; background: var(--paper); padding: 4px 18px 4px; }
+  .pole .head { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--accent); margin: 16px 0 0; }
+  .pole .sub { font-size: 12.5px; color: var(--powder-muted); margin: 2px 0 4px; }
+
+  /* ── table ───────────────────────────── */
+  table { border-collapse: collapse; width: 100%; max-width: 700px; font-size: 13.5px; margin: 14px 0; }
+  th, td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--powder-line); vertical-align: top; }
+  th { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.06em; color: var(--powder-muted); font-weight: 500; }
+  td.good { color: var(--green); }
+  td.bad { color: var(--rust); }
+  td .p { font-family: var(--mono); font-size: 11px; color: var(--powder-muted); }
+
+  /* ── callouts ────────────────────────── */
+  .callout { border: 1px solid var(--powder-line); border-radius: 14pt; background: var(--powder-light); padding: 18px 20px; margin: 16px 0; max-width: 760px; }
+  .callout h4 { font-family: var(--sans); font-weight: 600; font-size: 13px; color: var(--ink); margin-bottom: 6px; }
+  .callout.rec { border-left: 3px solid var(--accent); background: rgba(0,123,205,0.05); }
+  .callout p { margin-bottom: 8px; font-size: 14px; }
+  .callout p:last-child { margin-bottom: 0; }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- sidebar -->
+  <aside>
+    <div class="label">The four beats</div>
+    <nav id="nav">
+      <a href="#arc"><span class="n">—</span>Story arc</a>
+      <a href="#t1"><span class="n">1</span>Name the pattern</a>
+      <a href="#t2"><span class="n">2</span>The SQL transition</a>
+      <a href="#t3"><span class="n">3</span>The precondition</a>
+      <a href="#t4"><span class="n">4</span>The payoff</a>
+      <a href="#vegntki"><span class="n">·</span>On "VEGNTKI"</a>
+      <a href="#rec"><span class="n">·</span>What to add</a>
+    </nav>
+    <div class="cast">
+      <div class="label" style="margin-bottom:8px;">Cast</div>
+      <dl>
+        <dt>Int 16 · anon</dt><dd>Building conversational analytics</dd>
+        <dt>Int 3 · Berfun</dt><dd>Marketer who writes SQL</dd>
+        <dt>Int 13 · Tim</dt><dd>Builder, agentic SQL</dd>
+        <dt>Int 4 · Dennis</dt><dd>Live data, 10-min report</dd>
+        <dt>Int 12 · Scott</dt><dd>The learning loop</dd>
+        <dt>Int 2 · Arjan</dt><dd>KNVB, names the term</dd>
+      </dl>
+    </div>
+  </aside>
+
+  <main>
+    <div class="eyebrow">Thesis · §4.3.1 Generating insights · findings support</div>
+    <h1>Building the conversational-analytics story</h1>
+    <p class="lead">
+      <b>Core claim:</b> agentic AI is collapsing the distance between marketers and their data, shifting the act
+      from <em>writing queries</em> to <em>asking questions</em>. Whether that value lands depends on the
+      organization's data foundation, and where it holds, the payoff is a <b>shortened learning loop</b> with
+      organizational consequences.
+    </p>
+
+    <!-- arc -->
+    <section id="arc">
+      <h2>The story arc</h2>
+      <p class="note">Four beats. Beat 3 is the hinge: it explains why the same models gave opposite outcomes
+        across participants, which is already the pivot of the current §4.3.1 draft.</p>
+      <div class="arc">
+        <div class="step"><div class="num">BEAT 1</div><h3>Name the pattern</h3><p>From querying to conversing: marketers "talk to data."</p></div>
+        <div class="step"><div class="num">BEAT 2</div><h3>The SQL transition</h3><p>Two postures: write SQL by hand vs. wire the warehouse into the model.</p></div>
+        <div class="step"><div class="num">BEAT 3</div><h3>The precondition</h3><p>Data governance decides success, and explains the divergence.</p></div>
+        <div class="step"><div class="num">BEAT 4</div><h3>The payoff</h3><p>Time to insight compresses; the loop shortens; more experiments, more wins.</p></div>
+      </div>
+    </section>
+
+    <!-- thread 1 -->
+    <section id="t1">
+      <span class="beat-tag">BEAT 1</span>
+      <h2>Naming the pattern: from querying to conversing</h2>
+      <div class="quote">
+        <blockquote>"basically it's indeed [&hellip;] talking to data &hellip; honestly, it's not that impressive anymore to do that."</blockquote>
+        <div class="attr"><span class="chip">Int 16</span><span class="who"><b>Anonymous</b> — currently building the capability; defines it and deflates the hype</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote soft">
+        <blockquote>"[people] start calling it conversational analytics &hellip; you talk to your data and you get insights back." &mdash; "Ah, cool." / "Yeah."</blockquote>
+        <div class="attr"><span class="chip">Int 2 · Arjan Dijk</span><span class="who">KNVB — but the framing is largely the interviewer's, with Arjan agreeing, so weaker as a standalone participant quote</span><span class="badge draft">reserve</span></div>
+      </div>
+    </section>
+
+    <!-- thread 2 -->
+    <section id="t2">
+      <span class="beat-tag">BEAT 2</span>
+      <h2>The SQL transition (both participants)</h2>
+      <p>Two ends of one spectrum: the data-literate marketer who hand-writes SQL, and the builder who wires the
+        warehouse straight into the model.</p>
+      <div class="split">
+        <div class="pole">
+          <div class="head">Writes SQL by hand</div>
+          <div class="sub">Int 3 · Berfun Goodwin</div>
+        </div>
+        <div class="pole">
+          <div class="head">Wires the warehouse in</div>
+          <div class="sub">Int 13 · Tim Wiegel</div>
+        </div>
+      </div>
+
+      <div class="quote">
+        <blockquote>"I can write a more advanced SQL code. I don't need an advanced data scientist to help me with that."</blockquote>
+        <div class="attr"><span class="chip">Int 3 · Berfun</span><span class="who">AI levels up her own SQL</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote">
+        <blockquote>"I don't know if SQL coding will even be relevant [&hellip;] I think it's just gonna sit on top of the data, and then you're gonna start asking it questions."</blockquote>
+        <div class="attr"><span class="chip">Int 3 · Berfun</span><span class="who">The bridge straight into conversational analytics &mdash; the spine quote</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote">
+        <blockquote>"I wish it was just plugged in, and I could just ask [&hellip;] questions."</blockquote>
+        <div class="attr"><span class="chip">Int 3 · Berfun</span><span class="who">Her aspiration &mdash; currently blocked by the data layer (see Beat 3)</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote">
+        <blockquote>"you can now connect BigQuery into Claude [&hellip;] 'I have this problem. Please do this and test this in this BigQuery instance with this data set and these tables.' So that already works [&hellip;] massively."</blockquote>
+        <div class="attr"><span class="chip">Int 13 · Tim</span><span class="who">The agentic counterpart &mdash; "agentic SQL analysis"</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote soft">
+        <blockquote>"almost every company [&hellip;] will be quite hesitant to [&hellip;] connect their HubSpot or their Pipedrive or [&hellip;] the BigQuery to Claude, even though that would be awesome."</blockquote>
+        <div class="attr"><span class="chip">Int 13 · Tim</span><span class="who">Why the integrated end is rare &mdash; sets up Beat 3</span><span class="badge draft">reserve</span></div>
+      </div>
+    </section>
+
+    <!-- thread 3 -->
+    <section id="t3">
+      <span class="beat-tag">BEAT 3</span>
+      <h2>The precondition that decides success: data governance</h2>
+      <p>The analytic payoff: this converts the existing Int 4 vs Int 3 contrast from luck into preparation.</p>
+      <div class="quote">
+        <blockquote>"I started [&hellip;] two years ago with a track on data governance [&hellip;] describing our business definitions, and technical lineage of our digital data landscape" &mdash; because "I believe that we needed that for the enablement of AI on conversational analytics."</blockquote>
+        <div class="attr"><span class="chip">Int 16</span><span class="who">Governance as a prerequisite, not a by-product</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote">
+        <blockquote>a single "add to cart" metric turned out to have "five different definitions" &hellip; once "we cleaned up that part [&hellip;] it was pretty easy for us to start the LLM wrapper around the conversational analytics part."</blockquote>
+        <div class="attr"><span class="chip">Int 16</span><span class="who">Why it matters, and the payoff</span><span class="badge add">to add</span></div>
+      </div>
+      <p style="margin-top:18px;">The contrast already in the draft, now <em>explained</em>:</p>
+      <table>
+        <thead><tr><th>Participant</th><th>Data layer</th><th>Outcome</th></tr></thead>
+        <tbody>
+          <tr><td><span class="p">Int 4</span> Dennis</td><td class="good">connected to live data</td><td class="good">"giant analytics team" → answered "within ten minutes"</td></tr>
+          <tr><td><span class="p">Int 3</span> Berfun</td><td class="bad">"not there yet"</td><td class="bad">30 MB ceiling; manual extraction from BigQuery; "ask questions" wish unmet</td></tr>
+          <tr><td><span class="p">Int 13</span> Tim</td><td>often unconnected by choice</td><td>orgs won't wire warehouse to model &mdash; the structural reason the layer is missing</td></tr>
+        </tbody>
+      </table>
+      <p class="note">Berfun's failure mode is exactly what Int 16's governance track prevents, which is why her
+        "I could just ask questions" wish stays unfulfilled.</p>
+    </section>
+
+    <!-- thread 4 -->
+    <section id="t4">
+      <span class="beat-tag">BEAT 4</span>
+      <h2>The organizational payoff: shortening the loop</h2>
+      <div class="quote">
+        <blockquote>"giant analytics team" → a prompt answered "within ten minutes."</blockquote>
+        <div class="attr"><span class="chip">Int 4 · Dennis</span><span class="who">Time-to-insight compression</span><span class="badge draft">in draft</span></div>
+      </div>
+      <div class="quote">
+        <blockquote><em>(asked if time to insight shrinks)</em> "Both. Both." &hellip; "nobody can really predict how a marketing idea is gonna work. You have to do it and try it and learn from it [&hellip;] by [&hellip;] expanding the number of experiments [&hellip;] we actually open up the opportunity to increase the number of wins that we discover in that process."</blockquote>
+        <div class="attr"><span class="chip">Int 12 · Scott Brinker</span><span class="who">The consequence: the constraint moves from <em>producing</em> the analysis to <em>acting</em> on it</span><span class="badge add">to add</span></div>
+      </div>
+      <div class="quote soft">
+        <blockquote>"really short development cycles [&hellip;] if we have the right ideas, we can execute on it."</blockquote>
+        <div class="attr"><span class="chip">Int 5 · Erik</span><span class="who">Echoes the loop from the build side</span><span class="badge draft">optional</span></div>
+      </div>
+      <p class="note">One-line analytic frame (your memo): <em>"Agentic AI reduces time to insight, which speeds up the
+        learning loop, enabling organizations to iterate faster."</em></p>
+    </section>
+
+    <!-- vegntki -->
+    <section id="vegntki">
+      <h2>On "Data Analytics for VEGNTKI removed"</h2>
+      <div class="callout">
+        <p>"VEGNTKI" doesn't map cleanly to a participant name or interviewee number, so I can't decode it with
+          confidence. My read: when Ch4 was restructured on 06-13, the old <em>"Analyzing data"</em> material was
+          folded into §4.3.1 "Generating insights," so a standalone data-analytics passage is indeed gone, which
+          is <em>why</em> the conversational-analytics story now feels thin.</p>
+        <p class="muted">If "VEGNTKI" is a specific participant whose removed quote you want restored, tell me who and I'll pull it.</p>
+      </div>
+    </section>
+
+    <!-- recommendation -->
+    <section id="rec">
+      <h2>What I'd actually add</h2>
+      <div class="callout rec">
+        <h4>Two short paragraphs, after the Int 4 / Int 3 contrast</h4>
+        <p><b>Paragraph A (name it + SQL shift):</b> introduce <em>conversational analytics</em> via Int 16
+          ("talking to data"); fold in Berfun's SQL→questions shift as the spine, with Tim's BigQuery-into-Claude
+          as the agentic counterpart.</p>
+        <p><b>Paragraph B (precondition + loop):</b> Int 16's governance precondition (the "five definitions" →
+          "LLM wrapper" payoff) explains the divergence; close on Scott's loop consequence.</p>
+        <p class="muted">Berfun stays the spine (she's already in the section); Int 16 + Scott elevate it. Tim and
+          Erik held in reserve to keep it tight.</p>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+  // sidebar active-state on scroll
+  const links = Array.from(document.querySelectorAll("#nav a"));
+  const map = new Map(links.map(a => [a.getAttribute("href").slice(1), a]));
+  const obs = new IntersectionObserver(entries => {
+    entries.forEach(e => {
+      if (e.isIntersecting) {
+        links.forEach(l => l.classList.remove("on"));
+        map.get(e.target.id)?.classList.add("on");
+      }
+    });
+  }, { rootMargin: "-20% 0px -70% 0px" });
+  document.querySelectorAll("section[id]").forEach(s => obs.observe(s));
+</script>
+</body>
+</html>
