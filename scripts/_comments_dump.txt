@@ -1,0 +1,780 @@
+==========================================================================================
+#0 | Luttik, Daan | 2026-06-09T22:08:00Z
+ANCHORED TO: 'Thesis'
+COMMENT: Double check frontpage guide
+==========================================================================================
+#1 | Luttik, Daan | 2026-06-09T22:08:00Z
+ANCHORED TO: 'Thesis'
+COMMENT: Double check frontpage guide
+==========================================================================================
+#4 | Luttik, Daan | 2026-06-13T19:10:00Z
+ANCHORED TO: 'Generative AI has become central to marketing, which together with sales is projected to capture roughly a third of AI’s economic value (Mayer et al., 2025). Yet most marketing AI still works as a question-and-answer tool (Brinker & Riemersma, 2025). A newer category, agentic AI, pursues goals autonomously across complex, multi-step tasks, promising to perform the work itself. How managers turn th'
+COMMENT: Rewrite
+==========================================================================================
+#6 | Daan Luttik | 2026-01-15T11:42:00Z
+ANCHORED TO: 'Introduction'
+COMMENT: Yasmina: Note the use of grounded theory very early in the document.
+==========================================================================================
+#7 | Beninger, Stefanie | 2026-06-13T14:01:00Z
+ANCHORED TO: 'innovations have led to agentic AI, a new category of GenAI which Acharya et al. (2025) define as “autonomous AI systems that undertake to finish a set of complex tasks that span over long periods of time without human supervision” (p. 18913). These systems are capable of acting in a goal-oriented manner within a changing environment (Acharya et al., 2025) and might therefore be better suited to t'
+COMMENT: Improvement in technologies? Sentence is a bit awkward
+==========================================================================================
+#8 | Stefanie B. | 2026-05-11T12:33:00Z
+ANCHORED TO: 'agentic'
+COMMENT: How does this relate to GenAI? The link with GenAI needs to be there to allow the reader to understand the landscape
+==========================================================================================
+#9 | Beninger, Stefanie | 2026-06-13T14:03:00Z
+ANCHORED TO: 'These technological developments might enable marketers to leverage agentic AI for this large amount of daily tasks not yet affected by AI, which in turn might unlock the large productivity gains mentioned by Mayer et al. (2025). However, the use of agentic AI in marketing remains largely empirically unexplored, and many researchers are calling for research on agentic AI within the marketing field'
+COMMENT: Can help to have a sentence to say why we should care about this gap - e.g. some sort of reference of spend in marketing or rate of adoption or whatever
+==========================================================================================
+#10 | Luttik, Daan | 2026-06-13T22:16:00Z
+ANCHORED TO: 'or for research related to the broader field of GenAI in marketing (Mogaji & Jain, 2024; Jain et al., 2024)'
+COMMENT: This is mainly about GenAI. So applicable but better when worded differently.
+==========================================================================================
+#11 | Stefanie B. | 2026-01-20T11:41:00Z
+ANCHORED TO: 'This study therefore explores the question “How do marketing managers create value with agentic AI?”  The question’s exploratory nature reflects the field, which is still emerging and in which academic understanding and practical guidance remain underdeveloped. To guide the research, the following sub-questions are used:'
+COMMENT: Suggested some changes here - just basically needed to add some more details around why you would focus on Agentic AI
+==========================================================================================
+#12 | Stefanie B. | 2026-05-11T12:33:00Z
+ANCHORED TO: 'This study therefore explores the question “How do marketing managers create value with agentic AI?”  The question’s exploratory nature reflects the field, which is still emerging and in which academic understanding and practical guidance remain underdeveloped. To guide the research, the following sub-questions are used:'
+COMMENT: is there much research done on this anyways? We may need to rethink once we have clarity on the findings
+==========================================================================================
+#13 | Luttik, Daan | 2026-06-07T16:03:00Z
+ANCHORED TO: 'This study therefore explores the question “How do marketing managers create value with agentic AI?”  The question’s exploratory nature reflects the field, which is still emerging and in which academic understanding and practical guidance remain underdeveloped. To guide the research, the following sub-questions are used:'
+COMMENT: Not a lot. But this is what I found most in the research...
+==========================================================================================
+#14 | Beninger, Stefanie | 2026-06-12T09:49:00Z
+ANCHORED TO: 'This study therefore explores the question “How do marketing managers create value with agentic AI?”  The question’s exploratory nature reflects the field, which is still emerging and in which academic understanding and practical guidance remain underdeveloped. To guide the research, the following sub-questions are used:'
+COMMENT: Yes, would be important to cite this here - can use the GBK studyreference 2025
+==========================================================================================
+#15 | Beninger, Stefanie | 2026-06-13T14:03:00Z
+ANCHORED TO: 'This study therefore explores the question “How do marketing managers create value with agentic AI?”  The question’s exploratory nature reflects the field, which is still emerging and in which academic understanding and practical guidance remain underdeveloped. To guide the research, the following sub-questions are used:'
+COMMENT: Check if needs to be sub-questions (with hyphen)
+==========================================================================================
+#16 | Beninger, Stefanie | 2026-06-12T11:41:00Z
+ANCHORED TO: 'AI'
+COMMENT: avoid italics here
+==========================================================================================
+#17 | Luttik, Daan | 2026-06-13T10:01:00Z
+ANCHORED TO: 'AI'
+COMMENT: Really? 
+==========================================================================================
+#18 | Beninger, Stefanie | 2026-06-13T14:02:00Z
+ANCHORED TO: 'AI'
+COMMENT: I would… it is uncommon to use italics in this way in marketing, but could differ by discipline 
+==========================================================================================
+#19 | Stefanie B. | 2026-01-20T11:38:00Z
+ANCHORED TO: 's identify and translate agentic'
+COMMENT: This needs to be simplified. Perhaps, just “What are the benefits of implementing Agentic AI” and “What are the drawbacks (including risks) of implementing Agentic AI?”
+==========================================================================================
+#20 | Luttik, Daan | 2026-06-13T10:06:00Z
+ANCHORED TO: 's identify and translate agentic'
+COMMENT: I tried something here 😉 1st question is about observing and translating the insight. 2nd one is about the reality of adoption (I wonder if you might prefer one this one focussing on the internal condition more explicitly, in my mind the  internal condition concept is a finding related to this), 3rd  one is about managing risk.
+==========================================================================================
+#21 | Stefanie B. | 2026-05-11T12:32:00Z
+ANCHORED TO: 'AI'
+COMMENT: Let’s revisit these now that data analysis is well underway
+==========================================================================================
+#22 | Luttik, Daan | 2026-06-07T22:29:00Z
+ANCHORED TO: 'AI'
+COMMENT: I feel like they still very much still apply. I also think that we cover more than just these research questions… But adding more than 3 was not allowed by Yasmina 😅
+==========================================================================================
+#23 | Beninger, Stefanie | 2026-06-12T11:40:00Z
+ANCHORED TO: 'AI'
+COMMENT: Yes, keep at 3!
+==========================================================================================
+#24 | Stefanie B. | 2026-05-11T12:35:00Z
+ANCHORED TO: 'This study deliberately focuses on agentic AI because of its ability to act autonomously. Within his call to research Kim (2025) notes the ability of agentic AI to integrate data, make decisions, and execute campaigns autonomously, which seems to align with the untapped potential that Brinker and Riemersma (2025) describe. This is where understanding is thinnest. '
+COMMENT: this seems to be repetition of what came above
+==========================================================================================
+#25 | Stefanie B. | 2026-05-11T12:35:00Z
+ANCHORED TO: 'This study deliberately focuses on agentic AI because of its ability to act autonomously. Within his call to research Kim (2025) notes the ability of agentic AI to integrate data, make decisions, and execute campaigns autonomously, which seems to align with the untapped potential that Brinker and Riemersma (2025) describe. This is where understanding is thinnest. '
+COMMENT: this needs to be cited.
+==========================================================================================
+#26 | Luttik, Daan | 2026-06-13T11:39:00Z
+ANCHORED TO: 'Existing accounts of digital transformation offer a useful starting point regarding how to adopt these new techniques, since the rollout of AI can be read as a new wave of such transformations like those described by Holmström (2022); but they were not written for technologies that act with this degree of autonomy and evolve this quickly, and so cannot be assumed to transfer wholesale.'
+COMMENT: Double check citations
+==========================================================================================
+#27 | Luttik, Daan | 2026-06-13T11:18:00Z
+ANCHORED TO: ', Appendix B provides a practical checklist that managers might apply to audit their organizational readiness and shape their agentic AI initiatives'
+COMMENT: Is this logical to note here? Or not in line with academical best practices.
+==========================================================================================
+#28 | Luttik, Daan | 2026-06-09T18:50:00Z
+ANCHORED TO: 'practical implications are derived'
+COMMENT: Move to conclusion based on the requirements from yasmina. https://nyenrode.instructure.com/courses/5700/files/799810?module_item_id=160357
+==========================================================================================
+#29 | Luttik, Daan | 2026-06-13T11:12:00Z
+ANCHORED TO: 'practical implications are derived'
+COMMENT: Current state was noted as logical by Stefanie
+==========================================================================================
+#32 | Stefanie B. | 2026-05-11T12:38:00Z
+ANCHORED TO: 'machines'
+COMMENT: citation potentially needed here
+==========================================================================================
+#33 | Stefanie B. | 2026-05-11T12:38:00Z
+ANCHORED TO: '.'
+COMMENT: perhaps describe this
+==========================================================================================
+#34 | Stefanie B. | 2026-05-11T12:39:00Z
+ANCHORED TO: 'qualification'
+COMMENT: Good
+==========================================================================================
+#35 | Stefanie B. | 2026-05-11T12:40:00Z
+ANCHORED TO: '2022'
+COMMENT: Might be good here to explain how it is used (e.g., above you mention that marketers define parameters, etc - how do marketers here engage/interact with ML?
+==========================================================================================
+#36 | Luttik, Daan | 2026-06-07T20:50:00Z
+ANCHORED TO: '2022'
+COMMENT: I think that Is exactly what I do in the sentence after...
+==========================================================================================
+#37 | Beninger, Stefanie | 2026-06-12T09:51:00Z
+ANCHORED TO: '2022'
+COMMENT: I more meant to explain even in one sentence how machine learning can be helpful or used in these - even one example of, say, how the A/B testing is helped by Machine Learning? For people who don't know what machine learning is, it can help to be very specific 
+==========================================================================================
+#38 | Stefanie B. | 2026-05-11T12:40:00Z
+ANCHORED TO: 'layers'
+COMMENT: citation needed
+==========================================================================================
+#39 | Stefanie B. | 2026-05-11T12:41:00Z
+ANCHORED TO: 'lexNet, '
+COMMENT: this would need explanations
+==========================================================================================
+#40 | Stefanie B. | 2026-05-11T12:42:00Z
+ANCHORED TO: 'chatbots'
+COMMENT: Great!
+==========================================================================================
+#41 | Stefanie B. | 2026-05-11T12:42:00Z
+ANCHORED TO: 'word2vec'
+COMMENT: this would need an explanation for the average reader
+==========================================================================================
+#42 | Luttik, Daan | 2026-06-07T20:52:00Z
+ANCHORED TO: 'word2vec'
+COMMENT: I again believe that is exactly what I do in the sentence after 🙈… I feel like I might be missing your primary point.
+==========================================================================================
+#43 | Beninger, Stefanie | 2026-06-12T09:54:00Z
+ANCHORED TO: 'word2vec'
+COMMENT: I understand that it is said AlexNet was use in image recognition, but for the average reader (likely your second reader), this is not enough - a simple add on could be to explain what it did (as "image recognition" leaves non-tech readers guessing and why it mattered) e.g., "AlexNet allowed for the easy classification of images, which meant xxx"
+==========================================================================================
+#44 | Luttik, Daan | 2026-06-13T10:44:00Z
+ANCHORED TO: 'word2vec'
+COMMENT: Aah, I missed your goal here. Word2vec was highlighted rather than AlexNet. I'll just go through all the techniques and give more body.
+==========================================================================================
+#45 | Stefanie B. | 2026-05-11T12:43:00Z
+ANCHORED TO: ' '
+COMMENT: spell out all acronyms the first time you use them
+==========================================================================================
+#46 | Stefanie B. | 2026-05-11T12:52:00Z
+ANCHORED TO: '2018'
+COMMENT: and would be good to define all these three things
+==========================================================================================
+#47 | Stefanie B. | 2026-05-11T12:44:00Z
+ANCHORED TO: '2018'
+COMMENT: Great - addresses my comment above. Can you move this definition up to when it first appears?
+==========================================================================================
+#48 | Stefanie B. | 2026-05-11T12:44:00Z
+ANCHORED TO: 'models'
+COMMENT: Good explanation! You are a strong writer
+==========================================================================================
+#49 | Stefanie B. | 2026-05-11T12:52:00Z
+ANCHORED TO: '2024'
+COMMENT: maybe add one sentence to connect directly to marketing
+==========================================================================================
+#50 | Stefanie B. | 2026-05-11T12:53:00Z
+ANCHORED TO: 'text '
+COMMENT: and other elements?
+==========================================================================================
+#51 | Stefanie B. | 2026-05-11T12:54:00Z
+ANCHORED TO: '2025'
+COMMENT: it can be good in a few places here to put specific company-specific illustrative examples (e.g., For example, (company name) uses GenAI for xxx“
+==========================================================================================
+#53 | Stefanie B. | 2026-05-11T12:54:00Z
+ANCHORED TO: '2020'
+COMMENT: I’d include one cited definition of RAG here before saying what it can be useful for businesses for
+==========================================================================================
+#54 | Stefanie B. | 2026-05-11T12:54:00Z
+ANCHORED TO: '2020'
+COMMENT: I’d include one cited definition of RAG here before saying what it can be useful for businesses for
+==========================================================================================
+#55 | Stefanie B. | 2026-05-11T13:00:00Z
+ANCHORED TO: ' ability to act was a vital next step in the development of agentic AI. A key conceptual step was the ReAct framework, introduced by Yao et al. (2023), which showed how LLMs could combine reasoning (Re) and acting (Act) in an iterative process, leveraging the results of an action to consider what a next step might be. The ability to consider actions and affect external systems enabled AI agents to'
+COMMENT: Good coverage here. It might be good to slow it down a bit - add a few sentences to explain what this all means, contextualize agentic systems, show how it differs more clearly and maybe with more illustrative examples
+==========================================================================================
+#56 | Stefanie B. | 2026-05-11T12:58:00Z
+ANCHORED TO: ' development of agentic AI. '
+COMMENT: this is the first time this term is used... can you avoid using it or define it or put it in the context of the development you are describing
+==========================================================================================
+#57 | Stefanie B. | 2026-05-11T13:00:00Z
+ANCHORED TO: 'ReAct'
+COMMENT: When was this introduced?
+==========================================================================================
+#58 | Stefanie B. | 2026-05-11T13:04:00Z
+ANCHORED TO: ' AI agents. '
+COMMENT: this is also the first time or near the first time this is introduced, so make sure to also provide a definition and contextualize it in this development. it might be needed to be moved up too if it fits better there to introduce AI agents
+==========================================================================================
+#59 | Stefanie B. | 2026-05-11T13:06:00Z
+ANCHORED TO: 'software'
+COMMENT: can you link usage to marketing?
+==========================================================================================
+#60 | Stefanie B. | 2026-05-11T13:06:00Z
+ANCHORED TO: 'calling'
+COMMENT: word use here?
+==========================================================================================
+#61 | Stefanie B. | 2026-05-11T13:06:00Z
+ANCHORED TO: ' '
+COMMENT: write our acronym here
+==========================================================================================
+#62 | Stefanie B. | 2026-05-11T13:07:00Z
+ANCHORED TO: '2025'
+COMMENT: the transition to Agentic AI is needed here... so explain how this before relates.
+==========================================================================================
+#64 | Luttik, Daan | 2026-06-09T19:10:00Z
+ANCHORED TO: 'On Agentic AI'
+COMMENT: Maybe note how Agentic AI ensures that one system can be applied to a wide range of problems. Focussing on goals rather that optimizing specific choices. This requires different managerial effort.
+==========================================================================================
+#65 | Beninger, Stefanie | 2026-06-12T09:55:00Z
+ANCHORED TO: 'On Agentic AI'
+COMMENT: This would be great.
+==========================================================================================
+#66 | Stefanie B. | 2026-05-11T13:07:00Z
+ANCHORED TO: 'interprets'
+COMMENT: I would then specify what definition you will use in the context of this paper and provide illustrative examples, including in marketing of what this can look like, and ideally a real-world example
+==========================================================================================
+#67 | Luttik, Daan | 2026-06-07T21:20:00Z
+ANCHORED TO: 'In this research, the definition from Moralles et al. (2026) is followed, which has been simplified in communications with interviewees to two key points: 1. The ability to act and 2. the ability to take steps in pursuit of an objective. '
+COMMENT: This is worded slightly different from Moralles (especially point 2) but it has the hart of the point and fits what I actually did communicate.
+==========================================================================================
+#68 | Luttik, Daan | 2026-06-11T19:46:00Z
+ANCHORED TO: ':'
+COMMENT: @Beninger, Stefanie Your comment regarding colons was a little surprising to me. Would you also advise against these? Or would you just advice against them before quotes?
+==========================================================================================
+#69 | Beninger, Stefanie | 2026-06-12T09:56:00Z
+ANCHORED TO: ':'
+COMMENT: Just before quotes. colons are great, just convention in qual research is to write it more like a book would write dialogue, so using the comma. 
+==========================================================================================
+#71 | Luttik, Daan | 2026-06-08T22:17:00Z
+ANCHORED TO: 'While Thapa et al. (2026) describe the potential of agentic AI for marketing campaign execution from a theoretical perspective, little academic research has examined how agentic AI is used within marketing in practice. '
+COMMENT: Would it be logical to bring in non-academic sources here? Like articles from McKinsey? I have those ready but not applied in the paper...
+==========================================================================================
+#72 | Beninger, Stefanie | 2026-06-12T09:57:00Z
+ANCHORED TO: 'While Thapa et al. (2026) describe the potential of agentic AI for marketing campaign execution from a theoretical perspective, little academic research has examined how agentic AI is used within marketing in practice. '
+COMMENT: It would be good to bring this in and specify where it is from a practicioners perspective. 
+==========================================================================================
+#73 | Stefanie B. | 2026-05-11T13:33:00Z
+ANCHORED TO: 'how marketing managers create value with agentic systems beyond content generation.'
+COMMENT: is there anything in terms of empirical work? It would be good to, throughout the lit review, signal where authors have theorized/guessed versus the actual empirical work (e.g., data collected). And then can specify this through “Authors suspect/theorize/suggest...” versus “Authors found ...”
+==========================================================================================
+#75 | Stefanie B. | 2026-05-11T15:00:00Z
+ANCHORED TO: 'Marketing'
+COMMENT: I would move this up, and then put GenAI value/Agentic AI value discussions after this... so this would become 2.3
+==========================================================================================
+#79 | Luttik, Daan | 2026-06-07T20:32:00Z
+ANCHORED TO: '2.4.Learnings from earlier waves of digital transformation'
+COMMENT: Im much happier with this now. It also actually reflects the points that I make in section 5.1.1.
+==========================================================================================
+#82 | Stefanie B. | 2026-05-11T15:10:00Z
+ANCHORED TO: ' '
+COMMENT: Let’s revisit this to make sure we aren’t introducing new concepts
+==========================================================================================
+#83 | Stefanie B. | 2026-05-11T15:10:00Z
+ANCHORED TO: ' The technical literature explains why agentic AI is different: it can combine LLM reasoning, memory, tool use, and interaction to pursue goals across workflows. The marketing literature explains why the context matters: marketing already contains many AI-relevant activities, but value depends on the connection between technology, customer knowledge, operations, and strategic decision-making. The '
+COMMENT: good summary
+==========================================================================================
+#86 | Stefanie B. | 2025-12-02T09:45:00Z
+ANCHORED TO: 'Methodology'
+COMMENT: Really great start here! Lots of good elements. I have given a number of comments below - some of which can only be addressed after the study is done, but at least you can look forward what is needed in the future. Please don’t get shocked at the number of comments - this is really great stuff, and just focused on making it complete and elevating it. Really great start!
+==========================================================================================
+#91 | Daan Luttik | 2026-05-03T19:25:00Z
+ANCHORED TO: 'Intended sample and sample size'
+COMMENT: This is now in Appendix B (will be maintained)
+==========================================================================================
+#92 | Daan Luttik | 2026-01-14T17:59:00Z
+ANCHORED TO: 'Intended sample and sample size'
+COMMENT: From Stefanie’s original comment: Here, you would eventually want to add more details: How many interviews, what their gender was, location was (and any other important details), the length of each interview, etc. This can be in table form as well.
+==========================================================================================
+#93 | Stefanie B. | 2026-05-11T15:12:00Z
+ANCHORED TO: 'sampling'
+COMMENT: okay, let’s discuss
+==========================================================================================
+#94 | Luttik, Daan | 2026-06-07T21:24:00Z
+ANCHORED TO: 'sampling'
+COMMENT: We still need to do so 🙈
+==========================================================================================
+#95 | Beninger, Stefanie | 2026-06-12T09:58:00Z
+ANCHORED TO: 'sampling'
+COMMENT: It's all good - keep as it is
+==========================================================================================
+#96 | Daan Luttik | 2026-05-03T19:33:00Z
+ANCHORED TO: 'sampling'
+COMMENT: As I understand it, theoretical sampling also implies that you follow where the insights lead you right? I.e. specifically targeting the gaps in the theory that you are creating with the grounded theory. That feels slightly dishonest. While I do specifically look for and target people that would fill the gap in my research nicely, the reality is that I am trying to include more than I could find targeting solely based on the gaps in my understanding.
+==========================================================================================
+#97 | Beninger, Stefanie | 2026-06-12T09:59:00Z
+ANCHORED TO: 'sampling'
+COMMENT: yes, that is sort of what theoretical sampling is - refine as you analyze data. keep as purposive sampling - that is fine
+==========================================================================================
+#98 | Stefanie B. | 2025-12-02T09:35:00Z
+ANCHORED TO: 'sampling'
+COMMENT: Can you describe how this was done? You might want to instead called it theoretical sampling - e.g., the focus on domain and technical experts.
+==========================================================================================
+#99 | Luttik, Daan | 2026-06-13T09:19:00Z
+ANCHORED TO: 'sampling'
+COMMENT: Yes, present below.
+==========================================================================================
+#100 | Luttik, Daan | 2026-06-09T21:47:00Z
+ANCHORED TO: ') and '
+COMMENT: So I tried snowball sampling, but did not get any leads through it… So is still something that I should keep or remove?
+==========================================================================================
+#101 | Beninger, Stefanie | 2026-06-12T10:00:00Z
+ANCHORED TO: ') and '
+COMMENT: if you did not get any people from it, you can leave it out. 
+==========================================================================================
+#102 | Stefanie B. | 2026-05-11T15:13:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: This can be put in future research in Section 5.
+==========================================================================================
+#103 | Daan Luttik | 2026-04-27T16:30:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: I did get some interesting comments about how privacy and security concerns differ internationally though.
+==========================================================================================
+#104 | Daan Luttik | 2026-04-27T16:29:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: Currently I’ve interviewed people who operate within teams based in the Netherlands, the UK, Germany and the US. I would have liked a more rounded international selection, but this is what I could reach (thus far). I think I should add a table noting the interviewees in a more specific way rather than including more specifications right? I did specify the general group I wanted to target in the section above.
+==========================================================================================
+#105 | Daan Luttik | 2026-01-14T17:53:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: Well, interesting question. Regarding Europe: Honestly, I think that the impact of the AI Act is relatively limited for marketing purposes. The GDPR can be highly impactful, but with its reach and the existence of legislation like the CCPA, I honestly don’t think it should differ a lot. However, the likelihood that the sample is all-european is obviously there (however, getting in touch with e.g. silicon valley marketing leaders, and comparing insights would be super interesting). My main thought about this is that finding a sufficient sample can be challenging, and I do not truly know what to expect from the snowball sampling and the insights from our interviewees. So I am mainly looking to keep my options open.So it is mainly a pragmatic choice rather than one based on academic rigor.
+==========================================================================================
+#106 | Stefanie B. | 2025-12-02T09:33:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: Let’s revisit - are you looking at just Europe or another context? It would seem that the European context would differ a lot then other contexts regarding, say, the AI Act, etc? Is there any time frame of expertise you would like for the experts (e.g., working with AI for x years)? Any other factors that might be relevant?
+==========================================================================================
+#107 | Luttik, Daan | 2026-06-07T21:26:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: This was accurate in the end. I did not really focus on geographical context or expertise. I did consider if I felt like people were close enough to the action that I thought they had something interesting to say though.
+==========================================================================================
+#108 | Luttik, Daan | 2026-06-07T21:26:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: Oh from my earlier answer: Regarding Europe: Honestly, I think that the impact of the AI Act is relatively limited for marketing purposes. The GDPR can be highly impactful, but with its reach and the existence of legislation like the CCPA, I honestly don’t think it should differ a lot. However, the likelihood that the sample is all-european is obviously there (however, getting in touch with e.g. silicon valley marketing leaders, and comparing insights would be super interesting). My main thought about this is that finding a sufficient sample can be challenging, and I do not truly know what to expect from the snowball sampling and the insights from our interviewees. So I am mainly looking to keep my options open.So it is mainly a pragmatic choice rather than one based on academic rigor.
+==========================================================================================
+#109 | Beninger, Stefanie | 2026-06-12T10:23:00Z
+ANCHORED TO: 'o further selection criteria are applied to potential participants.'
+COMMENT: You might have already added it, but specify the geography of the people and whatever other insights you have into the group to allow the reader to get to know them better
+==========================================================================================
+#112 | Daan Luttik | 2026-05-31T16:54:00Z
+ANCHORED TO: ' the limitations in Section 5.3'
+COMMENT: Don’t forget
+==========================================================================================
+#113 | Daan Luttik | 2026-05-31T16:53:00Z
+ANCHORED TO: 'sampling implications appears in Section 3.2'
+COMMENT: Double check quality
+==========================================================================================
+#115 | Luttik, Daan | 2026-06-12T19:26:00Z
+ANCHORED TO: 'Table 3Overview of code development '
+COMMENT: Needs to be updated.
+==========================================================================================
+#116 | Beninger, Stefanie | 2026-06-10T13:40:00Z
+ANCHORED TO: 'Table'
+COMMENT: this should go in the methodology section, near the end as part of data analysis. Consider including the definitions of at least the aggregated codes
+==========================================================================================
+#117 | Beninger, Stefanie | 2026-06-10T13:40:00Z
+ANCHORED TO: 'Table'
+COMMENT: we usually also call it "Open coding, focused coding, and theoretical coding" in pure grounded theory (different from my JBR article)
+==========================================================================================
+#118 | Beninger, Stefanie | 2026-06-10T13:41:00Z
+ANCHORED TO: 'code'
+COMMENT: consider to put in lines here, as it can be unclear which part belongs to what
+==========================================================================================
+#119 | Luttik, Daan | 2026-06-10T14:12:00Z
+ANCHORED TO: 'code'
+COMMENT: I want to do this. But as I understand it that is not allowed by the Nyenrode house style… But if you can back me up on that 😉 
+==========================================================================================
+#120 | Beninger, Stefanie | 2026-06-12T10:23:00Z
+ANCHORED TO: 'code'
+COMMENT: Whaaat ha that is wild. I woudl put in the lines, I will argue for it
+==========================================================================================
+#123 | Beninger, Stefanie | 2026-06-13T14:10:00Z
+ANCHORED TO: 'How managerial interventions drive value creation using agentic AI. '
+COMMENT: This is really improved - it is definitely the next iteration of data analysis and is synthesized into a coherent story.
+==========================================================================================
+#125 | Beninger, Stefanie | 2026-06-13T14:10:00Z
+ANCHORED TO: 'This observation process typically leads both marketing managers and AI experts to recognize the significant impact of agentic AI. As interviewee 7 noted, “We’re living in an era of change, and we’re living in a change of era simultaneously.” Interviewee 6 began incorporating AI across all parts of her organization, noting, “So I’m of course responsible for commercial, but … this is the future for'
+COMMENT: Keep consistent with capitalization throughout 
+==========================================================================================
+#127 | Beninger, Stefanie | 2026-06-10T13:48:00Z
+ANCHORED TO: '1'
+COMMENT: The comments in this section apply to the entire FIndings, so make sure to follow the guidance that I gave for 4.1.1. for each subsection/findings
+==========================================================================================
+#128 | Beninger, Stefanie | 2026-06-10T13:46:00Z
+ANCHORED TO: 'progression'
+COMMENT: I would avoid such small paragraphs of only 1-2 sentences. under here - try to build out one clear paragraph that has a focus - e.g. - (1) what is is (extend on this), (2) speed (extend on this - bring up the quote at the end of this sub-section about speed causing them to have to think about not being experts in everything), (3) abandoning old systems (give more examples/describe more) (4) blurring between types of AI. 
+==========================================================================================
+#129 | Beninger, Stefanie | 2026-06-10T13:47:00Z
+ANCHORED TO: ','
+COMMENT: avoid : and use commas , 
+==========================================================================================
+#130 | Beninger, Stefanie | 2026-06-10T13:47:00Z
+ANCHORED TO: 'agentic'
+COMMENT: block quotes need to be single spaced under APA
+==========================================================================================
+#131 | Luttik, Daan | 2026-06-10T15:04:00Z
+ANCHORED TO: 'agentic'
+COMMENT: This styling makes me a little sad, but I fixed it l😅
+==========================================================================================
+#132 | Luttik, Daan | 2026-06-12T23:39:00Z
+ANCHORED TO: ','
+COMMENT: Since we are not using colons.. Would you use a full-stop here ‘.’ or still a comma?
+==========================================================================================
+#133 | Beninger, Stefanie | 2026-06-13T14:12:00Z
+ANCHORED TO: ','
+COMMENT: Can use the comma or can do it like this...
+==========================================================================================
+#135 | Beninger, Stefanie | 2026-06-10T13:54:00Z
+ANCHORED TO: 'pressure'
+COMMENT: this section is good. deleted some spacing to make them longer, more cohesive paragraphs
+==========================================================================================
+#136 | Daan Luttik | 2026-06-01T18:21:00Z
+ANCHORED TO: '“to get to parity in the present with what they’re saying they can do”, '
+COMMENT: This also signals the gap between optics-and-reality
+==========================================================================================
+#137 | Beninger, Stefanie | 2026-06-10T13:49:00Z
+ANCHORED TO: 'Talk to your peers at conferences. I think this needs to happen more on the C-level, that they exchange ideas with their peers, because that’s actually where they will understand the quickest what the benefit is, and this makes it a lot better, right?'
+COMMENT: needs to be a block quote because +40 words
+==========================================================================================
+#138 | Beninger, Stefanie | 2026-06-10T13:50:00Z
+ANCHORED TO: 'ee 12 notes that “agents of consumers” '
+COMMENT: missing words here 
+==========================================================================================
+#139 | Luttik, Daan | 2026-06-11T19:50:00Z
+ANCHORED TO: ':'
+COMMENT: Potentially unwanted colon?
+==========================================================================================
+#140 | Luttik, Daan | 2026-06-12T09:56:00Z
+ANCHORED TO: ':'
+COMMENT: @Beninger, Stefanie, the “avoid :” comment was surprising to me (my spell checker doesn’t agree 😅). So now I’m reconsidering colons like these. I could remove all occurrences throughout the document but that might not be what you would prefer either.
+==========================================================================================
+#141 | Beninger, Stefanie | 2026-06-12T10:24:00Z
+ANCHORED TO: ':'
+COMMENT: keep them except for the quotes. it is also your writing style - so go with what is unique to you
+==========================================================================================
+#142 | Beninger, Stefanie | 2026-06-10T13:50:00Z
+ANCHORED TO: ' '
+COMMENT: spell out
+==========================================================================================
+#143 | Luttik, Daan | 2026-06-13T00:02:00Z
+ANCHORED TO: '.'
+COMMENT: I don’t do a lot of forward referencing. But here it feels very logical. If you disagree I’ll duplicate a quote.
+==========================================================================================
+#146 | Daan Luttik | 2026-06-01T18:23:00Z
+ANCHORED TO: '4.2'
+COMMENT: Not the name of the code. Rather the key purpose of this section.
+==========================================================================================
+#147 | Luttik, Daan | 2026-06-12T23:45:00Z
+ANCHORED TO: 'Navigating the organizational context describes how managers steer or move around conditions within the organization. The organizational context can be divided into three key scopes: (1) The marketing department, which the manager can steer to create alignment with AI initiatives; (2) Technical resources, which can be leveraged to implement AI initiatives. (3) The compliance framework: this bounds'
+COMMENT: @Beninger, Stefanie I do not use the exact working of the chapter where, but I feel like that is benefitial here. Do you agree? Or would you advice against doing that ever?
+==========================================================================================
+#148 | Beninger, Stefanie | 2026-06-13T14:14:00Z
+ANCHORED TO: 'Navigating the organizational context describes how managers steer or move around conditions within the organization. The organizational context can be divided into three key scopes: (1) The marketing department, which the manager can steer to create alignment with AI initiatives; (2) Technical resources, which can be leveraged to implement AI initiatives. (3) The compliance framework: this bounds'
+COMMENT: I think this works. 
+==========================================================================================
+#149 | Luttik, Daan | 2026-06-12T11:44:00Z
+ANCHORED TO: 'Navigating the organizational context describes how managers steer or move around conditions within the organization. The organizational context can be divided into three key scopes: (1) The marketing department, which the manager can steer to create alignment with AI initiatives; (2) Technical resources, which can be leveraged to implement AI initiatives. (3) The compliance framework: this bounds'
+COMMENT: Redo based on updated structure.
+==========================================================================================
+#150 | Luttik, Daan | 2026-06-12T11:34:00Z
+ANCHORED TO: 'Navigating the organizational context describes how managers steer or move around conditions within the organization. The organizational context can be divided into three key scopes: (1) The marketing department, which the manager can steer to create alignment with AI initiatives; (2) Technical resources, which can be leveraged to implement AI initiatives. (3) The compliance framework: this bounds'
+COMMENT: Redefine the chapter..
+==========================================================================================
+#152 | Luttik, Daan | 2026-06-12T15:33:00Z
+ANCHORED TO: 'bringing people along, stimulating experimentation, and setting direction. '
+COMMENT: Redefine after finishing.
+==========================================================================================
+#154 | Luttik, Daan | 2026-06-12T22:15:00Z
+ANCHORED TO: 'Leveraging technical resources'
+COMMENT: @Beninger, Stefanie This one is conflicting to me. It is very clear to me that people leverage these technical resources they frequently note is as a key tailwind for their initiatives, but never state explicitly that they use these resources, they only state explicitly that they need these resources… So it’s clear but also implicit.Wondering if you think my wording on this in the text is logical.
+==========================================================================================
+#155 | Beninger, Stefanie | 2026-06-13T14:16:00Z
+ANCHORED TO: 'Leveraging technical resources'
+COMMENT: I think it reads well - it is implied in the ‘need’ that they will leverage them eventually 
+==========================================================================================
+#157 | Beninger, Stefanie | 2026-06-13T14:17:00Z
+ANCHORED TO: 'The second scope of internal conditions concerns the technical resources on which successful implementation and use of agentic AI depends. Leveraging technical resources concerns managerial behaviors that use technical resources such as data, tooling, data infrastructure, and technical talent to implement agentic AI systems or improve their functionality. The use of these resources is typically de'
+COMMENT: Your second reader likely knows what the acronyms CMO and CTO are, but best to spell it out, unless it has been introduced before. 
+==========================================================================================
+#159 | Beninger, Stefanie | 2026-06-10T14:26:00Z
+ANCHORED TO: 'technical'
+COMMENT: I would suggest to further synthesize and reduce this section - it is related to capabilities around data and the technical - this can be moved upwards into the part talking about lack of capabilities (page 30) to avoid repetition and enhance coherence, depth, clarity
+==========================================================================================
+#162 | Luttik, Daan | 2026-06-12T11:03:00Z
+ANCHORED TO: 'Dealing with '
+COMMENT: Not the biggest fan of the wording. But it brings about the passive nature.
+==========================================================================================
+#163 | Luttik, Daan | 2026-06-12T16:10:00Z
+ANCHORED TO: ' Marketing managers seem to accept the compliance frameworks as they are; no attempts to alter or negotiate compliance policies were observed. However, they do note it as a significant barrier that they have to deal with. Interviewee 13 observed a pattern in large enterprises:'
+COMMENT: Compliance wording.
+==========================================================================================
+#164 | Luttik, Daan | 2026-06-12T16:10:00Z
+ANCHORED TO: ' Marketing managers seem to accept the compliance frameworks as they are; no attempts to alter or negotiate compliance policies were observed. However, they do note it as a significant barrier that they have to deal with. Interviewee 13 observed a pattern in large enterprises:'
+COMMENT: Ensure we have something in lit rev.
+==========================================================================================
+#165 | Luttik, Daan | 2026-06-12T11:11:00Z
+ANCHORED TO: 'Marketing managers seem to accept the compliance frameworks as they are; no attempts to alter or negotiate compliance policies were observed. However, they do note it as a significant barrier that they have to deal with. '
+COMMENT: Find a good example of moving around the barriers..
+==========================================================================================
+#166 | Beninger, Stefanie | 2026-06-13T14:21:00Z
+ANCHORED TO: 'Marketing teams sometimes work around the compliance policies, or ignore them altogether. Interviewee 15 noted, “If your company says it’s not allowed, well then I would still do it privately … not with your company’s data or insights, but think up your own things and go experiment with it” Interviewee 13 noted how shadow IT, i.e., software that is used without IT’s approval, is used to start usin'
+COMMENT: I would suggest to end on a sentence that links to applying agentic AI. (the next theme) this can help, even in a sentence, to show the connection. Connecting between the themes can help the reader follow along
+==========================================================================================
+#168 | Luttik, Daan | 2026-06-11T21:03:00Z
+ANCHORED TO: 'nterviewee 11 notes the ease with which you can scale output when using AI given the right circumstances “about a thousand web pages fully automated” for one client and judged it a success, “in that use case, it worked. Because it was very standardized.” Confronted with creative, brand-led work, the same operator using the same tools reached the opposite verdict: “once you have to have more creati'
+COMMENT: Rewrite
+==========================================================================================
+#169 | Beninger, Stefanie | 2026-06-10T14:37:00Z
+ANCHORED TO: 'used'
+COMMENT: avoid italics 
+==========================================================================================
+#170 | Beninger, Stefanie | 2026-06-13T14:23:00Z
+ANCHORED TO: '\xa0Likewise, interviewee 13 described how they automate processes using generic tools with agentic capabilities: “We used Make and n8n for, like, automating all the workflows. … You say, ‘I get this data from this tool. If this happens, do this.’ … And this substituted at least for two or three people.”'
+COMMENT: Jut because the word “notes” showed up a lot ☺️
+==========================================================================================
+#171 | Beninger, Stefanie | 2026-06-13T14:23:00Z
+ANCHORED TO: 'described'
+COMMENT: Jut because the word “notes” showed up a lot ☺️
+==========================================================================================
+#174 | Daan Luttik | 2026-05-25T16:35:00Z
+ANCHORED TO: 'utcomes'
+COMMENT: I considered using value creation. But this might be more concrete.
+==========================================================================================
+#175 | Beninger, Stefanie | 2026-06-10T14:43:00Z
+ANCHORED TO: 'utcomes'
+COMMENT: agreed
+==========================================================================================
+#176 | Beninger, Stefanie | 2026-06-13T14:25:00Z
+ANCHORED TO: "Applying agentic AI creates outcomes for the organization. These are analyzed from a value perspective. Woodside et al. (2008) note that value has a benefits and costs component.  Benefits concern features of the outcome that benefit the team, organization, or customer. To provide an even sharper overview of the marketing managers' experience, costs are also split into two categories: sacrifices a"
+COMMENT: Can be good to remind the reader the value =benefits-costs(risk) is from Woodside (just add a citation here)
+==========================================================================================
+#177 | Beninger, Stefanie | 2026-06-10T14:45:00Z
+ANCHORED TO: 'Benefits'
+COMMENT: can you provide a few more examples here?
+==========================================================================================
+#178 | Luttik, Daan | 2026-06-12T23:34:00Z
+ANCHORED TO: 'Benefits'
+COMMENT: I’ve added one or more per example for the entire value section.
+==========================================================================================
+#180 | Beninger, Stefanie | 2026-06-10T14:44:00Z
+ANCHORED TO: 'Efficiency'
+COMMENT: this needs to be defined - usually is the ratio between input and output
+==========================================================================================
+#181 | Beninger, Stefanie | 2026-06-10T14:44:00Z
+ANCHORED TO: 'Scal'
+COMMENT: definition needed
+==========================================================================================
+#182 | Beninger, Stefanie | 2026-06-10T14:45:00Z
+ANCHORED TO: 'Sacrifices'
+COMMENT: can you provide more quotes here to support?
+==========================================================================================
+#185 | Beninger, Stefanie | 2026-06-13T14:29:00Z
+ANCHORED TO: 'Taken together, the benefits, sacrifices, and risks above describe the value agentic AI can produce. Their realization, however, is highly uneven: the same use case proved transformative in one organization and stalled in another. Table 5 illustrates this divergence for the three most frequently reported use cases.'
+COMMENT: I like it and, more importantly, you feel it useful - to strengthen its placement, you can better integrated into the section though. Perhaps you can add a summary short paragraph here saying that while potential beenfits and costs/risks are evident, the realization of them can be highly divergent?
+==========================================================================================
+#186 | Luttik, Daan | 2026-06-11T21:04:00Z
+ANCHORED TO: 'Table 5Examples of comparable use cases with highly divergent outcomesUse caseWhere it created valueWhere it fell shortSelf-service analyticsData sources were connected directly to the agent; Reporting requests were answered in minutes (Interviewees 15, 4)The lack of integration or presence of data infrastructure yielded the need for manual workarounds (Interviewee 3)Content and campaignsContent c'
+COMMENT: Move to discussion or remove?
+==========================================================================================
+#187 | Luttik, Daan | 2026-06-12T23:33:00Z
+ANCHORED TO: 'Table 5Examples of comparable use cases with highly divergent outcomesUse caseWhere it created valueWhere it fell shortSelf-service analyticsData sources were connected directly to the agent; Reporting requests were answered in minutes (Interviewees 15, 4)The lack of integration or presence of data infrastructure yielded the need for manual workarounds (Interviewee 3)Content and campaignsContent c'
+COMMENT: @Beninger, Stefanie do you think tables like these are benefitial? They feel helpful to interpret the content efficiently, but to me it doesn’t feel academic-like.
+==========================================================================================
+#190 | Luttik, Daan | 2026-06-14T20:26:00Z
+ANCHORED TO: 'Discussion'
+COMMENT: Bring in the subquestions
+==========================================================================================
+#191 | Beninger, Stefanie | 2026-06-10T15:03:00Z
+ANCHORED TO: 'This study set out to understand how marketing managers create value with agentic AI.  GenAI has moved rapidly from a technical novelty to a consequential development in marketing, yet empirical research into its implications within organizations remains scarce; the existing literature concentrates on generative AI (e.g. Wahid et al., 2023; Grewal et al., 2025; Elgheit, 2025). Scholars have respon'
+COMMENT: not needed
+==========================================================================================
+#192 | Beninger, Stefanie | 2026-06-10T15:03:00Z
+ANCHORED TO: ' '
+COMMENT: maybe write this up in a more accessible way - as if you were speaking to an audience
+==========================================================================================
+#193 | Luttik, Daan | 2026-06-09T19:07:00Z
+ANCHORED TO: 'generative AI '
+COMMENT: Source?
+==========================================================================================
+#194 | Beninger, Stefanie | 2026-06-10T15:02:00Z
+ANCHORED TO: 'generative AI '
+COMMENT: Yes make sure to add a source
+==========================================================================================
+#195 | Stefanie B. | 2026-05-11T12:54:00Z
+ANCHORED TO: '2025'
+COMMENT: it can be good in a few places here to put specific company-specific illustrative examples (e.g., For example, (company name) uses GenAI for xxx“
+==========================================================================================
+#196 | Beninger, Stefanie | 2026-06-10T15:03:00Z
+ANCHORED TO: 'agentic'
+COMMENT: this paragraph can be moved up to the introduction of this section
+==========================================================================================
+#198 | Luttik, Daan | 2026-06-14T09:53:00Z
+ANCHORED TO: 'The principal theoretical contribution of this study is a model of managerial value creation with agentic AI (Figure 1). The model offers an interpretive account of how value is constructed; it shows the impact of the organizational context and highlights the value of the managerial work, which includes observing external conditions, including the rapid progression of AI and the accompanying marke'
+COMMENT: Tighten further
+==========================================================================================
+#200 | Luttik, Daan | 2026-06-14T09:55:00Z
+ANCHORED TO: 'In line with earlier work on digital transformation by Enholm et al. (2022), the crucial role of technical conditions is observed, data and infrastructure; the organizational context, including culture, management support, organizational readiness, and more; and efficiency is still observed as one of the main benefits of AI. However, key differences were also observed. Where Enholm et al. (2022) s'
+COMMENT: Divide over the other sections.
+==========================================================================================
+#201 | Beninger, Stefanie | 2026-06-10T15:07:00Z
+ANCHORED TO: 'digital leaders should become business leade'
+COMMENT: Cool! If it is then that you think the reverse - that business leaders need to become digital leaders? Then explicitly state that in a 'laymans' sentence. 
+==========================================================================================
+#202 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#203 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#204 | Beninger, Stefanie | 2026-06-10T15:07:00Z
+ANCHORED TO: 'conclusion'
+COMMENT: avoid using 'this' and 'it' with a subject... check the thesis for this
+==========================================================================================
+#206 | Beninger, Stefanie | 2026-06-10T15:07:00Z
+ANCHORED TO: 'paradox'
+COMMENT: no need to italizs
+==========================================================================================
+#209 | Beninger, Stefanie | 2026-06-10T15:12:00Z
+ANCHORED TO: 'transformation'
+COMMENT: cite the works here and list what it is that they signaled 
+==========================================================================================
+#210 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#211 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#212 | Beninger, Stefanie | 2026-06-10T15:12:00Z
+ANCHORED TO: 'behaviors'
+COMMENT: which ones?
+==========================================================================================
+#213 | Beninger, Stefanie | 2026-06-10T15:12:00Z
+ANCHORED TO: 'of digital transformation'
+COMMENT: are we still in the phase of digital transformation?
+==========================================================================================
+#214 | Beninger, Stefanie | 2026-06-13T14:04:00Z
+ANCHORED TO: 'The first sub-question this paper sought to answer was “How do marketing managers identify and translate agentic AI opportunities?”  The impetus for change comes from marketing managers who observe the changing landscape. The data shows two key external sources of inspiration that drive AI initiatives: the rapid progression of AI capability, including model releases and the roadmaps communicated b'
+COMMENT: I think it is good. For 1, you may get asked what is “value-seeking initiatives” as the word initiatives doesn’t show up again in the thesis. You could like remove “into value-seeking initiatives” and wouldn’t lose any meaning
+==========================================================================================
+#215 | Beninger, Stefanie | 2026-06-10T15:13:00Z
+ANCHORED TO: 'rketing managers who observe the changing landscape. The data shows two key external sources of inspiration that drive AI initiatives: the rapid progression of AI capability, including model releases and the roadmaps communicated by their software suppliers, and market pressure from competitors and, increasingly, from consumers who now have the ability to act through their own agents. '
+COMMENT: don't link to the sections, just spell out here. 
+==========================================================================================
+#216 | Beninger, Stefanie | 2026-06-10T15:16:00Z
+ANCHORED TO: 'Observing'
+COMMENT: I am not super convinced this is really different from scanning... It might be best to remove Teece
+==========================================================================================
+#217 | Beninger, Stefanie | 2026-06-10T15:18:00Z
+ANCHORED TO: 'criteria'
+COMMENT: remind us of the critera here. how did you expand on it? What did you give this model? What do we know differently now and why does it matter? For all the paragraphs that extend/expand/contribute to an existing theory/paper - clarify more on these sort of aspects
+==========================================================================================
+#218 | Beninger, Stefanie | 2026-06-10T15:19:00Z
+ANCHORED TO: '’s'
+COMMENT: if findings just align - but do not extend, enrich, etc. then best to leave it out
+==========================================================================================
+#219 | Beninger, Stefanie | 2026-06-10T15:20:00Z
+ANCHORED TO: 'These aspects of the organizational context seem to be able to prevent or accelerate the implementation of agentic AI, drive the resistance or enthusiasm that drives AI adoption, and bound the knowledge and access to data and systems needed to effectively use agentic AI.'
+COMMENT: I think we already know this from previous literature 
+==========================================================================================
+#220 | Luttik, Daan | 2026-06-14T11:31:00Z
+ANCHORED TO: 'This study adds to this idea by showing that marketers can be in control of these automations themselves, they use tools that do not require programming experience to automate their own processes.'
+COMMENT: Check if this is explicit enough in the findings.
+==========================================================================================
+#221 | Luttik, Daan | 2026-06-14T17:32:00Z
+ANCHORED TO: 'Brynjolfsson et al. (2025)'
+COMMENT: Ensure we also discuss the paper in chapter 2
+==========================================================================================
+#223 | Luttik, Daan | 2026-06-14T19:27:00Z
+ANCHORED TO: 'education'
+COMMENT: Add a specific suggestion?
+==========================================================================================
+#224 | Luttik, Daan | 2026-06-14T18:19:00Z
+ANCHORED TO: 'An interesting interplay arises between compliance and experimentation. '
+COMMENT: Note something regarding room for failure?
+==========================================================================================
+#225 | Beninger, Stefanie | 2026-06-10T15:07:00Z
+ANCHORED TO: 'should become business leade'
+COMMENT: Cool! If it is then that you think the reverse - that business leaders need to become digital leaders? Then explicitly state that in a 'laymans' sentence. 
+==========================================================================================
+#227 | Beninger, Stefanie | 2026-06-10T15:26:00Z
+ANCHORED TO: 'situation'
+COMMENT: maybe also say something here specific to agentic AI as it is different and can have wider implications?
+==========================================================================================
+#228 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#229 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#230 | Beninger, Stefanie | 2026-06-10T15:26:00Z
+ANCHORED TO: 'contexts'
+COMMENT: be specific here about what kind of contexts it could transfer to - what conditions would need to hold the same?
+==========================================================================================
+#231 | Beninger, Stefanie | 2026-06-10T15:27:00Z
+ANCHORED TO: 'To'
+COMMENT: make one paragraph
+==========================================================================================
+#232 | Beninger, Stefanie | 2026-06-10T15:27:00Z
+ANCHORED TO: 'reality'
+COMMENT: say a bit more about this here
+==========================================================================================
+#233 | Beninger, Stefanie | 2026-06-10T15:28:00Z
+ANCHORED TO: 'forthcoming'
+COMMENT: why not? be specific - could be social desirability bias (can be cited)
+==========================================================================================
+#234 | Beninger, Stefanie | 2026-06-10T15:28:00Z
+ANCHORED TO: 'organization'
+COMMENT: how can we do this?
+==========================================================================================
+#235 |  | None
+ANCHORED TO: ''
+COMMENT: 
+==========================================================================================
+#236 | Beninger, Stefanie | 2026-06-10T15:31:00Z
+ANCHORED TO: 'research'
+COMMENT: ensure you name a certain limitation here - what limitation of your study would these suggestions help to address?
+==========================================================================================
+#237 | Beninger, Stefanie | 2026-06-10T15:36:00Z
+ANCHORED TO: 'research'
+COMMENT: (hint: likely the more general interview questions owing to the emerging nature of agentic AI and exploratory nature of this study)
+==========================================================================================
+#238 | Beninger, Stefanie | 2026-06-10T15:29:00Z
+ANCHORED TO: 'depth'
+COMMENT: why these particular ones? Why are they most needed? (some of this had that included, others not)
+==========================================================================================
+#239 | Beninger, Stefanie | 2026-06-10T15:29:00Z
+ANCHORED TO: 'configurations'
+COMMENT: revisit once you have revised the findings 
+==========================================================================================
+#240 | Beninger, Stefanie | 2026-06-10T15:30:00Z
+ANCHORED TO: 'context'
+COMMENT: which elements? would this hold across industries?
+==========================================================================================
+#241 | Beninger, Stefanie | 2026-06-10T15:30:00Z
+ANCHORED TO: 'organization'
+COMMENT: updated after the findings are revised. 
+==========================================================================================
+#243 | Beninger, Stefanie | 2026-06-10T15:31:00Z
+ANCHORED TO: ' observing external conditions, navigating the organizational context, applying agentic AI, which together result in obtaining value outcomes. '
+COMMENT: update when figure is updated/finalized 
+==========================================================================================
+#244 | Beninger, Stefanie | 2026-06-10T15:33:00Z
+ANCHORED TO: 'Empirically'
+COMMENT: This should be brought way up to the start of the theoretical contribution part. 
+==========================================================================================
+#246 | Luttik, Daan | 2026-06-14T23:09:00Z
+ANCHORED TO: 'Anthropic. (2024, November 25). Introducing the Model Context Protocol. Anthropic. https://www.anthropic.com/news/model-context-protocolAnthropic. (2025, October 16). Equipping agents for the real world with Agent Skills. Anthropic Engineering.  https://www.anthropic.com/engineering/equipping-agents-for-the-real-world-with-agent-skills'
+COMMENT: Double check apa
+==========================================================================================
+#250 | Luttik, Daan | 2026-06-07T21:28:00Z
+ANCHORED TO: 'Appendix B. Putting the model to work: a manager’s checklist'
+COMMENT: Reconsider later.

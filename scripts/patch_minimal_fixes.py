@@ -165,7 +165,7 @@ OPS = [
     ("Interviewee 6 describes that they build", "they build  a", "they build a", "4.3.2 double space", "safe", None),
     ("utilizing generic agents for personal work, which", "work, which  refers", "work, which refers", "4.3.3 double space", "safe", None),
     ("only interviewee 7 describes an occurrence of job loss", "job loss ,“What", "job loss, “What", "4.4.2 space-before-comma", "safe", None),
-    ("translate agentic AI opportunities", "opportunities?”.", "opportunities?”", "5.1 stray period after ?”", "safe", None),
+    ("The first sub-question this paper sought to answer", "opportunities?”.", "opportunities?”", "5.1 stray period after ?”", "safe", None),
     ("successful implementation and use of agentic AI.In line", "agentic AI.In line", "agentic AI. In line", "5.1 missing space AI.In", "safe", None),
     # data suggest/show -> singular agreement (minimal: add 's')
     ("the most significant factor is not the agentic AI", "data suggest that, when", "data suggests that, when", "data suggests #1", "safe", None),
@@ -181,6 +181,7 @@ OPS = [
     ("The condition of the marketing team is important", "important, interviewees note", "important; interviewees note", "5.2 ; comma splice", "safe", None),
     ("We advice marketing managers to negotiate", "We advice marketing", "We advise marketing", "5.2 advice->advise", "safe", None),
     ("Acharya, D. B., Kuppan", "goals—A comprehensive", "goals, a comprehensive", "ref Acharya em-dash", "safe", None),
+    ("Vaid, S., Puntoni", "Need—Artificial", "Need: Artificial", "ref Vaid em-dash", "safe", None),
     ("Merriam, S. B. (1998)", 'from" Case', "from Case", "ref Merriam stray quote 1", "safe", None),
     ("Merriam, S. B. (1998)", 'Education.".', "Education.", "ref Merriam stray quote 2", "safe", None),
 
