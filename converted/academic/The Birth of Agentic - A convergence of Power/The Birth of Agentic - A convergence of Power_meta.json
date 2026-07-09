@@ -1,0 +1,731 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Book excerpt: The Birth of Agentic \nAI: A Convergence of Powers",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          93.125,
+          72.087646484375
+        ],
+        [
+          498.2313537597656,
+          72.087646484375
+        ],
+        [
+          498.2313537597656,
+          122.07965087890625
+        ],
+        [
+          93.125,
+          122.07965087890625
+        ]
+      ]
+    },
+    {
+      "title": "Jochen Wirtz",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          168.7890625,
+          152.2275390625
+        ],
+        [
+          239.60470581054688,
+          152.2275390625
+        ],
+        [
+          239.60470581054688,
+          164.75054931640625
+        ],
+        [
+          168.7890625,
+          164.75054931640625
+        ]
+      ]
+    },
+    {
+      "title": "Pascal Bornet",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          169.662109375,
+          307.0732421875
+        ],
+        [
+          244.744140625,
+          307.0732421875
+        ],
+        [
+          244.744140625,
+          318.67584228515625
+        ],
+        [
+          169.662109375,
+          318.67584228515625
+        ]
+      ]
+    },
+    {
+      "title": "INTRODUCTION",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          92.833984375,
+          152.2275390625
+        ],
+        [
+          175.3907928466797,
+          152.2275390625
+        ],
+        [
+          175.3907928466797,
+          163.75323486328125
+        ],
+        [
+          92.833984375,
+          163.75323486328125
+        ]
+      ]
+    },
+    {
+      "title": "A TALE OF TWO TECHNOLOGIES",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          92.54296875,
+          516.5263671875
+        ],
+        [
+          262.1523132324219,
+          516.5263671875
+        ],
+        [
+          262.1523132324219,
+          527.7532653808594
+        ],
+        [
+          92.54296875,
+          527.7532653808594
+        ]
+      ]
+    },
+    {
+      "title": "THE FIRST STREAM: THE PATH TO \nLARGE LANGUAGE MODELS (LLMs)",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          303.6377868652344,
+          374.2532653808594
+        ],
+        [
+          487.7421875,
+          374.2532653808594
+        ],
+        [
+          487.7421875,
+          397.7532653808594
+        ],
+        [
+          303.6377868652344,
+          397.7532653808594
+        ]
+      ]
+    },
+    {
+      "title": "The neural network revolution",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          93.125,
+          152.2275390625
+        ],
+        [
+          219.58529663085938,
+          152.2275390625
+        ],
+        [
+          219.58529663085938,
+          163.56048583984375
+        ],
+        [
+          93.125,
+          163.56048583984375
+        ]
+      ]
+    },
+    {
+      "title": "The emergence of language models",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          93.416015625,
+          426.0603942871094
+        ],
+        [
+          242.9687957763672,
+          426.0603942871094
+        ],
+        [
+          242.9687957763672,
+          436.5603942871094
+        ],
+        [
+          93.416015625,
+          436.5603942871094
+        ]
+      ]
+    },
+    {
+      "title": "THE SECOND STREAM: THE \nEVOLUTION OF AUTOMATION",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          303.6377868652344,
+          294.3564453125
+        ],
+        [
+          458.05859375,
+          294.3564453125
+        ],
+        [
+          458.05859375,
+          319.2503662109375
+        ],
+        [
+          303.6377868652344,
+          319.2503662109375
+        ]
+      ]
+    },
+    {
+      "title": "The rise of robotic process automation",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          302.65625,
+          426.0603942871094
+        ],
+        [
+          465.86279296875,
+          426.0603942871094
+        ],
+        [
+          465.86279296875,
+          436.5603942871094
+        ],
+        [
+          302.65625,
+          436.5603942871094
+        ]
+      ]
+    },
+    {
+      "title": "The evolution to intelligent automation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          93.125,
+          450.69824218749994
+        ],
+        [
+          255.32730102539062,
+          450.69824218749994
+        ],
+        [
+          255.32730102539062,
+          462.5603942871094
+        ],
+        [
+          93.125,
+          462.5603942871094
+        ]
+      ]
+    },
+    {
+      "title": "BIRTH OF THE FIRST LLM-BASED AI \nAGENTS",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          93.125,
+          73.6826171875
+        ],
+        [
+          282.6587829589844,
+          73.6826171875
+        ],
+        [
+          282.6587829589844,
+          98.10235595703125
+        ],
+        [
+          93.125,
+          98.10235595703125
+        ]
+      ]
+    },
+    {
+      "title": "THE BOOMING LANDSCAPE: TODAY'S \nAI AGENT MARKET",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          91.37890625,
+          191.1259765625
+        ],
+        [
+          292.21380615234375,
+          191.1259765625
+        ],
+        [
+          292.21380615234375,
+          215.25042724609375
+        ],
+        [
+          91.37890625,
+          215.25042724609375
+        ]
+      ]
+    },
+    {
+      "title": "NOTE",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          92.54296875,
+          74.4306640625
+        ],
+        [
+          122.71229553222656,
+          74.4306640625
+        ],
+        [
+          122.71229553222656,
+          85.10235595703125
+        ],
+        [
+          92.54296875,
+          85.10235595703125
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          92.833984375,
+          531.4873046875
+        ],
+        [
+          150.51629638671875,
+          531.4873046875
+        ],
+        [
+          150.51629638671875,
+          543.4739837646484
+        ],
+        [
+          92.833984375,
+          543.4739837646484
+        ]
+      ]
+    },
+    {
+      "title": "Wirtz and Bornet",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          45.107421875,
+          41.142578125
+        ],
+        [
+          123.53630065917969,
+          41.142578125
+        ],
+        [
+          123.53630065917969,
+          51.96881103515625
+        ],
+        [
+          45.107421875,
+          51.96881103515625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          45
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          182
+        ],
+        [
+          "Line",
+          85
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          190
+        ],
+        [
+          "Line",
+          92
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          201
+        ],
+        [
+          "Line",
+          97
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          237
+        ],
+        [
+          "Line",
+          105
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          239
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "ListItem",
+          3
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          261
+        ],
+        [
+          "Line",
+          94
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "PictureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          201
+        ],
+        [
+          "Line",
+          65
+        ],
+        [
+          "ListItem",
+          20
+        ],
+        [
+          "PageFooter",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\The Birth of Agentic - A convergence of Power"
+}

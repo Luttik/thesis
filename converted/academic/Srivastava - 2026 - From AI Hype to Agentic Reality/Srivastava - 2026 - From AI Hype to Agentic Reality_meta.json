@@ -1,0 +1,1893 @@
+{
+  "table_of_contents": [
+    {
+      "title": "From AI Hype to Agentic Reality:\nA Readiness Lens for Sustainable Enterprise Adoption",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          163.55078125,
+          172.05145263671875
+        ],
+        [
+          431.2493896484375,
+          172.05145263671875
+        ],
+        [
+          431.2493896484375,
+          198.69146728515625
+        ],
+        [
+          163.55078125,
+          198.69146728515625
+        ]
+      ]
+    },
+    {
+      "title": "Richa Srivastava*",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          249.93601989746094,
+          244.62237548828125
+        ],
+        [
+          345.239990234375,
+          244.62237548828125
+        ],
+        [
+          345.239990234375,
+          257.97149658203125
+        ],
+        [
+          249.93601989746094,
+          257.97149658203125
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          274.5112609863281,
+          283.4114990234375
+        ],
+        [
+          321.28125,
+          283.4114990234375
+        ],
+        [
+          321.28125,
+          295.4114990234375
+        ],
+        [
+          274.5112609863281,
+          295.4114990234375
+        ]
+      ]
+    },
+    {
+      "title": "Introduction",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          263.7388916015625,
+          103.41143798828125
+        ],
+        [
+          332.048828125,
+          103.41143798828125
+        ],
+        [
+          332.048828125,
+          115.41143798828125
+        ],
+        [
+          263.7388916015625,
+          115.41143798828125
+        ]
+      ]
+    },
+    {
+      "title": "Clarifying Organizational Readiness in the Context of AI Agents",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.0078125,
+          505.2822265625
+        ],
+        [
+          411.5842590332031,
+          505.2822265625
+        ],
+        [
+          411.5842590332031,
+          517.6514892578125
+        ],
+        [
+          71.0078125,
+          517.6514892578125
+        ]
+      ]
+    },
+    {
+      "title": "Methodological Positioning and Approach",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          72.0,
+          365.97149658203125
+        ],
+        [
+          298.40875244140625,
+          365.97149658203125
+        ],
+        [
+          298.40875244140625,
+          377.97149658203125
+        ],
+        [
+          72.0,
+          377.97149658203125
+        ]
+      ]
+    },
+    {
+      "title": "AI Agents as an Organizational Turning Point",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.84375,
+          73.5927734375
+        ],
+        [
+          309.640625,
+          73.5927734375
+        ],
+        [
+          309.640625,
+          86.1314697265625
+        ],
+        [
+          69.84375,
+          86.1314697265625
+        ]
+      ]
+    },
+    {
+      "title": "Adoption Is Not Readiness: The Enterprise AI Agent Rush",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          69.84375,
+          413.1884765625
+        ],
+        [
+          377.7117919921875,
+          413.1884765625
+        ],
+        [
+          377.7117919921875,
+          425.25146484375
+        ],
+        [
+          69.84375,
+          425.25146484375
+        ]
+      ]
+    },
+    {
+      "title": "Theoretical Foundations",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          230.775390625,
+          207.6220703125
+        ],
+        [
+          363.7673645019531,
+          207.6220703125
+        ],
+        [
+          363.7673645019531,
+          221.25146484375
+        ],
+        [
+          230.775390625,
+          221.25146484375
+        ]
+      ]
+    },
+    {
+      "title": "Socio-Technical Systems Theory",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          71.0078125,
+          353.011474609375
+        ],
+        [
+          247.9453125,
+          353.011474609375
+        ],
+        [
+          247.9453125,
+          365.011474609375
+        ],
+        [
+          71.0078125,
+          365.011474609375
+        ]
+      ]
+    },
+    {
+      "title": "Dynamic Capabilities",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          72.0,
+          570.2114868164062
+        ],
+        [
+          188.9591522216797,
+          570.2114868164062
+        ],
+        [
+          188.9591522216797,
+          582.2114868164062
+        ],
+        [
+          72.0,
+          582.2114868164062
+        ]
+      ]
+    },
+    {
+      "title": "Accountability Theory",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          70.134765625,
+          719.0712890625
+        ],
+        [
+          190.96803283691406,
+          719.0712890625
+        ],
+        [
+          190.96803283691406,
+          731.4915313720703
+        ],
+        [
+          70.134765625,
+          731.4915313720703
+        ]
+      ]
+    },
+    {
+      "title": "Organizational Readiness Debt",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.58984375,
+          205.1552734375
+        ],
+        [
+          240.37890625,
+          205.1552734375
+        ],
+        [
+          240.37890625,
+          217.8914794921875
+        ],
+        [
+          71.58984375,
+          217.8914794921875
+        ]
+      ]
+    },
+    {
+      "title": "Organizational Readiness in AI and Digital Transformation Literature Review",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          71.0078125,
+          442.531494140625
+        ],
+        [
+          480.7578125,
+          442.531494140625
+        ],
+        [
+          480.7578125,
+          454.531494140625
+        ],
+        [
+          71.0078125,
+          454.531494140625
+        ]
+      ]
+    },
+    {
+      "title": "Readiness in Digital Transformation Research: Beyond \"Digitization\"",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          71.0078125,
+          534.8837890625
+        ],
+        [
+          491.0188903808594,
+          534.8837890625
+        ],
+        [
+          491.0188903808594,
+          547.8914794921875
+        ],
+        [
+          71.0078125,
+          547.8914794921875
+        ]
+      ]
+    },
+    {
+      "title": "Organizational Readiness as a Multidimensional Idea in Information \nSystems Research",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.0078125,
+          205.8914794921875
+        ],
+        [
+          525.72314453125,
+          205.8914794921875
+        ],
+        [
+          525.72314453125,
+          232.531494140625
+        ],
+        [
+          71.0078125,
+          232.531494140625
+        ]
+      ]
+    },
+    {
+      "title": "AI Readiness and AI Capability: Resources, Routines, and Organizational \nBoundary-setting",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          71.0078125,
+          541.6514892578125
+        ],
+        [
+          525.7463989257812,
+          541.6514892578125
+        ],
+        [
+          525.7463989257812,
+          568.2914733886719
+        ],
+        [
+          71.0078125,
+          568.2914733886719
+        ]
+      ]
+    },
+    {
+      "title": "Responsible AI Maturity and Organizational Governance Readiness",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.0078125,
+          308.6114501953125
+        ],
+        [
+          480.7578125,
+          308.6114501953125
+        ],
+        [
+          480.7578125,
+          320.6114501953125
+        ],
+        [
+          71.0078125,
+          320.6114501953125
+        ]
+      ]
+    },
+    {
+      "title": "A Synthesis: Why \"Readiness\" Needs To Be Agent-Specific",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          71.0078125,
+          624.2115020751953
+        ],
+        [
+          427.4484558105469,
+          624.2115020751953
+        ],
+        [
+          427.4484558105469,
+          636.2115020751953
+        ],
+        [
+          71.0078125,
+          636.2115020751953
+        ]
+      ]
+    },
+    {
+      "title": "The Agentic Organizational Readiness Framework",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          162.38671875,
+          267.6474609375
+        ],
+        [
+          431.7610168457031,
+          267.6474609375
+        ],
+        [
+          431.7610168457031,
+          279.81146240234375
+        ],
+        [
+          162.38671875,
+          279.81146240234375
+        ]
+      ]
+    },
+    {
+      "title": "Strategic Readiness",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          71.298828125,
+          389.011474609375
+        ],
+        [
+          180.1656036376953,
+          389.011474609375
+        ],
+        [
+          180.1656036376953,
+          401.011474609375
+        ],
+        [
+          71.298828125,
+          401.011474609375
+        ]
+      ]
+    },
+    {
+      "title": "Governance and Accountability Readiness",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          72.0,
+          488.8369140625
+        ],
+        [
+          302.65625,
+          488.8369140625
+        ],
+        [
+          302.65625,
+          501.09149169921875
+        ],
+        [
+          72.0,
+          501.09149169921875
+        ]
+      ]
+    },
+    {
+      "title": "Risk and Assurance Readiness",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          72.0,
+          597.3759765625
+        ],
+        [
+          237.66717529296875,
+          597.3759765625
+        ],
+        [
+          237.66717529296875,
+          610.5315093994141
+        ],
+        [
+          72.0,
+          610.5315093994141
+        ]
+      ]
+    },
+    {
+      "title": "Workforce and Leadership Readiness",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          70.42578125,
+          703.8914947509766
+        ],
+        [
+          274.6007385253906,
+          703.8914947509766
+        ],
+        [
+          274.6007385253906,
+          715.8914947509766
+        ],
+        [
+          70.42578125,
+          715.8914947509766
+        ]
+      ]
+    },
+    {
+      "title": "Data, Architecture, and Boundary Readiness",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          72.0,
+          132.69146728515625
+        ],
+        [
+          315.0504455566406,
+          132.69146728515625
+        ],
+        [
+          315.0504455566406,
+          144.69146728515625
+        ],
+        [
+          72.0,
+          144.69146728515625
+        ]
+      ]
+    },
+    {
+      "title": "Ethical and Legitimacy Readiness",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          72.0,
+          235.17144775390625
+        ],
+        [
+          254.1866912841797,
+          235.17144775390625
+        ],
+        [
+          254.1866912841797,
+          247.17144775390625
+        ],
+        [
+          72.0,
+          247.17144775390625
+        ]
+      ]
+    },
+    {
+      "title": "Operationalizing The AORF for Practice",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          71.58984375,
+          73.5927734375
+        ],
+        [
+          281.6983642578125,
+          73.5927734375
+        ],
+        [
+          281.6983642578125,
+          86.1314697265625
+        ],
+        [
+          71.58984375,
+          86.1314697265625
+        ]
+      ]
+    },
+    {
+      "title": "Real-World Illustrations of Organizational Unreadiness in Complex Technology and \nTransformation Initiatives",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.0078125,
+          147.33148193359375
+        ],
+        [
+          525.7998657226562,
+          147.33148193359375
+        ],
+        [
+          525.7998657226562,
+          173.971435546875
+        ],
+        [
+          71.0078125,
+          173.971435546875
+        ]
+      ]
+    },
+    {
+      "title": "Queensland Health Payroll System: Governance and Accountability Breakdown",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          71.0078125,
+          323.5615234375
+        ],
+        [
+          501.7109375,
+          323.5615234375
+        ],
+        [
+          501.7109375,
+          336.45147705078125
+        ],
+        [
+          71.0078125,
+          336.45147705078125
+        ]
+      ]
+    },
+    {
+      "title": "Digital Transformation Failure as a Persistent Organizational Pattern",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          72.0,
+          694.5315093994141
+        ],
+        [
+          440.015625,
+          694.5315093994141
+        ],
+        [
+          440.015625,
+          706.5315093994141
+        ],
+        [
+          72.0,
+          706.5315093994141
+        ]
+      ]
+    },
+    {
+      "title": "Organizational Readiness and Leadership Misalignment in Transformation EVorts",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.0078125,
+          175.41143798828125
+        ],
+        [
+          511.1429443359375,
+          175.41143798828125
+        ],
+        [
+          511.1429443359375,
+          187.41143798828125
+        ],
+        [
+          71.0078125,
+          187.41143798828125
+        ]
+      ]
+    },
+    {
+      "title": "Implications for AI Agent Adoption",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.0078125,
+          341.6513671875
+        ],
+        [
+          257.67236328125,
+          341.6513671875
+        ],
+        [
+          257.67236328125,
+          353.9714660644531
+        ],
+        [
+          71.0078125,
+          353.9714660644531
+        ]
+      ]
+    },
+    {
+      "title": "Discussion: Why Organizational Readiness Determines Agentic Outcomes",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          71.0078125,
+          598.5315093994141
+        ],
+        [
+          473.7734375,
+          598.5315093994141
+        ],
+        [
+          473.7734375,
+          610.5315093994141
+        ],
+        [
+          71.0078125,
+          610.5315093994141
+        ]
+      ]
+    },
+    {
+      "title": "Organizational Readiness as an Outcome-Shaping Condition",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.0078125,
+          147.33148193359375
+        ],
+        [
+          399.8990478515625,
+          147.33148193359375
+        ],
+        [
+          399.8990478515625,
+          159.33148193359375
+        ],
+        [
+          71.0078125,
+          159.33148193359375
+        ]
+      ]
+    },
+    {
+      "title": "Speed, Scale, and the Amplification of Readiness Debt",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.58984375,
+          439.1714782714844
+        ],
+        [
+          368.42578125,
+          439.1714782714844
+        ],
+        [
+          368.42578125,
+          451.1714782714844
+        ],
+        [
+          71.58984375,
+          451.1714782714844
+        ]
+      ]
+    },
+    {
+      "title": "Readiness as a Governance Challenge Rather than an IT Problem",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          71.0078125,
+          679.6025390625
+        ],
+        [
+          422.5546875,
+          679.6025390625
+        ],
+        [
+          422.5546875,
+          692.1315155029297
+        ],
+        [
+          71.0078125,
+          692.1315155029297
+        ]
+      ]
+    },
+    {
+      "title": "Implications for Trust, Legitimacy, and Organizational Control",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.0078125,
+          235.17144775390625
+        ],
+        [
+          404.8961181640625,
+          235.17144775390625
+        ],
+        [
+          404.8961181640625,
+          247.17144775390625
+        ],
+        [
+          71.0078125,
+          247.17144775390625
+        ]
+      ]
+    },
+    {
+      "title": "Integrating Readiness into Agentic Transformation Strategies",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          71.0078125,
+          439.1714782714844
+        ],
+        [
+          400.4920959472656,
+          439.1714782714844
+        ],
+        [
+          400.4920959472656,
+          451.1714782714844
+        ],
+        [
+          71.0078125,
+          451.1714782714844
+        ]
+      ]
+    },
+    {
+      "title": "Reframing Success and Failure in AI Agent Adoption",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          72.0,
+          650.8514862060547
+        ],
+        [
+          351.66119384765625,
+          650.8514862060547
+        ],
+        [
+          351.66119384765625,
+          662.8514862060547
+        ],
+        [
+          72.0,
+          662.8514862060547
+        ]
+      ]
+    },
+    {
+      "title": "Propositions for Future Research and Practice",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          71.58984375,
+          147.33148193359375
+        ],
+        [
+          321.26153564453125,
+          147.33148193359375
+        ],
+        [
+          321.26153564453125,
+          159.33148193359375
+        ],
+        [
+          71.58984375,
+          159.33148193359375
+        ]
+      ]
+    },
+    {
+      "title": "Senior Leadership and Governance Implications",
+      "heading_level": null,
+      "page_id": 18,
+      "polygon": [
+        [
+          71.58984375,
+          409.48828125
+        ],
+        [
+          333.50390625,
+          409.48828125
+        ],
+        [
+          333.50390625,
+          421.8914794921875
+        ],
+        [
+          71.58984375,
+          421.8914794921875
+        ]
+      ]
+    },
+    {
+      "title": "DBA Research Implications",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          71.0078125,
+          73.5927734375
+        ],
+        [
+          220.03135681152344,
+          73.5927734375
+        ],
+        [
+          220.03135681152344,
+          86.1314697265625
+        ],
+        [
+          71.0078125,
+          86.1314697265625
+        ]
+      ]
+    },
+    {
+      "title": "Conclusion",
+      "heading_level": null,
+      "page_id": 19,
+      "polygon": [
+        [
+          265.98828125,
+          365.4970703125
+        ],
+        [
+          328.9099426269531,
+          365.4970703125
+        ],
+        [
+          328.9099426269531,
+          377.97149658203125
+        ],
+        [
+          265.98828125,
+          377.97149658203125
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 20,
+      "polygon": [
+        [
+          265.98828125,
+          73.5927734375
+        ],
+        [
+          328.7196044921875,
+          73.5927734375
+        ],
+        [
+          328.7196044921875,
+          86.1314697265625
+        ],
+        [
+          265.98828125,
+          86.1314697265625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          114
+        ],
+        [
+          "Line",
+          32
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Footnote",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          124
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          164
+        ],
+        [
+          "TableCell",
+          88
+        ],
+        [
+          "Line",
+          79
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          155
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          113
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          131
+        ],
+        [
+          "Line",
+          36
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          273
+        ],
+        [
+          "Line",
+          137
+        ],
+        [
+          "TableCell",
+          30
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          226
+        ],
+        [
+          "Line",
+          92
+        ],
+        [
+          "TableCell",
+          10
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          160
+        ],
+        [
+          "Line",
+          43
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          103
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          167
+        ],
+        [
+          "TableCell",
+          81
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          81
+        ],
+        [
+          "Line",
+          37
+        ],
+        [
+          "TableCell",
+          15
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          128
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          119
+        ],
+        [
+          "Line",
+          39
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          143
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          160
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          41
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "ListItem",
+          4
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          146
+        ],
+        [
+          "Line",
+          38
+        ],
+        [
+          "Text",
+          7
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          115
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          13
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 21,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          127
+        ],
+        [
+          "Line",
+          47
+        ],
+        [
+          "ListItem",
+          16
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 22,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          4
+        ],
+        [
+          "Span",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Text",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Srivastava - 2026 - From AI Hype to Agentic Reality"
+}

@@ -1,0 +1,760 @@
+{
+  "table_of_contents": [
+    {
+      "title": "In This Special Issue: When Attention Is All Marketers Need\u2014Artificial Intelligence in Marketing",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          114.75,
+          60.0
+        ],
+        [
+          496.0546875,
+          60.0
+        ],
+        [
+          496.0546875,
+          139.21875
+        ],
+        [
+          114.75,
+          139.21875
+        ]
+      ]
+    },
+    {
+      "title": "I. Introduction",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          134.25,
+          169.5
+        ],
+        [
+          213.75,
+          169.5
+        ],
+        [
+          213.75,
+          177.890625
+        ],
+        [
+          134.25,
+          177.890625
+        ]
+      ]
+    },
+    {
+      "title": "II. AI IN CONSUMER-FOCUSED LITERATURE",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          76.5,
+          425.77734375
+        ],
+        [
+          271.5,
+          425.77734375
+        ],
+        [
+          271.5,
+          435.0
+        ],
+        [
+          76.5,
+          435.0
+        ]
+      ]
+    },
+    {
+      "title": "III. MARKETING RESEARCH: SIMULATING CUSTOMERS\nFOR MARKETING INSIGHTS",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          315.5625,
+          325.5
+        ],
+        [
+          557.25,
+          325.5
+        ],
+        [
+          557.25,
+          345.0
+        ],
+        [
+          315.5625,
+          345.0
+        ]
+      ]
+    },
+    {
+      "title": "IV. MARKETING STRATEGY: AI FOR SEGMENTATION,\nTARGETING, AND POSITIONING",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          57.97265625,
+          140.765625
+        ],
+        [
+          289.20416259765625,
+          140.765625
+        ],
+        [
+          289.20416259765625,
+          163.0072021484375
+        ],
+        [
+          57.97265625,
+          163.0072021484375
+        ]
+      ]
+    },
+    {
+      "title": "A. Case 1: Proctor & Gamble",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          46.6171875,
+          347.2189636230469
+        ],
+        [
+          174.52105712890625,
+          347.2189636230469
+        ],
+        [
+          174.52105712890625,
+          357.1815490722656
+        ],
+        [
+          46.6171875,
+          357.1815490722656
+        ]
+      ]
+    },
+    {
+      "title": "B. Case 2: JPMorgan Chase",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.41015625,
+          517.5813293457031
+        ],
+        [
+          168.35122680664062,
+          517.5813293457031
+        ],
+        [
+          168.35122680664062,
+          527.5439147949219
+        ],
+        [
+          48.41015625,
+          527.5439147949219
+        ]
+      ]
+    },
+    {
+      "title": "C. Case 3: Allen & Overy",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          48.96140670776367,
+          710.015625
+        ],
+        [
+          158.3696746826172,
+          710.015625
+        ],
+        [
+          158.3696746826172,
+          721.810546875
+        ],
+        [
+          48.96140670776367,
+          721.810546875
+        ]
+      ]
+    },
+    {
+      "title": "D. On the Limits of Futurecasting When Using LLMs",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          309.5859375,
+          226.10443115234375
+        ],
+        [
+          533.3341064453125,
+          226.10443115234375
+        ],
+        [
+          533.3341064453125,
+          236.0670166015625
+        ],
+        [
+          309.5859375,
+          236.0670166015625
+        ]
+      ]
+    },
+    {
+      "title": "V. CHALLENGES OF AI: PRACTICALITY,\nCLAIMS AND ETHICS",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          350.82421875,
+          611.40234375
+        ],
+        [
+          524.14453125,
+          611.40234375
+        ],
+        [
+          524.14453125,
+          635.0841674804688
+        ],
+        [
+          350.82421875,
+          635.0841674804688
+        ]
+      ]
+    },
+    {
+      "title": "A. The Practicality of AI Solutions",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          310.482421875,
+          639.24609375
+        ],
+        [
+          455.5459899902344,
+          639.24609375
+        ],
+        [
+          455.5459899902344,
+          650.0760955810547
+        ],
+        [
+          310.482421875,
+          650.0760955810547
+        ]
+      ]
+    },
+    {
+      "title": "B. AI Claims, Ambiguity and Confusion",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          47.8125,
+          263.528076171875
+        ],
+        [
+          213.46044921875,
+          263.528076171875
+        ],
+        [
+          213.46044921875,
+          273.49066162109375
+        ],
+        [
+          47.8125,
+          273.49066162109375
+        ]
+      ]
+    },
+    {
+      "title": "C. AI Ethics and the Attention Economy",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          48.41015625,
+          628.1660003662109
+        ],
+        [
+          215.52169799804688,
+          628.1660003662109
+        ],
+        [
+          215.52169799804688,
+          638.47265625
+        ],
+        [
+          48.41015625,
+          638.47265625
+        ]
+      ]
+    },
+    {
+      "title": "D. AI, Trust and Behavioral Engineering",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          309.5859375,
+          185.83050537109375
+        ],
+        [
+          481.2829284667969,
+          185.83050537109375
+        ],
+        [
+          481.2829284667969,
+          195.7930908203125
+        ],
+        [
+          309.5859375,
+          195.7930908203125
+        ]
+      ]
+    },
+    {
+      "title": "VI. CONCLUSION",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          135.0703125,
+          274.95703125
+        ],
+        [
+          212.8666534423828,
+          274.95703125
+        ],
+        [
+          212.8666534423828,
+          285.5436706542969
+        ],
+        [
+          135.0703125,
+          285.5436706542969
+        ]
+      ]
+    },
+    {
+      "title": "WHERE ARE WE HEADED?",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          117.140625,
+          710.40234375
+        ],
+        [
+          230.81410217285156,
+          710.40234375
+        ],
+        [
+          230.81410217285156,
+          721.9105529785156
+        ],
+        [
+          117.140625,
+          721.9105529785156
+        ]
+      ]
+    },
+    {
+      "title": "IN THIS SPECIAL ISSUE",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          387.28125,
+          364.2890625
+        ],
+        [
+          487.6875,
+          364.2890625
+        ],
+        [
+          487.6875,
+          375.21539306640625
+        ],
+        [
+          387.28125,
+          375.21539306640625
+        ]
+      ]
+    },
+    {
+      "title": "APPENDIX: RELATED ARTICLES",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          369.650390625,
+          506.21343994140625
+        ],
+        [
+          505.4257507324219,
+          506.21343994140625
+        ],
+        [
+          505.4257507324219,
+          516.1895141601562
+        ],
+        [
+          369.650390625,
+          516.1895141601562
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          146.60101318359375,
+          105.1875
+        ],
+        [
+          202.47311401367188,
+          105.1875
+        ],
+        [
+          202.47311401367188,
+          115.90997314453125
+        ],
+        [
+          146.60101318359375,
+          115.90997314453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "surya",
+      "block_counts": [
+        [
+          "Line",
+          105
+        ],
+        [
+          "Span",
+          69
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "Reference",
+          6
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "PageFooter",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          270
+        ],
+        [
+          "Line",
+          109
+        ],
+        [
+          "Reference",
+          13
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          280
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "Reference",
+          14
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          272
+        ],
+        [
+          "Line",
+          114
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "Reference",
+          9
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          298
+        ],
+        [
+          "Line",
+          121
+        ],
+        [
+          "Reference",
+          13
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "ListItem",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          461
+        ],
+        [
+          "Line",
+          149
+        ],
+        [
+          "Reference",
+          46
+        ],
+        [
+          "ListItem",
+          44
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          152
+        ],
+        [
+          "Line",
+          56
+        ],
+        [
+          "Text",
+          12
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          112
+        ],
+        [
+          "Line",
+          40
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          2
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Vaid et. al. 2025 When attention is all you need - AI in marketing"
+}

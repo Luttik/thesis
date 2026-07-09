@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "qdrant",
+      "runtimeExecutable": "docker",
+      "runtimeArgs": ["compose", "up", "qdrant"],
+      "port": 6333
+    }
+  ]
+}

@@ -1,0 +1,1598 @@
+{
+  "table_of_contents": [
+    {
+      "title": "Journal of Advertising",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          127.744140625,
+          42.7587890625
+        ],
+        [
+          284.013671875,
+          42.7587890625
+        ],
+        [
+          284.013671875,
+          60.43255615234375
+        ],
+        [
+          127.744140625,
+          60.43255615234375
+        ]
+      ]
+    },
+    {
+      "title": "Understanding Customer Responses to AI-Driven\nPersonalized Journeys: Impacts on the Customer\nExperience",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          97.0999984741211,
+          171.849609375
+        ],
+        [
+          527.5339965820312,
+          171.849609375
+        ],
+        [
+          527.5339965820312,
+          234.8612060546875
+        ],
+        [
+          97.0999984741211,
+          234.8612060546875
+        ]
+      ]
+    },
+    {
+      "title": "Understanding Customer Responses to AI-Driven Personalized Journeys: \nImpacts on the Customer Experience",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          58.5703125,
+          103.25390625
+        ],
+        [
+          510.6894226074219,
+          103.25390625
+        ],
+        [
+          510.6894226074219,
+          133.32562255859375
+        ],
+        [
+          58.5703125,
+          133.32562255859375
+        ]
+      ]
+    },
+    {
+      "title": "ABSTRACT",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          71.419921875,
+          208.828125
+        ],
+        [
+          110.07189178466797,
+          208.828125
+        ],
+        [
+          110.07189178466797,
+          216.96795654296875
+        ],
+        [
+          71.419921875,
+          216.96795654296875
+        ]
+      ]
+    },
+    {
+      "title": "Theoretical Background",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          313.171875,
+          162.421875
+        ],
+        [
+          433.8684997558594,
+          162.421875
+        ],
+        [
+          433.8684997558594,
+          174.18902587890625
+        ],
+        [
+          313.171875,
+          174.18902587890625
+        ]
+      ]
+    },
+    {
+      "title": "The Customer Journey",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          313.171875,
+          181.37109375
+        ],
+        [
+          418.6640625,
+          181.37109375
+        ],
+        [
+          418.6640625,
+          193.0570068359375
+        ],
+        [
+          313.171875,
+          193.0570068359375
+        ]
+      ]
+    },
+    {
+      "title": "Customer Journey Linearity vs. Nonlinearity",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          313.76953125,
+          614.49609375
+        ],
+        [
+          518.7437133789062,
+          614.49609375
+        ],
+        [
+          518.7437133789062,
+          625.335693359375
+        ],
+        [
+          313.76953125,
+          625.335693359375
+        ]
+      ]
+    },
+    {
+      "title": "Role of Customer Autonomy vs. Algorithmic \nMediation",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          59.16796875,
+          51.046875
+        ],
+        [
+          265.7391052246094,
+          51.046875
+        ],
+        [
+          265.7391052246094,
+          75.98553466796875
+        ],
+        [
+          59.16796875,
+          75.98553466796875
+        ]
+      ]
+    },
+    {
+      "title": "Personalization vs. Privacy",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          58.5703125,
+          358.48828125
+        ],
+        [
+          179.3492889404297,
+          358.48828125
+        ],
+        [
+          179.3492889404297,
+          369.76507568359375
+        ],
+        [
+          58.5703125,
+          369.76507568359375
+        ]
+      ]
+    },
+    {
+      "title": "Personalized Advertising and Algorithmic \nRecommendation Systems",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          312.57421875,
+          189.4921875
+        ],
+        [
+          509.0062255859375,
+          189.4921875
+        ],
+        [
+          509.0062255859375,
+          214.4281005859375
+        ],
+        [
+          312.57421875,
+          214.4281005859375
+        ]
+      ]
+    },
+    {
+      "title": "Impact of Evolving AI Data-Driven Strategies on \nCustomer Journeys",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          57.97265625,
+          269.54296875
+        ],
+        [
+          286.2330017089844,
+          269.54296875
+        ],
+        [
+          286.2330017089844,
+          294.08056640625
+        ],
+        [
+          57.97265625,
+          294.08056640625
+        ]
+      ]
+    },
+    {
+      "title": "Touchpoint Transformation",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          58.5703125,
+          574.0158081054688
+        ],
+        [
+          186.6824951171875,
+          574.0158081054688
+        ],
+        [
+          186.6824951171875,
+          584.5158081054688
+        ],
+        [
+          58.5703125,
+          584.5158081054688
+        ]
+      ]
+    },
+    {
+      "title": "Frustration Points",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          313.76953125,
+          269.9296875
+        ],
+        [
+          398.63671875,
+          269.9296875
+        ],
+        [
+          398.63671875,
+          280.5313720703125
+        ],
+        [
+          313.76953125,
+          280.5313720703125
+        ]
+      ]
+    },
+    {
+      "title": "Methodology",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          59.466796875,
+          388.65234375
+        ],
+        [
+          126.2186050415039,
+          388.65234375
+        ],
+        [
+          126.2186050415039,
+          400.39404296875
+        ],
+        [
+          59.466796875,
+          400.39404296875
+        ]
+      ]
+    },
+    {
+      "title": "Accessing Customer Journeys",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          56.77734375,
+          613.8165740966797
+        ],
+        [
+          195.3523406982422,
+          613.8165740966797
+        ],
+        [
+          195.3523406982422,
+          624.3165740966797
+        ],
+        [
+          56.77734375,
+          624.3165740966797
+        ]
+      ]
+    },
+    {
+      "title": "Sample and Interview Strategy",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          312.57421875,
+          271.05560302734375
+        ],
+        [
+          458.3406066894531,
+          271.05560302734375
+        ],
+        [
+          458.3406066894531,
+          281.91796875
+        ],
+        [
+          312.57421875,
+          281.91796875
+        ]
+      ]
+    },
+    {
+      "title": "Interview Structure and Conduct",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          313.470703125,
+          441.24609375
+        ],
+        [
+          465.873046875,
+          441.24609375
+        ],
+        [
+          465.873046875,
+          452.8221740722656
+        ],
+        [
+          313.470703125,
+          452.8221740722656
+        ]
+      ]
+    },
+    {
+      "title": "Analysis",
+      "heading_level": null,
+      "page_id": 6,
+      "polygon": [
+        [
+          312.57421875,
+          586.265625
+        ],
+        [
+          352.72003173828125,
+          586.265625
+        ],
+        [
+          352.72003173828125,
+          597.4449615478516
+        ],
+        [
+          312.57421875,
+          597.4449615478516
+        ]
+      ]
+    },
+    {
+      "title": "Findings",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          58.869140625,
+          651.5419311523438
+        ],
+        [
+          102.29338073730469,
+          651.5419311523438
+        ],
+        [
+          102.29338073730469,
+          662.5420379638672
+        ],
+        [
+          58.869140625,
+          662.5420379638672
+        ]
+      ]
+    },
+    {
+      "title": "Discovery in AI-Driven Customer Journeys",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          59.16796875,
+          51.046875
+        ],
+        [
+          254.42640686035156,
+          51.046875
+        ],
+        [
+          254.42640686035156,
+          62.88995361328125
+        ],
+        [
+          59.16796875,
+          62.88995361328125
+        ]
+      ]
+    },
+    {
+      "title": "Value-Adding Factors during Consideration",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          313.171875,
+          400.640625
+        ],
+        [
+          515.6710815429688,
+          400.640625
+        ],
+        [
+          515.6710815429688,
+          411.265625
+        ],
+        [
+          313.171875,
+          411.265625
+        ]
+      ]
+    },
+    {
+      "title": "AI or Peer Recommendations Driving Conversion",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          313.76953125,
+          490.74609375
+        ],
+        [
+          534.34326171875,
+          490.74609375
+        ],
+        [
+          534.34326171875,
+          501.7474670410156
+        ],
+        [
+          313.76953125,
+          501.7474670410156
+        ]
+      ]
+    },
+    {
+      "title": "Loyalty Despite Perceived Surveillance",
+      "heading_level": null,
+      "page_id": 11,
+      "polygon": [
+        [
+          57.97265625,
+          123.36328125
+        ],
+        [
+          238.46484375,
+          123.36328125
+        ],
+        [
+          238.46484375,
+          135.2281494140625
+        ],
+        [
+          57.97265625,
+          135.2281494140625
+        ]
+      ]
+    },
+    {
+      "title": "Advocacy and Fostering Customer Engagement",
+      "heading_level": null,
+      "page_id": 12,
+      "polygon": [
+        [
+          58.5703125,
+          230.09765625
+        ],
+        [
+          279.5807800292969,
+          230.09765625
+        ],
+        [
+          279.5807800292969,
+          241.98046875
+        ],
+        [
+          58.5703125,
+          241.98046875
+        ]
+      ]
+    },
+    {
+      "title": "Discussion",
+      "heading_level": null,
+      "page_id": 13,
+      "polygon": [
+        [
+          59.765625,
+          254.07421875
+        ],
+        [
+          111.9844741821289,
+          254.07421875
+        ],
+        [
+          111.9844741821289,
+          265.91900634765625
+        ],
+        [
+          59.765625,
+          265.91900634765625
+        ]
+      ]
+    },
+    {
+      "title": "Managing Concerns about Dataveillance and \nCustomer Relationships",
+      "heading_level": null,
+      "page_id": 14,
+      "polygon": [
+        [
+          57.97265625,
+          665.9296875
+        ],
+        [
+          286.9212646484375,
+          665.9296875
+        ],
+        [
+          286.9212646484375,
+          690.8310470581055
+        ],
+        [
+          57.97265625,
+          690.8310470581055
+        ]
+      ]
+    },
+    {
+      "title": "Practical and Theoretical Contributions",
+      "heading_level": null,
+      "page_id": 15,
+      "polygon": [
+        [
+          59.16796875,
+          162.80859375
+        ],
+        [
+          255.43458557128906,
+          162.80859375
+        ],
+        [
+          255.43458557128906,
+          174.8699951171875
+        ],
+        [
+          59.16796875,
+          174.8699951171875
+        ]
+      ]
+    },
+    {
+      "title": "Limitations and Future Research",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          59.16796875,
+          626.87109375
+        ],
+        [
+          222.15267944335938,
+          626.87109375
+        ],
+        [
+          222.15267944335938,
+          637.9370269775391
+        ],
+        [
+          59.16796875,
+          637.9370269775391
+        ]
+      ]
+    },
+    {
+      "title": "Disclosure Statement",
+      "heading_level": null,
+      "page_id": 16,
+      "polygon": [
+        [
+          314.666015625,
+          696.499626159668
+        ],
+        [
+          421.646484375,
+          696.499626159668
+        ],
+        [
+          421.646484375,
+          707.4997253417969
+        ],
+        [
+          314.666015625,
+          707.4997253417969
+        ]
+      ]
+    },
+    {
+      "title": "",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          61.259765625,
+          33.64453125
+        ],
+        [
+          82.177734375,
+          33.64453125
+        ],
+        [
+          82.177734375,
+          43.69921875
+        ],
+        [
+          61.259765625,
+          43.69921875
+        ]
+      ]
+    },
+    {
+      "title": "References",
+      "heading_level": null,
+      "page_id": 17,
+      "polygon": [
+        [
+          58.869140625,
+          134.578125
+        ],
+        [
+          113.67848205566406,
+          134.578125
+        ],
+        [
+          113.67848205566406,
+          146.012939453125
+        ],
+        [
+          58.869140625,
+          146.012939453125
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          168
+        ],
+        [
+          "Line",
+          21
+        ],
+        [
+          "TableCell",
+          7
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          194
+        ],
+        [
+          "Line",
+          73
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "Picture",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          39
+        ],
+        [
+          "Line",
+          16
+        ],
+        [
+          "Text",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Figure",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "FigureGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          219
+        ],
+        [
+          "Line",
+          102
+        ],
+        [
+          "Text",
+          6
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          217
+        ],
+        [
+          "Line",
+          99
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          3
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          226
+        ],
+        [
+          "Line",
+          95
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "SectionHeader",
+          5
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          471
+        ],
+        [
+          "TableCell",
+          167
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "Caption",
+          2
+        ],
+        [
+          "Table",
+          2
+        ],
+        [
+          "ListItem",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "ListGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          215
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          219
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          207
+        ],
+        [
+          "Line",
+          106
+        ],
+        [
+          "Text",
+          16
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 11,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          231
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "Text",
+          15
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 12,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          219
+        ],
+        [
+          "Line",
+          104
+        ],
+        [
+          "Text",
+          13
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 13,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          214
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Text",
+          34
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 14,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          210
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 15,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          208
+        ],
+        [
+          "Line",
+          103
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 16,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          194
+        ],
+        [
+          "Line",
+          101
+        ],
+        [
+          "Text",
+          8
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 17,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          363
+        ],
+        [
+          "Line",
+          117
+        ],
+        [
+          "ListItem",
+          25
+        ],
+        [
+          "Text",
+          3
+        ],
+        [
+          "SectionHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "PageHeader",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 18,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          398
+        ],
+        [
+          "Line",
+          124
+        ],
+        [
+          "ListItem",
+          28
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 19,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          392
+        ],
+        [
+          "Line",
+          125
+        ],
+        [
+          "ListItem",
+          29
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 20,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          249
+        ],
+        [
+          "Line",
+          78
+        ],
+        [
+          "ListItem",
+          18
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Text",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Understanding Customer Responses to AI-Driven Personalized Journeys  Impacts on the Customer Experience"
+}

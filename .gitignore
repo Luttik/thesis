@@ -45,3 +45,7 @@ qdrant-storage/*
 __pycache__/
 .cache/
 **/.venv/
+/unpacked*/
+# Office lock / temp files
+~$*
+~WRL*.tmp

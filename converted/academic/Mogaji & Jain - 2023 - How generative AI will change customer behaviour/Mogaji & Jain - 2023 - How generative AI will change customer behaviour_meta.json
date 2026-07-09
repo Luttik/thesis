@@ -1,0 +1,1457 @@
+{
+  "table_of_contents": [
+    {
+      "title": "DOI: 10.1002/cb.2345",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          45.63779830932617,
+          45.02911376953125
+        ],
+        [
+          116.17998504638672,
+          45.02911376953125
+        ],
+        [
+          116.17998504638672,
+          52.02899169921875
+        ],
+        [
+          45.63779830932617,
+          52.02899169921875
+        ]
+      ]
+    },
+    {
+      "title": "SHORT COMMUNICATION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          45.63779830932617,
+          70.72998046875
+        ],
+        [
+          190.32421875,
+          70.72998046875
+        ],
+        [
+          190.32421875,
+          80.67041015625
+        ],
+        [
+          45.63779830932617,
+          80.67041015625
+        ]
+      ]
+    },
+    {
+      "title": "How generative AI is (will) change consumer behaviour:\nPostulating the potential impact and implications for research,\npractice, and policy",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          45.3984375,
+          108.96240234375
+        ],
+        [
+          539.5072631835938,
+          108.96240234375
+        ],
+        [
+          539.5072631835938,
+          174.85009765625
+        ],
+        [
+          45.3984375,
+          174.85009765625
+        ]
+      ]
+    },
+    {
+      "title": "Correspondence",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          43.943359375,
+          279.0966796875
+        ],
+        [
+          96.72200775146484,
+          279.0966796875
+        ],
+        [
+          96.72200775146484,
+          288.69921875
+        ],
+        [
+          43.943359375,
+          288.69921875
+        ]
+      ]
+    },
+    {
+      "title": "Abstract",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          208.658203125,
+          243.9228515625
+        ],
+        [
+          247.73097229003906,
+          243.9228515625
+        ],
+        [
+          247.73097229003906,
+          255.77874755859375
+        ],
+        [
+          208.658203125,
+          255.77874755859375
+        ]
+      ]
+    },
+    {
+      "title": "1 | INTRODUCTION",
+      "heading_level": null,
+      "page_id": 0,
+      "polygon": [
+        [
+          43.943359375,
+          480.5438537597656
+        ],
+        [
+          165.2370147705078,
+          480.5438537597656
+        ],
+        [
+          165.2370147705078,
+          490.5763854980469
+        ],
+        [
+          43.943359375,
+          490.5763854980469
+        ]
+      ]
+    },
+    {
+      "title": "2 | CHANGING CONSUMER BEHAVIOUR",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          44.234375,
+          454.52178955078125
+        ],
+        [
+          274.985107421875,
+          454.52178955078125
+        ],
+        [
+          274.985107421875,
+          464.5543212890625
+        ],
+        [
+          44.234375,
+          464.5543212890625
+        ]
+      ]
+    },
+    {
+      "title": "2.1 | Recommendations",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          44.234375,
+          635.04052734375
+        ],
+        [
+          168.7890625,
+          635.04052734375
+        ],
+        [
+          168.7890625,
+          646.5951843261719
+        ],
+        [
+          44.234375,
+          646.5951843261719
+        ]
+      ]
+    },
+    {
+      "title": "2.2 | Content creation",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          304.40234375,
+          232.83544921875
+        ],
+        [
+          421.97265625,
+          232.83544921875
+        ],
+        [
+          421.97265625,
+          243.56536865234375
+        ],
+        [
+          304.40234375,
+          243.56536865234375
+        ]
+      ]
+    },
+    {
+      "title": "2.3 | Virtual assistant",
+      "heading_level": null,
+      "page_id": 1,
+      "polygon": [
+        [
+          306.439453125,
+          610.5406951904297
+        ],
+        [
+          419.935546875,
+          610.5406951904297
+        ],
+        [
+          419.935546875,
+          620.5731964111328
+        ],
+        [
+          306.439453125,
+          620.5731964111328
+        ]
+      ]
+    },
+    {
+      "title": "2.4 | Shaping global trends and consumer choices",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          44.234375,
+          336.06298828125
+        ],
+        [
+          281.703125,
+          336.06298828125
+        ],
+        [
+          281.703125,
+          347.596923828125
+        ],
+        [
+          44.234375,
+          347.596923828125
+        ]
+      ]
+    },
+    {
+      "title": "2.5 | Transforming purchase behaviour",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          43.65234375,
+          688.550178527832
+        ],
+        [
+          234.55859375,
+          688.550178527832
+        ],
+        [
+          234.55859375,
+          698.5826873779297
+        ],
+        [
+          43.65234375,
+          698.5826873779297
+        ]
+      ]
+    },
+    {
+      "title": "3 | IMPLICATIONS",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.857421875,
+          323.06396484375
+        ],
+        [
+          420.517578125,
+          323.06396484375
+        ],
+        [
+          420.517578125,
+          334.5575256347656
+        ],
+        [
+          305.857421875,
+          334.5575256347656
+        ]
+      ]
+    },
+    {
+      "title": "3.1 | Credibility and trust",
+      "heading_level": null,
+      "page_id": 2,
+      "polygon": [
+        [
+          305.857421875,
+          531.04833984375
+        ],
+        [
+          434.656982421875,
+          531.04833984375
+        ],
+        [
+          434.656982421875,
+          542.5638122558594
+        ],
+        [
+          305.857421875,
+          542.5638122558594
+        ]
+      ]
+    },
+    {
+      "title": "3.2 | Responsibility",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          44.234375,
+          51.54864501953125
+        ],
+        [
+          147.3128204345703,
+          51.54864501953125
+        ],
+        [
+          147.3128204345703,
+          61.5811767578125
+        ],
+        [
+          44.234375,
+          61.5811767578125
+        ]
+      ]
+    },
+    {
+      "title": "3.3 | Misinformation",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          45.107421875,
+          414.82177734375
+        ],
+        [
+          153.947265625,
+          414.82177734375
+        ],
+        [
+          153.947265625,
+          425.54962158203125
+        ],
+        [
+          45.107421875,
+          425.54962158203125
+        ]
+      ]
+    },
+    {
+      "title": "3.4 | Over-reliance on technology",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          305.56640625,
+          51.2314453125
+        ],
+        [
+          472.9913635253906,
+          51.2314453125
+        ],
+        [
+          472.9913635253906,
+          61.5811767578125
+        ],
+        [
+          305.56640625,
+          61.5811767578125
+        ]
+      ]
+    },
+    {
+      "title": "3.5 | Ethical and governance implications",
+      "heading_level": null,
+      "page_id": 3,
+      "polygon": [
+        [
+          306.1484375,
+          387.29443359375
+        ],
+        [
+          504.9957275390625,
+          387.29443359375
+        ],
+        [
+          504.9957275390625,
+          399.5843200683594
+        ],
+        [
+          306.1484375,
+          399.5843200683594
+        ]
+      ]
+    },
+    {
+      "title": "3.6 | Technical capabilities",
+      "heading_level": null,
+      "page_id": 4,
+      "polygon": [
+        [
+          43.361328125,
+          115.4619140625
+        ],
+        [
+          179.43812561035156,
+          115.4619140625
+        ],
+        [
+          179.43812561035156,
+          126.55126953125
+        ],
+        [
+          43.361328125,
+          126.55126953125
+        ]
+      ]
+    },
+    {
+      "title": "4 | RESEARCH AGENDA",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          43.361328125,
+          102.462890625
+        ],
+        [
+          185.958984375,
+          102.462890625
+        ],
+        [
+          185.958984375,
+          113.56854248046875
+        ],
+        [
+          43.361328125,
+          113.56854248046875
+        ]
+      ]
+    },
+    {
+      "title": "5 | PRACTICAL AND MANAGERIAL\nIMPLICATIONS",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.1484375,
+          297.06591796875
+        ],
+        [
+          505.14068603515625,
+          297.06591796875
+        ],
+        [
+          505.14068603515625,
+          321.5429382324219
+        ],
+        [
+          306.1484375,
+          321.5429382324219
+        ]
+      ]
+    },
+    {
+      "title": "5.1 | Integration of generative AI in customer\nengagement",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          304.984375,
+          480.5438537597656
+        ],
+        [
+          524.141845703125,
+          480.5438537597656
+        ],
+        [
+          524.141845703125,
+          503.527099609375
+        ],
+        [
+          304.984375,
+          503.527099609375
+        ]
+      ]
+    },
+    {
+      "title": "5.2 | Continuous learning and upskilling for better\nconsumer communities",
+      "heading_level": null,
+      "page_id": 5,
+      "polygon": [
+        [
+          306.73046875,
+          649.5453796386719
+        ],
+        [
+          545.36328125,
+          649.5453796386719
+        ],
+        [
+          545.36328125,
+          672.5286102294922
+        ],
+        [
+          306.73046875,
+          672.5286102294922
+        ]
+      ]
+    },
+    {
+      "title": "5.3 | Proactive information management for\nconsumers",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          44.234375,
+          114.697265625
+        ],
+        [
+          258.421875,
+          114.697265625
+        ],
+        [
+          258.421875,
+          139.5579833984375
+        ],
+        [
+          44.234375,
+          139.5579833984375
+        ]
+      ]
+    },
+    {
+      "title": "5.4 | Human-centered approach and privacy\nconsiderations",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          44.81640625,
+          271.06787109375
+        ],
+        [
+          260.16796875,
+          271.06787109375
+        ],
+        [
+          260.16796875,
+          295.52081298828125
+        ],
+        [
+          44.81640625,
+          295.52081298828125
+        ]
+      ]
+    },
+    {
+      "title": "5.5 | Strategic adaptation and innovation for\nconsumers",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          44.81640625,
+          438.908203125
+        ],
+        [
+          260.16796875,
+          438.908203125
+        ],
+        [
+          260.16796875,
+          464.5224304199219
+        ],
+        [
+          44.81640625,
+          464.5224304199219
+        ]
+      ]
+    },
+    {
+      "title": "6 | POLICY IMPLICATIONS",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          44.81640625,
+          622.80615234375
+        ],
+        [
+          201.99436950683594,
+          622.80615234375
+        ],
+        [
+          201.99436950683594,
+          633.5558929443359
+        ],
+        [
+          44.81640625,
+          633.5558929443359
+        ]
+      ]
+    },
+    {
+      "title": "6.1 | Establishing responsible guidelines for\ngenerative AI for consumers",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          305.56640625,
+          245.06982421875
+        ],
+        [
+          515.1458129882812,
+          245.06982421875
+        ],
+        [
+          515.1458129882812,
+          269.55474853515625
+        ],
+        [
+          305.56640625,
+          269.55474853515625
+        ]
+      ]
+    },
+    {
+      "title": "6.2 | Protecting intellectual property in AI-\ngenerated content",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          306.73046875,
+          492.43359375
+        ],
+        [
+          512.76953125,
+          492.43359375
+        ],
+        [
+          512.76953125,
+          516.90234375
+        ],
+        [
+          306.73046875,
+          516.90234375
+        ]
+      ]
+    },
+    {
+      "title": "6.3 | Ensuring trust through transparent AI\ndisclosure",
+      "heading_level": null,
+      "page_id": 7,
+      "polygon": [
+        [
+          306.8786926269531,
+          649.5453796386719
+        ],
+        [
+          512.5357666015625,
+          649.5453796386719
+        ],
+        [
+          512.5357666015625,
+          672.5286102294922
+        ],
+        [
+          306.8786926269531,
+          672.5286102294922
+        ]
+      ]
+    },
+    {
+      "title": "6.4 | Combating misinformation with AI literacy",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          43.65234375,
+          128.07861328125
+        ],
+        [
+          273.41912841796875,
+          128.07861328125
+        ],
+        [
+          273.41912841796875,
+          139.590576171875
+        ],
+        [
+          43.65234375,
+          139.590576171875
+        ]
+      ]
+    },
+    {
+      "title": "6.5 | Safeguarding consumer privacy in virtual\nshopping",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          44.234375,
+          271.06787109375
+        ],
+        [
+          265.40625,
+          271.06787109375
+        ],
+        [
+          265.40625,
+          295.52081298828125
+        ],
+        [
+          44.234375,
+          295.52081298828125
+        ]
+      ]
+    },
+    {
+      "title": "6.6 | Addressing cultural biases and ethical\nstandards",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          43.65234375,
+          453.81884765625
+        ],
+        [
+          251.05987548828125,
+          453.81884765625
+        ],
+        [
+          251.05987548828125,
+          477.56103515625
+        ],
+        [
+          43.65234375,
+          477.56103515625
+        ]
+      ]
+    },
+    {
+      "title": "6.7 | Transparent data usage and user control",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          43.65234375,
+          649.5453796386719
+        ],
+        [
+          263.66015625,
+          649.5453796386719
+        ],
+        [
+          263.66015625,
+          659.5778884887695
+        ],
+        [
+          43.65234375,
+          659.5778884887695
+        ]
+      ]
+    },
+    {
+      "title": "6.8 | Balancing technology use and promoting\ndigital literacy",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          303.8203125,
+          115.4619140625
+        ],
+        [
+          526.8489990234375,
+          115.4619140625
+        ],
+        [
+          526.8489990234375,
+          139.5579833984375
+        ],
+        [
+          303.8203125,
+          139.5579833984375
+        ]
+      ]
+    },
+    {
+      "title": "7 | CONCLUSION",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          306.73046875,
+          336.82763671875
+        ],
+        [
+          414.98828125,
+          336.82763671875
+        ],
+        [
+          414.98828125,
+          347.596923828125
+        ],
+        [
+          306.73046875,
+          347.596923828125
+        ]
+      ]
+    },
+    {
+      "title": "AUTHOR CONTRIBUTIONS",
+      "heading_level": null,
+      "page_id": 8,
+      "polygon": [
+        [
+          304.40234375,
+          702.32958984375
+        ],
+        [
+          421.97265625,
+          702.32958984375
+        ],
+        [
+          421.97265625,
+          711.1335983276367
+        ],
+        [
+          304.40234375,
+          711.1335983276367
+        ]
+      ]
+    },
+    {
+      "title": "ACKNOWLEDGMENTS",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          43.65234375,
+          51.99609375
+        ],
+        [
+          141.3005828857422,
+          51.99609375
+        ],
+        [
+          141.3005828857422,
+          61.15869140625
+        ],
+        [
+          43.65234375,
+          61.15869140625
+        ]
+      ]
+    },
+    {
+      "title": "FUNDING INFORMATION",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          42.48828125,
+          117.755859375
+        ],
+        [
+          154.775634765625,
+          117.755859375
+        ],
+        [
+          154.775634765625,
+          126.12750244140625
+        ],
+        [
+          42.48828125,
+          126.12750244140625
+        ]
+      ]
+    },
+    {
+      "title": "CONFLICT OF INTEREST STATEMENT",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          42.48828125,
+          155.98828125
+        ],
+        [
+          205.13662719726562,
+          155.98828125
+        ],
+        [
+          205.13662719726562,
+          165.13177490234375
+        ],
+        [
+          42.48828125,
+          165.13177490234375
+        ]
+      ]
+    },
+    {
+      "title": "DATA AVAILABILITY STATEMENT",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          43.943359375,
+          207.60205078125
+        ],
+        [
+          189.63204956054688,
+          207.60205078125
+        ],
+        [
+          189.63204956054688,
+          217.11834716796875
+        ],
+        [
+          43.943359375,
+          217.11834716796875
+        ]
+      ]
+    },
+    {
+      "title": "ORCID",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          44.81640625,
+          259.59814453125
+        ],
+        [
+          73.94144439697266,
+          259.59814453125
+        ],
+        [
+          73.94144439697266,
+          269.16168212890625
+        ],
+        [
+          44.81640625,
+          269.16168212890625
+        ]
+      ]
+    },
+    {
+      "title": "REFERENCES",
+      "heading_level": null,
+      "page_id": 9,
+      "polygon": [
+        [
+          44.525390625,
+          311.59423828125
+        ],
+        [
+          101.38510131835938,
+          311.59423828125
+        ],
+        [
+          101.38510131835938,
+          321.15234375
+        ],
+        [
+          44.525390625,
+          321.15234375
+        ]
+      ]
+    },
+    {
+      "title": "AUTHOR BIOGRAPHIES",
+      "heading_level": null,
+      "page_id": 10,
+      "polygon": [
+        [
+          43.361328125,
+          51.61376953125
+        ],
+        [
+          146.57012939453125,
+          51.61376953125
+        ],
+        [
+          146.57012939453125,
+          61.15869140625
+        ],
+        [
+          43.361328125,
+          61.15869140625
+        ]
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page_id": 0,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          190
+        ],
+        [
+          "Line",
+          67
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "PageHeader",
+          4
+        ],
+        [
+          "PageFooter",
+          3
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 1,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          98
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 2,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          195
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          3
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 3,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          199
+        ],
+        [
+          "Line",
+          100
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 4,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          222
+        ],
+        [
+          "Line",
+          72
+        ],
+        [
+          "TableCell",
+          14
+        ],
+        [
+          "Text",
+          4
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 5,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          202
+        ],
+        [
+          "Line",
+          96
+        ],
+        [
+          "Text",
+          10
+        ],
+        [
+          "SectionHeader",
+          4
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 6,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          209
+        ],
+        [
+          "Line",
+          73
+        ],
+        [
+          "TableCell",
+          18
+        ],
+        [
+          "PageHeader",
+          3
+        ],
+        [
+          "Caption",
+          1
+        ],
+        [
+          "Table",
+          1
+        ],
+        [
+          "TableGroup",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 7,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          212
+        ],
+        [
+          "Line",
+          87
+        ],
+        [
+          "Text",
+          9
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 8,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          203
+        ],
+        [
+          "Line",
+          89
+        ],
+        [
+          "Text",
+          11
+        ],
+        [
+          "SectionHeader",
+          7
+        ],
+        [
+          "PageHeader",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 9,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          390
+        ],
+        [
+          "Line",
+          120
+        ],
+        [
+          "ListItem",
+          28
+        ],
+        [
+          "SectionHeader",
+          6
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "ListGroup",
+          2
+        ],
+        [
+          "Picture",
+          1
+        ],
+        [
+          "Reference",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    },
+    {
+      "page_id": 10,
+      "text_extraction_method": "pdftext",
+      "block_counts": [
+        [
+          "Span",
+          195
+        ],
+        [
+          "Line",
+          67
+        ],
+        [
+          "Text",
+          5
+        ],
+        [
+          "PageHeader",
+          2
+        ],
+        [
+          "SectionHeader",
+          1
+        ],
+        [
+          "PageFooter",
+          1
+        ]
+      ],
+      "block_metadata": {
+        "llm_request_count": 0,
+        "llm_error_count": 0,
+        "llm_tokens_used": 0,
+        "previous_text": "",
+        "previous_type": "",
+        "previous_order": 0
+      }
+    }
+  ],
+  "debug_data_path": "debug_data\\Mogaji & Jain - 2023 - How generative AI will change customer behaviour"
+}
